@@ -1,0 +1,1354 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "tech",
+    "name": "civic tech project database",
+    "label": "公民科技專案資料庫"
+  },
+  "table": {
+    "slug": "tags",
+    "name": "標籤",
+    "label": "標籤",
+    "id": "tbldJciCsar1CCjYx"
+  },
+  "recordCount": 58,
+  "fields": [
+    {
+      "id": "fldGLkzEjr1wVn5CX",
+      "name": "tag",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldDzCs51sDC4ReLw",
+      "name": "project list",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldXEOYTXoJFFHFnQ",
+      "name": "presentation name",
+      "type": "multipleRecordLinks"
+    }
+  ],
+  "records": [
+    {
+      "id": "recE2TLn2FLLZONHR",
+      "createdTime": "2020-03-01T16:45:23.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recKq7Ev5zZyCIaQB",
+            "name": "Twinkle Hub _台灣資料的 MCP Hub"
+          },
+          {
+            "id": "recVzxqKhJmbNcJ8V",
+            "name": "Civic Tech TW"
+          },
+          {
+            "id": "recuhv82aQaUq3O5m",
+            "name": "Taiwan.md"
+          }
+        ],
+        "tag": "opendata",
+        "presentation name": [
+          {
+            "id": "recuGCuihWphnKCio",
+            "name": "開放資料 landing page 產生器"
+          },
+          {
+            "id": "rec9hv22aZQklKeIZ",
+            "name": "公務人員開放資料Lesson 2"
+          },
+          {
+            "id": "recptRaCC718zB46w",
+            "name": "資料新聞產生器"
+          },
+          {
+            "id": "recxJYosPLzC7kAs5",
+            "name": "公務員開放資料Lesson 4"
+          },
+          {
+            "id": "recSQlvHEAuwklbRv",
+            "name": "開放資料csv產生器"
+          },
+          {
+            "id": "recobrZia4N71ScR3",
+            "name": "公務員開放資料Lesson 1"
+          },
+          {
+            "id": "recAGEPyWUKyqLwTx",
+            "name": "逆滲透 - 開放資料研究社"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recbmvIwZMkWS1qin",
+      "createdTime": "2020-03-01T16:45:39.000Z",
+      "fields": {
+        "tag": "Emoji",
+        "presentation name": [
+          {
+            "id": "recXN4mTtazn93QFe",
+            "name": "自己的Emoji自己造"
+          },
+          {
+            "id": "recSdLrCqAvdEkCt6",
+            "name": "自己emoji自己造之二"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recrYcUqpRnudRShb",
+      "createdTime": "2020-03-01T16:45:57.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recKzvwqX5rXmhPTq",
+            "name": "司法陽光網－判決書API計畫"
+          },
+          {
+            "id": "recfGG27W6IKxJhpI",
+            "name": "來個判決書吧"
+          },
+          {
+            "id": "recVDSrLIt0VVD6MS",
+            "name": "Add C0urt｜憲庭加好友"
+          },
+          {
+            "id": "receslbyVKhQIEH44",
+            "name": "法律偵探 - 免費 AI 法律諮詢 "
+          }
+        ],
+        "tag": "司法判決",
+        "presentation name": [
+          {
+            "id": "reccyUgwfGSxd6mck",
+            "name": "司改實境遊戲計畫"
+          },
+          {
+            "id": "rec1gFEwRoCb96fNy",
+            "name": "亞洲模擬人權法院"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recz7luUrceNu2NAp",
+      "createdTime": "2020-03-01T16:46:07.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec0fDWLmERJsSVso",
+            "name": "高雄氣爆"
+          },
+          {
+            "id": "recXdEgXsfnXnNejv",
+            "name": "八仙塵爆資訊整合 hackfoldr"
+          },
+          {
+            "id": "recaGUnjCpt9pfaW3",
+            "name": "太魯閣號列車脫軌事故災情整合平台"
+          },
+          {
+            "id": "rec7jBi0bLbKErL8S",
+            "name": "LostSAR 無人機"
+          },
+          {
+            "id": "recVzfBEZgALuj9pT",
+            "name": "NCDR 慈濟災情通報"
+          },
+          {
+            "id": "recTKP4mirLzRi6yn",
+            "name": "馬太鞍堰塞湖事件後的居住抉擇"
+          },
+          {
+            "id": "recDB8u2c0B3y1zNC",
+            "name": "iCanHelp 應變地圖_災情通報_志工報名"
+          },
+          {
+            "id": "reczKudj6UINF5sMe",
+            "name": "邊坡穩定風險模擬系統"
+          }
+        ],
+        "tag": "防災",
+        "presentation name": [
+          {
+            "id": "recpNHq3n9Ri4y2uJ",
+            "name": "一起來玩防災演習唄～"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recs79qSLU97DAV54",
+      "createdTime": "2020-03-01T16:46:38.000Z",
+      "fields": {
+        "tag": "g0v專案整理",
+        "presentation name": [
+          {
+            "id": "reclrExOwloJjTjMe",
+            "name": "g0v project pool"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recsY2z4EIqi7mjMS",
+      "createdTime": "2020-03-01T16:46:56.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recS7EaXMXq8ypTD9",
+            "name": "救救食蛇龜"
+          },
+          {
+            "id": "recOq2iR7bw3wSTBr",
+            "name": "臺灣黑熊通報與資訊平台"
+          },
+          {
+            "id": "recfBnRJJ5aormwxa",
+            "name": "認識植物網站"
+          },
+          {
+            "id": "recQREu0Qsw9jECTE",
+            "name": "智慧型植物辨識圖鑑 "
+          }
+        ],
+        "tag": "生物物種保育",
+        "presentation name": [
+          {
+            "id": "recATw1ENGDITQbYB",
+            "name": "救救臺灣龜/野保法"
+          },
+          {
+            "id": "recmwo8LHHS52B916",
+            "name": "救救臺灣龜與生態研究資訊交流"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec0j8YA5iuE4rKh0",
+      "createdTime": "2020-03-01T16:49:06.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recPRbKyL3O6viGRq",
+            "name": "g0v開放授權小幫手"
+          }
+        ],
+        "tag": "情境網頁遊戲框架",
+        "presentation name": [
+          {
+            "id": "recPfPKt1jVkPrbnM",
+            "name": "情境網頁遊戲框架"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec3reaBKniF5ebDo",
+      "createdTime": "2020-03-01T16:50:09.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recyLB01E0lGYFBvs",
+            "name": "大台北交通流量模擬"
+          }
+        ],
+        "tag": "交通 / MRT",
+        "presentation name": [
+          {
+            "id": "recPnfcysOsCCmkyL",
+            "name": "顧膝蓋的捷運移動指南 ㊙"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec6IUt1b7HkQ9i0I",
+      "createdTime": "2020-03-01T16:50:23.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recABYbRJCOO1ssZf",
+            "name": "貪汙查詢網站"
+          }
+        ],
+        "tag": "貪污判決",
+        "presentation name": [
+          {
+            "id": "rec6DziX0NDt9AgJN",
+            "name": "貪污判決查詢網站"
+          },
+          {
+            "id": "recMFXCNVae4dQkR7",
+            "name": "貪汙查詢網站"
+          },
+          {
+            "id": "recwdo8lwNXzk9ceM",
+            "name": "貪汙案件查詢網站(暫名)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rectf9bXy32sS8gwb",
+      "createdTime": "2020-03-01T16:50:35.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rechGLub4PlfRhz2e",
+            "name": "Disfactory"
+          },
+          {
+            "id": "recFwd9Fks9TXTUMh",
+            "name": "臺灣好植地 Patch by Planting"
+          },
+          {
+            "id": "recAhUFo6RcEiTdDu",
+            "name": "漁電共生鋪排工具"
+          },
+          {
+            "id": "recQkZ7y2znLkNa5I",
+            "name": "國土利用監測"
+          }
+        ],
+        "tag": "衛星圖資",
+        "presentation name": [
+          {
+            "id": "recBMRCt2OECTbZ2l",
+            "name": "賽豬公...上太空！"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reclUfa75aNEYElDs",
+      "createdTime": "2020-03-01T16:52:21.000Z",
+      "fields": {
+        "tag": "木材",
+        "presentation name": [
+          {
+            "id": "recF0pm872osBma4L",
+            "name": "木材追追追－Sarawak to Taiwan"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recS1OL2xmnUgv7fW",
+      "createdTime": "2020-03-01T16:53:31.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recFwd9Fks9TXTUMh",
+            "name": "臺灣好植地 Patch by Planting"
+          }
+        ],
+        "tag": "開放空間",
+        "presentation name": [
+          {
+            "id": "recTVdO8lQ2ToCZ9N",
+            "name": "北市豪宅通"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recYGaP3Aczv8Tk2Q",
+      "createdTime": "2020-03-01T16:55:50.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recoK4FDY4e4JS3HJ",
+            "name": "標案資料瀏覽"
+          }
+        ],
+        "tag": "政府採購標案",
+        "presentation name": [
+          {
+            "id": "recRYy07MYfhbxZTD",
+            "name": "政府標案系統分析"
+          },
+          {
+            "id": "recfVbmA9DFtlgM3N",
+            "name": "政府標案分析"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recOPOiNPvktz0j5c",
+      "createdTime": "2020-03-01T16:56:22.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recH2oHGzmOKcK1da",
+            "name": "台灣 AEC（建築 · 工程 · 營造）開源知識庫"
+          }
+        ],
+        "tag": "建築執照",
+        "presentation name": [
+          {
+            "id": "recMT4FwxnWmyQb1g",
+            "name": "台北市建築使用執照分析"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recHmDvNHjisM3izf",
+      "createdTime": "2020-03-01T22:16:29.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recxoEmd6YCrDieev",
+            "name": "OpenTransLive 開源即時語音翻譯系統"
+          }
+        ],
+        "tag": "翻譯",
+        "presentation name": [
+          {
+            "id": "recFYb9qjCxDDJBAS",
+            "name": "Open Source Guide 翻譯坑 "
+          }
+        ]
+      }
+    },
+    {
+      "id": "recWzmoec3sxBBFvn",
+      "createdTime": "2020-03-01T22:16:46.000Z",
+      "fields": {
+        "tag": "分享其他活動訊息",
+        "presentation name": [
+          {
+            "id": "reckEVyXvXgJCXcWN",
+            "name": "農業創新黑客松"
+          },
+          {
+            "id": "rec5GYHq0usPKTI5Z",
+            "name": "聯發科技「智在家鄉」社會創新百萬獎金競賽推坑"
+          },
+          {
+            "id": "recPPYR919p1ROvzH",
+            "name": "總統盃黑客松平方投票法Open Source"
+          },
+          {
+            "id": "rec1KXDVhab9miNuA",
+            "name": "upcoming event:"
+          },
+          {
+            "id": "recqv1efjAh9PBJOq",
+            "name": "HKOSCON"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec7mna2UngXlfjjK",
+      "createdTime": "2020-03-01T22:18:06.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recODhbbzU5JzqbZJ",
+            "name": "政治獻金數位化"
+          }
+        ],
+        "tag": "OCR / 文字化",
+        "presentation name": [
+          {
+            "id": "reca84dnTHkxfx4Sj",
+            "name": "228事件資料掃描檔文字化"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec0H2R93DE5eKU62",
+      "createdTime": "2020-03-01T22:18:54.000Z",
+      "fields": {
+        "tag": "單側聽損",
+        "presentation name": [
+          {
+            "id": "recDcbcPYSDjJDdUj",
+            "name": "從政府資源來看單側聽損"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recb4OQhz4vCYw8yI",
+      "createdTime": "2020-03-01T22:19:06.000Z",
+      "fields": {
+        "tag": "區塊鏈",
+        "presentation name": [
+          {
+            "id": "recoULVLx0LxVQn5q",
+            "name": "區塊鏈電子投票系統(?)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recpHXquZSQ7HH1qj",
+      "createdTime": "2020-12-22T11:17:42.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rechGLub4PlfRhz2e",
+            "name": "Disfactory"
+          },
+          {
+            "id": "recr6BQcSn8OYZSZO",
+            "name": "透明足跡"
+          },
+          {
+            "id": "rec6x4PzlErfomCKm",
+            "name": "NGO 會務類專案工具"
+          }
+        ],
+        "tag": "與 NGO 合作"
+      }
+    },
+    {
+      "id": "recHwo5FXzd5ZHRzA",
+      "createdTime": "2021-06-17T20:41:30.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recSDn3rCdEPuhQRk",
+            "name": "無家者小幫手"
+          },
+          {
+            "id": "recCsj1yM0JAdlZQU",
+            "name": "享食台灣"
+          },
+          {
+            "id": "recf7OakAWAvG0cLW",
+            "name": "蔬菜箱、食材線上訂購共筆"
+          },
+          {
+            "id": "recSKOCfP7TdTNECa",
+            "name": "Foodlessons"
+          },
+          {
+            "id": "recahwgRgXj1CIRCM",
+            "name": "營養午餐菜色評價工具"
+          },
+          {
+            "id": "recTNF7M2talZEohw",
+            "name": "沃土計畫堆肥箱實作推廣"
+          }
+        ],
+        "tag": "食物 Food / 廚餘堆肥"
+      }
+    },
+    {
+      "id": "recZiuv7Cbwt0x2U9",
+      "createdTime": "2021-06-17T20:41:53.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec7jBi0bLbKErL8S",
+            "name": "LostSAR 無人機"
+          }
+        ],
+        "tag": "無人機",
+        "presentation name": [
+          {
+            "id": "recSFeuVB1pxbzc9S",
+            "name": "超簡單的無人機管理"
+          },
+          {
+            "id": "reczleYbzi6kUbirW",
+            "name": "消防找水小幫手/無人機熱點地圖"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recgju1kjunx4E2Hv",
+      "createdTime": "2021-06-17T20:43:29.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec1CwGIWfVlVPsNp",
+            "name": "CC0 繁體中文句庫"
+          },
+          {
+            "id": "recopKq0vXhA0rsGA",
+            "name": "CoTeach"
+          },
+          {
+            "id": "recZDyznAyZgIK5DZ",
+            "name": "CourseAPI"
+          },
+          {
+            "id": "recH5LN9ZuWhOxQCZ",
+            "name": "ChhoeTaigi：台語文數位詞庫、辭典補完計畫"
+          },
+          {
+            "id": "recY1ljUpLDUJI59P",
+            "name": "阿美語萌典"
+          },
+          {
+            "id": "recu3Rf3eR5CQPOjA",
+            "name": "iTaigi 愛台語"
+          },
+          {
+            "id": "recTnExdXdHC3msAt",
+            "name": "萌典"
+          },
+          {
+            "id": "recv3mhbOOAiSn88U",
+            "name": "幸福存摺"
+          },
+          {
+            "id": "recJKSO4l4l3Qce1E",
+            "name": "零時小學校"
+          },
+          {
+            "id": "reczgPKqGuibIlmXZ",
+            "name": "島島阿學"
+          },
+          {
+            "id": "recFINxKe15TJlshf",
+            "name": "專為高中生設計的管家型聊天機器人"
+          },
+          {
+            "id": "recIXD3MO8CzMn2ZF",
+            "name": "CJKV"
+          },
+          {
+            "id": "rec093Ciah2FZW8vl",
+            "name": "識字題庫 / 中文識字量測試系統"
+          },
+          {
+            "id": "recSKOCfP7TdTNECa",
+            "name": "Foodlessons"
+          },
+          {
+            "id": "rec6qlEvn1tvvUFZH",
+            "name": "國家寶藏"
+          },
+          {
+            "id": "recMRJHJoIo4lWBLM",
+            "name": "公民科學計畫蒐集"
+          },
+          {
+            "id": "recQtfKGY5gjHrrIo",
+            "name": "ReSchool 校地創生分析"
+          },
+          {
+            "id": "recjihMJqe6Ijqzsg",
+            "name": "HackIt 由青少年打造的創意程式社群"
+          },
+          {
+            "id": "recAeUCNREg7xMWVv",
+            "name": "HePai | 合拍"
+          },
+          {
+            "id": "rec2JxjDHsv0td3cz",
+            "name": "自學力製學例 _ 實驗教育資源網"
+          },
+          {
+            "id": "recxG1Zj5tNKjJOjC",
+            "name": "綠洲計畫 _ 高中升大學的特殊選才學生社群"
+          },
+          {
+            "id": "recahwgRgXj1CIRCM",
+            "name": "營養午餐菜色評價工具"
+          },
+          {
+            "id": "recFrhn5LNGJiOIVB",
+            "name": "父母救星 大營家 優質營隊月曆"
+          },
+          {
+            "id": "recGTri66bPQ0a9su",
+            "name": "台灣人工智慧學校_公民 AI 素養計畫"
+          },
+          {
+            "id": "rec0VjxrL4Gc7dKtk",
+            "name": "TaskyVenture - 兒童任務管理平台"
+          }
+        ],
+        "tag": "教育"
+      }
+    },
+    {
+      "id": "recTbVXCmn68RATTG",
+      "createdTime": "2021-06-17T20:44:19.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recVQzXaMb66iFvFg",
+            "name": "Bifrost 物資管理平台"
+          },
+          {
+            "id": "recu8RFYnCVjJIxhL",
+            "name": "物資捐贈類專案"
+          }
+        ],
+        "tag": "物資捐贈"
+      }
+    },
+    {
+      "id": "recGTzFfPBeizF0dV",
+      "createdTime": "2021-06-17T20:44:36.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recsR6pTl8nGLcHBx",
+            "name": "中央政府預算視覺化"
+          },
+          {
+            "id": "recu9OB7YgWGNgwwd",
+            "name": "預算視覺化產生器"
+          },
+          {
+            "id": "rech2yCN0m9MwHovF",
+            "name": "OpenBudget 政府預算查詢"
+          },
+          {
+            "id": "rech3CWoFGkSfZpsc",
+            "name": "中央政府【總預算案】審查監督平台"
+          },
+          {
+            "id": "rec9GxQtCOjiapXu0",
+            "name": "中央政府總預算案審查監督平台"
+          }
+        ],
+        "tag": "預算決算",
+        "presentation name": [
+          {
+            "id": "recHP9NtT0Rcz7KzW",
+            "name": "政府資訊預算大透視"
+          },
+          {
+            "id": "recgaqsDTi1UqauDZ",
+            "name": "台灣參與預算提案與追蹤 地圖"
+          },
+          {
+            "id": "reccS5hzqjLgFwYqb",
+            "name": "第一次參與式預算就苦手-舊莊茶點燃計畫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recwwFkh7cDpCXrxh",
+      "createdTime": "2021-06-17T20:46:31.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rechGLub4PlfRhz2e",
+            "name": "Disfactory"
+          },
+          {
+            "id": "recGQERClvEeD1MRE",
+            "name": "里伯 LINEbot 市容幫手"
+          },
+          {
+            "id": "recQkZ7y2znLkNa5I",
+            "name": "國土利用監測"
+          }
+        ],
+        "tag": "通報舉報類功能",
+        "presentation name": [
+          {
+            "id": "recukp7g8QAX2lGMW",
+            "name": "共享路平"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recEBblMiYgQYxw2u",
+      "createdTime": "2021-11-02T12:26:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recByIU0PJ8nCTKGh",
+            "name": "g0v 簡訊實聯制"
+          },
+          {
+            "id": "recfe3Ic1XrQ4jJ40",
+            "name": "Vaxx.tw"
+          },
+          {
+            "id": "recHpTzP1rLHBR9re",
+            "name": "covid19-data-list"
+          },
+          {
+            "id": "recuNVbTbPgnyf5pI",
+            "name": "COVID-19 野生資訊整合平台"
+          },
+          {
+            "id": "recyEWAchtgQcYk9a",
+            "name": "武漢肺炎歷史軌跡比對"
+          },
+          {
+            "id": "reckarxcXVWc3YwX3",
+            "name": "2021 疫情紓困振興方案整理"
+          }
+        ],
+        "tag": "防疫"
+      }
+    },
+    {
+      "id": "recmNjusE9u9rOH6X",
+      "createdTime": "2021-11-02T12:31:19.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec6qlEvn1tvvUFZH",
+            "name": "國家寶藏"
+          },
+          {
+            "id": "recODhbbzU5JzqbZJ",
+            "name": "政治獻金數位化"
+          },
+          {
+            "id": "recjxrp1mYyNRKPFS",
+            "name": "群眾標註地圖工具"
+          }
+        ],
+        "tag": "群眾外包"
+      }
+    },
+    {
+      "id": "rec1WnkgnlgORJwfF",
+      "createdTime": "2021-11-02T12:32:34.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recYSmprP1D09zM6p",
+            "name": "開放易樓網"
+          },
+          {
+            "id": "reczlnGnbKehU7WEO",
+            "name": "Rentea"
+          },
+          {
+            "id": "rec19R2IbQNzgGBT1",
+            "name": "開放台灣民間租屋資料"
+          }
+        ],
+        "tag": "居住"
+      }
+    },
+    {
+      "id": "recO5orMgf9jx4vwz",
+      "createdTime": "2021-11-02T12:32:51.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recuOAZrNI64cJVXv",
+            "name": "超農域"
+          },
+          {
+            "id": "recjGVYo9jVOo3bir",
+            "name": "農業災損幾多錢"
+          },
+          {
+            "id": "recTNF7M2talZEohw",
+            "name": "沃土計畫堆肥箱實作推廣"
+          }
+        ],
+        "tag": "農業"
+      }
+    },
+    {
+      "id": "reccfTvsPvkXCFDpx",
+      "createdTime": "2021-11-02T13:18:13.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recMxR3Y5DH7vVBpP",
+            "name": "求職小幫手"
+          },
+          {
+            "id": "reckE8WUuSsbD2cDl",
+            "name": "班表小幫手"
+          },
+          {
+            "id": "recNeLhJuF96MjUO8",
+            "name": "新聞小幫手"
+          },
+          {
+            "id": "recSDn3rCdEPuhQRk",
+            "name": "無家者小幫手"
+          },
+          {
+            "id": "rec1M06xWzdgCRLRD",
+            "name": "資料申請小幫手"
+          },
+          {
+            "id": "recPRbKyL3O6viGRq",
+            "name": "g0v開放授權小幫手"
+          },
+          {
+            "id": "recGQERClvEeD1MRE",
+            "name": "里伯 LINEbot 市容幫手"
+          },
+          {
+            "id": "recAhUFo6RcEiTdDu",
+            "name": "漁電共生鋪排工具"
+          }
+        ],
+        "tag": "小幫手"
+      }
+    },
+    {
+      "id": "reckSHnHZfmEmmDIm",
+      "createdTime": "2026-04-21T02:57:16.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recg2gQQ3CQDeWYT0",
+            "name": "語言橋"
+          },
+          {
+            "id": "receYBkgzFAv3NEoQ",
+            "name": "臺灣各語系語言語料模型盤點"
+          },
+          {
+            "id": "recCcPSIXa7DlD6rQ",
+            "name": "拍台文 _ Windows / macOS / Linux 電腦台語輸入法"
+          },
+          {
+            "id": "recxoEmd6YCrDieev",
+            "name": "OpenTransLive 開源即時語音翻譯系統"
+          },
+          {
+            "id": "reczCDFpmeajqXHO7",
+            "name": "易點雙視 _ 點字工具"
+          },
+          {
+            "id": "recOJ1n9lrry0gJqO",
+            "name": "Mozilla Common Voice\n"
+          },
+          {
+            "id": "recd7MTT07eaCE0Cn",
+            "name": "族語AI成果網站"
+          },
+          {
+            "id": "recOz4gFaIzJpHDsu",
+            "name": "Formosan Bank"
+          }
+        ],
+        "tag": "語言"
+      }
+    },
+    {
+      "id": "rec0AGUivHVnxdnD9",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recGoJOLpxKQb5Vrn",
+            "name": "血庫資訊"
+          }
+        ],
+        "tag": "捐血 / 血庫資訊"
+      }
+    },
+    {
+      "id": "rec0PSpxvzpG8GsFT",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recbeNa599St2fNDx",
+            "name": "A11y 新手村"
+          }
+        ],
+        "tag": "通用"
+      }
+    },
+    {
+      "id": "rec3Xz9drabYHMDgj",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recm1Qw4qzkH4q2AI",
+            "name": "吉祥物資料蒐集"
+          }
+        ],
+        "tag": "吉祥物"
+      }
+    },
+    {
+      "id": "rec4i8fsRaSEKJcHu",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "tag": "選舉"
+      }
+    },
+    {
+      "id": "rec4I9DjE2z35EqNu",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "reczviTkxOXw9avSY",
+            "name": "ＲＯＳＣ－訓練模擬電擊器系統"
+          }
+        ],
+        "tag": "急救"
+      }
+    },
+    {
+      "id": "rec6brTNSmPNxjzXQ",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recoHw9PZa6or9aw8",
+            "name": "都市計畫委員會會議記錄資料庫"
+          }
+        ],
+        "tag": "都市計畫"
+      }
+    },
+    {
+      "id": "rec7VhWOCiYAMz11Y",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recFwd9Fks9TXTUMh",
+            "name": "臺灣好植地 Patch by Planting"
+          }
+        ],
+        "tag": "樹木 / 種樹 / 公園綠地"
+      }
+    },
+    {
+      "id": "rec9Sog0r7wK7ZIo6",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recK5jFAsieQB5c8i",
+            "name": "憲庭載入中"
+          },
+          {
+            "id": "recqd9WUAkrk1u3lm",
+            "name": "憲法急診室"
+          }
+        ],
+        "tag": "憲法"
+      }
+    },
+    {
+      "id": "recauMVte1aZzNAq7",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec6x4PzlErfomCKm",
+            "name": "NGO 會務類專案工具"
+          },
+          {
+            "id": "rec3auAvXNtmNjPME",
+            "name": "差旅費計算網頁"
+          },
+          {
+            "id": "recPTz3ELsK8ovLQz",
+            "name": "手開發票檢查小幫手_查詢公司全名、檢查統編、計算稅額"
+          }
+        ],
+        "tag": "NGO 會務"
+      }
+    },
+    {
+      "id": "recd9ANO6c4U06Z38",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recQfHjbnXyItIUEH",
+            "name": "How Internet Works 網路治理介紹素材"
+          },
+          {
+            "id": "reczbsfxNG6XsGDet",
+            "name": "詐騙因應對策_情境經驗蒐集_專案"
+          },
+          {
+            "id": "recF6BAX3TYNNWHaO",
+            "name": "Ian Open News 開放科技閱讀版"
+          }
+        ],
+        "tag": "網路治理"
+      }
+    },
+    {
+      "id": "recdNeiBAdxy2ZpkE",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recfBnRJJ5aormwxa",
+            "name": "認識植物網站"
+          },
+          {
+            "id": "recTpRSWcgCnz9p5T",
+            "name": "swonline  2D 線上網頁"
+          }
+        ],
+        "tag": "續命 / 早年網站改版續航"
+      }
+    },
+    {
+      "id": "recETi8RBk0lIp07k",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recwjPB06sTb3Ufiz",
+            "name": "立法院國會頻道AI即時轉換逐字稿 LegislatureAI\n"
+          },
+          {
+            "id": "rec8lYkuE0cNSpkG8",
+            "name": "開放立法院 & 立法院 API"
+          },
+          {
+            "id": "recSiTrSQddAen1eY",
+            "name": "Lawtrace 立法足跡"
+          }
+        ],
+        "tag": "立法院"
+      }
+    },
+    {
+      "id": "recJA9vIu3CYfNHWw",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec6ek0it5fLrtoP6",
+            "name": "福利請聽"
+          },
+          {
+            "id": "rec7Pi3jbF1V1iMke",
+            "name": "病後人生│一站式服務網"
+          }
+        ],
+        "tag": "社會福利 / 社福"
+      }
+    },
+    {
+      "id": "recko4eoqGAD8kTX1",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recAeUCNREg7xMWVv",
+            "name": "HePai | 合拍"
+          }
+        ],
+        "tag": "音樂"
+      }
+    },
+    {
+      "id": "reckURZyLLwUuaoAZ",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recJvAlz5ZgSO8oRY",
+            "name": "藥品仿單白話文運動"
+          },
+          {
+            "id": "reczviTkxOXw9avSY",
+            "name": "ＲＯＳＣ－訓練模擬電擊器系統"
+          },
+          {
+            "id": "recArS8Aqe7x6wOVT",
+            "name": "高效健身訓練系統"
+          }
+        ],
+        "tag": "健康與醫療"
+      }
+    },
+    {
+      "id": "reclbKH6MJcUAoupF",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recAhUFo6RcEiTdDu",
+            "name": "漁電共生鋪排工具"
+          }
+        ],
+        "tag": "漁業"
+      }
+    },
+    {
+      "id": "recnxP1VDIBJGeP9B",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recP3Fkjx2Iel7ISl",
+            "name": "《我們想這樣生小孩！陪伴孕產旅程的行動手冊》"
+          }
+        ],
+        "tag": "生育 / 孕產相關"
+      }
+    },
+    {
+      "id": "recoq9E6bzdnOrPK9",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recnZPjioUOPqHgXZ",
+            "name": "公民團體資安暨隱私交流計劃 Civil Society Cyber Shield (CSCS)"
+          },
+          {
+            "id": "recQfHjbnXyItIUEH",
+            "name": "How Internet Works 網路治理介紹素材"
+          },
+          {
+            "id": "reczbsfxNG6XsGDet",
+            "name": "詐騙因應對策_情境經驗蒐集_專案"
+          },
+          {
+            "id": "recW33DJSrK8nZh0i",
+            "name": "開放科技車庫 Open Tech Garage"
+          }
+        ],
+        "tag": "資安 / 資訊安全"
+      }
+    },
+    {
+      "id": "recPUmefcE15lQsyi",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recHIr6FrJvf34Jql",
+            "name": "NTU Cool"
+          },
+          {
+            "id": "recvKhnv6Wd86BjRc",
+            "name": "空污曝露路徑分析地圖"
+          },
+          {
+            "id": "recyLB01E0lGYFBvs",
+            "name": "大台北交通流量模擬"
+          }
+        ],
+        "tag": "路徑分析"
+      }
+    },
+    {
+      "id": "recT5tqfug401TVRM",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recnFilQmUwY1lXjr",
+            "name": "ReJOIN - 數位公共參與體驗優化"
+          }
+        ],
+        "tag": "UX / 使用者體驗"
+      }
+    },
+    {
+      "id": "recTbQPHaofbg5KxI",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recGTri66bPQ0a9su",
+            "name": "台灣人工智慧學校_公民 AI 素養計畫"
+          },
+          {
+            "id": "recwEGNZO8bmsejiQ",
+            "name": "Kami：一個有界限、在地、私密的仁工智慧守護者"
+          }
+        ],
+        "tag": "AI"
+      }
+    },
+    {
+      "id": "recVIr9QZy0I1Oz0v",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "receoKxCvuhU3QF76",
+            "name": "民主富二代補課小站"
+          }
+        ],
+        "tag": "近代民主化歷程"
+      }
+    },
+    {
+      "id": "recVkEyEwc5QiELI9",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "reci5WI5WxAW4uwHl",
+            "name": "能源類專案"
+          }
+        ],
+        "tag": "能源 / 電力"
+      }
+    },
+    {
+      "id": "recWEsXvca6RGKgRD",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recH2oHGzmOKcK1da",
+            "name": "台灣 AEC（建築 · 工程 · 營造）開源知識庫"
+          }
+        ],
+        "tag": "建築 / 工程 / 營造"
+      }
+    },
+    {
+      "id": "recXuNfLyg4CDUGpL",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "reczbsfxNG6XsGDet",
+            "name": "詐騙因應對策_情境經驗蒐集_專案"
+          }
+        ],
+        "tag": "詐騙"
+      }
+    },
+    {
+      "id": "recZPAiEQdIo02zkC",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recRfZfzF5pRiccvJ",
+            "name": "Pocket Polis 口袋審議"
+          },
+          {
+            "id": "recTMzcovWZFYe8RQ",
+            "name": "Holopolis"
+          },
+          {
+            "id": "recxgC3JM1FWghTcS",
+            "name": "vTaiwan"
+          }
+        ],
+        "tag": "審議工具"
+      }
+    }
+  ]
+}

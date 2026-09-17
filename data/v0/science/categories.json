@@ -1,0 +1,6247 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "science",
+    "name": "公民科學與群眾參與計畫清冊資料集",
+    "label": "公民科學與群眾參與計畫"
+  },
+  "table": {
+    "slug": "categories",
+    "name": "類別",
+    "label": "類別",
+    "id": "tbl5dtNos2LOMHtOG"
+  },
+  "recordCount": 575,
+  "fields": [
+    {
+      "id": "fldBg8rYjekq9FHMg",
+      "name": "細項標籤",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldRLy8thASqcjTNx",
+      "name": "分類",
+      "type": "multipleSelects"
+    },
+    {
+      "id": "fldIYXDmiUlZnyvoF",
+      "name": "數量統計",
+      "type": "count"
+    },
+    {
+      "id": "fldpkOWKfiDQ7OiAZ",
+      "name": "公民科學計畫清冊",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldrN5yeoReRW4eAT",
+      "name": "補充參考",
+      "type": "multilineText"
+    },
+    {
+      "id": "fldf4NvTcfNxG9nj4",
+      "name": "中正社區大學-學群主題",
+      "type": "multipleRecordLinks"
+    }
+  ],
+  "records": [
+    {
+      "id": "rec3vKkpAqBqS0hqz",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-垃圾/廢棄物/海漂",
+        "數量統計": 20,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recTcwPV3oLAOgOfH",
+            "name": "ICC 國際淨灘行動 / 愛海小旅行"
+          },
+          {
+            "id": "rec7FNFk2X5BasXhN",
+            "name": "海灘廢棄物監測社"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "rec33ZYgCScauflga",
+            "name": "Global Alert "
+          },
+          {
+            "id": "recv2jEsnWmlhIV27",
+            "name": "Open Litter Map"
+          },
+          {
+            "id": "reckcpwX6571HJ4Eu",
+            "name": "焚化爐底渣再利用調查與官方資料追蹤"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recA08kv3WuIlAC8A",
+            "name": "Doodoowatch"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "recaqxSZzo6mrtEPT",
+            "name": "塑殺社"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recjHa6hkzahE5Stv",
+            "name": "Litterati"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          },
+          {
+            "id": "recrSTAYUnZHPiHvr",
+            "name": "啣魚鳥生-臺灣海鳥食性調查平台"
+          },
+          {
+            "id": "recZMhQM5vTurPjB4",
+            "name": "鰻管大搜查 - 順手撿鰻管、救救僧海豹"
+          },
+          {
+            "id": "recYm2sLxDwDOcIbr",
+            "name": "WoodirtGO"
+          },
+          {
+            "id": "recKQBaanJyoM2XUV",
+            "name": "塑殺社"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec3xDXq8P4ybbR6X",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-野溪工程探討",
+        "數量統計": 3,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec4Sz6BErw875oVP",
+            "name": "荒野台東分會野溪小組"
+          },
+          {
+            "id": "recnOWSRSwNcm2OJb",
+            "name": "追蹤野溪水泥化協作"
+          },
+          {
+            "id": "rec4FWufMEPlufLqO",
+            "name": "拍河照"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec4xgHRw0LSCn4lu",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "防災-影像照片提供",
+        "數量統計": 1,
+        "分類": [
+          "防災與減災"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recTUdli4f81BXSJi",
+            "name": "歷史影像平台 / 災害歷史照片平台"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec5U6JfRGfO3PB85",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-林地盜伐通報",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recqIXgkJfCbGaVog",
+            "name": "森林巡山志工培訓"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec64IGYL2nRBkXHy",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-森林火災災後調查",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recOJBKUoRViTdaKi",
+            "name": "Monitoring ecological change with smart phones and social media"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec6YcX8CfXjWhPDU",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-文物 / 物件 / 紙本文件 / 照片 / 錄影帶 / 拓碑 / 城牆石 / 窗花",
+        "數量統計": 16,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec05NTeQurgik1Pe",
+            "name": "全國文物普查"
+          },
+          {
+            "id": "recYu9wvrH06lx8pj",
+            "name": "臺北城城牆石計畫"
+          },
+          {
+            "id": "recnOe6qvB0iA6EJ0",
+            "name": "搶救唭哩岸石！北投士林科技園區－唭哩岸石普查"
+          },
+          {
+            "id": "reczMdig2aj2hM7u8",
+            "name": "新竹窗花照片募集"
+          },
+          {
+            "id": "rec1VMdhJwscZc5QZ",
+            "name": "防疫物件蒐集"
+          },
+          {
+            "id": "rec88dZAldBGqAkD7",
+            "name": "國家寶藏"
+          },
+          {
+            "id": "rec9tpQzL3FCzwBZH",
+            "name": "全民檔案大師共筆系統"
+          },
+          {
+            "id": "recFq9qsReDZU4JBg",
+            "name": "Citizen Archivist program"
+          },
+          {
+            "id": "rec3RxUAq7Cr8POfz",
+            "name": "政治獻金數位化"
+          },
+          {
+            "id": "recp37PUZEBhfhr9O",
+            "name": "國家文化記憶庫"
+          },
+          {
+            "id": "recTUdli4f81BXSJi",
+            "name": "歷史影像平台 / 災害歷史照片平台"
+          },
+          {
+            "id": "recdsEahp8eRN01NL",
+            "name": "家庭錄影帶保存工作坊"
+          },
+          {
+            "id": "recAlbTL0XSHidro2",
+            "name": "拓印石碑技術推廣工作坊"
+          },
+          {
+            "id": "recgazMVU07KsjSCJ",
+            "name": "二次世界大戰台灣戰爭遺址團"
+          },
+          {
+            "id": "recVxlHjFuKQOrETy",
+            "name": "臺灣の神社遺跡"
+          },
+          {
+            "id": "recoMSujuL4hFqcTp",
+            "name": "日本時代戶籍資料討論團"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec97XIGUcyAhXNV7",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "防災-社區人員培訓",
+        "數量統計": 2,
+        "分類": [
+          "防災與減災"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec0MnzrFE6ZAQRTr",
+            "name": "土石流防災專員"
+          },
+          {
+            "id": "recx1NM4GzJojFkMl",
+            "name": "聽見AED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recAiD2cRz3V0fsry",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-空氣採樣 / 氣味 / 空氣污染議題",
+        "數量統計": 8,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recchDGM2J4BRbtKh",
+            "name": "高雄大社反公害運動"
+          },
+          {
+            "id": "recncdWhitLHBpUtC",
+            "name": "反工業臭氣聯盟 / 東海大學環工系"
+          },
+          {
+            "id": "rec9oEvmQOXc4V2pV",
+            "name": "北大特區暨三鶯樹地區反空污行動聯盟"
+          },
+          {
+            "id": "recvqET2ro1QxZeQW",
+            "name": "金門中正國小空汙監測科展 / 浯島-呼吸的風險"
+          },
+          {
+            "id": "receErV2VI040RGoN",
+            "name": "SmellPGH 臭味回報"
+          },
+          {
+            "id": "recyssELPkwHOKGGn",
+            "name": "Project RISE"
+          },
+          {
+            "id": "recOWDHGDyeSsem9t",
+            "name": "DTE Shenango Channel"
+          },
+          {
+            "id": "rec9ETVSluIVkE8Gf",
+            "name": "Sniffer bike / Snuffelfiets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recBagyXZNEANAqck",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "防災-回報 / 通報 / 災後衛星影像辨識",
+        "數量統計": 6,
+        "分類": [
+          "防災與減災"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recUMcwJhm23Nsbjs",
+            "name": "地質災害傳聲學院APP"
+          },
+          {
+            "id": "rec1PgIm9tmTj5Zvo",
+            "name": "市民探針"
+          },
+          {
+            "id": "reczhnh9dXUnmIkTh",
+            "name": "Adopt a SF drain"
+          },
+          {
+            "id": "recZBJC0zIF23ajEu",
+            "name": "台東臉書災害通報"
+          },
+          {
+            "id": "reczm4C9tmZnj9mtD",
+            "name": "淹水群眾標註"
+          },
+          {
+            "id": "recj7MxcXNxZTzk1T",
+            "name": "HOT Tasking Manager 開放街圖繪製工作特定任務區"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recCPJWwrLnP3KPiK",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-考古",
+        "數量統計": 1,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recNmZaEtiEIo2oFd",
+            "name": "見城計畫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recdftujKtx8J0Sfh",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "氣象-觀測",
+        "數量統計": 7,
+        "分類": [
+          "氣象與氣候"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec4Q1V95vo791IQJ",
+            "name": "社區天氣觀測計劃 CWOS"
+          },
+          {
+            "id": "recD1nBTRR25W9w69",
+            "name": "積雪量測 Snowfall "
+          },
+          {
+            "id": "recAjAqvfjyYAWVeL",
+            "name": "補霧網設計與實作課程"
+          },
+          {
+            "id": "rec9BW17byP6UWqUI",
+            "name": "Poweather 天氣幫"
+          },
+          {
+            "id": "recCExbN0hg1rkQQy",
+            "name": "無所不在之天象-知識的美麗"
+          },
+          {
+            "id": "recEbARUgdQmYYKxG",
+            "name": "地震氣震"
+          },
+          {
+            "id": "recVywHKRXxRI6huM",
+            "name": "重機車友 ❘ 各區路況天氣、資訊分享中心"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rece1NML0csUUYVrJ",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-除草劑調查",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recg4LVSlSYjRSLQ7",
+            "name": "路噴社"
+          }
+        ]
+      }
+    },
+    {
+      "id": "receClMvLiuEUo2Vm",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-文化地景與環境調查",
+        "數量統計": 7,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rectiFyp3Efdw99Wu",
+            "name": "台北市士林區芝山岩調查倡議文化景觀推動"
+          },
+          {
+            "id": "recSBvxL2gcIEZeJG",
+            "name": "原住民族傳統領域調查與確認"
+          },
+          {
+            "id": "recGwd7CpVkPUwrVp",
+            "name": "台江流域專題研究"
+          },
+          {
+            "id": "recQKNF1Arh77HdOK",
+            "name": "坪林尋怪計畫"
+          },
+          {
+            "id": "recd1WOZYOT7BuFHd",
+            "name": "合境平安--大家一起來"
+          },
+          {
+            "id": "recgazMVU07KsjSCJ",
+            "name": "二次世界大戰台灣戰爭遺址團"
+          },
+          {
+            "id": "recVxlHjFuKQOrETy",
+            "name": "臺灣の神社遺跡"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recEEgJAsfU92cAor",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-坡地災損通報",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rechrATm81oua1WOn",
+            "name": "NASA Landslide Reporter"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recEP9OUxIxzKr0z4",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-飲食-食品檢測",
+        "數量統計": 1,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recGJfE64N0irDYl2",
+            "name": "公民檢測 食安自主"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recf8OyOGSZGwF7jI",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-聲景聲音監測",
+        "數量統計": 7,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recQkL00hhQzluYg5",
+            "name": "台灣生態聲景長期監測"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recc9qiTemT0ipbPb",
+            "name": "#717臺灣聆聽日"
+          },
+          {
+            "id": "recPz4DCnpqJgJ6sI",
+            "name": "聲感地圖現行錄"
+          },
+          {
+            "id": "recmMsvkCAUm3nmFb",
+            "name": "尋找 55 分貝靜土 / 聲音盒子"
+          },
+          {
+            "id": "recKl5yg4poyiwT2G",
+            "name": "台灣聲音地圖計劃"
+          },
+          {
+            "id": "recqpuVJKwEX4xPt9",
+            "name": "台灣自然聲音地圖"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recFQhoL7jEkibjE5",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "生物-聲音",
+        "數量統計": 7,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recj9Asw07wQ0yfSt",
+            "name": "夜鷹首鳴回報"
+          },
+          {
+            "id": "recm6QYzccV6EJuII",
+            "name": "臺灣野生動物錄音論壇 Wildlife Sound Discuz Taiwan"
+          },
+          {
+            "id": "recc4IjU7skNVG56S",
+            "name": "愛蛙哇行動APP / 青蛙叫聲辨識行動APP "
+          },
+          {
+            "id": "recl4WNtP9plSGtG4",
+            "name": "xeno-canto 鳥音"
+          },
+          {
+            "id": "recAysLsASRAFvCfE",
+            "name": "嬰兒哭聲分析"
+          },
+          {
+            "id": "recKl5yg4poyiwT2G",
+            "name": "台灣聲音地圖計劃"
+          },
+          {
+            "id": "recqpuVJKwEX4xPt9",
+            "name": "台灣自然聲音地圖"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recGSVcgLOLy16ygJ",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-習俗",
+        "數量統計": 3,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "中正社區大學-學群主題": [
+          {
+            "id": "recXoYNGKlCoFDMT5",
+            "name": "中正社大-歷史人文"
+          }
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recAK8s9NXTDYQtjC",
+            "name": "「小年夜拜天公」文化習俗調查"
+          },
+          {
+            "id": "reco8oHW4dSQ8Hs6q",
+            "name": "秀出你的年夜飯"
+          },
+          {
+            "id": "recKl5yg4poyiwT2G",
+            "name": "台灣聲音地圖計劃"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recHKVxAIUwljK4kV",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "天文",
+        "數量統計": 4,
+        "分類": [
+          "天文"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recEQg9Uv2xU2i4Kf",
+            "name": "Astrohackers in Taiwan"
+          },
+          {
+            "id": "recbY1rXHhtCvSKxe",
+            "name": "重力波調查員"
+          },
+          {
+            "id": "recwIvskIs58nKZ50",
+            "name": "CAMALIOT app"
+          },
+          {
+            "id": "receRFsmuIqcgSnYf",
+            "name": "臺灣彗星流星情報站"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recIkIWI90D5yW1j4",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "生物-人類行為 / 人類生理資料 / 健保資料",
+        "數量統計": 6,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recAysLsASRAFvCfE",
+            "name": "嬰兒哭聲分析"
+          },
+          {
+            "id": "recJd9235bCzBY4C0",
+            "name": "臺灣人體生物資料庫 Taiwan Biobank"
+          },
+          {
+            "id": "rech7WrZfZwGnyhSu",
+            "name": "社團法人臺灣腦庫協會 / 國立臺灣大學醫學院臺灣腦神經組織人體生物資料庫"
+          },
+          {
+            "id": "recAyUMNx3Oq9SxvZ",
+            "name": "國家級人體生物資料庫整合平台"
+          },
+          {
+            "id": "recVJujJg0tAtQiui",
+            "name": "臺灣人體生物資料庫"
+          },
+          {
+            "id": "rec191eGgN5q4kMGU",
+            "name": "台灣精準醫療計畫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recJ4OwxZrUD9x4gp",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-刊物",
+        "數量統計": 1,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recFxq8KzQAGeaioD",
+            "name": "在地刊物 Local Zine"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recJFozJd7XhYmmSx",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-環境感測",
+        "數量統計": 5,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "reckL6I8Hqw8ZJ2uO",
+            "name": "LASS環境感測器 / 空氣盒子"
+          },
+          {
+            "id": "recp5XrdA32sN4pOV",
+            "name": "都市微氣象網"
+          },
+          {
+            "id": "recHB5XT4V0J0LBqC",
+            "name": "阿龜微氣候天眼通"
+          },
+          {
+            "id": "rec26sjrbELZKzpHx",
+            "name": "Smart Citizen"
+          },
+          {
+            "id": "recQlEFhkOQvxWsV0",
+            "name": "川流之島流域學校"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recLU1mUxUbk091Oe",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "防災-海嘯通報器檢查",
+        "數量統計": 1,
+        "分類": [
+          "防災與減災"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recYDnhzHcWtJlEAf",
+            "name": "Adopt-a-Siren"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recm86O2aJ5sCxCuU",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-坡地濫墾通報",
+        "數量統計": 2,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recTw7joq1UPKwlKt",
+            "name": "民眾監督山坡地開發"
+          },
+          {
+            "id": "rec0CwANGGYPh4agF",
+            "name": "高山濫墾照片與影片蒐集活動"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recOCNXFb85hQGGjH",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-環境教育",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec1mefneE94rdy8N",
+            "name": "生態QRcode行動解說保育網"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recPAzlpchVNydCIk",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-生活條件 / 租屋",
+        "數量統計": 2,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recdmJBS0cXrzR1zN",
+            "name": "Cost of Living"
+          },
+          {
+            "id": "recEzrSgCDtu9CFwJ",
+            "name": "提供被房東拒絕申請租補、威脅退租或漲租的截圖及事證"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recQh7Mu2vLdttTjg",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-住宅後院與庭院/居家環境",
+        "數量統計": 4,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec6zv1e7leCuLiPI",
+            "name": "Let's 探索家中昆蟲"
+          },
+          {
+            "id": "recNqdfpXIFU3Ilcu",
+            "name": "衣魚樣本採集"
+          },
+          {
+            "id": "recJIcQcDESAhi2W0",
+            "name": "Yardmap"
+          },
+          {
+            "id": "recAK8s9NXTDYQtjC",
+            "name": "「小年夜拜天公」文化習俗調查"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recQjEQUVpsGFH1Wu",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "生物-微生物",
+        "數量統計": 5,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recDIGqL6WIylnNh8",
+            "name": "台灣腸道公民科學計畫"
+          },
+          {
+            "id": "recwJMLpQkOHQTYUX",
+            "name": "The Human Diets & Microbiome Initiative (THDMI) 人類飲食與微生物體計劃"
+          },
+          {
+            "id": "recxcFTPZrNo4JwyW",
+            "name": "MetaSUB - Metagenomics & Metadesign of Subways & Urban Biomes"
+          },
+          {
+            "id": "recsckPloGA2y0Tua",
+            "name": "Fold it "
+          },
+          {
+            "id": "rec0HT0rYIfvAeNsk",
+            "name": "台灣淡水微生物俱樂部"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recr1hgOhDIYQVfr1",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-觀測井",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recqSWwNrrl82TMGO",
+            "name": "觀測井"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recrk3YnSFmqoa08Q",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "地震-震度感測與回報",
+        "數量統計": 5,
+        "分類": [
+          "防災與減災"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recrvm6kjIrFXIXL0",
+            "name": "MyShake"
+          },
+          {
+            "id": "recZe26n8ajJMAIGy",
+            "name": "Quake Catcher Network / QCN / 補震網"
+          },
+          {
+            "id": "recvKFZgxQt84GTj9",
+            "name": "TESIS公民震度回報系統"
+          },
+          {
+            "id": "recEbARUgdQmYYKxG",
+            "name": "地震氣震"
+          },
+          {
+            "id": "rec9DCi0GVqdOjBfa",
+            "name": "Android Earthquake Alerts System"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recT6xnuJ6UY4CoxF",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-海岸與海域",
+        "數量統計": 13,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recjLpGUCwF2DCSuU",
+            "name": "沿全島海岸線拍攝360全景"
+          },
+          {
+            "id": "recV6rl9W0Fu2DSl4",
+            "name": "小琉球志工隊"
+          },
+          {
+            "id": "recVEj6cfOyx2a1CA",
+            "name": "台南市北門社區大學-七股海岸護沙監測"
+          },
+          {
+            "id": "recVkpOszWj4xACvG",
+            "name": "黑潮「島航行動」海洋水質、塑膠微粒及水下聲景"
+          },
+          {
+            "id": "recHsfs9wBi8NTwEb",
+            "name": "水下生物辨識圖鑑團"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recrSTAYUnZHPiHvr",
+            "name": "啣魚鳥生-臺灣海鳥食性調查平台"
+          },
+          {
+            "id": "recZMhQM5vTurPjB4",
+            "name": "鰻管大搜查 - 順手撿鰻管、救救僧海豹"
+          },
+          {
+            "id": "rec5yHvEB8ffkq98L",
+            "name": "綠島釣查計畫"
+          },
+          {
+            "id": "reca6d0WuIGcH3k4X",
+            "name": "東方環頸鴴｜例行鳥蛋調查"
+          },
+          {
+            "id": "rec6n3CsmAdCRrHii",
+            "name": "CoastSnap 海岸線定點拍照記錄"
+          },
+          {
+            "id": "recQlEFhkOQvxWsV0",
+            "name": "川流之島流域學校"
+          },
+          {
+            "id": "recKQBaanJyoM2XUV",
+            "name": "塑殺社"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recThagjXwZtUxwqg",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-空間與設施",
+        "數量統計": 17,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recyvWSVzUrQZHzDI",
+            "name": "Google 地圖無障礙資訊通報"
+          },
+          {
+            "id": "recnbQukJRRRI1LU2",
+            "name": "飲水地圖"
+          },
+          {
+            "id": "rec8qnd8bVc47XbMh",
+            "name": "土地利用監測義工資訊系統"
+          },
+          {
+            "id": "recpcqHfPkRpIY0zz",
+            "name": "蚊子館調查"
+          },
+          {
+            "id": "recrIB3DQ3mJgJWtU",
+            "name": "日式宿舍，近來可好"
+          },
+          {
+            "id": "recEDPTlGUmHETpnL",
+            "name": "尋找大象朋友"
+          },
+          {
+            "id": "recmQxhysKvSo0ckp",
+            "name": "秒懂災害潛勢-文化素材蒐集"
+          },
+          {
+            "id": "rec5LzFAJMzK0mqHm",
+            "name": "掩埋場 蒐集"
+          },
+          {
+            "id": "recgb6972BlctMtP4",
+            "name": "台南待孳清空地空屋回報平台"
+          },
+          {
+            "id": "recXLbJXzpVMLJD6Z",
+            "name": "臺灣好植地-潛力用地踏查拍照"
+          },
+          {
+            "id": "recM6QQ2GIgqEq0jT",
+            "name": "水邊散步 - 圳路棲地評估"
+          },
+          {
+            "id": "recuMN0QoguqJuwuF",
+            "name": "The National Map Corps (TNM Corps)"
+          },
+          {
+            "id": "rech3l0adzMigZhjA",
+            "name": "WoWtchout - 地圖型行車影像分享平台"
+          },
+          {
+            "id": "recPRuK37MkgclWBh",
+            "name": "平安走路許願帳戶-行人庇護空間"
+          },
+          {
+            "id": "recMShoSk8ACIR3Ug",
+            "name": "都市公園綠地出入口路阻障礙通報列管窗口"
+          },
+          {
+            "id": "recd1WOZYOT7BuFHd",
+            "name": "合境平安--大家一起來"
+          },
+          {
+            "id": "rec9P6sAT1KpR2yoi",
+            "name": "眼底城事第一屆「公共空間介面」空間偵探大賽"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recwazTRLty3vKQg1",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-山徑議題通報 / 戶外路線",
+        "數量統計": 3,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec55Lpaw9MHjVk6t",
+            "name": "TrailWatch 徑．香港"
+          },
+          {
+            "id": "recbNomj3U5O8KS1N",
+            "name": "台灣步道守護網"
+          },
+          {
+            "id": "recU3SB6QJF9Yqlv1",
+            "name": "健行筆記"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recwO0HFOYRK2MLUK",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "生物-外來種移除",
+        "數量統計": 6,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recambzzH517YC2dU",
+            "name": "獎勵移除沙氏變色蜥蜴"
+          },
+          {
+            "id": "recHcR46bNgiQeq8s",
+            "name": "外來鳥種埃及聖䴉防治通報"
+          },
+          {
+            "id": "recGIlRJOrxmmXdkT",
+            "name": "外來種斑腿樹蛙監測社團"
+          },
+          {
+            "id": "rec346PWvEqzIVz35",
+            "name": "通報移除野外海蟾蜍族群"
+          },
+          {
+            "id": "recWVWwO7aelg93AU",
+            "name": "秋行軍蟲回報 - 農作物天然災害及時回報 APP"
+          },
+          {
+            "id": "recnYJgSXE3xQJ7la",
+            "name": "紅火蟻防治中心通報網頁"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recwsm2IuVQMXwW5P",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-產業-林業",
+        "數量統計": 1,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recZDDCxoVfTaB5ot",
+            "name": "木材圖鑑建置計畫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recWzQMEIiIpmt5EO",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "氣象-文件數位化",
+        "數量統計": 4,
+        "分類": [
+          "氣象與氣候"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recHTN3SKVzeCmN0O",
+            "name": "公民參與氣象資料建檔計畫"
+          },
+          {
+            "id": "rec4YQgBlQwPPLsBb",
+            "name": "Southern Weather Discovery"
+          },
+          {
+            "id": "recETMD1I69sJakjP",
+            "name": "Old Weather: WW2"
+          },
+          {
+            "id": "reclQ4v6WTTM9BEMa",
+            "name": "Old Weather: Whaling / Arctic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recxcVgXIS8ABiu63",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "環境-水環境 / 水資源 / 水質採樣",
+        "數量統計": 15,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recrBGma1EUr4GQwY",
+            "name": "CrowdWater"
+          },
+          {
+            "id": "recFNaxU3O2vLRUxB",
+            "name": "The EarthEcho Water Challenge"
+          },
+          {
+            "id": "rec1gGtZc1soxnVsS",
+            "name": "大肚山水資源踏查"
+          },
+          {
+            "id": "rec3ELe844X6wgKof",
+            "name": "新竹 河川巡守隊"
+          },
+          {
+            "id": "recALkhXLIx6VXcTK",
+            "name": "藻礁汙染源督察管制計畫 / 在地 NGO 與桃園環保局"
+          },
+          {
+            "id": "recRt1aQx6vxly9Hx",
+            "name": "南門溪水質檢測"
+          },
+          {
+            "id": "rectJyPQxAEj0l0Ez",
+            "name": "南屯溪區域排水守護大使"
+          },
+          {
+            "id": "recIwmYQHHVdrys24",
+            "name": "桃園市水環境巡守隊"
+          },
+          {
+            "id": "recf2cdQyKS9Vktst",
+            "name": "事業放流水汙染通報"
+          },
+          {
+            "id": "recQiO0bTafwZFq9g",
+            "name": "The Lake Observations by Citizen Scientists & Satellites project"
+          },
+          {
+            "id": "rec4FWufMEPlufLqO",
+            "name": "拍河照"
+          },
+          {
+            "id": "recvuiggPoO0MPfGK",
+            "name": "水環境巡守隊"
+          },
+          {
+            "id": "recM6QQ2GIgqEq0jT",
+            "name": "水邊散步 - 圳路棲地評估"
+          },
+          {
+            "id": "recZVLfWaXWV0MBQU",
+            "name": "圳路清淤通報網"
+          },
+          {
+            "id": "recQlEFhkOQvxWsV0",
+            "name": "川流之島流域學校"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recYv0bJA1BMyR2FB",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-記憶 / 口述訪談紀錄",
+        "數量統計": 2,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recZbARnKYVTdpq5w",
+            "name": "民間記憶計畫"
+          },
+          {
+            "id": "recp37PUZEBhfhr9O",
+            "name": "國家文化記憶庫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reczL7RTQyelrRQNT",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "生物-涉及跨門類物種",
+        "數量統計": 14,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rechrA9q0fNA6d7eN",
+            "name": "路拍社"
+          },
+          {
+            "id": "recprLfqLxu0ARW3h",
+            "name": "荒野自然觀察記錄網"
+          },
+          {
+            "id": "recfdeA1TJObbyC6k",
+            "name": "iNaturalist"
+          },
+          {
+            "id": "recRB8OIG2sBeptWT",
+            "name": "浸水營地區生態調查"
+          },
+          {
+            "id": "recCnze7VEGNAGQo9",
+            "name": "運用公民科學促進社區參與森林生態系計畫 / 國科會科技部計畫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recISpTvBwvA1UaXU",
+            "name": "卸魚申報APP"
+          },
+          {
+            "id": "recHsfs9wBi8NTwEb",
+            "name": "水下生物辨識圖鑑團"
+          },
+          {
+            "id": "recqFAf1vRlm348zf",
+            "name": "台南社區大學-生態調查兵團課程"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recm6QYzccV6EJuII",
+            "name": "臺灣野生動物錄音論壇 Wildlife Sound Discuz Taiwan"
+          },
+          {
+            "id": "recvBvaETUiz9qLUu",
+            "name": "愛自然武陵地區公民科學監測活動"
+          },
+          {
+            "id": "recyrkEBmzmmWyFtd",
+            "name": "TaiCOL名錄資料協作志工"
+          },
+          {
+            "id": "rec8vQsjuotOLbYb9",
+            "name": "Calling in our Corals"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reczRvfivGd7XyTz4",
+      "createdTime": "2020-12-12T12:41:50.000Z",
+      "fields": {
+        "細項標籤": "社會文化-產業-農業",
+        "數量統計": 5,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recW29Y5rKPVJlbeg",
+            "name": "農田裡的科學計畫-水田福壽螺防治方法與推廣"
+          },
+          {
+            "id": "recBn5hnky4jV8Qbi",
+            "name": "尋找，紅冠水雞計畫"
+          },
+          {
+            "id": "recJjn41p01XcPNfg",
+            "name": "邦查野菜文化調查"
+          },
+          {
+            "id": "recrEc0Qd7iTbYno5",
+            "name": "冬季菱角鳥水雉調查"
+          },
+          {
+            "id": "recWVWwO7aelg93AU",
+            "name": "秋行軍蟲回報 - 農作物天然災害及時回報 APP"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec77SNzLNjjpxA6J",
+      "createdTime": "2021-07-03T19:29:35.000Z",
+      "fields": {
+        "細項標籤": "環境-公園",
+        "數量統計": 4,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec8JciumoiIUXEZH",
+            "name": "荒野全台公園生態化普查"
+          },
+          {
+            "id": "recArLNpVBtTuNMup",
+            "name": "荒野台北‧公園生態化棲地志工"
+          },
+          {
+            "id": "recMShoSk8ACIR3Ug",
+            "name": "都市公園綠地出入口路阻障礙通報列管窗口"
+          },
+          {
+            "id": "recvvBmKXuVfuGLim",
+            "name": "遊具照片分享/ 台南也要特色公園"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec3x0qtsvlVRuFQG",
+      "createdTime": "2021-07-03T19:29:52.000Z",
+      "fields": {
+        "細項標籤": "環境-土壤檢測/觀察記錄",
+        "數量統計": 3,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec3bmTcwk3qYCMHm",
+            "name": "土壤檢測"
+          },
+          {
+            "id": "recpaeiX50d4maP5F",
+            "name": "行走的土地公 - 復育土壤動物與觀察記錄"
+          },
+          {
+            "id": "rec2zldMxORY0jj0K",
+            "name": "廢土換好土"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recHCyxnNV14NRW67",
+      "createdTime": "2021-07-03T19:33:48.000Z",
+      "fields": {
+        "細項標籤": "環境-衛星影像應用",
+        "數量統計": 3,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recw3yjlsIJtUQtBh",
+            "name": "FS2 Clicker"
+          },
+          {
+            "id": "rechtrq5vakXPE9PW",
+            "name": "Disfactory - 空拍圖比對計畫"
+          },
+          {
+            "id": "recj7MxcXNxZTzk1T",
+            "name": "HOT Tasking Manager 開放街圖繪製工作特定任務區"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recSNJGEyzAWE72eD",
+      "createdTime": "2021-07-03T19:35:39.000Z",
+      "fields": {
+        "細項標籤": "生物-植物",
+        "數量統計": 14,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recBS7ZdePz5Q2fsx",
+            "name": "樹保寶 / 樹殺社"
+          },
+          {
+            "id": "recKvVsmBpvM6MXRK",
+            "name": "Citizen Forester Program"
+          },
+          {
+            "id": "recPSw7XCAAtDsAOF",
+            "name": "台灣食蟲植物棲地調查"
+          },
+          {
+            "id": "recYJZGHLmrpBEPjq",
+            "name": "找樹的人 - 臺灣巨木地圖"
+          },
+          {
+            "id": "recroogfQe5dSbHhG",
+            "name": "玉山箭竹開花地區的徵詢與搜集"
+          },
+          {
+            "id": "recK07MPzrlpvUkkd",
+            "name": "玉川上水花地圖"
+          },
+          {
+            "id": "recgBqNwJvQJUvMd8",
+            "name": "福山植物園植物物候調查"
+          },
+          {
+            "id": "reckQt3W9D87EL3JO",
+            "name": "臺灣歸化與入侵植物調查"
+          },
+          {
+            "id": "recqz7i2kJVHtvyJV",
+            "name": "台灣植物資料調查及植物物候觀察記錄團"
+          },
+          {
+            "id": "recJjn41p01XcPNfg",
+            "name": "邦查野菜文化調查"
+          },
+          {
+            "id": "recQv1piWBiGDazRW",
+            "name": "米爾頓釉小蜂寄主植物調查"
+          },
+          {
+            "id": "rect5UnMTzuJvylrF",
+            "name": "Every Flower Counts"
+          },
+          {
+            "id": "recjeEnjVv82Ld6gl",
+            "name": "老樹報報 - 全國城鄉老樹資源地圖"
+          },
+          {
+            "id": "reciGdwsbesPSqq01",
+            "name": "群眾找樹 / 巨樹地圖"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recUBCauphDhCuGnz",
+      "createdTime": "2021-07-03T21:59:41.000Z",
+      "fields": {
+        "細項標籤": "環境-農地",
+        "數量統計": 3,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recIWmm08rGixfj59",
+            "name": "Disfactory - 農地違章工廠回報系統"
+          },
+          {
+            "id": "reclZ9xDZOBI6Wcsn",
+            "name": "見龍在田"
+          },
+          {
+            "id": "recW29Y5rKPVJlbeg",
+            "name": "農田裡的科學計畫-水田福壽螺防治方法與推廣"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec51rNAp9PEiMK0X",
+      "createdTime": "2021-07-03T21:59:59.000Z",
+      "fields": {
+        "細項標籤": "環境-工廠",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recIWmm08rGixfj59",
+            "name": "Disfactory - 農地違章工廠回報系統"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recKWwVxJb0SZHtJS",
+      "createdTime": "2021-07-03T22:50:57.000Z",
+      "fields": {
+        "細項標籤": "生物-脊索動物門/鳥類",
+        "數量統計": 35,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec5hzUuePfGBaXrY",
+            "name": "全球黑面琵鷺回報系統 / 黑面琵鷺保育網"
+          },
+          {
+            "id": "recpuGz9MBt7KW0SZ",
+            "name": "Penguin Watch"
+          },
+          {
+            "id": "recj9Asw07wQ0yfSt",
+            "name": "夜鷹首鳴回報"
+          },
+          {
+            "id": "rec3HhwQ6shZYJ4pY",
+            "name": "RRGT 林鵰紀錄徵求站"
+          },
+          {
+            "id": "recMbqMyDVQ8RAOZW",
+            "name": "黃鸝觀測調查"
+          },
+          {
+            "id": "recMEF17cWeL8c4CC",
+            "name": "家燕繁殖調查 Barn Swallow Breeding Survey"
+          },
+          {
+            "id": "recm2JQFkhxcqT6jq",
+            "name": "山麻雀大普查"
+          },
+          {
+            "id": "reccX0gdvFVCzt5aI",
+            "name": "台灣猛禽回報系統"
+          },
+          {
+            "id": "recxJWHZbiMdXDCek",
+            "name": "嘯鷹報報"
+          },
+          {
+            "id": "recBn5hnky4jV8Qbi",
+            "name": "尋找，紅冠水雞計畫"
+          },
+          {
+            "id": "recoRWnntW7EEal39",
+            "name": "土豆鳥大集合 - 雲林小辮鴴普查"
+          },
+          {
+            "id": "recrEc0Qd7iTbYno5",
+            "name": "冬季菱角鳥水雉調查"
+          },
+          {
+            "id": "recugtYTM4Kdtyptd",
+            "name": "墾丁秋季過境猛禽調查"
+          },
+          {
+            "id": "recwiH7sXIhPaCbAJ",
+            "name": "台灣鳥類生產力與存活率監測 MAPS Taiwan"
+          },
+          {
+            "id": "recQ3WWQ3hV8bw6SV",
+            "name": "灰面鵟鷹調查"
+          },
+          {
+            "id": "recQ6EGHcNL0hnvLC",
+            "name": "鳥類食性"
+          },
+          {
+            "id": "recTvYRC1MSqeQjdX",
+            "name": "臺灣新年數鳥嘉年華 NYBC Taiwan"
+          },
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          },
+          {
+            "id": "rec7Xt8Wiq2ytpQ4X",
+            "name": "台灣BBS 臺灣繁殖鳥類大調查"
+          },
+          {
+            "id": "rec7DNOa15d6xCGrn",
+            "name": "公民科學埤塘鳥類生態調查"
+          },
+          {
+            "id": "rec3WbtwX4I5SSD6g",
+            "name": "黑冠麻鷺目擊回報"
+          },
+          {
+            "id": "recJwd6DcPNlMtfwp",
+            "name": "黑冠麻鷺同步普查回報"
+          },
+          {
+            "id": "recl4WNtP9plSGtG4",
+            "name": "xeno-canto 鳥音"
+          },
+          {
+            "id": "rec5v80CmlZSqOHWd",
+            "name": "東亞澳遷徙線水鳥觀察記錄回報網"
+          },
+          {
+            "id": "recWsgRmiv5wrPiou",
+            "name": "臺灣鳥類繫放資訊網"
+          },
+          {
+            "id": "recR0ajtnUzNiQGHO",
+            "name": "蒐集高爾夫球場的魚鷹出沒記錄"
+          },
+          {
+            "id": "recadxibaLPJ7AyVt",
+            "name": "全台黑鳶黃昏聚集同步調查"
+          },
+          {
+            "id": "recIljQQhWcT95xdd",
+            "name": "水鳥足旗回報社團-尋旗覓環"
+          },
+          {
+            "id": "rec2VPqestg7rBTWp",
+            "name": "TRBC 淡水河流域同步鳥類調查 Tamsui River Bird Count"
+          },
+          {
+            "id": "recrSTAYUnZHPiHvr",
+            "name": "啣魚鳥生-臺灣海鳥食性調查平台"
+          },
+          {
+            "id": "recPOciU30Sd3kUQF",
+            "name": "美濃水雉繫放回報網"
+          },
+          {
+            "id": "recB3EYIxbbMQ5jx6",
+            "name": "基隆河鸕鶿網(包括淡水河流域)"
+          },
+          {
+            "id": "reca6d0WuIGcH3k4X",
+            "name": "東方環頸鴴｜例行鳥蛋調查"
+          },
+          {
+            "id": "recQlEFhkOQvxWsV0",
+            "name": "川流之島流域學校"
+          },
+          {
+            "id": "recwVM09if5Bgmts8",
+            "name": "燕巢調查"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recuagzipeYY3ycTl",
+      "createdTime": "2021-07-03T22:52:19.000Z",
+      "fields": {
+        "細項標籤": "生物-刺胞動物門/珊瑚礁/水母",
+        "數量統計": 10,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rectdIppM1tij3d1G",
+            "name": "台灣珊瑚白化觀測平台 Taiwan Coral Bleaching Observation Network"
+          },
+          {
+            "id": "receQaj33lxHjyFA9",
+            "name": "臺灣珊瑚礁體檢計畫"
+          },
+          {
+            "id": "recRFtch4WlMgSr6I",
+            "name": "花蓮新社部落發起海洋珊瑚礁監測"
+          },
+          {
+            "id": "recSwzidtxBkcQhqS",
+            "name": "調查澎湖珊瑚覆蓋率"
+          },
+          {
+            "id": "recEYkLjpwtnYEcpU",
+            "name": "Surf ＆Jelly"
+          },
+          {
+            "id": "recd1MGSgbyBttEnT",
+            "name": "咾咕嶼生態調查員"
+          },
+          {
+            "id": "recvlYfmSHmCGneDe",
+            "name": "Coral Watch"
+          },
+          {
+            "id": "recVu0FZU6fsqFtEc",
+            "name": "光影珊瑚 Coral of the Day"
+          },
+          {
+            "id": "recWWikwHed7mGEUt",
+            "name": "Coral Net 珊瑚底質監測"
+          },
+          {
+            "id": "rec8vQsjuotOLbYb9",
+            "name": "Calling in our Corals"
+          }
+        ],
+        "補充參考": "https://zh.m.wikipedia.org/wiki/%E5%88%BA%E8%83%9E%E5%8B%95%E7%89%A9%E9%96%80"
+      }
+    },
+    {
+      "id": "recLCUnUEfAYwzgV6",
+      "createdTime": "2021-07-03T22:52:57.000Z",
+      "fields": {
+        "細項標籤": "生物-節肢動物門/昆蟲/螃蟹/鱟/蚊/擬蠍",
+        "數量統計": 32,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec6zv1e7leCuLiPI",
+            "name": "Let's 探索家中昆蟲"
+          },
+          {
+            "id": "rec5AcJ0h6oELnPNu",
+            "name": "螢火蟲出沒地點蒐集"
+          },
+          {
+            "id": "rec4ZY1FbbZnK2DxQ",
+            "name": "NTU 校園荔枝椿象回報"
+          },
+          {
+            "id": "recJx6AnxhDyMudQu",
+            "name": "掌蚊人"
+          },
+          {
+            "id": "recgb6972BlctMtP4",
+            "name": "台南待孳清空地空屋回報平台"
+          },
+          {
+            "id": "recFgyhH8jniI8BbZ",
+            "name": "蛾類-山屋回報"
+          },
+          {
+            "id": "reccsanEW5DTJ9Pa2",
+            "name": "特生中心社區蝴蝶調查"
+          },
+          {
+            "id": "receuClABp7Sqkily",
+            "name": "白蟻樣本採集"
+          },
+          {
+            "id": "recpCy57h0MkP2qkw",
+            "name": "農業試驗所應用動物組金花蟲研究"
+          },
+          {
+            "id": "recLV2hp6xK3qQnXC",
+            "name": "台灣蝴蝶閃電調查"
+          },
+          {
+            "id": "recNqdfpXIFU3Ilcu",
+            "name": "衣魚樣本採集"
+          },
+          {
+            "id": "recOn6zLdCo8nfecG",
+            "name": "臺灣蛛式會社"
+          },
+          {
+            "id": "recQ8cTvOcOAfT98u",
+            "name": "慕光之城 / 臺灣飛蛾資訊分享站"
+          },
+          {
+            "id": "recTuVq9jFvrLPERH",
+            "name": "Bee Informed Partnership's Citizen Science Programs"
+          },
+          {
+            "id": "recZdwnKI6D5Hh2F5",
+            "name": "TOA 臺灣蜻蛉目學會"
+          },
+          {
+            "id": "recqWxz4nmC75W3yK",
+            "name": "淡水河畔的公民科學家-華江溼地螃蟹監測"
+          },
+          {
+            "id": "recKOo5NtVyZTLb8a",
+            "name": "鱟繼有人 / 台灣鱟通報網 / 臺灣鱟保育網"
+          },
+          {
+            "id": "recMcT4YkK3PxjbdU",
+            "name": "香港水域之海馬及成年海鱟記錄蒐集"
+          },
+          {
+            "id": "receAhFU1g3ZoxBCy",
+            "name": "成功之道鱟來居上"
+          },
+          {
+            "id": "recTh5abxdMpFeSKG",
+            "name": "高美護蟹去"
+          },
+          {
+            "id": "recK1AX2BSXeIgkSA",
+            "name": "腐木食性昆蟲"
+          },
+          {
+            "id": "recTKzpjjZnCTDNG6",
+            "name": "台灣金花蟲社團"
+          },
+          {
+            "id": "recCCFf32TmyZK3Wv",
+            "name": "Horseshoe Crab Cooperative Tagging Program"
+          },
+          {
+            "id": "recqBmWPl9VVWXw9v",
+            "name": "「全民登革熱AI防治」LINE Bot聊天機器人"
+          },
+          {
+            "id": "rec4NebJWilAMtsY4",
+            "name": "臺灣的擬蠍 Pseudoscorpiones of Taiwan"
+          },
+          {
+            "id": "recrSTAYUnZHPiHvr",
+            "name": "啣魚鳥生-臺灣海鳥食性調查平台"
+          },
+          {
+            "id": "recrm6YMbYI7VhVpX",
+            "name": "抱卵母蟹繁殖季 - 檢舉捕抓販售"
+          },
+          {
+            "id": "recnYJgSXE3xQJ7la",
+            "name": "紅火蟻防治中心通報網頁"
+          },
+          {
+            "id": "rec1ZvIdjpdwemtsu",
+            "name": "全民參與植物疫情通報：琉璃粗腿金花蟲"
+          },
+          {
+            "id": "recKvlfhAFPqbBqnC",
+            "name": "全民參與植物疫情通報：光肩星天牛"
+          },
+          {
+            "id": "recud1TbCe4KcPaWP",
+            "name": "全民參與植物疫情通報：龍眼雞"
+          },
+          {
+            "id": "recRnGOPFlu9RwHKv",
+            "name": "FlyTunes 路邊噪音對於昆蟲的影響調查"
+          }
+        ],
+        "補充參考": "https://zh.wikipedia.org/wiki/%E8%8A%82%E8%82%A2%E5%8A%A8%E7%89%A9"
+      }
+    },
+    {
+      "id": "recmrjHtjfnJIx8CN",
+      "createdTime": "2021-07-03T22:54:02.000Z",
+      "fields": {
+        "細項標籤": "社會文化-產業-漁業",
+        "數量統計": 3,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recISpTvBwvA1UaXU",
+            "name": "卸魚申報APP"
+          },
+          {
+            "id": "recDiscxT1rJd03T3",
+            "name": "愛鯊計畫 / 愛鯊DNA檢測計畫"
+          },
+          {
+            "id": "recrm6YMbYI7VhVpX",
+            "name": "抱卵母蟹繁殖季 - 檢舉捕抓販售"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec6ZHA9PDVtTNicU",
+      "createdTime": "2021-07-03T22:56:44.000Z",
+      "fields": {
+        "細項標籤": "生物-脊索動物門/兩棲類/蛙類",
+        "數量統計": 4,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recc4IjU7skNVG56S",
+            "name": "愛蛙哇行動APP / 青蛙叫聲辨識行動APP "
+          },
+          {
+            "id": "rec1m6NsUn82dcsT7",
+            "name": "帶景兩爬"
+          },
+          {
+            "id": "recS4BjalNqECPur7",
+            "name": "兩棲類資源調查網 / 臺灣兩棲類資源調查計畫"
+          },
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recIQ3DNzgQhu94Zp",
+      "createdTime": "2021-07-03T22:57:52.000Z",
+      "fields": {
+        "細項標籤": "生物-脊索動物門/爬行類/蛇類/龜類",
+        "數量統計": 5,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec1m6NsUn82dcsT7",
+            "name": "帶景兩爬"
+          },
+          {
+            "id": "recaKh1lpUUGgVlGj",
+            "name": "這是『蛇』麼東西，台灣蛇類志工調查"
+          },
+          {
+            "id": "reclZ9xDZOBI6Wcsn",
+            "name": "見龍在田"
+          },
+          {
+            "id": "rec82j7Hfz9rueqGr",
+            "name": "台灣爬行類回報 Taiwan Reptile Report Program"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec57nf92CCaOMD4A",
+      "createdTime": "2021-07-03T23:05:27.000Z",
+      "fields": {
+        "細項標籤": "生物-環節動物門/蚯蚓",
+        "數量統計": 1,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recV1wdP5R9YNyX0Y",
+            "name": "Alberta Worm Invasion - Worm Tracker"
+          }
+        ],
+        "補充參考": "https://zh.wikipedia.org/wiki/%E7%8E%AF%E8%8A%82%E5%8A%A8%E7%89%A9%E9%97%A8"
+      }
+    },
+    {
+      "id": "rece9nGlZobbQsOBQ",
+      "createdTime": "2021-07-03T23:07:24.000Z",
+      "fields": {
+        "細項標籤": "生物-軟體動物門/頭足類/螺/福壽螺/蝸牛",
+        "數量統計": 4,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recesoXBUpcN7hYiE",
+            "name": "全面網螺調查計畫"
+          },
+          {
+            "id": "recyMjYq4EqrrACsV",
+            "name": "蝸蝸園 － 台灣陸生蝸牛交流園地"
+          },
+          {
+            "id": "recW29Y5rKPVJlbeg",
+            "name": "農田裡的科學計畫-水田福壽螺防治方法與推廣"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          }
+        ],
+        "補充參考": "https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BD%93%E5%8A%A8%E7%89%A9"
+      }
+    },
+    {
+      "id": "recG13oGvZJQiIhRl",
+      "createdTime": "2021-07-03T23:12:40.000Z",
+      "fields": {
+        "細項標籤": "生物-死亡或受傷狀態通報 / 路殺 / 毒鳥回報 / 油污鳥類回報 / 砍樹",
+        "數量統計": 19,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          },
+          {
+            "id": "recCIMYlKrMlW4utu",
+            "name": "Japan Roadkill Observation Network（路殺社日本Ver.)"
+          },
+          {
+            "id": "recEQJNylyA9bPLNu",
+            "name": "Roadkill Tas"
+          },
+          {
+            "id": "recdRY8JC8LAMMqGq",
+            "name": "Hong Kong Road Kill 香港路殺"
+          },
+          {
+            "id": "reczd0yI8vfBzd3SF",
+            "name": "澳門路殺社 Macao Roadkill Observation Network "
+          },
+          {
+            "id": "reccnZeowwENSk7XK",
+            "name": "野鳥撞玻璃回報"
+          },
+          {
+            "id": "recVcI3fEWKAWHu3y",
+            "name": "韓國窗殺社團 야생조류 유리창 충돌"
+          },
+          {
+            "id": "recyKjFQzq0aYkUX8",
+            "name": "寂靜的秋天-農地毒鳥回報"
+          },
+          {
+            "id": "recQiLhMDGqqWXKyg",
+            "name": "新北石門油汙鳥類回報平台"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recIFcBktMnSano7b",
+            "name": "新加坡路殺通報"
+          },
+          {
+            "id": "recaqxSZzo6mrtEPT",
+            "name": "塑殺社"
+          },
+          {
+            "id": "recTh5abxdMpFeSKG",
+            "name": "高美護蟹去"
+          },
+          {
+            "id": "recYsPqOVg4PqSXUf",
+            "name": "Tucson Hates Trees"
+          },
+          {
+            "id": "recBS7ZdePz5Q2fsx",
+            "name": "樹保寶 / 樹殺社"
+          },
+          {
+            "id": "recmme7I63gVCh24m",
+            "name": "台灣野生鳥類緊急救助平台"
+          },
+          {
+            "id": "recCUNdoAWm9MW5CN",
+            "name": "台灣野山羊穿孔疥癬蟎疫情回報"
+          },
+          {
+            "id": "recDtM1P5fLQ7c9Pt",
+            "name": "野生動物急救站  - 野生動物屍體樣本蒐集"
+          },
+          {
+            "id": "recKQBaanJyoM2XUV",
+            "name": "塑殺社"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recke7WpTelXB0qfi",
+      "createdTime": "2021-07-04T10:39:19.000Z",
+      "fields": {
+        "細項標籤": "社會文化-照護/食物銀行",
+        "數量統計": 2,
+        "分類": [
+          "社會文化與生活慣習",
+          "實質資源捐助與分享"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec34cZnaYvEjXe8v",
+            "name": "Be My Eyes"
+          },
+          {
+            "id": "recFphS5v88vaNwc6",
+            "name": "食物銀行募集共運平台Line社群"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recjEsLffhENAUs01",
+      "createdTime": "2021-07-05T15:48:41.000Z",
+      "fields": {
+        "細項標籤": "生物-脊索動物門/哺乳類",
+        "數量統計": 20,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec1hqHD9YFVrrrU9",
+            "name": "獺足金門"
+          },
+          {
+            "id": "recqBJb5rosis3q7d",
+            "name": "iBeaver 河狸回報系統"
+          },
+          {
+            "id": "recYjOY8CyTMXWFVu",
+            "name": "臺灣白海豚目擊回報"
+          },
+          {
+            "id": "recIwCmKO6CSvvrFg",
+            "name": "WhaleFinder 尋鯨任務 app"
+          },
+          {
+            "id": "recV4U2dorUW9X8Mq",
+            "name": "鯨豚戶口調查- 花紋海豚 /  瑞氏海豚戶口調查"
+          },
+          {
+            "id": "recKYN9tiVlB3zS9f",
+            "name": "熊出沒通報系統"
+          },
+          {
+            "id": "recC5kwbstqDckud9",
+            "name": "黃喉貂目擊記錄回報平台"
+          },
+          {
+            "id": "rectskmCdQUkg2qfR",
+            "name": "台灣BBS 臺灣繁殖鳥類大調查-獼猴調查"
+          },
+          {
+            "id": "recJJxYWicbJk9jae",
+            "name": "蝙蝠超音波錄音調查"
+          },
+          {
+            "id": "receXagEgGUjKZllI",
+            "name": "城市狸貓回報網 City Civet Reports"
+          },
+          {
+            "id": "recCUNdoAWm9MW5CN",
+            "name": "台灣野山羊穿孔疥癬蟎疫情回報"
+          },
+          {
+            "id": "recF2ME6b3ixQwErL",
+            "name": "Eichhörnchen in Bayern 松鼠調查"
+          },
+          {
+            "id": "recZMhQM5vTurPjB4",
+            "name": "鰻管大搜查 - 順手撿鰻管、救救僧海豹"
+          },
+          {
+            "id": "rechTv2bgNB2xiWw9",
+            "name": "玉山國家公園建置的臺灣黑熊通報網頁"
+          },
+          {
+            "id": "rec7A5oQ6CHnB0eAh",
+            "name": "欸x!穿山甲耶要不要通報"
+          },
+          {
+            "id": "recxtVdngTK5sF0Bd",
+            "name": "臺灣花蓮近海賞鯨之鯨豚觀測紀錄"
+          },
+          {
+            "id": "recN1s22eVz0iGF8n",
+            "name": "台灣東部海域鯨豚聲學特徵數據庫"
+          },
+          {
+            "id": "recNiPhjN7ILySUa4",
+            "name": "蘭陽鰭跡"
+          },
+          {
+            "id": "rectJYAfvEfAiJH6D",
+            "name": "大翅鯨回報"
+          },
+          {
+            "id": "recH3obZJVNDmwE6w",
+            "name": "貓咪躺躺計畫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recyKI1kvLrgP5PWK",
+      "createdTime": "2021-07-05T15:49:51.000Z",
+      "fields": {
+        "細項標籤": "生物-脊索動物門/魚類/鯊魚/魟魚/海馬",
+        "數量統計": 9,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recR67JtJ5hPTJJg4",
+            "name": "鯊魚魟魚目擊回報 Shark and Ray Sightings"
+          },
+          {
+            "id": "recC7ST6eehZGM2Mw",
+            "name": "尋找豆丁海馬"
+          },
+          {
+            "id": "recu6K46QOZna1Isc",
+            "name": "De visdeurbel"
+          },
+          {
+            "id": "recyOBahjPKx6GHSP",
+            "name": "深溝釣魚大賽 / 調魚大賽"
+          },
+          {
+            "id": "recmgdTgiPbRIOSBA",
+            "name": "垂釣回報資訊 / 垂釣成果回報 / 釣訊情報員"
+          },
+          {
+            "id": "recMcT4YkK3PxjbdU",
+            "name": "香港水域之海馬及成年海鱟記錄蒐集"
+          },
+          {
+            "id": "recrSTAYUnZHPiHvr",
+            "name": "啣魚鳥生-臺灣海鳥食性調查平台"
+          },
+          {
+            "id": "rec5yHvEB8ffkq98L",
+            "name": "綠島釣查計畫"
+          },
+          {
+            "id": "recKQBaanJyoM2XUV",
+            "name": "塑殺社"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recmoIkTKC5ykrEmy",
+      "createdTime": "2022-03-18T09:32:23.000Z",
+      "fields": {
+        "細項標籤": "社會文化-媒體識讀 / 防詐",
+        "數量統計": 2,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "reck2fSYJprxgJAWs",
+            "name": "Cofacts 真的假的"
+          },
+          {
+            "id": "recSswXWOnbRFUonN",
+            "name": "165 全民防騙網-檢舉詐騙廣告"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recgLSTM2YeYA8a3S",
+      "createdTime": "2022-05-20T05:39:25.000Z",
+      "fields": {
+        "細項標籤": "環境-人孔蓋",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recXNRrmRdUY4ObNh",
+            "name": "日本各地-人孔蓋市民踏查"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recwLIxtYkW7o9O3I",
+      "createdTime": "2022-05-23T11:33:43.000Z",
+      "fields": {
+        "細項標籤": "社會文化-地名建議",
+        "數量統計": 2,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recKdcJQNPekbxuMk",
+            "name": "地名資訊網 - 地名建議"
+          },
+          {
+            "id": "recwe3AhA1dECVDSx",
+            "name": "母語地名故事 - 創建地名"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recOq5RPdplrzE8s7",
+      "createdTime": "2022-08-11T08:15:35.000Z",
+      "fields": {
+        "細項標籤": "社會文化-文字 / 語言 / 發音",
+        "數量統計": 5,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recOtrkIjrtCljfVo",
+            "name": "守寫字"
+          },
+          {
+            "id": "recNwsjUyaGcIAitR",
+            "name": "iTaigi"
+          },
+          {
+            "id": "rec2GLLDQxSRrSzDZ",
+            "name": "Common Voice"
+          },
+          {
+            "id": "recy6DCCnJw1MeH0p",
+            "name": "臺灣新詞徵求「新詞查詢」網站"
+          },
+          {
+            "id": "recQpOyOwFZ0v207s",
+            "name": "Phonemica 鄉音苑"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recmDZgAM7WiAKQf9",
+      "createdTime": "2023-02-09T06:05:15.000Z",
+      "fields": {
+        "細項標籤": "環境-地理資料",
+        "數量統計": 2,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec6HTFfZOOPXKrTL",
+            "name": "Open Street Map"
+          },
+          {
+            "id": "recj7MxcXNxZTzk1T",
+            "name": "HOT Tasking Manager 開放街圖繪製工作特定任務區"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recy7kl2Pb7Cr7lQ6",
+      "createdTime": "2023-02-09T06:12:05.000Z",
+      "fields": {
+        "細項標籤": "環境-照片 / 實體老照片",
+        "數量統計": 2,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recgA6rG3jvcuyjai",
+            "name": "Wiki Shoot Me"
+          },
+          {
+            "id": "recTUdli4f81BXSJi",
+            "name": "歷史影像平台 / 災害歷史照片平台"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recxzlQrX9mJZMtWH",
+      "createdTime": "2023-02-25T13:59:39.000Z",
+      "fields": {
+        "細項標籤": "環境-光環境/暗空",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recaN51CUyXEG8vQW",
+            "name": "照明偵探團"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recHxtSV8nDUzc2v2",
+      "createdTime": "2023-02-27T12:37:41.000Z",
+      "fields": {
+        "細項標籤": "環境-地質景觀",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recMWa6h66rdtrOzw",
+            "name": "ROCKD"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recQJXwXSgXUa1vNU",
+      "createdTime": "2023-02-27T16:11:31.000Z",
+      "fields": {
+        "細項標籤": "社會文化-文化創意",
+        "數量統計": 1,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recDBkc64TPcwByaQ",
+            "name": "吉祥物基本資料蒐集"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recChqUsJWAkcdEip",
+      "createdTime": "2023-02-28T06:35:46.000Z",
+      "fields": {
+        "細項標籤": "生物-真菌界-包含菇蕈",
+        "數量統計": 1,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec1gfzXfujY8Q2AP",
+            "name": "野菇生態調查 照片分享社團"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reczSNNJy37JNqvhG",
+      "createdTime": "2023-03-03T06:14:16.000Z",
+      "fields": {
+        "細項標籤": "社會文化-回收品與資源循環",
+        "數量統計": 2,
+        "分類": [
+          "社會文化與生活慣習",
+          "實質資源捐助與分享"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recdJXfeYp8L94v0y",
+            "name": "把回收拿給阿公阿嬤"
+          },
+          {
+            "id": "recvCZ2e4bMQbvnCQ",
+            "name": "我們一直在「丟東西」各行業的土地友善之路"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recYukLJdnILgRumc",
+      "createdTime": "2023-03-25T09:19:12.000Z",
+      "fields": {
+        "細項標籤": "環境-道路",
+        "數量統計": 8,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recNd61KVsNdYZoF2",
+            "name": "台灣路更平"
+          },
+          {
+            "id": "recg4LVSlSYjRSLQ7",
+            "name": "路噴社"
+          },
+          {
+            "id": "rechrA9q0fNA6d7eN",
+            "name": "路拍社"
+          },
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          },
+          {
+            "id": "recPRuK37MkgclWBh",
+            "name": "平安走路許願帳戶-行人庇護空間"
+          },
+          {
+            "id": "recM6QQ2GIgqEq0jT",
+            "name": "水邊散步 - 圳路棲地評估"
+          },
+          {
+            "id": "recRnGOPFlu9RwHKv",
+            "name": "FlyTunes 路邊噪音對於昆蟲的影響調查"
+          },
+          {
+            "id": "recVywHKRXxRI6huM",
+            "name": "重機車友 ❘ 各區路況天氣、資訊分享中心"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec1BrI5IpyOdb1il",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec4cwuPYTxRasw7V",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec5jZPAdghtrBl5Z",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec5WDzgJv4XxMZak",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec6iQCF2TCWryceM",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec9A4WD7OWihXEsV",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec9DiQLeiwZMlfve",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec9EJCYocXcMtbtV",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAMf9doSMx5XRgf",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recb6nOTyJzuPcT6X",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recbbY8okRkJYbREQ",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recBdWPO7Sx2E6GLP",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "細項標籤": "環境-噪音",
+        "數量統計": 4,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recPz4DCnpqJgJ6sI",
+            "name": "聲感地圖現行錄"
+          },
+          {
+            "id": "recmMsvkCAUm3nmFb",
+            "name": "尋找 55 分貝靜土 / 聲音盒子"
+          },
+          {
+            "id": "recRnGOPFlu9RwHKv",
+            "name": "FlyTunes 路邊噪音對於昆蟲的影響調查"
+          },
+          {
+            "id": "recKl5yg4poyiwT2G",
+            "name": "台灣聲音地圖計劃"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recbjdt3yQf16hT0t",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDuQY1WhFRFpvmm",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recfJL38vgQel0gNH",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recFxdSIYE0MgTH2n",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recgAUsWxqiMWrFtt",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recGiOCRR2FqDauii",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recgr5JNwwZcXFO52",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recHJLckgqi31N1DV",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recHLPyYPwq9XjZMI",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recHM701mWwi8nXDT",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rechRvhlIjmJnXYyU",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rechwq65lmPo5Lp4s",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reciDJyenJ4sUvWZJ",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recixUSAfKbaW9DGS",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckcJje5z5Q4frtA",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckjFpmkDD4vOBk3",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recLxPjVYZwp6OkGA",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recM4Am2lDo3lWJ2H",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recmHzVgOYfslaZeX",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "細項標籤": "生物-名錄資料整理",
+        "數量統計": 2,
+        "分類": [
+          "生物調查"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recyrkEBmzmmWyFtd",
+            "name": "TaiCOL名錄資料協作志工"
+          },
+          {
+            "id": "reciGdwsbesPSqq01",
+            "name": "群眾找樹 / 巨樹地圖"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recOdBeYqk22qQUut",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recPsEAFuC0gvjnyq",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recrNrVCqrqaAeZG4",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSRyaudiX7GjjnJ",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSxmMEfB3EecAZn",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rectGJgBxyQu9ye3C",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "細項標籤": "治安-巡守活動",
+        "數量統計": 1,
+        "分類": [
+          "治安與緊急應變"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recTCAovMzGOALuvd",
+            "name": "[主題蒐集]「飼主+犬」的巡守志工活動"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recubWoTY3CVFYHTJ",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recuGX3uDrEBbHyFa",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recW57GTkcDH7mjM1",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recWH6mnQYTze5Vqj",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recWPRfJE6vZgW8GK",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recwv56VMT58bl3sI",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "細項標籤": "環境-AED 裝置",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recx1NM4GzJojFkMl",
+            "name": "聽見AED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recxIHaP43uwRNgW3",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recXsvwRtSgFLG0o0",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "細項標籤": "緊急應變-救護媒合",
+        "數量統計": 2,
+        "分類": [
+          "治安與緊急應變"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recJaivwghYurocw0",
+            "name": "急救先鋒 APP"
+          },
+          {
+            "id": "recx1NM4GzJojFkMl",
+            "name": "聽見AED"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recxYELNzqo49npXu",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reczG1EkkM24l96By",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reczSiL7cSyfXaud1",
+      "createdTime": "2023-03-25T09:19:13.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "receOFfl4CVVG9cEa",
+      "createdTime": "2023-03-25T09:19:17.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0EQnA4Ko5N3pUS",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0sl4VsWVGmeRSb",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0SuOxA8qjC1Rth",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec4gYwED3YN1e2sY",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec4JsSKpc8vsFvwD",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec6V9lkxYayX4BjB",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recA1YWxMqmJaAuFq",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recALms6VmbYh1LIR",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recB56CcyL3BXZE97",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recb9jnFwxX7G2Xp6",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recb9zj6KmwIZc47y",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recbJtICZ2cnjzqZS",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDGoczOuVJINy72",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDMi5AZ8jgDeOCg",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recegHf3UmMKVjg2g",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recfjrpL8aAae3iyd",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recG8Pufxipxzmne8",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recGepfbPdHYRMPsx",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckGMuGBoBW7Alte",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckh9L5BrTpDjR72",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckNo77oJIb5MRqb",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recktPJT1MKjupZOG",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recloweaPzKelMlyt",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recM0tLVqKlnD7Qug",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recMaNCoVpgdk3V0U",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recmYsb33pqw6UG44",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recmZ985Hce1G2Slh",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recNS6GNzB4Fr7Reb",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recnyTPE33Z1zpgl9",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recoBRi9mZFhzbBKV",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recP3qK9R0T6Wg7wW",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recP9d0rfDgMtN9uI",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recq4Tg2BTdWMqm8g",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recRvrIoziPv0Strn",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSmT3LzmZ1kz99g",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rect64u2OApfBk1OW",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTjXNdRH7ozIjB5",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTK07jzFmQk7nTU",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTsNHs49DqFi1co",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recvb4q5Cja8afT4r",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recvleKSnGwEw08Cr",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recWtKKvS3QF5vQnu",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recxY9EG8I2bjWrY2",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recy2UEKmAZlzWPNl",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recyEVJbc7EBXLkxP",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recyhiZ1EaQuF3Qhu",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recyRbZ9m8TlNX3Xj",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reczNxKsxOCeJGHCe",
+      "createdTime": "2023-03-25T09:19:18.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recpYMKfbLaQizY4b",
+      "createdTime": "2023-03-25T09:19:23.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec18w6zBolZjHClM",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec1cd42VrgjaHu9e",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec5VBp6CVqlynlgR",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec6ioBKN737gvoWs",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec6YvauUlR1MnVOx",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec7bB3I3XzmSb1SH",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8r9T4GaewFc7g0",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec9hM3FEYjERazZD",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAA1SSqvjW5loU8",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAHQnOjChU5b24Y",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recanvk2TCS80hlz2",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recbaXrFSDp9SRAJ5",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recBOOlNfCV87Cj9S",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reccFUkPuffT2Y3F8",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recdZXVd7eDDThGn2",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recgzVuwG8cSG8ORv",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rechjDPrtPnSKLEMI",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recHtFuPZgJcOUKB4",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rechZFNoHNtVBe0Rl",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckjZYupk48yWEHu",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckOMlQ9UUheqVVY",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckZTsbz4LGynV0D",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recLLSVPHEQZ2FZIa",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recOog1tu5CQ6U7W8",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recov9hjy73eNq36s",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recoyZipuyIISGUrQ",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recph1dCYzqCnbXBu",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recPrGMvyR5SKD4i6",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recqd4Sr4Xl6u2j5O",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recrAtQJipx5V04mH",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recrZAnL2ARWKQL48",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSCezP0JLn26uJy",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSNdQSlCMh7jHey",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTZAVNAkCIDiorT",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recu8VTCNd1XliwJw",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recux1yTi4w3snQ93",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recV12ekHs23Rr90a",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recVaJ3PyPQhZxYsM",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recVB9Co4vovRFtmc",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recvMthgRbIeJS7sP",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recvO9ihrmujzL2op",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recvxHTT2ot3bJSZn",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recwhj0z1ND9QiXYL",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recWSK8QkUCErA8S7",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recXVE9brMCde6cno",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recz5VohXbaagvZFc",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reczCfg6IjeYKskfM",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZSTCOm8tmpw2sg",
+      "createdTime": "2023-03-25T09:19:25.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recjUEgT69oNMlluX",
+      "createdTime": "2023-03-25T09:19:37.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0dX5OUuCCW6hZB",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0E9g5YmrHDTHeL",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0tHFD1ZaDxVW2l",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0YLGFjyZwUhvqT",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec11fQ2K2tfeZPmR",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec14AKdndYRlbSXk",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec14RKY1D8evdKFO",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec1fvLo9VgJkeozD",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec1GOtMJk8YAQuAf",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec24XZW9ogrh0AUF",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec2fzTSOI1TvCUQw",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec2n1X3y1vJ1Opcm",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec3ktSnfYFxsNfI7",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec3odH2ZbBHdiWep",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec41bSxE2DG6fbZR",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec4EU9zNWxbGQSaF",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec4uxJFJDPLGQ603",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec5ABEhLbQvIMIfF",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec5aWXgyrn5di5OS",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec6KFA0OxxDJzxqq",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec6Sk04wmqyLrYcR",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec6smod5k5cYUtJY",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec71omFS2TbfaY6f",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8jiKckolOpSMfj",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8kaR6DUowUuIJk",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8lAEWye0i0hiQ2",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8qkC0RU9gJ6ryB",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8uCTCf0xa9FESO",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8WeNsEixC7Y6Gg",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8Yk6ymoYKEvAZV",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec99BmezCZF3CJwE",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recA3THjGHFGcFAdX",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reca5xraWap8LajvP",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recA6l3MKthYZWiuq",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recA85nsqmqrhxjrl",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recABzeMiCCAdXjoj",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAf9mPBBQBy6BOC",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recb2wF95wYnuQrAc",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recb3kcTxbV2A6816",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recbnlfdq1SMaKnln",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recBNu0DCCoohdbnF",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recBZmEfdhsMuu69H",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recc1OHMsl1dvbjbj",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recCG6EcaY17Zo6EZ",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reccKCkJe5x0YgKYZ",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reccYIMLVw1NJAhXz",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reccywDfL5tiNBcct",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recCZAv5lcj0bkCVW",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDM16765QcCcleS",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recdTO767ac6CBJKX",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDTsUqjQfh5DoL7",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recE8AscBt9GYsZuC",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recEc2LJWM2MFTfKx",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recedgqcsSTkrtexK",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "receU0p5F50gQTQQ9",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "receVOAbOsf5mZ2sz",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recexgnCeJ3Lm6vVe",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recFb6mP0EvlSrngu",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recG9DmZ1hF1OWQB2",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recgFzA6xAhCm8C7q",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recgOQwIKbK75XV81",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rech9ZY9i7sSIYI63",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rechg0t4lxAmD11CG",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reci7k4JsulTxrJpZ",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recINn3Y1uEzd9dPQ",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reciU32WkwOqaldJn",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recIxWNnrWiCcWcf4",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recIYAqPnL17Zs1dg",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recj31ai85IDAcwaP",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recjCRsgffEd4EHjS",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recjEi8Mm1hKrRzQk",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recJHqn50fzudOnPQ",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reck30zhL4VQsUzXd",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reck6LWWwJSUIUd7N",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recKIdP6oPFWglVAI",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recKOWnTDoGinqAAj",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckt3Q859qtztOxH",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recKY7GG3xNSOh68X",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recl52xOO46TsB5mi",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recLAFF8g0vMUAQSD",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reclFuE2VfhrHiTXN",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reclM1fWNMIvgCDu8",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reclwaScgbXJCEFaN",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recm63zrlQmbZoxgB",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recmDu9BYulwjLfbD",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recmmNEjOgwaqcacL",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recMoKglzADvxy2Du",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recmS3S0Zma3HPJL2",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recn0DCNw88GmHcHA",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recO4jSRk2DISE0LV",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recokwSGu1q8fXPUL",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recPbsGJKwKe1VWcA",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recPEl5rx1gvafDlz",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recPhPbDgb1njOE8W",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recpL2XIm5eE7Fz1P",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recppIlrwPfxWGAL6",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recpxvxsvy72TaBox",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recQASfvTbDZDTDHf",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recQbWIJ1oRXCzVXq",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recqNJco0w9U6OjKc",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recr5HYcgDkREbXSS",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recRalfaEwU7Lxrxa",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recRLXlL3cxM4CU6g",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recroUVVTssRq7SSB",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recRQTTKnAFX1NCco",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recRUtb2zx2MgYR6N",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSC1mkohmLwvhv1",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rect2n3BNdxsByX8E",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rect9PRtD4ZvO9a4t",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rectOHsOzSOvOLy7c",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rectrqE9nTNp2DcZf",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTSSd2IOiaNiUY4",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rectZr77RIQyXJSh8",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recU3G8kYRb20cN0g",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recu4cesSWlKCUMqL",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recu70zQCjfay2XfD",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recUC2L9rZ1J559ln",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recudN7nit3DzcbYH",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recuJqoPNsVU69zIY",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recuJyhzGighoMUbB",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recup8eEjsTBAOr7q",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recUyKnePaASOMQfa",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recv2iN3xkPvMIfNi",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recv7Hcp4Kf1h17T0",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recvsOxeYpTaizXe5",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recwaVNKQ6DI1kcy4",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recwnL5Uc44xJjc7y",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recwsmuRrJxIaRPcQ",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recWuSWaMQbNblPAL",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recX0Ec50surubhhf",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recx3jryMyFyaGEaU",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recX9CNJEDocaEOe1",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recXcO6t7VvfSpnFd",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recXH3LNd7dq4IPql",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recxMqPfp48hfA53F",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recXmTYTbVjG5Q1aN",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recxtV4IqKanWkMan",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recxyf3siYRCfuied",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recY7e7rdDFKeApR4",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recYCyKC9WXSJaoGg",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recynNPZcmvIB8Q0L",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recz4gIhYhr2PpWDQ",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZnyONq92Z0yNk1",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reczSknOOVkJ5WheN",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZUX6UdJ0I5flKr",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZxs1hTSe4w2r5S",
+      "createdTime": "2023-03-25T09:19:38.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0DQZlOE2eWJSxa",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0Q1dLKdnxDPPSv",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec0tX2qP7kvWro9G",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec17e6F6RYUnr2zb",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec17O9lzlsHw1B8U",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec1J8S5cNvSQtbCa",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec1T9eVZs6Wx4N7o",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec27hvjeQXJMuyLF",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec28DO8dp4Dtjr7S",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec2IqhFhDj9MNYxk",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec2wgI2poiAHGNk7",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec39ZXTvmx9qg8re",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec3AV5PfIH3PLnzD",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec3jrTzTRKHwne2T",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec3lfdayPksbs0ps",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec490zEh8rbj1wII",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec4FnHlPffKw6KnF",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec4GEGZJGMpb6HBu",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec4SNcOyKdlQ7Zyk",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec5b4m0GSbfAY3dm",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec5NHRlAxyDysHxC",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec6Lo0UrV4zM0yFM",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec6YFv3OyLo57JfG",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec78fVV39h42eMWl",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec7gBzjGaZo5XvDL",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec7zW6bhUPOcXhW1",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8gdVQRoGSp0nDX",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8lUloUMdRwOfac",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec8VfbOvbTvs5bRT",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec94vm8HDuG0NjCF",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec9jGlol4jfeoDur",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec9uuRl7JVUPBRrS",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recaaPXywTyqTLj5E",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAcLG8xEsyaERDv",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAE95uo46SgYFLY",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recafeMVyM1hE83kU",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAIKmYIaQwqEtRL",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAmoOiVaHjaXtc6",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recan2318HVyX1FSB",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAOxu2zCHg5ithp",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAvQQOl0iueX1RN",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recAxt1QFiTy7thxQ",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recb5b8YaNx6Qnly5",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recB7pRLRx8jkC04a",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recB9LPUmGedS6lqv",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recbdx1URmfR5UKUn",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recbf2ucvPpeOB8yL",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recBJOdJKicbY8OVe",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recbJUP5lPq8oa7nU",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recbkMUTjOlmUBx29",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recBqLoYUUymNqjaQ",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recbsHLiSmiT8K1XB",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recc5oGvsRtpe4V3I",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recC7kHPEkExiUD3c",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recCDSA2EkevAx6FA",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reccvwMftsSykWHct",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recD2Yf8PRrbcAYwE",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recdd3e7skrYr39z9",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDePAUU3BV41rmd",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDG1QdBfX7CdYV0",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDhybXOgoG0haW2",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDnuNXEOluVIeV4",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recdr4x6sTbpMvAZQ",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recDSaeDppsAY1mOg",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recE1NpZM5MKgQnOJ",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "receCoGWl1LwjdtRo",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recegIYQ5OYK9omfV",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recEIZoR1RD7kPsgE",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recEnQjOrbOVKCdX9",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recErRlssYaf8eXqn",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recFcqUzvyVEWuKp8",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recfRMQ7hHy6uzjDZ",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recFwKvEtzle40AlW",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recG0C7s1DN7eBWBE",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recG8x4gkgsBmi62t",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recgLJ9xmzeTBQyxH",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recGMy21JFFhQdtc6",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recGnh4lVzXSgri1m",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recgOnPnaeLoRBENc",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recgSWFRAdS2gYH5f",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recgy92JT4oOgCpXR",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recH0OieIsj8QLxCT",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rechaW0pVk1Mk7xL9",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rechLKen7Luka5YXa",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rechQED8CBll9ozCN",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recHsLvn6KMNLsCLB",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reci03jHELcTQHlox",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recI2YwZ5qC4R1c23",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reciGckpBEETaNeZ4",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recItqxcjBFLJxhPl",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reciUhKse6bLHJjn9",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recix1x0Lo2KTqgQW",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recj6VLg5HSwFH48t",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recJiCeFg7vhTpnN9",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recJnyHxRTnperTvE",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recjqfr6b3bXugxyf",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recjRWeApNnRhPOsl",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recjsUgNkzTqnUoDn",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recjWJtAnk1AJBctq",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckINh69SC6pcoem",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recKkhUf0KNmgVXnb",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recKlQuGoPmh9yvPc",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reckOe3XqtPZy6Xhe",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recKq7vMUxEnQ62tT",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recKxiHlBHcMLYrPq",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recL41P7VsP0hjxiW",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recLe0CfgQ3fHfkTy",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recLPEFSsgAffRSQ2",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recmFsbj3eIFXFnYi",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recmGy5tBQRmMDWVa",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recmMoCDz8kOHmOB6",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recMZChM66XjKrqT3",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recNFhHSTCIm2ETI5",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recNl2Hl2Mk5UEsbP",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recnzTkNM7pLMqp9W",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recO8tuaIhjjKDHRA",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recoE2ghblP9TMHlt",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recoIxJ7QmlHFKCtl",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recoVEafFqgzDQFrG",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recowSDPp9mz13XLZ",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recpFz14jw4xujnRt",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recphNVl0safQhz5Z",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recPifJdLGwShd1fF",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recPiuogV14T4F9qj",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recpOGjTPC4BTAyxs",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recPvE0pmB8GEjPyA",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recPvzMuNovSoQGHf",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recq3oyUYyon329yO",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recqGMJbDQdvvn9eO",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recQnq68OubSMoeWU",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recqQAXJdwQ7jYKET",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recqS3VS4i91kkqD5",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recQt6bpaNJIhbQnF",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recqwt9YdVM3rDvS8",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recQx2nKJzJ3JR3Yy",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recQyzHCgtZbNSDiM",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recqZXfa2gRu0fUBO",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recR2KgCl6THqWusG",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recRAre5g1JwqzV2K",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recrBSAEbgRPoxdM1",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recrEvVbDRJWkxmoZ",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recrH1oGU2aVybb9o",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recrnPcXcElTcHqhn",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recrsdQ2zWLZkpDCJ",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recRxupTfgIYnHgkf",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recS9dz6Q5IiU05eL",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSax9VYJcLGcirG",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSd6Fk4Xu1qlssW",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSiJzzCIpyAANj6",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSiNvBrFUxhdeq7",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSl7Jj4BIQNLV6H",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSNNvEXfcP6eTy2",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recsqRNWLM7MhXKsr",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recsThIvlrtNbmJSO",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recSUYsog4aAaiDtC",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recT4E7kWuP1Gp6dB",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rect7J811Wn753Q8U",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rectb6BZGz4OTsB0l",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTfklmRhhnCeYy3",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTi49DCgclrYK4Q",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rectJk8vzjPXfrzeu",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recToS2fVFDNos1xT",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTt43rDGv3ud7ht",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTvbszkV5vpNnDE",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTxZOTKKFbf1FuF",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recTYNVkhzoEBa7J1",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recu0B04b4Vm6ESNs",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recUChCWVSuJwoLVO",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recUH9UbODNeMHzj3",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recujXLCionptdqLS",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recuOyjcogP54QJtX",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recuPKsRIaXIYGG4n",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recurfulaQy3vwqQD",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recUTrTVI9piUOAUC",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recuVqrOiEUkh3wcB",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recUvR61IbQcTyZWs",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recV6uDAN4wejRE48",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recvCJYCupDFtwEPg",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recvCtU7YFFz9YiNk",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recVLVejBh9iIMiBH",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recVOmBPna3zWPrxY",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recVrvVFWwBbkanbv",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recVZyhVbB6knvYKq",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recw9c9Xa1XLsw8Ga",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recw9SchOhrNfEzE2",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recWkmAAVnvkKR4vp",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recWKmCRWR37PUnCM",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recwXrjd3AoL1aoTq",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recWyXbyIWzLPKmEd",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recxhCXejCKumryNB",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recxLFvLVzUmgUGqb",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recxo24MlgEoiwrOu",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recYCxO8arQiVGyD4",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recYduj3CPYNu2q8x",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recYdZXfVTzrUBtS3",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recYuI6yFpjEkS6YT",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recz0wyGcsAa3I1tP",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZAqoXCUwLUSizL",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZbbiHHarwtbw1g",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reczbmZ24A9ON1xdS",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reczjboFSIKLD7ub7",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZJpMiqMYRbkwg6",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZxp96nnZoGdh3K",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZyAW4Gw76qmQdN",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "reczyZ2IYjut0TCAT",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recZZdgj8cwjkKaq4",
+      "createdTime": "2023-03-25T09:49:29.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rechIdTXQs3wbX9Sl",
+      "createdTime": "2023-03-29T10:28:02.000Z",
+      "fields": {
+        "細項標籤": "環境-電線桿",
+        "數量統計": 1,
+        "分類": [
+          "環境調查 / 設施裝置回報"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recpyeRODxnN2BTiV",
+            "name": "Tekkon"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reczjuLtNw3xZhYyQ",
+      "createdTime": "2023-04-12T14:52:46.000Z",
+      "fields": {
+        "細項標籤": "社會文化-科普內容",
+        "數量統計": 1,
+        "分類": [
+          "社會文化與生活慣習"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "recbLghAkG2pT2I3u",
+            "name": "#微科學 科普影片上傳與抽獎活動"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rectPrNgfad1TylEh",
+      "createdTime": "2023-04-12T14:54:06.000Z",
+      "fields": {
+        "細項標籤": "社會文化-硬體資源與算力",
+        "數量統計": 1,
+        "分類": [
+          "社會文化與生活慣習",
+          "實質資源捐助與分享"
+        ],
+        "公民科學計畫清冊": [
+          {
+            "id": "rec2Hl8ORsQCut1VV",
+            "name": "BOINC, Open-source software for volunteer computing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recCCTQpJbfTxA4ej",
+      "createdTime": "2024-02-10T16:52:27.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "recYPpYpZmVWXmxVv",
+      "createdTime": "2024-02-10T17:00:19.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    },
+    {
+      "id": "rec5z0EIpu8Zk1Glf",
+      "createdTime": "2024-02-10T17:36:45.000Z",
+      "fields": {
+        "數量統計": 0
+      }
+    }
+  ]
+}

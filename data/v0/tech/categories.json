@@ -1,0 +1,1262 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "tech",
+    "name": "civic tech project database",
+    "label": "公民科技專案資料庫"
+  },
+  "table": {
+    "slug": "categories",
+    "name": "影響力類別",
+    "label": "影響力類別（SDGs）",
+    "id": "tblsXkbTpx2tylp89"
+  },
+  "recordCount": 20,
+  "fields": [
+    {
+      "id": "fldkutPG7bj6uGIOc",
+      "name": "影響力類別",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldN6kIrEzk5OTl09",
+      "name": "多少個專案？",
+      "type": "count"
+    },
+    {
+      "id": "fld2nlJT91a5k3GxJ",
+      "name": "project list",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldSLonX56gLsMIma",
+      "name": "特別備註選入條件",
+      "type": "multilineText"
+    },
+    {
+      "id": "fld6QouI1h0I2kq2e",
+      "name": "行政院永續會提出的台灣版目標側重方向",
+      "type": "multilineText"
+    }
+  ],
+  "records": [
+    {
+      "id": "recKYx9vjoJ6p0gyE",
+      "createdTime": "2021-11-02T11:46:01.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec6ek0it5fLrtoP6",
+            "name": "福利請聽"
+          },
+          {
+            "id": "recSDn3rCdEPuhQRk",
+            "name": "無家者小幫手"
+          },
+          {
+            "id": "reckarxcXVWc3YwX3",
+            "name": "2021 疫情紓困振興方案整理"
+          },
+          {
+            "id": "recivhx3fYB9MVgUM",
+            "name": "收款人帳戶安全守護站"
+          },
+          {
+            "id": "rec7Pi3jbF1V1iMke",
+            "name": "病後人生│一站式服務網"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 01 強化弱勢群體社會經濟安全照顧服務",
+        "多少個專案？": 5,
+        "影響力類別": "1-SDGS-終結貧窮"
+      }
+    },
+    {
+      "id": "rec1wxbekqwY7Sfgw",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "reczfL4vmDTYa117H",
+            "name": "大河小溪全民齊督工"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 06 確保環境品質及永續管理環境資源",
+        "多少個專案？": 1,
+        "特別備註選入條件": "chewei> 水資源相關",
+        "影響力類別": "6-SDGS-乾淨飲用水"
+      }
+    },
+    {
+      "id": "rec2Tb3wIdxoRKePG",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec1CwGIWfVlVPsNp",
+            "name": "CC0 繁體中文句庫"
+          },
+          {
+            "id": "recopKq0vXhA0rsGA",
+            "name": "CoTeach"
+          },
+          {
+            "id": "recZDyznAyZgIK5DZ",
+            "name": "CourseAPI"
+          },
+          {
+            "id": "recH5LN9ZuWhOxQCZ",
+            "name": "ChhoeTaigi：台語文數位詞庫、辭典補完計畫"
+          },
+          {
+            "id": "recY1ljUpLDUJI59P",
+            "name": "阿美語萌典"
+          },
+          {
+            "id": "recu3Rf3eR5CQPOjA",
+            "name": "iTaigi 愛台語"
+          },
+          {
+            "id": "recTnExdXdHC3msAt",
+            "name": "萌典"
+          },
+          {
+            "id": "recv3mhbOOAiSn88U",
+            "name": "幸福存摺"
+          },
+          {
+            "id": "recJKSO4l4l3Qce1E",
+            "name": "零時小學校"
+          },
+          {
+            "id": "reczgPKqGuibIlmXZ",
+            "name": "島島阿學"
+          },
+          {
+            "id": "recFINxKe15TJlshf",
+            "name": "專為高中生設計的管家型聊天機器人"
+          },
+          {
+            "id": "recIXD3MO8CzMn2ZF",
+            "name": "CJKV"
+          },
+          {
+            "id": "rec093Ciah2FZW8vl",
+            "name": "識字題庫 / 中文識字量測試系統"
+          },
+          {
+            "id": "recSKOCfP7TdTNECa",
+            "name": "Foodlessons"
+          },
+          {
+            "id": "rec6qlEvn1tvvUFZH",
+            "name": "國家寶藏"
+          },
+          {
+            "id": "recMRJHJoIo4lWBLM",
+            "name": "公民科學計畫蒐集"
+          },
+          {
+            "id": "recFrhn5LNGJiOIVB",
+            "name": "父母救星 大營家 優質營隊月曆"
+          },
+          {
+            "id": "recg2gQQ3CQDeWYT0",
+            "name": "語言橋"
+          },
+          {
+            "id": "recQtfKGY5gjHrrIo",
+            "name": "ReSchool 校地創生分析"
+          },
+          {
+            "id": "recjihMJqe6Ijqzsg",
+            "name": "HackIt 由青少年打造的創意程式社群"
+          },
+          {
+            "id": "recAeUCNREg7xMWVv",
+            "name": "HePai | 合拍"
+          },
+          {
+            "id": "rec2JxjDHsv0td3cz",
+            "name": "自學力製學例 _ 實驗教育資源網"
+          },
+          {
+            "id": "recxG1Zj5tNKjJOjC",
+            "name": "綠洲計畫 _ 高中升大學的特殊選才學生社群"
+          },
+          {
+            "id": "recahwgRgXj1CIRCM",
+            "name": "營養午餐菜色評價工具"
+          },
+          {
+            "id": "recCcPSIXa7DlD6rQ",
+            "name": "拍台文 _ Windows / macOS / Linux 電腦台語輸入法"
+          },
+          {
+            "id": "reczCDFpmeajqXHO7",
+            "name": "易點雙視 _ 點字工具"
+          },
+          {
+            "id": "recGTri66bPQ0a9su",
+            "name": "台灣人工智慧學校_公民 AI 素養計畫"
+          },
+          {
+            "id": "rec0VjxrL4Gc7dKtk",
+            "name": "TaskyVenture - 兒童任務管理平台"
+          },
+          {
+            "id": "recOJ1n9lrry0gJqO",
+            "name": "Mozilla Common Voice\n"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 04 確保全面、公平及高品質教育，提倡終身學習",
+        "多少個專案？": 29,
+        "特別備註選入條件": "chewei> 語言、字體類的專案，可能會採用此分類\nchewei> 國家寶藏、文件與文獻",
+        "影響力類別": "4-SDGS-優質教育"
+      }
+    },
+    {
+      "id": "rec6YJn6rQ3Ktk9as",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recTWaGcwR0ZtXqPd",
+            "name": "Herstory"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 05 實現性別平等及所有女性之賦權",
+        "多少個專案？": 1,
+        "影響力類別": "5-SDGS-性別平權"
+      }
+    },
+    {
+      "id": "recA06noUkZx5JfI9",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recOq2iR7bw3wSTBr",
+            "name": "臺灣黑熊通報與資訊平台"
+          },
+          {
+            "id": "recS7EaXMXq8ypTD9",
+            "name": "救救食蛇龜"
+          },
+          {
+            "id": "reczfL4vmDTYa117H",
+            "name": "大河小溪全民齊督工"
+          },
+          {
+            "id": "recFwd9Fks9TXTUMh",
+            "name": "臺灣好植地 Patch by Planting"
+          },
+          {
+            "id": "recQREu0Qsw9jECTE",
+            "name": "智慧型植物辨識圖鑑 "
+          },
+          {
+            "id": "recEHtzjFLljSV28i",
+            "name": "寵物需要我"
+          },
+          {
+            "id": "recfBnRJJ5aormwxa",
+            "name": "認識植物網站"
+          },
+          {
+            "id": "recQkZ7y2znLkNa5I",
+            "name": "國土利用監測"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 15 保育及永續利用陸域生態系，以確保生物多樣性，並防止土地劣化",
+        "多少個專案？": 8,
+        "特別備註選入條件": "chewei> 寵物相關主題，似乎也是歸於此 SDG15 https://futurecity.cw.com.tw/article/1290",
+        "影響力類別": "15-SDGS-陸域生態"
+      }
+    },
+    {
+      "id": "recd3ph9wggcZ15vS",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recN7zoJUpiHiDcxV",
+            "name": "掃了再買"
+          },
+          {
+            "id": "recTNF7M2talZEohw",
+            "name": "沃土計畫堆肥箱實作推廣"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 12 促進綠色經濟，確保永續消費及生產模式",
+        "多少個專案？": 2,
+        "特別備註選入條件": "chewei> 覺得此項目有點模糊！",
+        "影響力類別": "12-SDGS-負責任生產消費循環"
+      }
+    },
+    {
+      "id": "recDx2rCzsNcaRbyQ",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recbgJNKburtfD3eE",
+            "name": "台灣路更平"
+          },
+          {
+            "id": "recyLB01E0lGYFBvs",
+            "name": "大台北交通流量模擬"
+          },
+          {
+            "id": "recH2oHGzmOKcK1da",
+            "name": "台灣 AEC（建築 · 工程 · 營造）開源知識庫"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 09 建構民眾可負擔、安全、對環境友善，且具韌性及可永續發展的運輸",
+        "多少個專案？": 3,
+        "影響力類別": "9-SDGS-工業化、創新及基礎建設"
+      }
+    },
+    {
+      "id": "reck256UJUNzJmUec",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recGt542dqgyoyYTP",
+            "name": "台灣 l10n 共筆"
+          },
+          {
+            "id": "recbeNa599St2fNDx",
+            "name": "A11y 新手村"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 10 減少國內及國家間不平等",
+        "多少個專案？": 2,
+        "特別備註選入條件": "chewei> 覺得此項目有點模糊！如果是司法相關的專案，似乎「16-SDGS-和平、正義和公平的制度」更適合",
+        "影響力類別": "10-SDGS-消弭不平等"
+      }
+    },
+    {
+      "id": "recKnrWiRUL8luYtx",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recSDn3rCdEPuhQRk",
+            "name": "無家者小幫手"
+          },
+          {
+            "id": "recCsj1yM0JAdlZQU",
+            "name": "享食台灣"
+          },
+          {
+            "id": "recf7OakAWAvG0cLW",
+            "name": "蔬菜箱、食材線上訂購共筆"
+          },
+          {
+            "id": "recahwgRgXj1CIRCM",
+            "name": "營養午餐菜色評價工具"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 02 確保糧食安全，消除飢餓，促進永續農業",
+        "多少個專案？": 4,
+        "特別備註選入條件": "chewei> 農業生產與鄉村議題，採用「11-SDGS-永續城鄉」，例如 阿龜微氣候\n",
+        "影響力類別": "2-SDGS-終結飢餓"
+      }
+    },
+    {
+      "id": "recmJe11qu62phpnQ",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 14 保育及永續利用海洋生態系，以確保生物多樣性，並防止海洋環境劣化",
+        "多少個專案？": 0,
+        "影響力類別": "14-SDGS-海洋生態"
+      }
+    },
+    {
+      "id": "recnC0ZUfvqyDBX6d",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec13lZXQigp6tEi8",
+            "name": "碳匯城鄉"
+          },
+          {
+            "id": "recJp4XF8PE8texhF",
+            "name": "台版 Energy Policy Simulator"
+          },
+          {
+            "id": "reci5WI5WxAW4uwHl",
+            "name": "能源類專案"
+          },
+          {
+            "id": "recAhUFo6RcEiTdDu",
+            "name": "漁電共生鋪排工具"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 07 確保人人都能享有可負擔、穩定、永續且現代的能源",
+        "多少個專案？": 4,
+        "影響力類別": "7-SDGS-人人可負擔的乾淨能源"
+      }
+    },
+    {
+      "id": "recoF0G2XzmbVC4bs",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec13lZXQigp6tEi8",
+            "name": "碳匯城鄉"
+          },
+          {
+            "id": "recTKP4mirLzRi6yn",
+            "name": "馬太鞍堰塞湖事件後的居住抉擇"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 13 完備減緩調適行動以因應氣候變遷及其影響",
+        "多少個專案？": 2,
+        "影響力類別": "13-SDGS-氣候變遷對策"
+      }
+    },
+    {
+      "id": "recOjCFAJLMF0vXek",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recfe3Ic1XrQ4jJ40",
+            "name": "Vaxx.tw"
+          },
+          {
+            "id": "recUFqRRUfmqfRJao",
+            "name": "臺灣神手 開源義肢"
+          },
+          {
+            "id": "recGoJOLpxKQb5Vrn",
+            "name": "血庫資訊"
+          },
+          {
+            "id": "recqz5msQXTr5UAUt",
+            "name": "全國重度級急救責任醫院急診即時訊息"
+          },
+          {
+            "id": "recbekl3Bukkf4DVI",
+            "name": "shared-tw"
+          },
+          {
+            "id": "recVQzXaMb66iFvFg",
+            "name": "Bifrost 物資管理平台"
+          },
+          {
+            "id": "recOrX11zDpb5ukeg",
+            "name": "無麩質安全網"
+          },
+          {
+            "id": "reccW0fLbNizGZ8ai",
+            "name": "就地運動運動"
+          },
+          {
+            "id": "recgSzBEOymP2XjzJ",
+            "name": "遠距心理諮詢資訊彙整"
+          },
+          {
+            "id": "rec6ek0it5fLrtoP6",
+            "name": "福利請聽"
+          },
+          {
+            "id": "recXidjXcEE2dR9cq",
+            "name": "醫療前線注藥流速計算"
+          },
+          {
+            "id": "recByIU0PJ8nCTKGh",
+            "name": "g0v 簡訊實聯制"
+          },
+          {
+            "id": "recLnS3VdqglMIUXx",
+            "name": "確診者足跡公共場所活動史共筆"
+          },
+          {
+            "id": "recyEWAchtgQcYk9a",
+            "name": "武漢肺炎歷史軌跡比對"
+          },
+          {
+            "id": "recHpTzP1rLHBR9re",
+            "name": "covid19-data-list"
+          },
+          {
+            "id": "recuNVbTbPgnyf5pI",
+            "name": "COVID-19 野生資訊整合平台"
+          },
+          {
+            "id": "recXdEgXsfnXnNejv",
+            "name": "八仙塵爆資訊整合 hackfoldr"
+          },
+          {
+            "id": "rec0fDWLmERJsSVso",
+            "name": "高雄氣爆"
+          },
+          {
+            "id": "recaGUnjCpt9pfaW3",
+            "name": "太魯閣號列車脫軌事故災情整合平台"
+          },
+          {
+            "id": "rec7jBi0bLbKErL8S",
+            "name": "LostSAR 無人機"
+          },
+          {
+            "id": "reczRViXEI7jQe2EH",
+            "name": "MyLog"
+          },
+          {
+            "id": "recJvAlz5ZgSO8oRY",
+            "name": "藥品仿單白話文運動"
+          },
+          {
+            "id": "recahwgRgXj1CIRCM",
+            "name": "營養午餐菜色評價工具"
+          },
+          {
+            "id": "rec19R2IbQNzgGBT1",
+            "name": "開放台灣民間租屋資料"
+          },
+          {
+            "id": "recu8RFYnCVjJIxhL",
+            "name": "物資捐贈類專案"
+          },
+          {
+            "id": "recVzfBEZgALuj9pT",
+            "name": "NCDR 慈濟災情通報"
+          },
+          {
+            "id": "recHIr6FrJvf34Jql",
+            "name": "NTU Cool"
+          },
+          {
+            "id": "recvKhnv6Wd86BjRc",
+            "name": "空污曝露路徑分析地圖"
+          },
+          {
+            "id": "recTKP4mirLzRi6yn",
+            "name": "馬太鞍堰塞湖事件後的居住抉擇"
+          },
+          {
+            "id": "rec7Pi3jbF1V1iMke",
+            "name": "病後人生│一站式服務網"
+          },
+          {
+            "id": "reczviTkxOXw9avSY",
+            "name": "ＲＯＳＣ－訓練模擬電擊器系統"
+          },
+          {
+            "id": "recP3Fkjx2Iel7ISl",
+            "name": "《我們想這樣生小孩！陪伴孕產旅程的行動手冊》"
+          },
+          {
+            "id": "recDB8u2c0B3y1zNC",
+            "name": "iCanHelp 應變地圖_災情通報_志工報名"
+          },
+          {
+            "id": "recArS8Aqe7x6wOVT",
+            "name": "高效健身訓練系統"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 03 確保及促進各年齡層健康生活與福祉",
+        "多少個專案？": 34,
+        "特別備註選入條件": "chewei> 醫療與健康相關\nchewei> 救災、災情整合相關專案",
+        "影響力類別": "3-SDGS-健全生活品質"
+      }
+    },
+    {
+      "id": "recSzTednNMwt2hpM",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rechGLub4PlfRhz2e",
+            "name": "Disfactory"
+          },
+          {
+            "id": "recjGVYo9jVOo3bir",
+            "name": "農業災損幾多錢"
+          },
+          {
+            "id": "rectnsZspxRL3XTlj",
+            "name": "公有地大行動 / 天龍特公地"
+          },
+          {
+            "id": "recGQERClvEeD1MRE",
+            "name": "里伯 LINEbot 市容幫手"
+          },
+          {
+            "id": "rec3sxL2vY6X9TuFc",
+            "name": "阿龜微氣候"
+          },
+          {
+            "id": "recEeitVzquunh4a1",
+            "name": "秒懂災害潛勢"
+          },
+          {
+            "id": "recuOAZrNI64cJVXv",
+            "name": "超農域"
+          },
+          {
+            "id": "recr6BQcSn8OYZSZO",
+            "name": "透明足跡"
+          },
+          {
+            "id": "recfGeE4G9iYkSfZD",
+            "name": "g0v 零時空汙觀測網"
+          },
+          {
+            "id": "reczlnGnbKehU7WEO",
+            "name": "Rentea"
+          },
+          {
+            "id": "recYSmprP1D09zM6p",
+            "name": "開放易樓網"
+          },
+          {
+            "id": "recz0Lw3XXJ6XCSRr",
+            "name": "糖業鐵路情報蒐集"
+          },
+          {
+            "id": "recu1auSypS1eabiA",
+            "name": "全民提報文化資產"
+          },
+          {
+            "id": "rec9KGIQrpLs7Gw84",
+            "name": "騎樓抓漏"
+          },
+          {
+            "id": "recoHw9PZa6or9aw8",
+            "name": "都市計畫委員會會議記錄資料庫"
+          },
+          {
+            "id": "rec7PSee9Nky2izRX",
+            "name": "地方淨零觀測站"
+          },
+          {
+            "id": "recmPChEFA3OSYPZD",
+            "name": "ESG觀測儀"
+          },
+          {
+            "id": "recTNF7M2talZEohw",
+            "name": "沃土計畫堆肥箱實作推廣"
+          },
+          {
+            "id": "recHIr6FrJvf34Jql",
+            "name": "NTU Cool"
+          },
+          {
+            "id": "recvKhnv6Wd86BjRc",
+            "name": "空污曝露路徑分析地圖"
+          },
+          {
+            "id": "recyLB01E0lGYFBvs",
+            "name": "大台北交通流量模擬"
+          },
+          {
+            "id": "recTKP4mirLzRi6yn",
+            "name": "馬太鞍堰塞湖事件後的居住抉擇"
+          },
+          {
+            "id": "reczKudj6UINF5sMe",
+            "name": "邊坡穩定風險模擬系統"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 11 建構具包容、安全、韌性及永續特質的城市與鄉村",
+        "多少個專案？": 23,
+        "特別備註選入條件": "chewei> 農業生產相關專案\nchewei> 環境污染防治相關\nchewei> 居住相關\nchewei> 文化資產相關\nchewei> 空間政策與規劃政策相關",
+        "影響力類別": "11-SDGS-永續城鄉"
+      }
+    },
+    {
+      "id": "recTvLQZqQpWVYrsO",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recg97u0cvRMlqguS",
+            "name": "美國國會台灣觀測站"
+          },
+          {
+            "id": "recsPGN0g4Sv0WZkS",
+            "name": "面海松"
+          },
+          {
+            "id": "rec5UBUQgqMnXHJH9",
+            "name": "g0v 國際交流公開資訊"
+          },
+          {
+            "id": "reckB3gYWa4uKJsc6",
+            "name": "Summit"
+          },
+          {
+            "id": "reclkm0cgUcQskDZT",
+            "name": "bridge"
+          },
+          {
+            "id": "recNsKoQvqapaT6iW",
+            "name": "g0v-intl"
+          },
+          {
+            "id": "recF510IvGTfz7tMt",
+            "name": "decentralizehk"
+          },
+          {
+            "id": "recuhv82aQaUq3O5m",
+            "name": "Taiwan.md"
+          },
+          {
+            "id": "recK5jFAsieQB5c8i",
+            "name": "憲庭載入中"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 17 建立多元夥伴關係，協力促進永續願景",
+        "多少個專案？": 9,
+        "特別備註選入條件": "chewei> 與國際單位合作",
+        "影響力類別": "17-SDGS-全球夥伴關係"
+      }
+    },
+    {
+      "id": "recUfdxNspBkJjqCn",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recKzvwqX5rXmhPTq",
+            "name": "司法陽光網－判決書API計畫"
+          },
+          {
+            "id": "recfGG27W6IKxJhpI",
+            "name": "來個判決書吧"
+          },
+          {
+            "id": "recABYbRJCOO1ssZf",
+            "name": "貪汙查詢網站"
+          },
+          {
+            "id": "receslbyVKhQIEH44",
+            "name": "法律偵探 - 免費 AI 法律諮詢 "
+          },
+          {
+            "id": "recK5jFAsieQB5c8i",
+            "name": "憲庭載入中"
+          },
+          {
+            "id": "recqd9WUAkrk1u3lm",
+            "name": "憲法急診室"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 16 促進和平多元的社會，確保司法平等，建立具公信力且廣納民意的體系",
+        "多少個專案？": 6,
+        "影響力類別": "16-SDGS-和平、正義和公平的制度"
+      }
+    },
+    {
+      "id": "recWJ1usIU4lvdOlk",
+      "createdTime": "2021-11-02T11:46:11.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recGxLs2qNaBY4XLt",
+            "name": "GoodJob 職場透明化運動"
+          },
+          {
+            "id": "recVbMyh1atS89a0U",
+            "name": "台灣公司登記資料"
+          },
+          {
+            "id": "recMxR3Y5DH7vVBpP",
+            "name": "求職小幫手"
+          },
+          {
+            "id": "reckE8WUuSsbD2cDl",
+            "name": "班表小幫手"
+          },
+          {
+            "id": "recTsnmeEfs9jypRA",
+            "name": "OPEN 集團"
+          },
+          {
+            "id": "recfN5MqYeRvFSDJH",
+            "name": "台灣公司資料"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "核心目標 08 促進包容且永續的經濟成長，提升勞動生產力，確保全民享有優質就業機會",
+        "多少個專案？": 6,
+        "特別備註選入條件": "chewei> 勞動條件相關\nchewei> 公司資料、集團資料相關",
+        "影響力類別": "8-SDGS-良好就業和經濟成長"
+      }
+    },
+    {
+      "id": "recly22S88GEA06AM",
+      "createdTime": "2021-11-02T11:46:43.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recxgC3JM1FWghTcS",
+            "name": "vTaiwan"
+          },
+          {
+            "id": "reccoU8QNbJpIOgM9",
+            "name": "國會大代誌 / 新國會大代誌"
+          },
+          {
+            "id": "recGALSDOy9NbFwV3",
+            "name": "國會調查兵團"
+          },
+          {
+            "id": "recsR6pTl8nGLcHBx",
+            "name": "中央政府預算視覺化"
+          },
+          {
+            "id": "recu9OB7YgWGNgwwd",
+            "name": "預算視覺化產生器"
+          },
+          {
+            "id": "recD8CTy0OwAtero9",
+            "name": "議見零時差"
+          },
+          {
+            "id": "recSRgj8RQG7OyixB",
+            "name": "台電睦鄰金流大解析"
+          },
+          {
+            "id": "receP2E3oujhY35Iy",
+            "name": "立委投票指南"
+          },
+          {
+            "id": "recw4xQ1MwMXXy6HN",
+            "name": "立委咖電喂"
+          },
+          {
+            "id": "recibq2HkObegqxJh",
+            "name": "金流百科"
+          },
+          {
+            "id": "recN495Iu8AITNdkF",
+            "name": "金錢報"
+          },
+          {
+            "id": "rec3bylI9T6m7B62X",
+            "name": "政治承諾追蹤網"
+          },
+          {
+            "id": "recODhbbzU5JzqbZJ",
+            "name": "政治獻金數位化"
+          },
+          {
+            "id": "recWyYXeZLscDvOqF",
+            "name": "政誌"
+          },
+          {
+            "id": "recKnBeOTGUleanhi",
+            "name": "割闌尾計畫"
+          },
+          {
+            "id": "rec0EjalW5ItuffWN",
+            "name": "選前大補帖"
+          },
+          {
+            "id": "recNRUNGKFK5HUvuJ",
+            "name": "g0v-shadow 影子政府網站 "
+          },
+          {
+            "id": "recHIEqd96JXpeRNF",
+            "name": "鄉民關心你"
+          },
+          {
+            "id": "recOJeKoLmnWGT1cW",
+            "name": "你被服貿了嗎?"
+          },
+          {
+            "id": "recmBw6uyidnL5hdg",
+            "name": "公眾人物關係圖產生器"
+          },
+          {
+            "id": "recABYbRJCOO1ssZf",
+            "name": "貪汙查詢網站"
+          },
+          {
+            "id": "recnFilQmUwY1lXjr",
+            "name": "ReJOIN - 數位公共參與體驗優化"
+          },
+          {
+            "id": "recPHE1fhYz0nSklf",
+            "name": "Collage 空間願景拼貼網頁工具"
+          },
+          {
+            "id": "recBNXyNQWDkHW754",
+            "name": "Sensemaker 意見綜整器"
+          },
+          {
+            "id": "reczRV5Xq49W7CIrj",
+            "name": "Talk to the City (T3C)"
+          },
+          {
+            "id": "rech3CWoFGkSfZpsc",
+            "name": "中央政府【總預算案】審查監督平台"
+          },
+          {
+            "id": "rec9GxQtCOjiapXu0",
+            "name": "中央政府總預算案審查監督平台"
+          },
+          {
+            "id": "receoKxCvuhU3QF76",
+            "name": "民主富二代補課小站"
+          },
+          {
+            "id": "recqd9WUAkrk1u3lm",
+            "name": "憲法急診室"
+          },
+          {
+            "id": "recRfZfzF5pRiccvJ",
+            "name": "Pocket Polis 口袋審議"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "無",
+        "多少個專案？": 30,
+        "特別備註選入條件": "chewei> 立法院國會相關專案\nchewei> 投票指南相關\nchewei> 公職監督、課責相關\nchewei> 預算視覺化與資金監督\nchewei> 政策影響評估，例如「你被服貿了嗎?」",
+        "影響力類別": "18-行政制度變革與民主治理"
+      }
+    },
+    {
+      "id": "rec56rkC5crJWGGdh",
+      "createdTime": "2021-11-02T11:49:26.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec6tCPySgjS1DJIJ",
+            "name": "Aray"
+          },
+          {
+            "id": "recErCrouEWFPGumO",
+            "name": "awesome-g0v-projects"
+          },
+          {
+            "id": "recnDCXIxGZyH3gET",
+            "name": "一鍵開大松"
+          },
+          {
+            "id": "recPRbKyL3O6viGRq",
+            "name": "g0v開放授權小幫手"
+          },
+          {
+            "id": "recbZXAchcn6d4OSd",
+            "name": "g0v 新手村基礎建設（暫稱）"
+          },
+          {
+            "id": "recdwhrk4hilKkT0B",
+            "name": "g0v 新手村計劃 8bit"
+          },
+          {
+            "id": "recXIbq6uY6vzZLVY",
+            "name": "g0v 社群治理目錄"
+          },
+          {
+            "id": "recJsLwucpvRNXqs5",
+            "name": "每月社群大小事"
+          },
+          {
+            "id": "recNbz9cPaJ3cwLbd",
+            "name": "g0v 社群九分鐘"
+          },
+          {
+            "id": "recpBYAkwqwjLcrtw",
+            "name": "Yet Another g0v Hub"
+          },
+          {
+            "id": "rec6XgVi8JeSLeuDz",
+            "name": "middle2"
+          },
+          {
+            "id": "reckMJccqIkS6uCt6",
+            "name": "開源出版"
+          },
+          {
+            "id": "recb2fRV2zET0AHmf",
+            "name": "政府公開通訊錄"
+          },
+          {
+            "id": "rec1M06xWzdgCRLRD",
+            "name": "資料申請小幫手"
+          },
+          {
+            "id": "recSBR1yaw5kZjAqj",
+            "name": "賽豬公上太空"
+          },
+          {
+            "id": "recAiNzIM5S3Mmeai",
+            "name": "Blulu Metrics"
+          },
+          {
+            "id": "recKa5c1HYpSX3Ktc",
+            "name": "g0v 公報"
+          },
+          {
+            "id": "recL9k9uYXTedIzI3",
+            "name": "g0v database"
+          },
+          {
+            "id": "recmpLHNhKDf7vHQj",
+            "name": "Jothon 揪松團"
+          },
+          {
+            "id": "rec5h86VJ90ilSwmq",
+            "name": "Wikidata"
+          },
+          {
+            "id": "rec2sQMeJPvW0z7yc",
+            "name": "Think Tank Info"
+          },
+          {
+            "id": "recjNZs2h2Zw2Ah7R",
+            "name": "g0ver-box"
+          },
+          {
+            "id": "recDK1c5JYMBvSyqj",
+            "name": "未來日誌"
+          },
+          {
+            "id": "recm1Qw4qzkH4q2AI",
+            "name": "吉祥物資料蒐集"
+          },
+          {
+            "id": "rec6qlEvn1tvvUFZH",
+            "name": "國家寶藏"
+          },
+          {
+            "id": "rec2g0AgPYXr6snHD",
+            "name": "公務人員出國考察網"
+          },
+          {
+            "id": "recMRJHJoIo4lWBLM",
+            "name": "公民科學計畫蒐集"
+          },
+          {
+            "id": "recqV05jQE2Wdq566",
+            "name": "臺灣防空識別區快訊"
+          },
+          {
+            "id": "recHpTzP1rLHBR9re",
+            "name": "covid19-data-list"
+          },
+          {
+            "id": "reccOKBj8GQeAfhQL",
+            "name": "HackingMap"
+          },
+          {
+            "id": "recDF1WJZ2qnwYpPw",
+            "name": "HackStory"
+          },
+          {
+            "id": "recnfTiGssz6goabC",
+            "name": "HackFoldr 2.0"
+          },
+          {
+            "id": "recMibp4rzuhr6zAF",
+            "name": "HackFoldr"
+          },
+          {
+            "id": "recTMzcovWZFYe8RQ",
+            "name": "Holopolis"
+          },
+          {
+            "id": "rec2Gg1iqtU8oJt4i",
+            "name": "IDystopia 2035 數位身份大冒險"
+          },
+          {
+            "id": "rec5QHAqGf5MoRKWt",
+            "name": "Ptt"
+          },
+          {
+            "id": "rec1CwGIWfVlVPsNp",
+            "name": "CC0 繁體中文句庫"
+          },
+          {
+            "id": "recZDyznAyZgIK5DZ",
+            "name": "CourseAPI"
+          },
+          {
+            "id": "reckB3gYWa4uKJsc6",
+            "name": "Summit"
+          },
+          {
+            "id": "recF510IvGTfz7tMt",
+            "name": "decentralizehk"
+          },
+          {
+            "id": "receYBkgzFAv3NEoQ",
+            "name": "臺灣各語系語言語料模型盤點"
+          },
+          {
+            "id": "recxY2HMq4IT8wUhi",
+            "name": "CHANGE — 台灣選戰版圖"
+          },
+          {
+            "id": "recjxrp1mYyNRKPFS",
+            "name": "群眾標註地圖工具"
+          },
+          {
+            "id": "recfN5MqYeRvFSDJH",
+            "name": "台灣公司資料"
+          },
+          {
+            "id": "rech2yCN0m9MwHovF",
+            "name": "OpenBudget 政府預算查詢"
+          },
+          {
+            "id": "recSiTrSQddAen1eY",
+            "name": "Lawtrace 立法足跡"
+          },
+          {
+            "id": "recQtfKGY5gjHrrIo",
+            "name": "ReSchool 校地創生分析"
+          },
+          {
+            "id": "recfBnRJJ5aormwxa",
+            "name": "認識植物網站"
+          },
+          {
+            "id": "recwjPB06sTb3Ufiz",
+            "name": "立法院國會頻道AI即時轉換逐字稿 LegislatureAI\n"
+          },
+          {
+            "id": "rec8lYkuE0cNSpkG8",
+            "name": "開放立法院 & 立法院 API"
+          },
+          {
+            "id": "recSOqbCNysGSD60l",
+            "name": "財產申報開放觀測站"
+          },
+          {
+            "id": "recxoEmd6YCrDieev",
+            "name": "OpenTransLive 開源即時語音翻譯系統"
+          },
+          {
+            "id": "recoK4FDY4e4JS3HJ",
+            "name": "標案資料瀏覽"
+          },
+          {
+            "id": "reccauhJxkRxNZb0s",
+            "name": "報導版面網頁工具"
+          },
+          {
+            "id": "rec6x4PzlErfomCKm",
+            "name": "NGO 會務類專案工具"
+          },
+          {
+            "id": "recVDSrLIt0VVD6MS",
+            "name": "Add C0urt｜憲庭加好友"
+          },
+          {
+            "id": "recnZPjioUOPqHgXZ",
+            "name": "公民團體資安暨隱私交流計劃 Civil Society Cyber Shield (CSCS)"
+          },
+          {
+            "id": "recTpRSWcgCnz9p5T",
+            "name": "swonline  2D 線上網頁"
+          },
+          {
+            "id": "recKq7Ev5zZyCIaQB",
+            "name": "Twinkle Hub _台灣資料的 MCP Hub"
+          },
+          {
+            "id": "recOJ1n9lrry0gJqO",
+            "name": "Mozilla Common Voice\n"
+          },
+          {
+            "id": "recW33DJSrK8nZh0i",
+            "name": "開放科技車庫 Open Tech Garage"
+          },
+          {
+            "id": "rec9GxQtCOjiapXu0",
+            "name": "中央政府總預算案審查監督平台"
+          },
+          {
+            "id": "recwEGNZO8bmsejiQ",
+            "name": "Kami：一個有界限、在地、私密的仁工智慧守護者"
+          },
+          {
+            "id": "rech3CWoFGkSfZpsc",
+            "name": "中央政府【總預算案】審查監督平台"
+          },
+          {
+            "id": "recuhv82aQaUq3O5m",
+            "name": "Taiwan.md"
+          },
+          {
+            "id": "recVzxqKhJmbNcJ8V",
+            "name": "Civic Tech TW"
+          },
+          {
+            "id": "receslbyVKhQIEH44",
+            "name": "法律偵探 - 免費 AI 法律諮詢 "
+          },
+          {
+            "id": "recF6BAX3TYNNWHaO",
+            "name": "Ian Open News 開放科技閱讀版"
+          },
+          {
+            "id": "recd7MTT07eaCE0Cn",
+            "name": "族語AI成果網站"
+          },
+          {
+            "id": "recOz4gFaIzJpHDsu",
+            "name": "Formosan Bank"
+          },
+          {
+            "id": "recH2oHGzmOKcK1da",
+            "name": "台灣 AEC（建築 · 工程 · 營造）開源知識庫"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "無",
+        "多少個專案？": 71,
+        "特別備註選入條件": "chewei> 社群基礎建設、社群治理、籌辦黑客松的工具或經驗\nchewei> 把主題內容轉變成「開放資料or結構化資料」進行應用推廣的專案\nchewei> hackfoldr\nchewei> Ptt\nchewei> 數位人權相關專案",
+        "影響力類別": "20-開放資料與開源社群基礎建設"
+      }
+    },
+    {
+      "id": "recaRe0BPGfeCMFXC",
+      "createdTime": "2021-11-02T11:49:26.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "rec1VdebSJBkqIgJb",
+            "name": "disinfo"
+          },
+          {
+            "id": "recyvJ5fNtN9OR507",
+            "name": "Cofacts 真的假的"
+          },
+          {
+            "id": "recNeLhJuF96MjUO8",
+            "name": "新聞小幫手"
+          },
+          {
+            "id": "recqwu32WWQeRPDSN",
+            "name": "記者證"
+          },
+          {
+            "id": "rec2yU8mX81cbzWvU",
+            "name": "公民即時報"
+          },
+          {
+            "id": "recjRfHNQMHq5VJla",
+            "name": "公民記者證產生器"
+          },
+          {
+            "id": "rec7SiPYkIn8R7L2G",
+            "name": "Lee-Su-Threads _ Automatically displays location info for Threads post authors / 揭露 Threads 帳號註冊地區"
+          }
+        ],
+        "行政院永續會提出的台灣版目標側重方向": "無",
+        "多少個專案？": 7,
+        "影響力類別": "19-新聞訊息與媒體識讀"
+      }
+    }
+  ]
+}

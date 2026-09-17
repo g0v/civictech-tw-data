@@ -1,0 +1,36 @@
+name: 每日同步 Airtable 資料
+
+on:
+  schedule:
+    - cron: '0 20 * * *' # 台灣時間每天 04:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 匯出 Airtable 資料
+        run: node scripts/sync.mjs
+        env:
+          AIRTABLE_PAT: ${{ secrets.AIRTABLE_PAT }}
+
+      - name: 有變動才 commit
+        run: |
+          if [[ -n "$(git status --porcelain data/)" ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git add data/
+            git commit -m "sync: $(date -u -d '+8 hours' +%Y-%m-%d) 資料更新"
+            git push
+          else
+            echo '資料無變動，跳過 commit'
+          fi

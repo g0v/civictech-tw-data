@@ -1,0 +1,147 @@
+{
+  "version": "v0",
+  "license": "CC BY 4.0",
+  "attribution": "g0v civictech.tw",
+  "datasets": [
+    {
+      "slug": "tech",
+      "name": "civic tech project database",
+      "label": "公民科技專案資料庫",
+      "tables": [
+        {
+          "slug": "projects",
+          "name": "project list",
+          "label": "公民科技專案",
+          "recordCount": 219,
+          "path": "v0/tech/projects.json"
+        },
+        {
+          "slug": "categories",
+          "name": "影響力類別",
+          "label": "影響力類別（SDGs）",
+          "recordCount": 20,
+          "path": "v0/tech/categories.json"
+        },
+        {
+          "slug": "tags",
+          "name": "標籤",
+          "label": "標籤",
+          "recordCount": 58,
+          "path": "v0/tech/tags.json"
+        },
+        {
+          "slug": "talks",
+          "name": "presentation",
+          "label": "專案發表紀錄",
+          "recordCount": 666,
+          "path": "v0/tech/talks.json"
+        }
+      ]
+    },
+    {
+      "slug": "science",
+      "name": "公民科學與群眾參與計畫清冊資料集",
+      "label": "公民科學與群眾參與計畫",
+      "tables": [
+        {
+          "slug": "programs",
+          "name": "公民科學與群眾參與計畫",
+          "label": "公民科學與群眾參與計畫",
+          "recordCount": 352,
+          "path": "v0/science/programs.json"
+        },
+        {
+          "slug": "categories",
+          "name": "類別",
+          "label": "類別",
+          "recordCount": 575,
+          "path": "v0/science/categories.json"
+        },
+        {
+          "slug": "seasons",
+          "name": "計畫執行的時段或時節",
+          "label": "計畫執行的時段或時節",
+          "recordCount": 107,
+          "path": "v0/science/seasons.json"
+        },
+        {
+          "slug": "platforms",
+          "name": "數據資料彙整方案或平台",
+          "label": "數據資料彙整方案或平台",
+          "recordCount": 200,
+          "path": "v0/science/platforms.json"
+        },
+        {
+          "slug": "equipment",
+          "name": "設備器材",
+          "label": "設備器材",
+          "recordCount": 180,
+          "path": "v0/science/equipment.json"
+        },
+        {
+          "slug": "methods",
+          "name": "演算或分析方案",
+          "label": "演算或分析方案",
+          "recordCount": 9,
+          "path": "v0/science/methods.json"
+        },
+        {
+          "slug": "orgs",
+          "name": "機構與單位",
+          "label": "機構與單位",
+          "recordCount": 3105,
+          "path": "v0/science/orgs.json"
+        },
+        {
+          "slug": "regions",
+          "name": "國際地區",
+          "label": "國際地區",
+          "recordCount": 16,
+          "path": "v0/science/regions.json"
+        },
+        {
+          "slug": "counties",
+          "name": "縣市",
+          "label": "縣市",
+          "recordCount": 48,
+          "path": "v0/science/counties.json"
+        },
+        {
+          "slug": "districts",
+          "name": "行政區",
+          "label": "行政區",
+          "recordCount": 465,
+          "path": "v0/science/districts.json"
+        },
+        {
+          "slug": "rewards",
+          "name": "禮品與獎勵",
+          "label": "禮品與獎勵",
+          "recordCount": 28,
+          "path": "v0/science/rewards.json"
+        },
+        {
+          "slug": "papers",
+          "name": "[持續整理] 文獻、研究成果、文章",
+          "label": "文獻、研究成果、文章",
+          "recordCount": 271,
+          "path": "v0/science/papers.json"
+        },
+        {
+          "slug": "material-types",
+          "name": "文獻或知識素材類型",
+          "label": "文獻或知識素材類型",
+          "recordCount": 17,
+          "path": "v0/science/material-types.json"
+        },
+        {
+          "slug": "ccu-topics",
+          "name": "中正社區大學-學群主題",
+          "label": "中正社區大學學群主題",
+          "recordCount": 6,
+          "path": "v0/science/ccu-topics.json"
+        }
+      ]
+    }
+  ]
+}

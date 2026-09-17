@@ -1,0 +1,4418 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "science",
+    "name": "公民科學與群眾參與計畫清冊資料集",
+    "label": "公民科學與群眾參與計畫"
+  },
+  "table": {
+    "slug": "papers",
+    "name": "[持續整理] 文獻、研究成果、文章",
+    "label": "文獻、研究成果、文章",
+    "id": "tblKCOXS6asJg3mu1"
+  },
+  "recordCount": 271,
+  "fields": [
+    {
+      "id": "fldnO7laglIz0GeDX",
+      "name": "Name",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldjJrbRo9kYGToZN",
+      "name": "素材主題類型",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "flddly1luE5JYCjAd",
+      "name": "簡介",
+      "type": "multilineText"
+    },
+    {
+      "id": "fldcZ02SHbZPKNdAs",
+      "name": "文獻類型的補充敘述",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldif2DxVRCD77VXl",
+      "name": "網址",
+      "type": "url"
+    },
+    {
+      "id": "fld6C2TGgu5IScNgY",
+      "name": "主辦單位或相關單位",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldcIYTDuUvV4x8Tt",
+      "name": "內容觸及哪些公民科學計畫",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldSkbedoJlMmQoPD",
+      "name": "內容觸及哪些數據資料彙整方案",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fld7Ol2FztMv1nqUX",
+      "name": "內容觸及哪些設備器材",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldIXxaZQUWtdH6xJ",
+      "name": "國際地區",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fld9N7ZbTJTt2RnpL",
+      "name": "縣市",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldj4ldje4Sij4GN1",
+      "name": "鄉鎮區",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldWe7ex3KsL9awsY",
+      "name": "舉辦地點描述",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldJgSTDMesN35IXd",
+      "name": "舉辦時間",
+      "type": "date"
+    }
+  ],
+  "records": [
+    {
+      "id": "recLAGqIvaZWEhbn7",
+      "createdTime": "2020-01-30T09:46:03.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術",
+        "Name": "Uncertainty analysis of crowd-sourced and professionally collected field data used in species distribution models of Taiwanese moths"
+      }
+    },
+    {
+      "id": "recUt60bkhNf3rBda",
+      "createdTime": "2020-12-12T12:43:18.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "reccnSMbOkwcdrC3o",
+            "name": "全球 / 國際"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣，各類計畫資訊彙整",
+        "簡介": "Global Learning and Observations to Benefit the Environment",
+        "網址": "https://www.globe.gov/web/globe-observer/about",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          },
+          {
+            "id": "recQSPHWjFLr18Oia",
+            "name": "多項計畫的推動組織"
+          }
+        ],
+        "Name": "The GLOBE Program "
+      }
+    },
+    {
+      "id": "rec0jfpxiYxvE0C6H",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，福衛影像與群眾外包",
+        "簡介": "福衛影像與群眾外包",
+        "網址": "https://www.facebook.com/groups/twlandsat/permalink/819655938167306/",
+        "Name": "福衛影像與群眾外包"
+      }
+    },
+    {
+      "id": "rec1cW7EyJRRnVCue",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，都市議題與公眾參與",
+        "簡介": "公民科學、公民科技、或是都市技術？",
+        "網址": "https://2015.review.taipei.io/chapter11.html",
+        "Name": "公民科學、公民科技、或是都市技術？"
+      }
+    },
+    {
+      "id": "rec3Awmtley41gNlm",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "《意外的守護者：公民科學的反思》\n\nhttp://yalepress.yale.edu/book.asp?isbn=9780300178791",
+        "網址": "https://www.facebook.com/fiona.lin.526/posts/10156166812777416",
+        "Name": "The Incidental Steward: Reflections on Citizen Science"
+      }
+    },
+    {
+      "id": "rec3w4zhurWlNkgou",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣，環境 NGO 生物調查與技能培訓",
+        "簡介": "2019年海洋公民科學家調查志工培訓",
+        "網址": "https://www.facebook.com/groups/437659989769965/permalink/1092136977655593",
+        "Name": "海洋公民基金會"
+      }
+    },
+    {
+      "id": "rec4IO1175QgW01QW",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "交流社群",
+        "簡介": "台灣蟬保育學會的交流社團",
+        "網址": "https://www.facebook.com/groups/498975763500965/about/",
+        "Name": "台灣蟬保育學會"
+      }
+    },
+    {
+      "id": "rec5Hm9gdyTsCV5vE",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recWlwUohkbNDsnPO",
+            "name": "印度"
+          }
+        ],
+        "文獻類型的補充敘述": "學術，印度經驗",
+        "簡介": "蜜蜂網絡通過各種方式搜尋來自民間的創新，其中最重要的方式是「the Shodh Yatra（古印度梵語，意為「尋找知識的旅程」）」。這一旅程每年舉行兩次，每次為期一周，大約會有一兩百位志願者參加。在一周內，這支包含了農民、科學家、研究者和其他各類人士的隊伍在印度廣大的農村地區行進數百公里，針對當地的各種需求和問題進行調研走訪，和村民們一同探討和發掘可持續的解決方案。",
+        "網址": "http://www.seinsights.asia/article/3291/3276/3950",
+        "Name": "蜜蜂網絡（Honey Bee Network）"
+      }
+    },
+    {
+      "id": "rec6A2SKFC1JdpXgF",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "Biohacking Safari",
+        "網址": "https://www.facebook.com/BioHackingSafari/",
+        "Name": "Biohacking Safari"
+      }
+    },
+    {
+      "id": "rec8oUFUAavybhoiz",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，自願者地理資訊",
+        "簡介": "Is VGI participation? From vernal pools to video games",
+        "網址": "https://drive.google.com/file/d/0B5EFNXxRFP3wTi1lOWo3YVZYV1k/view",
+        "Name": "Is VGI participation? From vernal pools to video games"
+      }
+    },
+    {
+      "id": "rec8RiSaIxo4IzHOS",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，公民科學本體論探討",
+        "簡介": "單元一：科學研究主體是誰？ \n單元二：公民科學知識正當性與知識應用的潛在影響\n專題演講一：公民科學中的分配問題\n專題演講二：公民科學中研究對象的權利保護與培力 ",
+        "網址": "https://www.facebook.com/kuangchi.hung/posts/10153976544642739",
+        "Name": "台大地理系課程：公民、科學與地方"
+      }
+    },
+    {
+      "id": "rec8S1rGWbSBuoZJ7",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，公民科學與公共政治",
+        "簡介": "Citizen Science as Political Consciousness",
+        "網址": "https://www.facebook.com/PublicLab/posts/1044371185649166",
+        "Name": "Citizen Science as Political Consciousness"
+      }
+    },
+    {
+      "id": "rec92TVTQd5bl9Z3c",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "reccnSMbOkwcdrC3o",
+            "name": "全球 / 國際"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣，各類計畫資訊彙整",
+        "簡介": "SciStarter is a globally acclaimed, online citizen science hub where more than 3,000 projects, searchable by location, topic, age level, etc, have been registered by individual project leaders or imported through partnerships with federal governments, NGOs, and universities. ",
+        "網址": "https://scistarter.com/",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          },
+          {
+            "id": "recQSPHWjFLr18Oia",
+            "name": "多項計畫的推動組織"
+          }
+        ],
+        "Name": "SciStarter"
+      }
+    },
+    {
+      "id": "rec9pMfakjdfsgXFh",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "Waag",
+        "網址": "http://waag.org/en",
+        "Name": "Waag"
+      }
+    },
+    {
+      "id": "recAf6N9WlxF3BlDZ",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "交流社群",
+        "簡介": "民間關注海洋議題社群",
+        "網址": "https://www.facebook.com/groups/151945971606662/",
+        "Name": "海社"
+      }
+    },
+    {
+      "id": "recamTLNe65QFhtSa",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "https://www.ucl.ac.uk/excites/about-us",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recAuNX1qC6jMAgjb",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "如何讓群眾願意Crowdsourcing生物資訊",
+        "網址": "https://g0v.hackpad.tw/Crowdsourcing-EZP1GRsWtBk",
+        "Name": "如何讓群眾願意Crowdsourcing生物資訊"
+      }
+    },
+    {
+      "id": "recB5rvPM5Wk4Q2qQ",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "MINING CITIZEN FEEDBACK DATA FOR ENHANCED LOCAL GOVERNMENT DECISION-MAKING",
+        "網址": "https://www.unglobalpulse.org/projects/citizen-feedback-data-local-government-decision-making",
+        "Name": "MINING CITIZEN FEEDBACK DATA FOR ENHANCED LOCAL GOVERNMENT DECISION-MAKING"
+      }
+    },
+    {
+      "id": "recBkxHqw9put1Iak",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "1989, Sheepfarming after Chernobyl: A Case Study in Communicating Scientific Information Brian Wynne",
+        "網址": "http://goo.gl/UwYcK4",
+        "Name": "1989, Sheepfarming after Chernobyl: A Case Study in Communicating Scientific Information Brian Wynne"
+      }
+    },
+    {
+      "id": "recBT0FrGc7GPaOBn",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣，各類計畫資訊彙整",
+        "簡介": "呈現國內外公民科學新聞與訊息",
+        "網址": "http://e-info.org.tw/taxonomy/term/43212",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          }
+        ],
+        "Name": "環境資訊協會"
+      }
+    },
+    {
+      "id": "recc3AIFdnzHL4rxx",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，專題刊物",
+        "簡介": "綠芽教師刊物，第十期談公民科學",
+        "網址": "https://www.facebook.com/permalink.php?story_fbid=1490712237703508&id=100002942372884",
+        "Name": "綠芽教師刊物，第十期談公民科學"
+      }
+    },
+    {
+      "id": "recCbCGpwW9tlyCT7",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recnw8jv2533egTBt",
+            "name": "日本"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "高木仁三郎市民科学基金",
+        "網址": "http://www.takagifund.org/",
+        "Name": "高木仁三郎市民科学基金"
+      }
+    },
+    {
+      "id": "recDhdorl5jqnzC2t",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，科學、女性主義",
+        "簡介": "《女性主義改變科學了嗎？》",
+        "網址": "https://www.facebook.com/events/768789543530397/",
+        "Name": "《女性主義改變科學了嗎？》"
+      }
+    },
+    {
+      "id": "recDhYTWAEZ8ZW9Ig",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣，環境 NGO 生物調查與技能培訓",
+        "簡介": "推動棲地守護公民科學家課程，棲地生態資料庫，邀請民眾擔任擔任科學家志工，在荒野保護協會全台70處棲地監測與調查生態\n\nhttps://www.sow.org.tw/blog/33/20160810/4843",
+        "網址": "https://www.sow.org.tw/mission",
+        "Name": "荒野保護協會"
+      }
+    },
+    {
+      "id": "recdyOQiT2VwytMNU",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "Public Laboratory for Open Technology and Science",
+        "網址": "https://publiclab.org/",
+        "Name": "Public Laboratory for Open Technology and Science"
+      }
+    },
+    {
+      "id": "recebXOcVIRuxkqrp",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "國科會應用研究，棲地模式和生物分布圖對生態保育非常重要。但是，野生動物分布資訊通常不完整且不 確定性高，若是模式中的資訊有誤差，可能會形成錯誤的評估與決策。近年由於大尺度生態 研究的需求，開始引入「公民科學家」的概念，由大量自願公民完成調查。由於公民所調查 出來的資料潛在誤差與不確定性較高，因此公民科學資料的不確定性近年開始受到重視。 中華民國鳥會自 1970 年代起開始收集鳥友在各地自發性調查的鳥類資料，至 2010 年為 止共計 30 多年，為台灣地區相當稀有且珍貴的長期生態調查資料。但是，由於此一長期調 查資料的收集方法未經科學化系統產生，因此內含之誤差與不確定性相當高。本研究團隊將 以一系列的研究，以此長期鳥類調查資料建立棲地模式，再以近期經科學規範產生的 BBS-Taiwan 為驗證資料，探究其不確定性。本年度所提計畫，即選取廣泛或狹隘分布之常 見或罕見物種共 20 種，探討分布範圍與是否常見對模式不確定性的影響。未來數年內將依 此一年之研究成果為基礎，持續探討此公民科學資料中的不確定性，從中萃取相對可信的資 訊，了解台灣數十年間鳥類的變化和這些變化與國土變化之間的關連，同時產生掌控不確定 性的棲地推估模式，以期作為台灣地區生態保育規劃策略和國土計畫的科學基礎。",
+        "網址": "https://www.grb.gov.tw/search/planDetail?id=3090035&docId=416212",
+        "Name": "公民科學家衍生資料不確定性之探討(I)-不同分布類型對不確定性的影響"
+      }
+    },
+    {
+      "id": "recEcKEOXqTnVbHeC",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，都市議題與公眾參與",
+        "簡介": "Citizen Science, Geocrowdsourcing and Big Data in Urban Context",
+        "網址": "https://www.slideshare.net/mariabrovelli/citizen-science-geocrowdsourcing-and-big-data-in-urban-context",
+        "Name": "Citizen Science, Geocrowdsourcing and Big Data in Urban Context"
+      }
+    },
+    {
+      "id": "receoPvHo5ik5SsOn",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "交流社群",
+        "簡介": "本版為辨認、分享錄音以及錄音技巧用，理論方面請洽「鳥類聲學」社團，鼓勵各位將錄到的野生動物聲音上傳至開放線上資料庫中",
+        "網址": "https://www.facebook.com/groups/1857928557576800/",
+        "Name": "臺灣野生動物錄音論壇 Wildlife Sound Discuz Taiwan"
+      }
+    },
+    {
+      "id": "recfbJgRO871BGgJ3",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，專題刊物",
+        "簡介": "「科技民主與社區培力── Ottinger 空污監測公民科學」手冊\n主持人：杜文苓教授\n政大公共行政研究團隊：施佳良、謝蓓宜、李偲瑋、\n方俐文、周晴萱、蕭宏倉\n台大風險社會與政策研究中心：王瑞庚、林木興、王瑋彤\n\nhttps://drive.google.com/file/d/0BwGKf6SNwgn2RXBtbFlDcUZMUFE/view",
+        "網址": "http://rsprc.ntu.edu.tw/fordownload/1060419/1060419-4.pdf",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recfDiEHqD1ldemQA",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "1995, Citizen Science: A Study of People, Expertise and Sustainable Development (Environment and Society) Alan Irwin",
+        "網址": "http://goo.gl/1lAeSd",
+        "Name": "1995, Citizen Science: A Study of People, Expertise and Sustainable Development (Environment and Society) Alan Irwin"
+      }
+    },
+    {
+      "id": "recfotHt6bM5akgA8",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "reccnSMbOkwcdrC3o",
+            "name": "全球 / 國際"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣，各類計畫資訊彙整",
+        "簡介": "Engaging Citizens in Environmental Monitoring",
+        "網址": "https://www.geo-wiki.org/",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          },
+          {
+            "id": "recQSPHWjFLr18Oia",
+            "name": "多項計畫的推動組織"
+          }
+        ],
+        "Name": "Geo-Wiki: Earth Observation & Citizen Science"
+      }
+    },
+    {
+      "id": "recfVu2GU6gmfXRdM",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "交流社群",
+        "簡介": "推廣認識土壤生物",
+        "網址": "https://www.facebook.com/LivingSoilTW/posts/281386548876653",
+        "Name": "土生土長—誰在地下呼吸"
+      }
+    },
+    {
+      "id": "recgfa3OTXLI5ZZtu",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，公民科學與科學教育",
+        "簡介": "<<多元的學習科學途徑>>美國國家科學院剛發行了一本新書「透過公民科學的學習(Learnign Through Citizen Science)」。提供了公民科學家們，如何可以使用多元的方法去散播科普知識。對於想撰寫科技部科普計畫的朋友們，這本205頁的教戰手冊，會是很有參考價值的。",
+        "網址": "http://nap.edu/25183",
+        "Name": "美國國家科學院「透過公民科學的學習(Learnign Through Citizen Science)」"
+      }
+    },
+    {
+      "id": "recGVVTlrVkdy9hQr",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "PNC 2015 Annual Conference and Joint Meetings Authorship, Ownership and Credibility in Citizen Science Projects",
+        "網址": "http://goo.gl/BNCFgi",
+        "Name": "Authorship, Ownership and Credibility in Citizen Science Projects"
+      }
+    },
+    {
+      "id": "recgwH0Z2uqEK8fkA",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣，影集",
+        "簡介": "探討公民科學(Citizen Science)影集",
+        "網址": "http://crowdandcloud.org",
+        "Name": "美國國家科學基金會(National Science Foundation, NSF)"
+      }
+    },
+    {
+      "id": "recgzEZI6cMAEnCtl",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "reckqhQMQPSE0PxXw",
+            "name": "高雄市"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "學術，社區監測與空汙分析",
+        "簡介": "長期協助楠梓大社地區的社區空汙採樣分析\nhttps://youtu.be/VlChBbIu6H8?t=6m",
+        "網址": "http://mee.nkmu.edu.tw/people/bio.php?PID=16",
+        "Name": "高雄空氣監測與分析"
+      }
+    },
+    {
+      "id": "rechHpbIaLO56200Z",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，都市議題與公眾參與",
+        "簡介": "The Participatory City & Participatory Sensing – new paper",
+        "網址": "https://povesham.wordpress.com/2016/05/31/the-participatory-city-participatory-sensing-new-paper/",
+        "Name": "The Participatory City & Participatory Sensing – new paper"
+      }
+    },
+    {
+      "id": "recHxhrDqjhM9YQGi",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "交流社群",
+        "簡介": "台灣地震學園\nhttp://hdl.handle.net/11296/468924",
+        "網址": "https://pubs.geoscienceworld.org/ssa/srl/article-abstract/87/1/177/315658/earthquake-school-in-the-cloud-citizen",
+        "Name": "台灣地震學園"
+      }
+    },
+    {
+      "id": "recibZ4QVZ1ehtwpz",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，氣象預測與群眾外包",
+        "簡介": "Crowdsourcing The Weather",
+        "網址": "https://www.forbes.com/sites/brucedorminey/2014/02/26/crowdsourcing-as-the-future-of-weather-forecasting",
+        "Name": "Crowdsourcing The Weather"
+      }
+    },
+    {
+      "id": "recIcnUCUKltHyjUm",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "鄉民如何參與天文研究？",
+        "網址": "https://www.facebook.com/groups/437659989769965/permalink/1151429471726343/",
+        "Name": "鄉民如何參與天文研究？"
+      }
+    },
+    {
+      "id": "recJ4H2FtgV0FzWvO",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，健康風險",
+        "簡介": "協助健康風險分析與提倡社區知情權",
+        "Name": "臺灣大學公衛系所"
+      }
+    },
+    {
+      "id": "recJ6C1HQRa3dJfGS",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recb1g4XZ5esQOu6L",
+            "name": "美國"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "Citizen Science Community Resources is a grassroots organization in Western New York dedicated to science-based activism for winning environmental health and justice campaigns. Teaching others through our example, we empower people to investigate their air, soil, or water and use the power of scientific data to create healthier communities and a more just society. Citizen science is the practice of public participation and collaboration in scientific research to increase scientific knowledge. We seek to educate, empower, and advocate. ",
+        "網址": "http://www.csresources.org/",
+        "Name": "Citizen Science Community Resources"
+      }
+    },
+    {
+      "id": "recjD4TmLa9aa9sZT",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，專題刊物",
+        "簡介": "黃志堅(2017) 公民科學家計畫的過去與未來, 臺灣林業43卷第4期（民國106年8月）頁51-60  https://www.forest.gov.tw/MagazineFile.aspx?fno=6551",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recJJPS7ltzBe6wRs",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，專題刊物",
+        "簡介": "曾針對公民科學議題編輯特刊",
+        "網址": "https://www.facebook.com/groups/437659989769965/permalink/444434439092520/",
+        "Name": "SHS 科學人文跨科際人才培育計畫特刊"
+      }
+    },
+    {
+      "id": "recJwt4L6qYBROD8j",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "交流社群",
+        "簡介": "台灣兩棲類保育志工的交流社團",
+        "網址": "https://www.facebook.com/groups/froghome/about/",
+        "Name": "台灣兩棲類保育志工"
+      }
+    },
+    {
+      "id": "recK0LxXnw6e3yzVE",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "如何於生物多樣性監測中提升公民科學資料的品質",
+        "網址": "http://www.hyread.com.tw/hyreadnew/search_detail_new.jsp?sysid=00431669",
+        "Name": "如何於生物多樣性監測中提升公民科學資料的品質"
+      }
+    },
+    {
+      "id": "recKF26pXRIZiAA6h",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "citizenscience is considered as infrastructure for data-driven science",
+        "網址": "https://www.facebook.com/dongpo.deng/posts/10208469129870024",
+        "Name": "citizenscience is considered as infrastructure for data-driven science"
+      }
+    },
+    {
+      "id": "reckKCBrU2DgHNYjv",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣，環境 NGO 美國經驗",
+        "簡介": "地球公民基金會專員參訪美國公民科學推廣團體",
+        "網址": "http://www.cet-taiwan.org/node/2151",
+        "Name": "地球公民基金會"
+      }
+    },
+    {
+      "id": "recKQYLiPZTfroGkG",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣，各類計畫資訊彙整",
+        "簡介": "蒐集國內外公民科學計畫與團體資訊",
+        "網址": "http://pansci.asia/tw-citizen-science",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          }
+        ],
+        "Name": "泛科學公民科學議題網站"
+      }
+    },
+    {
+      "id": "reckRX6Htmq5U7uyy",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣，環境 NGO 生物調查與技能培訓",
+        "簡介": "鳥類調查與公民科學參與研習營",
+        "網址": "https://www.facebook.com/kwbs1979/posts/488387918017382",
+        "Name": "社團法人高雄市野鳥學會鳥類調查與公民科學參與研習營"
+      }
+    },
+    {
+      "id": "reckx8KtQxf7HC7ef",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recb1g4XZ5esQOu6L",
+            "name": "美國"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "Global Community Monitor",
+        "網址": "http://www.gcmonitor.org/",
+        "Name": "Global Community Monitor"
+      }
+    },
+    {
+      "id": "recLJUV2RG3NYuVym",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recAG5D0Btcnuhl4J",
+            "name": "南投縣"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣，公部門生物調查",
+        "簡介": "持續推動與協助各類生物調查面向的公民科學計畫",
+        "網址": "http://tesri.tesri.gov.tw/show_index.php",
+        "Name": "農委會特生中心"
+      }
+    },
+    {
+      "id": "recLLSGqGG5spDfuD",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，社區監測",
+        "簡介": "離不開社會的生態監測：社區參與自然資源經營管理",
+        "網址": "http://www.geog-daily.org/2015465293387502015465372human/14",
+        "Name": "離不開社會的生態監測：社區參與自然資源經營管理"
+      }
+    },
+    {
+      "id": "recm1NkMkWg33QIND",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，科學、民主、政治",
+        "簡介": "自然的政治：如何把科學帶入民主",
+        "網址": "https://www.facebook.com/271172606013/photos/a.442829241013.241714.271172606013/10154047917651014/",
+        "Name": "自然的政治：如何把科學帶入民主"
+      }
+    },
+    {
+      "id": "recMAi9ss2H1G1nxk",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "Data for Development: How You Can Help the UN Leverage Big Data for the Public Good",
+        "網址": "https://www.huffingtonpost.com/A-View-from-the-United-Nations-/data-for-development-how_b_9154348.html",
+        "Name": "Data for Development: How You Can Help the UN Leverage Big Data for the Public Good"
+      }
+    },
+    {
+      "id": "recmFncK8GkEMMoUM",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recWlwUohkbNDsnPO",
+            "name": "印度"
+          }
+        ],
+        "文獻類型的補充敘述": "學術，印度經驗",
+        "簡介": "曾訪談印度群眾科學推動過程，並詮釋其公眾賦權面向的意義\n喀拉拉邦民眾科學運動 (KSSP)\n全印度人民科學聯盟 (AIPSN)\n印度學習與科學組織 (BGVS)",
+        "網址": "http://multitude.asia/archives/category/science",
+        "Name": "曾訪談印度群眾科學推動過程"
+      }
+    },
+    {
+      "id": "recnIHGVUBbAC1XDZ",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "The Expert and Citizen Assessment of Science and Technology (ECAST) network",
+        "網址": "https://ecastnetwork.org/",
+        "Name": "The Expert and Citizen Assessment of Science and Technology (ECAST) network"
+      }
+    },
+    {
+      "id": "recp51uiRsLBIrnNg",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "本篇資料論文說明計畫的取樣設計、調查方法，以及涵蓋的鳥種範圍。",
+        "網址": "https://tesri.tesri.gov.tw/show_protect.php?volume=19&issue=4&page=243",
+        "Name": "Point count sampling data from the Taiwan Breeding Bird Survey"
+      }
+    },
+    {
+      "id": "recPboalnmUJVumwg",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recb1g4XZ5esQOu6L",
+            "name": "美國"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣，各類計畫資訊彙整",
+        "簡介": "Scientific American",
+        "網址": "https://www.scientificamerican.com/citizen-science/",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          }
+        ],
+        "Name": "Scientific American"
+      }
+    },
+    {
+      "id": "recPyvQcWlyqNGEIy",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，專題刊物",
+        "簡介": "Ideas for Citizen Science in Astronomy",
+        "網址": "https://arxiv.org/abs/1409.4291",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recqn7dXBnUbOejHb",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣，公部門生物調查",
+        "簡介": "海洋委員會海洋保育署，公開徵求兩項計畫，將以整合科學研究、野外調查及公民參與等方式，彙整及蒐集臺灣附近海域海龜及鯨豚族群資料，依據其族群物種、數量、活動地點等，瞭解海龜及鯨豚種類與族群動態，並藉由調查成果及草擬之保育計畫，做為未來保育政策研擬及評估劃設保護區之依據。",
+        "網址": "https://www.facebook.com/ocaoactaiwan/posts/1143651885815212",
+        "Name": "海洋委員會海洋保育署\n\n一、108年度台灣周邊「海龜」族群調查計畫：90萬元\n1. 彙整臺灣周邊海域海龜族群相關資料\n2. 規劃及執行海龜族群調查\n3. 辦理海龜目擊教育訓練\n4. 草擬「台灣海龜保育計畫」\n\n二、108年度台灣周邊「鯨豚」族群調查計畫：90萬元\n1. 彙整臺灣周邊海域鯨豚族群相關資料\n2. 規劃及執行鯨豚族群調查\n3. 辦理海上鯨豚觀察教育訓練\n4. 草擬「台灣周邊海域鯨豚保育計畫」"
+      }
+    },
+    {
+      "id": "recqqjw3pFrzeb2fG",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "交流社群",
+        "簡介": "台灣椿象(蝽類)分類生態誌的交流社團",
+        "網址": "https://www.facebook.com/groups/583329348353349/about/",
+        "Name": "台灣椿象(蝽類)分類生態誌"
+      }
+    },
+    {
+      "id": "recqqZJnaBmOhtSxx",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "Influence of volunteer and project characteristics on data quality of biological surveys",
+        "網址": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cobi.12481",
+        "Name": "Influence of volunteer and project characteristics on data quality of biological surveys"
+      }
+    },
+    {
+      "id": "recqv6KrJc8E6TYkZ",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣，各類計畫資訊彙整",
+        "簡介": "蒐集國內外公民科學計畫與團體資訊",
+        "網址": "http://citizensci.tw/modules/tadnews/index.php?ncsn=5",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          }
+        ],
+        "Name": "中研院天文所網民參與公民科學議題網站"
+      }
+    },
+    {
+      "id": "recqXvNXVjVg6aD3E",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，跨科際與 Mode2",
+        "簡介": "The new production of knowledge: The dynamics of science and research in contemporary societies",
+        "網址": "http://shs.ntu.edu.tw/shs/?p=26846",
+        "Name": "The new production of knowledge: The dynamics of science and research in contemporary societies"
+      }
+    },
+    {
+      "id": "recrI8Z9S2N1EHfMx",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "Working with dozens of agencies across the U.S. government, from U.S. Department of State and U.S. Department of Transportation to NASA - National Aeronautics and Space Administration and US Postal Service, our General Services Administration Emerging Citizen Technology program has launched an open source pilot to test integrating public service data into Google Assistant, Microsoft Cortana, Amazon.com Alexa, and Facebook Messenger chatbots. You can now follow along or join in on GitHub.\n\nhttps://digital.gov/2017/04/24/federal-pilot-to-integrate-public-services-into-intelligent-personal-assistants/",
+        "網址": "https://www.facebook.com/268483803308108/posts/763386700484480/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recRNOXijXgE6Luy8",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recPv5SpkJ6mKkFcy",
+            "name": "臺北市"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣，公部門博物館",
+        "簡介": "從博物館角度推動二二八和平公園的生態普查計畫",
+        "網址": "http://www.ntm.gov.tw/upload/education/book/20150723/50d2e7b5-e40a-4360-b4b8-cf00eac99ad7.pdf",
+        "Name": "國立臺灣博物館教育推廣組"
+      }
+    },
+    {
+      "id": "recRwxt2BDmdxvbp2",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "2007, The Honest Broker Making Sense of Science in Policy and Politics, Roger A. Pielke, Jr ",
+        "網址": "http://goo.gl/xkXFLV",
+        "Name": "2007, The Honest Broker Making Sense of Science in Policy and Politics, Roger A. Pielke, Jr "
+      }
+    },
+    {
+      "id": "recrXETm0S6dHWXTn",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "群眾外包探勘技術之研究",
+        "網址": "https://www.grb.gov.tw/search/planDetail?id=3099636",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recs9MlO4iOdiL7yN",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，公民產製的資料基礎建設",
+        "簡介": "Making Citizen-Generated Data Work",
+        "網址": "https://blog.okfn.org/2016/12/22/new-report-making-citizen-generated-data-work",
+        "Name": "Making Citizen-Generated Data Work"
+      }
+    },
+    {
+      "id": "recSPaWCU8QuQPGTr",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "reccnSMbOkwcdrC3o",
+            "name": "全球 / 國際"
+          }
+        ],
+        "文獻類型的補充敘述": "平台，發起計畫",
+        "簡介": "Crowdcrafting is a web-based service that invites volunteers to contribute to scientific projects developed by citizens, professionals or institutions that need help to solve problems, analyze data or complete challenging tasks that cant be done by machines alone, but require human intelligence. The platform is 100% open source - that is its software is developed and distributed freely - and 100% open-science, making scientific research accessible to everyone.",
+        "網址": "https://crowdcrafting.org/about",
+        "Name": "Crowdcrafting"
+      }
+    },
+    {
+      "id": "recspgSDTi4F92tTJ",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "交流社群",
+        "簡介": "臺灣業餘天文研討會",
+        "網址": "https://www.facebook.com/events/216061998799184/",
+        "Name": "臺灣業餘天文研討會"
+      }
+    },
+    {
+      "id": "recT1ogtqr0YzCksK",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，文化襲產與公民科學",
+        "簡介": "探討文化襲產與公民科學之間",
+        "網址": "https://historicurbanlandscapes.wordpress.com/2016/08/16/blog-heritage-citizen-science/",
+        "Name": "Heritage & Citizen Science"
+      }
+    },
+    {
+      "id": "rectEBnsrJfElPky5",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recqOxJr9neQalL9k",
+            "name": "中國"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "中國「公眾環境研究中心」（IPE）\n【拯救世界的50分之1：馬軍與公眾環境研究中心（IPE）】 （環境資訊中心） ：http://e-info.org.tw/node/103087\n【馬軍： 互連網為監測全球污染轉移提供了可能】（中外對話）：https://goo.gl/lVLFGl\n【馬軍：用手機應用向污染宣戰】 （紐約時報中文網）：http://cn.nytimes.com/china/20150430/c30pollution/zh-hant/",
+        "網址": "https://www.facebook.com/quark1953/posts/1174342175914278",
+        "Name": "中國「公眾環境研究中心」（IPE）"
+      }
+    },
+    {
+      "id": "rectPk4up9fSLFE5P",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "reckQSl1pljuDxVzv",
+            "name": "宜蘭縣"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "學術，社區監測與濕地經營管理",
+        "簡介": "地理公民科學及社區監測在濕地經營管理上的應用-以無尾港溼地為例",
+        "網址": "http://www.fo.ntu.edu.tw/zh_tw/teacher1/1234/-%E7%9B%A7%E9%81%93%E6%9D%B0-60288816",
+        "Name": "地理公民科學及社區監測在濕地經營管理上的應用-以無尾港溼地為例"
+      }
+    },
+    {
+      "id": "rectYv1QjsulfeH3a",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "2004, Misunderstanding Science? The Public Reconstruction of Science and Technology",
+        "網址": "http://goo.gl/apK1nQ",
+        "Name": "2004, Misunderstanding Science? The Public Reconstruction of Science and Technology"
+      }
+    },
+    {
+      "id": "recuAJyZgxWkcyZ89",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "Citizen Science Museum",
+        "網址": "https://hackaday.io/project/8333-citizen-science-museum",
+        "Name": "Citizen Science Museum"
+      }
+    },
+    {
+      "id": "recUBqUVAoPh6pIWt",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，生態研究與公民科學",
+        "簡介": "The GEO Handbook on Biodiversity Observation Networks\n\nhttps://www.facebook.com/dongpo.deng/posts/10210974211895509",
+        "網址": "https://link.springer.com/book/10.1007%2F978-3-319-27288-7",
+        "Name": "The Group on Earth Observation Biodiversity Observation Network"
+      }
+    },
+    {
+      "id": "recupaiB9PusM0wt9",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "Can citizen science empower disenfranchised communities?",
+        "網址": "https://theconversation.com/can-citizen-science-empower-disenfranchised-communities-53625",
+        "Name": "Can citizen science empower disenfranchised communities?"
+      }
+    },
+    {
+      "id": "recutyYxZLRkZvSxv",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "reckQSl1pljuDxVzv",
+            "name": "宜蘭縣"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "學術，社區監測",
+        "簡介": "宜蘭礁溪林美步道社區監測巡護的機制\nsocial trial；非正式、捷徑；應用於遊客管理；步道監測巡護的機制；社區監測；定點監測；隨機監測；監測項目與評估分級；步道有公尺數，設施也是財產；一起看「單子」修正表單各式內容，文盲參與者的圖示方法，即時上網，報修過程；成果會有預警性，隔年比較有經驗哪裡會損壞；承辦人員有時候自己記錄完，反而少了參與...?；樹根、沈降、兩生類...；發展協會因政治而停擺",
+        "網址": "http://www.fo.ntu.edu.tw/zh_tw/teacher1/1234/-%E7%9B%A7%E9%81%93%E6%9D%B0-60288816",
+        "Name": "宜蘭礁溪林美步道社區監測巡護的機制"
+      }
+    },
+    {
+      "id": "recvdNOoznBs0UGKr",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "Biodiversity research for and by citizens in Eastern Europe: tools, information services and public engagement",
+        "網址": "http://eubon.eu/news/13595_Biodiversity%20research%20for%20and%20by%20citizens%20in%20Eastern%20Europe:%20tools,%20information%20services%20and%20public%20engagement",
+        "Name": "Biodiversity research for and by citizens in Eastern Europe: tools, information services and public engagement"
+      }
+    },
+    {
+      "id": "recvhotksWVm4lXvX",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，公民科學本體論探討",
+        "簡介": "Citizen Science: Can Volunteers Do Real Research?",
+        "網址": "https://drive.google.com/file/d/0B5EFNXxRFP3wUEJNcDFkcG1aZEE/view",
+        "Name": "Citizen Science: Can Volunteers Do Real Research?"
+      }
+    },
+    {
+      "id": "recwcVkWtzXfv7FPE",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "Uncertainty analysis of crowd-sourced and professionally collected field data used in species distribution models of Taiwanese moths",
+        "網址": "https://www.researchgate.net/publication/268821735_Uncertainty_analysis_of_crowd-sourced_and_professionally_collected_field_data_used_in_species_distribution_models_of_Taiwanese_moths",
+        "Name": "Uncertainty analysis of crowd-sourced and professionally collected field data used in species distribution models of Taiwanese moths"
+      }
+    },
+    {
+      "id": "recWeoIxrxQDxMbOs",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "交流社群",
+        "簡介": "台灣螳螂研究公會的交流社團",
+        "網址": "https://www.facebook.com/groups/165773213492752/about/",
+        "Name": "台灣螳螂研究公會"
+      }
+    },
+    {
+      "id": "recXrnuKMQUem4mwb",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣，環境 NGO 生物調查與技能培訓",
+        "簡介": "猛禽調查訓練課程",
+        "網址": "https://www.facebook.com/RRGTaiwan",
+        "Name": "台灣猛禽研究會"
+      }
+    },
+    {
+      "id": "recxTt3DJSE5kcc4y",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "以公民參與推動野生動物長期監測之研究",
+        "網址": "https://www.grb.gov.tw/search/planDetail?id=8244223",
+        "Name": "以公民參與推動野生動物長期監測之研究"
+      }
+    },
+    {
+      "id": "recynES1cFqzUmzyc",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，",
+        "簡介": "Crowdsourcing, citizen sensing and sensor web technologies for public and environmental health surveillance and crisis management: trends, OGC standards and application examples",
+        "網址": "https://ij-healthgeographics.biomedcentral.com/track/pdf/10.1186/1476-072X-10-67",
+        "Name": "Crowdsourcing, citizen sensing and sensor web technologies for public and environmental health surveillance and crisis management: trends, OGC standards and application examples"
+      }
+    },
+    {
+      "id": "recYwUA2D6MnKsikm",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，美國經驗",
+        "簡介": "Gwen Ottinger 來台訪問與互動系列活動",
+        "網址": "http://120.119.151.216/vod/course.php?coz=e3d440af6e",
+        "Name": "國立高雄海洋科技大學科技與社會研究中心"
+      }
+    },
+    {
+      "id": "recz1wll5HCFZgNEs",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "博物館如何成為「大眾史學」實踐的媒介以及其特殊的課題",
+        "網址": "https://www.facebook.com/notes/%E5%8D%9A%E7%89%A9%E9%A4%A8%E6%AD%B7%E5%8F%B2%E5%AD%B8%E7%9F%A5%E8%AD%98%E7%94%9F%E7%94%A2%E5%85%AC%E6%B0%91%E5%8F%83%E8%88%87%E5%8F%8A%E5%8D%9A%E7%89%A9%E9%A4%A8%E6%8A%80%E8%97%9D/%E8%AA%B2%E7%A8%8B%E5%A0%B1%E5%B0%8E%E9%BB%83%E8%B2%9E%E7%87%95%E7%9F%A5%E8%AD%98%E7%9A%84%E5%A4%9A%E5%85%83%E6%80%A7%E8%88%87%E5%85%AC%E6%B0%91%E5%8F%83%E8%88%87%E5%8D%9A%E7%89%A9%E9%A4%A8%E6%AD%B7%E5%8F%B2%E5%AD%B8%E5%A4%A7%E5%93%89%E5%95%8F03/1241251952676598/",
+        "Name": "博物館如何成為「大眾史學」實踐的媒介以及其特殊的課題"
+      }
+    },
+    {
+      "id": "recZMqmutuqjOi2wY",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recjujEJgeSTebwYV",
+            "name": "新北市"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "舉辦時間": "2014-06-24",
+        "舉辦地點描述": "大屯溪流域",
+        "文獻類型的補充敘述": "學術，公眾參與環境評估",
+        "簡介": "透過公共參與及群眾資源進行生態系統服務社會價值模擬──以大屯溪流域為例",
+        "網址": "http://hdl.handle.net/11296/gzxgwp",
+        "鄉鎮區": [
+          {
+            "id": "rec809DtK8JEOzlC7",
+            "name": "新北市淡水區"
+          },
+          {
+            "id": "recIakE2jPBUVHbTu",
+            "name": "新北市三芝區"
+          }
+        ],
+        "Name": "透過公共參與及群眾資源進行生態系統服務社會價值模擬──以大屯溪流域為例"
+      }
+    },
+    {
+      "id": "reczwedci4cQWuZVL",
+      "createdTime": "2020-12-12T12:43:51.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，遙測工具與公民科學",
+        "簡介": "Call for Papers in a special issue of Remote Sensing in Ecology and Conservation on citizen science\nhttp://www.mdpi.com/journal/remotesensing/special_issues/earth_observation",
+        "網址": "https://povesham.wordpress.com/2017/03/07/call-for-papers-in-a-special-issue-of-remote-sensing-in-ecology-and-conservation-on-citizen-science/",
+        "Name": "Remote Sensing in Ecology and Conservation"
+      }
+    },
+    {
+      "id": "rec0HrwZ36MNXfDEJ",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，研究設計",
+        "簡介": "發揮素人實驗精神撿天燈、撿菸蒂、算運具時間等\nhttps://www.facebook.com/taikestory/videos/1330674683625753/",
+        "網址": "https://www.facebook.com/taikestory/",
+        "Name": "台客劇場 TKstory"
+      }
+    },
+    {
+      "id": "rec2VNuj2yFNpmXgp",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "培訓，戶外與田野安全",
+        "簡介": "墜落、蜂螫、雷擊、落石、涉溪沖走，這五件事是立即性的風險，瞬間就能致命，請朋友們一定要用心面對。https://www.facebook.com/yuntien/posts/pfbid0KUtj9crSrTSQ7am2W7yk5pH4SvSgBvAa84Fj24ozpDLb96rDMgaJoEfDNokcqYgMl?locale=zh_TW\n\n戶外與田野安全\nhttps://www.facebook.com/permalink.php?story_fbid=1125317887504712&id=100000795333194\nhttps://www.facebook.com/1078012082221344/photos/a.1078051502217402.1073741828.1078012082221344/1128039123885306/?type=3&theater\n\n水域安全\nhttps://www.facebook.com/share/v/1M6S7DHrcW/",
+        "網址": "https://www.facebook.com/permalink.php?story_fbid=1125317887504712&id=100000795333194",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "[彙整] 戶外技能培訓 / 田野安全 / 水域安全"
+      }
+    },
+    {
+      "id": "rec3oSw36undqOjG6",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具",
+        "簡介": "希望政府能夠釋出全國的地籍圖成為開放資料，然後關心國土發展的朋友可以運用這份資料整理在每塊土地上發生的問題、處理的記錄以及關注它的後續發展。",
+        "網址": "https://www.facebook.com/k.olc.tw/videos/vb.282921805214623/969268596579937/?type=2&theater",
+        "Name": "國土巡守隊"
+      }
+    },
+    {
+      "id": "rec3R0ooc4gupLb85",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，APP",
+        "簡介": "Measure visible spectrum, color names, RGB,HEX, CIELab, Hº,Chroma ",
+        "網址": "https://www.facebook.com/researchlabtools/posts/561333407372927",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "rec4bCQZU63a0khNH",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，自製氣象站",
+        "簡介": "自製氣象站",
+        "網址": "https://www.facebook.com/groups/LASSnet/permalink/1779585398958729/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "rec4YpARFGrBtkjaX",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，APP",
+        "簡介": "Google 中文版科學測量 App ",
+        "網址": "https://www.playpcesor.com/2016/05/google-Science-Journal-app.html",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "rec59noiZemPdMnD4",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "平台，中介企劃作法",
+        "簡介": "MIT Climate Colab\nhttps://www.climatecolab.org/",
+        "網址": "https://www.facebook.com/dongpo.deng/posts/10207639911300078",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "rec5Rtfg9VWOmSMxG",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，募資計畫",
+        "簡介": "台灣群眾集資 2011-2015 回顧  ＆ 2016 趨勢分析",
+        "網址": "https://www.facebook.com/vMaker.taiwan/posts/1522011461427654",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "rec5t4kPATp5WDVuT",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，研究設計",
+        "簡介": "Federal Crowdsourcing and Citizen Science Toolkit",
+        "網址": "https://www.citizenscience.gov/toolkit/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "rec83QVHwwnuWprwQ",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，研究設計",
+        "簡介": "Easily manage your sensor network and distribute your data in a standard way\nIstSOS is an OGC SOS server implementation written in Python.\nistSOS is an OSGeo incubating project distributed under the GPL v2 license.",
+        "網址": "http://istsos.org/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recAfJXWYYRDuxXJ1",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "簡介": "開源社群協作探討",
+        "網址": "https://g0v.hackmd.io/pn-innCgRKycd-MNkR-exQ",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "開源社群協作探討"
+      }
+    },
+    {
+      "id": "recANR2dUEHTXbYFb",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，雨量計",
+        "簡介": "雨量計",
+        "網址": "https://www.facebook.com/groups/411507265697171/permalink/579433458904550/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recASZ9NLoXXZmneW",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具",
+        "簡介": "水質感測",
+        "網址": "https://www.akubic.com/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recdw9MbQOhicMN4f",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，研究設計",
+        "簡介": "Metadata-aware tool",
+        "網址": "https://g0v.hackmd.io/eSmKSknnT1iEydjlxYwM8A?view",
+        "Name": "Metadata-aware tool"
+      }
+    },
+    {
+      "id": "recGLY1pnYPUUbTHK",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具",
+        "簡介": "Vienna Summer Scouts\nhttps://www.facebook.com/groups/437659989769965/permalink/585847794951183/",
+        "網址": "https://vimeo.com/98517648",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recHElLIMhPTcCeEz",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，APP",
+        "簡介": "Locus Map 使用教學",
+        "網址": "https://sites.google.com/a/birds-tesri.twbbs.org/yunlinlapwingsurvey/locus",
+        "Name": "Locus Map"
+      }
+    },
+    {
+      "id": "rechqayiMJehOwq64",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，地震觀測站",
+        "簡介": "QCN 與樹莓派",
+        "網址": "https://www.facebook.com/kate.chen.12979/posts/10154054575386869",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recIJoxiQEqE2g1s7",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具",
+        "簡介": "InterAgency AI Personal Assistant Rapid Development Pilot\nhttps://www.facebook.com/digitalgov/posts/763386700484480",
+        "網址": "https://github.com/GSA/AI-Assistant-Pilot/wiki/InterAgency-AI-Personal-Assistant-Rapid-Development-Pilot",
+        "Name": "InterAgency AI Personal Assistant Rapid Development Pilot"
+      }
+    },
+    {
+      "id": "recioCQvDgfjMaNiZ",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recPv5SpkJ6mKkFcy",
+            "name": "臺北市"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "文獻類型的補充敘述": "工具，官方推廣資訊與感測器",
+        "簡介": "希望推廣市民或城市環境感測器",
+        "網址": "http://doit.gov.taipei/ct.asp?xItem=44185&CtNode=5598&mp=121001",
+        "Name": "臺北市資訊局 / 智慧城市辦公室推廣市民或城市環境感測器"
+      }
+    },
+    {
+      "id": "reciTiTFQOnKOyy0b",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，研究設計",
+        "簡介": "One of World's Longest-Running Experiments Is Buried in a Secret Location in Michigan",
+        "網址": "https://www.sciencealert.com/the-world-s-longest-running-botanical-experiment-is-buried-in-a-top-secret-location-in-michigan",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recj5UKPizLZIW2wG",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，APP",
+        "簡介": "We know that data is critical to protecting the environment, to helping us make sense of the world around us, to enabling people to live better, healthier lives and to helping businesses be more efficient and effective. That’s why we created Coreo. Build apps in minutes. Change your understanding of the world forever.",
+        "網址": "https://coreo.io/about/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recLl7j5C11nbI3O8",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，自製氣象站",
+        "簡介": "自製氣象站",
+        "網址": "https://www.facebook.com/groups/TaiwanOpenSourceEcology/permalink/1049751218469325/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recn15G8ntMMo26wW",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，研究設計",
+        "簡介": "公眾通報功能案例",
+        "網址": "https://g0v.hackmd.io/jRxB8NHwTai543QpUwa8tQ?view",
+        "Name": "公眾通報功能案例蒐集"
+      }
+    },
+    {
+      "id": "recNbhkSl2ewypcC9",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具",
+        "簡介": "Smart Citizen - Open source technology for citizens political participation in smarter cities",
+        "網址": "https://smartcitizen.me/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recOfCSAyyqPtIA93",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，手機氣體感測晶片 ",
+        "簡介": "氣體感測晶片 讓手機可偵測有毒氣體",
+        "網址": "http://www.chinatimes.com/realtimenews/20160719003453-260405",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recOYwfkSpOPf1rWI",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，河川水質監測",
+        "簡介": "河川監測儀器與空拍機",
+        "網址": "http://www.ithome.com.tw/news/89839",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recpK4tz26y3XqW8b",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，蒐集沿岸海水資料",
+        "簡介": "結合衝浪板的海洋感測器",
+        "網址": "https://www.facebook.com/OceanSaysBlog/posts/816895438493409",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recrP8SRykhVmUXoZ",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，研究設計",
+        "簡介": "Gary Downey訪台系列演講 ",
+        "網址": "https://www.facebook.com/shinyi.hsieh.1/posts/10208481244378945",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "rectF44nDaOchujTw",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具",
+        "簡介": "SWE-4-Citizen-Science wiki",
+        "網址": "https://github.com/opengeospatial/swe4citizenscience/wiki",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recWbCJ5iXGBq11XM",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具",
+        "簡介": "測河流水深 https://www.facebook.com/groups/2675853389340513/permalink/2700757156850136/",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recXynARM3vnBetjO",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "簡介": "【活動緣起】\n　　大新竹地區民眾所飲用的水，取水口位於中下游的位置，水先流經上游垃圾掩埋場及工業區的汙水排水口，經過汙染後，才被取為民眾所喝的水。我們所喝的水竟是來自工業廢水及垃圾水，環保署卻表示水質檢驗結果符合飲用水標準；於是主婦聯盟及我要喝乾淨水行動聯盟決定舉辦一場公民參與工作坊，提倡以科學的角度，提供簡易實驗方法，讓每一個生活在這片土地上的公民，成為水質把關的監控者！\n【工作坊簡介】\n🌄中區督察隊：\n彰化農地工廠遍佈，環保署如何和相關單位合作，找出排放源，並進而使違章工廠遷移至彰濱工業區。\n🌱北區督察大隊：\n去年沸騰一時的有毒廢溶液傾倒至山區的案子，如何藉由公民合作、環保及檢警努力，揪出不法集團？\n🌊環保署水保處：\n新興污染物跑到水裡，主管機關如何掌控污染物？及管控風險？\n💡綜合討論：\n針對以上講座，提出問題。\n反思我們可以怎樣合作前進？",
+        "網址": "https://facebook.com/events/s/%E7%92%B0%E5%A2%83%E7%9B%A3%E7%9D%A3%E5%85%AC%E6%B0%91%E5%8D%94%E5%8A%9B%E5%B7%A5%E4%BD%9C%E5%9D%8A/908116412948183/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "環境監督公民協力工作坊"
+      }
+    },
+    {
+      "id": "recyn6zbw9ahpN68p",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "工具，行動載具GPS觀測數據",
+        "簡介": "Google將在Android系統上提供原始GPS觀測數據",
+        "網址": "https://www.facebook.com/asgis/posts/1229403767069949",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recyyPQv8M7ZkUb8b",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，募資計畫",
+        "簡介": "針對科學計畫的募資宣傳平台",
+        "網址": "http://www.scimu.tw/",
+        "Name": "SciMu 科學募資平台 / 泛科知識"
+      }
+    },
+    {
+      "id": "reczgGFMWivksOBBI",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，資料貢獻協議",
+        "簡介": "台灣生物多樣性網絡(Taiwan Biodiversity Network, TBN) 貢獻協議 v.20171205",
+        "網址": "https://www.tbn.org.tw/participation/contribute-aggrement",
+        "Name": "台灣生物多樣性網絡(Taiwan Biodiversity Network, TBN) 貢獻協議 v.20171205"
+      }
+    },
+    {
+      "id": "reczm7U42S1DDM5Ow",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "籌畫，募資計畫",
+        "簡介": "A Guide to Scientific Crowdfunding",
+        "網址": "http://journals.plos.org/plosbiology/article?id=10.1371%2Fjournal.pbio.1002373",
+        "Name": "?"
+      }
+    },
+    {
+      "id": "recZriZnjNW80d0Oe",
+      "createdTime": "2020-12-12T12:45:36.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "reccnSMbOkwcdrC3o",
+            "name": "全球 / 國際"
+          }
+        ],
+        "文獻類型的補充敘述": "平台，發起計畫",
+        "簡介": "The Zooniverse is the world’s largest and most popular platform for people-powered research. This research is made possible by volunteers — hundreds of thousands of people around the world who come together to assist professional researchers. Our goal is to enable research that would not be possible, or practical, otherwise. Zooniverse research results in new discoveries, datasets useful to the wider research community, and many publications.",
+        "網址": "https://www.zooniverse.org/about",
+        "Name": "Zooniverse"
+      }
+    },
+    {
+      "id": "recWW2UNpYuJVt6jS",
+      "createdTime": "2020-12-28T15:49:56.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣，各類計畫資訊彙整",
+        "簡介": "TBN 台灣生物多樣性網絡 的網站首頁，新增了一個「公民科學網站 Citizen Science」的專區~\nhttps://www.tbn.org.tw/ 演講 https://www.facebook.com/230461351192/posts/10156725869781193/",
+        "網址": "https://www.tbn.org.tw/",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          }
+        ],
+        "Name": "TBN 台灣生物多樣性網絡「公民科學網站 Citizen Science」的專區"
+      }
+    },
+    {
+      "id": "recyAEcojtMjJJ1Mo",
+      "createdTime": "2020-12-28T15:53:06.000Z",
+      "fields": {
+        "簡介": "https://www.facebook.com/groups/SATaiwan/permalink/409887543326899/",
+        "Name": "公眾考古學"
+      }
+    },
+    {
+      "id": "recFP9gUIWisTlWGI",
+      "createdTime": "2020-12-28T16:02:17.000Z",
+      "fields": {
+        "簡介": "https://www.facebook.com/227014777490360/posts/1415428068649019/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "Merlin 鳥種辨識 app"
+      }
+    },
+    {
+      "id": "recxPkxM68uBm7eqv",
+      "createdTime": "2020-12-28T16:08:18.000Z",
+      "fields": {
+        "簡介": "https://www.facebook.com/151015035313162/posts/1009468506134473/",
+        "Name": "台灣產蝶蛾圖鑑網站"
+      }
+    },
+    {
+      "id": "recuaIOUIbpoCRRa2",
+      "createdTime": "2020-12-28T16:11:33.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "rec4X08NaEUVQWPoq",
+            "name": "社團法人環境資訊協會"
+          }
+        ],
+        "簡介": "環資推出 地球日的專題網站，其中一項的環境行動「從口慾到保育」，內容中帶出公民科學家的描述：沒完成的科學家夢想，現在還來得及！\nhttps://earthday50.org.tw/",
+        "網址": "https://earthday50.org.tw/",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          }
+        ],
+        "Name": "環資地球日專題"
+      }
+    },
+    {
+      "id": "recBPAh8j54FAacht",
+      "createdTime": "2020-12-28T16:28:44.000Z",
+      "fields": {
+        "簡介": "https://www.facebook.com/950487731798296/posts/1404088319771566/",
+        "Name": "補助政策"
+      }
+    },
+    {
+      "id": "recGRfokx7Wtn7HcX",
+      "createdTime": "2020-12-31T13:02:51.000Z",
+      "fields": {
+        "網址": "https://openlabtaipei.hackpad.com/FhTATL8IGga",
+        "Name": "農田裡的科學家案例蒐集"
+      }
+    },
+    {
+      "id": "recKvrdlI7aDvkBCw",
+      "createdTime": "2020-12-31T13:52:55.000Z",
+      "fields": {
+        "網址": "https://www.whitehouse.gov/blog/2015/09/09/open-science-and-innovation-people-people-people",
+        "Name": "Open Science and Innovation: Of the People, By the People, For the People"
+      }
+    },
+    {
+      "id": "reckrcwhAQBolVkGn",
+      "createdTime": "2020-12-31T13:54:30.000Z",
+      "fields": {
+        "網址": "https://g0v.hackpad.tw/B1xkj9fUqqH",
+        "素材主題類型": [
+          {
+            "id": "recQ6C1aqoxi3yx87",
+            "name": "戶外產生資料的方法 / 資料內容轉用至其他計畫"
+          }
+        ],
+        "Name": "[蒐集] IoT 空污偵測 DIY"
+      }
+    },
+    {
+      "id": "recfd8l3jtq5Zp5Tu",
+      "createdTime": "2021-01-18T12:45:49.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/100001283836862/posts/3994168953969193/",
+        "Name": "整合東亞澳遷徙線遷徙水鳥監測網絡的可能性"
+      }
+    },
+    {
+      "id": "recjbr4uNd4sMU2vW",
+      "createdTime": "2021-03-10T11:46:12.000Z",
+      "fields": {
+        "簡介": "台灣鯨豚觀察員(Taiwan Cetacean Observer, TCO) \n描述：在海上打樁工程施工時，負責在施工區域監測鯨豚活動並即時警示之人員。鯨豚觀察員資 格可經由參加並完成海保署、海保署指定單位或經核可之培訓學校、事業、公司、團體等 機關(構)辦理之培訓課程取得，亦可由本手冊認定之國外培訓單位取得同等資格。\n\nhttps://m.facebook.com/story.php?story_fbid=pfbid0fDf1BP6UYksMMN6FJ7eYTEcrB1wiMGMrdUXVzRT3Mpryw31Dur5GsvXx5k4B3rsJl&id=100057181911161",
+        "網址": "https://www.facebook.com/ocaoactaiwan/posts/1761013807412347",
+        "Name": "台灣鯨豚觀察員(Taiwan Cetacean Observer, TCO) "
+      }
+    },
+    {
+      "id": "recsiTAaf9z39DPG0",
+      "createdTime": "2021-03-16T15:53:05.000Z",
+      "fields": {
+        "網址": "https://www.youtube.com/watch?v=FYwnWsh1NpI",
+        "Name": "The role of citizen science in hydrology - Prof. Wouter Buytaert (Imperial College London)"
+      }
+    },
+    {
+      "id": "recF0tgocoyGlFt38",
+      "createdTime": "2021-06-07T10:08:25.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          }
+        ],
+        "網址": "https://www.facebook.com/groups/437659989769965/permalink/1694323890770229/",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "公民科學的情感空間與權力關係-以 eBird Taiwan 為例"
+      }
+    },
+    {
+      "id": "recZi3g8i2upN2fqp",
+      "createdTime": "2021-06-07T10:14:17.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/groups/CitSciAsia/",
+        "Name": "CitizenScience.Asia Community"
+      }
+    },
+    {
+      "id": "recGNy1lC6HO40Zh5",
+      "createdTime": "2021-06-07T10:15:39.000Z",
+      "fields": {
+        "網址": "https://bigswell.com.tw/index.php/2021/04/18/citizen-science/",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "【吳思儒專欄】從公民科學為起點的科學公民社會：川流之島流域學校"
+      }
+    },
+    {
+      "id": "recZyeObyb33yoqmj",
+      "createdTime": "2021-06-07T10:40:49.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/dongpo.deng/posts/10217632512588865",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "Dongpo Deng 提出公民科學架構的三個部份"
+      }
+    },
+    {
+      "id": "reciPP5xZxLYbJmPE",
+      "createdTime": "2021-07-03T20:03:46.000Z",
+      "fields": {
+        "簡介": "本次研討會，可參考以下 podcast 介紹\nhttps://open-cafe.netlify.app/project/ep033/",
+        "網址": "https://hackmd.io/lGrIVleUTsOumHOw4AXEbg",
+        "Name": "Public engagement hackathon project"
+      }
+    },
+    {
+      "id": "recMr65lrtBB5xdxi",
+      "createdTime": "2021-07-14T21:12:06.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recPkqDmp385c2DZJ",
+            "name": "英國"
+          }
+        ],
+        "文獻類型的補充敘述": "英國",
+        "簡介": "Open Air Laboratories (OPAL) was a UK-wide citizen science initiative founded and led by Imperial College London (2007 - 2019) enabling people to get hands-on with nature while contributing to important scientific research. OPAL was primarily funded by the Big Lottery Fund (BLF).",
+        "網址": "https://www.imperial.ac.uk/opal/",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          },
+          {
+            "id": "recQSPHWjFLr18Oia",
+            "name": "多項計畫的推動組織"
+          }
+        ],
+        "Name": "Open Air Laboratories (OPAL) "
+      }
+    },
+    {
+      "id": "recK9P2ArrQdyvWQe",
+      "createdTime": "2021-08-03T23:57:40.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          }
+        ],
+        "簡介": "智慧國家 > 社會創新線 > 第一站：公民科學\n\ne 等公務員，科技素養學習地圖\nhttps://elearn.hrd.gov.tw/mooc/co_learn_map/index.php",
+        "網址": "https://elearn.hrd.gov.tw/mooc/co_learn_map/index.php",
+        "素材主題類型": [
+          {
+            "id": "recDeYyXH6do8Gdiz",
+            "name": "開放式課程 / 線上課程"
+          }
+        ],
+        "Name": "e 等公務員「科技素養學習地圖」提供「公民科學」線上學習資源"
+      }
+    },
+    {
+      "id": "rec0bYXhOU7vEUwlD",
+      "createdTime": "2021-08-20T04:29:08.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/groups/1563211903906422/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "特生中心綠野尋蹤高中生物營"
+      }
+    },
+    {
+      "id": "recpGdh5rDYx1BBE0",
+      "createdTime": "2021-08-20T17:58:27.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "學術，研究方法與學理探討",
+        "簡介": "\n\n",
+        "網址": "https://www.tandfonline.com/doi/full/10.1080/02626667.2020.1849707",
+        "Name": "Citizens AND HYdrology (CANDHY): conceptualizing a transdisciplinary framework for citizen science addressing hydrological challenges"
+      }
+    },
+    {
+      "id": "recdQBjpb89SYHHO0",
+      "createdTime": "2021-09-20T17:12:22.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          }
+        ],
+        "文獻類型的補充敘述": "學術",
+        "網址": "https://www.grb.gov.tw/search/planDetail?id=12424478",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "探討台灣公民科學參與者之動機、學習影響與實踐社群"
+      }
+    },
+    {
+      "id": "rec2kTspICsZTldx2",
+      "createdTime": "2021-09-25T05:46:21.000Z",
+      "fields": {
+        "簡介": "學術人員經驗分享\nTyra 演說全程錄影錄音\nhttps://projecttyra.blogspot.com/2021/09/science-communication.html\nhttps://youtu.be/2IESeNBSYR4",
+        "網址": "https://projecttyra.blogspot.com/2021/09/science-communication.html",
+        "Name": "學術人員經驗分享 Tyra 演說全程錄影錄音"
+      }
+    },
+    {
+      "id": "recn0rpgkhCFrWZ3k",
+      "createdTime": "2021-10-02T08:05:05.000Z",
+      "fields": {
+        "簡介": "兩場海洋公民科學家講座影片已上架，\n第一場：海洋公民科學是什麼？\n第二場：公益科技的數據力量\n若當天來不及全程參加的夥伴，可以回放來看喔~\n講座影片連結👉https://reurl.cc/L7MrAL",
+        "網址": "https://reurl.cc/L7MrAL",
+        "Name": "兩場海洋公民科學家講座影片"
+      }
+    },
+    {
+      "id": "recMtMyb0O4nkfSBd",
+      "createdTime": "2021-10-06T12:32:14.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recjSl4Ms3Dx9MADj",
+            "name": "拍照上傳或打卡 (手機拍照/平板拍照/攝影設備)"
+          }
+        ],
+        "網址": "https://taxonomicdune.com/%E7%B5%A6%E6%96%B0%E6%89%8B%E7%9A%84%E6%8B%8D%E7%85%A7%E6%8C%87%E5%8D%97/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "文章-鑑定成功的拍照方式 / 給新手的拍照指南 BY 分類沙丘"
+      }
+    },
+    {
+      "id": "reczSmfxM2j5v8Qj8",
+      "createdTime": "2021-10-06T12:44:24.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recWQ6CFd9leoriYk",
+            "name": "實體樣本採集寄送 / 涉及實體物流產業"
+          }
+        ],
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          }
+        ],
+        "簡介": "STEP 3 收集\n將野生動物屍體完整、小心地以雙層夾鏈袋妥善包裝，於包裝載明採集資訊後，再以堅固紙箱或保麗龍盒包裹。\n\nSTEP 4 寄送\n將包裹以「冷凍宅配」及「貨到付款」方式寄送至集集特有生物保育中心。",
+        "網址": "https://roadkill.tw/participate",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "文章-路殺樣本收集與寄送方法介紹"
+      }
+    },
+    {
+      "id": "recxCdCSzCuY0y4UR",
+      "createdTime": "2021-10-06T12:48:30.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recjSl4Ms3Dx9MADj",
+            "name": "拍照上傳或打卡 (手機拍照/平板拍照/攝影設備)"
+          }
+        ],
+        "簡介": "登山安全基礎手機衛星定位輔助\nhttps://sites.google.com/view/mobilegpshiking/%E6%89%8B%E6%A9%9Fgps%E7%99%BB%E5%B1%B1\n\n時間相機 (Timestamp Camera Free)\nAndroid\nhttps://play.google.com/store/apps/details?id=com.jeyluta.timestampcamerafree&hl=zh_TW&gl=US\nIOS\nhttps://apps.apple.com/tw/app/%E6%99%82%E9%96%93%E7%9B%B8%E6%A9%9F/id840110184",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "[彙整] 通報者-手機GPS應用教學"
+      }
+    },
+    {
+      "id": "recGV2TMVuZTNIAIn",
+      "createdTime": "2021-10-06T17:58:08.000Z",
+      "fields": {
+        "簡介": "海嘯 把沿岸物品帶入海域，海廢？",
+        "網址": "https://fb.watch/8tDcp_ekrW/",
+        "Name": "【NHK微紀錄片】《為女兒潛水》"
+      }
+    },
+    {
+      "id": "recDGqqzy6RdECkX4",
+      "createdTime": "2021-10-21T02:29:23.000Z",
+      "fields": {
+        "簡介": "台灣地理資訊學會年會暨學術(線上)研討會\n10/20 【公民科學】場次\n① \n計畫主持人：盧道杰\n計畫名稱：地理公民科學與社區監測\n② \n計畫主持人：張仕緯\n計畫名稱：地理資訊科技在道路生態學的應用-以臺灣動物路死觀察網為例\n③ \n計畫主持人：趙芝良\n計畫名稱：自發性山徑地理資訊與山林開放後步道管理政策\n④ \n計畫主持人：蔡博文\n計畫名稱：空間資訊與空間思維\n⑤\n計畫主持人：林淑慧\n計畫名稱：臺灣「人權主題」文化資產與空間資訊的應用",
+        "網址": "https://www.facebook.com/groups/437659989769965/permalink/1839076112961672/",
+        "Name": "待拆分 多篇"
+      }
+    },
+    {
+      "id": "recSSFjSx1o5iVHEp",
+      "createdTime": "2021-11-06T09:05:14.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          }
+        ],
+        "網址": "https://www.scimonth.com.tw/archives/5359",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "海洋公民團體海龜點點名專訪 透過海龜向群眾講述美麗海洋的故事"
+      }
+    },
+    {
+      "id": "recx7IerpiWSH1uO5",
+      "createdTime": "2021-11-06T09:16:55.000Z",
+      "fields": {
+        "網址": "https://onlinelibrary.wiley.com/doi/10.1111/ecog.05790",
+        "Name": "Species interactions: next-level citizen science"
+      }
+    },
+    {
+      "id": "recSkLrlCnJZAycCS",
+      "createdTime": "2021-12-03T00:40:44.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recjSl4Ms3Dx9MADj",
+            "name": "拍照上傳或打卡 (手機拍照/平板拍照/攝影設備)"
+          }
+        ],
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec3HhwQ6shZYJ4pY",
+            "name": "RRGT 林鵰紀錄徵求站"
+          },
+          {
+            "id": "reccX0gdvFVCzt5aI",
+            "name": "台灣猛禽回報系統"
+          }
+        ],
+        "網址": "https://www.facebook.com/148540095162339/posts/5355213854494911/",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "無尾林雕高岡屋 論文名稱待查"
+      }
+    },
+    {
+      "id": "recvm6FENawMcr1B8",
+      "createdTime": "2022-01-30T18:22:48.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "reckL6I8Hqw8ZJ2uO",
+            "name": "LASS環境感測器 / 空氣盒子"
+          }
+        ],
+        "文獻類型的補充敘述": "學術",
+        "網址": "http://csw.shu.edu.tw/File/Download/edmitems/%E5%82%B3%E6%92%AD%E7%A0%94%E7%A9%B6%E8%88%87%E5%AF%A6%E8%B8%9011(2)-11%20%E6%9B%BE%E9%9D%96%E8%B6%8A(%E6%B8%85).pdf",
+        "Name": "公民科學與創客運動： 空氣盒子計畫的案例探討"
+      }
+    },
+    {
+      "id": "recpHBQj3uQ9nw3pp",
+      "createdTime": "2022-05-17T13:21:49.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec7Xt8Wiq2ytpQ4X",
+            "name": "台灣BBS 臺灣繁殖鳥類大調查"
+          },
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          }
+        ],
+        "文獻類型的補充敘述": "學術",
+        "簡介": "公民科學以其主動參與、科學實作以及有效的產出之特性，提供吸引社會大眾另一學習科學 的途徑，在科學傳播與科學素養提升方面扮演著重要角色，近年來公民科學計畫也如同雨後 春筍般湧出。一般研究者多關注於公民科學在科學研究上的貢獻，較少注意到參與公民科學 之公民本身的議題。為了解公民如何對公民科學產生興趣，引發參與動機，進而實際參與， 在過程中學習科學，提升科學素養的機制，本研究擬以參與式觀察之方式，研究分析現行之 公民科學社群。\n\n分析主要分為兩個部分， 一是以參與公民科學之人為重心，探討參與者的背 景、動機、學習過程與學習產出；二是以公民科學社群為中心，探討社群的經營模式以及其影響公民科學參與者學習與參與之情形。\n\n探討不同公民科學參與者的背景與動機，可以藉此了解參與者不同學習過程及學習產出的關聯性，在未來推動全民科學教育、環境教育將有 所貢獻。而探討社群則是希望瞭解台灣公民科學計畫的運作模式，有什麼可以進步的空間或 是與國外計畫有何不同之處；學習其優點並且瞭解缺點，藉以提供未來國家在執行公民科學 計畫能較完整與流暢地運作。",
+        "網址": "https://www.grb.gov.tw/search/planDetail?id=12424478",
+        "Name": "探討台灣公民科學參與者之動機、學習影響與實踐社群"
+      }
+    },
+    {
+      "id": "recr4ppT9ylHhGSxK",
+      "createdTime": "2022-06-05T10:39:02.000Z",
+      "fields": {
+        "網址": "https://tech.swcb.gov.tw/EPaper/Home/EPaper?PaperID=16825fcc-c010-44ba-8b61-300ed92b2160",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "從 EuropaBON 的經驗來看公民科學的發展方向"
+      }
+    },
+    {
+      "id": "recZTXLbFKRWBYBnQ",
+      "createdTime": "2022-06-05T11:02:17.000Z",
+      "fields": {
+        "網址": "https://www.nmmst.gov.tw/chhtml/newslistdet/43/37/173",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "潮間帶觀察生物行前準備"
+      }
+    },
+    {
+      "id": "recSyUAdDWDmycgAa",
+      "createdTime": "2022-06-05T11:18:23.000Z",
+      "fields": {
+        "文獻類型的補充敘述": "議題推廣",
+        "網址": "https://sites.google.com/view/ocs2021/%E6%B5%B7%E6%B4%8B%E5%85%AC%E6%B0%91%E7%A7%91%E5%AD%B8%E5%AE%B6%E8%A8%88%E7%95%AB",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          }
+        ],
+        "Name": "海洋公民科學家計畫"
+      }
+    },
+    {
+      "id": "recDVTL4xqd0kW1pT",
+      "createdTime": "2022-06-05T11:19:49.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recb1g4XZ5esQOu6L",
+            "name": "美國"
+          }
+        ],
+        "文獻類型的補充敘述": "美國案例",
+        "網址": "https://www.citizenscience.gov/#",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          },
+          {
+            "id": "recQSPHWjFLr18Oia",
+            "name": "多項計畫的推動組織"
+          }
+        ],
+        "Name": "CitizenScience.gov"
+      }
+    },
+    {
+      "id": "reckdRhaKmgs3Qnoh",
+      "createdTime": "2022-06-05T11:23:32.000Z",
+      "fields": {
+        "網址": "https://sites.google.com/view/ocs2021/%E6%B5%B7%E6%B5%B7%E4%BA%BA%E7%94%9F-%E6%B5%B7%E6%B4%8B%E5%85%AC%E6%B0%91%E7%A7%91%E5%AD%B8%E5%9C%98%E9%AB%94%E5%B0%88%E8%A8%AA?authuser=0",
+        "Name": "待拆分 多篇 採訪 海洋公民科學團體"
+      }
+    },
+    {
+      "id": "rec1vLNziyc531YEg",
+      "createdTime": "2022-06-05T11:31:28.000Z",
+      "fields": {
+        "內容觸及哪些數據資料彙整方案": [
+          {
+            "id": "recawvjX1wyDxgPTD",
+            "name": "Zooniverse"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          },
+          {
+            "id": "recQSPHWjFLr18Oia",
+            "name": "多項計畫的推動組織"
+          }
+        ],
+        "Name": "Zooniverse"
+      }
+    },
+    {
+      "id": "recezhgBthmT9jDOi",
+      "createdTime": "2022-06-05T11:31:30.000Z",
+      "fields": {
+        "內容觸及哪些數據資料彙整方案": [
+          {
+            "id": "recdBkEzLxTVf0lXU",
+            "name": "Crowdcrafting"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          },
+          {
+            "id": "recQSPHWjFLr18Oia",
+            "name": "多項計畫的推動組織"
+          }
+        ],
+        "Name": "Crowdcrafting"
+      }
+    },
+    {
+      "id": "recAiY1ADqErftJhH",
+      "createdTime": "2022-06-05T11:31:33.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recnw8jv2533egTBt",
+            "name": "日本"
+          }
+        ],
+        "內容觸及哪些數據資料彙整方案": [
+          {
+            "id": "recz6s0z65ZVWfHCe",
+            "name": "Crowd4U"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          },
+          {
+            "id": "recQSPHWjFLr18Oia",
+            "name": "多項計畫的推動組織"
+          }
+        ],
+        "Name": "Crowd4U"
+      }
+    },
+    {
+      "id": "recDzjqto56pDPxnP",
+      "createdTime": "2022-06-07T12:28:46.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/pseudolapiz/posts/10228046538893064",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "幫你挑照片(culling)的AI軟體 Optyx 2"
+      }
+    },
+    {
+      "id": "rec2suIKnzMh6LDN5",
+      "createdTime": "2022-06-26T07:26:19.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recJCAILgwKSuIP6x",
+            "name": "花蓮縣"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          }
+        ],
+        "網址": "https://www.facebook.com/groups/DongHwaNatureClub/permalink/5353912431359721/",
+        "鄉鎮區": [
+          {
+            "id": "recAarA6ECQsHQFBG",
+            "name": "花蓮縣壽豐鄉"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "東華大學後山自然社路殺調查團推動歷程"
+      }
+    },
+    {
+      "id": "rec59VkfdhLz87lBP",
+      "createdTime": "2022-07-14T07:11:53.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recyOBahjPKx6GHSP",
+            "name": "深溝釣魚大賽 / 調魚大賽"
+          }
+        ],
+        "網址": "https://www.facebook.com/citizensciencefish/posts/pfbid02Esrh2nJtKbf5v6XKSKTLnXgdrUTF7VcYRwvTtTTzFt9X11vy26L1kkztCgmR4MUgl",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "文章-深溝釣魚大賽暨水域生物年度盤點-調查方法篇"
+      }
+    },
+    {
+      "id": "reckZywcLrxPDtdT3",
+      "createdTime": "2022-07-19T23:28:12.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recjSl4Ms3Dx9MADj",
+            "name": "拍照上傳或打卡 (手機拍照/平板拍照/攝影設備)"
+          }
+        ],
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          },
+          {
+            "id": "recfdeA1TJObbyC6k",
+            "name": "iNaturalist"
+          }
+        ],
+        "簡介": "【eBird Taiwan 線上工作坊 第三場預告】\n今年度我們與 特有生物研究保育中心 合辦一系列的 eBird Taiwan 線上工作坊，介紹 eBird的相關功能、回答使用上的疑問以及相關應用。\n\n第三場主題為 「鷸鴴類辨識與紀錄要點」\n時間是下禮拜二 (7/19) 晚上7:00-8:00\n\n這一場次我們邀請資深的外語賞鳥導遊 洪貫捷 擔任講師\n他同時也是火紅的FB社團「 FrontBird  正面鳥圖貼圖區 」版主之一\n\n鷸鴴類是溼地在過境期與冬季最常見的嘉賓，但大多數外觀雷同，通常也又多又遠，讓不少初接觸水鳥的朋友在辨識上吃了不少苦頭。\n\n因此在這場次將介紹：\n1.鷸鴴類該怎麼辨識\n2.數量很多的鷸鴴該怎麼計算\n3.在用eBird紀錄鷸鴴類時有甚麼要注意的\n\n本場次不用報名，時間到的時候直接掃QRCode或點選留言的會議連結即可進入。\n本場次將全程錄影，並上傳至中華鳥會YouTube頻道，供未來教學使用！",
+        "網址": "https://www.facebook.com/172380696116004/posts/pfbid0hau3gXVATegJTZDmAU97XeRAKZZfAHCQWF9zGh5o16DFcbhZBsTZKXYmYcyPkPXil/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "鷸鴴類辨識與紀錄要點"
+      }
+    },
+    {
+      "id": "recZmSl8ttVdqkPvv",
+      "createdTime": "2022-08-16T21:19:13.000Z",
+      "fields": {
+        "簡介": "講師：政治大學公共行政學系施佳良",
+        "網址": "https://fb.watch/eXMR8z4_Tm/",
+        "Name": "【誰說公民不科學？--公民科學實例介紹】講座影片"
+      }
+    },
+    {
+      "id": "recG07hHTJGsdhSIL",
+      "createdTime": "2022-08-26T13:12:01.000Z",
+      "fields": {
+        "網址": "https://hackmd.io/@taibif",
+        "Name": "TaiBIF 臺灣生物多樣性資訊機構的文章文件區"
+      }
+    },
+    {
+      "id": "receWJP8sW6pJHq1o",
+      "createdTime": "2022-08-27T15:19:25.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "receuClABp7Sqkily",
+            "name": "白蟻樣本採集"
+          }
+        ],
+        "網址": "https://academic.oup.com/jee/advance-article-abstract/doi/10.1093/jee/toac122/6672900?fbclid=IwAR1Zrkx1_sMlmVwFt6FY-d8TGr7iyWUAIVAyvUBQOEpSiGnr7YwOJS6qlAM&login=true",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "Nationwide Termite Pest Survey Conducted in Taiwan as a Citizen Science Project"
+      }
+    },
+    {
+      "id": "recSFGILWKbgVRyJX",
+      "createdTime": "2022-08-29T02:11:25.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recPv5SpkJ6mKkFcy",
+            "name": "臺北市"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "網址": "https://jr.hs.ntnu.edu.tw/wp-content/uploads/2022/03/1110003246_1.pdf",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "臺北市青少年發展處 111 年度服務學習計畫 【青少年公民科學家-服務學習系列課程、服務時數】"
+      }
+    },
+    {
+      "id": "recOPoAUbc4dPvjx5",
+      "createdTime": "2022-09-12T13:12:20.000Z",
+      "fields": {
+        "網址": "https://e-info.org.tw/node/234950",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "民眾可參加的鳥類標本製作課程"
+      }
+    },
+    {
+      "id": "recG3V7tLa2anlepi",
+      "createdTime": "2022-09-12T18:49:15.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/groups/437659989769965/permalink/2039971596205455/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "討論「參加公民科學計畫，有什麼樣的風險？」"
+      }
+    },
+    {
+      "id": "recm406zKD17jFUWw",
+      "createdTime": "2022-12-01T09:59:11.000Z",
+      "fields": {
+        "簡介": "訣竅 1. 你可以再靠近一點…\n訣竅 2. 多拍幾張不同角度\n訣竅 3. 拍攝清晰且對焦精準",
+        "網址": "https://chiayi2019cnc.wordpress.com/2019/04/03/%e5%a6%82%e4%bd%95%e6%8b%8d%e5%a5%bd%e7%9a%84%e7%94%9f%e7%89%a9%e7%85%a7%e7%89%87%e8%ae%93%e7%a4%be%e7%be%a4%e4%be%86%e9%91%91%e5%ae%9a/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "文章-如何拍好的生物照片 iNaturalist"
+      }
+    },
+    {
+      "id": "rec2DP0IKUvdyekYu",
+      "createdTime": "2022-12-19T09:58:07.000Z",
+      "fields": {
+        "網址": "https://sites.google.com/view/teencitisci/%E9%A6%96%E9%A0%81",
+        "Name": "臺北市青少年公民科學特蒐團"
+      }
+    },
+    {
+      "id": "recuLAp3FCC8Sycfh",
+      "createdTime": "2022-12-19T10:59:38.000Z",
+      "fields": {
+        "簡介": "https://www.facebook.com/story.php?story_fbid=pfbid0RsBsfozhcow8rGXmrofExQ1gngid5WZ2sicF9CL8XRckKnc4AHdpg47RyZTvvMVtl&id=100000443546801&mibextid=qC1gEa",
+        "網址": "https://data.depositar.io",
+        "素材主題類型": [
+          {
+            "id": "recJ2ESfT8XQ0RLj6",
+            "name": "有探討資料寄存 / 資料管理"
+          }
+        ],
+        "Name": "資料寄存所"
+      }
+    },
+    {
+      "id": "recVPbBAQSyM2UCuX",
+      "createdTime": "2023-01-15T14:54:19.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recn3W8zORLhOuhOj",
+            "name": "德國"
+          }
+        ],
+        "簡介": "https://www.wissenschaftskommunikation.de/partizipation-moeglich-machen-die-citizen-science-strategie-2030-57597/\n\n社團討論串\nhttps://www.facebook.com/groups/437659989769965/permalink/2249878265214786/",
+        "網址": "https://doi.org/10.5281/zenodo.7117771",
+        "素材主題類型": [
+          {
+            "id": "rechA846G3Q2ykGDd",
+            "name": "國家政策案例 / 白皮書"
+          }
+        ],
+        "Name": "White Paper Citizen Science Strategy 2030 for Germany"
+      }
+    },
+    {
+      "id": "recAJ4uMbypIVH3iU",
+      "createdTime": "2023-02-25T14:13:23.000Z",
+      "fields": {
+        "網址": "https://fb.me/e/1Ug44O6FH",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "潮間帶海洋公民科學培力課程"
+      }
+    },
+    {
+      "id": "rec2Ie2nyZZRM0yCs",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          }
+        ],
+        "網址": "https://www.facebook.com/groups/959038217460271/permalink/4635178659846190/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2021 低碳賞鳥"
+      }
+    },
+    {
+      "id": "rec5okQ9MXhqmvcMg",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "舉辦時間": "2020-08-01",
+        "簡介": "2020 COSCUP \n\n開放資料、開放源碼與公民科學的協奏曲 by 鄧東波\nhttps://youtu.be/x4kOX7I4sqA\n\nhttps://coscup.org/2020/zh-TW/agenda/SHCPS8\n\nhttps://youtu.be/x4kOX7I4sqA",
+        "網址": "https://youtu.be/x4kOX7I4sqA",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2020 開放資料、開放源碼與公民科學的協奏曲 by 鄧東波"
+      }
+    },
+    {
+      "id": "rec6SD515cT64JBNf",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "舉辦時間": "2020-11-28",
+        "簡介": "海洋公民科學嘉年華活動\nhttps://sites.google.com/g-mail.nsysu.edu.tw/oceaniccarnival/\n—",
+        "網址": "https://sites.google.com/g-mail.nsysu.edu.tw/oceaniccarnival/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2020 海洋公民科學嘉年華活動"
+      }
+    },
+    {
+      "id": "rec93QVtWp2xRCG0H",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "舉辦時間": "2020-08-28",
+        "簡介": "http://pa.ntu.edu.tw/News_Content_n_15078_sms_24213_s_68772.html\n\nhttps://e-info.org.tw/node/227220",
+        "網址": "https://www.facebook.com/groups/437659989769965/permalink/1515784001957553/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2020 台大公民科學發展與契機論壇"
+      }
+    },
+    {
+      "id": "reca1uX4r2Zbi9Wwb",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recS5mwgRqio93BUx",
+            "name": "臺灣生命大百科"
+          }
+        ],
+        "舉辦時間": "2022-05-28",
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recfdeA1TJObbyC6k",
+            "name": "iNaturalist"
+          }
+        ],
+        "網址": "https://www.facebook.com/events/1061439381136849/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "TaiEOL × iNaturalist 公民科學工作坊《2022臺灣生命大百科推廣暨協作工作坊》"
+      }
+    },
+    {
+      "id": "recbAIoFb1uvrdGWM",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recA2IDOOW1cof8sR",
+            "name": "荒野保護協會 - 新竹分會"
+          },
+          {
+            "id": "recFz1hckmKSCDdOO",
+            "name": "荒野保護協會"
+          }
+        ],
+        "舉辦時間": "2018-10-27",
+        "舉辦地點描述": "荒野新竹分會",
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recg4LVSlSYjRSLQ7",
+            "name": "路噴社"
+          }
+        ],
+        "簡介": "【非農地雜草管理調查工作坊】\n\n報名：\n(記得先申請帳號成為網站使用者，並登入後報名)\n時間：2018/10/27(六)\n地點：荒野新竹分會\n",
+        "網址": "https://www.facebook.com/groups/1487802708014376/permalink/1680364785424833/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2018 非農地雜草管理調查工作坊"
+      }
+    },
+    {
+      "id": "recDhxCnCOGDRm0X9",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recZm1HaM4Ise7iPt",
+            "name": "特有生物研究保育中心"
+          }
+        ],
+        "舉辦時間": "2021-08-11",
+        "網址": "https://www.facebook.com/197755990245903/posts/4343304312357696/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2021 青少年公民科學家營隊"
+      }
+    },
+    {
+      "id": "recdS1FMMNiwu02ut",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recb1g4XZ5esQOu6L",
+            "name": "美國"
+          }
+        ],
+        "舉辦地點描述": "美國白宮",
+        "網址": "https://www.whitehouse.gov/blog/2015/09/09/open-science-and-innovation-people-people-people",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": " “Open Science and Innovation: Of the People, By the People, For the People,” a live-webcast forum"
+      }
+    },
+    {
+      "id": "recej8BNn0BuVX4iP",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "簡介": "https://www.tbn.org.tw/article/17519280",
+        "網址": "https://www.facebook.com/groups/437659989769965/permalink/1543449252524361/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "政府的邊緣人：生態保育與開放資料"
+      }
+    },
+    {
+      "id": "recFNLL4Ml8ZQSS85",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "觀鳥馬拉松"
+      }
+    },
+    {
+      "id": "rechqxdiy9Z6OW298",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "reca2afa2mJMmPCUX",
+            "name": "科技部自然司空間資訊科技學門"
+          }
+        ],
+        "縣市": [
+          {
+            "id": "recPv5SpkJ6mKkFcy",
+            "name": "臺北市"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "舉辦時間": "2021-12-02",
+        "舉辦地點描述": "中央研究院人文社會科學研究中心",
+        "簡介": "自發性地理資訊(VGI)社群感知與知識發現論壇\n時間：2021年12月2日 (四)  10：10~16：00\n地點：中央研究院人文社會科學研究中心 第二會議室（實體會議上限70人、同步線上直播）\n會議議程：https://reurl.cc/q1qaQR\n報名網址：https://reurl.cc/Xlbxp3\n主辦單位：科技部自然司空間資訊科技學門\n協辦單位：中央研究院人文社會科學研究中心地理資訊科學研究專題中心",
+        "網址": "https://reurl.cc/q1qaQR",
+        "鄉鎮區": [
+          {
+            "id": "rec2yfUZlszIoosut",
+            "name": "臺北市南港區"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2021 自發性地理資訊(VGI)社群感知與知識發現論壇"
+      }
+    },
+    {
+      "id": "recLpvhkAMdNVlJCO",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "海洋公民科學數據松"
+      }
+    },
+    {
+      "id": "recpxm6aiN2LcjmWm",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "簡介": "https://www.facebook.com/groups/237812013072970/permalink/1740860132768143/\n\n第13屆國際長期生態研究-東環太平洋區域研討會即將在9/8-9兩天線上舉行\n\n主題是Citizen Science in supporting long-term ecological-social monitoring systems\n\n1, Changes of biodiversity and its services under climate change and the role of community science\n2.Panel discussion on Connection, co-design, and implementation of community LTER science\n3.Biogeochemical and eco-hydrological dynamics of ecosystems in changing environments\n4.Urban ecological science and community science\n5.Long-term ecosystem monitoring, experiment and research: best practices and perspectives",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "第13屆國際長期生態研究-東環太平洋區域研討會主題：Citizen Science in supporting long-term ecological-social monitoring systems"
+      }
+    },
+    {
+      "id": "recrKO6n9EolzEcka",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "舉辦時間": "2019-04-27",
+        "網址": "https://www.facebook.com/groups/151945971606662/permalink/1533369676797611/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2019 海龜公民科學家工作坊"
+      }
+    },
+    {
+      "id": "recRp7d1kTGPIGG7Y",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "簡介": "文物普查動手做～\n\n轉貼自：https://www.facebook.com/100004057404487/posts/2239372086208016/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "文物普查動手做"
+      }
+    },
+    {
+      "id": "rectXomw5NlZfdV2h",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "舉辦時間": "2018-08-27",
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recZe26n8ajJMAIGy",
+            "name": "Quake Catcher Network / QCN / 補震網"
+          }
+        ],
+        "網址": "https://map.rotary.org/en/project/pages/project_detail.aspx?guid=11247E1B-8508-4082-9BD7-49135E9DF734",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2018年8月27日~29日建國中學捕震網暑期營"
+      }
+    },
+    {
+      "id": "recv8C7hz0qhBBGeT",
+      "createdTime": "2023-02-25T14:13:25.000Z",
+      "fields": {
+        "簡介": "此工作坊已報名額滿,謝謝\n已報名者,行前通知及線上防疫聲明已發出,記得收信填寫回傳 : https://reurl.cc/5l8Lkv\n\n＿＿＿＿＿＿＿＿＿\n\n人人都是生態觀察家 - iNaturalist - 隨手拍照上傳、即時物種鑑定，iNaturalist app 於2008在美國開始，現在已成為國際間最主要的物種記錄軟體之一。\n此次分享會，邀請了荒野棲地部主任南下與大家分享，即將於今年度4/24開始為期四天、與全球同步進行物種大調查的 City Nature Challenge（城市自然大挑戰）如何進行，以及作為觀察紀錄的軟體 iNaturalist 如何操作，配合生態速查 Bioblitz 調查方式，能如何實際為地區-如 守護港墘農場，進行守護與建立數據資料庫等行動。\n\n\n【地        點】台南分會/台南市東區裕農288巷15號\n\n【時        間】4月17日(五) 19:30~21:00\n\n【講        師】荒野保護協會／總會 棲地守護部 主任 謝祥彥(雁子)、荒野台南解說組副組長謝忠良(土播鼠)。\n\n【講座內容】棲地守護的意義與方法、關於城市自然大挑戰、如何挑戰、iNaturalist教學、何為Biolitz生態速查、如何進行與其貢獻。\n\n【活動對象】有興趣於4/24~4/27任何時段進行物種大調查或想了解 iNaturalist 及 Bioblitz 的民眾。\n\n＿＿＿＿＿＿＿＿＿\n\n此活動需事先報名並請記得帶著手機出席講座哦！\nhttps://pse.is/Q3DFK",
+        "網址": "https://fb.me/e/DwxxIK4d",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "台南 生物調查"
+      }
+    },
+    {
+      "id": "recJeYzfiTg0eLc2z",
+      "createdTime": "2023-02-28T06:20:11.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recYFaSuvg7tZ7mxh",
+            "name": "臺灣生態旅遊協會"
+          }
+        ],
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          }
+        ],
+        "簡介": "旅遊休閒結合公民科學計畫",
+        "網址": "https://facebook.com/events/s/%E8%B7%9F%E8%91%97ebird%E5%87%BA%E5%9C%8B%E8%B3%9E%E9%B3%A5%E5%8E%BB/680595980511469/",
+        "素材主題類型": [
+          {
+            "id": "recLTrG85dR5iUASk",
+            "name": "旅遊休閒結合公民科學計畫"
+          }
+        ],
+        "Name": "跟著 ebird 出國賞鳥去"
+      }
+    },
+    {
+      "id": "reccED0dFzC5CQD31",
+      "createdTime": "2023-03-01T05:55:26.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "rec86Kx5ns8ya84zx",
+            "name": "臺灣 / 全臺 / 全台"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "reccnZeowwENSk7XK",
+            "name": "野鳥撞玻璃回報"
+          }
+        ],
+        "網址": "https://e-info.org.tw/node/235887",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "報導：隱形鳥類殺手 「野鳥撞玻璃回報」社團揭不容忽視的窗殺問"
+      }
+    },
+    {
+      "id": "recLcmYum6cpusR1Z",
+      "createdTime": "2023-03-01T10:13:24.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recxmDXI5PNsdiPi3",
+            "name": "臺北市青少年發展暨家庭教育中心"
+          }
+        ],
+        "縣市": [
+          {
+            "id": "recPv5SpkJ6mKkFcy",
+            "name": "臺北市"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "簡介": "https://www.facebook.com/permalink.php?story_fbid=pfbid0nMKryDAXx8yCa34u2pY8tZjE6L33DVPpQJFX2Y8y4YeDrEpCZQoD3RbNKENnBjzYl&id=100002472219664\n",
+        "網址": "https://www.class.tcyd.gov.taipei/participate/?mode=detail&node=234&fbclid=IwAR020zVVXqRcQulSy-zSjbUjWIxGvIgERSr7kRFKAliETVUCSsUKjGKQkks",
+        "鄉鎮區": [
+          {
+            "id": "recSKJpQGaablKdAK",
+            "name": "臺北市中正區"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "青少年公民科學特蒐團 - 歷年活動"
+      }
+    },
+    {
+      "id": "recIVvOT2aUK5qGmB",
+      "createdTime": "2023-03-22T06:50:39.000Z",
+      "fields": {
+        "網址": "http://thakbong.dyndns.tv/drgpa2023.html",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "第六屆研究記錄亞太墓地研討會：學術界和公民科學、理論和實踐、出版和保護"
+      }
+    },
+    {
+      "id": "recJZjZbSUDp17iI0",
+      "createdTime": "2023-03-22T06:50:40.000Z",
+      "fields": {
+        "簡介": "本研究嘗試整合跨部會之CCTV資源進行多面向坡地災害監測模式開發，本研究蒐整水保局提供之土石流、滑坡影像及網路影音建置坡地災害影像資料庫，採用具備時序及空間學習特性之長期循環卷積網路(LRCN)進行電腦視覺地災害辨識模式的建置，模式骨幹以CNN、VGG-16及VGG-19進行測試，於模式訓練上透過觀注熱區瞭解各模式的觀注重點並作為樣本調整策略來提升與穩建模式的建構。",
+        "網址": "https://youtu.be/hYXqGAwKm6c",
+        "Name": "20230321 坡地災害辨識電腦視覺開發之研究 (陳柏蒼)"
+      }
+    },
+    {
+      "id": "recMQnZu30yiAhExz",
+      "createdTime": "2023-03-22T06:50:40.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recKGKA6VS6SSvfRv",
+            "name": "花蓮縣政府教育處"
+          }
+        ],
+        "縣市": [
+          {
+            "id": "recJCAILgwKSuIP6x",
+            "name": "花蓮縣"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "舉辦時間": "2023-04-22",
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recJJxYWicbJk9jae",
+            "name": "蝙蝠超音波錄音調查"
+          }
+        ],
+        "網址": "https://m.facebook.com/story.php?story_fbid=pfbid0uvVBeH7R21oVyrspBeWCUGDGxGPrKvwFb4kvXEJNtK2rhKVaLYor5oDaXEKKcSdHl&id=1311885003&mibextid=tejx2t",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "花蓮縣 112年度公民科學家推廣研習計畫「台灣狐蝠校園行動溝通平台」"
+      }
+    },
+    {
+      "id": "recseQlbdgk3viFpC",
+      "createdTime": "2023-03-22T06:50:40.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recCJTY2xXJMNxhgv",
+            "name": "海洋委員會海洋保育署"
+          }
+        ],
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recvlYfmSHmCGneDe",
+            "name": "Coral Watch"
+          },
+          {
+            "id": "receQaj33lxHjyFA9",
+            "name": "臺灣珊瑚礁體檢計畫"
+          },
+          {
+            "id": "rectdIppM1tij3d1G",
+            "name": "台灣珊瑚白化觀測平台 Taiwan Coral Bleaching Observation Network"
+          },
+          {
+            "id": "recWWikwHed7mGEUt",
+            "name": "Coral Net 珊瑚底質監測"
+          },
+          {
+            "id": "recIwCmKO6CSvvrFg",
+            "name": "WhaleFinder 尋鯨任務 app"
+          },
+          {
+            "id": "recV4U2dorUW9X8Mq",
+            "name": "鯨豚戶口調查- 花紋海豚 /  瑞氏海豚戶口調查"
+          },
+          {
+            "id": "recmgdTgiPbRIOSBA",
+            "name": "垂釣回報資訊 / 垂釣成果回報 / 釣訊情報員"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recR67JtJ5hPTJJg4",
+            "name": "鯊魚魟魚目擊回報 Shark and Ray Sightings"
+          },
+          {
+            "id": "recKOo5NtVyZTLb8a",
+            "name": "鱟繼有人 / 台灣鱟通報網 / 臺灣鱟保育網"
+          },
+          {
+            "id": "recC7ST6eehZGM2Mw",
+            "name": "尋找豆丁海馬"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recTcwPV3oLAOgOfH",
+            "name": "ICC 國際淨灘行動 / 愛海小旅行"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recaqxSZzo6mrtEPT",
+            "name": "塑殺社"
+          }
+        ],
+        "網址": "https://www.oca.gov.tw/ch/home.jsp?id=371&parentpath=0,296,370&mcustomize=ocamaritime_view.jsp&dataserno=202301170001",
+        "素材主題類型": [
+          {
+            "id": "rechA846G3Q2ykGDd",
+            "name": "國家政策案例 / 白皮書"
+          }
+        ],
+        "Name": "2022臺灣海洋公民科學家行動策略"
+      }
+    },
+    {
+      "id": "rec5KTb5ndbChpAep",
+      "createdTime": "2023-03-22T06:50:41.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recPv5SpkJ6mKkFcy",
+            "name": "臺北市"
+          },
+          {
+            "id": "recjujEJgeSTebwYV",
+            "name": "新北市"
+          }
+        ],
+        "國際地區": [
+          {
+            "id": "recnBljS73FOGNWx8",
+            "name": "臺灣"
+          }
+        ],
+        "舉辦時間": "2023-05-07",
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec2VPqestg7rBTWp",
+            "name": "TRBC 淡水河流域同步鳥類調查 Tamsui River Bird Count"
+          }
+        ],
+        "網址": "https://m.facebook.com/story.php?story_fbid=pfbid0rWXPYn4xyQYzc9JBrjHujB3V9LpQpLG3hko8NLwgXxWs194vWC5fuVCYx5JCEhrl&id=100063910513530",
+        "Name": "2023 淡水河流域同步鳥類調查暨公民科學成果分享會"
+      }
+    },
+    {
+      "id": "recA1hOTkKfvnXSQa",
+      "createdTime": "2023-03-22T06:50:41.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recrXlklWSWtDzwHt",
+            "name": "社團法人台北市野鳥學會 / 台北鳥會"
+          }
+        ],
+        "網址": "https://www.birdfair.org.tw/OnePage.aspx?tid=104",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "賞鳥人心態 守則介紹文章"
+      }
+    },
+    {
+      "id": "recovatcsQM6yJMWx",
+      "createdTime": "2023-03-22T06:50:41.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/reel/1624033441431411?fs=e&s=TIeQ9V&mibextid=0NULKw",
+        "素材主題類型": [
+          {
+            "id": "recQ6C1aqoxi3yx87",
+            "name": "戶外產生資料的方法 / 資料內容轉用至其他計畫"
+          }
+        ],
+        "Name": "戶外臨摹工具 lucida tool"
+      }
+    },
+    {
+      "id": "recA0Q1ybNGWHC4ks",
+      "createdTime": "2023-03-22T06:50:42.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recjujEJgeSTebwYV",
+            "name": "新北市"
+          }
+        ],
+        "舉辦時間": "2023-05-25",
+        "網址": "https://www.facebook.com/groups/LASSnet/permalink/3405486626368590/",
+        "鄉鎮區": [
+          {
+            "id": "recfYClYBwSFAGYhu",
+            "name": "新北市坪林區"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          },
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "留一手捕撈技能—與水共生：從傳統捕撈到公民科學家"
+      }
+    },
+    {
+      "id": "recRkirZDgdQalLd8",
+      "createdTime": "2023-03-22T06:50:42.000Z",
+      "fields": {
+        "簡介": "名稱用詞包含「公民科學」的政府採購案件",
+        "網址": "https://ronnywang.github.io/pcc-viewer/search.html?query=%E5%85%AC%E6%B0%91%E7%A7%91%E5%AD%B8",
+        "素材主題類型": [
+          {
+            "id": "recLOUBCsBChdR35l",
+            "name": "政府採購案件"
+          }
+        ],
+        "Name": "名稱用詞包含「公民科學」政府採購案件"
+      }
+    },
+    {
+      "id": "recckNapKruaKKjGP",
+      "createdTime": "2023-03-22T06:50:43.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "reckL6I8Hqw8ZJ2uO",
+            "name": "LASS環境感測器 / 空氣盒子"
+          }
+        ],
+        "簡介": "20181009-1 陳伶志處長 參與式環境感測的機會與挑戰 https://youtu.be/BfHk5k8dOs4\n\n20181009-2 左純熙 空品監測中的公民科技與視覺化應用 https://youtu.be/h-EHVAoczuE\n\n20181009-3 綜合討論 https://youtu.be/D0JN9dGzZBA\n\n20181016-1 耿璐 公民科技改變世界 https://youtu.be/bhqGqi95ckY\n\n20181016-2 曾虹文 跟著地圖找污染 https://youtu.be/eDEf74h_zeI\n\n20181016-3 杜文苓老師 空污監測的公民科學 https://youtu.be/lyE9bmJ58VE\n\n20181016-4 綜合座談   https://youtu.be/lActnWZO04I",
+        "網址": "https://www.geog.ntu.edu.tw/index.php/tw/intro/activity-zone/107-sencing-menu",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "微型感測中的公民科技"
+      }
+    },
+    {
+      "id": "recMuAiUwxpdteCwa",
+      "createdTime": "2023-03-22T06:50:43.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recJd9235bCzBY4C0",
+            "name": "臺灣人體生物資料庫 Taiwan Biobank"
+          }
+        ],
+        "簡介": "https://www.twbiobank.org.tw/\n\n後基因體時代國家型基因資料庫興起，2012年10月24日台灣正式成立「台灣人體生物資料庫」（Taiwan Biobank）。從國家、科學家到公民社會，Taiwan Biobank長達十七年左右的發展，目前學界仍相對缺乏針對「參與Taiwan Biobank的民眾」進行有系統的研究。本研究計劃將以「接受Taiwan Biobank徵召的民眾」為主軸，並採用「公眾的科學想像」的概念，探究參與民眾對於Taiwan Biobank科學計劃的理解與期待、對自身參與的詮釋、以及對個人／群體自主與利益、基因隱私等生物公民權的想像。本研究也將特別關注一般民眾與原住民的差異。 ",
+        "網址": "https://www.grb.gov.tw/search/planDetail?id=13328424",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "公眾想像科學：Taiwan Biobank民眾參與經驗與族群特殊性"
+      }
+    },
+    {
+      "id": "recN3NTX6FTMHNgBL",
+      "createdTime": "2023-03-22T06:50:43.000Z",
+      "fields": {
+        "網址": "https://ronnywang.github.io/pcc-viewer/tender.html?unit_id=3.55&job_number=epa.277&date=19991115&filename=ttd-54261",
+        "素材主題類型": [
+          {
+            "id": "recLOUBCsBChdR35l",
+            "name": "政府採購案件"
+          }
+        ],
+        "Name": "「公民參與氣象資料建檔系統」案（1/3）"
+      }
+    },
+    {
+      "id": "recLab5HYQcbKPGx2",
+      "createdTime": "2023-03-22T06:50:44.000Z",
+      "fields": {
+        "簡介": "澳洲新南威爾斯州政府規劃與環境部，一則貼文向戶外活動者，推廣多種公民科學計畫：海岸線定點拍照、樹木、土壤、青蛙辨識",
+        "網址": "https://www.facebook.com/NSWDPE/posts/pfbid0aQGE2wStVbBZEJ775qqsphXe8du5MKXNJD15Md28MKNwgGcag9upo3orBKJoFP72l",
+        "素材主題類型": [
+          {
+            "id": "recFarngEJgUl88Hs",
+            "name": "宣傳、貼文、文案、推廣影音、藝術轉化"
+          }
+        ],
+        "Name": "澳洲新南威爾斯州政府規劃與環境部推廣公民科學的一則 FB 貼文"
+      }
+    },
+    {
+      "id": "recqBGs4tgNjtU8rX",
+      "createdTime": "2023-03-22T06:50:44.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "reczm4C9tmZnj9mtD",
+            "name": "淹水群眾標註"
+          },
+          {
+            "id": "rec1PgIm9tmTj5Zvo",
+            "name": "市民探針"
+          }
+        ],
+        "簡介": "轉貼文章：淹水-請勿靠近戶外變電箱與路燈　若馬路已經變成小河流，請不要太靠近綠色的變電箱，那裏面可是有上萬伏特的電，那裏面的電場強度強上百倍，雖然我相信它裡面有做很多防護措施，但是洪水怎麼流我們無法預測，所以不要去賭。另外一個就是淹水的路燈要敬而遠之，比起專業的大功率變壓器，路燈的施工與維護品質我更不放心，平時就算沒淹水都可能電到人了，所以若淹水的話大家還是盡量遠離比較好。\n",
+        "網址": "https://www.strongpilab.com/electric-shock-in-water/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "淹水時-請勿靠近戶外變電箱與路燈　"
+      }
+    },
+    {
+      "id": "recxrYbR4EDrDe7CY",
+      "createdTime": "2023-03-22T06:50:44.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "receXagEgGUjKZllI",
+            "name": "城市狸貓回報網 City Civet Reports"
+          }
+        ],
+        "網址": "https://www.facebook.com/permalink.php?story_fbid=pfbid026cYYMZqzG7Ckz2YPSg4ZjfkDaWvbdrFxx8KZAfgnUMbKhgkVvsxdPettDLofw448l&id=1259134110",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "Breeding records, urban habitat, and threats to the masked palm civet in Taiwan"
+      }
+    },
+    {
+      "id": "recc6Q0W427txw2gT",
+      "createdTime": "2023-03-22T06:50:45.000Z",
+      "fields": {
+        "簡介": "https://hdl.handle.net/11296/s2mgwq",
+        "網址": "https://tdr.lib.ntu.edu.tw/retrieve/71286a97-2592-49c2-b64f-c71c543c0b97/ntu-111-1.pdf",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          },
+          {
+            "id": "recJ2ESfT8XQ0RLj6",
+            "name": "有探討資料寄存 / 資料管理"
+          },
+          {
+            "id": "recbW2RtTuGhCtVSO",
+            "name": "有運用到 Crowdrtibute 計畫清冊資料集"
+          }
+        ],
+        "Name": "〈臺灣公民科學計畫資料徵集與品質維護：策略與實踐〉"
+      }
+    },
+    {
+      "id": "recQ22zAWyrsoEPbI",
+      "createdTime": "2023-03-22T06:50:45.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "receuClABp7Sqkily",
+            "name": "白蟻樣本採集"
+          }
+        ],
+        "網址": "https://www.facebook.com/groups/437659989769965/posts/2072889276247020/",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "白蟻調查的公民科學計畫與研究進展"
+      }
+    },
+    {
+      "id": "recRRUmLpYbEiO6WI",
+      "createdTime": "2023-03-22T06:50:45.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/100064116816077/posts/pfbid0291otdHcXx8D8RgVjkPkSFGXoKHXHBpxTpBjXRZQh4SEGTf2xaLmXf171BFWzBaTdl/?mibextid=cr9u03",
+        "Name": "生物相關網站"
+      }
+    },
+    {
+      "id": "recPzx9dKQs8u5tET",
+      "createdTime": "2023-03-22T06:50:46.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec9oEvmQOXc4V2pV",
+            "name": "北大特區暨三鶯樹地區反空污行動聯盟"
+          }
+        ],
+        "簡介": "https://photos.app.goo.gl/y3vCso6D7yb7jytH9",
+        "網址": "https://hdl.handle.net/11296/u2adet",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "建構自願性WebGIS平台於社區空氣異味污染源稽查"
+      }
+    },
+    {
+      "id": "recQCGfoQfEljHQJJ",
+      "createdTime": "2023-03-22T06:50:46.000Z",
+      "fields": {
+        "簡介": "2022.12 NO.120│自然保育季刊〈臺灣公民科學現況與未來挑戰〉作者：林德恩，文章中介紹由「歐洲公民科學協會」歸納的公民科學基礎所需的十項關鍵原則，並且嘗試結合 臺灣生物類型的 78 個公民科學計畫執行概況，進行盤點檢視，開展出相關探討\n社團討論串：https://www.facebook.com/groups/437659989769965/posts/2423629961172948/",
+        "網址": "https://www.tbri.gov.tw/A15_1/download1/35267/5",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          },
+          {
+            "id": "recbW2RtTuGhCtVSO",
+            "name": "有運用到 Crowdrtibute 計畫清冊資料集"
+          }
+        ],
+        "Name": "自然保育季刊〈臺灣公民科學現況與未來挑戰〉2022.12 NO.120"
+      }
+    },
+    {
+      "id": "recZ18MCcTChJnVQg",
+      "createdTime": "2023-03-22T06:50:46.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JhR8eCeCw16DiYERbueUSpmpNQJEL8CjSaXw6MXnqNDbex7fxSGBzme1Kekr3pD3l&id=100002472219664",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "系統分類成果與在地知識流通的距離-分類群地方名稱的關鍵橋樑角色與推動策略"
+      }
+    },
+    {
+      "id": "recpYs4T0pFZub7zT",
+      "createdTime": "2023-03-22T06:50:47.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/share/p/JGoRM4Rz6hQsyjC1/",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "臺灣的自然史博物館對公民科學與生態監測的推動格局與展望 – 以國立臺灣博物館為例"
+      }
+    },
+    {
+      "id": "rectBvegvGTKVqvlY",
+      "createdTime": "2023-03-22T06:50:47.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "receXagEgGUjKZllI",
+            "name": "城市狸貓回報網 City Civet Reports"
+          }
+        ],
+        "網址": "https://www.facebook.com/groups/312003914382445/permalink/693846596198173",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "利用公民科學資料探討白鼻心都市化趨勢"
+      }
+    },
+    {
+      "id": "recVu53SPSNMfxLhN",
+      "createdTime": "2023-03-22T06:50:47.000Z",
+      "fields": {
+        "網址": "https://www.bird.org.tw/news/4076?fbclid=IwAR0B8_dl9gEIAeSHvUTAn3_7J8zQOmTU1DVHbpyFIMa0v6aVVz69o1lMiSw_aem_AbKtnwtz5q8BKE0kwijNOOIdY9K4EV57bGGolomfNgy2Qp5U_ljsSWvCHFLaECYoi-E",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "臺灣遠洋漁業觀察員海鳥辨識手冊"
+      }
+    },
+    {
+      "id": "recjVpRI3duJUuKNA",
+      "createdTime": "2023-03-22T06:50:48.000Z",
+      "fields": {
+        "簡介": "2024 動物行為暨生態研討會 1/22-1/24 https://sites.google.com/view/2024cabe/\n\n有觀察到與公民科學相關的場次，也歡迎補充分享~\n【議程場次】\n海底獵影者：公民科學者的捕魚拍照助力珊瑚礁魚類保育\n臺灣的自然史博物館對公民科學與生態監測的推動格局與展望 – 以國立臺灣博物館為例\n野鳥窗殺公民科學: 十年資料揭露台灣撞玻璃鳥類中的「超易撞鳥種」\n開放資料新視野：應用開放之鯨豚目擊資料與船舶自動識別系統資料評估花蓮近海常見鯨豚潛在漁業威脅\nLaunching Systematic Long-term Monitoring by Citizen Science for Birds in the Yangmingshan National Park\n在水田裡的公民科學 - 深溝「調」魚大賽\nDetecting Residency and Habitat Fidelity of Green Turtles in Taiwan with Community-based Approach\n不請自來的乘客：透過公民科學計畫探討螞蟻搭便車模式及其潛在生態影響\n臺灣的人熊關係:野外目擊黑熊(Ursus thibetanus formosanus)情境分析\n臺灣eBird資料在時空尺度與環境梯度的完整性\n當公民遇見科學-海洋科研數據的另一個來源\n【海報】\n動物路殺事件熱點地區之環境因子分析以陽明山陽金公路湖山 路路段、竹子湖路路段與巴拉卡公路往淡水方向 0-4K 路段為例\n利用公民科學資料探討白鼻心都市化趨勢\n全國尺度淡水域魚類監測的發想與推動\n成功潮村鱟繼有人：澎湖潮間帶漁業生物與鱟公民科學",
+        "網址": "https://sites.google.com/view/2024cabe/",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2024 動物行為暨生態研討會 1/22-1/24 "
+      }
+    },
+    {
+      "id": "recwiAKgvi7gjjKSh",
+      "createdTime": "2023-03-22T06:50:48.000Z",
+      "fields": {
+        "簡介": "新北市貢寮區福連國民小學釣魚教學課程\nhttps://www.facebook.com/maoaobay/posts/pfbid02kS2xUn4B8oaxGfyrsxkDFpUASzZY48dWLaAJMsdp3c1jsqEtYhmzY4euZsxpEYnl\n撒網教學影片\nhttps://www.facebook.com/1006923877/posts/10226949144327056/\nhttps://www.facebook.com/jeiker.lin/videos/1869190363831154\n坪林在地長者教導製作竹編魚筌（魚笱）\nhttps://www.facebook.com/groups/LASSnet/posts/3405486626368590/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "[整合蒐集] 釣魚教學 / 撒網教學 / 製作竹編魚筌（魚笱）"
+      }
+    },
+    {
+      "id": "recfgUt8Pk04IWgF3",
+      "createdTime": "2023-03-22T06:50:49.000Z",
+      "fields": {
+        "簡介": "[試作] 呈現「拍照位置」、「拍攝方位」、「目標對象物」\n地圖：https://maps.app.goo.gl/jLjQZihxzrhKA14X7\n文件：https://g0v.hackmd.io/@chewei/CultureandRisk/https%3A%2F%2Fg0v.hackmd.io%2FJzJWCWQjT-6MFgam9pTBDQ\n\n歷史影像平台，有請圖片上傳者標記方位，9 方位擇一https://photo.ardswc.gov.tw/Repository/ViewEvent/638293393206760873",
+        "網址": "https://g0v.hackmd.io/@chewei/CultureandRisk/https%3A%2F%2Fg0v.hackmd.io%2FJzJWCWQjT-6MFgam9pTBDQ",
+        "素材主題類型": [
+          {
+            "id": "recbZsnu4Ec1TGeRK",
+            "name": "UI / UX / 介面 / 體驗 / 服務設計 / 推力 / 誘發貢獻"
+          }
+        ],
+        "Name": "[試作] 呈現「拍照位置」、「拍攝方位」、「目標對象物」"
+      }
+    },
+    {
+      "id": "recs8jSDT2drlZhPN",
+      "createdTime": "2023-03-22T06:50:49.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recAfFjVicTtohkzf",
+            "name": "臺東縣"
+          }
+        ],
+        "簡介": "地理奧林匹亞地理專題，其中有一組「應用公民科學促進轉型正義的嘗試：以蘭嶼的海砂屋為例」復興高中同學的專題\nhttps://geoolympiad.tw/2023/09/24/%e3%80%90%e5%85%ac%e5%91%8a%e3%80%91%e7%ac%ac22%e5%b1%86-%e9%ab%98%e4%b8%ad%e5%9c%b0%e7%90%86%e5%a5%a7%e6%9e%97%e5%8c%b9%e4%ba%9e%e2%94%80%e5%9c%b0%e7%90%86%e5%b0%88%e9%a1%8c%e7%b5%84-%e7%8d%b2/\nhttps://open.spotify.com/show/04JetdcaT9qrliMRESomtc\n—",
+        "鄉鎮區": [
+          {
+            "id": "reciqITRFHnXXKJSG",
+            "name": "臺東縣蘭嶼鄉"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "應用公民科學促進轉型正義的嘗試：以蘭嶼的海砂屋為例"
+      }
+    },
+    {
+      "id": "recYcMk0GWmjnZ9qq",
+      "createdTime": "2023-03-22T06:50:49.000Z",
+      "fields": {
+        "國際地區": [
+          {
+            "id": "recHV5qtO9ZrvTRAi",
+            "name": "澳洲"
+          }
+        ],
+        "簡介": "澳洲的生物多樣性出現紀錄資料與公民科學的貢獻",
+        "網址": "https://www.facebook.com/groups/128515057963531/posts/1497292367752453/",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "Open Access Research Infrastructures are Critical for Improving the Accessibility and Utility of Citizen Science: A Case Study of Australia’s National Biodiversity Infrastructure, the Atlas of Living Australia "
+      }
+    },
+    {
+      "id": "recOjmjad0BKsEBso",
+      "createdTime": "2023-03-22T06:50:50.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recjujEJgeSTebwYV",
+            "name": "新北市"
+          }
+        ],
+        "網址": "https://www.facebook.com/mao.isle/posts/pfbid02h5QLUZWRhrkHUS7P84sm1bJNzw4DsLYq4jgZhkkKhMec5TduQWR9uQiQLMmCjdSYl?__cft__[0]=AZWxwdWL0GoYAy1ZHRMwPic5UqwRuL9ndR6PpTDfovSuFulye-6CsjQgJM2lwP2dRYKlaLLq2mz5pcHQsoRQ593UN6x45FgnKPjXBTOkZlwL3eYqoKvQmBGBPnFCP2XZKOCtcvhjtNmDh3D83DNal3WmJ4kBch7wiso-KWM0n8cm10frGAGbP6tlCcC9GAutT-4ytmW4U4G0eQ6O6Z0yfGU0&__tn__=%2CO%2CP-y-R",
+        "鄉鎮區": [
+          {
+            "id": "rec809DtK8JEOzlC7",
+            "name": "新北市淡水區"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "從家鄉守護到公民科學家：公司田溪、琵琶鼠、雷切沙盤、環境教育小餐車、魚眼圖、飛天魚網---世界河川日在淡水"
+      }
+    },
+    {
+      "id": "recQ8MOh7h5BVVt2e",
+      "createdTime": "2023-03-22T06:50:50.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recCoxoAzEUyTO0bj",
+            "name": "現場設置輔助拍照的框景"
+          }
+        ],
+        "簡介": "設置定點框景設施，邀請民眾拍照分享\n\n海岸線變遷記錄\nhttps://www.facebook.com/moorsforthefuture/posts/pfbid0346qtJnX1imDwELQbK4VHLJWn6jJwGXoV87TEK4aDoTotfhpujtpKbmU3EEYYSULzl\n\n河流河川\nhttps://www.facebook.com/share/p/DqmmpCG8XVR9qVbr/\n\n森林野火復育記錄\n補網址\n\n交通違規舉發\nhttps://www.facebook.com/Crazy.JapanTravel/posts/pfbid0uFEGSru72gpsufYMNcLYQPUwkRGQxnksvxx3yPb4B49nCiXHiyNEgxg6jN7QR9gJl\n\n景點拍照\nhttps://www.facebook.com/photo/?fbid=6427677540649441&set=a.460224687394786",
+        "素材主題類型": [
+          {
+            "id": "recbZsnu4Ec1TGeRK",
+            "name": "UI / UX / 介面 / 體驗 / 服務設計 / 推力 / 誘發貢獻"
+          }
+        ],
+        "Name": "[廣義蒐集] 設置定點框景設施，邀請民眾拍照分享"
+      }
+    },
+    {
+      "id": "recrqarE4obfDjQCk",
+      "createdTime": "2023-03-22T06:50:50.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recLCE5N7wADeXigQ",
+            "name": "行政院環境部"
+          }
+        ],
+        "簡介": "行政院開放政府國家行動方案推動小組，其中關於「行政院環境領域的資訊揭露承諾事項」，相關規劃中有提到「公民科學」看起來是著重於環境污染源領域\n文件來源：\nhttps://www.ndc.gov.tw/Content_List.aspx?n=EBC8F2539D568CEA",
+        "網址": "https://www.facebook.com/groups/437659989769965/posts/2348171262052152/",
+        "素材主題類型": [
+          {
+            "id": "rechA846G3Q2ykGDd",
+            "name": "國家政策案例 / 白皮書"
+          }
+        ],
+        "Name": "行政院環境領域的資訊揭露承諾事項 - 公民科學相關事項"
+      }
+    },
+    {
+      "id": "rec1w04sIcCVpHi59",
+      "createdTime": "2023-03-22T06:50:51.000Z",
+      "fields": {
+        "簡介": "[文章] Radicle Civics — Building Proofs of Possibilities for a Civic Economy and Society\n．Infrastructural and imaginative lock-ins\n．Germinating new civic futures with proofs of possibilities\n．Worldview shift 1: From objects to agents\n．Worldview shift 2: From externalities to entanglements\n．Worldview shift 3: From public-private to commoning\n．Three shifts towards a new economy\n．What’s Next?\nhttps://darkmatter-labs.medium.com/radicle-civics-building-proofs-of-possibilities-for-a-civic-economy-and-society-ee28baeeec70\n---",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "Radicle Civics — Building Proofs of Possibilities for a Civic Economy and Society"
+      }
+    },
+    {
+      "id": "rec2kF4jawOFjcqfU",
+      "createdTime": "2023-03-22T06:50:51.000Z",
+      "fields": {
+        "簡介": "平安走路許願帳戶 - 人行道評分地圖，地圖上由貢獻者上傳且經過檢核標註的資料，也是參與者的分佈位置熱區，聯想到 eBird 賞鳥人地圖&空白樣區認養、OSM 臺灣路網繪製歷程、生物資料補白計畫、路殺社地區社團 ..等\n\n賞鳥人地圖歷程~ 1990-2022\nhttps://youtu.be/TtCG-CgYTnA\n\n慕光之城蛾友觀察點分布圖\n\n蛙鳴 APP 早期參與者分佈地區\nhttps://www.facebook.com/100000432932151/posts/7205422239482136/",
+        "網址": "https://www.facebook.com/groups/437659989769965/posts/2335046606697951/",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "[主題討論串] 各種計畫的參與者的分佈位置熱區"
+      }
+    },
+    {
+      "id": "recztrBWUmUL2I3MP",
+      "createdTime": "2023-03-22T06:50:51.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recEQg9Uv2xU2i4Kf",
+            "name": "Astrohackers in Taiwan"
+          }
+        ],
+        "網址": "https://www.facebook.com/elantievs/posts/pfbid0MYTYjJncELT2y6kT9jZ1LZkBC3xV2JyGGBswvZJknaWdW3qwq9qhGswTRhZj38iFl",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "「天文的資料再創作」產品開發計畫調查表單"
+      }
+    },
+    {
+      "id": "recJcmDlWtzAIuviU",
+      "createdTime": "2023-03-22T06:50:52.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/APLACTaiwan/posts/pfbid0WbDLYMvntSJ7yBtWqK7cVLsYM9DhQXNov7FzkJ8PmKQAh12adLVbXsQ8HzSzvbwrl",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "DRGPA 研究紀錄亞太墓地研討會 - 墓區文化地景與公民科學"
+      }
+    },
+    {
+      "id": "recMhRMXfDWTFkH6f",
+      "createdTime": "2023-03-22T06:50:52.000Z",
+      "fields": {
+        "網址": "https://g0v.hackmd.io/@chewei/joinplus/https%3A%2F%2Fg0v.hackmd.io%2FUJLz58nGT9Gc8EacxV8C3Q%3Fview",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "公民參與，哪來的時間？公民參與活動，活動型態觀察"
+      }
+    },
+    {
+      "id": "rec5mPLqAhwIF9Ow1",
+      "createdTime": "2023-03-22T06:50:53.000Z",
+      "fields": {
+        "簡介": "去海邊\n遇到海邊才會發生的事：118(海巡署專線)\n遇到樹林樹木有關的事：0800-000-930(林務局專線)\n遇到髒亂污染相關的事：0800-066-666(環保局專線)\n遇到平常到處都有的事：110 / 119\n燈不亮路不平之類的事：1999",
+        "網址": "https://www.facebook.com/lucky200412/posts/pfbid0FbuDR8Em4jrDQizGsmrzgWyXhstc6Ek1X5UK1eHVz7mk1XaG2WkpChn4GjgTswdBl",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "海岸地區各種通報事務權責劃分"
+      }
+    },
+    {
+      "id": "rec9DqUOW7jq9AXMt",
+      "createdTime": "2023-03-22T06:50:53.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/tjuku/posts/pfbid0WaAWMoT9NuMDLp85myBDreLtJHm4fcjtHHtKFwHuiW5YPmGR61vBztcspZR44WCl",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "公民紀錄和災難科技與社會網絡 Civic Archiving and the Disaster-STS Network"
+      }
+    },
+    {
+      "id": "recP6qZMjRbG3FnNm",
+      "createdTime": "2023-03-22T06:50:53.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recEQg9Uv2xU2i4Kf",
+            "name": "Astrohackers in Taiwan"
+          }
+        ],
+        "網址": "https://www.facebook.com/elantievs/posts/pfbid0mbQ7Hz1vJ8s77zN5YmJ7woBq1SYe1QrQP3HAwAHbYdKC5T7VHmSJexnP4g8fAJAQl",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "跟著ChatGPT逃出天文鎖 - 引導新參者熟悉公民科學專案"
+      }
+    },
+    {
+      "id": "rec0hJ0mBdfGC1m5W",
+      "createdTime": "2023-03-22T06:50:54.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          }
+        ],
+        "網址": "https://www.facebook.com/share/p/FyaMVRet1YMkBUab/?",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "候鳥長征 探討人造光害 提到 ebird "
+      }
+    },
+    {
+      "id": "recPq6SJ2i2gXglC1",
+      "createdTime": "2023-03-22T06:50:54.000Z",
+      "fields": {
+        "縣市": [
+          {
+            "id": "recdxwB7ilvjfgLwt",
+            "name": "桃園市"
+          }
+        ],
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recnYJgSXE3xQJ7la",
+            "name": "紅火蟻防治中心通報網頁"
+          }
+        ],
+        "簡介": "行動科技與公民科學方案提升臺灣入侵紅火蟻防治效果之研究\nhttps://hdl.handle.net/11296/r6ta5b\n\n本研究透過問卷，針對紅火蟻入侵最嚴重的桃園周邊地區，調查參與相關教育宣導工作坊的民眾以及蟲害防治人員。針對兩族群在科技使用習慣、參與動機，以及火蟻防治知識的資訊，分析以行動科技與公民科學家作為臺灣紅火蟻防治解決方案的可行性與入侵紅火蟻即時偵測通報系統（RIFA App）之平台設計相關指標。\n\n研究結果顯示：在科技使用調查項目，近九成受測者具有可以使用RIFA App的硬體設備，且對於該科技平台具有高接受度；參與動機調查結果顯示，無論民眾或防治人員的主要參與動機均屬於內在動機，其中又以解決問題與自我實踐為最主要的動機。本研究也發現，工作坊會增加受測者參與火蟻防治的意願，工作坊後各面向參與動機指數均有提升。知識評量結果則顯示，受測者對火蟻以及蟻巢外觀辨識的相關知識較薄弱，但多半都了解火蟻防治方法以及螫傷處理的手段。此外，兩族群工作坊的學習成效沒有顯著差異，在工作坊後相關知識均顯著提升。",
+        "網址": "https://hdl.handle.net/11296/r6ta5b",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "行動科技與公民科學方案提升臺灣入侵紅火蟻防治效果之研究"
+      }
+    },
+    {
+      "id": "recZ5r9mffnZcqzvf",
+      "createdTime": "2023-03-22T06:50:54.000Z",
+      "fields": {
+        "簡介": "標放繫放回報推廣文案，辨認特點\n魚鰭有束帶\n鳥腳有腳環\n身戴發報器\n外殼有編號",
+        "網址": "https://www.facebook.com/share/p/Vq8oRPRDqfFvvjRE/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "[主題] 標放繫放回報推廣文案與素材"
+      }
+    },
+    {
+      "id": "rec6iaNw231NoiAzw",
+      "createdTime": "2023-03-22T06:50:55.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/share/p/PAWm5SgKWuvNKc25/?mibextid=WC7FNe",
+        "Name": "推廣「資料論文」撰寫與發表"
+      }
+    },
+    {
+      "id": "recCtmdgcAvZFU9XE",
+      "createdTime": "2023-03-22T06:50:55.000Z",
+      "fields": {
+        "網址": "https://e-info.org.tw/node/240067",
+        "Name": "湛翔智／對台灣鯨豚觀察員制度修正的期許"
+      }
+    },
+    {
+      "id": "rechmzvvEo7VgFr6x",
+      "createdTime": "2023-03-22T06:50:55.000Z",
+      "fields": {
+        "簡介": "虎頭蜂風險依然是預防勝於治療：「虎頭蜂大概從8月中開始變得活躍，在秋季前後到中低海拔山區，就不能太嘻嘻哈哈，尤其領隊或主揪，要眼觀四面耳聽八方，在剛剛遇到虎頭蜂，還沒深入巢穴領域時，就馬上判斷要繼續前進或立即撤退，確保全員都能平安離開攻擊範圍。」",
+        "網址": "https://www.facebook.com/snowram/posts/pfbid024GEjaETksbeLiEEnkrFBekABci6oindLToDVpQ8Hd2zJFG95LGfjUa4EJVDurE2Fl",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "[主題] 虎頭蜂風險降低與因應方式"
+      }
+    },
+    {
+      "id": "recjAfPyYDR3Dvu5p",
+      "createdTime": "2023-03-22T06:50:56.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "reckL6I8Hqw8ZJ2uO",
+            "name": "LASS環境感測器 / 空氣盒子"
+          }
+        ],
+        "網址": "https://www.facebook.com/share/p/1AtzfntMzB/",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "台灣空污治理的論述分析：空品物聯網與空氣盒子的競爭性論述研究"
+      }
+    },
+    {
+      "id": "recNoOyf15eAvCVXJ",
+      "createdTime": "2023-03-22T06:50:56.000Z",
+      "fields": {
+        "網址": "https://treasure-season-447.notion.site/2024-a494e86c2f234c7da55bb09604d2d5f4?",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2024永續經營管理新視野：步道監測工具與資料搜集工作坊"
+      }
+    },
+    {
+      "id": "recUYG7wOe41BdMFo",
+      "createdTime": "2023-03-22T06:50:56.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/share/r/1EXwtgB2Tp/",
+        "素材主題類型": [
+          {
+            "id": "recFarngEJgUl88Hs",
+            "name": "宣傳、貼文、文案、推廣影音、藝術轉化"
+          }
+        ],
+        "Name": "[圖像表現方式] 把各地的施工人員卡通圖像排序為動畫"
+      }
+    },
+    {
+      "id": "recMzUI23Q96OxlbB",
+      "createdTime": "2023-03-22T06:50:57.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/share/p/1BQ5s25fHf/?mibextid=wwXIfr",
+        "素材主題類型": [
+          {
+            "id": "recFarngEJgUl88Hs",
+            "name": "宣傳、貼文、文案、推廣影音、藝術轉化"
+          }
+        ],
+        "Name": "香港籃球場鳥瞰照片蒐集"
+      }
+    },
+    {
+      "id": "recXpFPDJp22tmjsD",
+      "createdTime": "2023-03-22T06:50:57.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recjSl4Ms3Dx9MADj",
+            "name": "拍照上傳或打卡 (手機拍照/平板拍照/攝影設備)"
+          },
+          {
+            "id": "recOCDpCnVREJ2Tbo",
+            "name": "賞鳥望遠鏡 / 賞鯨豚望遠鏡"
+          }
+        ],
+        "網址": "https://www.facebook.com/share/g/15fTgumQy4/?mibextid=wwXIfr",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "鳥類辨識與特性觀察探討 FB 社團"
+      }
+    },
+    {
+      "id": "recYmz7OeGSGlLf9H",
+      "createdTime": "2023-03-22T06:50:57.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          }
+        ],
+        "網址": "https://ebird.org/region/US-OR/post/birding-ethics-guidelines-for-respecting-birds-their-habitat-and-each-other",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "Birding Ethics: Guidelines for respecting birds, their habitat, and each other"
+      }
+    },
+    {
+      "id": "recdg6nZVPywTcbD6",
+      "createdTime": "2023-03-22T06:50:58.000Z",
+      "fields": {
+        "簡介": "想知道溪流中隱藏著哪些生物秘密？\n想學習科學調查方法，實地操作捕捉、觀察、記錄水域生物？\n想在戶外探索中，培養環境倫理與科學探究的精神？\n📆 活動時間：2025年7月19日（六）- 7月20日（日）\n📍 活動地點：陽明山國家公園＋劍潭青年活動中心\n👥 招生對象：雙北、基隆、桃園、宜蘭地區之高中教師與學生（共40位）\n🚀 活動亮點：\n•✨ 夜間實作！前往冷水坑進行兩棲爬行類動物調查，尋找夜色中的神祕蹤跡\n•📷 操作調查器材！自動相機、陷阱籠、水域撈網，野外調查技巧面面觀\n•🧠 資料彙整與分析！思考如何將觀察現象轉化為有價值的生態資料\n•🌱 培養環境倫理與公民科學精神，成為守護自然的青年行動家！\n💰 活動酌收費用：\n•報名費：800元（清寒學生可免）\n•住宿費：1000元（建議學生參與夜間住宿，清寒生可免）\n📨 報名截止：2025年6月15日（日）\n📬 錄取通知：6月23日（一）以Email寄出\n🚌 提供劍潭捷運站接駁服務，交通無憂\n📝 報名表單 ➡️ https://forms.gle/AKokgdm2ZteuTGre6\n📋 報名簡章 ➡️ https://drive.google.com/.../1NH7.../view\n🌏 這不只是一場戶外教學，更是一段走進自然、與生態對話的科學旅程。\n🌊 帶著好奇與熱情，加入我們，從溪水出發，一起展開探索與發現的夏日任務！",
+        "網址": "https://www.facebook.com/YMSNP.tw/posts/pfbid0hv3SD3y3nkjn5WZwnHdxi1BsCpLbSDKdhHCWVBs9sZR31M5H4FJL7vEwPa3rhXP8l",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "陽明山國家公園 野外調查科學方法研習工作坊"
+      }
+    },
+    {
+      "id": "recdkObnZJyV5FHpz",
+      "createdTime": "2023-03-22T06:50:58.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recpUJrWzW66CxzGw",
+            "name": "錄音功能的設備 (不用即時上網上傳檔案)"
+          },
+          {
+            "id": "rec9FLwQkDWBoat7O",
+            "name": "感測器裝置硬體"
+          }
+        ],
+        "簡介": "《造詞聲網》聲音工作坊｜用狀聲詞找回消失的日常聲響\n​\n​ ​ ​ ​ ​ 《造詞聲網》計畫由敘事藝術家楊雨樵與具象音樂創作者馬筠茹發起，結合民俗學、語言學、聲學與神經科學，探索聲音如何成為文化與記憶的載體。透過田野調查、狀聲詞書寫與法國Acousmonium聲學裝置，重新定義我們與日常物件的關係。\n​\n​ ​ ​ ​ ​ ​ 人類日常生活環境充滿了各式各樣的聲響與物件狀態，包含基於人的行動而產生的鍵盤聲、腳步聲、拍打聲，以及基於機械自動或被動的運作而產生的摩擦聲、轟鳴聲、撞擊聲。隨著人的居住環境不同，千百種聲音以不同的比例分佔著人們的聽覺。若聚焦於這些聲音的比例與組成，將能夠知道一個人的居住環境的樣貌和傾向。在口傳文學的學術研究文獻中，若針對各故事文本中的狀聲－擬態詞群（Onomatopoeia）進行調研與統計分析，可以反映出特定地域與文化的特徵。\n​\n​ ​ ​ ​ ​ ​ 據史料考核，西元前30萬年的尼安德塔人，在發展出語言系統之前，就已知用歌聲和富變化的語調進行交流，即便沒有文字框架人類依然能進行交流。綜觀人類應用語言文字的歷史，從古代著名的史詩《奧德賽》、《摩訶婆羅多》等等，到近現代的文學家與詩人，多半都精於運用豐富的狀聲－擬態詞來描摹故事場景中的物件群像。著名的近代日本作家宮澤賢治，在歷來的敘事詩與小說中，共發明近一百六十種狀聲－擬態詞。這些詞彙的運用極爲生動，使抽象的物件狀態或聲響變得更加具體，同時讓文本中的「物」具有了獨特的口頭聲貌，進而影響了數個世代的創作者。美國小說家兼詩人愛倫坡，以及俄羅斯著名詩人普希金，都是創造狀聲－擬態詞的高手，他們在這些詞彙上的發想，深深影響著後代人們於日常生活中的語言運用。\n​\n​ ​ ​ ​ ​ ​ 過去臺灣的歌仔冊與民間故事語料中，記載著臺灣民間豐富的狀聲－擬態詞群。但現今社會中，無論是社群網站或是坊間的報章雜誌，狀聲詞的出現大幅減少，多數文章在物件聲響的描摹上，例如：雨的 「嘩啦嘩啦」，卡車的「轟隆隆」似乎日漸變得單一而籠統。另一方面，由於電影產業興起，主流電影中常見的音效模板使大眾對於「物件實際發出的聲響或產生的動態」變得更加陌生。「聲」做為溝通的一種方式，逐漸失去了主體性。\n​\n​ ​ ​ ​ ​ ​ ​ 對此，《造詞聲網》計畫所提出的問題為：如何通過「聲」的採集與「狀聲詞」的書寫，來逼近日常生活當中萬「物」的存在狀態與特徵？是否能通過對這些聲音採集與民俗文化的彙整，重新檢視包圍著人類的物件所具有的當代性？兩位藝術家將於臺北（牯嶺街小劇場）、高雄（衛武營國家藝術文化中心）各舉辦一場邀請公眾參與的聲音工作坊。工作坊場地以非傳統舞台的劇場空間為實行地點，搭建小型Acousmonium裝置，模擬研究此計畫過程，進行日常生活物件的所指採集，進行狀聲詞採集、書寫（視覺 - 聽覺化）的轉寫，並利用小型Acousmonium裝置進行聲響化的轉意練習。\n​\n​\n👂 工作坊內容：\n​\n1️⃣以世界各國語言的狀聲詞為例，說明物件的特徵如何進入到狀聲詞中。並介紹狀聲詞在各國經典作品中的應用。\n2️⃣帶領民眾依照各自採錄的聲響，進行狀聲詞的書寫練習。（請民眾在自己家中錄製家中環境的聲響，並拍兩三張家中的照片。）根據民眾採集的相片，進行物件擬態語的書寫。\n3️⃣學員輪流進行發表，使每一位參與者理解其他人怎麼用相異的狀聲—詞形容同樣的物件。將狀聲詞的搜集表及階段性成果，運用在下一階段Acousmonium工作坊中。\n4️⃣ 介紹Acousmonium裝置，以抽象聲音做聆聽概念練習，特別是時間與空間的層次體驗。\n5️⃣利用Acousmonium裝置做空間轉移，比較及詮釋聲音在不同背景下的語境依賴性。\n6️⃣利用法國具象音樂「聲音圖像學」概念疊加於上階段完成的擬態語書寫。\n7️⃣帶領民眾與Acousmonium裝置共同發表工作坊書寫成果。\n​",
+        "網址": "https://www.facebook.com/events/1404625347558955/?active_tab=discussion",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          },
+          {
+            "id": "recFarngEJgUl88Hs",
+            "name": "宣傳、貼文、文案、推廣影音、藝術轉化"
+          }
+        ],
+        "Name": "《造詞聲網》聲音工作坊"
+      }
+    },
+    {
+      "id": "recE9YCPXsbIRaxHI",
+      "createdTime": "2023-03-22T06:50:59.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recobZVkAnfPl6Kgq",
+            "name": "國立暨南國際大學公共行政與政策學系"
+          }
+        ],
+        "簡介": "「氣候變遷下水沙連韌性城鎮轉型：社群共學與科技應用的社會設計」計畫，旨在透過社群共學與科技應用，推動水沙連地區的韌性城鎮轉型，並建立可複製的社會實踐模式。 本計畫奠基以過往人社計畫與大埔里地區公共社群組織合作的社會資本基礎之上，將聚焦於氣候變遷調適、治理平台與公民科學三大核心，透過社群共學、科技應用與社會設計的方法，再次連結地方公共社群組織，針對生態綠環境、低碳綠產業、永續綠生活、共生綠文化等四大面向，11項地方議題，進行相關的行動研究，發展適應性強、永續發展的地方治理機制。此外，本項計畫亦將透過行動研究的方式，搭配地方敘事、個案研究的方法，書寫與出版水沙連地區的在地氣候變遷調適之實踐經驗，並思考推演發展具普遍適用性的氣候變遷調適實踐模組與相關論述，為其他類似地區提供參考與借鏡。\n本計畫期望發展出一套兼具學術深度與實務價值的理論框架，使水沙連地區的經驗能夠成為其他區域推動韌性城鎮轉型的參考典範，為氣候適應、地方創生與社會創新提供理論支撐與實踐模式。",
+        "網址": "https://www.facebook.com/ncnudppa/posts/pfbid0pmovkLXsvYxfwJtsKgdNNeicogbtfXfYAoVZf1KZrreD3HtZSJ9hs66nuykEtsxVl?locale=zh_TW",
+        "Name": "「氣候變遷下水沙連韌性城鎮轉型：社群共學與科技應用的社會設計」計畫"
+      }
+    },
+    {
+      "id": "recet1BPZOd45Qve7",
+      "createdTime": "2023-03-22T06:50:59.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "rec7Dtc1xSpQFlRS5",
+            "name": "新北市政府"
+          }
+        ],
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recAokRcqcBYKT3Qb",
+            "name": "[廣義] 修護工具"
+          },
+          {
+            "id": "recCoxoAzEUyTO0bj",
+            "name": "現場設置輔助拍照的框景"
+          }
+        ],
+        "縣市": [
+          {
+            "id": "recjujEJgeSTebwYV",
+            "name": "新北市"
+          }
+        ],
+        "舉辦時間": "2025-07-06",
+        "文獻類型的補充敘述": "徵集民國90年以前的老照片，現場簡易翻拍",
+        "簡介": "#你授權我翻拍\n其實這次安坑老照片徵件活動有一定的難度\n一方面，長輩擔心照片會還我們嗎？\n二方面，現代人的更加保護自己，為了要保護彼此，所以簡章規則和報名程序也多。\n所以我請了小叮噹，生出了[簡易翻拍器]\n簡易帶攜帶型翻拍工具，\n7/6(日)9:00~11:00\n到 #青少年圖書館一樓小桌旁\n地址：新北市新店區安康路二段151號1F\n幫大家做老照片翻拍的活動\n並於現場授權填寫資料\n所以只要願意授權照片\n現場填寫一些資料就好！\n#應該沒有策展人做過這麼好的服務吧\n■更多報名資訊請上活動官網： https://reurl.cc/qG7vvN",
+        "網址": "https://www.facebook.com/events/736157965454270/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "鄉鎮區": [
+          {
+            "id": "recLYr3H27deS40VU",
+            "name": "新北市新店區"
+          }
+        ],
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          },
+          {
+            "id": "recFarngEJgUl88Hs",
+            "name": "宣傳、貼文、文案、推廣影音、藝術轉化"
+          }
+        ],
+        "Name": "青少年圖書館老照片快閃翻拍活動"
+      }
+    },
+    {
+      "id": "recsTBC6a3lBF0PsY",
+      "createdTime": "2023-03-22T06:50:59.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recgv2WybZARqqm1P",
+            "name": "網頁-群眾標記 / 檢核工作"
+          },
+          {
+            "id": "recjSl4Ms3Dx9MADj",
+            "name": "拍照上傳或打卡 (手機拍照/平板拍照/攝影設備)"
+          }
+        ],
+        "縣市": [
+          {
+            "id": "recjujEJgeSTebwYV",
+            "name": "新北市"
+          },
+          {
+            "id": "recPv5SpkJ6mKkFcy",
+            "name": "臺北市"
+          }
+        ],
+        "內容觸及哪些數據資料彙整方案": [
+          {
+            "id": "recEMh21vEQqO17Mf",
+            "name": "Google Forms 表單"
+          }
+        ],
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recQlEFhkOQvxWsV0",
+            "name": "川流之島流域學校"
+          }
+        ],
+        "文獻類型的補充敘述": "1.本調查針對特定地點的燕巢進行紀錄。調查時，若同一地點出現兩巢以上，且鳥種與築巢方位皆相同，僅需填寫一筆紀錄；若鳥種或築巢方位任一不同，則需分別填寫多筆紀錄。2.請盡可能提供完整資訊，包括：調查點位（優先填寫經緯度，其次為地址）、巢位數、鳥種、築巢方位、建築形態、築巢高度、是否有附掛物保護、住戶對燕巢的喜好程度（主觀判斷）、燕巢與建築之照片，以及其他補充觀察事項。",
+        "簡介": "燕巢是人與動物重要的互動介面，透過燕巢的盤點可以反映城市生態系統的變化。本計畫希望藉由盤點燕巢，促進市民對生態環境的關注與參與，進一步瞭解城市的生態健康狀況。延續2024年的計畫，本年度提供志工訓練課程、建立系統化的調查、提供相關紀念品並辦理成果分享會，希望藉由盤點燕巢，促進市民對生態環境的關注與參與，進一步瞭解城市的生態健康狀況。\n\n🌿活動辦理方式\n調查時間:2025年4-8月\n成果發表會:預計2025年12月  ",
+        "網址": "https://docs.google.com/forms/d/e/1FAIpQLSc6mZD3gcMPxg4iZpRMK_rtSonkqwa4H86gWCFlKVIJF7csvg/viewform",
+        "素材主題類型": [
+          {
+            "id": "recaBZvAzIUA5dyGX",
+            "name": "活動 / 工作坊 / 論壇 / 黑客松"
+          }
+        ],
+        "Name": "2025「川流之島-流域學校」- 雙北燕巢普查計劃"
+      }
+    },
+    {
+      "id": "rec1xXw2H1gJOzULf",
+      "createdTime": "2023-03-22T06:51:00.000Z",
+      "fields": {
+        "文獻類型的補充敘述": " ",
+        "網址": "https://www.airitilibrary.com/Article/Detail/P20161222001-202102-202108120005-202108120005-59-93",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "探索自發性地理資訊方法對公共事務治理之應用 Exploring the Method of Volunteered Geographic Information Applied in Public Affairs and Governance"
+      }
+    },
+    {
+      "id": "recTZRC6uwvTuIB5C",
+      "createdTime": "2023-03-22T06:51:00.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recxO8UJwFcCRQCDV",
+            "name": "嘉義縣政府"
+          },
+          {
+            "id": "recCJTY2xXJMNxhgv",
+            "name": "海洋委員會海洋保育署"
+          },
+          {
+            "id": "rec0wz6gYMwhf6JTq",
+            "name": "海湧工作室"
+          }
+        ],
+        "簡介": "一、指導單位：海洋委員會海洋保育署\n二、主辦單位：嘉義縣縣政府農業處\n三、執行單位：海湧工作室\n四、協辦單位：嘉義縣生態保育協會、臺灣鱟保育網\n五、報名期限：2025年8月20日前\n六、培訓對象：一般民眾皆可報名， 13~17歲報名者需監護人書面同意，同時培訓三類人員，未來可擇一或兼任執勤，錄取者以能參與培訓課程，與8/25~11/20期間完成執勤30小時為優先\n\n七、簡介：\n2021年海委會海保署海洋保育在地守護計畫支持下，與第一屆鱟養護與調查培訓人員共同努力在布袋的鱟培育室「鱟宮」成功孵化出600多隻稚鱟，為民間組織第一次成功孵化稚鱟的案例。目前每年持續。2025年本計畫持續著重於三棘鱟稚鱟野外調查、成鱟養護與導覽人員的培訓，並進行執勤30小時供後續野外復育實驗以及保育教育所需， 其中更有機會在預計2026年開幕的「嘉義縣海之濱環境教育館」內的鱟收容復育區，近距離與鱟為伍。目前可以直接協助鱟調查、養護與鱟場導覽的人員則相當缺乏，本計畫也希望能喚起更多民眾對於鱟與海洋保育的關心。\n\n八、重要注意事項：\n今年度需完成以頒發結訓證書：\n\n1. 培訓課程至少三選二（歡迎全選）\n8/23 稚鱟調查培訓（含室內與野外濕地調查實習）\n8/24 鱟養護課程 （含室內與實作課程）\n9/20 鱟後場導覽/海洋保育推廣（含室內與實地設計）\n\n2. 執勤：\na. 8/25~11/20前，執行30小時之執勤時數（培訓不計時數），可依興趣選擇不同任務。\nb. 執勤將支應臨時工資（200元/小時），但不含交通食宿，敬請自行安排。\nc. 通過培訓之野外調查，另有額外加給\n    9/20-21下午稚鱟野外調查\n  10/18-19下午稚鱟野外調查\n\n九、課程內容請詳見招生簡章：https://reurl.cc/Qa9XYO\n十、未成年（13-17歲）報名者監護人同意書下載： https://reurl.cc/Qa9XYO",
+        "網址": "https://www.facebook.com/groups/151945971606662/posts/3636879966446561/",
+        "素材主題類型": [
+          {
+            "id": "recDK9GyaJK2ymEBs",
+            "name": "社群經營 / 志工培力 / 組織模式"
+          }
+        ],
+        "Name": "「鱟里嘉在」114年嘉義鱟調查養護導覽培訓"
+      }
+    },
+    {
+      "id": "recZfLDetQJdnhWTw",
+      "createdTime": "2023-03-22T06:51:00.000Z",
+      "fields": {
+        "內容觸及哪些設備器材": [
+          {
+            "id": "recpUJrWzW66CxzGw",
+            "name": "錄音功能的設備 (不用即時上網上傳檔案)"
+          },
+          {
+            "id": "recMYBvQYWNbqvGQF",
+            "name": "錄音功能的手機 / 可上網裝置"
+          },
+          {
+            "id": "recvgotCqI62eUA7f",
+            "name": "聆聽並研判聲音的工具 (電腦手機平板)"
+          },
+          {
+            "id": "recwFBXMU6sunZD9K",
+            "name": "超音波接受器 Ultrasonic Bat Detector/Recorder/Analyzer"
+          }
+        ],
+        "網址": "https://www.facebook.com/share/g/1GRgN5rZjU/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "臺灣野生動物錄音論壇 FB 社團"
+      }
+    },
+    {
+      "id": "recHWlzhQdAZ4L9gZ",
+      "createdTime": "2023-03-22T06:51:01.000Z",
+      "fields": {
+        "簡介": "<Takeaway: 看懂地形圖是氣象預報的重要基礎，輕易看到降雨熱區而做好預備>\n傳統登山訓練課程必然有地圖閱讀，其實在降雨熱區的研判也是氣象研究主題，NCDR(國家災防中心)整理22年來的短時強降雨事件發現，宜蘭，台中，嘉義，高雄，屏東山區都是熱區，也具體驗證地形降雨作用的可怕，如果山友認知這個地形與降雨的趨勢，在天氣劇變時就能知道如何擬出備案。\n中央山脈素有護國神山之稱，雖然可以破壞颱風威力，但是也是超有效的集水器，近日的西南氣流自印度洋與中南半島輸送來的大量水氣，經過高聳山坡強迫江水氣凝結成為雨水，因此中南部近山區都受此影響，相對地，中央山脈以東的降雨量快速遞減，如果詳細研究台灣各區域地形圖就能掌握進而避開降雨對登山活動的影響。\n閱讀地圖能力可以做好個人化的氣象預報，8/24(日)，9/21(日)氣象預報一日密集班會手把手帶著您實際操作練習，進而補充完整的氣象基礎常識，詳細課程規劃請見 https://senior.104.com.tw/c/685976c3ceb094defee84e6b\n(也歡迎加入氣象與地圖-野外安全共學社團\nhttps://www.facebook.com/groups/weathermap 這是一個可以好好認真討論氣象等野外議題的地方)",
+        "網址": "https://www.facebook.com/groups/weathermap/posts/3960210860900303/",
+        "素材主題類型": [
+          {
+            "id": "recpxnnrXnSGOqAX7",
+            "name": "行前準備 / 設備技術說明或教學 / 倫理與心態建立"
+          }
+        ],
+        "Name": "氣象預報一日密集班"
+      }
+    },
+    {
+      "id": "recizPy76fgHz8RxU",
+      "createdTime": "2023-03-22T06:51:01.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          }
+        ],
+        "網址": "https://www.facebook.com/share/p/1Uj9xyf2mV/",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "群眾保育：揭開台灣海龜覓食地、威脅與定居模式 Crowdsourcing conservation: unveiling Taiwan’s sea turtle foraging grounds, emerging threats, and residency with broad societal engagement"
+      }
+    },
+    {
+      "id": "recLTtZvCfDVJZ7JE",
+      "createdTime": "2023-03-22T06:51:01.000Z",
+      "fields": {
+        "簡介": "水下珊瑚錄音，紀錄到颱風事件\nhttps://www.facebook.com/share/15FgjWXeQZ/\n\n固定監視器，拍到天文事件\nhttps://www.facebook.com/share/v/14FiHyaeGtr/",
+        "素材主題類型": [
+          {
+            "id": "recQ6C1aqoxi3yx87",
+            "name": "戶外產生資料的方法 / 資料內容轉用至其他計畫"
+          }
+        ],
+        "Name": "[探討] 將資料內容貢獻至另一個計畫"
+      }
+    },
+    {
+      "id": "rec4iPOCxORVhcmnS",
+      "createdTime": "2023-03-22T06:51:02.000Z",
+      "fields": {
+        "網址": "https://sites.google.com/view/ocs2021/%E5%B7%A5%E5%85%B7%E5%8C%85/%E5%85%AC%E6%B0%91%E7%A7%91%E5%AD%B8%E8%A8%88%E7%95%AB%E7%99%BC%E8%B5%B7%E6%AD%A5%E9%A9%9F",
+        "素材主題類型": [
+          {
+            "id": "recZc86XsBSIYzRl1",
+            "name": "研究論文與發表、觀點文章"
+          }
+        ],
+        "Name": "公民科學計畫發起步驟"
+      }
+    },
+    {
+      "id": "recQ4i3rIOw4RIBca",
+      "createdTime": "2023-03-22T06:51:02.000Z",
+      "fields": {
+        "內容觸及哪些公民科學計畫": [
+          {
+            "id": "rec05NTeQurgik1Pe",
+            "name": "全國文物普查"
+          }
+        ],
+        "簡介": "台灣古物指定制度的「免費鑑定」現象",
+        "網址": "https://www.facebook.com/share/1BZYckzeoF/",
+        "Name": "台灣古物指定制度的「免費鑑定」現象"
+      }
+    },
+    {
+      "id": "reczQAnx0bQ92UISb",
+      "createdTime": "2023-03-22T06:51:02.000Z",
+      "fields": {
+        "網址": "https://www.facebook.com/share/g/1JJbAL84s4/",
+        "素材主題類型": [
+          {
+            "id": "rec2quBB6JrmlfvIM",
+            "name": "線上交流問答討論社團"
+          }
+        ],
+        "Name": "臺灣野生動物錄音論壇"
+      }
+    },
+    {
+      "id": "recY6DIcw7xxEdjKk",
+      "createdTime": "2023-04-12T14:04:00.000Z",
+      "fields": {
+        "主辦單位或相關單位": [
+          {
+            "id": "recz4LcPIAMo8lcJv",
+            "name": "澄洋環境顧問有限公司"
+          }
+        ],
+        "文獻類型的補充敘述": "議題推廣",
+        "簡介": "摘自澄洋環境顧問有限公司網頁：這本書集結了臺灣19個海洋公民科學調查計畫介紹，有利用海龜臉上的花紋進行個體辨識、瞭解臺灣海域海龜的數量和分佈的「海龜點點名」；監測珊瑚礁健康狀況的「珊瑚礁體檢」；目擊軟骨魚的「鯊魚抱抱」；以及用眼睛數垃圾的「海廢快篩」等等。書中專訪了8位海洋公民科學計畫的重要推手，分享推動公民科學計畫的心路歷程，以及第一屆數據松的活動報導，讓你秒懂海洋公民科學在臺灣的發展及海洋生態現狀，並快速選擇你可以參加的公民科學計劃喔~",
+        "網址": "https://www.indigowaters.org/service/education-promotion/%e5%8f%b0%e7%81%a3%e7%ac%ac%e4%b8%80%e6%9c%ac%e6%b5%b7%e6%b4%8b%e5%85%ac%e6%b0%91%e7%a7%91%e5%ad%b8%e5%a0%b1%e5%91%8a%e6%9b%b8/",
+        "素材主題類型": [
+          {
+            "id": "recbYJlVpJpQWcQAs",
+            "name": "多元案例彙整呈現的網站/文宣"
+          }
+        ],
+        "Name": "海洋公民科學家報告書"
+      }
+    }
+  ]
+}

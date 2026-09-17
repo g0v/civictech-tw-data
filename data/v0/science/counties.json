@@ -1,0 +1,2607 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "science",
+    "name": "公民科學與群眾參與計畫清冊資料集",
+    "label": "公民科學與群眾參與計畫"
+  },
+  "table": {
+    "slug": "counties",
+    "name": "縣市",
+    "label": "縣市",
+    "id": "tbl97ypu7Lkv1CEh0"
+  },
+  "recordCount": 48,
+  "fields": [
+    {
+      "id": "fldBbGMVFs3a06awj",
+      "name": "Name",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld9umwR9HHfCJDiC",
+      "name": "公民科學計畫清冊",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldQ1aaED1QgyCbW8",
+      "name": "Count (公民科學計畫清冊)",
+      "type": "count"
+    },
+    {
+      "id": "flduCe0IL7nHQtLYS",
+      "name": "[持續整理] 文獻、研究成果、文章",
+      "type": "multipleRecordLinks"
+    }
+  ],
+  "records": [
+    {
+      "id": "recyqk4gkst7WCf8w",
+      "createdTime": "2020-01-29T12:32:13.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "基隆市",
+        "Count (公民科學計畫清冊)": 13
+      }
+    },
+    {
+      "id": "rec0BEgxV6lm1HhKE",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "rec3ELe844X6wgKof",
+            "name": "新竹 河川巡守隊"
+          },
+          {
+            "id": "reczMdig2aj2hM7u8",
+            "name": "新竹窗花照片募集"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "新竹縣",
+        "Count (公民科學計畫清冊)": 16
+      }
+    },
+    {
+      "id": "rec16fn4Hb2QMChBk",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recRt1aQx6vxly9Hx",
+            "name": "南門溪水質檢測"
+          },
+          {
+            "id": "rec3ELe844X6wgKof",
+            "name": "新竹 河川巡守隊"
+          },
+          {
+            "id": "reczMdig2aj2hM7u8",
+            "name": "新竹窗花照片募集"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "新竹市",
+        "Count (公民科學計畫清冊)": 16
+      }
+    },
+    {
+      "id": "rec17GUvkf4AchkIL",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "Name": "嘉義市",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "rec3IEehsTyirUi9b",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recugtYTM4Kdtyptd",
+            "name": "墾丁秋季過境猛禽調查"
+          },
+          {
+            "id": "recRB8OIG2sBeptWT",
+            "name": "浸水營地區生態調查"
+          },
+          {
+            "id": "recV6rl9W0Fu2DSl4",
+            "name": "小琉球志工隊"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "屏東縣",
+        "Count (公民科學計畫清冊)": 16
+      }
+    },
+    {
+      "id": "rec808I2wOBzJDrKN",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recYjOY8CyTMXWFVu",
+            "name": "臺灣白海豚目擊回報"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "彰化縣",
+        "Count (公民科學計畫清冊)": 15
+      }
+    },
+    {
+      "id": "recAfFjVicTtohkzf",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "rec4Sz6BErw875oVP",
+            "name": "荒野台東分會野溪小組"
+          },
+          {
+            "id": "recZBJC0zIF23ajEu",
+            "name": "台東臉書災害通報"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recJjn41p01XcPNfg",
+            "name": "邦查野菜文化調查"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recRB8OIG2sBeptWT",
+            "name": "浸水營地區生態調查"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          },
+          {
+            "id": "recCUNdoAWm9MW5CN",
+            "name": "台灣野山羊穿孔疥癬蟎疫情回報"
+          },
+          {
+            "id": "rec5yHvEB8ffkq98L",
+            "name": "綠島釣查計畫"
+          }
+        ],
+        "Name": "臺東縣",
+        "Count (公民科學計畫清冊)": 19,
+        "[持續整理] 文獻、研究成果、文章": [
+          {
+            "id": "recs8jSDT2drlZhPN",
+            "name": "應用公民科學促進轉型正義的嘗試：以蘭嶼的海砂屋為例"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recAG5D0Btcnuhl4J",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "rechTv2bgNB2xiWw9",
+            "name": "玉山國家公園建置的臺灣黑熊通報網頁"
+          }
+        ],
+        "Name": "南投縣",
+        "Count (公民科學計畫清冊)": 1,
+        "[持續整理] 文獻、研究成果、文章": [
+          {
+            "id": "recLJUV2RG3NYuVym",
+            "name": "農委會特生中心"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reccF6jHrNVqPHWB9",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          },
+          {
+            "id": "rechTv2bgNB2xiWw9",
+            "name": "玉山國家公園建置的臺灣黑熊通報網頁"
+          }
+        ],
+        "Name": "嘉義縣",
+        "Count (公民科學計畫清冊)": 15
+      }
+    },
+    {
+      "id": "recdN1lUXEbPw6VlT",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recSwzidtxBkcQhqS",
+            "name": "調查澎湖珊瑚覆蓋率"
+          },
+          {
+            "id": "recd1MGSgbyBttEnT",
+            "name": "咾咕嶼生態調查員"
+          },
+          {
+            "id": "receAhFU1g3ZoxBCy",
+            "name": "成功之道鱟來居上"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "澎湖縣",
+        "Count (公民科學計畫清冊)": 16
+      }
+    },
+    {
+      "id": "recdxwB7ilvjfgLwt",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "rec7DNOa15d6xCGrn",
+            "name": "公民科學埤塘鳥類生態調查"
+          },
+          {
+            "id": "recIwmYQHHVdrys24",
+            "name": "桃園市水環境巡守隊"
+          },
+          {
+            "id": "recALkhXLIx6VXcTK",
+            "name": "藻礁汙染源督察管制計畫 / 在地 NGO 與桃園環保局"
+          },
+          {
+            "id": "recpaeiX50d4maP5F",
+            "name": "行走的土地公 - 復育土壤動物與觀察記錄"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "rec2zldMxORY0jj0K",
+            "name": "廢土換好土"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "桃園市",
+        "Count (公民科學計畫清冊)": 19,
+        "[持續整理] 文獻、研究成果、文章": [
+          {
+            "id": "recPq6SJ2i2gXglC1",
+            "name": "行動科技與公民科學方案提升臺灣入侵紅火蟻防治效果之研究"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recG3EvBAbo03ZMkb",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recoRWnntW7EEal39",
+            "name": "土豆鳥大集合 - 雲林小辮鴴普查"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "雲林縣",
+        "Count (公民科學計畫清冊)": 15
+      }
+    },
+    {
+      "id": "recJCAILgwKSuIP6x",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recCnze7VEGNAGQo9",
+            "name": "運用公民科學促進社區參與森林生態系計畫 / 國科會科技部計畫"
+          },
+          {
+            "id": "recRFtch4WlMgSr6I",
+            "name": "花蓮新社部落發起海洋珊瑚礁監測"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recFphS5v88vaNwc6",
+            "name": "食物銀行募集共運平台Line社群"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          },
+          {
+            "id": "recCUNdoAWm9MW5CN",
+            "name": "台灣野山羊穿孔疥癬蟎疫情回報"
+          },
+          {
+            "id": "rechTv2bgNB2xiWw9",
+            "name": "玉山國家公園建置的臺灣黑熊通報網頁"
+          }
+        ],
+        "Name": "花蓮縣",
+        "Count (公民科學計畫清冊)": 18,
+        "[持續整理] 文獻、研究成果、文章": [
+          {
+            "id": "rec2suIKnzMh6LDN5",
+            "name": "東華大學後山自然社路殺調查團推動歷程"
+          },
+          {
+            "id": "recMQnZu30yiAhExz",
+            "name": "花蓮縣 112年度公民科學家推廣研習計畫「台灣狐蝠校園行動溝通平台」"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recJNbwQE8FLAz2sD",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recncdWhitLHBpUtC",
+            "name": "反工業臭氣聯盟 / 東海大學環工系"
+          },
+          {
+            "id": "rectJyPQxAEj0l0Ez",
+            "name": "南屯溪區域排水守護大使"
+          },
+          {
+            "id": "rec1gGtZc1soxnVsS",
+            "name": "大肚山水資源踏查"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recTh5abxdMpFeSKG",
+            "name": "高美護蟹去"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          },
+          {
+            "id": "recvBvaETUiz9qLUu",
+            "name": "愛自然武陵地區公民科學監測活動"
+          }
+        ],
+        "Name": "臺中市",
+        "Count (公民科學計畫清冊)": 19
+      }
+    },
+    {
+      "id": "recjReJkImDEdZwvS",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "連江縣",
+        "Count (公民科學計畫清冊)": 13
+      }
+    },
+    {
+      "id": "recjujEJgeSTebwYV",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recgBqNwJvQJUvMd8",
+            "name": "福山植物園植物物候調查"
+          },
+          {
+            "id": "recqWxz4nmC75W3yK",
+            "name": "淡水河畔的公民科學家-華江溼地螃蟹監測"
+          },
+          {
+            "id": "rec9oEvmQOXc4V2pV",
+            "name": "北大特區暨三鶯樹地區反空污行動聯盟"
+          },
+          {
+            "id": "recQiLhMDGqqWXKyg",
+            "name": "新北石門油汙鳥類回報平台"
+          },
+          {
+            "id": "recQKNF1Arh77HdOK",
+            "name": "坪林尋怪計畫"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "rec2zldMxORY0jj0K",
+            "name": "廢土換好土"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          },
+          {
+            "id": "rec2VPqestg7rBTWp",
+            "name": "TRBC 淡水河流域同步鳥類調查 Tamsui River Bird Count"
+          },
+          {
+            "id": "recB3EYIxbbMQ5jx6",
+            "name": "基隆河鸕鶿網(包括淡水河流域)"
+          }
+        ],
+        "Name": "新北市",
+        "Count (公民科學計畫清冊)": 22,
+        "[持續整理] 文獻、研究成果、文章": [
+          {
+            "id": "recZMqmutuqjOi2wY",
+            "name": "透過公共參與及群眾資源進行生態系統服務社會價值模擬──以大屯溪流域為例"
+          },
+          {
+            "id": "rec5KTb5ndbChpAep",
+            "name": "2023 淡水河流域同步鳥類調查暨公民科學成果分享會"
+          },
+          {
+            "id": "recA0Q1ybNGWHC4ks",
+            "name": "留一手捕撈技能—與水共生：從傳統捕撈到公民科學家"
+          },
+          {
+            "id": "recOjmjad0BKsEBso",
+            "name": "從家鄉守護到公民科學家：公司田溪、琵琶鼠、雷切沙盤、環境教育小餐車、魚眼圖、飛天魚網---世界河川日在淡水"
+          },
+          {
+            "id": "recet1BPZOd45Qve7",
+            "name": "青少年圖書館老照片快閃翻拍活動"
+          },
+          {
+            "id": "recsTBC6a3lBF0PsY",
+            "name": "2025「川流之島-流域學校」- 雙北燕巢普查計劃"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reckqhQMQPSE0PxXw",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recchDGM2J4BRbtKh",
+            "name": "高雄大社反公害運動"
+          },
+          {
+            "id": "recqSWwNrrl82TMGO",
+            "name": "觀測井"
+          },
+          {
+            "id": "recNmZaEtiEIo2oFd",
+            "name": "見城計畫"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          },
+          {
+            "id": "recPOciU30Sd3kUQF",
+            "name": "美濃水雉繫放回報網"
+          },
+          {
+            "id": "rechTv2bgNB2xiWw9",
+            "name": "玉山國家公園建置的臺灣黑熊通報網頁"
+          }
+        ],
+        "Name": "高雄市",
+        "Count (公民科學計畫清冊)": 19,
+        "[持續整理] 文獻、研究成果、文章": [
+          {
+            "id": "recgzEZI6cMAEnCtl",
+            "name": "高雄空氣監測與分析"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reckQSl1pljuDxVzv",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recgBqNwJvQJUvMd8",
+            "name": "福山植物園植物物候調查"
+          },
+          {
+            "id": "recyOBahjPKx6GHSP",
+            "name": "深溝釣魚大賽 / 調魚大賽"
+          },
+          {
+            "id": "recW29Y5rKPVJlbeg",
+            "name": "農田裡的科學計畫-水田福壽螺防治方法與推廣"
+          },
+          {
+            "id": "recBn5hnky4jV8Qbi",
+            "name": "尋找，紅冠水雞計畫"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "宜蘭縣",
+        "Count (公民科學計畫清冊)": 17,
+        "[持續整理] 文獻、研究成果、文章": [
+          {
+            "id": "recutyYxZLRkZvSxv",
+            "name": "宜蘭礁溪林美步道社區監測巡護的機制"
+          },
+          {
+            "id": "rectPk4up9fSLFE5P",
+            "name": "地理公民科學及社區監測在濕地經營管理上的應用-以無尾港溼地為例"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recPv5SpkJ6mKkFcy",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recqWxz4nmC75W3yK",
+            "name": "淡水河畔的公民科學家-華江溼地螃蟹監測"
+          },
+          {
+            "id": "rec4ZY1FbbZnK2DxQ",
+            "name": "NTU 校園荔枝椿象回報"
+          },
+          {
+            "id": "recTw7joq1UPKwlKt",
+            "name": "民眾監督山坡地開發"
+          },
+          {
+            "id": "rectiFyp3Efdw99Wu",
+            "name": "台北市士林區芝山岩調查倡議文化景觀推動"
+          },
+          {
+            "id": "recArLNpVBtTuNMup",
+            "name": "荒野台北‧公園生態化棲地志工"
+          },
+          {
+            "id": "recYu9wvrH06lx8pj",
+            "name": "臺北城城牆石計畫"
+          },
+          {
+            "id": "recnOe6qvB0iA6EJ0",
+            "name": "搶救唭哩岸石！北投士林科技園區－唭哩岸石普查"
+          },
+          {
+            "id": "rec2zldMxORY0jj0K",
+            "name": "廢土換好土"
+          },
+          {
+            "id": "recaN51CUyXEG8vQW",
+            "name": "照明偵探團"
+          },
+          {
+            "id": "recFphS5v88vaNwc6",
+            "name": "食物銀行募集共運平台Line社群"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recxcFTPZrNo4JwyW",
+            "name": "MetaSUB - Metagenomics & Metadesign of Subways & Urban Biomes"
+          },
+          {
+            "id": "rec2VPqestg7rBTWp",
+            "name": "TRBC 淡水河流域同步鳥類調查 Tamsui River Bird Count"
+          },
+          {
+            "id": "recB3EYIxbbMQ5jx6",
+            "name": "基隆河鸕鶿網(包括淡水河流域)"
+          },
+          {
+            "id": "recTCAovMzGOALuvd",
+            "name": "[主題蒐集]「飼主+犬」的巡守志工活動"
+          }
+        ],
+        "Name": "臺北市",
+        "Count (公民科學計畫清冊)": 15,
+        "[持續整理] 文獻、研究成果、文章": [
+          {
+            "id": "recSFGILWKbgVRyJX",
+            "name": "臺北市青少年發展處 111 年度服務學習計畫 【青少年公民科學家-服務學習系列課程、服務時數】"
+          },
+          {
+            "id": "recioCQvDgfjMaNiZ",
+            "name": "臺北市資訊局 / 智慧城市辦公室推廣市民或城市環境感測器"
+          },
+          {
+            "id": "recRNOXijXgE6Luy8",
+            "name": "國立臺灣博物館教育推廣組"
+          },
+          {
+            "id": "rechqxdiy9Z6OW298",
+            "name": "2021 自發性地理資訊(VGI)社群感知與知識發現論壇"
+          },
+          {
+            "id": "recLcmYum6cpusR1Z",
+            "name": "青少年公民科學特蒐團 - 歷年活動"
+          },
+          {
+            "id": "rec5KTb5ndbChpAep",
+            "name": "2023 淡水河流域同步鳥類調查暨公民科學成果分享會"
+          },
+          {
+            "id": "recsTBC6a3lBF0PsY",
+            "name": "2025「川流之島-流域學校」- 雙北燕巢普查計劃"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recSgET7rlt0sZUSZ",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recrEc0Qd7iTbYno5",
+            "name": "冬季菱角鳥水雉調查"
+          },
+          {
+            "id": "recVEj6cfOyx2a1CA",
+            "name": "台南市北門社區大學-七股海岸護沙監測"
+          },
+          {
+            "id": "recGwd7CpVkPUwrVp",
+            "name": "台江流域專題研究"
+          },
+          {
+            "id": "recgb6972BlctMtP4",
+            "name": "台南待孳清空地空屋回報平台"
+          },
+          {
+            "id": "rec7FNFk2X5BasXhN",
+            "name": "海灘廢棄物監測社"
+          },
+          {
+            "id": "recqFAf1vRlm348zf",
+            "name": "台南社區大學-生態調查兵團課程"
+          },
+          {
+            "id": "recvvBmKXuVfuGLim",
+            "name": "遊具照片分享/ 台南也要特色公園"
+          },
+          {
+            "id": "recqBmWPl9VVWXw9v",
+            "name": "「全民登革熱AI防治」LINE Bot聊天機器人"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "臺南市",
+        "Count (公民科學計畫清冊)": 22
+      }
+    },
+    {
+      "id": "recSvHlFibvcaRd6E",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "苗栗縣",
+        "Count (公民科學計畫清冊)": 14
+      }
+    },
+    {
+      "id": "recy8JpvZrmJPGhdR",
+      "createdTime": "2020-01-29T12:32:16.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "rec1hqHD9YFVrrrU9",
+            "name": "獺足金門"
+          },
+          {
+            "id": "recvqET2ro1QxZeQW",
+            "name": "金門中正國小空汙監測科展 / 浯島-呼吸的風險"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recRSBMUK1d6fgDSR",
+            "name": "海漂垃圾公民調查"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recB8yTa384UAgWsF",
+            "name": "MEIL 海洋聲景公民科學"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "recYfyQRyI71ux018",
+            "name": "海廢快篩"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          }
+        ],
+        "Name": "金門縣",
+        "Count (公民科學計畫清冊)": 15
+      }
+    },
+    {
+      "id": "rec86Kx5ns8ya84zx",
+      "createdTime": "2023-02-27T09:23:08.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recDIGqL6WIylnNh8",
+            "name": "台灣腸道公民科學計畫"
+          },
+          {
+            "id": "rec0HT0rYIfvAeNsk",
+            "name": "台灣淡水微生物俱樂部"
+          },
+          {
+            "id": "recAysLsASRAFvCfE",
+            "name": "嬰兒哭聲分析"
+          },
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          },
+          {
+            "id": "reccnZeowwENSk7XK",
+            "name": "野鳥撞玻璃回報"
+          },
+          {
+            "id": "recyKjFQzq0aYkUX8",
+            "name": "寂靜的秋天-農地毒鳥回報"
+          },
+          {
+            "id": "recmme7I63gVCh24m",
+            "name": "台灣野生鳥類緊急救助平台"
+          },
+          {
+            "id": "recHcR46bNgiQeq8s",
+            "name": "外來鳥種埃及聖䴉防治通報"
+          },
+          {
+            "id": "recGIlRJOrxmmXdkT",
+            "name": "外來種斑腿樹蛙監測社團"
+          },
+          {
+            "id": "recambzzH517YC2dU",
+            "name": "獎勵移除沙氏變色蜥蜴"
+          },
+          {
+            "id": "reckQt3W9D87EL3JO",
+            "name": "臺灣歸化與入侵植物調查"
+          },
+          {
+            "id": "recYJZGHLmrpBEPjq",
+            "name": "找樹的人 - 臺灣巨木地圖"
+          },
+          {
+            "id": "rec346PWvEqzIVz35",
+            "name": "通報移除野外海蟾蜍族群"
+          },
+          {
+            "id": "recqz7i2kJVHtvyJV",
+            "name": "台灣植物資料調查及植物物候觀察記錄團"
+          },
+          {
+            "id": "recPSw7XCAAtDsAOF",
+            "name": "台灣食蟲植物棲地調查"
+          },
+          {
+            "id": "recQv1piWBiGDazRW",
+            "name": "米爾頓釉小蜂寄主植物調查"
+          },
+          {
+            "id": "recprLfqLxu0ARW3h",
+            "name": "荒野自然觀察記錄網"
+          },
+          {
+            "id": "recKYN9tiVlB3zS9f",
+            "name": "熊出沒通報系統"
+          },
+          {
+            "id": "rechrA9q0fNA6d7eN",
+            "name": "路拍社"
+          },
+          {
+            "id": "recHsfs9wBi8NTwEb",
+            "name": "水下生物辨識圖鑑團"
+          },
+          {
+            "id": "rectskmCdQUkg2qfR",
+            "name": "台灣BBS 臺灣繁殖鳥類大調查-獼猴調查"
+          },
+          {
+            "id": "recmgdTgiPbRIOSBA",
+            "name": "垂釣回報資訊 / 垂釣成果回報 / 釣訊情報員"
+          },
+          {
+            "id": "recISpTvBwvA1UaXU",
+            "name": "卸魚申報APP"
+          },
+          {
+            "id": "recLV2hp6xK3qQnXC",
+            "name": "台灣蝴蝶閃電調查"
+          },
+          {
+            "id": "recQ8cTvOcOAfT98u",
+            "name": "慕光之城 / 臺灣飛蛾資訊分享站"
+          },
+          {
+            "id": "rec5AcJ0h6oELnPNu",
+            "name": "螢火蟲出沒地點蒐集"
+          },
+          {
+            "id": "recZdwnKI6D5Hh2F5",
+            "name": "TOA 臺灣蜻蛉目學會"
+          },
+          {
+            "id": "recOn6zLdCo8nfecG",
+            "name": "臺灣蛛式會社"
+          },
+          {
+            "id": "receuClABp7Sqkily",
+            "name": "白蟻樣本採集"
+          },
+          {
+            "id": "recK1AX2BSXeIgkSA",
+            "name": "腐木食性昆蟲"
+          },
+          {
+            "id": "recJx6AnxhDyMudQu",
+            "name": "掌蚊人"
+          },
+          {
+            "id": "recNqdfpXIFU3Ilcu",
+            "name": "衣魚樣本採集"
+          },
+          {
+            "id": "rec6zv1e7leCuLiPI",
+            "name": "Let's 探索家中昆蟲"
+          },
+          {
+            "id": "recesoXBUpcN7hYiE",
+            "name": "全面網螺調查計畫"
+          },
+          {
+            "id": "recyMjYq4EqrrACsV",
+            "name": "蝸蝸園 － 台灣陸生蝸牛交流園地"
+          },
+          {
+            "id": "rec1m6NsUn82dcsT7",
+            "name": "帶景兩爬"
+          },
+          {
+            "id": "rec82j7Hfz9rueqGr",
+            "name": "台灣爬行類回報 Taiwan Reptile Report Program"
+          },
+          {
+            "id": "recaKh1lpUUGgVlGj",
+            "name": "這是『蛇』麼東西，台灣蛇類志工調查"
+          },
+          {
+            "id": "reclZ9xDZOBI6Wcsn",
+            "name": "見龍在田"
+          },
+          {
+            "id": "recS4BjalNqECPur7",
+            "name": "兩棲類資源調查網 / 臺灣兩棲類資源調查計畫"
+          },
+          {
+            "id": "recc4IjU7skNVG56S",
+            "name": "愛蛙哇行動APP / 青蛙叫聲辨識行動APP "
+          },
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          },
+          {
+            "id": "recm6QYzccV6EJuII",
+            "name": "臺灣野生動物錄音論壇 Wildlife Sound Discuz Taiwan"
+          },
+          {
+            "id": "recj9Asw07wQ0yfSt",
+            "name": "夜鷹首鳴回報"
+          },
+          {
+            "id": "reccX0gdvFVCzt5aI",
+            "name": "台灣猛禽回報系統"
+          },
+          {
+            "id": "recxJWHZbiMdXDCek",
+            "name": "嘯鷹報報"
+          },
+          {
+            "id": "recQ3WWQ3hV8bw6SV",
+            "name": "灰面鵟鷹調查"
+          },
+          {
+            "id": "recadxibaLPJ7AyVt",
+            "name": "全台黑鳶黃昏聚集同步調查"
+          },
+          {
+            "id": "rec3HhwQ6shZYJ4pY",
+            "name": "RRGT 林鵰紀錄徵求站"
+          },
+          {
+            "id": "recWsgRmiv5wrPiou",
+            "name": "臺灣鳥類繫放資訊網"
+          },
+          {
+            "id": "recMEF17cWeL8c4CC",
+            "name": "家燕繁殖調查 Barn Swallow Breeding Survey"
+          },
+          {
+            "id": "recm2JQFkhxcqT6jq",
+            "name": "山麻雀大普查"
+          },
+          {
+            "id": "recwiH7sXIhPaCbAJ",
+            "name": "台灣鳥類生產力與存活率監測 MAPS Taiwan"
+          },
+          {
+            "id": "recQ6EGHcNL0hnvLC",
+            "name": "鳥類食性"
+          },
+          {
+            "id": "recTvYRC1MSqeQjdX",
+            "name": "臺灣新年數鳥嘉年華 NYBC Taiwan"
+          },
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          },
+          {
+            "id": "rec3WbtwX4I5SSD6g",
+            "name": "黑冠麻鷺目擊回報"
+          },
+          {
+            "id": "recJwd6DcPNlMtfwp",
+            "name": "黑冠麻鷺同步普查回報"
+          },
+          {
+            "id": "rec7Xt8Wiq2ytpQ4X",
+            "name": "台灣BBS 臺灣繁殖鳥類大調查"
+          },
+          {
+            "id": "recR0ajtnUzNiQGHO",
+            "name": "蒐集高爾夫球場的魚鷹出沒記錄"
+          },
+          {
+            "id": "rec8JciumoiIUXEZH",
+            "name": "荒野全台公園生態化普查"
+          },
+          {
+            "id": "recqIXgkJfCbGaVog",
+            "name": "森林巡山志工培訓"
+          },
+          {
+            "id": "rec0CwANGGYPh4agF",
+            "name": "高山濫墾照片與影片蒐集活動"
+          },
+          {
+            "id": "recQkL00hhQzluYg5",
+            "name": "台灣生態聲景長期監測"
+          },
+          {
+            "id": "recc9qiTemT0ipbPb",
+            "name": "#717臺灣聆聽日"
+          },
+          {
+            "id": "recPz4DCnpqJgJ6sI",
+            "name": "聲感地圖現行錄"
+          },
+          {
+            "id": "recg4LVSlSYjRSLQ7",
+            "name": "路噴社"
+          },
+          {
+            "id": "recp5XrdA32sN4pOV",
+            "name": "都市微氣象網"
+          },
+          {
+            "id": "recHB5XT4V0J0LBqC",
+            "name": "阿龜微氣候天眼通"
+          },
+          {
+            "id": "reckL6I8Hqw8ZJ2uO",
+            "name": "LASS環境感測器 / 空氣盒子"
+          },
+          {
+            "id": "recf2cdQyKS9Vktst",
+            "name": "事業放流水汙染通報"
+          },
+          {
+            "id": "rec4FWufMEPlufLqO",
+            "name": "拍河照"
+          },
+          {
+            "id": "rec1mefneE94rdy8N",
+            "name": "生態QRcode行動解說保育網"
+          },
+          {
+            "id": "recIWmm08rGixfj59",
+            "name": "Disfactory - 農地違章工廠回報系統"
+          },
+          {
+            "id": "recnOWSRSwNcm2OJb",
+            "name": "追蹤野溪水泥化協作"
+          },
+          {
+            "id": "rec3bmTcwk3qYCMHm",
+            "name": "土壤檢測"
+          },
+          {
+            "id": "recaqxSZzo6mrtEPT",
+            "name": "塑殺社"
+          },
+          {
+            "id": "recw3yjlsIJtUQtBh",
+            "name": "FS2 Clicker"
+          },
+          {
+            "id": "rechtrq5vakXPE9PW",
+            "name": "Disfactory - 空拍圖比對計畫"
+          },
+          {
+            "id": "recrIB3DQ3mJgJWtU",
+            "name": "日式宿舍，近來可好"
+          },
+          {
+            "id": "rec05NTeQurgik1Pe",
+            "name": "全國文物普查"
+          },
+          {
+            "id": "recFxq8KzQAGeaioD",
+            "name": "在地刊物 Local Zine"
+          },
+          {
+            "id": "recnbQukJRRRI1LU2",
+            "name": "飲水地圖"
+          },
+          {
+            "id": "recpcqHfPkRpIY0zz",
+            "name": "蚊子館調查"
+          },
+          {
+            "id": "rec5LzFAJMzK0mqHm",
+            "name": "掩埋場 蒐集"
+          },
+          {
+            "id": "recMShoSk8ACIR3Ug",
+            "name": "都市公園綠地出入口路阻障礙通報列管窗口"
+          },
+          {
+            "id": "recEDPTlGUmHETpnL",
+            "name": "尋找大象朋友"
+          },
+          {
+            "id": "rec8qnd8bVc47XbMh",
+            "name": "土地利用監測義工資訊系統"
+          },
+          {
+            "id": "recXLbJXzpVMLJD6Z",
+            "name": "臺灣好植地-潛力用地踏查拍照"
+          },
+          {
+            "id": "recNwsjUyaGcIAitR",
+            "name": "iTaigi"
+          },
+          {
+            "id": "recOtrkIjrtCljfVo",
+            "name": "守寫字"
+          },
+          {
+            "id": "recy6DCCnJw1MeH0p",
+            "name": "臺灣新詞徵求「新詞查詢」網站"
+          },
+          {
+            "id": "recGJfE64N0irDYl2",
+            "name": "公民檢測 食安自主"
+          },
+          {
+            "id": "recZDDCxoVfTaB5ot",
+            "name": "木材圖鑑建置計畫"
+          },
+          {
+            "id": "recAK8s9NXTDYQtjC",
+            "name": "「小年夜拜天公」文化習俗調查"
+          },
+          {
+            "id": "reco8oHW4dSQ8Hs6q",
+            "name": "秀出你的年夜飯"
+          },
+          {
+            "id": "recDiscxT1rJd03T3",
+            "name": "愛鯊計畫 / 愛鯊DNA檢測計畫"
+          },
+          {
+            "id": "rec9tpQzL3FCzwBZH",
+            "name": "全民檔案大師共筆系統"
+          },
+          {
+            "id": "rec1VMdhJwscZc5QZ",
+            "name": "防疫物件蒐集"
+          },
+          {
+            "id": "recmQxhysKvSo0ckp",
+            "name": "秒懂災害潛勢-文化素材蒐集"
+          },
+          {
+            "id": "rech3l0adzMigZhjA",
+            "name": "WoWtchout - 地圖型行車影像分享平台"
+          },
+          {
+            "id": "reck2fSYJprxgJAWs",
+            "name": "Cofacts 真的假的"
+          },
+          {
+            "id": "recKdcJQNPekbxuMk",
+            "name": "地名資訊網 - 地名建議"
+          },
+          {
+            "id": "recHTN3SKVzeCmN0O",
+            "name": "公民參與氣象資料建檔計畫"
+          },
+          {
+            "id": "recEQg9Uv2xU2i4Kf",
+            "name": "Astrohackers in Taiwan"
+          },
+          {
+            "id": "rec1PgIm9tmTj5Zvo",
+            "name": "市民探針"
+          },
+          {
+            "id": "recUMcwJhm23Nsbjs",
+            "name": "地質災害傳聲學院APP"
+          },
+          {
+            "id": "recTUdli4f81BXSJi",
+            "name": "歷史影像平台 / 災害歷史照片平台"
+          },
+          {
+            "id": "rec0MnzrFE6ZAQRTr",
+            "name": "土石流防災專員"
+          },
+          {
+            "id": "recvKFZgxQt84GTj9",
+            "name": "TESIS公民震度回報系統"
+          },
+          {
+            "id": "recbLghAkG2pT2I3u",
+            "name": "#微科學 科普影片上傳與抽獎活動"
+          },
+          {
+            "id": "recsckPloGA2y0Tua",
+            "name": "Fold it "
+          },
+          {
+            "id": "recfdeA1TJObbyC6k",
+            "name": "iNaturalist"
+          },
+          {
+            "id": "recJJxYWicbJk9jae",
+            "name": "蝙蝠超音波錄音調查"
+          },
+          {
+            "id": "recl4WNtP9plSGtG4",
+            "name": "xeno-canto 鳥音"
+          },
+          {
+            "id": "rec5v80CmlZSqOHWd",
+            "name": "東亞澳遷徙線水鳥觀察記錄回報網"
+          },
+          {
+            "id": "rechrATm81oua1WOn",
+            "name": "NASA Landslide Reporter"
+          },
+          {
+            "id": "recv2jEsnWmlhIV27",
+            "name": "Open Litter Map"
+          },
+          {
+            "id": "rec33ZYgCScauflga",
+            "name": "Global Alert "
+          },
+          {
+            "id": "recFNaxU3O2vLRUxB",
+            "name": "The EarthEcho Water Challenge"
+          },
+          {
+            "id": "recrBGma1EUr4GQwY",
+            "name": "CrowdWater"
+          },
+          {
+            "id": "recgA6rG3jvcuyjai",
+            "name": "Wiki Shoot Me"
+          },
+          {
+            "id": "rec6HTFfZOOPXKrTL",
+            "name": "Open Street Map"
+          },
+          {
+            "id": "recyvWSVzUrQZHzDI",
+            "name": "Google 地圖無障礙資訊通報"
+          },
+          {
+            "id": "recdmJBS0cXrzR1zN",
+            "name": "Cost of Living"
+          },
+          {
+            "id": "rec34cZnaYvEjXe8v",
+            "name": "Be My Eyes"
+          },
+          {
+            "id": "rec2GLLDQxSRrSzDZ",
+            "name": "Common Voice"
+          },
+          {
+            "id": "recbY1rXHhtCvSKxe",
+            "name": "重力波調查員"
+          },
+          {
+            "id": "recZe26n8ajJMAIGy",
+            "name": "Quake Catcher Network / QCN / 補震網"
+          },
+          {
+            "id": "recrvm6kjIrFXIXL0",
+            "name": "MyShake"
+          },
+          {
+            "id": "recDPpayXi74VjO3F",
+            "name": "Google Crowdsource App"
+          },
+          {
+            "id": "recvuiggPoO0MPfGK",
+            "name": "水環境巡守隊"
+          },
+          {
+            "id": "recPRuK37MkgclWBh",
+            "name": "平安走路許願帳戶-行人庇護空間"
+          },
+          {
+            "id": "recjHa6hkzahE5Stv",
+            "name": "Litterati"
+          },
+          {
+            "id": "recMWa6h66rdtrOzw",
+            "name": "ROCKD"
+          },
+          {
+            "id": "recDBkc64TPcwByaQ",
+            "name": "吉祥物基本資料蒐集"
+          },
+          {
+            "id": "rec1gfzXfujY8Q2AP",
+            "name": "野菇生態調查 照片分享社團"
+          },
+          {
+            "id": "recIljQQhWcT95xdd",
+            "name": "水鳥足旗回報社團-尋旗覓環"
+          },
+          {
+            "id": "recwe3AhA1dECVDSx",
+            "name": "母語地名故事 - 創建地名"
+          },
+          {
+            "id": "recJd9235bCzBY4C0",
+            "name": "臺灣人體生物資料庫 Taiwan Biobank"
+          }
+        ],
+        "Name": "臺灣 / 全臺 / 全台",
+        "Count (公民科學計畫清冊)": 140,
+        "[持續整理] 文獻、研究成果、文章": [
+          {
+            "id": "rec3w4zhurWlNkgou",
+            "name": "海洋公民基金會"
+          },
+          {
+            "id": "recJwt4L6qYBROD8j",
+            "name": "台灣兩棲類保育志工"
+          },
+          {
+            "id": "recWeoIxrxQDxMbOs",
+            "name": "台灣螳螂研究公會"
+          },
+          {
+            "id": "rec4IO1175QgW01QW",
+            "name": "台灣蟬保育學會"
+          },
+          {
+            "id": "recqqjw3pFrzeb2fG",
+            "name": "台灣椿象(蝽類)分類生態誌"
+          },
+          {
+            "id": "recfVu2GU6gmfXRdM",
+            "name": "土生土長—誰在地下呼吸"
+          },
+          {
+            "id": "recAf6N9WlxF3BlDZ",
+            "name": "海社"
+          },
+          {
+            "id": "recHxhrDqjhM9YQGi",
+            "name": "台灣地震學園"
+          },
+          {
+            "id": "recspgSDTi4F92tTJ",
+            "name": "臺灣業餘天文研討會"
+          },
+          {
+            "id": "receoPvHo5ik5SsOn",
+            "name": "臺灣野生動物錄音論壇 Wildlife Sound Discuz Taiwan"
+          },
+          {
+            "id": "recqn7dXBnUbOejHb",
+            "name": "海洋委員會海洋保育署\n\n一、108年度台灣周邊「海龜」族群調查計畫：90萬元\n1. 彙整臺灣周邊海域海龜族群相關資料\n2. 規劃及執行海龜族群調查\n3. 辦理海龜目擊教育訓練\n4. 草擬「台灣海龜保育計畫」\n\n二、108年度台灣周邊「鯨豚」族群調查計畫：90萬元\n1. 彙整臺灣周邊海域鯨豚族群相關資料\n2. 規劃及執行鯨豚族群調查\n3. 辦理海上鯨豚觀察教育訓練\n4. 草擬「台灣周邊海域鯨豚保育計畫」"
+          },
+          {
+            "id": "reccED0dFzC5CQD31",
+            "name": "報導：隱形鳥類殺手 「野鳥撞玻璃回報」社團揭不容忽視的窗殺問"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rectqHBJnYGfWrswb",
+      "createdTime": "2023-02-27T10:16:53.000Z",
+      "fields": {
+        "公民科學計畫清冊": [
+          {
+            "id": "recroogfQe5dSbHhG",
+            "name": "玉山箭竹開花地區的徵詢與搜集"
+          },
+          {
+            "id": "recBS7ZdePz5Q2fsx",
+            "name": "樹保寶 / 樹殺社"
+          },
+          {
+            "id": "recV4U2dorUW9X8Mq",
+            "name": "鯨豚戶口調查- 花紋海豚 /  瑞氏海豚戶口調查"
+          },
+          {
+            "id": "recIwCmKO6CSvvrFg",
+            "name": "WhaleFinder 尋鯨任務 app"
+          },
+          {
+            "id": "recC5kwbstqDckud9",
+            "name": "黃喉貂目擊記錄回報平台"
+          },
+          {
+            "id": "recC7ST6eehZGM2Mw",
+            "name": "尋找豆丁海馬"
+          },
+          {
+            "id": "rectdIppM1tij3d1G",
+            "name": "台灣珊瑚白化觀測平台 Taiwan Coral Bleaching Observation Network"
+          },
+          {
+            "id": "receQaj33lxHjyFA9",
+            "name": "臺灣珊瑚礁體檢計畫"
+          },
+          {
+            "id": "recVu0FZU6fsqFtEc",
+            "name": "光影珊瑚 Coral of the Day"
+          },
+          {
+            "id": "reccsanEW5DTJ9Pa2",
+            "name": "特生中心社區蝴蝶調查"
+          },
+          {
+            "id": "recFgyhH8jniI8BbZ",
+            "name": "蛾類-山屋回報"
+          },
+          {
+            "id": "recpCy57h0MkP2qkw",
+            "name": "農業試驗所應用動物組金花蟲研究"
+          },
+          {
+            "id": "recTKzpjjZnCTDNG6",
+            "name": "台灣金花蟲社團"
+          },
+          {
+            "id": "recKOo5NtVyZTLb8a",
+            "name": "鱟繼有人 / 台灣鱟通報網 / 臺灣鱟保育網"
+          },
+          {
+            "id": "rec5hzUuePfGBaXrY",
+            "name": "全球黑面琵鷺回報系統 / 黑面琵鷺保育網"
+          },
+          {
+            "id": "recMbqMyDVQ8RAOZW",
+            "name": "黃鸝觀測調查"
+          },
+          {
+            "id": "reckcpwX6571HJ4Eu",
+            "name": "焚化爐底渣再利用調查與官方資料追蹤"
+          },
+          {
+            "id": "recTcwPV3oLAOgOfH",
+            "name": "ICC 國際淨灘行動 / 愛海小旅行"
+          },
+          {
+            "id": "recVkpOszWj4xACvG",
+            "name": "黑潮「島航行動」海洋水質、塑膠微粒及水下聲景"
+          },
+          {
+            "id": "recjLpGUCwF2DCSuU",
+            "name": "沿全島海岸線拍攝360全景"
+          },
+          {
+            "id": "recSBvxL2gcIEZeJG",
+            "name": "原住民族傳統領域調查與確認"
+          },
+          {
+            "id": "recR67JtJ5hPTJJg4",
+            "name": "鯊魚魟魚目擊回報 Shark and Ray Sightings"
+          }
+        ],
+        "Name": "[待細分縣市]",
+        "Count (公民科學計畫清冊)": 22
+      }
+    },
+    {
+      "id": "recYPOxQQoedLm60M",
+      "createdTime": "2023-03-25T09:52:15.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recLi05fUVYYlUIrg",
+      "createdTime": "2023-03-25T09:52:42.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recTk7dn29aLR50or",
+      "createdTime": "2023-03-25T09:52:44.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recAXBYLQkYhaXZSh",
+      "createdTime": "2023-03-25T09:52:45.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recBxYfvC1nuJAjIt",
+      "createdTime": "2023-03-25T09:52:49.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recDL3czBt4UoFIGp",
+      "createdTime": "2023-03-25T09:52:50.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "reclsQiy8LcstB77F",
+      "createdTime": "2023-03-25T09:52:50.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "reczO4zY97xbSTNkh",
+      "createdTime": "2023-03-25T09:52:50.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recuyisAS7p73dZDQ",
+      "createdTime": "2023-03-25T09:52:54.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "rec49WeiGk6P1zBK9",
+      "createdTime": "2023-03-25T09:52:55.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recaMGejkfPDLqufz",
+      "createdTime": "2023-03-25T09:52:55.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recDRiQO1hLgrC0d7",
+      "createdTime": "2023-03-25T09:52:55.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recgsIZswpDumxstN",
+      "createdTime": "2023-03-25T09:52:55.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recM9z1bssaSdYcBR",
+      "createdTime": "2023-03-25T09:52:55.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recrJzG6zR2q0tfc1",
+      "createdTime": "2023-03-25T09:52:55.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recW8L0hiOnnStoIR",
+      "createdTime": "2023-03-25T09:52:55.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recZr3FyLEk3PVT0L",
+      "createdTime": "2023-03-25T09:53:00.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "reca7EguQd2q72nm7",
+      "createdTime": "2023-03-25T09:53:02.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recCGlIzaZPE2QIoO",
+      "createdTime": "2023-03-25T09:53:02.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "reckR7Pw6xq7De5hb",
+      "createdTime": "2023-03-25T09:53:02.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recMWB8wC6OzHCdpe",
+      "createdTime": "2023-03-25T09:53:02.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recuvIG3B3rrdZlGg",
+      "createdTime": "2023-03-25T09:53:02.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recxn9s2CSxacbQ0z",
+      "createdTime": "2023-03-25T09:53:02.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    },
+    {
+      "id": "recyhG7oaKXapLAOG",
+      "createdTime": "2023-03-25T09:53:02.000Z",
+      "fields": {
+        "Name": "[空白列]",
+        "Count (公民科學計畫清冊)": 0
+      }
+    }
+  ]
+}

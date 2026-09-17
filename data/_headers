@@ -1,0 +1,15 @@
+# Cloudflare Pages 標頭設定
+#
+# CORS：raw.githubusercontent 與 jsDelivr 預設就送 `Access-Control-Allow-Origin: *`，
+#       但 Cloudflare Pages 不送。沒有這一段，任何瀏覽器端的 fetch() 第一行就失敗——
+#       而「有人寫個網頁來抓你的資料」正是這份開放資料最主要的用途。
+#
+# 快取：資料每天同步一次，所以 1 小時內視為新鮮；過期後先送舊的、同時在背景更新，
+#       讓 CDN 永遠不必等回源。
+
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  Access-Control-Max-Age: 86400
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400

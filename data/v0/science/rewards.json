@@ -1,0 +1,485 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "science",
+    "name": "公民科學與群眾參與計畫清冊資料集",
+    "label": "公民科學與群眾參與計畫"
+  },
+  "table": {
+    "slug": "rewards",
+    "name": "禮品與獎勵",
+    "label": "禮品與獎勵",
+    "id": "tblDfYV7vwCcfHbtm"
+  },
+  "recordCount": 28,
+  "fields": [
+    {
+      "id": "fldEb9pkXdMofulol",
+      "name": "Name",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldCGr4QaCeYbCRZg",
+      "name": "類型",
+      "type": "multipleSelects"
+    },
+    {
+      "id": "fldjAwZQGp82gl88Z",
+      "name": "Notes",
+      "type": "multilineText"
+    },
+    {
+      "id": "fldx5XaGuRZvnvPlY",
+      "name": "公民科學與群眾參與計畫",
+      "type": "multipleRecordLinks"
+    }
+  ],
+  "records": [
+    {
+      "id": "rec8I0qDnUUf9bUlC",
+      "createdTime": "2023-03-25T09:42:43.000Z",
+      "fields": {
+        "類型": [
+          "調查過程中的衣著與使用用品 (但並非調查環節工具)"
+        ],
+        "Name": "遮陽帽 / 棒球帽 / 蛙蛙帽",
+        "Notes": "棒球帽\nhttps://www.facebook.com/share/p/1GBa1ZtMkr/\n\n[蛙抵家 Identifrog] 蛙蛙帽，來源：https://www.facebook.com/share/p/1EC65gcBQi/\n",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recvBvaETUiz9qLUu",
+            "name": "愛自然武陵地區公民科學監測活動"
+          },
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          },
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recg1VA9vnrSgfKQv",
+      "createdTime": "2023-03-25T09:42:43.000Z",
+      "fields": {
+        "類型": [
+          "調查過程中的衣著與使用用品 (但並非調查環節工具)"
+        ],
+        "Name": "保冷袋",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recvBvaETUiz9qLUu",
+            "name": "愛自然武陵地區公民科學監測活動"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recRvBGacBfV9l0dq",
+      "createdTime": "2023-03-25T09:42:43.000Z",
+      "fields": {
+        "類型": [
+          "與調查環節直接相關且可輔助的工具"
+        ],
+        "Name": "賞鳥望遠鏡",
+        "Notes": "鸛鳥馬拉松\nhttps://www.facebook.com/1700391184/posts/pfbid021XVtvPYAvdf6AqwSZpcqNaL1Ech6hbKihmaceKWrkdfZ8WtDEMwMpid3FibQ3SxMl/\n\nhttps://www.facebook.com/share/p/dgREWuVg2mAMmg4c/?mibextid=WC7FNe",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recT0nqKgkZSoTsBI",
+      "createdTime": "2023-03-25T09:44:34.000Z",
+      "fields": {
+        "類型": [
+          "與調查環節直接相關且可輔助的工具"
+        ],
+        "Name": "生物圖墊 / 魚尺",
+        "Notes": "可以用於調查者辨識生物",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recyOBahjPKx6GHSP",
+            "name": "深溝釣魚大賽 / 調魚大賽"
+          },
+          {
+            "id": "rec5yHvEB8ffkq98L",
+            "name": "綠島釣查計畫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec0NMHnquGihwdnZ",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "Name": "品項待整理拆分",
+        "Notes": "https://www.facebook.com/share/p/1G4e33E2Gy/"
+      }
+    },
+    {
+      "id": "rec1WgnjOP2ZAuTnR",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關，但平時可發揮計畫宣傳效果"
+        ],
+        "Name": "文創商品 / 扭蛋 / 玩具",
+        "Notes": "[蛙抵家 Identifrog] 日本正版巨型蟾蜍扭蛋，來源：https://www.facebook.com/share/p/1EC65gcBQi/",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recyOBahjPKx6GHSP",
+            "name": "深溝釣魚大賽 / 調魚大賽"
+          },
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec2439QeA7bMnkIv",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "調查過程中的衣著與使用用品 (但並非調查環節工具)"
+        ],
+        "Name": "雨衣",
+        "Notes": "https://www.facebook.com/share/p/1FetDqBW8z/?mibextid=wwXIfr",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recAfFwMuO5zuefJt",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關"
+        ],
+        "Name": "胸針",
+        "Notes": "日本野鳥の会提供手作雜色山雀卡片座及胸針\nhttps://www.facebook.com/share/p/1ASY1vULWn/?mibextid=wwXIfr"
+      }
+    },
+    {
+      "id": "recGuCAzHd9cD0Pcn",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關，但平時可發揮計畫宣傳效果"
+        ],
+        "Name": "掛軸且圖像內容與該計畫相關",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recgw6a4QhIPWh6RW",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關"
+        ],
+        "Name": "獎金 / 現金",
+        "Notes": "或許可以再區分額度\n\n筆記\nhttps://www.facebook.com/TCYDFans/posts/pfbid0CVmX3zsjBzHnup7cv4WTegu2svPHY8UoXMrZeHTFzTbe5FbDF4acPXSaii51bLR3l",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recyOBahjPKx6GHSP",
+            "name": "深溝釣魚大賽 / 調魚大賽"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rech5IUhHEEefutWy",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "⚠️ 僅發想 / 待確認是否真的有此獎勵"
+        ],
+        "Name": "魚竿 / 釣魚設備"
+      }
+    },
+    {
+      "id": "recHvBRFTqfNlEW4D",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關"
+        ],
+        "Name": "農產品 / 食品",
+        "Notes": "可以吃的",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recyOBahjPKx6GHSP",
+            "name": "深溝釣魚大賽 / 調魚大賽"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recLUE4QMMH5Ol0lS",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關"
+        ],
+        "Name": "服務認證時數",
+        "Notes": "公民科學特蒐團\nhttps://www.facebook.com/100082792937148/posts/pfbid02GAwAwWE7wstk3dQnQoVeZGuYpnEaskpucd6MmyCgYgGcuFEPCSDdne3Zz94P8oi5l/?mibextid=cr9u03\nhttps://www.facebook.com/TCYDFans/posts/pfbid0CExh7N33vbXmkzJ9m1o6eY1ofhbum54zqRDPHhsJJMbZV2sJyjPtNmy7nYvACTafl\n"
+      }
+    },
+    {
+      "id": "recNGbnmz97BZOBra",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫相關知識內容"
+        ],
+        "Name": "圖鑑書籍",
+        "Notes": "[蛙抵家 Identifrog] 台灣蛙類及蝌蚪圖鑑，來源：https://www.facebook.com/share/p/1EC65gcBQi/\n\n[蛙抵家 Identifrog] 雨蛙生態旅行團全集：地下探險之旅、雪地冒險之旅、空中驚險之旅、池塘冒險之旅，來源：https://www.facebook.com/share/p/1EC65gcBQi/",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recngoYFwX1zEXSa5",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "Notes": "\n"
+      }
+    },
+    {
+      "id": "recOZEnLycHy613W1",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "Name": "[有明確表示送禮，但沒有說明送什麼]",
+        "Notes": "有空在追一下新資訊",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "rechTv2bgNB2xiWw9",
+            "name": "玉山國家公園建置的臺灣黑熊通報網頁"
+          },
+          {
+            "id": "recyrkEBmzmmWyFtd",
+            "name": "TaiCOL名錄資料協作志工"
+          },
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recptTUBHoOLjbHoz",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關"
+        ],
+        "Name": "矽密盒",
+        "Notes": "[蛙抵家 Identifrog] 仁舟 矽密盒正方藍矽龜，來源：https://www.facebook.com/share/p/1EC65gcBQi/",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recsJMOkOWu4lOgUS",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "調查過程中的衣著與使用用品 (但並非調查環節工具)"
+        ],
+        "Name": "太陽能行動電源",
+        "Notes": "[蛙抵家 Identifrog] Philips 太陽能行動電源，來源：https://www.facebook.com/share/p/1EC65gcBQi/",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recsuU1ryCWlpIQlu",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "⚠️ 僅發想 / 待確認是否真的有此獎勵"
+        ],
+        "Name": "保險 / 平安險"
+      }
+    },
+    {
+      "id": "recTZ0grud6y01nZ7",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關"
+        ],
+        "Name": "無線藍牙耳機",
+        "Notes": "[蛙抵家 Identifrog] Philips 飛利浦 TAT1215 真無線藍牙耳機，來源：https://www.facebook.com/share/p/1EC65gcBQi/",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recUDV0G7UefZgfsn",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關"
+        ],
+        "Name": "Line Pay 回饋金",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recpyeRODxnN2BTiV",
+            "name": "Tekkon"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recUwaWTIEyJw381u",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關"
+        ],
+        "Name": "提供參訪活動",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recyrkEBmzmmWyFtd",
+            "name": "TaiCOL名錄資料協作志工"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recvazkSHUms0oQMb",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫相關知識內容"
+        ],
+        "Name": "線上課程",
+        "Notes": "[蛙抵家 Identifrog] 大浪聚線上課程 | 仲夏夜森林－青蛙交響曲，來源：https://www.facebook.com/share/p/1EC65gcBQi/",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recwVe0UAXQDVltRh",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "調查過程中的衣著與使用用品 (但並非調查環節工具)"
+        ],
+        "Name": "襪子 / 蛙蛙襪",
+        "Notes": "https://www.facebook.com/share/p/1FnkZGEtZd/\n\n[蛙抵家 Identifrog] 蛙蛙襪，來源：https://www.facebook.com/share/p/1EC65gcBQi/",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recwVM09if5Bgmts8",
+            "name": "燕巢調查"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recxiTngNzxSLziM3",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關，但平時可發揮計畫宣傳效果"
+        ],
+        "Name": "馬克杯 (印製與該計畫相關的內容)",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "rec5yHvEB8ffkq98L",
+            "name": "綠島釣查計畫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recXTwwsSQz3DCwwf",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "調查過程中的衣著與使用用品 (但並非調查環節工具)"
+        ],
+        "Name": "戶外用品 ",
+        "Notes": "步道\nhttps://www.facebook.com/share/p/15zCC4A1oe/",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recbNomj3U5O8KS1N",
+            "name": "台灣步道守護網"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recYxXZoExp0tzNMp",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與計畫參與環節無關，但平時可發揮計畫宣傳效果"
+        ],
+        "Name": "Line 貼圖",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "reck2fSYJprxgJAWs",
+            "name": "Cofacts 真的假的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reczocRRl0jbbrWdx",
+      "createdTime": "2023-03-25T09:44:36.000Z",
+      "fields": {
+        "類型": [
+          "與調查環節直接相關且可輔助的工具"
+        ],
+        "Name": "頭燈",
+        "Notes": "[蛙抵家 Identifrog] TIKKINA LED頭燈，來源：https://www.facebook.com/share/p/1EC65gcBQi/",
+        "公民科學與群眾參與計畫": [
+          {
+            "id": "recFIZPTc7dsWkkyx",
+            "name": "蛙抵家 Identifrog"
+          }
+        ]
+      }
+    }
+  ]
+}

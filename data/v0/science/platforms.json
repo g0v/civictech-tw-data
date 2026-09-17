@@ -1,0 +1,2423 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "science",
+    "name": "公民科學與群眾參與計畫清冊資料集",
+    "label": "公民科學與群眾參與計畫"
+  },
+  "table": {
+    "slug": "platforms",
+    "name": "數據資料彙整方案或平台",
+    "label": "數據資料彙整方案或平台",
+    "id": "tblVTkZdelyc69GHW"
+  },
+  "recordCount": 200,
+  "fields": [
+    {
+      "id": "fldkQbfGBqzdqei7A",
+      "name": "Name",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldc66t3Xtqq4qLaD",
+      "name": "特點選項",
+      "type": "multipleSelects"
+    },
+    {
+      "id": "fldbA8kf8ZDunXB5k",
+      "name": "簡介",
+      "type": "multilineText"
+    },
+    {
+      "id": "fldwrYpXfKkFwRfDx",
+      "name": "公民科學計畫清冊 - 授權採用 cc0 喔！",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fld2IUM8082ZPEMIr",
+      "name": "方案官網",
+      "type": "multilineText"
+    },
+    {
+      "id": "fld7Hi9Ijb7E9QdYA",
+      "name": "[持續整理] 文獻、研究成果、平台、工具可支持相異計畫",
+      "type": "multipleRecordLinks"
+    }
+  ],
+  "records": [
+    {
+      "id": "recBRVS63Xsev7AxH",
+      "createdTime": "2020-01-30T07:27:32.000Z",
+      "fields": {
+        "方案官網": "https://www.inaturalist.org/",
+        "簡介": "github\nhttps://github.com/inaturalist\n\n台灣社團\nhttps://www.facebook.com/groups/iNaturalistTaiwan\n\n宜蘭縣深溝地區的在地團體，有製作了 iNaturalist 教學介紹網頁，他們的用途是紀錄水圳與田間物種種類\nhttps://fangyeelin.wixsite.com/fishfish/about",
+        "特點選項": [
+          "開放授權資料庫，可提供介接資料",
+          "開源 Open Source"
+        ],
+        "Name": "iNaturalist",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recfdeA1TJObbyC6k",
+            "name": "iNaturalist"
+          },
+          {
+            "id": "recyOBahjPKx6GHSP",
+            "name": "深溝釣魚大賽 / 調魚大賽"
+          },
+          {
+            "id": "recvBvaETUiz9qLUu",
+            "name": "愛自然武陵地區公民科學監測活動"
+          },
+          {
+            "id": "recNiPhjN7ILySUa4",
+            "name": "蘭陽鰭跡"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recdBkEzLxTVf0lXU",
+      "createdTime": "2020-01-30T07:27:45.000Z",
+      "fields": {
+        "方案官網": "https://scifabric.com/crowdcrafting/",
+        "[持續整理] 文獻、研究成果、平台、工具可支持相異計畫": [
+          {
+            "id": "recezhgBthmT9jDOi",
+            "name": "Crowdcrafting"
+          }
+        ],
+        "特點選項": [
+          "提供群眾外包任務的模組"
+        ],
+        "Name": "Crowdcrafting"
+      }
+    },
+    {
+      "id": "recClz52jgibGN9Wj",
+      "createdTime": "2020-01-30T07:27:46.000Z",
+      "fields": {
+        "簡介": "優缺點討論串：https://www.facebook.com/groups/128515057963531/permalink/973494000132295/\n\n透過 RSS.app 生成 \nhttps://www.facebook.com/groups/851717438887129/permalink/853982795327260/\nhttps://rss.app/rss-feed/create-facebook-rss-feed",
+        "特點選項": [
+          "結合社群媒體的擴散效果 / 但資料彙整不易"
+        ],
+        "Name": "FB 社團 / 使用社群媒體-facebook 社團",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recrIB3DQ3mJgJWtU",
+            "name": "日式宿舍，近來可好"
+          },
+          {
+            "id": "recg4LVSlSYjRSLQ7",
+            "name": "路噴社"
+          },
+          {
+            "id": "recXLbJXzpVMLJD6Z",
+            "name": "臺灣好植地-潛力用地踏查拍照"
+          },
+          {
+            "id": "recroogfQe5dSbHhG",
+            "name": "玉山箭竹開花地區的徵詢與搜集"
+          },
+          {
+            "id": "rechrA9q0fNA6d7eN",
+            "name": "路拍社"
+          },
+          {
+            "id": "recfgIyVMgnRGAyw1",
+            "name": "海龜點點名"
+          },
+          {
+            "id": "recyKjFQzq0aYkUX8",
+            "name": "寂靜的秋天-農地毒鳥回報"
+          },
+          {
+            "id": "rec4Q1V95vo791IQJ",
+            "name": "社區天氣觀測計劃 CWOS"
+          },
+          {
+            "id": "recpaeiX50d4maP5F",
+            "name": "行走的土地公 - 復育土壤動物與觀察記錄"
+          },
+          {
+            "id": "recHsfs9wBi8NTwEb",
+            "name": "水下生物辨識圖鑑團"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "rec346PWvEqzIVz35",
+            "name": "通報移除野外海蟾蜍族群"
+          },
+          {
+            "id": "recaqxSZzo6mrtEPT",
+            "name": "塑殺社"
+          },
+          {
+            "id": "recBpVZWTPpKevrbo",
+            "name": "海漂/海底廢棄物 目擊平台 / 目視海漂垃圾"
+          },
+          {
+            "id": "recVu0FZU6fsqFtEc",
+            "name": "光影珊瑚 Coral of the Day"
+          },
+          {
+            "id": "recYsPqOVg4PqSXUf",
+            "name": "Tucson Hates Trees"
+          },
+          {
+            "id": "recTKzpjjZnCTDNG6",
+            "name": "台灣金花蟲社團"
+          },
+          {
+            "id": "rec0HT0rYIfvAeNsk",
+            "name": "台灣淡水微生物俱樂部"
+          },
+          {
+            "id": "recK1AX2BSXeIgkSA",
+            "name": "腐木食性昆蟲"
+          },
+          {
+            "id": "recmme7I63gVCh24m",
+            "name": "台灣野生鳥類緊急救助平台"
+          },
+          {
+            "id": "rec1gfzXfujY8Q2AP",
+            "name": "野菇生態調查 照片分享社團"
+          },
+          {
+            "id": "recIljQQhWcT95xdd",
+            "name": "水鳥足旗回報社團-尋旗覓環"
+          },
+          {
+            "id": "recfajyYfgNGxyba2",
+            "name": "台灣頭足類目擊報報 / Cephanews @ Taiwan"
+          },
+          {
+            "id": "receXagEgGUjKZllI",
+            "name": "城市狸貓回報網 City Civet Reports"
+          },
+          {
+            "id": "recrSTAYUnZHPiHvr",
+            "name": "啣魚鳥生-臺灣海鳥食性調查平台"
+          },
+          {
+            "id": "recPOciU30Sd3kUQF",
+            "name": "美濃水雉繫放回報網"
+          },
+          {
+            "id": "rec4NebJWilAMtsY4",
+            "name": "臺灣的擬蠍 Pseudoscorpiones of Taiwan"
+          },
+          {
+            "id": "recB3EYIxbbMQ5jx6",
+            "name": "基隆河鸕鶿網(包括淡水河流域)"
+          },
+          {
+            "id": "rec5yHvEB8ffkq98L",
+            "name": "綠島釣查計畫"
+          },
+          {
+            "id": "recgazMVU07KsjSCJ",
+            "name": "二次世界大戰台灣戰爭遺址團"
+          },
+          {
+            "id": "recVxlHjFuKQOrETy",
+            "name": "臺灣の神社遺跡"
+          },
+          {
+            "id": "recoMSujuL4hFqcTp",
+            "name": "日本時代戶籍資料討論團"
+          },
+          {
+            "id": "receRFsmuIqcgSnYf",
+            "name": "臺灣彗星流星情報站"
+          },
+          {
+            "id": "recCExbN0hg1rkQQy",
+            "name": "無所不在之天象-知識的美麗"
+          },
+          {
+            "id": "recEbARUgdQmYYKxG",
+            "name": "地震氣震"
+          },
+          {
+            "id": "recVywHKRXxRI6huM",
+            "name": "重機車友 ❘ 各區路況天氣、資訊分享中心"
+          },
+          {
+            "id": "rec7A5oQ6CHnB0eAh",
+            "name": "欸x!穿山甲耶要不要通報"
+          },
+          {
+            "id": "recKQBaanJyoM2XUV",
+            "name": "塑殺社"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec9zwibIyTzNJpRD",
+      "createdTime": "2020-01-30T07:27:47.000Z",
+      "fields": {
+        "特點選項": [
+          "結合社群媒體的擴散效果 / 但資料彙整不易"
+        ],
+        "Name": "Line 群組"
+      }
+    },
+    {
+      "id": "recEMh21vEQqO17Mf",
+      "createdTime": "2020-01-30T07:27:47.000Z",
+      "fields": {
+        "方案官網": "https://www.google.com/forms/about/",
+        "[持續整理] 文獻、研究成果、平台、工具可支持相異計畫": [
+          {
+            "id": "recsTBC6a3lBF0PsY",
+            "name": "2025「川流之島-流域學校」- 雙北燕巢普查計劃"
+          }
+        ],
+        "特點選項": [
+          "可設定為僅有主辦單位能查看資料"
+        ],
+        "Name": "Google Forms 表單",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "rec8JciumoiIUXEZH",
+            "name": "荒野全台公園生態化普查"
+          },
+          {
+            "id": "recAK8s9NXTDYQtjC",
+            "name": "「小年夜拜天公」文化習俗調查"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recKOo5NtVyZTLb8a",
+            "name": "鱟繼有人 / 台灣鱟通報網 / 臺灣鱟保育網"
+          },
+          {
+            "id": "recM6QQ2GIgqEq0jT",
+            "name": "水邊散步 - 圳路棲地評估"
+          },
+          {
+            "id": "recCUNdoAWm9MW5CN",
+            "name": "台灣野山羊穿孔疥癬蟎疫情回報"
+          },
+          {
+            "id": "recd1WOZYOT7BuFHd",
+            "name": "合境平安--大家一起來"
+          },
+          {
+            "id": "recZMhQM5vTurPjB4",
+            "name": "鰻管大搜查 - 順手撿鰻管、救救僧海豹"
+          },
+          {
+            "id": "rec9P6sAT1KpR2yoi",
+            "name": "眼底城事第一屆「公共空間介面」空間偵探大賽"
+          },
+          {
+            "id": "rectJYAfvEfAiJH6D",
+            "name": "大翅鯨回報"
+          },
+          {
+            "id": "recH3obZJVNDmwE6w",
+            "name": "貓咪躺躺計畫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recTTtzNDW2HxIrwI",
+      "createdTime": "2020-01-30T07:27:48.000Z",
+      "fields": {
+        "Name": "自架資料庫系統-待確認是否開源 open source",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recV1wdP5R9YNyX0Y",
+            "name": "Alberta Worm Invasion - Worm Tracker"
+          },
+          {
+            "id": "recBS7ZdePz5Q2fsx",
+            "name": "樹保寶 / 樹殺社"
+          },
+          {
+            "id": "rec5o4dpesUeOXK9s",
+            "name": "Coastal Clean-Up 海岸淨灘認養系統"
+          },
+          {
+            "id": "recv2jEsnWmlhIV27",
+            "name": "Open Litter Map"
+          },
+          {
+            "id": "recISpTvBwvA1UaXU",
+            "name": "卸魚申報APP"
+          },
+          {
+            "id": "recQiO0bTafwZFq9g",
+            "name": "The Lake Observations by Citizen Scientists & Satellites project"
+          },
+          {
+            "id": "recKYN9tiVlB3zS9f",
+            "name": "熊出沒通報系統"
+          },
+          {
+            "id": "recvKFZgxQt84GTj9",
+            "name": "TESIS公民震度回報系統"
+          },
+          {
+            "id": "recZe26n8ajJMAIGy",
+            "name": "Quake Catcher Network / QCN / 補震網"
+          },
+          {
+            "id": "recQKNF1Arh77HdOK",
+            "name": "坪林尋怪計畫"
+          },
+          {
+            "id": "rech3l0adzMigZhjA",
+            "name": "WoWtchout - 地圖型行車影像分享平台"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recFq9qsReDZU4JBg",
+            "name": "Citizen Archivist program"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recCCFf32TmyZK3Wv",
+            "name": "Horseshoe Crab Cooperative Tagging Program"
+          },
+          {
+            "id": "recy6DCCnJw1MeH0p",
+            "name": "臺灣新詞徵求「新詞查詢」網站"
+          },
+          {
+            "id": "rec8qnd8bVc47XbMh",
+            "name": "土地利用監測義工資訊系統"
+          },
+          {
+            "id": "rec9tpQzL3FCzwBZH",
+            "name": "全民檔案大師共筆系統"
+          },
+          {
+            "id": "recFphS5v88vaNwc6",
+            "name": "食物銀行募集共運平台Line社群"
+          },
+          {
+            "id": "recjHa6hkzahE5Stv",
+            "name": "Litterati"
+          },
+          {
+            "id": "recMWa6h66rdtrOzw",
+            "name": "ROCKD"
+          },
+          {
+            "id": "recp37PUZEBhfhr9O",
+            "name": "國家文化記憶庫"
+          },
+          {
+            "id": "recpyeRODxnN2BTiV",
+            "name": "Tekkon"
+          },
+          {
+            "id": "recR67JtJ5hPTJJg4",
+            "name": "鯊魚魟魚目擊回報 Shark and Ray Sightings"
+          },
+          {
+            "id": "recTcwPV3oLAOgOfH",
+            "name": "ICC 國際淨灘行動 / 愛海小旅行"
+          },
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "recwe3AhA1dECVDSx",
+            "name": "母語地名故事 - 創建地名"
+          },
+          {
+            "id": "recSswXWOnbRFUonN",
+            "name": "165 全民防騙網-檢舉詐騙廣告"
+          },
+          {
+            "id": "recF2ME6b3ixQwErL",
+            "name": "Eichhörnchen in Bayern 松鼠調查"
+          },
+          {
+            "id": "recKvlfhAFPqbBqnC",
+            "name": "全民參與植物疫情通報：光肩星天牛"
+          },
+          {
+            "id": "recud1TbCe4KcPaWP",
+            "name": "全民參與植物疫情通報：龍眼雞"
+          },
+          {
+            "id": "rec1ZvIdjpdwemtsu",
+            "name": "全民參與植物疫情通報：琉璃粗腿金花蟲"
+          },
+          {
+            "id": "recnYJgSXE3xQJ7la",
+            "name": "紅火蟻防治中心通報網頁"
+          },
+          {
+            "id": "rec8vQsjuotOLbYb9",
+            "name": "Calling in our Corals"
+          },
+          {
+            "id": "rechTv2bgNB2xiWw9",
+            "name": "玉山國家公園建置的臺灣黑熊通報網頁"
+          },
+          {
+            "id": "recjeEnjVv82Ld6gl",
+            "name": "老樹報報 - 全國城鄉老樹資源地圖"
+          },
+          {
+            "id": "recZVLfWaXWV0MBQU",
+            "name": "圳路清淤通報網"
+          },
+          {
+            "id": "recbNomj3U5O8KS1N",
+            "name": "台灣步道守護網"
+          },
+          {
+            "id": "recYm2sLxDwDOcIbr",
+            "name": "WoodirtGO"
+          },
+          {
+            "id": "rec9BW17byP6UWqUI",
+            "name": "Poweather 天氣幫"
+          },
+          {
+            "id": "reciGdwsbesPSqq01",
+            "name": "群眾找樹 / 巨樹地圖"
+          },
+          {
+            "id": "recAyUMNx3Oq9SxvZ",
+            "name": "國家級人體生物資料庫整合平台"
+          },
+          {
+            "id": "rech7WrZfZwGnyhSu",
+            "name": "社團法人臺灣腦庫協會 / 國立臺灣大學醫學院臺灣腦神經組織人體生物資料庫"
+          },
+          {
+            "id": "recVJujJg0tAtQiui",
+            "name": "臺灣人體生物資料庫"
+          },
+          {
+            "id": "rec191eGgN5q4kMGU",
+            "name": "台灣精準醫療計畫"
+          },
+          {
+            "id": "rec9DCi0GVqdOjBfa",
+            "name": "Android Earthquake Alerts System"
+          },
+          {
+            "id": "recU3SB6QJF9Yqlv1",
+            "name": "健行筆記"
+          },
+          {
+            "id": "recwVM09if5Bgmts8",
+            "name": "燕巢調查"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recawvjX1wyDxgPTD",
+      "createdTime": "2021-01-06T19:56:52.000Z",
+      "fields": {
+        "方案官網": "https://www.zooniverse.org/",
+        "[持續整理] 文獻、研究成果、平台、工具可支持相異計畫": [
+          {
+            "id": "rec1vLNziyc531YEg",
+            "name": "Zooniverse"
+          }
+        ],
+        "特點選項": [
+          "提供群眾外包任務的模組"
+        ],
+        "Name": "Zooniverse",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recETMD1I69sJakjP",
+            "name": "Old Weather: WW2"
+          },
+          {
+            "id": "recpuGz9MBt7KW0SZ",
+            "name": "Penguin Watch"
+          },
+          {
+            "id": "reclQ4v6WTTM9BEMa",
+            "name": "Old Weather: Whaling / Arctic"
+          },
+          {
+            "id": "recRnGOPFlu9RwHKv",
+            "name": "FlyTunes 路邊噪音對於昆蟲的影響調查"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recWwM7QRpCfqEF5D",
+      "createdTime": "2021-06-07T10:44:48.000Z",
+      "fields": {
+        "特點選項": [
+          "結合社群媒體的擴散效果 / 但資料彙整不易"
+        ],
+        "Name": "FB page 貼文回覆",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recD1nBTRR25W9w69",
+            "name": "積雪量測 Snowfall "
+          },
+          {
+            "id": "reczMdig2aj2hM7u8",
+            "name": "新竹窗花照片募集"
+          },
+          {
+            "id": "rec4FWufMEPlufLqO",
+            "name": "拍河照"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recRG71ULjA9O5f2B",
+      "createdTime": "2021-07-03T20:17:22.000Z",
+      "fields": {
+        "方案官網": "https://inputapp.io/en/",
+        "簡介": "結合 QGIS 討論\nhttps://www.facebook.com/groups/600385406707053/posts/2536629573082617",
+        "Name": "input app"
+      }
+    },
+    {
+      "id": "recHxQnumLozSWfY6",
+      "createdTime": "2021-07-03T20:23:48.000Z",
+      "fields": {
+        "方案官網": "https://www.beclass.com/",
+        "特點選項": [
+          "可設定為僅有主辦單位能查看資料"
+        ],
+        "Name": "BeClass 線上報名系統",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recPSw7XCAAtDsAOF",
+            "name": "台灣食蟲植物棲地調查"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recfOxv8TVR63XaGt",
+      "createdTime": "2021-07-03T20:54:48.000Z",
+      "fields": {
+        "方案官網": "https://www.tbn.org.tw/",
+        "簡介": "摘自文章「未來也期望能結合公民科技，而TBN的第一步就是明年將會釋出網站的開源碼至github。讓公民真正的參與，並幫助到生態保育。」https://www.tbn.org.tw/article/17519280",
+        "特點選項": [
+          "開放授權資料庫，可提供介接資料"
+        ],
+        "Name": "TBN / 台灣生物多樣性網絡 / Taiwan Biodiversity Network",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "rec82j7Hfz9rueqGr",
+            "name": "台灣爬行類回報 Taiwan Reptile Report Program"
+          },
+          {
+            "id": "recOn6zLdCo8nfecG",
+            "name": "臺灣蛛式會社"
+          },
+          {
+            "id": "recqz7i2kJVHtvyJV",
+            "name": "台灣植物資料調查及植物物候觀察記錄團"
+          },
+          {
+            "id": "recesoXBUpcN7hYiE",
+            "name": "全面網螺調查計畫"
+          },
+          {
+            "id": "reclZ9xDZOBI6Wcsn",
+            "name": "見龍在田"
+          },
+          {
+            "id": "rec1hqHD9YFVrrrU9",
+            "name": "獺足金門"
+          },
+          {
+            "id": "recJwd6DcPNlMtfwp",
+            "name": "黑冠麻鷺同步普查回報"
+          },
+          {
+            "id": "reccX0gdvFVCzt5aI",
+            "name": "台灣猛禽回報系統"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec4nUOQIGwSYPtG9",
+      "createdTime": "2021-07-03T20:59:20.000Z",
+      "fields": {
+        "方案官網": "https://www.ushahidi.com/",
+        "Name": "Ushahidi",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recgb6972BlctMtP4",
+            "name": "台南待孳清空地空屋回報平台"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recdCUuRfF0EgwkLA",
+      "createdTime": "2021-07-03T21:08:52.000Z",
+      "fields": {
+        "方案官網": "https://www.xeno-canto.org/",
+        "簡介": "www.xeno-canto.org (\"Xeno-canto\", \"XC\") is a website for sharing recordings of sounds of wild birds from all across the world. It was started in 2005 by Bob Planqué and Willem-Pier Vellinga (see below for some history). Xeno-canto is maintained by a team of 5 admins (Bob, WP, Sander Pieterse, Jonathon Jongsma and Rolf de By) with the assistance of the xeno-canto community. Xeno-canto is run by the Xeno-canto foundation (or officially Stichting Xeno-canto voor natuurgeluiden) from the Netherlands.",
+        "特點選項": [
+          "開放授權資料庫，可提供介接資料"
+        ],
+        "Name": "Xeno-canto / XC",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recl4WNtP9plSGtG4",
+            "name": "xeno-canto 鳥音"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recRAx9EoOx1ZmSlf",
+      "createdTime": "2021-07-03T21:15:24.000Z",
+      "fields": {
+        "特點選項": [
+          "開源 Open Source"
+        ],
+        "Name": "自架資料庫系統-開源 open source",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "rec88dZAldBGqAkD7",
+            "name": "國家寶藏"
+          },
+          {
+            "id": "rec34cZnaYvEjXe8v",
+            "name": "Be My Eyes"
+          },
+          {
+            "id": "rec2GLLDQxSRrSzDZ",
+            "name": "Common Voice"
+          },
+          {
+            "id": "receErV2VI040RGoN",
+            "name": "SmellPGH 臭味回報"
+          },
+          {
+            "id": "recyssELPkwHOKGGn",
+            "name": "Project RISE"
+          },
+          {
+            "id": "rechtrq5vakXPE9PW",
+            "name": "Disfactory - 空拍圖比對計畫"
+          },
+          {
+            "id": "recIWmm08rGixfj59",
+            "name": "Disfactory - 農地違章工廠回報系統"
+          },
+          {
+            "id": "recvvBmKXuVfuGLim",
+            "name": "遊具照片分享/ 台南也要特色公園"
+          },
+          {
+            "id": "rec26sjrbELZKzpHx",
+            "name": "Smart Citizen"
+          },
+          {
+            "id": "reck2fSYJprxgJAWs",
+            "name": "Cofacts 真的假的"
+          },
+          {
+            "id": "rec3RxUAq7Cr8POfz",
+            "name": "政治獻金數位化"
+          },
+          {
+            "id": "rec2Hl8ORsQCut1VV",
+            "name": "BOINC, Open-source software for volunteer computing"
+          },
+          {
+            "id": "recWWikwHed7mGEUt",
+            "name": "Coral Net 珊瑚底質監測"
+          },
+          {
+            "id": "recNd61KVsNdYZoF2",
+            "name": "台灣路更平"
+          },
+          {
+            "id": "recj7MxcXNxZTzk1T",
+            "name": "HOT Tasking Manager 開放街圖繪製工作特定任務區"
+          },
+          {
+            "id": "recQpOyOwFZ0v207s",
+            "name": "Phonemica 鄉音苑"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recY76jRcmJPVRaxR",
+      "createdTime": "2021-07-03T21:46:42.000Z",
+      "fields": {
+        "方案官網": "https://roadkill.tw/about/term",
+        "特點選項": [
+          "開放授權資料庫，可提供介接資料"
+        ],
+        "Name": "TaiRON WebAPP2.0",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          },
+          {
+            "id": "reccnZeowwENSk7XK",
+            "name": "野鳥撞玻璃回報"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recIybm8VvMEoGvPH",
+      "createdTime": "2021-07-03T21:54:47.000Z",
+      "fields": {
+        "方案官網": "https://photo.swcb.gov.tw/Repository/Database",
+        "簡介": "待確認是否有匯出資料或 api 功能 ?",
+        "特點選項": [
+          "開放授權資料庫，待確認資料匯出機制"
+        ],
+        "Name": "水保局歷史影像平台",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recmQxhysKvSo0ckp",
+            "name": "秒懂災害潛勢-文化素材蒐集"
+          },
+          {
+            "id": "recTUdli4f81BXSJi",
+            "name": "歷史影像平台 / 災害歷史照片平台"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recnr647gId2ShXrm",
+      "createdTime": "2021-07-03T22:06:21.000Z",
+      "fields": {
+        "方案官網": "https://www.openstreetmap.org/",
+        "特點選項": [
+          "開放授權資料庫，可提供介接資料"
+        ],
+        "Name": "OpenStreetMap 編輯地理資料",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recnbQukJRRRI1LU2",
+            "name": "飲水地圖"
+          },
+          {
+            "id": "rec6HTFfZOOPXKrTL",
+            "name": "Open Street Map"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recuFeovojBd0Fa04",
+      "createdTime": "2021-07-03T22:06:48.000Z",
+      "fields": {
+        "方案官網": "https://support.google.com/maps/answer/6320846?hl=zh-Hant&co=GENIE.Platform%3DDesktop",
+        "簡介": "在地圖中新增遺漏的地點。",
+        "Name": "Google Map 新增地點",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recyvWSVzUrQZHzDI",
+            "name": "Google 地圖無障礙資訊通報"
+          },
+          {
+            "id": "recEDPTlGUmHETpnL",
+            "name": "尋找大象朋友"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recAEqbvXbmWBLmQa",
+      "createdTime": "2021-07-03T23:40:09.000Z",
+      "fields": {
+        "特點選項": [
+          "結合社群媒體的擴散效果 / 但資料彙整不易"
+        ],
+        "Name": "#hashtag-搭配社群媒體平台",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "reco8oHW4dSQ8Hs6q",
+            "name": "秀出你的年夜飯"
+          },
+          {
+            "id": "recc9qiTemT0ipbPb",
+            "name": "#717臺灣聆聽日"
+          },
+          {
+            "id": "recbLghAkG2pT2I3u",
+            "name": "#微科學 科普影片上傳與抽獎活動"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recayIsyHbMmmTBnQ",
+      "createdTime": "2021-07-03T23:53:46.000Z",
+      "fields": {
+        "方案官網": "https://www.google.com.tw/intl/zh-TW/maps/about/mymaps/",
+        "Name": "Google My Map",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recXLbJXzpVMLJD6Z",
+            "name": "臺灣好植地-潛力用地踏查拍照"
+          },
+          {
+            "id": "recYm2sLxDwDOcIbr",
+            "name": "WoodirtGO"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec1LVnzAZJYWmfNX",
+      "createdTime": "2021-07-04T00:22:34.000Z",
+      "fields": {
+        "特點選項": [
+          "可設定為僅有主辦單位能查看資料"
+        ],
+        "Name": "Line 對話機器人 /  Line 官方帳號",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recC5kwbstqDckud9",
+            "name": "黃喉貂目擊記錄回報平台"
+          },
+          {
+            "id": "recPz4DCnpqJgJ6sI",
+            "name": "聲感地圖現行錄"
+          },
+          {
+            "id": "recqBmWPl9VVWXw9v",
+            "name": "「全民登革熱AI防治」LINE Bot聊天機器人"
+          },
+          {
+            "id": "recmMsvkCAUm3nmFb",
+            "name": "尋找 55 分貝靜土 / 聲音盒子"
+          },
+          {
+            "id": "recx1NM4GzJojFkMl",
+            "name": "聽見AED"
+          },
+          {
+            "id": "recNiPhjN7ILySUa4",
+            "name": "蘭陽鰭跡"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec5WhvuOY7JDGQsz",
+      "createdTime": "2021-07-04T00:23:07.000Z",
+      "fields": {
+        "特點選項": [
+          "可設定為僅有主辦單位能查看資料"
+        ],
+        "Name": "Airtable Form"
+      }
+    },
+    {
+      "id": "rec3fIZyOVpEd6wPw",
+      "createdTime": "2021-07-04T02:31:53.000Z",
+      "fields": {
+        "方案官網": "https://memory.culture.tw/",
+        "特點選項": [
+          "開放授權資料庫，待確認資料匯出機制"
+        ],
+        "Name": "文化部國家記憶庫",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recmQxhysKvSo0ckp",
+            "name": "秒懂災害潛勢-文化素材蒐集"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recGHM3LKFQdAClHN",
+      "createdTime": "2021-07-04T02:32:12.000Z",
+      "fields": {
+        "簡介": "Wikidata 台灣社群 https://www.facebook.com/groups/2212207218990971",
+        "特點選項": [
+          "開放授權資料庫，可提供介接資料"
+        ],
+        "Name": "wikidata"
+      }
+    },
+    {
+      "id": "recsSMoTC0OiE7gzW",
+      "createdTime": "2021-07-05T17:33:10.000Z",
+      "fields": {
+        "方案官網": "https://commutag.agawork.tw/\n",
+        "簡介": "轉貼自社團簡介：群眾標註是讓公民科學社群分享影像資訊與知識的工具，產出的資料集可以提供機器學習(AI訓練)，也可以提供社群學習(新手訓練)。 凡舉生態調查、資源盤點、汙染回報、動植物辨識、病蟲害辨識、垃圾分類等，跟影像辨識相關的議題都可以利用此工具協助收集、分析資料。\n\n群眾標記軟體： https://commutag.agawork.tw/\n\ngithub\nhttps://github.com/aga3134/CommuTag\n\n文件： https://paper.dropbox.com/doc/--A4qlCh0sdsMVmRtUWKa_jsVAAg-c3xDK0qJYwekuosuSzyYJ\n\n推廣\nhttps://www.facebook.com/story.php?story_fbid=pfbid0updcUXTteEsaMnngLHSpX5MdQsL8cXueuX6BEFmQS6YMV7WdkVsihqR683GUjrXfl&id=100000192830591&mibextid=qC1gEa",
+        "特點選項": [
+          "提供群眾外包任務的模組",
+          "開源 Open Source"
+        ],
+        "Name": "群眾標註 commutag",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recPRuK37MkgclWBh",
+            "name": "平安走路許願帳戶-行人庇護空間"
+          },
+          {
+            "id": "reczm4C9tmZnj9mtD",
+            "name": "淹水群眾標註"
+          },
+          {
+            "id": "recxtVdngTK5sF0Bd",
+            "name": "臺灣花蓮近海賞鯨之鯨豚觀測紀錄"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recIyuGyvcYMdwVF7",
+      "createdTime": "2021-07-05T18:08:42.000Z",
+      "fields": {
+        "方案官網": "https://survey123.arcgis.com/",
+        "簡介": "https://www.youtube.com/watch?v=mxwF0k39fG0",
+        "Name": "ArcGIS Survey123",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recqBJb5rosis3q7d",
+            "name": "iBeaver 河狸回報系統"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recWfYsQRGpDd4NRI",
+      "createdTime": "2021-07-05T18:15:03.000Z",
+      "fields": {
+        "方案官網": "https://castor-data-binding.github.io/castor/reference-guide/reference/xml/xml-mapping.html",
+        "特點選項": [
+          "非主要平台，屬於搭配使用的方案"
+        ],
+        "Name": "Castor Mapper",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recqBJb5rosis3q7d",
+            "name": "iBeaver 河狸回報系統"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reccFULPsV7urQ8yl",
+      "createdTime": "2021-07-06T11:07:53.000Z",
+      "fields": {
+        "方案官網": "https://ebird.org/",
+        "簡介": "github\nhttps://github.com/CornellLabofOrnithology",
+        "特點選項": [
+          "開放授權資料庫，可提供介接資料",
+          "開源 Open Source"
+        ],
+        "Name": "eBird",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "rec1x9q77hnbfCqau",
+            "name": "eBird Taiwan / 臺灣鳥類地圖 Taiwan Bird Atlas"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recNzvDOiQ6p8NshV",
+      "createdTime": "2021-08-04T00:26:35.000Z",
+      "fields": {
+        "特點選項": [
+          "可設定為僅有主辦單位能查看資料"
+        ],
+        "Name": "Email 或 聯繫研究人員",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recQv1piWBiGDazRW",
+            "name": "米爾頓釉小蜂寄主植物調查"
+          },
+          {
+            "id": "recKdcJQNPekbxuMk",
+            "name": "地名資訊網 - 地名建議"
+          },
+          {
+            "id": "recMShoSk8ACIR3Ug",
+            "name": "都市公園綠地出入口路阻障礙通報列管窗口"
+          },
+          {
+            "id": "recqpuVJKwEX4xPt9",
+            "name": "台灣自然聲音地圖"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recWszgiy6LS71s6h",
+      "createdTime": "2021-09-12T08:15:36.000Z",
+      "fields": {
+        "特點選項": [
+          "結合社群媒體的擴散效果 / 但資料彙整不易"
+        ],
+        "Name": "FB 活動頁面的討論區",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "rec0CwANGGYPh4agF",
+            "name": "高山濫墾照片與影片蒐集活動"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recvvCNTtLc7LwGpK",
+      "createdTime": "2022-03-05T07:45:38.000Z",
+      "fields": {
+        "方案官網": "https://www.facebook.com/110266154587695/posts/225434963070813/",
+        "Name": "HiFile"
+      }
+    },
+    {
+      "id": "recz6s0z65ZVWfHCe",
+      "createdTime": "2022-06-05T10:26:04.000Z",
+      "fields": {
+        "方案官網": "https://crowd4u.org/en/about",
+        "[持續整理] 文獻、研究成果、平台、工具可支持相異計畫": [
+          {
+            "id": "recAiY1ADqErftJhH",
+            "name": "Crowd4U"
+          }
+        ],
+        "簡介": "A non-profit microvolunteering and crowdsourcing platform for academic and public purposes.",
+        "特點選項": [
+          "提供群眾外包任務的模組"
+        ],
+        "Name": "Crowd4U"
+      }
+    },
+    {
+      "id": "rectizSJNpYnFtapt",
+      "createdTime": "2022-06-13T09:21:05.000Z",
+      "fields": {
+        "方案官網": "https://www.mturk.com/",
+        "特點選項": [
+          "提供群眾外包任務的模組"
+        ],
+        "Name": "Amazon Mechanical Turk"
+      }
+    },
+    {
+      "id": "recipJCQ3mhrTHI2F",
+      "createdTime": "2022-06-26T14:08:27.000Z",
+      "fields": {
+        "特點選項": [
+          "提供群眾外包任務的模組"
+        ],
+        "Name": "Google Crowdsource App",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recDPpayXi74VjO3F",
+            "name": "Google Crowdsource App"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recGeMRmJEl7IsY5M",
+      "createdTime": "2023-02-09T06:09:49.000Z",
+      "fields": {
+        "方案官網": "https://commons.wikimedia.org/",
+        "特點選項": [
+          "開放授權資料庫，可提供介接資料"
+        ],
+        "Name": "Wikimedia Commons 維基共享資源",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recgA6rG3jvcuyjai",
+            "name": "Wiki Shoot Me"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recYZkDVNLfwNVhx5",
+      "createdTime": "2023-02-27T12:08:04.000Z",
+      "fields": {
+        "特點選項": [
+          "線上資料表"
+        ],
+        "Name": "Airtable 開放編輯",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recFxq8KzQAGeaioD",
+            "name": "在地刊物 Local Zine"
+          },
+          {
+            "id": "recmQxhysKvSo0ckp",
+            "name": "秒懂災害潛勢-文化素材蒐集"
+          },
+          {
+            "id": "recDBkc64TPcwByaQ",
+            "name": "吉祥物基本資料蒐集"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec1AjDGPcVCJbKeE",
+      "createdTime": "2023-02-27T12:08:14.000Z",
+      "fields": {
+        "特點選項": [
+          "線上資料表"
+        ],
+        "Name": "Google Spreadsheet 開放編輯"
+      }
+    },
+    {
+      "id": "rechC90YwJHIbv6rC",
+      "createdTime": "2023-02-27T12:11:45.000Z",
+      "fields": {
+        "方案官網": "https://rockd.org/",
+        "特點選項": [
+          "提供群眾外包任務的模組"
+        ],
+        "Name": "ROCKD"
+      }
+    },
+    {
+      "id": "rec4tGTINprJ7fGv5",
+      "createdTime": "2023-02-27T12:12:46.000Z",
+      "fields": {
+        "方案官網": "https://anecdata.org/",
+        "特點選項": [
+          "提供群眾外包任務的模組"
+        ],
+        "Name": "anecdata"
+      }
+    },
+    {
+      "id": "recutO8epo4qIpfk0",
+      "createdTime": "2023-03-25T09:18:52.000Z",
+      "fields": {
+        "特點選項": [
+          "可設定為僅有主辦單位能查看資料"
+        ],
+        "Name": "農作物天然災害及時回報 APP",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recWVWwO7aelg93AU",
+            "name": "秋行軍蟲回報 - 農作物天然災害及時回報 APP"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec0RTNlOS9DPSZuu",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec1Ffdo3AmDaFR8V",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec1wQzKd1xzq09WJ",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec598tGucooCyIPg",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec72Og2yfoR9B5RS",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec7A5wkC5iqpKQ4h",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recaZmymPPrESaf9B",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "Echo Meter Touch Bat Detector",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recJJxYWicbJk9jae",
+            "name": "蝙蝠超音波錄音調查"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reccUazqiso51VQkh",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rece6djUsALGWjqTZ",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recek6jAfd8M1KEgz",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recf8YO09ClFgYlh9",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recgdgvI2tEwIE2ur",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recKxcjvysTusSILM",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recnNnC8JqsdMxlrP",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recpOgo2LDjcwMMbe",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recSuICk7WC6HA9Yl",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "方案官網": "https://data.depositar.io/",
+        "簡介": "由研究人員依據研究人員的需求所建立的。為了研究目的，您可在研究資料寄存所上面自由的儲存、尋找、並再次使用研究資料。\n",
+        "特點選項": [
+          "開放授權資料庫，可提供介接資料"
+        ],
+        "Name": "Depositar"
+      }
+    },
+    {
+      "id": "recTK1ma5X0BokAAe",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recu0IWRCe4BMSOms",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recuat9dvyKA1ZkUc",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recvaxUMxgfp1wANr",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "方案官網": "https://info.figshare.com/about/",
+        "特點選項": [
+          "開源 Open Source"
+        ],
+        "Name": "Figshare",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recN1s22eVz0iGF8n",
+            "name": "台灣東部海域鯨豚聲學特徵數據庫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recvdwFcMaNs2YuDc",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "方案官網": "https://www.gbif.org/",
+        "特點選項": [
+          "開源 Open Source"
+        ],
+        "Name": "GBIF / Global Biodiversity Information Facility",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recxtVdngTK5sF0Bd",
+            "name": "臺灣花蓮近海賞鯨之鯨豚觀測紀錄"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recYWs9MJh8bQVye9",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "方案官網": "https://aporee.org/maps/",
+        "特點選項": [
+          "開源 Open Source"
+        ],
+        "Name": "Radio Aporee",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recKl5yg4poyiwT2G",
+            "name": "台灣聲音地圖計劃"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reczEUZnAAbYL4bxN",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recZsZR31jfGmERSe",
+      "createdTime": "2023-03-25T09:18:53.000Z",
+      "fields": {
+        "方案官網": "https://www.dsigroup.com.tw/products/ezchoice",
+        "Name": "EZChoice"
+      }
+    },
+    {
+      "id": "recAknYIQPp91d0Xy",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recC6CX4AmzYSROpI",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "reccB3tYzqQAz0lYO",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recCiEXUrFwnrdSNk",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "receEubFz6kRthbPe",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recELhgQQIfvMcEuN",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "receqcMLUcgwUsGXx",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recgzvhNts2FIaUty",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recIo7FG4tonvms8K",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "reciZZFAQLPyuqRnW",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recJ9bOPAwUHtHBED",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recjbf59hZLQh88dQ",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "reclZHFuE9Lk6Dr0U",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recN1CcC7zX4tJikH",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recNHQh2KnSNuIJIa",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recoefGhWFDt0wAwq",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recpZSkO1VfYYgx8i",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recQ9SZyL5djuQNpU",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recra0fG1vwPrfbel",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recTpq6U5fFHJlV2U",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recVsMAUHKP9SqCtc",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recy5mny18lj6C9Tg",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recyCDBIQt8RO4TRq",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recyNiNZRdkmkBtbM",
+      "createdTime": "2023-03-25T09:19:02.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recGhFcHHLbnCZsot",
+      "createdTime": "2023-03-25T09:24:54.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec14WIbU1cXgZAEv",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec4NHmckqnpl8puK",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec4VAFqcBoa3Jr8t",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec511JsiW0ITty9q",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec56VfidsV42bqFw",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec9JLcZlBNgNJrNB",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec9paANMzy6dJzqI",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recAfjSygtQ04Y9B4",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recAMCtbYvRJdt8U6",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recg9KiqD6qz4S9kW",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recGjpi9KQTsTPsN4",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recglPWIrwmbV0Drp",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rechcTj1CLuUpACo0",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recHXcdLfddDcffPB",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recIEtfPdtvYl7Hd3",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recJPgfjG8L69CvgB",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recjqTTOHhiWvclQw",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recPTaTKefRnkwNxY",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recq1JGkAYwg5lhF3",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recQbKcRqDnwbqe5F",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recqMKhhMfiTxpZQT",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recRVn4T8IjtgZn2G",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recSsDqNvp4jiLmPL",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recVjUvLUQiBGy9VZ",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recwwTVmcE1Ddt69P",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recWyukyET1HfkyXs",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recxTf7PLNloKmOxy",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recyUvlkT9qr9121u",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recZmFjZdy9c04CqB",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "reczRX78MUwLacEXv",
+      "createdTime": "2023-03-25T09:24:55.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec47iqmZVO7cKGhe",
+      "createdTime": "2023-03-25T09:50:40.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec0al2VLIzYBuApo",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec0yZ3BnKhd47Aig",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec1dtXLD7CxGH2ay",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec1zoZbuQzITDPDK",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec1zQuWf5aNRmG6T",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec23ddvJEsOzYlGE",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec23DN8d3q2bha4s",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec37AZRnUIssvuTB",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec39yIPIK0G2ylAM",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec3fjBRl237KzbUa",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec5nbC7IIcg5K9Jw",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec6DShwjI3hWsJ6b",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rec7bLhXZ3cvQyJw4",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recA9IbiVlJQUizPw",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recAWYbCc4MABlUT0",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recB0g9qIhmIhW6L3",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recBQE4qb3wGlHEm5",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recbyGK9u0i9nz0fd",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recdgrXSnhBoFwNZP",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recdjyv9SEguHXVFN",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recDKxQy0BvatJXo3",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recDPFDDLFP6V6tyM",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recfrCeXWc2q6rzoM",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recFRUa20YekUFLCf",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recfzEzUVmvCBhe9M",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recgEeDl9bsbzNYew",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recGeij9YJJWBISrK",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recHAZD6LvqjjFSkn",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recHpw14dYroJ65v2",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recHyxstHnzFUbqQ8",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "reciQMsUULv6l8QgQ",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "reciWzUxbZitpJots",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recjgnbZ3zD7KcBzM",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recJjFbPXkglIKmGD",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recLiSzdJvigPwqaf",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recLpjdxBuZQ22Him",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recMFERZbSpBUI43Q",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recMWcvQVDxRMhruc",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recnREnoJ9PDYGffO",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recNS0TnXfxB3IzjM",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recNwQShY5flFp5hc",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recodJUDVDLiBzFlD",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recosVjPUMxiy7PFZ",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recp5AVyBMqcev2Ej",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recPh9ykk5TpwDFno",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recpl1EH5aF46Ro2q",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recplzYc9T673lf7X",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recPNOGiOShDzAp8u",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recPnUTjGgy37Uwu0",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recPnVDH0lgkGy8R7",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recpsAK6stuCSsJgi",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recPxCmv7ugOXePoD",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recqpAj5DxrvNf5VX",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recqx18T1NIYplRA5",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recR2MDk9tLLJxKu6",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recSkfoQ8BmV1Ew25",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recSxaAASCkGl3gTH",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recTkUWdb8t7jjwXU",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "rectNJ2dJOEi9lOLz",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recUnf4f5jy88XhVj",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recv7Do6D16zScwl9",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recVDuSvgu3HoRE6R",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recVgqZqeerjP2q6n",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recVkXktnbd6Hjpyg",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recvOy3zm44bKZ67y",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recvVJA2ebMBa0ujo",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recVXdGnzIiUDtU9k",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recvyPEzti6whM9PS",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recvyYU8LauyJXSdW",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recWCjiheqzZntH9g",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recWWT7Jg6AgK1vBg",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recxrA8EHagNKYXZh",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recxTEstcPo6ZbMYo",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recyFvqdGFYsVxkQk",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recz0exC1pPfRwcLC",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "reczathePziZ6iSxS",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "reczdQhNyypxOjgA8",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "reczi2Ri9GLZEGu6R",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recZL25zZlRB6IUCz",
+      "createdTime": "2023-03-25T09:50:42.000Z",
+      "fields": {
+        "Name": "[空白列]"
+      }
+    },
+    {
+      "id": "recvcatIyccgVu7ky",
+      "createdTime": "2023-04-12T14:43:21.000Z",
+      "fields": {
+        "方案官網": "https://iocean.oca.gov.tw/",
+        "Name": "iOcean 海洋保育網",
+        "公民科學計畫清冊 - 授權採用 cc0 喔！": [
+          {
+            "id": "recYmS0UFvcqT7isV",
+            "name": "淨海回報機制"
+          },
+          {
+            "id": "recmgdTgiPbRIOSBA",
+            "name": "垂釣回報資訊 / 垂釣成果回報 / 釣訊情報員"
+          },
+          {
+            "id": "recGslKD8q2a66wvv",
+            "name": "海洋保育網－海漂目視回報機制"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "science",
+    "name": "公民科學與群眾參與計畫清冊資料集",
+    "label": "公民科學與群眾參與計畫"
+  },
+  "table": {
+    "slug": "ccu-topics",
+    "name": "中正社區大學-學群主題",
+    "label": "中正社區大學學群主題",
+    "id": "tbl6bGbhlxUCzpZc3"
+  },
+  "recordCount": 6,
+  "fields": [
+    {
+      "id": "fldl3EaUOZ1IduU9O",
+      "name": "學群主題名稱",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld3lXVfhRUGs89PF",
+      "name": "學群主題說明與補充",
+      "type": "multilineText"
+    },
+    {
+      "id": "fldzLqNw9TqHDAnXI",
+      "name": "與學群相關的計畫-戶外踏查場域-中正區",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldmjiBiQaCCxIE7i",
+      "name": "與學群相關的計畫-室內即可操作",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldaOciQ0CxHAT6rK",
+      "name": "與學群相關的計畫-戶外踏查場域-大臺北範圍",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldbzRCE39cENoSLG",
+      "name": "與學群相關的類別",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldtljTsS5YiuwOBy",
+      "name": "公民科學計畫清冊 (from 與學群相關的類別)",
+      "type": "multipleLookupValues"
+    }
+  ],
+  "records": [
+    {
+      "id": "recJgOAbqS0xrGaIV",
+      "createdTime": "2023-02-27T10:09:11.000Z",
+      "fields": {
+        "學群主題說明與補充": "以中正社大座落臺北市中正區而言，並無海岸與海域；近郊有郊山坡地與森林、河流",
+        "與學群相關的計畫-戶外踏查場域-大臺北範圍": [
+          {
+            "id": "recMWa6h66rdtrOzw",
+            "name": "ROCKD"
+          },
+          {
+            "id": "recyKjFQzq0aYkUX8",
+            "name": "寂靜的秋天-農地毒鳥回報"
+          },
+          {
+            "id": "recQiLhMDGqqWXKyg",
+            "name": "新北石門油汙鳥類回報平台"
+          },
+          {
+            "id": "recWVWwO7aelg93AU",
+            "name": "秋行軍蟲回報 - 農作物天然災害及時回報 APP"
+          },
+          {
+            "id": "recgBqNwJvQJUvMd8",
+            "name": "福山植物園植物物候調查"
+          },
+          {
+            "id": "recQv1piWBiGDazRW",
+            "name": "米爾頓釉小蜂寄主植物調查"
+          },
+          {
+            "id": "recMLRe2MkVXx93xc",
+            "name": "海洋公民科學資料庫"
+          },
+          {
+            "id": "recsSulcHB3fqeQrH",
+            "name": "海洋生物目擊回報"
+          },
+          {
+            "id": "rectskmCdQUkg2qfR",
+            "name": "台灣BBS 臺灣繁殖鳥類大調查-獼猴調查"
+          },
+          {
+            "id": "recXTOFIBCaqieQ1W",
+            "name": "潛海戰將回報"
+          },
+          {
+            "id": "recwUDpkUGU2xUSEL",
+            "name": "淨海回報"
+          },
+          {
+            "id": "recISpTvBwvA1UaXU",
+            "name": "卸魚申報APP"
+          },
+          {
+            "id": "recqWxz4nmC75W3yK",
+            "name": "淡水河畔的公民科學家-華江溼地螃蟹監測"
+          },
+          {
+            "id": "rec4ZY1FbbZnK2DxQ",
+            "name": "NTU 校園荔枝椿象回報"
+          },
+          {
+            "id": "rec5AcJ0h6oELnPNu",
+            "name": "螢火蟲出沒地點蒐集"
+          },
+          {
+            "id": "receXagEgGUjKZllI",
+            "name": "城市狸貓回報網 City Civet Reports"
+          }
+        ],
+        "學群主題名稱": "中正社大-環境生態",
+        "與學群相關的計畫-室內即可操作": [
+          {
+            "id": "recYJZGHLmrpBEPjq",
+            "name": "找樹的人 - 臺灣巨木地圖"
+          },
+          {
+            "id": "receuClABp7Sqkily",
+            "name": "白蟻樣本採集"
+          },
+          {
+            "id": "recJx6AnxhDyMudQu",
+            "name": "掌蚊人"
+          },
+          {
+            "id": "recNqdfpXIFU3Ilcu",
+            "name": "衣魚樣本採集"
+          },
+          {
+            "id": "rec6zv1e7leCuLiPI",
+            "name": "Let's 探索家中昆蟲"
+          }
+        ],
+        "與學群相關的計畫-戶外踏查場域-中正區": [
+          {
+            "id": "recfdeA1TJObbyC6k",
+            "name": "iNaturalist"
+          },
+          {
+            "id": "recjHa6hkzahE5Stv",
+            "name": "Litterati"
+          },
+          {
+            "id": "recc9qiTemT0ipbPb",
+            "name": "#717臺灣聆聽日"
+          },
+          {
+            "id": "recxcFTPZrNo4JwyW",
+            "name": "MetaSUB - Metagenomics & Metadesign of Subways & Urban Biomes"
+          },
+          {
+            "id": "rec0HT0rYIfvAeNsk",
+            "name": "台灣淡水微生物俱樂部"
+          },
+          {
+            "id": "recFIOltNHVSUrcG4",
+            "name": "路殺社 / 台灣動物路死觀察網"
+          },
+          {
+            "id": "recEiXwJQRLGPr8LX",
+            "name": "高鐵鳥擊事件簿"
+          },
+          {
+            "id": "reccnZeowwENSk7XK",
+            "name": "野鳥撞玻璃回報"
+          },
+          {
+            "id": "recmme7I63gVCh24m",
+            "name": "台灣野生鳥類緊急救助平台"
+          },
+          {
+            "id": "recHcR46bNgiQeq8s",
+            "name": "外來鳥種埃及聖䴉防治通報"
+          },
+          {
+            "id": "recGIlRJOrxmmXdkT",
+            "name": "外來種斑腿樹蛙監測社團"
+          },
+          {
+            "id": "recambzzH517YC2dU",
+            "name": "獎勵移除沙氏變色蜥蜴"
+          },
+          {
+            "id": "rec346PWvEqzIVz35",
+            "name": "通報移除野外海蟾蜍族群"
+          },
+          {
+            "id": "reckQt3W9D87EL3JO",
+            "name": "臺灣歸化與入侵植物調查"
+          },
+          {
+            "id": "recBS7ZdePz5Q2fsx",
+            "name": "樹保寶 / 樹殺社"
+          },
+          {
+            "id": "recqz7i2kJVHtvyJV",
+            "name": "台灣植物資料調查及植物物候觀察記錄團"
+          },
+          {
+            "id": "recPSw7XCAAtDsAOF",
+            "name": "台灣食蟲植物棲地調查"
+          },
+          {
+            "id": "rec1gfzXfujY8Q2AP",
+            "name": "野菇生態調查 照片分享社團"
+          },
+          {
+            "id": "recprLfqLxu0ARW3h",
+            "name": "荒野自然觀察記錄網"
+          },
+          {
+            "id": "rechrA9q0fNA6d7eN",
+            "name": "路拍社"
+          },
+          {
+            "id": "recHsfs9wBi8NTwEb",
+            "name": "水下生物辨識圖鑑團"
+          },
+          {
+            "id": "recJJxYWicbJk9jae",
+            "name": "蝙蝠超音波錄音調查"
+          },
+          {
+            "id": "recmgdTgiPbRIOSBA",
+            "name": "垂釣回報資訊 / 垂釣成果回報 / 釣訊情報員"
+          },
+          {
+            "id": "recLV2hp6xK3qQnXC",
+            "name": "台灣蝴蝶閃電調查"
+          },
+          {
+            "id": "reccsanEW5DTJ9Pa2",
+            "name": "特生中心社區蝴蝶調查"
+          },
+          {
+            "id": "recQ8cTvOcOAfT98u",
+            "name": "慕光之城 / 臺灣飛蛾資訊分享站"
+          },
+          {
+            "id": "recZdwnKI6D5Hh2F5",
+            "name": "TOA 臺灣蜻蛉目學會"
+          },
+          {
+            "id": "recOn6zLdCo8nfecG",
+            "name": "臺灣蛛式會社"
+          },
+          {
+            "id": "recK1AX2BSXeIgkSA",
+            "name": "腐木食性昆蟲"
+          },
+          {
+            "id": "recpCy57h0MkP2qkw",
+            "name": "農業試驗所應用動物組金花蟲研究"
+          },
+          {
+            "id": "recTKzpjjZnCTDNG6",
+            "name": "台灣金花蟲社團"
+          },
+          {
+            "id": "recJx6AnxhDyMudQu",
+            "name": "掌蚊人"
+          },
+          {
+            "id": "receXagEgGUjKZllI",
+            "name": "城市狸貓回報網 City Civet Reports"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recXoYNGKlCoFDMT5",
+      "createdTime": "2023-02-27T10:09:11.000Z",
+      "fields": {
+        "與學群相關的計畫-戶外踏查場域-大臺北範圍": [
+          {
+            "id": "recYu9wvrH06lx8pj",
+            "name": "臺北城城牆石計畫"
+          }
+        ],
+        "與學群相關的類別": [
+          {
+            "id": "recGSVcgLOLy16ygJ",
+            "name": "社會文化-習俗"
+          }
+        ],
+        "學群主題名稱": "中正社大-歷史人文",
+        "與學群相關的計畫-室內即可操作": [
+          {
+            "id": "rec9tpQzL3FCzwBZH",
+            "name": "全民檔案大師共筆系統"
+          },
+          {
+            "id": "recy6DCCnJw1MeH0p",
+            "name": "臺灣新詞徵求「新詞查詢」網站"
+          }
+        ],
+        "公民科學計畫清冊 (from 與學群相關的類別)": [
+          "recAK8s9NXTDYQtjC",
+          "reco8oHW4dSQ8Hs6q",
+          "recKl5yg4poyiwT2G"
+        ],
+        "與學群相關的計畫-戶外踏查場域-中正區": [
+          {
+            "id": "recTUdli4f81BXSJi",
+            "name": "歷史影像平台 / 災害歷史照片平台"
+          },
+          {
+            "id": "recYu9wvrH06lx8pj",
+            "name": "臺北城城牆石計畫"
+          },
+          {
+            "id": "recAK8s9NXTDYQtjC",
+            "name": "「小年夜拜天公」文化習俗調查"
+          },
+          {
+            "id": "reco8oHW4dSQ8Hs6q",
+            "name": "秀出你的年夜飯"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reczMCtqCNLYHu9fw",
+      "createdTime": "2023-02-27T10:09:11.000Z",
+      "fields": {
+        "學群主題名稱": "中正社大-產業新知"
+      }
+    },
+    {
+      "id": "recOoHQy8kROFfFss",
+      "createdTime": "2023-02-27T13:16:15.000Z",
+      "fields": {
+        "學群主題說明與補充": "高齡生活 / 長照",
+        "學群主題名稱": "中正社大-活力保健",
+        "與學群相關的計畫-室內即可操作": [
+          {
+            "id": "recDIGqL6WIylnNh8",
+            "name": "台灣腸道公民科學計畫"
+          },
+          {
+            "id": "recAysLsASRAFvCfE",
+            "name": "嬰兒哭聲分析"
+          }
+        ],
+        "與學群相關的計畫-戶外踏查場域-中正區": [
+          {
+            "id": "recPRuK37MkgclWBh",
+            "name": "平安走路許願帳戶-行人庇護空間"
+          },
+          {
+            "id": "recPz4DCnpqJgJ6sI",
+            "name": "聲感地圖現行錄"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec0eMhNkzhenxqMI",
+      "createdTime": "2023-02-27T13:16:22.000Z",
+      "fields": {
+        "學群主題名稱": "中正社大-藝術美學"
+      }
+    },
+    {
+      "id": "recHhLwl2N6jYDBz5",
+      "createdTime": "2023-02-27T13:33:56.000Z",
+      "fields": {
+        "學群主題說明與補充": "【打開瀏覽更多】\n\n(1) 中正社大五大學群，能否再細分出下階層的子學群？若有子學群，會讓標記結果更為呼應。例如環境生態，可以再細分成：陸域生態、水環境、社區生態..等，各個子學群所對應的計畫會更直接。\n(2)「與學群相關的計畫-戶外踏查場域-大臺北範圍」這個類別，有別於 中正區範圍內，而是依據 中正社大學員的生活移動空間，縱使並非中正區，但仍可納入的關注範圍。或是中正社大既有的課程與社團，有明確關注中正區之外的地點地區。\n(3) 【發想】依據中正區的土地使用種類，從主要的土地使用特性，比對「計畫名稱-高度關聯土地使用」的已標記成果。舉例：中正區有「公園綠地」，有一個「公園無障礙通報」的群眾參與計畫。\n(4) 【發想】從「課程社團+學員技能」的現況，來比對「設備」清單，例如手機攝影課，對應至「拍照上傳-手機拍照/平板拍照/攝影設備)」關鍵設備，此設備相關的計畫有例如 iNaturlist、道路行人風險 ..等，可做為 手機攝影課 的師生瀏覽參考。\n--------\n關於從「中正區」推論到「大臺北範圍」，這部分似乎考量的是中正區居民的生活休憩地理範圍邊界，有聯想到是否參考營建署「指認生活地景空間及研擬國土空間發展策略建議」的環境生活地景分區的指認成果\nhttps://www.cpami.gov.tw/%E6%94%BF%E5%BA%9C%E8%B3%87%E8%A8%8A%E5%85%AC%E9%96%8B/%E4%B8%BB%E5%8B%95%E5%85%AC%E9%96%8B%E8%B3%87%E8%A8%8A/%E6%96%BD%E6%94%BF%E8%A8%88%E7%95%AB%E6%A5%AD%E5%8B%99%E7%B5%B1%E8%A8%88%E5%8F%8A%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A/%E5%A7%94%E8%A8%97%E8%BE%A6%E7%90%86%E6%88%90%E6%9E%9C/154-%E5%A7%94%E8%A8%97%E8%BE%A6%E7%90%86%E6%88%90%E6%9E%9C/37157-109%E5%B9%B4%E5%BA%A6%E3%80%8C%E6%8C%87%E8%AA%8D%E7%94%9F%E6%B4%BB%E5%9C%B0%E6%99%AF%E7%A9%BA%E9%96%93%E5%8F%8A%E7%A0%94%E6%93%AC%E5%9C%8B%E5%9C%9F%E7%A9%BA%E9%96%93%E7%99%BC%E5%B1%95%E7%AD%96%E7%95%A5%E5%BB%BA%E8%AD%B0%E3%80%8D%E5%A7%94%E8%A8%97%E5%B0%88%E6%A5%AD%E6%9C%8D%E5%8B%99%E6%A1%88.html",
+        "學群主題名稱": "【討論列】"
+      }
+    }
+  ]
+}

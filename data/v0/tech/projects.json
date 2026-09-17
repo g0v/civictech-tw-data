@@ -1,0 +1,4559 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "tech",
+    "name": "civic tech project database",
+    "label": "公民科技專案資料庫"
+  },
+  "table": {
+    "slug": "projects",
+    "name": "project list",
+    "label": "公民科技專案",
+    "id": "tblDkM54gu9kbmAbW"
+  },
+  "recordCount": 219,
+  "fields": [
+    {
+      "id": "fldRxrQ1qAuQfqDOS",
+      "name": "project name",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld7Jkth92tPuDiNf",
+      "name": "影響力類別",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldfLUCUp6r2LTaQH",
+      "name": "標籤",
+      "type": "multipleRecordLinks"
+    },
+    {
+      "id": "fldFQtucJfLHoBASV",
+      "name": "Intro",
+      "type": "multilineText"
+    },
+    {
+      "id": "fldfuZ9WY0sVtBcVP",
+      "name": "Website URL",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldp15RHOW4P5x9jd",
+      "name": "Categories",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldj7Y8GB8eLeZpQP",
+      "name": "Status",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld1Bx736S0jGemUP",
+      "name": "1-liner",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldSJxLhapDYrUlJ5",
+      "name": "Headquarters location",
+      "type": "multilineText"
+    },
+    {
+      "id": "fldvL8d3BDEczZJBh",
+      "name": "Geographic focus",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldP9KRtUPcZAbSKE",
+      "name": "Type",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldTuCXkYagE5ORUU",
+      "name": "Organization type",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldmKTpTghgET5VHu",
+      "name": "Founded",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld9r5jc0azCbYPwF",
+      "name": "Closed",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldAJSZqZnJv5gM01",
+      "name": "Images",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldGdZDFrXvf5v71f",
+      "name": "Issues",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldCvKgBTcvPS7cW6",
+      "name": "Community",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld7eQH9p7KRXFWN1",
+      "name": "Format",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld452kmzgGLBvZF4",
+      "name": "Tech platform",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld04PhN5zDoIpOd3",
+      "name": "Network",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldU2Mkvqo9oXdvyZ",
+      "name": "Political unit",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldyCza6wQC8VFr4Z",
+      "name": "project name EN",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldbYsFJQettTlXBs",
+      "name": "github",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldPRFQuhymOoTupa",
+      "name": "document",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fldIqgzcOOSH1xPUj",
+      "name": "Facebook Page Link",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld5mTbfcJ8yzatRI",
+      "name": "slack channel",
+      "type": "singleLineText"
+    },
+    {
+      "id": "fld6zObfhQx94P6yu",
+      "name": "non-slack",
+      "type": "singleLineText"
+    }
+  ],
+  "records": [
+    {
+      "id": "recnDCXIxGZyH3gET",
+      "createdTime": "2021-06-17T21:12:15.000Z",
+      "fields": {
+        "slack channel": "jothon",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "一鍵開大松 OneButton is a one-click solution for ipa to finish all hackathon duties at once. Some features are mentioned in hackpad.",
+        "project name": "一鍵開大松",
+        "github": "https://github.com/g0v/OneButton",
+        "project name EN": "OneButton"
+      }
+    },
+    {
+      "id": "recsR6pTl8nGLcHBx",
+      "createdTime": "2021-06-17T21:12:15.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "經濟動能推升方案的電視廣告、yahoo! hack day ",
+        "document": "https://g0v.hackmd.io/@jothon/budget/",
+        "project name": "中央政府預算視覺化",
+        "github": "https://github.com/g0v/twbudget",
+        "標籤": [
+          {
+            "id": "recGTzFfPBeizF0dV",
+            "name": "預算決算"
+          }
+        ],
+        "Website URL": "http://budget.g0v.tw/"
+      }
+    },
+    {
+      "id": "rec093Ciah2FZW8vl",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "以機器產生題目並網羅各政府機關提供的識字題目。以萌典結構化資料為基礎，建立供教師、開發者使用，開放授權的識字量題庫。https://g0v.hackmd.io/@SA7CD7VRSp6Fcqw9CaElcQ/ryfmu6AYB",
+        "document": "https://sch001.g0v.tw/dash/prj/3VWQ8m06DW05jP09ve04J5dcB",
+        "project name": "識字題庫 / 中文識字量測試系統",
+        "github": "https://github.com/felixshai/literacy-db",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://literacy-db.g0v.tw/"
+      }
+    },
+    {
+      "id": "rec0EjalW5ItuffWN",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "2020voting-guide",
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "選前大補帖收錄了「中央選舉委員會」、「監察院 陽光法令」、「Facebook 廣告檔案庫」、「維基百科」、「公民監督國會聯盟」的開放資料，協助人民選前抱佛腳",
+        "Facebook Page Link": "https://www.facebook.com/voting.guide.tw/",
+        "project name": "選前大補帖",
+        "github": "https://github.com/g0v/2020voting-guide",
+        "Website URL": "https://vote.ly.g0v.tw/"
+      }
+    },
+    {
+      "id": "rec0fDWLmERJsSVso",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "document": "https://beta.hackfoldr.org/Kaohsiung-explode-20140801/",
+        "project name": "高雄氣爆",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec13lZXQigp6tEi8",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recnC0ZUfvqyDBX6d",
+            "name": "7-SDGS-人人可負擔的乾淨能源"
+          },
+          {
+            "id": "recoF0G2XzmbVC4bs",
+            "name": "13-SDGS-氣候變遷對策"
+          }
+        ],
+        "Intro": "依據財政部國有財產署 108 年度業務年報統計，我國現況共有 222 萬公頃公有土地，佔國土面積約六成，區位型態涵蓋 山林鄉鎮、農漁村聚落、都會生活圈、產業園區與公共設施、流域與濱海。面對當代碳中和、淨零排放等減碳目標，多元的公有空間與環境型態，可以透過以下兩個推動方向，促進公有資產發揮減碳作為。一、公共工程及公有資產活化決策機制，導入碳匯評估思維 😎  二、公有資產結合碳匯措施研究，累積更多實證場域 🏘",
+        "document": "https://g0v.hackmd.io/@chewei/carbon-uptake/",
+        "project name": "碳匯城鄉"
+      }
+    },
+    {
+      "id": "rec1CwGIWfVlVPsNp",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "CC0 繁體中文句庫，搜集整理無版權限制的繁體中文句子，建立CC0授權、不限定任何用途的資料庫，作為中文相關專案的基礎建設",
+        "project name": "CC0 繁體中文句庫",
+        "github": "https://github.com/irvin/cc0-sentences/",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "project name EN": "CC0 centences"
+      }
+    },
+    {
+      "id": "rec1M06xWzdgCRLRD",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "non-slack": "https://www.facebook.com/groups/2819127468115692/",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "您需要政府開放資料以便了解公共政策、監督政府，或是應用在產業發展嗎？無論個人或組織，如果希望政府開放更多資料，都可以利用政府資料開放平台的「我想要更多」專區，逕向政府申請。開放政府資料(open government data)是目前的國際趨勢，也是行政院推動電子化政府的重要主軸。期待透過政府資料開放，增進政府施政透明度，提升民眾生活品質，同時滿足產業界的需求。資料申請小幫手網站是由一群相信政府資訊應該公開透明並且利於各界再利用的社群參與者、倡議者、工程師、設計師合作開發，我們希望用量化統計全面呈現政府回應民眾申請的概況，並從分析民眾申請的過程，找出有助提高申請資料成功率的工具，希望幫助解決民間找資料的困境，讓開放資料真正回應人民的需求。",
+        "project name": "資料申請小幫手",
+        "github": "https://github.com/opengovdatatw",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          }
+        ],
+        "Website URL": "https://dataopener.tw/",
+        "project name EN": "Dataopener "
+      }
+    },
+    {
+      "id": "rec1VdebSJBkqIgJb",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "disinfo",
+        "影響力類別": [
+          {
+            "id": "recaRe0BPGfeCMFXC",
+            "name": "19-新聞訊息與媒體識讀"
+          }
+        ],
+        "Intro": "A g0v group effort (open-source, loosly-organized, openly-collaborative, in accordance with g0v Manifesto) currently hosted by g0v-intl and other g0v contributors to document and research disinformation, and (hopefully) to strengthen Taiwan’s civil society in its digital/information/media literacy.",
+        "project name": "disinfo",
+        "github": "https://g0v.hackmd.io/6ZbDhEwbR1mclAh-ws1B9A",
+        "project name EN": "disinfo"
+      }
+    },
+    {
+      "id": "rec2g0AgPYXr6snHD",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "公務員出國考察追蹤網，追蹤公務員出國考察的、行程、人數",
+        "project name": "公務人員出國考察網",
+        "Website URL": "http://report.nat.g0v.tw/"
+      }
+    },
+    {
+      "id": "rec2Gg1iqtU8oJt4i",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "【IDystopia 2035 數位身分大冒險】藝術計畫，應藝術家鄭淑麗邀請，g0v 社群參與的藝術專案，將在空總臺灣當代文化實驗場 (C-Lab) Lab Kill Lab 計畫展出。「IDystopia 2035 數位身分大冒險」計畫預想了 15 年後的時空，對數位身分的各種疑慮未消，政府以智慧政府為名推行了數位身分認證系統，建基數位治理架構。短短數年，身分數據樣態深入而安靜的影響了人生。FB 活動頁：https://bit.ly/3a5ObUI",
+        "project name": "IDystopia 2035 數位身份大冒險",
+        "github": "https://github.com/g0v/IDystopia",
+        "Website URL": "https://idystopia.online/",
+        "project name EN": "IDystopia 2035"
+      }
+    },
+    {
+      "id": "rec2sQMeJPvW0z7yc",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "這是一份各智庫的網站、fb、twitter、youtube、RSS 等連結的表格，原意是想說可以更方便的瀏覽各單位釋出的訊息，有興趣的朋友可以一起補完資料，以及發想有什麼後續使用方式。",
+        "document": "https://g0v.hackmd.io/uifSua3EQ4-AO3Ul2WaaTA",
+        "project name": "Think Tank Info",
+        "project name EN": "Think Tank Info"
+      }
+    },
+    {
+      "id": "rec2yU8mX81cbzWvU",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recaRe0BPGfeCMFXC",
+            "name": "19-新聞訊息與媒體識讀"
+          }
+        ],
+        "Intro": "一個平台，讓公民記者自己具名(FB登入之類)把報導text放上去，加tag，程式自己補上關鍵字搜詢, timeline, 簡易排版和printable功能等等，也就是「送上去後，任何人在任何地方，都能把它列印出來，變成一份像樣的報刊」",
+        "project name": "公民即時報",
+        "github": "https://github.com/g0v/reporter"
+      }
+    },
+    {
+      "id": "rec3bylI9T6m7B62X",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "document": "https://www.slideshare.net/JohnsonLiang1/g0v-hackath15n",
+        "project name": "政治承諾追蹤網"
+      }
+    },
+    {
+      "id": "rec3sxL2vY6X9TuFc",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "自製田間土壤、氣象感測器，配合數據分析，並延伸到田間紀錄日誌，讓小農更聰明地看天吃飯。",
+        "Facebook Page Link": "https://www.facebook.com/agriweather",
+        "project name": "阿龜微氣候",
+        "Website URL": "https://agriweather.beehivedt.com/"
+      }
+    },
+    {
+      "id": "rec5h86VJ90ilSwmq",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "wikidatataiwan",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "Wikidata",
+        "Website URL": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+        "project name EN": "Wikidata"
+      }
+    },
+    {
+      "id": "rec5QHAqGf5MoRKWt",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "ptt",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "開發Ptt App實作新功能，延續社群壽命。",
+        "project name": "Ptt",
+        "github": "https://github.com/Ptt-official-app/",
+        "Website URL": "https://term.ptt.cc/",
+        "project name EN": "Ptt"
+      }
+    },
+    {
+      "id": "rec5UBUQgqMnXHJH9",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "intl",
+        "影響力類別": [
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/@chihao/rypH_tpoE?type=view",
+        "project name": "g0v 國際交流公開資訊",
+        "project name EN": "g0v-intl"
+      }
+    },
+    {
+      "id": "rec6ek0it5fLrtoP6",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          },
+          {
+            "id": "recKYx9vjoJ6p0gyE",
+            "name": "1-SDGS-終結貧窮"
+          }
+        ],
+        "Facebook Page Link": "https://www.facebook.com/Listening-%E7%A6%8F%E5%88%A9%E8%AB%8B%E8%81%BD-173478432803859/",
+        "project name": "福利請聽",
+        "標籤": [
+          {
+            "id": "recJA9vIu3CYfNHWw",
+            "name": "社會福利 / 社福"
+          }
+        ],
+        "Website URL": "http://listening.g0v.tw/"
+      }
+    },
+    {
+      "id": "rec6qlEvn1tvvUFZH",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "national-treasure",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "藉由遊戲化的群眾外包，翻拍遺落在海外的台灣相關史料，最後將圖檔文字數位化，建立數位開放的台灣史資料庫。",
+        "Facebook Page Link": "https://www.facebook.com/twnationaltreasure",
+        "document": "https://www.facebook.com/twnationaltreasure",
+        "project name": "國家寶藏",
+        "github": "S",
+        "標籤": [
+          {
+            "id": "recmNjusE9u9rOH6X",
+            "name": "群眾外包"
+          },
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "http://nationaltreasure.tw/"
+      }
+    },
+    {
+      "id": "rec6tCPySgjS1DJIJ",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "edu-aray",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "公民科技貢獻者的專案與任務視覺化平台",
+        "document": "https://g0v.hackmd.io/@jothon/ARAY",
+        "project name": "Aray",
+        "github": "https://github.com/g0v/aray",
+        "Website URL": "https://aray.g0v.tw/",
+        "project name EN": "Aray"
+      }
+    },
+    {
+      "id": "rec6XgVi8JeSLeuDz",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "Middle2 是 Ronny 從 2012 年 7 月開始開發的 PaaS (Platform As A Service) 專案，會開發 Middle2 是因為覺得像 Heroku 這樣的 PaaS 平台對於開發網路服務相當方便，但是覺得 Heroku 的收費方案較昂貴，因此決定自己做一個 PaaS 出來，也因為有了 middle2 這樣的 PaaS 平台，讓我可以更容易的開發各種想做的網站服務。自 2012 年底第零次零時政府黑客松開始到現在，我做了像是臺灣公司資料、新聞小幫手、求職小幫手...等等 數十個專案。",
+        "project name": "middle2",
+        "github": "https://github.com/middle2tw/middle2",
+        "Website URL": "https://middle2.com/",
+        "project name EN": "middle2"
+      }
+    },
+    {
+      "id": "rec7jBi0bLbKErL8S",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "lostsar-openuavlab",
+        "non-slack": "https://www.facebook.com/groups/101397120502155",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "LostSAR 是由一群熱愛戶外活動的工程師成立的，利用科技的方法解決登山搜救最難的部份「找人」，利用 beacon 無人機 app 等應用方法",
+        "Facebook Page Link": "https://www.facebook.com/groups/1803114993339496/",
+        "project name": "LostSAR 無人機",
+        "github": "https://github.com/lostsar/LostSAR",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          },
+          {
+            "id": "recZiuv7Cbwt0x2U9",
+            "name": "無人機"
+          }
+        ],
+        "Website URL": "https://lostsar.github.io/",
+        "project name EN": "LostSAR"
+      }
+    },
+    {
+      "id": "rec9KGIQrpLs7Gw84",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "gis",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "騎樓抓漏，希望透過 已開放的人行道開放資料，建物外框資料(目前僅台北台中有釋出)，嘗試找出騎樓沿線中有哪些建物間隙，並評估兩側大樓管理單位可以合作防漏，減少雨水從棟距間隙中落下，影響騎樓遮雨的連續性。",
+        "document": "https://g0v.hackpad.tw/BvkNRjtLvQ2",
+        "project name": "騎樓抓漏",
+        "project name EN": "Arcade Leak Hunting "
+      }
+    },
+    {
+      "id": "recaGUnjCpt9pfaW3",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/20210402TarokoCrash",
+        "project name": "太魯閣號列車脫軌事故災情整合平台",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          }
+        ],
+        "Website URL": "https://g0v.hackmd.io/20210402TarokoCrash"
+      }
+    },
+    {
+      "id": "recAiNzIM5S3Mmeai",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "Blulu Metrics: A Rethink of the Relationship Between Web Tools and Deliberative Democracy",
+        "project name": "Blulu Metrics",
+        "github": "https://github.com/etblue/blulu/",
+        "Website URL": "https://blulu.tw/",
+        "project name EN": "Blulu Metrics"
+      }
+    },
+    {
+      "id": "recb2fRV2zET0AHmf",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "addressbook",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "政府公開通訊錄"
+      }
+    },
+    {
+      "id": "recbekl3Bukkf4DVI",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "shared-tw",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "針對台灣目前疫情的物資需求及愛心捐贈問題，建立平台進行媒合",
+        "project name": "shared-tw",
+        "github": "https://github.com/shared-tw",
+        "Website URL": "https://shared-tw.icu/"
+      }
+    },
+    {
+      "id": "recbgJNKburtfD3eE",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recDx2rCzsNcaRbyQ",
+            "name": "9-SDGS-工業化、創新及基礎建設"
+          }
+        ],
+        "project name": "台灣路更平",
+        "github": "https://github.com/twsr",
+        "Website URL": "https://www.flataiwan.com/"
+      }
+    },
+    {
+      "id": "recByIU0PJ8nCTKGh",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "contact-tracing",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/bhLJ032GTAGl5UQF54omtw",
+        "project name": "g0v 簡訊實聯制",
+        "標籤": [
+          {
+            "id": "recEBblMiYgQYxw2u",
+            "name": "防疫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recbZXAchcn6d4OSd",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "hello-world",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "g0v 新手村基礎建設（暫稱）"
+      }
+    },
+    {
+      "id": "reccOKBj8GQeAfhQL",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "HackingMap 是個即時、共編的黑客松專案地圖，讓 g0v 大松現場的坑主、新參者在 g0v 大松徵人、跳坑更容易！",
+        "project name": "HackingMap",
+        "github": "https://github.com/g0v/HackingMap",
+        "project name EN": "HackingMap"
+      }
+    },
+    {
+      "id": "reccoU8QNbJpIOgM9",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "#tw-ly-and-council|",
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "國會大代誌 / 新國會大代誌",
+        "github": "https://github.com/g0v/ly.g0v.tw",
+        "Website URL": "http://ly.g0v.tw/"
+      }
+    },
+    {
+      "id": "recCsj1yM0JAdlZQU",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recKnrWiRUL8luYtx",
+            "name": "2-SDGS-終結飢餓"
+          }
+        ],
+        "Intro": "享食台灣，是一個由民間發起的非營利組織。我們期望透過易於管理的模式，大規模地與店家進行合作，有系統地對抗台灣現存的食物浪費問題。我們在台北與許多商家、餐廳、活動建立了合作關係，藉由讓志工前往這些地方領取剩食，我們成功讓上百公斤的食物免於被丟棄的命運。同時，我們也在台北設立公共冰箱方便人們分享剩食，並以此經驗幫助其他縣市有相同目標的團體。我們更進一步開發了享食台灣專屬的網站及軟體來進行志工管理及理念分享，並且成立臉書專頁、舉辦各式活動來向大家分享世界各地－－尤其是台灣－－關於食物浪費議題的資訊，同時提倡更珍惜資源的生活方式。除此之外，在其他社群媒體、報紙、電視及廣播，也能見到我們的身影。而這一切都要歸功於我們不求回報、自發參與的夥伴們，我們才得以組成了一個重視食物浪費議題並致力於用永續的方法處理食物的社群。我們想在此感謝所有以各種方式大力協助享食台灣運作的合作夥伴、志工和支持者。我們希望可以讓大家意識到食物浪費的問題，效仿我們，並提出對抗食物浪費的新方法，所以邀請您使用享食台灣資源來傳遞理念、舉辦活動，組織朋友們與商店接觸、洽談合作，一起分享和拯救台灣的食物。",
+        "Facebook Page Link": "https://www.facebook.com/foodsharingtaiwan",
+        "project name": "享食台灣",
+        "github": "https://github.com/foodsharing-taiwan",
+        "標籤": [
+          {
+            "id": "recHwo5FXzd5ZHRzA",
+            "name": "食物 Food / 廚餘堆肥"
+          }
+        ],
+        "Website URL": "https://foodsharing.tw/",
+        "project name EN": "Foodsharing Taiwan"
+      }
+    },
+    {
+      "id": "reccW0fLbNizGZ8ai",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "gym",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "就地運動運動是一個號召活動身體的線上活動：歡迎大家一起 home gym",
+        "document": "https://g0v.hackmd.io/@flyo/homegym",
+        "project name": "就地運動運動",
+        "project name EN": "jody.gq movement"
+      }
+    },
+    {
+      "id": "recD8CTy0OwAtero9",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "#tp-city-council-query",
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "議見零時差"
+      }
+    },
+    {
+      "id": "recDF1WJZ2qnwYpPw",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "HackStory 共筆時間軸",
+        "project name": "HackStory",
+        "github": "https://github.com/g0v/HackStory",
+        "Website URL": "https://g0v.github.io/HackStory/",
+        "project name EN": "HackStory"
+      }
+    },
+    {
+      "id": "recDK1c5JYMBvSyqj",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "未來日誌",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "預測與推估內容的結構化",
+        "document": "https://g0v.hackmd.io/T9vvHvuYT4-eLxHUVqW8Aw?view",
+        "project name": "未來日誌"
+      }
+    },
+    {
+      "id": "recdwhrk4hilKkT0B",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "g0v 新手村計劃 8bit",
+        "project name": "g0v 新手村計劃 8bit",
+        "github": "https://github.com/g0v/g0village-8bit",
+        "Website URL": "http://8bit.g0v.tw/",
+        "project name EN": "g0village 8bit"
+      }
+    },
+    {
+      "id": "recEeitVzquunh4a1",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "em",
+        "non-slack": "https://www.facebook.com/groups/646900492512861",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "舊地名經常隱含著災害潛勢的意義，細究各種文化習俗與神話故事，也可以發現災害存在於敘事當中。這些隱隱然、隱晦的細節，之所以能流傳至今，也反映了當時代該災害所帶來的衝擊程度之巨大，以至於需要地名、習俗、神話等方式將它流傳至後世。這個專案試圖蒐集上述看似平常但深具災害潛勢意涵的素材，從「OO」看災害，秒懂災害潛勢。",
+        "document": "https://g0v.hackpad.tw/4rF7N2Ihf5r",
+        "project name": "秒懂災害潛勢",
+        "Website URL": "http://bit.ly/2PmxklI"
+      }
+    },
+    {
+      "id": "recEHtzjFLljSV28i",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          }
+        ],
+        "Intro": "Animal Adoption Platform by Django",
+        "project name": "寵物需要我",
+        "github": "https://github.com/jsleetw/petneed.me",
+        "Website URL": "http://petneed.me/",
+        "project name EN": "Animal Adoption Platform"
+      }
+    },
+    {
+      "id": "receP2E3oujhY35Iy",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "立委投票指南網站，預設皆開源，不做家長式的媒體，不做議題上的價值高下判斷、排名，如要引入非政府公開資訊，必需是全民可參與編輯協作的或是候選人、民代、政黨自行編輯的。",
+        "Facebook Page Link": "https://www.facebook.com/TW.Voter.Guide/",
+        "document": "https://beta.hackfoldr.org/voter_guide_tw",
+        "project name": "立委投票指南",
+        "github": "https://github.com/g0v/twly-voter-guide",
+        "Website URL": "https://councils.g0v.tw/",
+        "project name EN": "Legislator Voting Guide"
+      }
+    },
+    {
+      "id": "recErCrouEWFPGumO",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "有感與@ael在深夜聊天時發現，好像社群一直沒有辦法維護 g0v project hub 這種東西，決定做一個能夠整合並追蹤專案的使用者介面，讓新血能夠更容易地找到適合的專案或是讓管理者能了解專案進度。",
+        "project name": "awesome-g0v-projects",
+        "github": "https://github.com/chunyenHuang/awesome-g0v-projects",
+        "Website URL": "https://chunyenhuang.github.io/awesome-g0v-projects/",
+        "project name EN": "awesome-g0v-projects"
+      }
+    },
+    {
+      "id": "recf7OakAWAvG0cLW",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "stayathome",
+        "non-slack": "https://www.facebook.com/groups/495411428207479",
+        "影響力類別": [
+          {
+            "id": "recKnrWiRUL8luYtx",
+            "name": "2-SDGS-終結飢餓"
+          }
+        ],
+        "document": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQM7mkfkLdfClq6mF6Fq-tkWQ3CjoqNSnKoeiCUgpvsy1pzCQMB3SlVVzDYCgO4LeusB1gcgtVeuZQn/pubhtml",
+        "project name": "蔬菜箱、食材線上訂購共筆",
+        "標籤": [
+          {
+            "id": "recHwo5FXzd5ZHRzA",
+            "name": "食物 Food / 廚餘堆肥"
+          }
+        ],
+        "Website URL": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQM7mkfkLdfClq6mF6Fq-tkWQ3CjoqNSnKoeiCUgpvsy1pzCQMB3SlVVzDYCgO4LeusB1gcgtVeuZQn/pubhtml"
+      }
+    },
+    {
+      "id": "recfe3Ic1XrQ4jJ40",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "vaccine",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "Vaxx.tw 是一個為了協助尋找自費疫苗名額的網站，彙整醫療院所疫苗施打預約與名額。",
+        "project name": "Vaxx.tw",
+        "標籤": [
+          {
+            "id": "recEBblMiYgQYxw2u",
+            "name": "防疫"
+          }
+        ],
+        "Website URL": "https://vaxx.tw/",
+        "project name EN": "Vaxx.tw"
+      }
+    },
+    {
+      "id": "recfGeE4G9iYkSfZD",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "pm25",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Facebook Page Link": "https://www.facebook.com/g0vairmap/",
+        "document": "https://beta.hackfoldr.org/g0vairmap",
+        "project name": "g0v 零時空汙觀測網",
+        "github": "https://github.com/Aspertw",
+        "Website URL": "https://airmap.g0v.tw/",
+        "project name EN": "g0v Air Quality Monitor"
+      }
+    },
+    {
+      "id": "recfGG27W6IKxJhpI",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "non-slack": "https://www.facebook.com/groups/show.me.the.court.case/",
+        "影響力類別": [
+          {
+            "id": "recUfdxNspBkJjqCn",
+            "name": "16-SDGS-和平、正義和公平的制度"
+          }
+        ],
+        "project name": "來個判決書吧",
+        "標籤": [
+          {
+            "id": "recrYcUqpRnudRShb",
+            "name": "司法判決"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recFINxKe15TJlshf",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "CBFHSS 為一以高中生生活出發所研發之聊天機器人，目的在於分攤學生一日校園生活的負擔。主要功能包含新增、刪除、檢視作業及考試，段考資訊查詢、過期資料自動刪除、放學前推播提醒。2020 年 3 月因新冠肺炎疫情加入體溫登記相關功能，避免接觸感染發生的機率。2020 年 9 月開始進行第二版程式 CBFHSSv2 的開發，新版程式將原先較為複雜的指令改為對使用者友善的介面，並大幅提升回應的速度。預計於 2021 年開放全臺高中班級註冊使用。",
+        "Facebook Page Link": "https://www.facebook.com/cbfhss/",
+        "project name": "專為高中生設計的管家型聊天機器人",
+        "github": "https://github.com/CBFHSS",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://cbfhss.tech/",
+        "project name EN": "CBFHSS"
+      }
+    },
+    {
+      "id": "recFwd9Fks9TXTUMh",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "tree",
+        "non-slack": "http://bit.ly/tree-taiwan-fb",
+        "影響力類別": [
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          }
+        ],
+        "Intro": "「臺灣好植地」專案希望透過「算樹」，了解樹木分佈的概況，接著透過「找地」的過程，盤點出尚未種樹的地區，若基本條件合宜的用地，將進一步評估「種樹」的機會，鼓勵在地團體一起來關注、提出「與樹相融」的補植願景，並接洽土地管理單位，合作落實環境營造的行動。將上述歷程中各類可支援的事項與資訊彙整在「協作平台與網絡」，協助「首植族」或「植樹團體」往前推展，歡迎加入 Facebook 討論社團。\n\n氣候調適綠蔭倍增計畫 _ 國家氣候變遷對策委員會第7次委員會議」報告事項二：全民森活 韌性綠網 - 氣候調適綠蔭倍增計畫 (環境部)\nhttps://www.president.gov.tw/page/714#section1\nhttps://csr.cw.com.tw/article/44676",
+        "Facebook Page Link": "https://www.facebook.com/groups/573697330058183/",
+        "document": "https://beta.hackfoldr.org/tree",
+        "project name": "臺灣好植地 Patch by Planting",
+        "github": "https://www.facebook.com/groups/573697330058183/permalink/742917706469477/",
+        "標籤": [
+          {
+            "id": "rectf9bXy32sS8gwb",
+            "name": "衛星圖資"
+          },
+          {
+            "id": "recS1OL2xmnUgv7fW",
+            "name": "開放空間"
+          },
+          {
+            "id": "rec7VhWOCiYAMz11Y",
+            "name": "樹木 / 種樹 / 公園綠地"
+          }
+        ],
+        "Website URL": "https://sites.google.com/view/tree-taiwan/",
+        "project name EN": "Patch by Planting"
+      }
+    },
+    {
+      "id": "recg97u0cvRMlqguS",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "us-taiwan-watch",
+        "影響力類別": [
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          }
+        ],
+        "Intro": "美國台灣觀測站自2017年成立以來，便持續從海外台美人草根觀點以及國際關係的角度，來推廣、促進國人對台美關係、美中台關係的了解，希望讓更多人能了解、甚至參與美國的政策決策圈。",
+        "Facebook Page Link": "https://www.facebook.com/ustaiwanwatch/",
+        "project name": "美國國會台灣觀測站",
+        "Website URL": "https://www.uswatch.tw/"
+      }
+    },
+    {
+      "id": "recGALSDOy9NbFwV3",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "國會調查兵團",
+        "Website URL": "https://cic.tw/"
+      }
+    },
+    {
+      "id": "recGoJOLpxKQb5Vrn",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "project name": "血庫資訊",
+        "github": "https://github.com/g0v/blood",
+        "標籤": [
+          {
+            "id": "rec0AGUivHVnxdnD9",
+            "name": "捐血 / 血庫資訊"
+          }
+        ],
+        "Website URL": "http://g0v.github.io/color/#blood"
+      }
+    },
+    {
+      "id": "recGQERClvEeD1MRE",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "libot",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "市容通報工具 / Linebot",
+        "document": "https://g0v.hackmd.io/@tmonk/SkgVGyrBB",
+        "project name": "里伯 LINEbot 市容幫手",
+        "標籤": [
+          {
+            "id": "recwwFkh7cDpCXrxh",
+            "name": "通報舉報類功能"
+          },
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          }
+        ],
+        "project name EN": "Libot"
+      }
+    },
+    {
+      "id": "recgSzBEOymP2XjzJ",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "psymap",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/WFvCpdvYRb2uIpQb1fOosg",
+        "project name": "遠距心理諮詢資訊彙整",
+        "Website URL": "http://bit.ly/g0vpsymap",
+        "project name EN": "Online Counseling Information"
+      }
+    },
+    {
+      "id": "recGt542dqgyoyYTP",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "reck256UJUNzJmUec",
+            "name": "10-SDGS-消弭不平等"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/sQ6DFqweS_OWY6A6GpiFLQ",
+        "project name": "台灣 l10n 共筆"
+      }
+    },
+    {
+      "id": "recGxLs2qNaBY4XLt",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recWJ1usIU4lvdOlk",
+            "name": "8-SDGS-良好就業和經濟成長"
+          }
+        ],
+        "Intro": "我們相信，當職場資訊變得足夠透明，在市場機制的運作下，好的公司更容易找到好人才，變得更有競爭力；條件相對差一點的公司將會提升薪資及福利，以招募更好的人才。台灣的產業整體而言向上提升，進入正向循環。",
+        "document": "https://grants.g0v.tw/projects/588b039d015368001e64a3e5",
+        "project name": "GoodJob 職場透明化運動",
+        "Website URL": "https://www.goodjob.life/about",
+        "project name EN": "GoodJob"
+      }
+    },
+    {
+      "id": "recH5LN9ZuWhOxQCZ",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "本專案整合與補足尚未數位化、且散落各處的的台語字詞資料，同時開發辭典網站和手機 app、建立社群討論參與的機制，讓台語文的學習與教育者更方便查詢資料，也能互相交流。",
+        "Facebook Page Link": "https://www.facebook.com/ChhoeTaigi/",
+        "document": "https://grants.g0v.tw/projects/5a631883900e86001bf9f4d7",
+        "project name": "ChhoeTaigi：台語文數位詞庫、辭典補完計畫",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "project name EN": "ChhoeTaigi"
+      }
+    },
+    {
+      "id": "rechGLub4PlfRhz2e",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "disfactory",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "disfactory 違章工廠舉報 用 GeoDjango 做 geo spatial query",
+        "document": "https://g0v.hackmd.io/@yukaii/Disfactory/",
+        "project name": "Disfactory",
+        "github": "https://github.com/Disfactory",
+        "標籤": [
+          {
+            "id": "recwwFkh7cDpCXrxh",
+            "name": "通報舉報類功能"
+          },
+          {
+            "id": "recpHXquZSQ7HH1qj",
+            "name": "與 NGO 合作"
+          },
+          {
+            "id": "rectf9bXy32sS8gwb",
+            "name": "衛星圖資"
+          }
+        ],
+        "Website URL": "https://disfactory.tw/",
+        "project name EN": "Disfactory"
+      }
+    },
+    {
+      "id": "recHIEqd96JXpeRNF",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "一個企圖處理蒐集，整理，串連，行動，追蹤的去中心化群眾參與社會議題的平台。是串接事件和人的媒介，是對話的一個窗口，它存在的目的，最基礎是備忘，其次是串聯和關注，更積極的是通往後續的「行動」，整套都接通了，才是鄉民關心你的全貌。",
+        "document": "https://g0v.hackmd.io/yPWLyMvsQEiPXX32tsAkvA",
+        "project name": "鄉民關心你"
+      }
+    },
+    {
+      "id": "recHpTzP1rLHBR9re",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "covid19",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "covid19-data-list",
+        "github": "https://github.com/g0v/covid19-data-list",
+        "標籤": [
+          {
+            "id": "recEBblMiYgQYxw2u",
+            "name": "防疫"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recibq2HkObegqxJh",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "金流百科(Goldenpedia)將政治獻金、公投募款專戶金流公開並且視覺化。利用簡單易理解的圖像，檢視各民選公職候選人、公投領銜人間的資源差距，並羅列收支詳目、捐贈公司之承接標案情況",
+        "document": "https://hackmd.io/4pyaJBQNSouvvtjdMbiuKQ?view",
+        "project name": "金流百科",
+        "github": "https://github.com/g0v-money-flow",
+        "Website URL": "https://g0v-money-flow.github.io/"
+      }
+    },
+    {
+      "id": "recIXD3MO8CzMn2ZF",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "cjkv",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "CJKV information processing ",
+        "project name": "CJKV",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recjGVYo9jVOo3bir",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "目前政府取得勘災資訊，需要人工到現地調查，礙於人力限制與人的主觀判斷，調查效率低且沒有統一標準，導致補助發放時間慢且不公平，為改善此問題，「農業災損幾多錢」團隊以空拍方式，評估水稻與甘藍現地資訊，快速量化災損資訊，提升政府勘災的客觀性與補助農民的速度，以加速農地復耕。",
+        "project name": "農業災損幾多錢",
+        "標籤": [
+          {
+            "id": "recO5orMgf9jx4vwz",
+            "name": "農業"
+          }
+        ],
+        "Website URL": "http://uav-fly.nchu.edu.tw/g0vAna/"
+      }
+    },
+    {
+      "id": "recJKSO4l4l3Qce1E",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "edu",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "零時小學校（Sch001）是聚焦在教育的 g0v 專案，將代表數位原生世代的 0 與 1 放入代表教育的「學校（School）」，從零重新思考學校的角色，代表教育與數位社群的連結與協作。為了激發更多創新的公民科技專案，讓更多知識開放在公共領域，成為跨世代、跨媒介的教育資源，以及公民思辨的重要素材，g0v 揪松團希望以「教育」作為 2020 年的主題，透過「g0v 黑客松」，以及新設的「零時小學校」（工作坊 + Demo Day），希望號召不同領域的知識愛好者，運用資訊科技、分析問題、協作分工，促使更多教育專案有機會邁向標準化、數位化與服務化發展，讓知識在社群活起來。",
+        "project name": "零時小學校",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://sch001.g0v.tw/",
+        "project name EN": "Sch001"
+      }
+    },
+    {
+      "id": "recjNZs2h2Zw2Ah7R",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "g0v 專案與技能媒合工具",
+        "project name": "g0ver-box",
+        "github": "https://github.com/g0v/g0ver-box",
+        "project name EN": "g0ver-box"
+      }
+    },
+    {
+      "id": "recjRfHNQMHq5VJla",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recaRe0BPGfeCMFXC",
+            "name": "19-新聞訊息與媒體識讀"
+          }
+        ],
+        "project name": "公民記者證產生器",
+        "project name EN": "reporter"
+      }
+    },
+    {
+      "id": "recJsLwucpvRNXqs5",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "規則：列表式，一件事一句話 + 一個連結，最好附上英文（也可以空著求翻譯），寫的時候想像的對象可能是跟 g0v 不熟的人，License: CC0",
+        "document": "https://g0v.hackmd.io/JoNZjrU9TjO6oR5OcJ0Dng",
+        "project name": "每月社群大小事",
+        "project name EN": "What’s happening in g0v"
+      }
+    },
+    {
+      "id": "recKa5c1HYpSX3Ktc",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/?nav=search&q=%E5%85%AC%E5%A0%B1",
+        "project name": "g0v 公報"
+      }
+    },
+    {
+      "id": "reckarxcXVWc3YwX3",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "vtaiwan",
+        "影響力類別": [
+          {
+            "id": "recKYx9vjoJ6p0gyE",
+            "name": "1-SDGS-終結貧窮"
+          }
+        ],
+        "Intro": "對於2021年政府因應疫情而開啟的紓困方案整理。",
+        "document": "https://g0v.hackmd.io/2iYwwJMATOSFhl22Fh633g",
+        "project name": "2021 疫情紓困振興方案整理",
+        "標籤": [
+          {
+            "id": "recEBblMiYgQYxw2u",
+            "name": "防疫"
+          }
+        ],
+        "Website URL": "https://sheet2site.com/api/v3/index.php?key=1yhRyeTzmZgw05qN1jDqoMb11LFjDciYyKQ_BQgLx6OM"
+      }
+    },
+    {
+      "id": "reckB3gYWa4uKJsc6",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "summit",
+        "影響力類別": [
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "g0v Summit 雙年會",
+        "project name": "Summit",
+        "Website URL": "https://summit.g0v.tw/",
+        "project name EN": "Summit"
+      }
+    },
+    {
+      "id": "reckE8WUuSsbD2cDl",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recWJ1usIU4lvdOlk",
+            "name": "8-SDGS-良好就業和經濟成長"
+          }
+        ],
+        "Intro": "班表小幫手提供友善的介面，讓人透過批次或打卡的方式輸入班表，提供班表合法與否和過勞的檢查，將結果以視覺化的方式呈現。並可分享檢查結果。希望能提高眾人對勞動相關法規的意識，降低對工時相關議題理解的門檻，成為勞資檢三方理性溝通的橋樑。",
+        "project name": "班表小幫手",
+        "github": "https://github.com/g0v/tw-shift-schedule",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          }
+        ],
+        "Website URL": "https://tw-shift-schedule.firebaseapp.com/"
+      }
+    },
+    {
+      "id": "reckMJccqIkS6uCt6",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "open-content",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/@jothon/content/",
+        "project name": "開源出版"
+      }
+    },
+    {
+      "id": "recKnBeOTGUleanhi",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "appy",
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "我們是一群來自批踢踢的鄉民，有感國家興亡、匹夫有責，今天站出來希望以網路連結實體發起全民罷免運動，讓我們的民主運作重新回到正軌。",
+        "Facebook Page Link": "https://www.facebook.com/Appendectomy/",
+        "project name": "割闌尾計畫",
+        "Website URL": "http://appy.tw/"
+      }
+    },
+    {
+      "id": "recKzvwqX5rXmhPTq",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recUfdxNspBkJjqCn",
+            "name": "16-SDGS-和平、正義和公平的制度"
+          }
+        ],
+        "Intro": "這個網站的宗旨，是建立一個關於法官與檢察官公開資訊的平台。網站有系統地蒐集且整理公開資訊，讓人民更清楚了解自己所面對的，是怎麼樣的一個司法體制。同時，也讓執掌國家重大權力的法官和檢察官，適當的攤開在陽光下，讓優良者得以被看見，不良者承受應有的監督與壓力。",
+        "document": "https://www.jrf.org.tw/",
+        "project name": "司法陽光網－判決書API計畫",
+        "github": "https://github.com/yudazilian/SunnyJudge",
+        "標籤": [
+          {
+            "id": "recrYcUqpRnudRShb",
+            "name": "司法判決"
+          }
+        ],
+        "Website URL": "https://sunshine.jrf.org.tw/"
+      }
+    },
+    {
+      "id": "recL9k9uYXTedIzI3",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "jothon",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/eC2vgApVTu2AT7UmHeLDEg?view",
+        "project name": "g0v database",
+        "project name EN": "g0v database"
+      }
+    },
+    {
+      "id": "reclkm0cgUcQskDZT",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          }
+        ],
+        "project name": "bridge",
+        "github": "https://github.com/g0v/bridge"
+      }
+    },
+    {
+      "id": "recLnS3VdqglMIUXx",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "non-slack": "https://discord.gg/ePKuRGE9sF",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "持續彙整中央與縣市公布得確診者公共場所足跡、熱區里界、快篩站、疫苗施打站點..等，並進行資料欄位化，提供資料介接，跳坑請至 discord 頻道",
+        "project name": "確診者足跡公共場所活動史共筆"
+      }
+    },
+    {
+      "id": "recm1Qw4qzkH4q2AI",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "吉祥物資料蒐集_マスコット_mascot",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/@chewei/actor/",
+        "project name": "吉祥物資料蒐集",
+        "標籤": [
+          {
+            "id": "rec3Xz9drabYHMDgj",
+            "name": "吉祥物"
+          }
+        ],
+        "Website URL": "http://bit.ly/2GkInGT"
+      }
+    },
+    {
+      "id": "recmBw6uyidnL5hdg",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "公眾人物關係圖產生器",
+        "project name EN": "ppllink"
+      }
+    },
+    {
+      "id": "recMibp4rzuhr6zAF",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "Hackfoldr 讓你在協作開源專案時，方便收集散落網路各地的文件。",
+        "project name": "HackFoldr",
+        "github": "https://github.com/hackfoldr/",
+        "project name EN": "HackFoldr"
+      }
+    },
+    {
+      "id": "recmpLHNhKDf7vHQj",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "jothon",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "零時政府黑客松由 g0v 揪松團舉辦，兩個月一次的單天活動，百名與會者來自不同的城市、背景、專長與年紀，利用三分鐘的時間將自己想做的事快速發表，並在活動現場尋找志同道合的夥伴，發揮各自所長，同時透過線上與線下協作的方式，用弄髒雙手的精神來「讓事情發生」。",
+        "project name": "Jothon 揪松團",
+        "github": "https://github.com/g0v/jothon-net",
+        "Website URL": "https://jothon.g0v.tw/",
+        "project name EN": "Jothon"
+      }
+    },
+    {
+      "id": "recMRJHJoIo4lWBLM",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "non-slack": "https://www.facebook.com/groups/437659989769965",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          },
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "蒐集「台灣公民科學案例」（計畫名稱、計畫網站連結等），目前初步用「領域或目的」作為分類（空氣品質監測、河川議題、生態調查、空間環境的規劃…等），進一步給有興趣跳坑的人，如何很快的找到自己有興趣的公民科學主題社群，或是從自己的居住地區、生活型態，來推薦相關聯的公民科學主題，透過標籤形式或是地圖形式。",
+        "document": "https://g0v.hackmd.io/x92toIppQvqejXgBJKFQSw",
+        "project name": "公民科學計畫蒐集",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recMxR3Y5DH7vVBpP",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recWJ1usIU4lvdOlk",
+            "name": "8-SDGS-良好就業和經濟成長"
+          }
+        ],
+        "Intro": "求職小幫手是一個瀏覽器套件，安裝之後當你在瀏覽像是 104, 1111, yes123, 518, ejob 等求職網站時，他會自動告訴你一些求職網站不會主動告訴你的事情（例如：這家公司最近是否有因為違反勞基法被罰錢），讓你有更多面向可以評價你要選擇的公司。",
+        "project name": "求職小幫手",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          }
+        ],
+        "Website URL": "https://jobhelper.g0v.ronny.tw/"
+      }
+    },
+    {
+      "id": "recN495Iu8AITNdkF",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "金錢報 - 公職人員財產申報",
+        "project name": "金錢報",
+        "github": "https://github.com/g0v/sunshine.cy"
+      }
+    },
+    {
+      "id": "recNbz9cPaJ3cwLbd",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "jothon",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "「g0v 社群每月九分鐘」是 g0v 揪松團發起的分享文，每月上旬更新，希望每月可以用九分鐘的時間，跟你分享 g0v 社群第九年的每月趣事。分享文是在 HackMD 上發表的共筆，歡迎共同編輯。",
+        "document": "https://g0v.hackmd.io/@jothon/community99",
+        "project name": "g0v 社群九分鐘"
+      }
+    },
+    {
+      "id": "recNeLhJuF96MjUO8",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recaRe0BPGfeCMFXC",
+            "name": "19-新聞訊息與媒體識讀"
+          }
+        ],
+        "Facebook Page Link": "https://www.facebook.com/newshelper/",
+        "project name": "新聞小幫手",
+        "github": "https://github.com/g0v/newshelper-extension",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          }
+        ],
+        "Website URL": "https://newshelper.g0v.tw/"
+      }
+    },
+    {
+      "id": "recnfTiGssz6goabC",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "Hackfoldr 讓你在協作開源專案時，方便收集散落網路各地的文件。",
+        "project name": "HackFoldr 2.0",
+        "github": "https://github.com/hackfoldr/hackfoldr-2.0",
+        "Website URL": "http://beta.hackfoldr.org/",
+        "project name EN": "HackFoldr 2.0"
+      }
+    },
+    {
+      "id": "recNRUNGKFK5HUvuJ",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "g0v-shadow 影子政府網站 ",
+        "github": "https://github.com/g0v/g0v-shadow",
+        "project name EN": "g0v-shadow"
+      }
+    },
+    {
+      "id": "recNsKoQvqapaT6iW",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "intl",
+        "影響力類別": [
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          }
+        ],
+        "Intro": "有感公民科技與 g0v 社群相關的國際事務需要更多人參與，g0v 國際交流工作小組 (g0v intl) 於 2019 成立，是社群其中一個工作小組，希望建立更多交流場域，並建立開放透明的治理機制，把 g0v 協作模式擴大發展。目前已經舉辦兩次港台日韓面海黑客松、共同發起「面海松」社群、協助擔任社群與 cfall 的聯繫窗口、發起國際交流經驗分享會。g0v 國際交流小組希望透過線上線下的跨國協作，回到國際交流的本質，重建互信，協同區域與全球的夥伴共同面對當前的挑戰。",
+        "document": "https://g0v.hackmd.io/@chihao/rypH_tpoE?type=view",
+        "project name": "g0v-intl",
+        "project name EN": "g0v-intl"
+      }
+    },
+    {
+      "id": "recODhbbzU5JzqbZJ",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "2014 年，在 24 小時內，完成七個專戶文字辨識，後續擬定 SOP 號召鄉民去監察院印資料。",
+        "Facebook Page Link": "http://facebook.com/cy.sunshine/",
+        "document": "​​https://www.readr.tw/project/political-contribution/story6",
+        "project name": "政治獻金數位化",
+        "github": "https://github.com/ctiml/campaign-finance.g0v.ctiml.tw",
+        "標籤": [
+          {
+            "id": "recmNjusE9u9rOH6X",
+            "name": "群眾外包"
+          },
+          {
+            "id": "rec7mna2UngXlfjjK",
+            "name": "OCR / 文字化"
+          }
+        ],
+        "Website URL": "https://campaign-finance.g0v.ctiml.tw/",
+        "project name EN": "Campaign Finance Crowdsourcing"
+      }
+    },
+    {
+      "id": "recoHw9PZa6or9aw8",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "urbancode",
+        "non-slack": "https://www.facebook.com/groups/470451239772824/",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "開放都市計畫",
+        "document": "https://hackfoldr.urbancode.tw/",
+        "project name": "都市計畫委員會會議記錄資料庫",
+        "標籤": [
+          {
+            "id": "rec6brTNSmPNxjzXQ",
+            "name": "都市計畫"
+          }
+        ],
+        "Website URL": "https://commission.urbancode.tw/"
+      }
+    },
+    {
+      "id": "recOJeKoLmnWGT1cW",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "你被服貿了嗎?",
+        "Website URL": "http://tisa.g0v.tw/"
+      }
+    },
+    {
+      "id": "recopKq0vXhA0rsGA",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "edu-coteach",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "CoTeach 提供體制內外教育工作者一個分享教案的平臺，除了可建置個人教學記錄，也希望突破學校及區域的限制，媒合各地教師線上共同備課，提升教師社群間共好的可能性，降低教師交流知識與經驗的門檻。CoTeach 想把「開源、協作、共享」的精神落實於教師端的教學資源，讓各地學習者都有機會享受多元的學習內容，減低教育資源的不均等。",
+        "project name": "CoTeach",
+        "github": "https://github.com/coteach",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://coteach.app/",
+        "project name EN": "CoTeach"
+      }
+    },
+    {
+      "id": "recOq2iR7bw3wSTBr",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "tbbca",
+        "影響力類別": [
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          }
+        ],
+        "Intro": "TBBCA黑客松提案_臺灣黑熊通報與資訊平台",
+        "document": "https://hackmd.io/@tai271828/rJq_CxbgY",
+        "project name": "臺灣黑熊通報與資訊平台",
+        "標籤": [
+          {
+            "id": "recsY2z4EIqi7mjMS",
+            "name": "生物物種保育"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recOrX11zDpb5ukeg",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "gf-tw",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "project name": "無麩質安全網"
+      }
+    },
+    {
+      "id": "recpBYAkwqwjLcrtw",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "機器大使藉 g0v.json 整理了目前專案的開發狀況。可以從專案群組頁面看見不同專案的現況。機器大使原計畫名為 Yet Another g0v Hub ，是 g0v 公民科技創新獎助金於 2017 年秋季的獲獎提案之一。2013 和 2014 年的 g0v 專案給我很多回憶，但是這些專案不見得繼續維護，也看過很多專案開了坑卻無法繼續下去。我想整理這些專案，為他們多添加一些脈絡，也許會有更多人填坑。我希望將整理資料的工具，視為整理資料的人的延伸。本來打算以貢獻者的社群動態為中心，將貢獻者在社群網站、 GitHub、Slack 的活動情況整理在獨立的儀表板上。也在線上訪問過專案。目前與揪松團討論後，修正了方向，以整理與呈現 g0v.json 記載的專案內容為主，標記外部資源為輔。",
+        "project name": "Yet Another g0v Hub",
+        "github": "https://github.com/g0v/ambassador",
+        "Website URL": "https://amb.g0v.tw/",
+        "project name EN": "Yet Another g0v Hub"
+      }
+    },
+    {
+      "id": "recPRbKyL3O6viGRq",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "cchelper - g0v開放授權小幫手",
+        "project name": "g0v開放授權小幫手",
+        "github": "https://github.com/g0v/cchelper",
+        "標籤": [
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "情境網頁遊戲框架"
+          },
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          }
+        ],
+        "project name EN": "cchelper"
+      }
+    },
+    {
+      "id": "recQREu0Qsw9jECTE",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          }
+        ],
+        "Intro": "https://g0v.news/2018-g0v-%E7%8D%8E%E5%8A%A9%E9%87%91-%E5%8F%B0%E7%81%A3%E9%A6%96%E6%AC%BE%E6%A4%8D%E7%89%A9%E8%BE%A8%E8%AD%98%E9%96%8B%E6%BA%90%E7%B3%BB%E7%B5%B1-ai-%E5%92%8C-ar-%E5%8D%94%E5%B0%8B%E5%8F%B0%E7%81%A3%E7%89%B9%E6%9C%89%E7%A8%AE-83d0378c6b94",
+        "document": "https://grants.g0v.tw/projects/5a49255d8b4d8d001efe2e6a",
+        "project name": "智慧型植物辨識圖鑑 ",
+        "標籤": [
+          {
+            "id": "recsY2z4EIqi7mjMS",
+            "name": "生物物種保育"
+          }
+        ],
+        "Website URL": "https://plant-tw.github.io"
+      }
+    },
+    {
+      "id": "recqV05jQE2Wdq566",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "adiz_alerts",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "自 2020 年 9 月起，中共軍機開始頻繁的侵犯台灣的防空識別區（ADIZ），根據中央社的新聞（2020-10-11），台灣截至同年 10 月 7 日已花了 312 億因應。為了能夠更全盤的了解台灣的軍事現況，希望能透過爬梳即時軍事動態資料，提供簡易的統計數據及資料視覺化呈現，讓關心台灣的鄉民快速得了解台灣國安的現況。",
+        "document": "https://g0v.hackmd.io/iGSe35vzSm6QhrkFnWSeYg",
+        "project name": "臺灣防空識別區快訊",
+        "github": "https://github.com/felixshai/Taiwan_ADIZ_alerts",
+        "project name EN": "Taiwan_ADIZ_alerts"
+      }
+    },
+    {
+      "id": "recqwu32WWQeRPDSN",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recaRe0BPGfeCMFXC",
+            "name": "19-新聞訊息與媒體識讀"
+          }
+        ],
+        "Intro": "協助公民記者實踐採訪權",
+        "document": "https://g0v.hackmd.io/MzMo96KiQFO-u9MLWyPPLQ",
+        "project name": "記者證"
+      }
+    },
+    {
+      "id": "recqz5msQXTr5UAUt",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "project name": "全國重度級急救責任醫院急診即時訊息",
+        "Website URL": "http://er.mohw.g0v.tw/"
+      }
+    },
+    {
+      "id": "recSBR1yaw5kZjAqj",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "non-slack": "https://www.facebook.com/groups/610479852418250",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "衛星影像",
+        "project name": "賽豬公上太空",
+        "Website URL": "http://nspo.g0v.tw/"
+      }
+    },
+    {
+      "id": "recSDn3rCdEPuhQRk",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recKnrWiRUL8luYtx",
+            "name": "2-SDGS-終結飢餓"
+          },
+          {
+            "id": "recKYx9vjoJ6p0gyE",
+            "name": "1-SDGS-終結貧窮"
+          }
+        ],
+        "Intro": "物資常集中在寒流來襲或媒體報導的特定幾天，有時食物多到吃不完造成浪費，但大多時候卻有一餐沒一餐。對無家者而言，這樣的現象卻是有口難言，怕主動拒絕了善心人士的好意，會讓對方留下不好的印象。我們希望透過網路平台的方式，提供想要發放物資的人登錄自己的街頭發餐、發物資紀錄。透過公開資訊、協調機制，改善物資供給不穩定的現象。",
+        "project name": "無家者小幫手",
+        "標籤": [
+          {
+            "id": "recHwo5FXzd5ZHRzA",
+            "name": "食物 Food / 廚餘堆肥"
+          },
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          }
+        ],
+        "Website URL": "https://homeless-helper.doyouaflavor.tw/",
+        "project name EN": "Homeless"
+      }
+    },
+    {
+      "id": "recSKOCfP7TdTNECa",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "foodlessons",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "食食課課 從食物連結生活與文化",
+        "document": "https://g0v.hackmd.io/@dana/foodlesson",
+        "project name": "Foodlessons",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          },
+          {
+            "id": "recHwo5FXzd5ZHRzA",
+            "name": "食物 Food / 廚餘堆肥"
+          }
+        ],
+        "project name EN": "Foodlessons"
+      }
+    },
+    {
+      "id": "recsPGN0g4Sv0WZkS",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "facing-the-ocean",
+        "影響力類別": [
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/@pm5/rJriRnlqE/",
+        "project name": "面海松",
+        "Website URL": "https://fto.asia/",
+        "project name EN": "Facing the Ocean (FtO)"
+      }
+    },
+    {
+      "id": "recSRgj8RQG7OyixB",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "台電睦鄰金流大解析",
+        "Website URL": "https://opentaipower.g0v.tw/"
+      }
+    },
+    {
+      "id": "recTMzcovWZFYe8RQ",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "holopolis",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "Holopolis",
+        "標籤": [
+          {
+            "id": "recZPAiEQdIo02zkC",
+            "name": "審議工具"
+          }
+        ],
+        "project name EN": "Holopolis"
+      }
+    },
+    {
+      "id": "recTnExdXdHC3msAt",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "moedict",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "萌典共收錄十六萬筆國語、兩萬筆臺語、一萬四千筆客語條目，並支援「自動完成」功能及「%_ *? ^.$」等萬用字元。",
+        "Facebook Page Link": "https://www.facebook.com/MoeDict/",
+        "document": "http://x.co/moedict",
+        "project name": "萌典",
+        "github": "https://github.com/g0v/moedict-webkit",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://www.moedict.tw/",
+        "project name EN": "Moedict"
+      }
+    },
+    {
+      "id": "rectnsZspxRL3XTlj",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "poponfire",
+        "non-slack": "https://www.facebook.com/groups/1417173811903954/",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "台灣的公有土地總量逐年下降，即私有化，許多公有土地開發的公共監理機制未盡完備而淪為地產炒作的標的。我們將透過此專案，指認出必須關心的公有土地，找到它的資料來源，將這些「火線上」的公有土地資料匯整，並且公開地呈現給民眾，凸顯出公有土地的公共監理議題，讓更多人參與土地政策的倡議與改變。",
+        "Facebook Page Link": "https://www.facebook.com/POPonFire/",
+        "project name": "公有地大行動 / 天龍特公地",
+        "github": "https://github.com/g0v/POPonFire",
+        "Website URL": "http://taipei-pop.herokuapp.com/"
+      }
+    },
+    {
+      "id": "recTsnmeEfs9jypRA",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recWJ1usIU4lvdOlk",
+            "name": "8-SDGS-良好就業和經濟成長"
+          }
+        ],
+        "Intro": "台灣企業集團母子公司關係與環境社會責任 (透明足跡)",
+        "document": "https://grants.g0v.tw/projects/596c662fd60a0d001ed1f8ea",
+        "project name": "OPEN 集團",
+        "Website URL": "https://thaubing.gcaa.org.tw/"
+      }
+    },
+    {
+      "id": "recTWaGcwR0ZtXqPd",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "herstory",
+        "影響力類別": [
+          {
+            "id": "rec6YJn6rQ3Ktk9as",
+            "name": "5-SDGS-性別平權"
+          }
+        ],
+        "Intro": "We want to show \"herstory\" in East Asia from local perspectives with a timeline and a map in our local languages, so that people from different regions of East Asia can learn more about the stories and rights women and LGBETQ+ have fought for. 東亞女性權力行動歷程書寫",
+        "project name": "Herstory",
+        "Website URL": "https://herstory-of-east-asia.netlify.app/",
+        "project name EN": "Herstory"
+      }
+    },
+    {
+      "id": "recu1auSypS1eabiA",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "全民提報文化資產",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "project name": "全民提報文化資產"
+      }
+    },
+    {
+      "id": "recu3Rf3eR5CQPOjA",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "itaigi",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "iTaigi 是 g0v 零時政府專案「萌典」的延伸專案，想知道一個詞的台語怎麼說，來這裡查就對了！甚麼都可以查，但不一定查得到，查不到時可以發問，或者自己發明台語講法貢獻給大家，簡單說就是「自己的辭典自己編」。",
+        "project name": "iTaigi 愛台語",
+        "github": "https://github.com/g0v/itaigi",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://itaigi.tw/",
+        "project name EN": "iTaigi"
+      }
+    },
+    {
+      "id": "recu9OB7YgWGNgwwd",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "預算視覺化產生器",
+        "github": "https://github.com/tony1223/tw-budget-platform",
+        "標籤": [
+          {
+            "id": "recGTzFfPBeizF0dV",
+            "name": "預算決算"
+          }
+        ],
+        "Website URL": "http://budget.tonyq.org/"
+      }
+    },
+    {
+      "id": "recUFqRRUfmqfRJao",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "“TGH” Taiwan gods hand project(台灣神手 開源義肢)是由有搞頭實驗室所發起，緣起是協助馬達驅動的問題，進而投入開發屬於公益的義肢組件，並將內容全部開源至網路上，讓有興趣製作、有需求的人能夠從中獲取製作義肢的經驗以及知識。由於每件專案都屬客製化產品，所以也歡迎各方專家一起投入，或是贊助設備，讓這項計劃在各地可以遍地開花。TGH欲建立M3D平台(醫療評估+3D掃描+3D建模+3D製造)，讓需求者僅需下載對應的g-code，就能在家自行製作神手零件。",
+        "project name": "臺灣神手 開源義肢",
+        "github": "https://sites.google.com/view/twgodhand/%E9%96%8B%E6%BA%90-open-source?authuser=0",
+        "Website URL": "https://sites.google.com/view/twgodhand",
+        "project name EN": "Taiwan gods hand project"
+      }
+    },
+    {
+      "id": "recuNVbTbPgnyf5pI",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "covid19",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/@yitzu/covid-19",
+        "project name": "COVID-19 野生資訊整合平台",
+        "標籤": [
+          {
+            "id": "recEBblMiYgQYxw2u",
+            "name": "防疫"
+          }
+        ],
+        "Website URL": "https://g0v.hackmd.io/@yitzu/covid-19",
+        "project name EN": "COVID-19 Community-dirven Integrated Information Platform"
+      }
+    },
+    {
+      "id": "recuOAZrNI64cJVXv",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "super-agri",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "project name": "超農域",
+        "標籤": [
+          {
+            "id": "recO5orMgf9jx4vwz",
+            "name": "農業"
+          }
+        ],
+        "Website URL": "https://g0v.github.io/agriculture/"
+      }
+    },
+    {
+      "id": "recv3mhbOOAiSn88U",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "edu-幸福存摺",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "設計給非營利事業組織兒少陪伴單位的電子獎勵系統，讓孩子們透過執行任務獲得點數，累積的點數可向機構換取獎品或是客製化的需求（例如：修鞋，修車）。",
+        "project name": "幸福存摺",
+        "github": "https://github.com/chunyenHuang/piggy-bank-of-happiness",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://www.happinessbankbook.org/",
+        "project name EN": "Happiness Bankbook"
+      }
+    },
+    {
+      "id": "recVbMyh1atS89a0U",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recWJ1usIU4lvdOlk",
+            "name": "8-SDGS-良好就業和經濟成長"
+          }
+        ],
+        "Intro": "台灣公司登記資料，本站內資料來自經濟部商業司及財政部營業稅籍資料，主要是提供另一個介面來讓大家更容易了解台灣的公司以及商業登記資訊。",
+        "project name": "台灣公司登記資料",
+        "github": "https://github.com/ronnywang/twcompany"
+      }
+    },
+    {
+      "id": "recVQzXaMb66iFvFg",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "Bifrost 希望建立一個雙向的物資管理平台，讓受贈者與捐贈者可以在同一個平台上，知道目前捐贈的狀況以及哪邊需要什麼種類的物資。",
+        "project name": "Bifrost 物資管理平台",
+        "github": "https://github.com/bifrostio/bifrost",
+        "標籤": [
+          {
+            "id": "recTbVXCmn68RATTG",
+            "name": "物資捐贈"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recw4xQ1MwMXXy6HN",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "call-liwei",
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "document": "http://beta.hackfoldr.org/callliwei",
+        "project name": "立委咖電喂",
+        "Website URL": "http://call.ly.g0v.tw/"
+      }
+    },
+    {
+      "id": "recWyYXeZLscDvOqF",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "政誌",
+        "github": "https://github.com/g0v/twangry"
+      }
+    },
+    {
+      "id": "recXdEgXsfnXnNejv",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "document": "http://beta.hackfoldr.org/627pray/",
+        "project name": "八仙塵爆資訊整合 hackfoldr",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recxgC3JM1FWghTcS",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "vtaiwan",
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "這是一個討論法規該如何制定或修改的平台，透過彼此的意見交流，希望能夠產出符合各利益關係人期待，也貼近實際需求的法規內容。",
+        "project name": "vTaiwan",
+        "標籤": [
+          {
+            "id": "recZPAiEQdIo02zkC",
+            "name": "審議工具"
+          }
+        ],
+        "Website URL": "https://vtaiwan.tw/",
+        "project name EN": "vTaiwan"
+      }
+    },
+    {
+      "id": "recXIbq6uY6vzZLVY",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/vYdTfaYeR7SnIU3zT5evOw",
+        "project name": "g0v 社群治理目錄",
+        "project name EN": "g0v community g0vernance directory"
+      }
+    },
+    {
+      "id": "recXidjXcEE2dR9cq",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "med-helper",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/s5zHXaKUTEazpt4_9AuV-Q",
+        "project name": "醫療前線注藥流速計算"
+      }
+    },
+    {
+      "id": "recY1ljUpLDUJI59P",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "amis",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "方敏英阿美語字典（Virginia Fey 編著），由台灣聖經公會提供紙本，並經由鄉民OCR電子化，採用 CC BY-NC 授權。博利亞潘世光神父阿美語-法語、阿美語-漢語字典，由天主教巴黎外方會的博利亞神父 (Louis Pourrias)、潘世光神父 (Maurice Poinsot) 提供，採用 CC BY-NC 授權。蔡中涵阿美語大辭典，由蔡中涵博士 (Safolu Kacaw Lalanges) 提供 g0v 及萌典無償使用。定義裡的每個字詞都可以點擊連到說明。",
+        "Facebook Page Link": "https://www.facebook.com/amis.moedict/",
+        "document": "http://bit.ly/2zhlt2t ",
+        "project name": "阿美語萌典",
+        "github": "https://github.com/g0v/amis-moedict",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://amis.moedict.tw/"
+      }
+    },
+    {
+      "id": "recyEWAchtgQcYk9a",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "Use Google Maps Timeline data to compare with COVID-19 patient history location.\n「武漢肺炎歷史軌跡比對」說明文件 (https://docs.google.com/document/d/e/2PACX-1vT2cvKSkICCRl6VpXpEsnJcZRSiS2p6VVYlNaR6KRkXAyE4HkdGxKb_sdf2H2WejyUjuRvsJhSaOppx/pub) ",
+        "project name": "武漢肺炎歷史軌跡比對",
+        "github": "https://github.com/yjlou/2019-nCov",
+        "標籤": [
+          {
+            "id": "recEBblMiYgQYxw2u",
+            "name": "防疫"
+          }
+        ],
+        "Website URL": "https://yjlou.github.io/2019-nCov/?hl=zh-TW"
+      }
+    },
+    {
+      "id": "recYSmprP1D09zM6p",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "https://youtu.be/Hyg3awh9mJ8",
+        "project name": "開放易樓網",
+        "標籤": [
+          {
+            "id": "rec1WnkgnlgORJwfF",
+            "name": "居住"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recyvJ5fNtN9OR507",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "cofacts",
+        "影響力類別": [
+          {
+            "id": "recaRe0BPGfeCMFXC",
+            "name": "19-新聞訊息與媒體識讀"
+          }
+        ],
+        "Intro": "用聊天機器人和群眾協作查核澄清 Line 封閉群組中的不實資訊。",
+        "Facebook Page Link": "https://www.facebook.com/cofacts.tw/",
+        "document": "https://beta.hackfoldr.org/cofacts",
+        "project name": "Cofacts 真的假的",
+        "github": "https://github.com/cofacts",
+        "Website URL": "https://cofacts.g0v.tw/",
+        "project name EN": "Cofacts"
+      }
+    },
+    {
+      "id": "recz0Lw3XXJ6XCSRr",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "gis",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/vqFSJtTNSye3M7dNLWz3QQ",
+        "project name": "糖業鐵路情報蒐集"
+      }
+    },
+    {
+      "id": "recZDyznAyZgIK5DZ",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "edu-open",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "彙整開放式課程資訊，建立資料架構與一站式查詢功能",
+        "document": "https://toedu.notion.site/CourseAPI-4e8faffe36c144058176dec509f15366",
+        "project name": "CourseAPI",
+        "github": "https://github.com/Open-Edu-Tw",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "project name EN": "CourseAPI"
+      }
+    },
+    {
+      "id": "reczfL4vmDTYa117H",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec1wxbekqwY7Sfgw",
+            "name": "6-SDGS-乾淨飲用水"
+          },
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          }
+        ],
+        "Intro": "大河小溪全民齊督工地圖平台，於 2019 年獲得 g0v 零時政府的公民科技創新獎助金，試圖透過公民科技降低公私部門之間的資訊落差，並將溪流整治工程相關部門的公開資訊視覺化。這個開源平台讓竹圍工作室長久以來對於環境的關注，有機會進一步對社會機制面造成影響，架構屬於台灣的河川情報系統，並拋出一個公民參與的另類想像。我們期望透過這個平台，建構以下可能：(1) 組織與社群的資訊網絡、(2) 河川系統與野溪情報網、(3) 公私部門資訊合作管道。",
+        "project name": "大河小溪全民齊督工",
+        "Website URL": "https://river-watcher.bambooculture.tw/"
+      }
+    },
+    {
+      "id": "reczgPKqGuibIlmXZ",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "edu-daodao",
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "｜島島阿學｜學習資源平台由一群學生、老師共創，因為在教育現場深感自主學習者常因「找不到合適學習資源」造成學習困難，故致力於建立「可共編的學習資源平台」，協助對接需求與資源。藉由自學者共編各領域及形式的資源，促使資源透明，同時豐富資源的「量」，並以民主教育及自主學習理論進行資源篩選及分類，提升資源的「質」，希望學習者能藉由平台豐富生命經驗、培養自學能力以及共好的民主精神，更為「自主學習世代」打造基礎建設。",
+        "project name": "島島阿學",
+        "github": "https://github.com/LeeLin2602/DaoTW",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://www.daotw.tk/"
+      }
+    },
+    {
+      "id": "reczlnGnbKehU7WEO",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "rentea",
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/@ddio/rentea-tue/%2FYVw3eVgQQb-nHIN4dDp_hg",
+        "project name": "Rentea",
+        "標籤": [
+          {
+            "id": "rec1WnkgnlgORJwfF",
+            "name": "居住"
+          }
+        ],
+        "project name EN": "Rentea"
+      }
+    },
+    {
+      "id": "reczRViXEI7jQe2EH",
+      "createdTime": "2021-06-17T21:12:22.000Z",
+      "fields": {
+        "slack channel": "mylog14",
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "document": "https://hackmd.io/@mydata-tw/H1PnXT-88/https%3A%2F%2Fhackmd.io%2FnrNjukb-RfK9fZslAwMnWQ",
+        "project name": "MyLog",
+        "project name EN": "MyLog"
+      }
+    },
+    {
+      "id": "recS7EaXMXq8ypTD9",
+      "createdTime": "2021-11-02T11:53:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          }
+        ],
+        "project name": "救救食蛇龜",
+        "標籤": [
+          {
+            "id": "recsY2z4EIqi7mjMS",
+            "name": "生物物種保育"
+          }
+        ],
+        "Website URL": "https://g0v.github.io/cuora/"
+      }
+    },
+    {
+      "id": "recN7zoJUpiHiDcxV",
+      "createdTime": "2021-11-02T12:34:46.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recd3ph9wggcZ15vS",
+            "name": "12-SDGS-負責任生產消費循環"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/QcP9ICltSEWkgkQ1x7p7hA",
+        "project name": "掃了再買"
+      }
+    },
+    {
+      "id": "recr6BQcSn8OYZSZO",
+      "createdTime": "2021-11-02T12:34:47.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "project name": "透明足跡",
+        "標籤": [
+          {
+            "id": "recpHXquZSQ7HH1qj",
+            "name": "與 NGO 合作"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recABYbRJCOO1ssZf",
+      "createdTime": "2021-11-02T13:20:12.000Z",
+      "fields": {
+        "non-slack": "https://www.facebook.com/groups/876229695725086/",
+        "影響力類別": [
+          {
+            "id": "recUfdxNspBkJjqCn",
+            "name": "16-SDGS-和平、正義和公平的制度"
+          },
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/T-S5xZOVSIWdv45noYmsUA",
+        "project name": "貪汙查詢網站",
+        "標籤": [
+          {
+            "id": "rec6IUt1b7HkQ9i0I",
+            "name": "貪污判決"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recF510IvGTfz7tMt",
+      "createdTime": "2021-11-02T14:00:00.000Z",
+      "fields": {
+        "slack channel": "decentralizehk",
+        "影響力類別": [
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "decentralizehk",
+        "project name EN": "decentralizehk"
+      }
+    },
+    {
+      "id": "rec7PSee9Nky2izRX",
+      "createdTime": "2026-04-21T02:48:57.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "全台縣市淨零政策現況一站掌握\n法規制定狀況、政策目標、溫室氣體排放、相關評比等\n輕鬆比較各地方政府的淨零治理表現",
+        "project name": "地方淨零觀測站",
+        "Website URL": "https://carbon-map-ten.vercel.app/"
+      }
+    },
+    {
+      "id": "recmPChEFA3OSYPZD",
+      "createdTime": "2026-04-21T02:48:59.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "2021年透明足跡在總統盃黑客松的提案—ESG檢測儀：我們與永續轉型的距離—關注在全球推動 ESG、永續轉型、綠色金融的浪潮下，企業是否真的朝向永續的目標發展。在金融、環境、企業社會責任上，ESG與面對氣候變遷的因應措施在近年都愈受關注，台灣的企業在減碳與永續的努力明顯落後於國際，不僅拖慢整體國家的轉型進程，更不利於在國際市場競爭。然而，當我們想要更進一步了解企業究竟做了哪些努力，卻只能看到金融機構公開的基金資訊，或者企業自行揭露的 CSR 報告書，不易完整了解企業在永續轉型的成果。因此，我們要透過資料的整合串接，讓企業的資訊能夠確實被看見，打開過去不夠透明、難以比較的企業環境表現。同時，也透過建立資料平台，讓更多人能一同參與到永續轉型與綠色投資的行列。",
+        "project name": "ESG觀測儀",
+        "Website URL": "https://thaubing-esg.gcaa.org.tw/"
+      }
+    },
+    {
+      "id": "receYBkgzFAv3NEoQ",
+      "createdTime": "2026-04-21T02:49:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "document": "https://docs.google.com/document/d/1rvttG-7x0Ft8B3oszf4aO1U9QJwYgZpby1ONOHJCisg/edit?tab=t.0#heading=h.y2wrlbfm1h32",
+        "project name": "臺灣各語系語言語料模型盤點",
+        "標籤": [
+          {
+            "id": "reckSHnHZfmEmmDIm",
+            "name": "語言"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recJp4XF8PE8texhF",
+      "createdTime": "2026-04-21T02:49:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recnC0ZUfvqyDBX6d",
+            "name": "7-SDGS-人人可負擔的乾淨能源"
+          }
+        ],
+        "project name": "台版 Energy Policy Simulator"
+      }
+    },
+    {
+      "id": "recxY2HMq4IT8wUhi",
+      "createdTime": "2026-04-21T02:49:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "民主不是每四年才存在一天。它存在於我們對自己住的這條街、這個里、這個區發生過什麼的記憶裡。\n\n但選舉地圖向來只給藍綠兩色的縣市色塊，輸贏一目了然，過程卻消失了。住在永和的人不知道隔壁中和怎麼變的；十年前在地的搬家了，新搬來的甚至沒看過這塊版圖以前長什麼樣子。\n\nCHANGE 想讓這份記憶可以被走進去：\n\n逐層下鑽：從台灣 → 六都 → 區 → 里，看到自己住的那一塊\n跨年回放：1994 → 2022 七場選舉，里級資料拉回 2005，看「我家這里翻了幾次」\n正反兩面：永藍 / 永綠 / 翻轉 / 搖擺，不只看誰贏，看一塊地的政治性格\n看見差距是多少：每一里都標出當選方與落後方相差幾票、要多少新票進場才能拉平 — 把「贏 / 輸」變成可看見的距離\n改變從最小的里開始。 一個里也許只有幾百戶，但每個里都是一塊可以被看見、被討論、被翻轉的單位。把焦點從「全國」拉回「我家這條街」，是這個專案的核心。",
+        "project name": "CHANGE — 台灣選戰版圖",
+        "github": "https://github.com/ileivoivm/change",
+        "Website URL": "https://ileivoivm.github.io/change/"
+      }
+    },
+    {
+      "id": "rec7SiPYkIn8R7L2G",
+      "createdTime": "2026-04-21T02:49:01.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recaRe0BPGfeCMFXC",
+            "name": "19-新聞訊息與媒體識讀"
+          }
+        ],
+        "Intro": "揭露 Threads 帳號註冊地區 Lee-Su-Threads _ Automatically displays location info for Threads post authors\nhttps://g0v.hackmd.io/XkZCEKlkTo-FsAlKHJ1ixQ?view",
+        "document": "https://g0v.hackmd.io/XkZCEKlkTo-FsAlKHJ1ixQ?view",
+        "project name": "Lee-Su-Threads _ Automatically displays location info for Threads post authors / 揭露 Threads 帳號註冊地區"
+      }
+    },
+    {
+      "id": "recg2gQQ3CQDeWYT0",
+      "createdTime": "2026-04-21T02:49:01.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "「語言橋」的總入口頁：集中連結 AWS 介面、GPT / Poe Chatbots、Hugging Face Spaces、 以及未來多族群語音、部落產業經濟與原宇宙 IndigMetaverse 等服務。請從下列入口進入對應實驗或課程。\nhttps://www.facebook.com/share/v/1G2LzJUKct/",
+        "project name": "語言橋",
+        "標籤": [
+          {
+            "id": "reckSHnHZfmEmmDIm",
+            "name": "語言"
+          }
+        ],
+        "Website URL": "https://www.aciang.com/"
+      }
+    },
+    {
+      "id": "reczCDFpmeajqXHO7",
+      "createdTime": "2026-04-21T02:49:01.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "EasyBrailleEdit（易點雙視）是一套中英文點字轉譯軟體，可用於製作雙視教科書或任何雙視文件。\n\nhttps://www.facebook.com/share/p/1JSTHimyp3/",
+        "project name": "易點雙視 _ 點字工具",
+        "github": "https://github.com/braillekit/text-to-braille/",
+        "標籤": [
+          {
+            "id": "reckSHnHZfmEmmDIm",
+            "name": "語言"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec3auAvXNtmNjPME",
+      "createdTime": "2026-04-21T02:49:02.000Z",
+      "fields": {
+        "Intro": "https://www.facebook.com/share/p/17rNZM9bx3/",
+        "project name": "差旅費計算網頁",
+        "標籤": [
+          {
+            "id": "recauMVte1aZzNAq7",
+            "name": "NGO 會務"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reccauhJxkRxNZb0s",
+      "createdTime": "2026-04-21T02:49:02.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "橫著滾吧照片 https://bit.ly/3emLYmB\n大事記圖表產生工具 https://bit.ly/2Ah0MEv\n左右互搏版型 https://bit.ly/3gr3050",
+        "project name": "報導版面網頁工具"
+      }
+    },
+    {
+      "id": "recFrhn5LNGJiOIVB",
+      "createdTime": "2026-04-21T02:49:02.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "https://moogoo78.github.io/summer-cal/\nhttps://hackmd.io/@moogoo/Hk2en_oxee\nhttps://www.facebook.com/moogoo.lee/posts/pfbid02JDQvWNwTHiXpDgg9P1aG6Fv2rLVQMp7S5mSGzf9YL7DAD8qpT9mo8wZVuypDjqnDl\n",
+        "project name": "父母救星 大營家 優質營隊月曆",
+        "github": "https://github.com/moogoo78/summer-cal",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://dayingja.cc/"
+      }
+    },
+    {
+      "id": "rech2yCN0m9MwHovF",
+      "createdTime": "2026-04-21T02:49:03.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "OpenBudget 政府預算查詢",
+        "標籤": [
+          {
+            "id": "recGTzFfPBeizF0dV",
+            "name": "預算決算"
+          }
+        ],
+        "Website URL": "https://budget.openfun.app"
+      }
+    },
+    {
+      "id": "recSiTrSQddAen1eY",
+      "createdTime": "2026-04-21T02:49:03.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "https://www.facebook.com/share/p/1EQvW5xsDY/",
+        "project name": "Lawtrace 立法足跡",
+        "標籤": [
+          {
+            "id": "recETi8RBk0lIp07k",
+            "name": "立法院"
+          }
+        ],
+        "Website URL": "https://lawtrace.tw"
+      }
+    },
+    {
+      "id": "recfN5MqYeRvFSDJH",
+      "createdTime": "2026-04-21T02:49:04.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          },
+          {
+            "id": "recWJ1usIU4lvdOlk",
+            "name": "8-SDGS-良好就業和經濟成長"
+          }
+        ],
+        "project name": "台灣公司資料",
+        "Website URL": "https://company-graph.g0v.ronny.tw\n"
+      }
+    },
+    {
+      "id": "recGTri66bPQ0a9su",
+      "createdTime": "2026-04-21T02:49:04.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "project name": "台灣人工智慧學校_公民 AI 素養計畫",
+        "標籤": [
+          {
+            "id": "recTbQPHaofbg5KxI",
+            "name": "AI"
+          },
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://aiforeveryone.aiacademy.tw/"
+      }
+    },
+    {
+      "id": "recPTz3ELsK8ovLQz",
+      "createdTime": "2026-04-21T02:49:04.000Z",
+      "fields": {
+        "project name": "手開發票檢查小幫手_查詢公司全名、檢查統編、計算稅額",
+        "標籤": [
+          {
+            "id": "recauMVte1aZzNAq7",
+            "name": "NGO 會務"
+          }
+        ],
+        "Website URL": "https://invoice-helper.timdream.org/"
+      }
+    },
+    {
+      "id": "rec0VjxrL4Gc7dKtk",
+      "createdTime": "2026-04-21T02:49:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "TaskyVenture 是專為台灣家庭設計的兒童任務管理平台。 我們將日常任務融入遊戲化體驗，透過冒險地圖探索、星星獎勵收集和成語學習挑戰， 激發孩子的內在動機，培養自主完成任務的習慣， 讓家長和孩子在互動中共同成長，建立更美好的親子關係。\n\n平台網站：https://taskyventure.com/\n介紹影片：https://youtu.be/aTYFQGi-yf0\n介紹簡報：https://docs.google.com/presentation/d/1cWCYlFSFlmJfLtlpC-GSQKfy-VmSqYp1/edit\n平台開發者參加 2025 iThome 鐵人賽的完整系列，分享以 Vibe Coding 開發 TaskyVenture，與 AI 協作開發的實戰經驗：https://taskyventure.com/ironman2025",
+        "document": "https://g0v.hackmd.io/chrzXOVdQ2iiHvL1R1muYg?view",
+        "project name": "TaskyVenture - 兒童任務管理平台",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://taskyventure.com/"
+      }
+    },
+    {
+      "id": "recjxrp1mYyNRKPFS",
+      "createdTime": "2026-04-21T02:49:05.000Z",
+      "fields": {
+        "non-slack": "https://www.facebook.com/groups/2675853389340513",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "群眾標註是讓公民科學社群分享影像資訊與知識的工具，產出的資料集可以提供機器學習(AI訓練)，也可以提供社群學習(新手訓練)。 凡舉生態調查、資源盤點、汙染回報、動植物辨識、病蟲害辨識、垃圾分類等，跟影像辨識相關的議題都可以利用此工具協助收集、分析資料。\n\n社團\nhttps://www.facebook.com/groups/2675853389340513\n\n2026 評估營運議題的文件\nhttps://g0v.hackmd.io/wo_JUd4WTtaSevzXcPvc8Q?view",
+        "project name": "群眾標註地圖工具",
+        "github": "https://github.com/aga3134/CommuTag",
+        "標籤": [
+          {
+            "id": "recmNjusE9u9rOH6X",
+            "name": "群眾外包"
+          }
+        ],
+        "Website URL": "https://commutag.agawork.tw/"
+      }
+    },
+    {
+      "id": "recQtfKGY5gjHrrIo",
+      "createdTime": "2026-04-21T02:49:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "讓曾經的學校，不只是結束\n而是地方再生與希望的起點\n\n全國國小就學人數推估地圖，校地活化分析工具測試版網頁(demo)\nhttps://linktr.ee/reschool.tw\n\n專案持續整理資料集種類：\n【學校】校群地理生活圈、實驗教育、私立學校、指標辦學案例學校、停辦、廢校資料、校地釋出、學校地點地理資料、學區、學生人數、分校分班清單、學校的地理區位\n【族群領域】原住民族重點學校、平埔族群\n【人口與社福】最小統計分區、戶籍人口、社福育幼機構、校園建物\n【防災相關與潛勢】\n【地方創生與社區營造、淨零沙盒】\n【產業】公司商業與工廠、產業園區、重劃區、指標農產業地區\n【生態保育】國土綠網保育軸帶\n\n專案推動方向：\n1950 至今，已有 400+ 國小廢校空間\n2040 年，推估有 +400 國小人數歸零\n國小作為台灣社會的關鍵基礎建設，以下是四種國小轉型情境列舉：\n(1) 優先保校名單：文化多樣性 (例如族群領域、語言保存)、社福公平性 (例如育幼機構旁的學校)\n(2) 輔助轉型為實驗學校\n(3) 「半校半 X」 學校續航 (釋出部分校舍空間，結合多元活化使用)\n(4) 廢校空間用於地方永續發展 (公有建築土地活用)",
+        "document": "https://linktr.ee/reschool.tw",
+        "project name": "ReSchool 校地創生分析",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://linktr.ee/reschool.tw"
+      }
+    },
+    {
+      "id": "recfBnRJJ5aormwxa",
+      "createdTime": "2026-04-21T02:49:06.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          },
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/Es2kQkVFTuuRwrg1w4Fl0Q?view",
+        "project name": "認識植物網站",
+        "標籤": [
+          {
+            "id": "recsY2z4EIqi7mjMS",
+            "name": "生物物種保育"
+          },
+          {
+            "id": "recdNeiBAdxy2ZpkE",
+            "name": "續命 / 早年網站改版續航"
+          }
+        ],
+        "Website URL": "https://kplant.atfr.org.tw/"
+      }
+    },
+    {
+      "id": "recjihMJqe6Ijqzsg",
+      "createdTime": "2026-04-21T02:49:06.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "由青少年打造的創意程式社群\nhttps://www.hackit.one/zh-TW",
+        "document": "https://g0v.hackmd.io/ShOFQa_9SSS5EXJFlvE4cQ?view",
+        "project name": "HackIt 由青少年打造的創意程式社群",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://www.hackit.one/zh-TW"
+      }
+    },
+    {
+      "id": "rec2JxjDHsv0td3cz",
+      "createdTime": "2026-04-21T02:49:07.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "自學力製學例\n\n「透過自主學習的力量，製成後人學習的案例。」近期會著重於完善與補充實驗教育資源網。\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KcJTqG1HkRo?si=Tv2wU5ZNDNhmXWPq\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\n- 簡報：https://canva.link/d6j49hzrlvw7kxl \n- 網站：https://www.ability-of-self-studying.tw/\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Raetxwos5ss?si=0URAGf9dFSjvY-X6\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\n- 組織網站：https://www.ability-of-self-studying.tw/\n- 介紹影片：https://youtu.be/Raetxwos5ss\n- 介紹簡報：https://www.canva.com/design/DAG5dCmQQYE/U8Wv2vFL-DDiZ4xS3l8Ygg/edit",
+        "project name": "自學力製學例 _ 實驗教育資源網",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://www.ability-of-self-studying.tw/"
+      }
+    },
+    {
+      "id": "recAeUCNREg7xMWVv",
+      "createdTime": "2026-04-21T02:49:07.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "HePai | 合拍\n本專案預計開發一個結合人工智慧（AI）與音樂理論的和聲學分析應用程式—「HePai | 合拍」，以數位科技解決音樂班與音樂系學生在學習和聲學（Harmony）時所面臨的長期實務困境。\n- [介紹文件](https://hackmd.io/we3J_L8cQm6o-F_7wmUEFA)\n- [簡報](https://docs.google.com/presentation/d/1RJ5bmrySU_JsaLpvrxKOzVUpBpmjPLiSlXGGts9HuxI/edit?usp=sharing)\n- [五線譜音符元件產生器](https://github.com/percyhuang195/musicalNoteImageGenerator)\n\n- 介紹影片：\n    - 20251123 https://youtu.be/VJtW7odXh-A\n    - 20260125 https://youtu.be/UXwBZHrtidA\n- 介紹簡報：https://docs.google.com/presentation/d/1C7BCdEhBEG9mLsESnGz_8STV7hosFjiL/edit\n- 介面展示：https://ai-harmony-assistant-1761199028.netlify.app/\n- 專案計畫：https://sch001.g0v.tw/dash/prj/Qg43OOj1yoxceC8Q5.RCzBnFfu9gkV\n- g0v Slack #hepai-harmony-ai",
+        "project name": "HePai | 合拍",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          },
+          {
+            "id": "recko4eoqGAD8kTX1",
+            "name": "音樂"
+          }
+        ],
+        "Website URL": "https://ai-harmony-assistant-1761199028.netlify.app/"
+      }
+    },
+    {
+      "id": "recJvAlz5ZgSO8oRY",
+      "createdTime": "2026-04-21T02:49:08.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "藥品仿單白話文運動\n\n解構艱深藥品仿單，幫助患者理解，減少民眾、醫療人員負擔。\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CHQJHFXvpcw?si=QtPqBvZ_6MxUEWgX\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\n- 簡報：https://docs.google.com/presentation/d/1zVtEOZ9fHDqgpjTs8pPfOfxwIpFTlFm-EX3Ip3wFqJA/edit?usp=sharing\n- 網站：https://hackmd.io/@sugarcane/rkm2oqySbg\n- Prototype：https://lin.ee/ucbMS6N\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CPFSBdO0SPs?si=_4JDTvftI7L6Agio\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\n- 介紹影片：https://youtu.be/CPFSBdO0SPs\n- 介紹簡報：https://www.canva.com/design/DAG1j0HkzAA/UY9A4kiWfqLKrKfMtasdoA/view\n- 技術架構說明影片：https://youtu.be/bYB8wKl11ho\n- 技術架構圖：https://drive.google.com/drive/folders/1q-RtLZNMcHSduox7JiUtUO38Lhjvdmyw?usp=sharing\n- g0v Slack #medicineeasy",
+        "project name": "藥品仿單白話文運動",
+        "標籤": [
+          {
+            "id": "reckURZyLLwUuaoAZ",
+            "name": "健康與醫療"
+          }
+        ],
+        "Website URL": "https://lin.ee/ucbMS6N"
+      }
+    },
+    {
+      "id": "recxG1Zj5tNKjJOjC",
+      "createdTime": "2026-04-21T02:49:08.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "綠洲計畫 _ 高中升大學的特殊選才學生社群\nhttps://lzgh.org/\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/12PqukU6448?si=8Ynz2VqYEY58lvTG\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\n- 簡報：https://canva.link/k2lm82iswpnsja5\n- 網站：https://lzgh.org/",
+        "project name": "綠洲計畫 _ 高中升大學的特殊選才學生社群",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://lzgh.org/"
+      }
+    },
+    {
+      "id": "recyLB01E0lGYFBvs",
+      "createdTime": "2026-04-21T02:49:08.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recDx2rCzsNcaRbyQ",
+            "name": "9-SDGS-工業化、創新及基礎建設"
+          },
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "大台北交通流量模擬\n\nA collection of Jupyter Notebooks and Python utilities to build, solve, and visualize traffic assignment models for Taipei. This repository demonstrates data preparation, network building, demand creation, and numerical solution methods (e.g., All‑or‑Nothing, Frank‑Wolfe / User Equilibrium).\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Rkz0XuCDjKY?si=W4nUFVdU7rNe1g57\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\n- 簡報：https://docs.google.com/presentation/d/1LDf7RLWk_5SoJMhAGVBQ7cLcU09Ju_KkqHs3imFqX0g/edit?usp=sharing\n- GitHub：\n    - https://github.com/aKi-1201/TrafficAssignmentModel-Taipei/\n    - https://github.com/aKi-1201/TrafficAssignmentModel-Taipei/releases/tag/paper-v2.1\n- 分析論文成果釋出：https://github.com/aKi-1201/TrafficAssignmentModel-Taipei/releases/download/paper-v2.0/paper.pdf\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XpR60Y_3Hmk?si=zcXjRXAuzdPPQsHq\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\n- 介紹影片：https://youtu.be/XpR60Y_3Hmk\n- GitHub：https://github.com/aKi-1201/TrafficAssignmentModel-Taipei/\n- 分析論文成果釋出：https://github.com/aKi-1201/TrafficAssignmentModel-Taipei/releases/download/paper-v2.0/paper.pdf",
+        "document": "https://g0v.hackmd.io/N_FPX-6tQRyBOLafqPP1wA",
+        "project name": "大台北交通流量模擬",
+        "github": "https://github.com/aKi-1201/TrafficAssignmentModel-Taipei/",
+        "標籤": [
+          {
+            "id": "rec3reaBKniF5ebDo",
+            "name": "交通 / MRT"
+          },
+          {
+            "id": "recPUmefcE15lQsyi",
+            "name": "路徑分析"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recahwgRgXj1CIRCM",
+      "createdTime": "2026-04-21T02:49:09.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          },
+          {
+            "id": "recKnrWiRUL8luYtx",
+            "name": "2-SDGS-終結飢餓"
+          },
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "project name": "營養午餐菜色評價工具",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          },
+          {
+            "id": "recHwo5FXzd5ZHRzA",
+            "name": "食物 Food / 廚餘堆肥"
+          }
+        ],
+        "Website URL": "https://tainan.olc.tw/p/fatraceschool/"
+      }
+    },
+    {
+      "id": "recivhx3fYB9MVgUM",
+      "createdTime": "2026-04-21T02:49:09.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recKYx9vjoJ6p0gyE",
+            "name": "1-SDGS-終結貧窮"
+          }
+        ],
+        "project name": "收款人帳戶安全守護站",
+        "Website URL": "https://pcit-tw.netlify.app/"
+      }
+    },
+    {
+      "id": "recnFilQmUwY1lXjr",
+      "createdTime": "2026-04-21T02:49:09.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "ReJOIN - 數位公共參與體驗優化\nhttps://g0v.hackmd.io/R_CV5NE0Q06uf1gaaKfAKA\n\n- 簡報：https://www.figma.com/deck/jVYkkzVunbDXfyZC0B5xzB\n- 問卷徵集階段 https://www.facebook.com/groups/g0v.general/posts/25783249987991397",
+        "document": "https://g0v.hackmd.io/R_CV5NE0Q06uf1gaaKfAKA",
+        "project name": "ReJOIN - 數位公共參與體驗優化",
+        "標籤": [
+          {
+            "id": "recT5tqfug401TVRM",
+            "name": "UX / 使用者體驗"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recCcPSIXa7DlD6rQ",
+      "createdTime": "2026-04-21T02:49:10.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "拍台文 _ Windows / macOS / Linux 電腦台語輸入法\n拍台文是基於 Rime 的台語輸入法方案。白話字 POJ、台羅 TL 可以混著打，聲調可以先省略，候選區會顯示完整讀音，預設輸出適合日常書寫的漢羅混寫。\n\nhttps://soanseng.github.io/rime-phah-taibun/\nhttps://github.com/soanseng/rime-phah-taibun\nhttps://www.facebook.com/anatomind/posts/pfbid02RwoyjGxJbVHHtJEwjtSqTiX9igCxfoqQBiBJQHQkMzSfCVTHdEAtwRH6EenbKvHsl",
+        "project name": "拍台文 _ Windows / macOS / Linux 電腦台語輸入法",
+        "github": "https://github.com/soanseng/rime-phah-taibun",
+        "標籤": [
+          {
+            "id": "reckSHnHZfmEmmDIm",
+            "name": "語言"
+          }
+        ],
+        "Website URL": "https://soanseng.github.io/rime-phah-taibun/"
+      }
+    },
+    {
+      "id": "recPHE1fhYz0nSklf",
+      "createdTime": "2026-04-21T02:49:10.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "運用 Google 街景當作底圖，配置空間改造構想的網頁服務\nhttps://collage.collective.tw/\nhttps://github.com/SeanGau/city-collage\n交流社團：\nhttps://www.facebook.com/groups/295496753001414",
+        "project name": "Collage 空間願景拼貼網頁工具",
+        "github": "https://github.com/SeanGau/city-collage",
+        "Website URL": "https://collage.collective.tw/"
+      }
+    },
+    {
+      "id": "recSOqbCNysGSD60l",
+      "createdTime": "2026-04-21T02:49:10.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "財產申報開放觀測站",
+        "Website URL": "https://cypriq.olc.tw/"
+      }
+    },
+    {
+      "id": "rec8lYkuE0cNSpkG8",
+      "createdTime": "2026-04-21T02:49:11.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "開放立法院 & 立法院 API\nhttps://openfunltd.github.io/law-diff/",
+        "project name": "開放立法院 & 立法院 API",
+        "標籤": [
+          {
+            "id": "recETi8RBk0lIp07k",
+            "name": "立法院"
+          }
+        ],
+        "Website URL": "https://openfunltd.github.io/law-diff/"
+      }
+    },
+    {
+      "id": "recwjPB06sTb3Ufiz",
+      "createdTime": "2026-04-21T02:49:11.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "利用獨立主機加上 4090 顯示卡，建立自動化更新機制，在八個委員會同時開會的情況下，也能夠接近即時（影片釋出後半小時內）產製逐字稿，可產生文字供後續 AI 使用，讓大家不用盯場看影片也可以追蹤立法院發生什麼事。\nhttps://dataly.openfun.app/collection/list/ivod",
+        "project name": "立法院國會頻道AI即時轉換逐字稿 LegislatureAI\n",
+        "標籤": [
+          {
+            "id": "recETi8RBk0lIp07k",
+            "name": "立法院"
+          }
+        ],
+        "Website URL": "https://dataly.openfun.app/collection/list/ivod"
+      }
+    },
+    {
+      "id": "recoK4FDY4e4JS3HJ",
+      "createdTime": "2026-04-21T02:49:12.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "把中華民國政府電子採購網的資料，能夠以更簡潔方便的方式顯示，以便更容易讓政府採購的資料產生價值。\nhttps://openfunltd.github.io/pcc-viewer/\n\n後端API程式碼：https://github.com/ronnywang/pcc.g0v.ronny.tw\n前端展示程式碼：https://github.com/ronnywang/pcc-viewer",
+        "project name": "標案資料瀏覽",
+        "github": "https://github.com/ronnywang/pcc.g0v.ronny.tw",
+        "標籤": [
+          {
+            "id": "recYGaP3Aczv8Tk2Q",
+            "name": "政府採購標案"
+          }
+        ],
+        "Website URL": "https://openfunltd.github.io/pcc-viewer/"
+      }
+    },
+    {
+      "id": "recxoEmd6YCrDieev",
+      "createdTime": "2026-04-21T02:49:12.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "一個完整的即時語音轉錄和翻譯系統，具備網頁介面和 YouTube 同步支援。",
+        "project name": "OpenTransLive 開源即時語音翻譯系統",
+        "github": "https://github.com/g0v/OpenTransLive",
+        "標籤": [
+          {
+            "id": "reckSHnHZfmEmmDIm",
+            "name": "語言"
+          },
+          {
+            "id": "recHmDvNHjisM3izf",
+            "name": "翻譯"
+          }
+        ],
+        "Website URL": "https://transcribe.g0v.tw/"
+      }
+    },
+    {
+      "id": "rec6x4PzlErfomCKm",
+      "createdTime": "2026-04-21T02:49:13.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "https://g0v.hackmd.io/@jothon/ngo/",
+        "project name": "NGO 會務類專案工具",
+        "標籤": [
+          {
+            "id": "recpHXquZSQ7HH1qj",
+            "name": "與 NGO 合作"
+          },
+          {
+            "id": "recauMVte1aZzNAq7",
+            "name": "NGO 會務"
+          }
+        ],
+        "Website URL": "https://g0v.hackmd.io/@jothon/ngo/"
+      }
+    },
+    {
+      "id": "reci5WI5WxAW4uwHl",
+      "createdTime": "2026-04-21T02:49:13.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recnC0ZUfvqyDBX6d",
+            "name": "7-SDGS-人人可負擔的乾淨能源"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/@jothon/energy/",
+        "project name": "能源類專案",
+        "標籤": [
+          {
+            "id": "recVkEyEwc5QiELI9",
+            "name": "能源 / 電力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recBNXyNQWDkHW754",
+      "createdTime": "2026-04-21T02:49:14.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "Sensemaker 意見綜整器是一個強大的意見調查報告分析工具，可以幫助您從大量意見調查報告中提取有價值的洞察。",
+        "project name": "Sensemaker 意見綜整器",
+        "github": "https://github.com/bestian/sensemaking-tools/",
+        "Website URL": "https://make.vtaiwan.tw/"
+      }
+    },
+    {
+      "id": "recVDSrLIt0VVD6MS",
+      "createdTime": "2026-04-21T02:49:14.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "憲法法庭判決資料應用\n\nhttps://docs.google.com/document/d/1JcBxsGY7ygGGCXAEdWkt-2EGqQyvYBybAwLd0RFJJPQ/edit?tab=t.0",
+        "project name": "Add C0urt｜憲庭加好友",
+        "標籤": [
+          {
+            "id": "recrYcUqpRnudRShb",
+            "name": "司法判決"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reczRV5Xq49W7CIrj",
+      "createdTime": "2026-04-21T02:49:14.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "Talk to the City (T3C) helps large groups of people coordinate by understanding each other better. It's an open-source tool for public consultation that solves the trade-off between depth and scale, using LLMs for comprehensive analysis of large response data. Whether you're soliciting general feedback from thousands of constituents, or untangling subtle details of a complex concern, T3C preserves the nuance of individual views while making sense of the collective conversation.",
+        "project name": "Talk to the City (T3C)",
+        "github": "https://github.com/AIObjectives/tttc-light-js",
+        "Website URL": "https://talktothe.city/"
+      }
+    },
+    {
+      "id": "recnZPjioUOPqHgXZ",
+      "createdTime": "2026-05-02T20:59:23.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "Civil Society Cyber Shield (CSCS) 公民團體資安暨隱私交流計劃  台灣擁有在國際間相當知名的開源社群，亦有著極為活躍但面臨風險的公民社會。為了促進這兩個社群之間的交流，2017 年，開放文化基金會國際交流組與華人民主書院、台灣駭客協會、台灣人權促進會共四個組織共同開啟 CSCS 專案：Civil Society Cyber Shield，讓社會運動與組織者能夠接觸最新的資安工具、對抗資安威脅，在安全的線上環境中推動社會議題。",
+        "project name": "公民團體資安暨隱私交流計劃 Civil Society Cyber Shield (CSCS)",
+        "標籤": [
+          {
+            "id": "recoq9E6bzdnOrPK9",
+            "name": "資安 / 資訊安全"
+          }
+        ],
+        "Website URL": "https://cscs.asia"
+      }
+    },
+    {
+      "id": "rec19R2IbQNzgGBT1",
+      "createdTime": "2026-05-02T20:59:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "「開放民間租屋資料」希望提供對租屋議題有興趣的單位，一份長期、開放，而且詳細的租屋資料集， 去除有著作權與隱私疑慮的資料後，以 CC0 釋出，為台灣的租賃市場與居住議題建立研究的基礎資料。\n\n本資料集的來源目前為591 租屋網， 後續也會持續擴充資料來源至各大租屋網與其他代管業者的公開資訊， 預計每月、每季、每年都會發佈一份該期間內曾經出現過的所有出租物件， 除了資料標準化外，不做額外的資料處理與刪減，希望盡量保持資料的原始狀態。\n\n本資料集是以現狀提供，並在相關法律容許的最大範圍內，主張免除提供者所有的擔保責任， 包括但不限於合用性、正確性、權利瑕疵等，使用者並須為其後個案的使用情境自負其責，不得歸咎於提供者。",
+        "project name": "開放台灣民間租屋資料",
+        "github": "https://github.com/g0v/tw-rental-house-data",
+        "標籤": [
+          {
+            "id": "rec1WnkgnlgORJwfF",
+            "name": "居住"
+          }
+        ],
+        "Website URL": "https://rentalhouse.g0v.ddio.io/"
+      }
+    },
+    {
+      "id": "recu8RFYnCVjJIxhL",
+      "createdTime": "2026-05-02T20:59:39.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/Ylob5q1rR361wt6RIzYBSA",
+        "project name": "物資捐贈類專案",
+        "標籤": [
+          {
+            "id": "recTbVXCmn68RATTG",
+            "name": "物資捐贈"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recTNF7M2talZEohw",
+      "createdTime": "2026-05-02T20:59:40.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          },
+          {
+            "id": "recd3ph9wggcZ15vS",
+            "name": "12-SDGS-負責任生產消費循環"
+          }
+        ],
+        "document": "https://g0v.hackmd.io/QOG_rmLVS2GwFydIsI1Uyg?view",
+        "project name": "沃土計畫堆肥箱實作推廣",
+        "標籤": [
+          {
+            "id": "recO5orMgf9jx4vwz",
+            "name": "農業"
+          },
+          {
+            "id": "recHwo5FXzd5ZHRzA",
+            "name": "食物 Food / 廚餘堆肥"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recTpRSWcgCnz9p5T",
+      "createdTime": "2026-05-02T20:59:40.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "2026 Ronny 投入維護續航\nhttps://www.facebook.com/share/p/1B5yziCtso/",
+        "project name": "swonline  2D 線上網頁",
+        "標籤": [
+          {
+            "id": "recdNeiBAdxy2ZpkE",
+            "name": "續命 / 早年網站改版續航"
+          }
+        ],
+        "Website URL": "https://g0v.github.io/swonline/"
+      }
+    },
+    {
+      "id": "rec9GxQtCOjiapXu0",
+      "createdTime": "2026-05-02T20:59:46.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "收錄歷年及最新中央政府預算審議情形，包含立委提案刪減和凍結的緣由和金額，便於搜尋及比較，更能即時追蹤最新審議進度。還可透過視覺化方式瀏覽，一目暸然。除了已數位化的資料，此平台也透過群眾協力（crowdsourcing）辨識提案掃描檔，歡迎至協作區加入合作行列。",
+        "project name": "中央政府總預算案審查監督平台",
+        "標籤": [
+          {
+            "id": "recGTzFfPBeizF0dV",
+            "name": "預算決算"
+          }
+        ],
+        "Website URL": "https://watchmoney.ccw.org.tw/"
+      }
+    },
+    {
+      "id": "rech3CWoFGkSfZpsc",
+      "createdTime": "2026-05-02T20:59:46.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "中央政府【總預算案】審查監督平台，114年中央政府總預算案審查，立委提出哪些刪減和建議？透過「隨機」和「分類」模式一目暸然。\nhttps://www.readr.tw/project/3/2025budget/",
+        "project name": "中央政府【總預算案】審查監督平台",
+        "標籤": [
+          {
+            "id": "recGTzFfPBeizF0dV",
+            "name": "預算決算"
+          }
+        ],
+        "Website URL": "https://www.readr.tw/project/3/2025budget/"
+      }
+    },
+    {
+      "id": "recKq7Ev5zZyCIaQB",
+      "createdTime": "2026-05-02T20:59:46.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "MCP 是 AI agent 的開放協定 — Claude、Cursor、OpenClaw、Hermes、自架 agent loop 都能直接接。Twinkle Hub 把台灣各家資料源整理成一個 MCP 端點，你只要在客戶端設定一次，AI 就能查資料集、下查詢、用工具。\nhttps://hub.twinkleai.tw/\n\nhttps://www.facebook.com/share/p/1BNSKuQ6VX/",
+        "project name": "Twinkle Hub _台灣資料的 MCP Hub",
+        "標籤": [
+          {
+            "id": "recE2TLn2FLLZONHR",
+            "name": "opendata"
+          }
+        ],
+        "Website URL": "https://hub.twinkleai.tw/"
+      }
+    },
+    {
+      "id": "recOJ1n9lrry0gJqO",
+      "createdTime": "2026-05-02T20:59:46.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          },
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "人人都可以透過分享、建立、整理文本與語音資料集，來保存、振興及發揚自己的語言。朗讀文本，唸出你的語言的句子，貢獻到世界上最為多元、且由公眾參與的語音資料集。",
+        "project name": "Mozilla Common Voice\n",
+        "標籤": [
+          {
+            "id": "reckSHnHZfmEmmDIm",
+            "name": "語言"
+          }
+        ],
+        "Website URL": "https://commonvoice.mozilla.org"
+      }
+    },
+    {
+      "id": "recQfHjbnXyItIUEH",
+      "createdTime": "2026-05-02T20:59:46.000Z",
+      "fields": {
+        "document": "https://g0v.hackmd.io/NXETiuIcRaeJ6qlntGBtuA?view",
+        "project name": "How Internet Works 網路治理介紹素材",
+        "標籤": [
+          {
+            "id": "recd9ANO6c4U06Z38",
+            "name": "網路治理"
+          },
+          {
+            "id": "recoq9E6bzdnOrPK9",
+            "name": "資安 / 資訊安全"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recW33DJSrK8nZh0i",
+      "createdTime": "2026-05-02T20:59:46.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "開放科技車庫（Open Tech Garage）是一個聚焦於評估、分析與測試多種開源軟體工具的專案，目標在於提供透明且客觀的資訊，幫助用戶—尤其是對安全與隱私有需求的使用者—做出明智的選擇。專案由開放文化基金會 (OCF) 與 伍斯特理工學院 (WPI) IQP 計畫共同推動，並獲得 APC 支持，力求結合學術研究與實務經驗，打造一個開源工具使用與推廣的平台。https://otg.ocf.tw/",
+        "project name": "開放科技車庫 Open Tech Garage",
+        "標籤": [
+          {
+            "id": "recoq9E6bzdnOrPK9",
+            "name": "資安 / 資訊安全"
+          }
+        ],
+        "Website URL": "https://otg.ocf.tw/"
+      }
+    },
+    {
+      "id": "reczbsfxNG6XsGDet",
+      "createdTime": "2026-05-02T20:59:46.000Z",
+      "fields": {
+        "document": "https://g0v.hackmd.io/T4Sq-imZTsSmzVqKI_Xnhg?view",
+        "project name": "詐騙因應對策_情境經驗蒐集_專案",
+        "標籤": [
+          {
+            "id": "recd9ANO6c4U06Z38",
+            "name": "網路治理"
+          },
+          {
+            "id": "recXuNfLyg4CDUGpL",
+            "name": "詐騙"
+          },
+          {
+            "id": "recoq9E6bzdnOrPK9",
+            "name": "資安 / 資訊安全"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec7Pi3jbF1V1iMke",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          },
+          {
+            "id": "recKYx9vjoJ6p0gyE",
+            "name": "1-SDGS-終結貧窮"
+          }
+        ],
+        "project name": "病後人生│一站式服務網",
+        "標籤": [
+          {
+            "id": "recJA9vIu3CYfNHWw",
+            "name": "社會福利 / 社福"
+          }
+        ],
+        "Website URL": "https://afterthatday.blogspot.com/"
+      }
+    },
+    {
+      "id": "recbeNa599St2fNDx",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "reck256UJUNzJmUec",
+            "name": "10-SDGS-消弭不平等"
+          }
+        ],
+        "Intro": "https://www.facebook.com/share/18jb4cqdcr/\n推薦網址：https://designbeyondbarriers.com/\nA11y 新手村：https://a11yvillage.coseeing.org",
+        "project name": "A11y 新手村",
+        "標籤": [
+          {
+            "id": "rec0PSpxvzpG8GsFT",
+            "name": "通用"
+          }
+        ],
+        "Website URL": "https://a11yvillage.coseeing.org"
+      }
+    },
+    {
+      "id": "recDB8u2c0B3y1zNC",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "應變地圖、災情通報、志工報名\n\n壯闊台灣「協作地圖」開發心得分享：\nhttps://www.forward.org.tw/tw/a/inside-collaborative-maps-update",
+        "project name": "iCanHelp 應變地圖_災情通報_志工報名",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          }
+        ],
+        "Website URL": "https://app.icanhelp.tw"
+      }
+    },
+    {
+      "id": "receslbyVKhQIEH44",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          },
+          {
+            "id": "recUfdxNspBkJjqCn",
+            "name": "16-SDGS-和平、正義和公平的制度"
+          }
+        ],
+        "Intro": "法律偵探，免費 AI 法律諮詢 · 2,202 萬筆判決書 · 每個回答都附判決出處",
+        "project name": "法律偵探 - 免費 AI 法律諮詢 ",
+        "github": "https://github.com/aa0101181514",
+        "標籤": [
+          {
+            "id": "recrYcUqpRnudRShb",
+            "name": "司法判決"
+          }
+        ],
+        "Website URL": "https://dr-lawbot.com/"
+      }
+    },
+    {
+      "id": "recHIr6FrJvf34Jql",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          },
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "一套結合台北開放資料的路徑規劃與視覺化系統，目標是讓導引不只看距離，也把「當下環境」納入考量，提供更貼近使用情境的路線建議。系統會把行人道路網路建成圖（graph），再用加權最短路徑來找最佳路線。核心演算法採用 Dijkstra；差別在於每段路的成本不只由距離決定，而是由多個環境特徵共同影響。以白天為例，系統會根據建物幾何與太陽方位（方位角與高度角）做陰影估計，把陰影覆蓋轉成路段權重。\n\nhttps://lee-chien-an.github.io/personal-website/project.html?id=Coolmap",
+        "project name": "NTU Cool",
+        "標籤": [
+          {
+            "id": "recPUmefcE15lQsyi",
+            "name": "路徑分析"
+          }
+        ],
+        "Website URL": "https://ntu-cooooooool.vercel.app/"
+      }
+    },
+    {
+      "id": "recK5jFAsieQB5c8i",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recUfdxNspBkJjqCn",
+            "name": "16-SDGS-和平、正義和公平的制度"
+          },
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          }
+        ],
+        "project name": "憲庭載入中",
+        "標籤": [
+          {
+            "id": "rec9Sog0r7wK7ZIo6",
+            "name": "憲法"
+          }
+        ],
+        "Website URL": "https://constitution-nine.vercel.app/future"
+      }
+    },
+    {
+      "id": "recP3Fkjx2Iel7ISl",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "這是一套 任務化的手冊，提供篇幅簡短且便於立即行動的指引活動、多元友善生產知識，以及能跟生命中的重要他人/伴侶一起完成這趟旅程。那麼，更多元的生產知識，能有機會進入孕產家庭的視野，且 產家也能更無壓力的探索孕產資源、進行相關準備。",
+        "project name": "《我們想這樣生小孩！陪伴孕產旅程的行動手冊》",
+        "標籤": [
+          {
+            "id": "recnxP1VDIBJGeP9B",
+            "name": "生育 / 孕產相關"
+          }
+        ],
+        "Website URL": "https://www.facebook.com/share/p/1EZYQNjdRU/"
+      }
+    },
+    {
+      "id": "recTKP4mirLzRi6yn",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          },
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          },
+          {
+            "id": "recoF0G2XzmbVC4bs",
+            "name": "13-SDGS-氣候變遷對策"
+          }
+        ],
+        "project name": "馬太鞍堰塞湖事件後的居住抉擇",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          }
+        ],
+        "Website URL": "https://mataian-interim-housing.web.app/"
+      }
+    },
+    {
+      "id": "recuhv82aQaUq3O5m",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          },
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          }
+        ],
+        "Intro": "開源、AI-friendly 的台灣完整知識庫",
+        "project name": "Taiwan.md",
+        "標籤": [
+          {
+            "id": "recE2TLn2FLLZONHR",
+            "name": "opendata"
+          }
+        ],
+        "Website URL": "https://taiwan.md/"
+      }
+    },
+    {
+      "id": "recvKhnv6Wd86BjRc",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          },
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "導航模式提供智能路徑規劃功能，幫助您找到最舒適、最健康的出行路線，避開高污染區域。",
+        "project name": "空污曝露路徑分析地圖",
+        "標籤": [
+          {
+            "id": "recPUmefcE15lQsyi",
+            "name": "路徑分析"
+          }
+        ],
+        "Website URL": "https://comfortrouting-beta.onrender.com/"
+      }
+    },
+    {
+      "id": "recVzfBEZgALuj9pT",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "即時通報管道：可利用慈濟專屬的 LINE 官方帳號進行災情回報，回報內容包含災害類型、精準定位、災況描述與發生時間。\nhttps://www.facebook.com/share/v/1FAp8QQmiT/",
+        "project name": "NCDR 慈濟災情通報",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recVzxqKhJmbNcJ8V",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "slack channel": "civictech_database_臺灣公民科技專案與工具資料庫及行動指引",
+        "non-slack": "https://www.facebook.com/groups/240879797438433",
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "台灣公民科技資料庫，蒐集超過 350 個公民科技專案、公民科學計畫、群眾參與式專案，提供公眾查詢，並提供公民科技行動實踐指南內容。您也可以透過與 AI 問答的方式，來取用公民科技的內容。",
+        "document": "https://g0v.hackmd.io/@jothon/civictech_doc",
+        "project name": "Civic Tech TW",
+        "標籤": [
+          {
+            "id": "recE2TLn2FLLZONHR",
+            "name": "opendata"
+          }
+        ],
+        "Website URL": "https://civictech.tw/",
+        "project name EN": "Civic Tech TW"
+      }
+    },
+    {
+      "id": "recwEGNZO8bmsejiQ",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "用最簡單的方式，在自己的筆電上、三個步驟內，架起你自己的 Kami：一個有界限、在地、私密的仁工智慧守護者。",
+        "project name": "Kami：一個有界限、在地、私密的仁工智慧守護者",
+        "標籤": [
+          {
+            "id": "recTbQPHaofbg5KxI",
+            "name": "AI"
+          }
+        ],
+        "Website URL": "https://civic.ai/tw/kami/"
+      }
+    },
+    {
+      "id": "reczKudj6UINF5sMe",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "https://www.facebook.com/share/1WKPVouvdf/",
+        "project name": "邊坡穩定風險模擬系統",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          }
+        ],
+        "Website URL": "http://211.22.241.17/dsmon/DLandSlide.html"
+      }
+    },
+    {
+      "id": "reczviTkxOXw9avSY",
+      "createdTime": "2026-05-02T21:00:00.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "https://www.facebook.com/share/p/1LcHgybgf9/",
+        "project name": "ＲＯＳＣ－訓練模擬電擊器系統",
+        "標籤": [
+          {
+            "id": "reckURZyLLwUuaoAZ",
+            "name": "健康與醫療"
+          },
+          {
+            "id": "rec4I9DjE2z35EqNu",
+            "name": "急救"
+          }
+        ],
+        "Website URL": "https://rosc.tps-ems.com.tw/"
+      }
+    },
+    {
+      "id": "recAhUFo6RcEiTdDu",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recnC0ZUfvqyDBX6d",
+            "name": "7-SDGS-人人可負擔的乾淨能源"
+          }
+        ],
+        "Intro": "漁電共生鋪排工具\nhttps://a606030jaguar-solarapp.pages.dev/\nhttps://www.facebook.com/share/p/1HceN9oscE/",
+        "project name": "漁電共生鋪排工具",
+        "標籤": [
+          {
+            "id": "rectf9bXy32sS8gwb",
+            "name": "衛星圖資"
+          },
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          },
+          {
+            "id": "reclbKH6MJcUAoupF",
+            "name": "漁業"
+          }
+        ],
+        "Website URL": "https://a606030jaguar-solarapp.pages.dev/"
+      }
+    },
+    {
+      "id": "recArS8Aqe7x6wOVT",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "project name": "高效健身訓練系統",
+        "標籤": [
+          {
+            "id": "reckURZyLLwUuaoAZ",
+            "name": "健康與醫療"
+          }
+        ],
+        "Website URL": "https://gym-course.pages.dev/"
+      }
+    },
+    {
+      "id": "recd7MTT07eaCE0Cn",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "族語AI成果網站",
+        "project name": "族語AI成果網站",
+        "標籤": [
+          {
+            "id": "reckSHnHZfmEmmDIm",
+            "name": "語言"
+          }
+        ],
+        "Website URL": "https://ai-labs.ilrdf.org.tw/"
+      }
+    },
+    {
+      "id": "receoKxCvuhU3QF76",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "project name": "民主富二代補課小站",
+        "標籤": [
+          {
+            "id": "recVIr9QZy0I1Oz0v",
+            "name": "近代民主化歷程"
+          }
+        ],
+        "Website URL": "https://booko.g0v.tw/"
+      }
+    },
+    {
+      "id": "recF6BAX3TYNNWHaO",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "Ian Open News 開放科技閱讀版",
+        "project name": "Ian Open News 開放科技閱讀版",
+        "標籤": [
+          {
+            "id": "recd9ANO6c4U06Z38",
+            "name": "網路治理"
+          }
+        ],
+        "Website URL": "https://technews.ospo.tw/reader/index.html"
+      }
+    },
+    {
+      "id": "recH2oHGzmOKcK1da",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recDx2rCzsNcaRbyQ",
+            "name": "9-SDGS-工業化、創新及基礎建設"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "台灣 AEC（建築 · 工程 · 營造）開源知識庫",
+        "標籤": [
+          {
+            "id": "recOPOiNPvktz0j5c",
+            "name": "建築執照"
+          },
+          {
+            "id": "recWEsXvca6RGKgRD",
+            "name": "建築 / 工程 / 營造"
+          }
+        ],
+        "Website URL": "https://h30190.github.io/HJPLUS_Taiwan_Architect_KB/"
+      }
+    },
+    {
+      "id": "recOz4gFaIzJpHDsu",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "FormosanBank 以建置大規模資料庫為導向的計畫，此計畫專注於保存與復振臺灣的原住民族語言。",
+        "project name": "Formosan Bank",
+        "標籤": [
+          {
+            "id": "reckSHnHZfmEmmDIm",
+            "name": "語言"
+          }
+        ],
+        "Website URL": "https://ai4commsci.gitbook.io/formosanbank"
+      }
+    },
+    {
+      "id": "recqd9WUAkrk1u3lm",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          },
+          {
+            "id": "recUfdxNspBkJjqCn",
+            "name": "16-SDGS-和平、正義和公平的制度"
+          }
+        ],
+        "Intro": "憲法急診室 CONSTITUTIONAL EMERGENCY ROOM ／ 等待中的權利分流看板",
+        "project name": "憲法急診室",
+        "github": "https://github.com/jkevintu/constitutional-er",
+        "標籤": [
+          {
+            "id": "rec9Sog0r7wK7ZIo6",
+            "name": "憲法"
+          }
+        ],
+        "Website URL": "https://constitutional-er.vercel.app/"
+      }
+    },
+    {
+      "id": "recQkZ7y2znLkNa5I",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          }
+        ],
+        "Intro": "系統旨在提供透明、易用的土地變化監測資訊，協助公眾了解各地區的土地利用現況與變化趨勢。 透過視覺化的介面，使用者可以輕鬆查閱土地變化案例的詳細資訊。資料來源為 國土利用監測整合資訊網 ，提供最新的土地變化監測資料。",
+        "project name": "國土利用監測",
+        "標籤": [
+          {
+            "id": "rectf9bXy32sS8gwb",
+            "name": "衛星圖資"
+          },
+          {
+            "id": "recwwFkh7cDpCXrxh",
+            "name": "通報舉報類功能"
+          }
+        ],
+        "Website URL": "https://landchg.olc.tw/"
+      }
+    },
+    {
+      "id": "recRfZfzF5pRiccvJ",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          }
+        ],
+        "Intro": "https://www.facebook.com/share/1CrT32KYLv/",
+        "project name": "Pocket Polis 口袋審議",
+        "標籤": [
+          {
+            "id": "recZPAiEQdIo02zkC",
+            "name": "審議工具"
+          }
+        ]
+      }
+    }
+  ]
+}
