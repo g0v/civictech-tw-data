@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 219,
+  "recordCount": 220,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -4553,6 +4553,27 @@
             "name": "審議工具"
           }
         ]
+      }
+    },
+    {
+      "id": "recrjM2nl4LJZt5Qw",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "https://www.facebook.com/share/p/193wCN5qBB/",
+        "project name": "看懂山腳斷層",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          }
+        ],
+        "Website URL": "https://shanjiao-fault-safety-0916.c1115025.chatgpt.site/"
       }
     }
   ]
