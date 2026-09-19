@@ -1,0 +1,2672 @@
+{
+ "掃描日期": "2026-09-19",
+ "網址數": 307,
+ "結果": [
+  {
+   "專案": "一鍵開大松",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/OneButton",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "中央政府預算視覺化",
+   "欄位": "Website URL",
+   "網址": "http://budget.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "中央政府預算視覺化",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/twbudget",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "中央政府預算視覺化",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@jothon/budget/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "識字題庫 / 中文識字量測試系統",
+   "欄位": "Website URL",
+   "網址": "https://literacy-db.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "識字題庫 / 中文識字量測試系統",
+   "欄位": "github",
+   "網址": "https://github.com/felixshai/literacy-db",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "識字題庫 / 中文識字量測試系統",
+   "欄位": "document",
+   "網址": "https://sch001.g0v.tw/dash/prj/3VWQ8m06DW05jP09ve04J5dcB",
+   "狀態": "擋機器",
+   "碼": 403,
+   "說明": "HTTP 403：站台擋自動檢查，不代表壞掉，要人工開一次"
+  },
+  {
+   "專案": "選前大補帖",
+   "欄位": "Website URL",
+   "網址": "https://vote.ly.g0v.tw/",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "選前大補帖",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/2020voting-guide",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "選前大補帖",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/voting.guide.tw/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "高雄氣爆",
+   "欄位": "document",
+   "網址": "https://beta.hackfoldr.org/Kaohsiung-explode-20140801/",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "碳匯城鄉",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@chewei/carbon-uptake/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "CC0 繁體中文句庫",
+   "欄位": "github",
+   "網址": "https://github.com/irvin/cc0-sentences/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "資料申請小幫手",
+   "欄位": "Website URL",
+   "網址": "https://dataopener.tw/",
+   "狀態": "死掉",
+   "碼": 525,
+   "說明": "HTTP 525"
+  },
+  {
+   "專案": "資料申請小幫手",
+   "欄位": "github",
+   "網址": "https://github.com/opengovdatatw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "disinfo",
+   "欄位": "github",
+   "網址": "https://g0v.hackmd.io/6ZbDhEwbR1mclAh-ws1B9A",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "公務人員出國考察網",
+   "欄位": "Website URL",
+   "網址": "http://report.nat.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "IDystopia 2035 數位身份大冒險",
+   "欄位": "Website URL",
+   "網址": "https://idystopia.online/",
+   "狀態": "連不上",
+   "說明": "gaierror: [Errno 8] nodename nor servname provided, or not known"
+  },
+  {
+   "專案": "IDystopia 2035 數位身份大冒險",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/IDystopia",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Think Tank Info",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/uifSua3EQ4-AO3Ul2WaaTA",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "公民即時報",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/reporter",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "政治承諾追蹤網",
+   "欄位": "document",
+   "網址": "https://www.slideshare.net/JohnsonLiang1/g0v-hackath15n",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "阿龜微氣候",
+   "欄位": "Website URL",
+   "網址": "https://agriweather.beehivedt.com/",
+   "狀態": "轉址",
+   "碼": 200,
+   "最終網址": "https://www.agriweather.com.tw/",
+   "說明": "落到 www.agriweather.com.tw"
+  },
+  {
+   "專案": "阿龜微氣候",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/agriweather",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "Wikidata",
+   "欄位": "Website URL",
+   "網址": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Ptt",
+   "欄位": "Website URL",
+   "網址": "https://term.ptt.cc/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Ptt",
+   "欄位": "github",
+   "網址": "https://github.com/Ptt-official-app/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v 國際交流公開資訊",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@chihao/rypH_tpoE?type=view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "福利請聽",
+   "欄位": "Website URL",
+   "網址": "http://listening.g0v.tw/",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "福利請聽",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/Listening-%E7%A6%8F%E5%88%A9%E8%AB%8B%E8%81%BD-173478432803859/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "國家寶藏",
+   "欄位": "Website URL",
+   "網址": "http://nationaltreasure.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "國家寶藏",
+   "欄位": "document",
+   "網址": "https://www.facebook.com/twnationaltreasure",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "國家寶藏",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/twnationaltreasure",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "Aray",
+   "欄位": "Website URL",
+   "網址": "https://aray.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Aray",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/aray",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Aray",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@jothon/ARAY",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "middle2",
+   "欄位": "Website URL",
+   "網址": "https://middle2.com/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "middle2",
+   "欄位": "github",
+   "網址": "https://github.com/middle2tw/middle2",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "LostSAR 無人機",
+   "欄位": "Website URL",
+   "網址": "https://lostsar.github.io/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "LostSAR 無人機",
+   "欄位": "github",
+   "網址": "https://github.com/lostsar/LostSAR",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "LostSAR 無人機",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/groups/1803114993339496/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "騎樓抓漏",
+   "欄位": "document",
+   "網址": "https://g0v.hackpad.tw/BvkNRjtLvQ2",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "太魯閣號列車脫軌事故災情整合平台",
+   "欄位": "Website URL",
+   "網址": "https://g0v.hackmd.io/20210402TarokoCrash",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "太魯閣號列車脫軌事故災情整合平台",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/20210402TarokoCrash",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Blulu Metrics",
+   "欄位": "Website URL",
+   "網址": "https://blulu.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Blulu Metrics",
+   "欄位": "github",
+   "網址": "https://github.com/etblue/blulu/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "shared-tw",
+   "欄位": "Website URL",
+   "網址": "https://shared-tw.icu/",
+   "狀態": "連不上",
+   "說明": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)"
+  },
+  {
+   "專案": "shared-tw",
+   "欄位": "github",
+   "網址": "https://github.com/shared-tw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "台灣路更平",
+   "欄位": "Website URL",
+   "網址": "https://www.flataiwan.com/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "台灣路更平",
+   "欄位": "github",
+   "網址": "https://github.com/twsr",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v 簡訊實聯制",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/bhLJ032GTAGl5UQF54omtw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "HackingMap",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/HackingMap",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "國會大代誌 / 新國會大代誌",
+   "欄位": "Website URL",
+   "網址": "http://ly.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "國會大代誌 / 新國會大代誌",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/ly.g0v.tw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "享食台灣",
+   "欄位": "Website URL",
+   "網址": "https://foodsharing.tw/",
+   "狀態": "連不上",
+   "說明": "gaierror: [Errno 8] nodename nor servname provided, or not known"
+  },
+  {
+   "專案": "享食台灣",
+   "欄位": "github",
+   "網址": "https://github.com/foodsharing-taiwan",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "享食台灣",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/foodsharingtaiwan",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "就地運動運動",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@flyo/homegym",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "HackStory",
+   "欄位": "Website URL",
+   "網址": "https://g0v.github.io/HackStory/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "HackStory",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/HackStory",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "未來日誌",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/T9vvHvuYT4-eLxHUVqW8Aw?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v 新手村計劃 8bit",
+   "欄位": "Website URL",
+   "網址": "http://8bit.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v 新手村計劃 8bit",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/g0village-8bit",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "秒懂災害潛勢",
+   "欄位": "Website URL",
+   "網址": "http://bit.ly/2PmxklI",
+   "狀態": "轉址",
+   "碼": 200,
+   "最終網址": "https://sheet2site.com/api/v3/index.php?key=1U2d2EiK1GLH7SaMo2VXvRYwnrO2CJZMMbpYaxslF-WI",
+   "說明": "落到 sheet2site.com"
+  },
+  {
+   "專案": "秒懂災害潛勢",
+   "欄位": "document",
+   "網址": "https://g0v.hackpad.tw/4rF7N2Ihf5r",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "寵物需要我",
+   "欄位": "Website URL",
+   "網址": "http://petneed.me/",
+   "狀態": "連不上",
+   "說明": "gaierror: [Errno 8] nodename nor servname provided, or not known"
+  },
+  {
+   "專案": "寵物需要我",
+   "欄位": "github",
+   "網址": "https://github.com/jsleetw/petneed.me",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "立委投票指南",
+   "欄位": "Website URL",
+   "網址": "https://councils.g0v.tw/",
+   "狀態": "連不上",
+   "說明": "timeout: timed out"
+  },
+  {
+   "專案": "立委投票指南",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/twly-voter-guide",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "立委投票指南",
+   "欄位": "document",
+   "網址": "https://beta.hackfoldr.org/voter_guide_tw",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "立委投票指南",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/TW.Voter.Guide/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "awesome-g0v-projects",
+   "欄位": "Website URL",
+   "網址": "https://chunyenhuang.github.io/awesome-g0v-projects/",
+   "狀態": "轉址",
+   "碼": 200,
+   "最終網址": "https://awesome.g0v.tw/",
+   "說明": "落到 awesome.g0v.tw"
+  },
+  {
+   "專案": "awesome-g0v-projects",
+   "欄位": "github",
+   "網址": "https://github.com/chunyenHuang/awesome-g0v-projects",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "蔬菜箱、食材線上訂購共筆",
+   "欄位": "Website URL",
+   "網址": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQM7mkfkLdfClq6mF6Fq-tkWQ3CjoqNSnKoeiCUgpvsy1pzCQMB3SlVVzDYCgO4LeusB1gcgtVeuZQn/pubhtml",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "蔬菜箱、食材線上訂購共筆",
+   "欄位": "document",
+   "網址": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQM7mkfkLdfClq6mF6Fq-tkWQ3CjoqNSnKoeiCUgpvsy1pzCQMB3SlVVzDYCgO4LeusB1gcgtVeuZQn/pubhtml",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Vaxx.tw",
+   "欄位": "Website URL",
+   "網址": "https://vaxx.tw/",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "g0v 零時空汙觀測網",
+   "欄位": "Website URL",
+   "網址": "https://airmap.g0v.tw/",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "g0v 零時空汙觀測網",
+   "欄位": "github",
+   "網址": "https://github.com/Aspertw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v 零時空汙觀測網",
+   "欄位": "document",
+   "網址": "https://beta.hackfoldr.org/g0vairmap",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "g0v 零時空汙觀測網",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/g0vairmap/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "專為高中生設計的管家型聊天機器人",
+   "欄位": "Website URL",
+   "網址": "https://cbfhss.tech/",
+   "狀態": "連不上",
+   "說明": "ConnectionRefusedError: [Errno 61] Connection refused"
+  },
+  {
+   "專案": "專為高中生設計的管家型聊天機器人",
+   "欄位": "github",
+   "網址": "https://github.com/CBFHSS",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "專為高中生設計的管家型聊天機器人",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/cbfhss/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "臺灣好植地 Patch by Planting",
+   "欄位": "Website URL",
+   "網址": "https://sites.google.com/view/tree-taiwan/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "臺灣好植地 Patch by Planting",
+   "欄位": "github",
+   "網址": "https://www.facebook.com/groups/573697330058183/permalink/742917706469477/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "臺灣好植地 Patch by Planting",
+   "欄位": "document",
+   "網址": "https://beta.hackfoldr.org/tree",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "臺灣好植地 Patch by Planting",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/groups/573697330058183/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "美國國會台灣觀測站",
+   "欄位": "Website URL",
+   "網址": "https://www.uswatch.tw/",
+   "狀態": "連不上",
+   "說明": "gaierror: [Errno 8] nodename nor servname provided, or not known"
+  },
+  {
+   "專案": "美國國會台灣觀測站",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/ustaiwanwatch/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "國會調查兵團",
+   "欄位": "Website URL",
+   "網址": "https://cic.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "血庫資訊",
+   "欄位": "Website URL",
+   "網址": "http://g0v.github.io/color/#blood",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "血庫資訊",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/blood",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "里伯 LINEbot 市容幫手",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@tmonk/SkgVGyrBB",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "遠距心理諮詢資訊彙整",
+   "欄位": "Website URL",
+   "網址": "http://bit.ly/g0vpsymap",
+   "狀態": "轉址",
+   "碼": 200,
+   "最終網址": "https://sheet2site.com/api/v3/index.php?key=1R-81yYOJpvZ1oitlF4QbYdjQM9kqk9FREEoqjAko09Q",
+   "說明": "落到 sheet2site.com"
+  },
+  {
+   "專案": "遠距心理諮詢資訊彙整",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/WFvCpdvYRb2uIpQb1fOosg",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "台灣 l10n 共筆",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/sQ6DFqweS_OWY6A6GpiFLQ",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "GoodJob 職場透明化運動",
+   "欄位": "Website URL",
+   "網址": "https://www.goodjob.life/about",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "GoodJob 職場透明化運動",
+   "欄位": "document",
+   "網址": "https://grants.g0v.tw/projects/588b039d015368001e64a3e5",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "ChhoeTaigi：台語文數位詞庫、辭典補完計畫",
+   "欄位": "document",
+   "網址": "https://grants.g0v.tw/projects/5a631883900e86001bf9f4d7",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "ChhoeTaigi：台語文數位詞庫、辭典補完計畫",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/ChhoeTaigi/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "Disfactory",
+   "欄位": "Website URL",
+   "網址": "https://disfactory.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Disfactory",
+   "欄位": "github",
+   "網址": "https://github.com/Disfactory",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Disfactory",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@yukaii/Disfactory/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "鄉民關心你",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/yPWLyMvsQEiPXX32tsAkvA",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "covid19-data-list",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/covid19-data-list",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "金流百科",
+   "欄位": "Website URL",
+   "網址": "https://g0v-money-flow.github.io/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "金流百科",
+   "欄位": "github",
+   "網址": "https://github.com/g0v-money-flow",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "金流百科",
+   "欄位": "document",
+   "網址": "https://hackmd.io/4pyaJBQNSouvvtjdMbiuKQ?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "農業災損幾多錢",
+   "欄位": "Website URL",
+   "網址": "http://uav-fly.nchu.edu.tw/g0vAna/",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "零時小學校",
+   "欄位": "Website URL",
+   "網址": "https://sch001.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0ver-box",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/g0ver-box",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "每月社群大小事",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/JoNZjrU9TjO6oR5OcJ0Dng",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v 公報",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/?nav=search&q=%E5%85%AC%E5%A0%B1",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "2021 疫情紓困振興方案整理",
+   "欄位": "Website URL",
+   "網址": "https://sheet2site.com/api/v3/index.php?key=1yhRyeTzmZgw05qN1jDqoMb11LFjDciYyKQ_BQgLx6OM",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "2021 疫情紓困振興方案整理",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/2iYwwJMATOSFhl22Fh633g",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Summit",
+   "欄位": "Website URL",
+   "網址": "https://summit.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "班表小幫手",
+   "欄位": "Website URL",
+   "網址": "https://tw-shift-schedule.firebaseapp.com/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "班表小幫手",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/tw-shift-schedule",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "開源出版",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@jothon/content/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "割闌尾計畫",
+   "欄位": "Website URL",
+   "網址": "http://appy.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "割闌尾計畫",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/Appendectomy/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "司法陽光網－判決書API計畫",
+   "欄位": "Website URL",
+   "網址": "https://sunshine.jrf.org.tw/",
+   "狀態": "連不上",
+   "說明": "timeout: timed out"
+  },
+  {
+   "專案": "司法陽光網－判決書API計畫",
+   "欄位": "github",
+   "網址": "https://github.com/yudazilian/SunnyJudge",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "司法陽光網－判決書API計畫",
+   "欄位": "document",
+   "網址": "https://www.jrf.org.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v database",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/eC2vgApVTu2AT7UmHeLDEg?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "bridge",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/bridge",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "吉祥物資料蒐集",
+   "欄位": "Website URL",
+   "網址": "http://bit.ly/2GkInGT",
+   "狀態": "轉址",
+   "碼": 200,
+   "最終網址": "https://sheet2site.com/api/v3/index.php?key=1WW5QYjIowWf5g3h8s1PPnwB2olaa_rfA6HVdJjg4JEw",
+   "說明": "落到 sheet2site.com"
+  },
+  {
+   "專案": "吉祥物資料蒐集",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@chewei/actor/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "HackFoldr",
+   "欄位": "github",
+   "網址": "https://github.com/hackfoldr/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Jothon 揪松團",
+   "欄位": "Website URL",
+   "網址": "https://jothon.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Jothon 揪松團",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/jothon-net",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "公民科學計畫蒐集",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/x92toIppQvqejXgBJKFQSw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "求職小幫手",
+   "欄位": "Website URL",
+   "網址": "https://jobhelper.g0v.ronny.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "金錢報",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/sunshine.cy",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v 社群九分鐘",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@jothon/community99",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "新聞小幫手",
+   "欄位": "Website URL",
+   "網址": "https://newshelper.g0v.tw/",
+   "狀態": "死掉",
+   "碼": 500,
+   "說明": "HTTP 500"
+  },
+  {
+   "專案": "新聞小幫手",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/newshelper-extension",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "新聞小幫手",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/newshelper/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "HackFoldr 2.0",
+   "欄位": "Website URL",
+   "網址": "http://beta.hackfoldr.org/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "HackFoldr 2.0",
+   "欄位": "github",
+   "網址": "https://github.com/hackfoldr/hackfoldr-2.0",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v-shadow 影子政府網站",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/g0v-shadow",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v-intl",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@chihao/rypH_tpoE?type=view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "政治獻金數位化",
+   "欄位": "Website URL",
+   "網址": "https://campaign-finance.g0v.ctiml.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "政治獻金數位化",
+   "欄位": "github",
+   "網址": "https://github.com/ctiml/campaign-finance.g0v.ctiml.tw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "政治獻金數位化",
+   "欄位": "Facebook Page Link",
+   "網址": "http://facebook.com/cy.sunshine/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "都市計畫委員會會議記錄資料庫",
+   "欄位": "Website URL",
+   "網址": "https://commission.urbancode.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "都市計畫委員會會議記錄資料庫",
+   "欄位": "document",
+   "網址": "https://hackfoldr.urbancode.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "你被服貿了嗎?",
+   "欄位": "Website URL",
+   "網址": "http://tisa.g0v.tw/",
+   "狀態": "連不上",
+   "說明": "timeout: timed out"
+  },
+  {
+   "專案": "CoTeach",
+   "欄位": "Website URL",
+   "網址": "https://coteach.app/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "CoTeach",
+   "欄位": "github",
+   "網址": "https://github.com/coteach",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "臺灣黑熊通報與資訊平台",
+   "欄位": "document",
+   "網址": "https://hackmd.io/@tai271828/rJq_CxbgY",
+   "狀態": "擋機器",
+   "碼": 403,
+   "說明": "HTTP 403：站台擋自動檢查，不代表壞掉，要人工開一次"
+  },
+  {
+   "專案": "Yet Another g0v Hub",
+   "欄位": "Website URL",
+   "網址": "https://amb.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Yet Another g0v Hub",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/ambassador",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v開放授權小幫手",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/cchelper",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "智慧型植物辨識圖鑑",
+   "欄位": "Website URL",
+   "網址": "https://plant-tw.github.io",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "智慧型植物辨識圖鑑",
+   "欄位": "document",
+   "網址": "https://grants.g0v.tw/projects/5a49255d8b4d8d001efe2e6a",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "臺灣防空識別區快訊",
+   "欄位": "github",
+   "網址": "https://github.com/felixshai/Taiwan_ADIZ_alerts",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "臺灣防空識別區快訊",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/iGSe35vzSm6QhrkFnWSeYg",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "記者證",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/MzMo96KiQFO-u9MLWyPPLQ",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "全國重度級急救責任醫院急診即時訊息",
+   "欄位": "Website URL",
+   "網址": "http://er.mohw.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "賽豬公上太空",
+   "欄位": "Website URL",
+   "網址": "http://nspo.g0v.tw/",
+   "狀態": "連不上",
+   "說明": "timeout: timed out"
+  },
+  {
+   "專案": "無家者小幫手",
+   "欄位": "Website URL",
+   "網址": "https://homeless-helper.doyouaflavor.tw/",
+   "狀態": "連不上",
+   "說明": "gaierror: [Errno 8] nodename nor servname provided, or not known"
+  },
+  {
+   "專案": "Foodlessons",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@dana/foodlesson",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "面海松",
+   "欄位": "Website URL",
+   "網址": "https://fto.asia/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "面海松",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@pm5/rJriRnlqE/",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "台電睦鄰金流大解析",
+   "欄位": "Website URL",
+   "網址": "https://opentaipower.g0v.tw/",
+   "狀態": "死掉",
+   "碼": 522,
+   "說明": "HTTP 522"
+  },
+  {
+   "專案": "萌典",
+   "欄位": "Website URL",
+   "網址": "https://www.moedict.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "萌典",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/moedict-webkit",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "萌典",
+   "欄位": "document",
+   "網址": "http://x.co/moedict",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "萌典",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/MoeDict/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "公有地大行動 / 天龍特公地",
+   "欄位": "Website URL",
+   "網址": "http://taipei-pop.herokuapp.com/",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "公有地大行動 / 天龍特公地",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/POPonFire",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "公有地大行動 / 天龍特公地",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/POPonFire/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "OPEN 集團",
+   "欄位": "Website URL",
+   "網址": "https://thaubing.gcaa.org.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "OPEN 集團",
+   "欄位": "document",
+   "網址": "https://grants.g0v.tw/projects/596c662fd60a0d001ed1f8ea",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Herstory",
+   "欄位": "Website URL",
+   "網址": "https://herstory-of-east-asia.netlify.app/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "iTaigi 愛台語",
+   "欄位": "Website URL",
+   "網址": "https://itaigi.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "iTaigi 愛台語",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/itaigi",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "預算視覺化產生器",
+   "欄位": "Website URL",
+   "網址": "http://budget.tonyq.org/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "預算視覺化產生器",
+   "欄位": "github",
+   "網址": "https://github.com/tony1223/tw-budget-platform",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "臺灣神手 開源義肢",
+   "欄位": "Website URL",
+   "網址": "https://sites.google.com/view/twgodhand",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "臺灣神手 開源義肢",
+   "欄位": "github",
+   "網址": "https://sites.google.com/view/twgodhand/%E9%96%8B%E6%BA%90-open-source?authuser=0",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "COVID-19 野生資訊整合平台",
+   "欄位": "Website URL",
+   "網址": "https://g0v.hackmd.io/@yitzu/covid-19",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "COVID-19 野生資訊整合平台",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@yitzu/covid-19",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "超農域",
+   "欄位": "Website URL",
+   "網址": "https://g0v.github.io/agriculture/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "幸福存摺",
+   "欄位": "Website URL",
+   "網址": "https://www.happinessbankbook.org/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "幸福存摺",
+   "欄位": "github",
+   "網址": "https://github.com/chunyenHuang/piggy-bank-of-happiness",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "台灣公司登記資料",
+   "欄位": "github",
+   "網址": "https://github.com/ronnywang/twcompany",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Bifrost 物資管理平台",
+   "欄位": "github",
+   "網址": "https://github.com/bifrostio/bifrost",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "立委咖電喂",
+   "欄位": "Website URL",
+   "網址": "http://call.ly.g0v.tw/",
+   "狀態": "連不上",
+   "說明": "gaierror: [Errno 8] nodename nor servname provided, or not known"
+  },
+  {
+   "專案": "立委咖電喂",
+   "欄位": "document",
+   "網址": "http://beta.hackfoldr.org/callliwei",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "政誌",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/twangry",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "八仙塵爆資訊整合 hackfoldr",
+   "欄位": "document",
+   "網址": "http://beta.hackfoldr.org/627pray/",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "vTaiwan",
+   "欄位": "Website URL",
+   "網址": "https://vtaiwan.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "g0v 社群治理目錄",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/vYdTfaYeR7SnIU3zT5evOw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "醫療前線注藥流速計算",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/s5zHXaKUTEazpt4_9AuV-Q",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "阿美語萌典",
+   "欄位": "Website URL",
+   "網址": "https://amis.moedict.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "阿美語萌典",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/amis-moedict",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "阿美語萌典",
+   "欄位": "document",
+   "網址": "http://bit.ly/2zhlt2t",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "阿美語萌典",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/amis.moedict/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "武漢肺炎歷史軌跡比對",
+   "欄位": "Website URL",
+   "網址": "https://yjlou.github.io/2019-nCov/?hl=zh-TW",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "武漢肺炎歷史軌跡比對",
+   "欄位": "github",
+   "網址": "https://github.com/yjlou/2019-nCov",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Cofacts 真的假的",
+   "欄位": "Website URL",
+   "網址": "https://cofacts.g0v.tw/",
+   "狀態": "擋機器",
+   "碼": 403,
+   "說明": "HTTP 403：站台擋自動檢查，不代表壞掉，要人工開一次"
+  },
+  {
+   "專案": "Cofacts 真的假的",
+   "欄位": "github",
+   "網址": "https://github.com/cofacts",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Cofacts 真的假的",
+   "欄位": "document",
+   "網址": "https://beta.hackfoldr.org/cofacts",
+   "狀態": "死掉",
+   "碼": 404,
+   "說明": "HTTP 404"
+  },
+  {
+   "專案": "Cofacts 真的假的",
+   "欄位": "Facebook Page Link",
+   "網址": "https://www.facebook.com/cofacts.tw/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "糖業鐵路情報蒐集",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/vqFSJtTNSye3M7dNLWz3QQ",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "CourseAPI",
+   "欄位": "github",
+   "網址": "https://github.com/Open-Edu-Tw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "CourseAPI",
+   "欄位": "document",
+   "網址": "https://toedu.notion.site/CourseAPI-4e8faffe36c144058176dec509f15366",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "大河小溪全民齊督工",
+   "欄位": "Website URL",
+   "網址": "https://river-watcher.bambooculture.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "島島阿學",
+   "欄位": "Website URL",
+   "網址": "https://www.daotw.tk/",
+   "狀態": "連不上",
+   "說明": "gaierror: [Errno 8] nodename nor servname provided, or not known"
+  },
+  {
+   "專案": "島島阿學",
+   "欄位": "github",
+   "網址": "https://github.com/LeeLin2602/DaoTW",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Rentea",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@ddio/rentea-tue/%2FYVw3eVgQQb-nHIN4dDp_hg",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "MyLog",
+   "欄位": "document",
+   "網址": "https://hackmd.io/@mydata-tw/H1PnXT-88/https%3A%2F%2Fhackmd.io%2FnrNjukb-RfK9fZslAwMnWQ",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "救救食蛇龜",
+   "欄位": "Website URL",
+   "網址": "https://g0v.github.io/cuora/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "掃了再買",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/QcP9ICltSEWkgkQ1x7p7hA",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "貪汙查詢網站",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/T-S5xZOVSIWdv45noYmsUA",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "地方淨零觀測站",
+   "欄位": "Website URL",
+   "網址": "https://carbon-map-ten.vercel.app/",
+   "狀態": "轉址",
+   "碼": 200,
+   "最終網址": "https://localnetzero.gcaa.org.tw/",
+   "說明": "落到 localnetzero.gcaa.org.tw"
+  },
+  {
+   "專案": "ESG觀測儀",
+   "欄位": "Website URL",
+   "網址": "https://thaubing-esg.gcaa.org.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "臺灣各語系語言語料模型盤點",
+   "欄位": "document",
+   "網址": "https://docs.google.com/document/d/1rvttG-7x0Ft8B3oszf4aO1U9QJwYgZpby1ONOHJCisg/edit?tab=t.0#heading=h.y2wrlbfm1h32",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "CHANGE — 台灣選戰版圖",
+   "欄位": "Website URL",
+   "網址": "https://ileivoivm.github.io/change/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "CHANGE — 台灣選戰版圖",
+   "欄位": "github",
+   "網址": "https://github.com/ileivoivm/change",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Lee-Su-Threads _ Automatically displays location info for Threads post authors / 揭露 Threads 帳號註冊地區",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/XkZCEKlkTo-FsAlKHJ1ixQ?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "語言橋",
+   "欄位": "Website URL",
+   "網址": "https://www.aciang.com/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "易點雙視 _ 點字工具",
+   "欄位": "github",
+   "網址": "https://github.com/braillekit/text-to-braille/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "父母救星 大營家 優質營隊月曆",
+   "欄位": "Website URL",
+   "網址": "https://dayingja.cc/",
+   "狀態": "連不上",
+   "說明": "gaierror: [Errno 8] nodename nor servname provided, or not known"
+  },
+  {
+   "專案": "父母救星 大營家 優質營隊月曆",
+   "欄位": "github",
+   "網址": "https://github.com/moogoo78/summer-cal",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "OpenBudget 政府預算查詢",
+   "欄位": "Website URL",
+   "網址": "https://budget.openfun.app",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Lawtrace 立法足跡",
+   "欄位": "Website URL",
+   "網址": "https://lawtrace.tw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "台灣公司資料",
+   "欄位": "Website URL",
+   "網址": "https://company-graph.g0v.ronny.tw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "台灣人工智慧學校_公民 AI 素養計畫",
+   "欄位": "Website URL",
+   "網址": "https://aiforeveryone.aiacademy.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "手開發票檢查小幫手_查詢公司全名、檢查統編、計算稅額",
+   "欄位": "Website URL",
+   "網址": "https://invoice-helper.timdream.org/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "TaskyVenture - 兒童任務管理平台",
+   "欄位": "Website URL",
+   "網址": "https://taskyventure.com/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "TaskyVenture - 兒童任務管理平台",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/chrzXOVdQ2iiHvL1R1muYg?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "群眾標註地圖工具",
+   "欄位": "Website URL",
+   "網址": "https://commutag.agawork.tw/",
+   "狀態": "死掉",
+   "碼": 502,
+   "說明": "HTTP 502"
+  },
+  {
+   "專案": "群眾標註地圖工具",
+   "欄位": "github",
+   "網址": "https://github.com/aga3134/CommuTag",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "ReSchool 校地創生分析",
+   "欄位": "Website URL",
+   "網址": "https://linktr.ee/reschool.tw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "ReSchool 校地創生分析",
+   "欄位": "document",
+   "網址": "https://linktr.ee/reschool.tw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "認識植物網站",
+   "欄位": "Website URL",
+   "網址": "https://kplant.atfr.org.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "認識植物網站",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/Es2kQkVFTuuRwrg1w4Fl0Q?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "HackIt 由青少年打造的創意程式社群",
+   "欄位": "Website URL",
+   "網址": "https://www.hackit.one/zh-TW",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "HackIt 由青少年打造的創意程式社群",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/ShOFQa_9SSS5EXJFlvE4cQ?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "自學力製學例 _ 實驗教育資源網",
+   "欄位": "Website URL",
+   "網址": "https://www.ability-of-self-studying.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "HePai | 合拍",
+   "欄位": "Website URL",
+   "網址": "https://ai-harmony-assistant-1761199028.netlify.app/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "藥品仿單白話文運動",
+   "欄位": "Website URL",
+   "網址": "https://lin.ee/ucbMS6N",
+   "狀態": "轉址",
+   "碼": 200,
+   "最終網址": "https://line.me/R/ti/p/@816cfprg?ts=04121512&oat_content=url",
+   "說明": "落到 line.me"
+  },
+  {
+   "專案": "綠洲計畫 _ 高中升大學的特殊選才學生社群",
+   "欄位": "Website URL",
+   "網址": "https://lzgh.org/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "大台北交通流量模擬",
+   "欄位": "github",
+   "網址": "https://github.com/aKi-1201/TrafficAssignmentModel-Taipei/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "大台北交通流量模擬",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/N_FPX-6tQRyBOLafqPP1wA",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "營養午餐菜色評價工具",
+   "欄位": "Website URL",
+   "網址": "https://tainan.olc.tw/p/fatraceschool/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "收款人帳戶安全守護站",
+   "欄位": "Website URL",
+   "網址": "https://pcit-tw.netlify.app/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "ReJOIN - 數位公共參與體驗優化",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/R_CV5NE0Q06uf1gaaKfAKA",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "拍台文 _ Windows / macOS / Linux 電腦台語輸入法",
+   "欄位": "Website URL",
+   "網址": "https://soanseng.github.io/rime-phah-taibun/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "拍台文 _ Windows / macOS / Linux 電腦台語輸入法",
+   "欄位": "github",
+   "網址": "https://github.com/soanseng/rime-phah-taibun",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Collage 空間願景拼貼網頁工具",
+   "欄位": "Website URL",
+   "網址": "https://collage.collective.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Collage 空間願景拼貼網頁工具",
+   "欄位": "github",
+   "網址": "https://github.com/SeanGau/city-collage",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "財產申報開放觀測站",
+   "欄位": "Website URL",
+   "網址": "https://cypriq.olc.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "開放立法院 & 立法院 API",
+   "欄位": "Website URL",
+   "網址": "https://openfunltd.github.io/law-diff/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "立法院國會頻道AI即時轉換逐字稿 LegislatureAI",
+   "欄位": "Website URL",
+   "網址": "https://dataly.openfun.app/collection/list/ivod",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "標案資料瀏覽",
+   "欄位": "Website URL",
+   "網址": "https://openfunltd.github.io/pcc-viewer/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "標案資料瀏覽",
+   "欄位": "github",
+   "網址": "https://github.com/ronnywang/pcc.g0v.ronny.tw",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "OpenTransLive 開源即時語音翻譯系統",
+   "欄位": "Website URL",
+   "網址": "https://transcribe.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "OpenTransLive 開源即時語音翻譯系統",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/OpenTransLive",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "NGO 會務類專案工具",
+   "欄位": "Website URL",
+   "網址": "https://g0v.hackmd.io/@jothon/ngo/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "能源類專案",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@jothon/energy/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Sensemaker 意見綜整器",
+   "欄位": "Website URL",
+   "網址": "https://make.vtaiwan.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Sensemaker 意見綜整器",
+   "欄位": "github",
+   "網址": "https://github.com/bestian/sensemaking-tools/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Talk to the City (T3C)",
+   "欄位": "Website URL",
+   "網址": "https://talktothe.city/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Talk to the City (T3C)",
+   "欄位": "github",
+   "網址": "https://github.com/AIObjectives/tttc-light-js",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "公民團體資安暨隱私交流計劃 Civil Society Cyber Shield (CSCS)",
+   "欄位": "Website URL",
+   "網址": "https://cscs.asia",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "開放台灣民間租屋資料",
+   "欄位": "Website URL",
+   "網址": "https://rentalhouse.g0v.ddio.io/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "開放台灣民間租屋資料",
+   "欄位": "github",
+   "網址": "https://github.com/g0v/tw-rental-house-data",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "物資捐贈類專案",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/Ylob5q1rR361wt6RIzYBSA",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "沃土計畫堆肥箱實作推廣",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/QOG_rmLVS2GwFydIsI1Uyg?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "swonline  2D 線上網頁",
+   "欄位": "Website URL",
+   "網址": "https://g0v.github.io/swonline/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "中央政府總預算案審查監督平台",
+   "欄位": "Website URL",
+   "網址": "https://watchmoney.ccw.org.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "中央政府【總預算案】審查監督平台",
+   "欄位": "Website URL",
+   "網址": "https://www.readr.tw/project/3/2025budget/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Twinkle Hub _台灣資料的 MCP Hub",
+   "欄位": "Website URL",
+   "網址": "https://hub.twinkleai.tw/",
+   "狀態": "連不上",
+   "說明": "SSLError: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)"
+  },
+  {
+   "專案": "Mozilla Common Voice",
+   "欄位": "Website URL",
+   "網址": "https://commonvoice.mozilla.org",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "How Internet Works 網路治理介紹素材",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/NXETiuIcRaeJ6qlntGBtuA?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "開放科技車庫 Open Tech Garage",
+   "欄位": "Website URL",
+   "網址": "https://otg.ocf.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "詐騙因應對策_情境經驗蒐集_專案",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/T4Sq-imZTsSmzVqKI_Xnhg?view",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "病後人生│一站式服務網",
+   "欄位": "Website URL",
+   "網址": "https://afterthatday.blogspot.com/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "A11y 新手村",
+   "欄位": "Website URL",
+   "網址": "https://a11yvillage.coseeing.org",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "iCanHelp 應變地圖_災情通報_志工報名",
+   "欄位": "Website URL",
+   "網址": "https://app.icanhelp.tw",
+   "狀態": "轉址",
+   "碼": 200,
+   "最終網址": "https://www.forward.org.tw/tw/a/resources/app",
+   "說明": "落到 www.forward.org.tw"
+  },
+  {
+   "專案": "法律偵探 - 免費 AI 法律諮詢",
+   "欄位": "Website URL",
+   "網址": "https://dr-lawbot.com/",
+   "狀態": "轉址",
+   "碼": 200,
+   "最終網址": "https://dr-legal.com.tw/",
+   "說明": "落到 dr-legal.com.tw"
+  },
+  {
+   "專案": "法律偵探 - 免費 AI 法律諮詢",
+   "欄位": "github",
+   "網址": "https://github.com/aa0101181514",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "NTU Cool",
+   "欄位": "Website URL",
+   "網址": "https://ntu-cooooooool.vercel.app/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "憲庭載入中",
+   "欄位": "Website URL",
+   "網址": "https://constitution-nine.vercel.app/future",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "《我們想這樣生小孩！陪伴孕產旅程的行動手冊》",
+   "欄位": "Website URL",
+   "網址": "https://www.facebook.com/share/p/1EZYQNjdRU/",
+   "狀態": "無法判定",
+   "說明": "Facebook 對機器回登入牆，狀態碼不能當作還活著"
+  },
+  {
+   "專案": "馬太鞍堰塞湖事件後的居住抉擇",
+   "欄位": "Website URL",
+   "網址": "https://mataian-interim-housing.web.app/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Taiwan.md",
+   "欄位": "Website URL",
+   "網址": "https://taiwan.md/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "空污曝露路徑分析地圖",
+   "欄位": "Website URL",
+   "網址": "https://comfortrouting-beta.onrender.com/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Civic Tech TW",
+   "欄位": "Website URL",
+   "網址": "https://civictech.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Civic Tech TW",
+   "欄位": "document",
+   "網址": "https://g0v.hackmd.io/@jothon/civictech_doc",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Kami：一個有界限、在地、私密的仁工智慧守護者",
+   "欄位": "Website URL",
+   "網址": "https://civic.ai/tw/kami/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "邊坡穩定風險模擬系統",
+   "欄位": "Website URL",
+   "網址": "http://211.22.241.17/dsmon/DLandSlide.html",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "ＲＯＳＣ－訓練模擬電擊器系統",
+   "欄位": "Website URL",
+   "網址": "https://rosc.tps-ems.com.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "漁電共生鋪排工具",
+   "欄位": "Website URL",
+   "網址": "https://a606030jaguar-solarapp.pages.dev/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "高效健身訓練系統",
+   "欄位": "Website URL",
+   "網址": "https://gym-course.pages.dev/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "族語AI成果網站",
+   "欄位": "Website URL",
+   "網址": "https://ai-labs.ilrdf.org.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "民主富二代補課小站",
+   "欄位": "Website URL",
+   "網址": "https://booko.g0v.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Ian Open News 開放科技閱讀版",
+   "欄位": "Website URL",
+   "網址": "https://technews.ospo.tw/reader/index.html",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "台灣 AEC（建築 · 工程 · 營造）開源知識庫",
+   "欄位": "Website URL",
+   "網址": "https://h30190.github.io/HJPLUS_Taiwan_Architect_KB/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "Formosan Bank",
+   "欄位": "Website URL",
+   "網址": "https://ai4commsci.gitbook.io/formosanbank",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "憲法急診室",
+   "欄位": "Website URL",
+   "網址": "https://constitutional-er.vercel.app/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "憲法急診室",
+   "欄位": "github",
+   "網址": "https://github.com/jkevintu/constitutional-er",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  },
+  {
+   "專案": "國土利用監測",
+   "欄位": "Website URL",
+   "網址": "https://landchg.olc.tw/",
+   "狀態": "OK",
+   "碼": 200,
+   "最終網址": null,
+   "說明": ""
+  }
+ ]
+}
