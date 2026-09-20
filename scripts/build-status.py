@@ -163,14 +163,21 @@ svg text{{fill:var(--muted);font-size:11px}}
 """)
 
 # ── 狀態磚 ──
-sync_ok = (sync or {}).get("last_status") == "ok"
-sync_col = "var(--good)" if sync_ok else "var(--crit)"
-sync_txt = "正常" if sync_ok else ("異常" if sync else "—")
+# 「不知道」不等於「壞掉」。狀態檔只有 VPS 上有，在別處產生這一頁時讀不到——
+# 那時畫成紅色是假警報，而假警報會訓練人忽略真警報。
+if sync is None:
+    sync_col, sync_txt, sync_sub = "var(--muted)", "未知", "此頁非由排程主機產生"
+elif sync.get("last_status") == "ok":
+    sync_col, sync_txt = "var(--good)", "正常"
+    sync_sub = f"最後成功 {ago(sync.get('last_success'))}"
+else:
+    sync_col, sync_txt = "var(--crit)", "異常"
+    sync_sub = sync.get("last_message") or f"最後成功 {ago(sync.get('last_success'))}"
 dead_n = link_counts["死掉"] + link_counts["連不上"]
 A('<div class="tiles">')
 A(f"""<div class="card tile"><div class="k">每日同步</div>
 <div class="v pill"><span class="dot" style="background:{sync_col}"></span>{sync_txt}</div>
-<div class="m">最後成功 {ago((sync or {}).get('last_success'))}</div></div>""")
+<div class="m">{esc(sync_sub)}</div></div>""")
 A(f"""<div class="card tile"><div class="k">公民科技專案</div><div class="v">{total_proj}</div>
 <div class="m">另有公民科學計畫 {next((t['recordCount'] for d in index['datasets'] for t in d['tables'] if t['slug']=='programs'), '—')} 筆</div></div>""")
 if traffic:
