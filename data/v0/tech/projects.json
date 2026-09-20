@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 221,
+  "recordCount": 223,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -4485,6 +4485,31 @@
       }
     },
     {
+      "id": "recPJDA3bOxNccyA1",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          },
+          {
+            "id": "recmJe11qu62phpnQ",
+            "name": "14-SDGS-海洋生態"
+          }
+        ],
+        "Intro": "動物直播網站\n\nhttps://www.facebook.com/share/p/1BonD9cgDV/",
+        "project name": "全球動物現場 Animalia Live",
+        "標籤": [
+          {
+            "id": "recsY2z4EIqi7mjMS",
+            "name": "生物物種保育"
+          }
+        ],
+        "Website URL": "https://animalia-live.vercel.app"
+      }
+    },
+    {
       "id": "recqd9WUAkrk1u3lm",
       "createdTime": "2026-05-02T21:00:05.000Z",
       "fields": {
@@ -4602,6 +4627,25 @@
           }
         ],
         "Website URL": "https://sites.google.com/view/traffic-accident-gisview/%E9%A6%96%E9%A0%81%E8%88%87%E8%AA%AA%E6%98%8E"
+      }
+    },
+    {
+      "id": "recyP4ob4gi3Opuln",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "Intro": "https://www.facebook.com/share/19KXvUftfd/",
+        "project name": "查無此人_幫照片人物加上動物頭像",
+        "標籤": [
+          {
+            "id": "recoq9E6bzdnOrPK9",
+            "name": "資安 / 資訊安全"
+          },
+          {
+            "id": "recauMVte1aZzNAq7",
+            "name": "NGO 會務"
+          }
+        ],
+        "Website URL": "https://no-such-person.ddio.io/"
       }
     }
   ]

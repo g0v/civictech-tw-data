@@ -266,10 +266,14 @@
           {
             "id": "recQkZ7y2znLkNa5I",
             "name": "國土利用監測"
+          },
+          {
+            "id": "recPJDA3bOxNccyA1",
+            "name": "全球動物現場 Animalia Live"
           }
         ],
         "行政院永續會提出的台灣版目標側重方向": "核心目標 15 保育及永續利用陸域生態系，以確保生物多樣性，並防止土地劣化",
-        "多少個專案？": 8,
+        "多少個專案？": 9,
         "特別備註選入條件": "chewei> 寵物相關主題，似乎也是歸於此 SDG15 https://futurecity.cw.com.tw/article/1290",
         "影響力類別": "15-SDGS-陸域生態"
       }
@@ -373,8 +377,14 @@
       "id": "recmJe11qu62phpnQ",
       "createdTime": "2021-11-02T11:46:11.000Z",
       "fields": {
+        "project list": [
+          {
+            "id": "recPJDA3bOxNccyA1",
+            "name": "全球動物現場 Animalia Live"
+          }
+        ],
         "行政院永續會提出的台灣版目標側重方向": "核心目標 14 保育及永續利用海洋生態系，以確保生物多樣性，並防止海洋環境劣化",
-        "多少個專案？": 0,
+        "多少個專案？": 1,
         "影響力類別": "14-SDGS-海洋生態"
       }
     },
