@@ -1,0 +1,385 @@
+{
+  "generated_at": "2026-09-20T03:50:01+00:00",
+  "host": "civictech.tw",
+  "retention_note": "Cloudflare 免費版 RUM 資料約保留半年；本檔是為了讓資料過期後仍留得住。",
+  "oldest_queryable": "2026-03-24",
+  "earliest_data": "2026-06-09",
+  "latest_data": "2026-09-16",
+  "days_with_traffic": 71,
+  "total_pageviews": 1540,
+  "total_visits": 1430,
+  "sites": {
+    "b33b28572f6d4f899b766d715d41689e": {
+      "pageviews": 1150,
+      "visits": 1150,
+      "first_day": "2026-06-09",
+      "last_day": "2026-08-27",
+      "days_with_traffic": 55
+    },
+    "ed3980eafa224201807b702455184599": {
+      "pageviews": 390,
+      "visits": 280,
+      "first_day": "2026-08-22",
+      "last_day": "2026-09-16",
+      "days_with_traffic": 17
+    }
+  },
+  "by_month": {
+    "2026-06": {
+      "count": 530,
+      "visits": 530,
+      "days": 17
+    },
+    "2026-07": {
+      "count": 350,
+      "visits": 350,
+      "days": 18
+    },
+    "2026-08": {
+      "count": 500,
+      "visits": 450,
+      "days": 26
+    },
+    "2026-09": {
+      "count": 160,
+      "visits": 100,
+      "days": 10
+    }
+  },
+  "by_date": {
+    "2026-06-09": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-06-10": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-06-11": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-06-13": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-06-14": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-06-15": {
+      "count": 40,
+      "visits": 40
+    },
+    "2026-06-16": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-06-17": {
+      "count": 60,
+      "visits": 60
+    },
+    "2026-06-18": {
+      "count": 60,
+      "visits": 60
+    },
+    "2026-06-22": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-06-23": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-06-24": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-06-25": {
+      "count": 60,
+      "visits": 60
+    },
+    "2026-06-26": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-06-27": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-06-28": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-06-29": {
+      "count": 90,
+      "visits": 90
+    },
+    "2026-07-02": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-07-03": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-07-04": {
+      "count": 40,
+      "visits": 40
+    },
+    "2026-07-08": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-12": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-13": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-14": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-15": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-18": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-21": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-07-22": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-23": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-24": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-07-25": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-26": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-27": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-29": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-31": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-02": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-03": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-05": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-08-06": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-07": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-08": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-09": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-08-10": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-12": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-08-13": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-14": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-15": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-08-16": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-17": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-18": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-19": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-20": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-21": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-08-22": {
+      "count": 70,
+      "visits": 50
+    },
+    "2026-08-23": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-08-24": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-08-25": {
+      "count": 50,
+      "visits": 40
+    },
+    "2026-08-26": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-08-27": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-08-28": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-08-29": {
+      "count": 20,
+      "visits": 0
+    },
+    "2026-09-02": {
+      "count": 30,
+      "visits": 10
+    },
+    "2026-09-03": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-09-05": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-09-06": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-09-07": {
+      "count": 20,
+      "visits": 10
+    },
+    "2026-09-08": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-09-09": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-09-11": {
+      "count": 30,
+      "visits": 0
+    },
+    "2026-09-14": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-09-16": {
+      "count": 10,
+      "visits": 10
+    }
+  },
+  "dimensions_recent_180d": {
+    "refererHost": {
+      "(無／直接進入)": 940,
+      "www.google.com": 120,
+      "civictech.tw": 110,
+      "g0v.hackmd.io": 100,
+      "www.facebook.com": 60,
+      "l.facebook.com": 50,
+      "l.instagram.com": 30,
+      "gemini.google.com": 20,
+      "g0v-jothon.kktix.cc": 20,
+      "facebook.com": 20,
+      "lm.facebook.com": 20,
+      "chatgpt.com": 10,
+      "m.facebook.com": 10,
+      "jothon.g0v.tw": 10,
+      "www.google.com.tw": 10,
+      "reurl.cc": 10
+    },
+    "countryName": {
+      "TW": 1330,
+      "US": 120,
+      "CN": 30,
+      "IE": 10,
+      "SG": 10,
+      "DE": 10,
+      "EC": 10,
+      "TH": 10,
+      "SE": 10
+    },
+    "deviceType": {
+      "desktop": 1010,
+      "mobile": 490,
+      "tablet": 40
+    },
+    "userAgentBrowser": {
+      "Chrome": 910,
+      "ChromeMobile": 210,
+      "Unknown": 110,
+      "MobileSafari": 100,
+      "ChromeMobileWebview": 90,
+      "Edge": 50,
+      "Firefox": 40,
+      "Safari": 20,
+      "Facebook": 10
+    },
+    "requestPath": {
+      "/": 1540
+    }
+  }
+}
