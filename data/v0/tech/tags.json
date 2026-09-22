@@ -11,7 +11,7 @@
     "label": "標籤",
     "id": "tbldJciCsar1CCjYx"
   },
-  "recordCount": 58,
+  "recordCount": 59,
   "fields": [
     {
       "id": "fldGLkzEjr1wVn5CX",
@@ -173,6 +173,10 @@
           {
             "id": "recrjM2nl4LJZt5Qw",
             "name": "看懂山腳斷層"
+          },
+          {
+            "id": "recozJV0EMIUvfwiv",
+            "name": "光復生活重建聯合服務平台_一起回到日常"
           }
         ],
         "tag": "防災",
@@ -1215,6 +1219,19 @@
           }
         ],
         "tag": "生育 / 孕產相關"
+      }
+    },
+    {
+      "id": "recOBdKS6cY37PRr1",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recozJV0EMIUvfwiv",
+            "name": "光復生活重建聯合服務平台_一起回到日常"
+          }
+        ],
+        "tag": "復原重建"
       }
     },
     {

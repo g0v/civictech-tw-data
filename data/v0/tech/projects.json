@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 223,
+  "recordCount": 224,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -4482,6 +4482,31 @@
           }
         ],
         "Website URL": "https://ai4commsci.gitbook.io/formosanbank"
+      }
+    },
+    {
+      "id": "recozJV0EMIUvfwiv",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "光復生活重建聯合服務平台，了解光復鄉的最新重建動態，看看哪些團隊正在努力，以及您曾經幫助的地方，現在變得如何了。",
+        "project name": "光復生活重建聯合服務平台_一起回到日常",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          },
+          {
+            "id": "recOBdKS6cY37PRr1",
+            "name": "復原重建"
+          }
+        ],
+        "Website URL": "https://guangfu.tw/"
       }
     },
     {
