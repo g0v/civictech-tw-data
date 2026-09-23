@@ -582,10 +582,14 @@
           {
             "id": "recozJV0EMIUvfwiv",
             "name": "光復生活重建聯合服務平台_一起回到日常"
+          },
+          {
+            "id": "receGir7uvqkGVgwb",
+            "name": "我想搬出去！一頁寫清楚，搬家公司最想知道的全部"
           }
         ],
         "行政院永續會提出的台灣版目標側重方向": "核心目標 03 確保及促進各年齡層健康生活與福祉",
-        "多少個專案？": 36,
+        "多少個專案？": 37,
         "特別備註選入條件": "chewei> 醫療與健康相關\nchewei> 救災、災情整合相關專案",
         "影響力類別": "3-SDGS-健全生活品質"
       }
@@ -1241,10 +1245,22 @@
           {
             "id": "recH2oHGzmOKcK1da",
             "name": "台灣 AEC（建築 · 工程 · 營造）開源知識庫"
+          },
+          {
+            "id": "rec3auAvXNtmNjPME",
+            "name": "差旅費計算網頁"
+          },
+          {
+            "id": "recPTz3ELsK8ovLQz",
+            "name": "手開發票檢查小幫手_查詢公司全名、檢查統編、計算稅額"
+          },
+          {
+            "id": "recQfHjbnXyItIUEH",
+            "name": "How Internet Works 網路治理介紹素材"
           }
         ],
         "行政院永續會提出的台灣版目標側重方向": "無",
-        "多少個專案？": 71,
+        "多少個專案？": 74,
         "特別備註選入條件": "chewei> 社群基礎建設、社群治理、籌辦黑客松的工具或經驗\nchewei> 把主題內容轉變成「開放資料or結構化資料」進行應用推廣的專案\nchewei> hackfoldr\nchewei> Ptt\nchewei> 數位人權相關專案",
         "影響力類別": "20-開放資料與開源社群基礎建設"
       }
@@ -1281,10 +1297,18 @@
           {
             "id": "rec7SiPYkIn8R7L2G",
             "name": "Lee-Su-Threads _ Automatically displays location info for Threads post authors / 揭露 Threads 帳號註冊地區"
+          },
+          {
+            "id": "recyP4ob4gi3Opuln",
+            "name": "查無此人_幫照片人物加上動物頭像"
+          },
+          {
+            "id": "reczbsfxNG6XsGDet",
+            "name": "詐騙因應對策_情境經驗蒐集_專案"
           }
         ],
         "行政院永續會提出的台灣版目標側重方向": "無",
-        "多少個專案？": 7,
+        "多少個專案？": 9,
         "影響力類別": "19-新聞訊息與媒體識讀"
       }
     }

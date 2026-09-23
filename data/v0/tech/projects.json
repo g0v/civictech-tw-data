@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 224,
+  "recordCount": 225,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -3014,6 +3014,12 @@
       "id": "rec3auAvXNtmNjPME",
       "createdTime": "2026-04-21T02:49:02.000Z",
       "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
         "Intro": "https://www.facebook.com/share/p/17rNZM9bx3/",
         "project name": "差旅費計算網頁",
         "標籤": [
@@ -3147,6 +3153,12 @@
       "id": "recPTz3ELsK8ovLQz",
       "createdTime": "2026-04-21T02:49:04.000Z",
       "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
         "project name": "手開發票檢查小幫手_查詢公司全名、檢查統編、計算稅額",
         "標籤": [
           {
@@ -3915,6 +3927,12 @@
       "id": "recQfHjbnXyItIUEH",
       "createdTime": "2026-05-02T20:59:46.000Z",
       "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
         "document": "https://g0v.hackmd.io/NXETiuIcRaeJ6qlntGBtuA?view",
         "project name": "How Internet Works 網路治理介紹素材",
         "標籤": [
@@ -3954,6 +3972,12 @@
       "id": "reczbsfxNG6XsGDet",
       "createdTime": "2026-05-02T20:59:46.000Z",
       "fields": {
+        "影響力類別": [
+          {
+            "id": "recaRe0BPGfeCMFXC",
+            "name": "19-新聞訊息與媒體識讀"
+          }
+        ],
         "document": "https://g0v.hackmd.io/T4Sq-imZTsSmzVqKI_Xnhg?view",
         "project name": "詐騙因應對策_情境經驗蒐集_專案",
         "標籤": [
@@ -4395,6 +4419,31 @@
       }
     },
     {
+      "id": "receGir7uvqkGVgwb",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "拍照、填一填，做出一頁搬家公司看了就能報價的家當說明。不用一家一家約看屋，也不用在電話裡比手畫腳。免費、免註冊、免安裝。資料只存在你自己的電腦裡。一頁寫清楚，搬家公司最想知道的全部。",
+        "project name": "我想搬出去！一頁寫清楚，搬家公司最想知道的全部",
+        "標籤": [
+          {
+            "id": "reci9n1U0vYnaoDG8",
+            "name": "搬家"
+          },
+          {
+            "id": "rec1WnkgnlgORJwfF",
+            "name": "居住"
+          }
+        ],
+        "Website URL": "https://great-moving-era.ddio.io/"
+      }
+    },
+    {
       "id": "receoKxCvuhU3QF76",
       "createdTime": "2026-05-02T21:00:05.000Z",
       "fields": {
@@ -4658,6 +4707,12 @@
       "id": "recyP4ob4gi3Opuln",
       "createdTime": "2026-05-02T21:00:05.000Z",
       "fields": {
+        "影響力類別": [
+          {
+            "id": "recaRe0BPGfeCMFXC",
+            "name": "19-新聞訊息與媒體識讀"
+          }
+        ],
         "Intro": "https://www.facebook.com/share/19KXvUftfd/",
         "project name": "查無此人_幫照片人物加上動物頭像",
         "標籤": [
