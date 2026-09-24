@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 225,
+  "recordCount": 226,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -4701,6 +4701,31 @@
           }
         ],
         "Website URL": "https://sites.google.com/view/traffic-accident-gisview/%E9%A6%96%E9%A0%81%E8%88%87%E8%AA%AA%E6%98%8E"
+      }
+    },
+    {
+      "id": "recVc8JtkANdA8IcQ",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "看見社群進展，找到協作起點。來自社群現場的消息，附上原文與參與線索，來自 g0v、Code for Korea、Code for Japan 等公民科技社群。",
+        "project name": "rep0rter",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          },
+          {
+            "id": "recWP7QajlDtcrze7",
+            "name": "摘要整理"
+          }
+        ],
+        "Website URL": "https://rep0rter.observe.tw/"
       }
     },
     {

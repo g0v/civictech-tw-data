@@ -11,7 +11,7 @@
     "label": "標籤",
     "id": "tbldJciCsar1CCjYx"
   },
-  "recordCount": 60,
+  "recordCount": 61,
   "fields": [
     {
       "id": "fldGLkzEjr1wVn5CX",
@@ -916,6 +916,10 @@
           {
             "id": "recAhUFo6RcEiTdDu",
             "name": "漁電共生鋪排工具"
+          },
+          {
+            "id": "recVc8JtkANdA8IcQ",
+            "name": "rep0rter"
           }
         ],
         "tag": "小幫手"
@@ -1368,6 +1372,19 @@
           }
         ],
         "tag": "建築 / 工程 / 營造"
+      }
+    },
+    {
+      "id": "recWP7QajlDtcrze7",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recVc8JtkANdA8IcQ",
+            "name": "rep0rter"
+          }
+        ],
+        "tag": "摘要整理"
       }
     },
     {
