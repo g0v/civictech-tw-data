@@ -48,7 +48,7 @@ python3 scripts/insight-harvest.py 一鍵開大松 > pack.json
 判準：一年內有 push 或發表 → 活躍；最後證據超過三年 → 停擺；其餘或沒證據 → 無法判斷。
 
 ### 想參與可以做什麼
-只根據素材中的「需要的人力」寫，並註明那是哪一年的需求。素材沒有就寫「素材中沒有徵求人力的紀錄」。
+根據素材中的「需要的人力」寫，並註明那是哪一年的需求。素材若寫到參與管道（Slack 頻道、討論社團、協作文件），也列出來。兩者都沒有就寫「素材中沒有徵求人力或參與管道的紀錄」。
 
 ### 資訊缺口
 一到三條：這個專案的哪些事，從目前的素材看不出來？（例如：官網失效、沒有使用數據、不知道誰在維護）
@@ -59,7 +59,7 @@ python3 scripts/insight-harvest.py 一鍵開大松 > pack.json
 ```json
 {
   "status": "active | dormant | unknown",
-  "last_activity": "YYYY-MM-DD 或 null",
+  "last_activity": "YYYY-MM-DD；證據只有年份就寫 YYYY；沒有就 null",
   "last_activity_source": "證據出處 或 null",
   "license": "SPDX 代碼 或 null",
   "main_language": "程式語言 或 null",
@@ -91,4 +91,6 @@ python3 scripts/insight-harvest.py 一鍵開大松 > pack.json
 | 3 抓不到≠不存在 | 五個試點有四個的官網、FB 或 hackfoldr 抓不到。寫成「沒有官網」就是錯的 |
 | 5 死活只看日期 | 公務人員出國考察網連得上，但頁面寫的是「2013 ©」 |
 | 7 不轉錄金鑰 | 一鍵開大松的 README 範例設定檔裡有一段 Typeform API key |
+| 格式：日期可以只有年份 | 出國考察網唯一的日期證據是頁尾「2013 ©」，硬湊成 2013-01-01 就是在捏造精度 |
+| 格式：參與管道也算 | 好植地沒有大松的人力徵求，但網站寫著 Slack `#tree` 頻道與討論社團，只看人力欄位會漏掉 |
 | 8 寧可短 | 素材只有一種的專案佔一半（97／212），格式硬填會長出空話 |
