@@ -11,7 +11,7 @@
     "label": "禮品與獎勵",
     "id": "tblDfYV7vwCcfHbtm"
   },
-  "recordCount": 28,
+  "recordCount": 27,
   "fields": [
     {
       "id": "fldEb9pkXdMofulol",
@@ -257,13 +257,6 @@
             "name": "蛙抵家 Identifrog"
           }
         ]
-      }
-    },
-    {
-      "id": "recngoYFwX1zEXSa5",
-      "createdTime": "2023-03-25T09:44:36.000Z",
-      "fields": {
-        "Notes": "\n"
       }
     },
     {

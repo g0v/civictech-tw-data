@@ -147,6 +147,11 @@
       "id": "fld6zObfhQx94P6yu",
       "name": "non-slack",
       "type": "singleLineText"
+    },
+    {
+      "id": "fld3WMyp7bWDduKO0",
+      "name": "[空白5]",
+      "type": "multipleRecordLinks"
     }
   ],
   "records": [
@@ -4260,6 +4265,12 @@
       "id": "recVzxqKhJmbNcJ8V",
       "createdTime": "2026-05-02T21:00:00.000Z",
       "fields": {
+        "[空白5]": [
+          {
+            "id": "recV4rC49zm86PmQH",
+            "name": null
+          }
+        ],
         "slack channel": "civictech_database_臺灣公民科技專案與工具資料庫及行動指引",
         "non-slack": "https://www.facebook.com/groups/240879797438433",
         "影響力類別": [

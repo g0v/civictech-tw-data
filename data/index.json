@@ -54,28 +54,28 @@
           "slug": "categories",
           "name": "類別",
           "label": "類別",
-          "recordCount": 575,
+          "recordCount": 78,
           "path": "v0/science/categories.json"
         },
         {
           "slug": "seasons",
           "name": "計畫執行的時段或時節",
           "label": "計畫執行的時段或時節",
-          "recordCount": 107,
+          "recordCount": 20,
           "path": "v0/science/seasons.json"
         },
         {
           "slug": "platforms",
           "name": "數據資料彙整方案或平台",
           "label": "數據資料彙整方案或平台",
-          "recordCount": 200,
+          "recordCount": 47,
           "path": "v0/science/platforms.json"
         },
         {
           "slug": "equipment",
           "name": "設備器材",
           "label": "設備器材",
-          "recordCount": 180,
+          "recordCount": 27,
           "path": "v0/science/equipment.json"
         },
         {
@@ -89,7 +89,7 @@
           "slug": "orgs",
           "name": "機構與單位",
           "label": "機構與單位",
-          "recordCount": 3105,
+          "recordCount": 69,
           "path": "v0/science/orgs.json"
         },
         {
@@ -103,21 +103,21 @@
           "slug": "counties",
           "name": "縣市",
           "label": "縣市",
-          "recordCount": 48,
+          "recordCount": 24,
           "path": "v0/science/counties.json"
         },
         {
           "slug": "districts",
           "name": "行政區",
           "label": "行政區",
-          "recordCount": 465,
+          "recordCount": 369,
           "path": "v0/science/districts.json"
         },
         {
           "slug": "rewards",
           "name": "禮品與獎勵",
           "label": "禮品與獎勵",
-          "recordCount": 28,
+          "recordCount": 27,
           "path": "v0/science/rewards.json"
         },
         {
