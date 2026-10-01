@@ -137,6 +137,34 @@ function findPII(value) {
   return hits;
 }
 
+/**
+ * Airtable 自己算出來的欄位。空白列上它們照樣有值（count 是 0），
+ * 所以判斷「這列是不是空的」時不能算進去。
+ */
+const COMPUTED_FIELD_TYPES = new Set([
+  'count', 'formula', 'rollup', 'multipleLookupValues', 'autoNumber',
+  'createdTime', 'lastModifiedTime', 'createdBy', 'lastModifiedBy', 'button',
+]);
+
+/**
+ * 這一列有沒有人填過東西。
+ *
+ * 只看「欄位數 > 0」不夠：science 那邊有三種空白列會漏過去——
+ *   主欄位被整批填成 `[空白列]`（orgs 3105 筆裡 3036 筆是這種）、
+ *   只剩 count 欄位的 0（categories 575 筆裡 497 筆）、
+ *   文字欄只有換行。
+ */
+function isBlankRecord(rec, table) {
+  const typeOf = Object.fromEntries(table.fields.map((f) => [f.name, f.type]));
+  return Object.entries(rec.fields).every(([key, value]) => {
+    if (COMPUTED_FIELD_TYPES.has(typeOf[key])) return true;
+    if (value == null) return true;
+    if (Array.isArray(value)) return value.length === 0;
+    if (typeof value === 'string') return /^\s*(\[空白[^\]]*\])?\s*$/.test(value);
+    return false;
+  });
+}
+
 const API = 'https://api.airtable.com/v0';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -242,7 +270,7 @@ async function main() {
         // Airtable 預開的空白列不匯出：原本 898 筆裡有 686 筆是空的，
         // 消費者會以為有 898 個專案。關聯展開已用上面的 primaryValueById，
         // 先建後濾，所以丟掉空列不影響關聯名稱。
-        .filter((rec) => Object.keys(rec.fields).length > 0)
+        .filter((rec) => !isBlankRecord(rec, table))
         .map((rec) => {
           const fields = {};
           for (const [key, value] of Object.entries(rec.fields)) {
