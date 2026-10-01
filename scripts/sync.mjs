@@ -93,9 +93,12 @@ const DATASETS = [
  * ⚠️ 它的 Assignee 是 singleCollaborator——會帶出人名與 email，
  *    現在是空的，但這正是不能讓這種表流出去的理由。
  *
+ * `修改建議` 是網站專案頁的「建議修改」表單寫入的地方，有填寫者自留的聯絡 email，
+ * 而且內容是未經審核的投稿——不是資料本身，不能流出去。
+ *
  * 另外，**完全沒有內容的表也會自動排除**（依內容判斷，不依名字）。
  */
-const EXCLUDE_TABLE_NAMES = new Set(['[工作文件]', '【工作區】']);
+const EXCLUDE_TABLE_NAMES = new Set(['[工作文件]', '【工作區】', '修改建議']);
 const EXCLUDE_TABLE_PATTERNS = [/^\[空白\d*\]$/];
 const isExcludedTable = (name) =>
   EXCLUDE_TABLE_NAMES.has(name) || EXCLUDE_TABLE_PATTERNS.some((re) => re.test(name));
