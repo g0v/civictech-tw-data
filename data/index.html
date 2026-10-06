@@ -44,33 +44,40 @@
 
     <div class="note">
       先讀 <a href="/index.json"><code>/index.json</code></a>，它列出全部端點與筆數。<br>
-      版號是 <code>v0</code>：schema 來自 Airtable，欄位還會變動，暫時給不起穩定承諾。
+      版號是 <code>v0</code>：資料來自 Airtable 與 Google Sheet，欄位還會變動，暫時給不起穩定承諾。
     </div>
 
+<!-- endpoints:start（由 scripts/build-index.mjs 依 index.json 產生，不要手改） -->
       <h2>/v0/tech/ <span class="sub">公民科技專案資料庫</span></h2>
       <table>
-        <tr><td><a href="/v0/tech/projects.json"><code>/v0/tech/projects.json</code></a></td><td>公民科技專案</td><td class="n">219</td></tr>
+        <tr><td><a href="/v0/tech/projects.json"><code>/v0/tech/projects.json</code></a></td><td>公民科技專案</td><td class="n">226</td></tr>
         <tr><td><a href="/v0/tech/categories.json"><code>/v0/tech/categories.json</code></a></td><td>影響力類別（SDGs）</td><td class="n">20</td></tr>
-        <tr><td><a href="/v0/tech/tags.json"><code>/v0/tech/tags.json</code></a></td><td>標籤</td><td class="n">58</td></tr>
+        <tr><td><a href="/v0/tech/tags.json"><code>/v0/tech/tags.json</code></a></td><td>標籤</td><td class="n">61</td></tr>
         <tr><td><a href="/v0/tech/talks.json"><code>/v0/tech/talks.json</code></a></td><td>專案發表紀錄</td><td class="n">666</td></tr>
       </table>
       <h2>/v0/science/ <span class="sub">公民科學與群眾參與計畫</span></h2>
       <table>
         <tr><td><a href="/v0/science/programs.json"><code>/v0/science/programs.json</code></a></td><td>公民科學與群眾參與計畫</td><td class="n">352</td></tr>
-        <tr><td><a href="/v0/science/categories.json"><code>/v0/science/categories.json</code></a></td><td>類別</td><td class="n">575</td></tr>
-        <tr><td><a href="/v0/science/seasons.json"><code>/v0/science/seasons.json</code></a></td><td>計畫執行的時段或時節</td><td class="n">107</td></tr>
-        <tr><td><a href="/v0/science/platforms.json"><code>/v0/science/platforms.json</code></a></td><td>數據資料彙整方案或平台</td><td class="n">200</td></tr>
-        <tr><td><a href="/v0/science/equipment.json"><code>/v0/science/equipment.json</code></a></td><td>設備器材</td><td class="n">180</td></tr>
+        <tr><td><a href="/v0/science/categories.json"><code>/v0/science/categories.json</code></a></td><td>類別</td><td class="n">78</td></tr>
+        <tr><td><a href="/v0/science/seasons.json"><code>/v0/science/seasons.json</code></a></td><td>計畫執行的時段或時節</td><td class="n">20</td></tr>
+        <tr><td><a href="/v0/science/platforms.json"><code>/v0/science/platforms.json</code></a></td><td>數據資料彙整方案或平台</td><td class="n">47</td></tr>
+        <tr><td><a href="/v0/science/equipment.json"><code>/v0/science/equipment.json</code></a></td><td>設備器材</td><td class="n">27</td></tr>
         <tr><td><a href="/v0/science/methods.json"><code>/v0/science/methods.json</code></a></td><td>演算或分析方案</td><td class="n">9</td></tr>
-        <tr><td><a href="/v0/science/orgs.json"><code>/v0/science/orgs.json</code></a></td><td>機構與單位</td><td class="n">3,105</td></tr>
+        <tr><td><a href="/v0/science/orgs.json"><code>/v0/science/orgs.json</code></a></td><td>機構與單位</td><td class="n">69</td></tr>
         <tr><td><a href="/v0/science/regions.json"><code>/v0/science/regions.json</code></a></td><td>國際地區</td><td class="n">16</td></tr>
-        <tr><td><a href="/v0/science/counties.json"><code>/v0/science/counties.json</code></a></td><td>縣市</td><td class="n">48</td></tr>
-        <tr><td><a href="/v0/science/districts.json"><code>/v0/science/districts.json</code></a></td><td>行政區</td><td class="n">465</td></tr>
-        <tr><td><a href="/v0/science/rewards.json"><code>/v0/science/rewards.json</code></a></td><td>禮品與獎勵</td><td class="n">28</td></tr>
+        <tr><td><a href="/v0/science/counties.json"><code>/v0/science/counties.json</code></a></td><td>縣市</td><td class="n">24</td></tr>
+        <tr><td><a href="/v0/science/districts.json"><code>/v0/science/districts.json</code></a></td><td>行政區</td><td class="n">369</td></tr>
+        <tr><td><a href="/v0/science/rewards.json"><code>/v0/science/rewards.json</code></a></td><td>禮品與獎勵</td><td class="n">27</td></tr>
         <tr><td><a href="/v0/science/papers.json"><code>/v0/science/papers.json</code></a></td><td>文獻、研究成果、文章</td><td class="n">271</td></tr>
         <tr><td><a href="/v0/science/material-types.json"><code>/v0/science/material-types.json</code></a></td><td>文獻或知識素材類型</td><td class="n">17</td></tr>
         <tr><td><a href="/v0/science/ccu-topics.json"><code>/v0/science/ccu-topics.json</code></a></td><td>中正社區大學學群主題</td><td class="n">6</td></tr>
       </table>
+      <h2>/v0/aimonday/ <span class="sub">AI Monday 講題紀錄</span></h2>
+      <table>
+        <tr><td><a href="/v0/aimonday/events.json"><code>/v0/aimonday/events.json</code></a></td><td>場次</td><td class="n">26</td></tr>
+        <tr><td><a href="/v0/aimonday/talks.json"><code>/v0/aimonday/talks.json</code></a></td><td>講題</td><td class="n">72</td></tr>
+      </table>
+<!-- endpoints:end -->
 
     <footer>
       資料 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh-hant">CC BY 4.0</a>（姓名標示「g0v civictech.tw」）／程式碼 MIT　·　

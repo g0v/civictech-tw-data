@@ -56,7 +56,38 @@ export async function buildIndex() {
 
   const index = { version: VERSION, license: 'CC BY 4.0', attribution: 'g0v civictech.tw', datasets };
   await writeFile(path.join(ROOT, 'data', 'index.json'), JSON.stringify(index, null, 2) + '\n');
+  await writeLandingPage(index);
   return index;
+}
+
+// data/index.html（data.civictech.tw 首頁）的端點表也從同一份 index 產生。
+// 原本是手寫的：新資料集沒出現在首頁，筆數也早就過期（projects 寫 219、實際 226）。
+// 只換掉標記之間的區塊，頁面其他部分照舊手寫。
+const START = /<!-- endpoints:start[^>]*-->/;
+const END = '<!-- endpoints:end -->';
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+async function writeLandingPage(index) {
+  const file = path.join(ROOT, 'data', 'index.html');
+  const html = await readFile(file, 'utf8');
+  const m = html.match(START);
+  const endAt = html.indexOf(END);
+  if (!m || endAt === -1 || endAt < m.index) {
+    throw new Error('data/index.html 找不到 endpoints:start／endpoints:end 標記，首頁的端點表無法更新');
+  }
+  const blocks = index.datasets.map((d) => {
+    const rows = d.tables.map((t) =>
+      `        <tr><td><a href="/${t.path}"><code>/${t.path}</code></a></td><td>${esc(t.label)}</td><td class="n">${t.recordCount.toLocaleString('en-US')}</td></tr>`,
+    );
+    return [
+      `      <h2>/${VERSION}/${esc(d.slug)}/ <span class="sub">${esc(d.label)}</span></h2>`,
+      '      <table>',
+      ...rows,
+      '      </table>',
+    ].join('\n');
+  });
+  const out = `${html.slice(0, m.index + m[0].length)}\n${blocks.join('\n')}\n${html.slice(endAt)}`;
+  await writeFile(file, out);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
