@@ -25,9 +25,11 @@
  * ───────────────────────────────────────────────────────────────
  */
 
+import { spawnSync } from 'node:child_process';
 import { mkdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildIndex } from './build-index.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const VERSION = 'v0';
@@ -206,17 +208,11 @@ async function fetchAllRecords(baseId, tableId) {
 }
 
 async function main() {
-  const index = {
-    version: VERSION,
-    license: 'CC BY 4.0',
-    attribution: 'g0v civictech.tw',
-    datasets: [],
-  };
   const piiFindings = [];
 
-  await rm(OUT_DIR, { recursive: true, force: true });
-
   for (const ds of DATASETS) {
+    // 只清自己負責的資料集。data/v0/ 底下還有別的來源（例如 aimonday），整個刪會把它們一起帶走
+    await rm(path.join(OUT_DIR, ds.slug), { recursive: true, force: true });
     console.log(`\n=== ${ds.label}（${ds.id}）→ /${VERSION}/${ds.slug}/ ===`);
     const { tables } = await fetchSchema(ds.id);
 
@@ -263,7 +259,6 @@ async function main() {
     const dsDir = path.join(OUT_DIR, ds.slug);
     await mkdir(dsDir, { recursive: true });
 
-    const dsIndex = { slug: ds.slug, name: ds.name, label: ds.label, tables: [] };
     for (const table of tables) {
       if (isExcludedTable(table.name) || emptyTables.includes(table.name)) continue;
       const meta = ds.tables[table.name];
@@ -317,16 +312,8 @@ async function main() {
         JSON.stringify(out, null, 2) + '\n',
       );
 
-      dsIndex.tables.push({
-        slug: meta.slug,
-        name: table.name,
-        label: meta.label,
-        recordCount: records.length,
-        path: `${VERSION}/${ds.slug}/${meta.slug}.json`,
-      });
       console.log(`寫出 ${VERSION}/${ds.slug}/${meta.slug}.json（${records.length} 筆）`);
     }
-    index.datasets.push(dsIndex);
   }
 
   // ── 個資閘門：新的個資一定要有人看過才放行 ──
@@ -341,10 +328,16 @@ async function main() {
     process.exit(1);
   }
 
-  await writeFile(
-    path.join(ROOT, 'data', 'index.json'),
-    JSON.stringify(index, null, 2) + '\n',
-  );
+  // ── 其他來源的資料集 ──
+  // 獨立子行程：它失敗只會讓它自己的端點停在上一版，不擋 Airtable 這邊的更新。
+  // 失敗的細節在 reports/aimonday.json。
+  console.log('\n=== AI Monday 講題紀錄（Google Sheet）→ /v0/aimonday/ ===');
+  const aimonday = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'sync-aimonday.mjs')], { stdio: 'inherit' });
+  if (aimonday.status !== 0) {
+    console.error('\n⚠️ AI Monday 同步失敗，/v0/aimonday/ 維持上一版。見 reports/aimonday.json');
+  }
+
+  await buildIndex();
   console.log(`\n完成。索引 data/index.json，端點 /${VERSION}/{dataset}/{table}.json`);
 }
 
