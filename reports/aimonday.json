@@ -1,0 +1,47 @@
+{
+  "counts": {
+    "events": 26,
+    "talks": 72,
+    "warnings": 9,
+    "errors": 0
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "where": "講題 第 16 列（260808 (六) ｜COSCUP）",
+      "msg": "講者單位裡夾著網址，請移到「講者網址」：「CONSUL DEMOCRACY https://consuldemocracy.org/」"
+    },
+    {
+      "where": "講題 第 17 列（260808 (六) ｜COSCUP）",
+      "msg": "講者單位裡夾著網址，請移到「講者網址」：「Engineer Cafe Community https://engineercafe.jp/」"
+    },
+    {
+      "where": "講題 第 20 列（260808 (六) ｜COSCUP）",
+      "msg": "影片欄不是網址：「X」，視為沒有影片"
+    },
+    {
+      "where": "講題 第 20 列（260808 (六) ｜COSCUP）",
+      "msg": "授權寫「無影片」：沒有影片時授權欄請留空"
+    },
+    {
+      "where": "講題 第 21 列（260808 (六) ｜COSCUP）",
+      "msg": "影片欄不是網址：「X」，視為沒有影片"
+    },
+    {
+      "where": "講題 第 21 列（260808 (六) ｜COSCUP）",
+      "msg": "授權寫「無影片」：沒有影片時授權欄請留空"
+    },
+    {
+      "where": "講題 第 26 列（261102 (一) ｜AI Monday）",
+      "msg": "講題欄放的是內部提示，不輸出：「再請 Cofacts 提供，可直接編輯本欄位」"
+    },
+    {
+      "where": "講題 第 27 列（261102 (一) ｜AI Monday）",
+      "msg": "講題欄放的是內部提示，不輸出：「再請 藥品仿單白話文運動 提供，可直接編輯本欄位」"
+    },
+    {
+      "where": "講題 第 28 列（261102 (一) ｜AI Monday）",
+      "msg": "講題欄放的是內部提示，不輸出：「再請 Claire 提供，可直接編輯本欄位 https://civictech-guide.claire-cheng.com/zh/」"
+    }
+  ]
+}

@@ -142,6 +142,27 @@
           "path": "v0/science/ccu-topics.json"
         }
       ]
+    },
+    {
+      "slug": "aimonday",
+      "name": "AI Monday 講題紀錄（Google Sheet）",
+      "label": "AI Monday 講題紀錄",
+      "tables": [
+        {
+          "slug": "events",
+          "name": "場次",
+          "label": "場次",
+          "recordCount": 26,
+          "path": "v0/aimonday/events.json"
+        },
+        {
+          "slug": "talks",
+          "name": "講題",
+          "label": "講題",
+          "recordCount": 72,
+          "path": "v0/aimonday/talks.json"
+        }
+      ]
     }
   ]
 }

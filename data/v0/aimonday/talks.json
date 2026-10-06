@@ -1,0 +1,1415 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "aimonday",
+    "name": "AI Monday 講題紀錄（Google Sheet）",
+    "label": "AI Monday 講題紀錄"
+  },
+  "table": {
+    "slug": "talks",
+    "name": "講題",
+    "label": "講題"
+  },
+  "recordCount": 72,
+  "records": [
+    {
+      "id": "2026-02-08-congressthon-1",
+      "event_id": "2026-02-08-congressthon",
+      "order": 1,
+      "kind": "talk",
+      "title": "讓政治資訊變成日常：台南議會觀測 LINE 機器人",
+      "description": null,
+      "speakers": [
+        {
+          "name": "雨蒼",
+          "affiliation": null,
+          "url": null
+        },
+        {
+          "name": "蘇淋齊",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 21,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=9BVWDFcu2k4",
+        "youtube_id": "9BVWDFcu2k4",
+        "start_sec": 0
+      },
+      "keywords": [],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-02-08-congressthon-2",
+      "event_id": "2026-02-08-congressthon",
+      "order": 2,
+      "kind": "talk",
+      "title": "AI 在國會：口袋國會AI智慧平台",
+      "description": null,
+      "speakers": [
+        {
+          "name": "宋思彤",
+          "affiliation": "口袋國會",
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 25,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=yuGKi5ccIOI",
+        "youtube_id": "yuGKi5ccIOI",
+        "start_sec": 0
+      },
+      "keywords": [],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-02-08-congressthon-3",
+      "event_id": "2026-02-08-congressthon",
+      "order": 3,
+      "kind": "qa",
+      "title": "QA",
+      "description": null,
+      "speakers": [],
+      "open_slot": false,
+      "duration_min": 12,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=LktJSyIQ4Fw",
+        "youtube_id": "LktJSyIQ4Fw",
+        "start_sec": 0
+      },
+      "keywords": [],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-06-22-congressthon-1",
+      "event_id": "2026-06-22-congressthon",
+      "order": 1,
+      "kind": "talk",
+      "title": "這次的 AI 不一樣了，代理型AI怎麼研究政府資料？",
+      "description": "從自己寫程式，到開始大量把代理型 AI 納入工作流程。分享這一年來的嘗試，以及人類與AI的分工方式",
+      "speakers": [
+        {
+          "name": "Ronny",
+          "affiliation": "歐噴公司創辦人、國會松發起人",
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 25,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=hI9t4dlA5PI",
+        "youtube_id": "hI9t4dlA5PI",
+        "start_sec": 0
+      },
+      "keywords": [],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-06-22-congressthon-2",
+      "event_id": "2026-06-22-congressthon",
+      "order": 2,
+      "kind": "talk",
+      "title": "Insight Pipeline：展開與代理群協作的研究生活",
+      "description": "如果研究助理變成一群 AI，研究工作會長什麼樣子？從實際案例分享自己的工作方法",
+      "speakers": [
+        {
+          "name": "Weichen",
+          "affiliation": "資安院／人類學，關心數位議題與網路治理",
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 20,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=hI9t4dlA5PI",
+        "youtube_id": "hI9t4dlA5PI",
+        "start_sec": 0
+      },
+      "keywords": [],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-06-22-congressthon-3",
+      "event_id": "2026-06-22-congressthon",
+      "order": 3,
+      "kind": "talk",
+      "title": "Vibe Coding 全球公民科技追蹤日報的心路歷程",
+      "description": null,
+      "speakers": [
+        {
+          "name": "Claire",
+          "affiliation": "自由工作者/公民科技專案 PM & 研究員、國會松工作小組",
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 25,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=hI9t4dlA5PI",
+        "youtube_id": "hI9t4dlA5PI",
+        "start_sec": 0
+      },
+      "keywords": [],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-07-25-congressthon-1",
+      "event_id": "2026-07-25-congressthon",
+      "order": 1,
+      "kind": "talk",
+      "title": "百花齊放的 Vibe Coding 時代：從工具蛻變為產品的思考之路",
+      "description": null,
+      "speakers": [
+        {
+          "name": "Waiting",
+          "affiliation": "《報導者》產品經理",
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 20,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6zh7_ROJQ4c",
+        "youtube_id": "6zh7_ROJQ4c",
+        "start_sec": 0
+      },
+      "keywords": [],
+      "license": "CC-BY-ND",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-07-25-congressthon-2",
+      "event_id": "2026-07-25-congressthon",
+      "order": 2,
+      "kind": "talk",
+      "title": "所有資訊都公開了，為什麼還是看不懂？我們如何透過設計降低理解成本",
+      "description": null,
+      "speakers": [
+        {
+          "name": "劉邦豐",
+          "affiliation": "《報導者》產品設計師",
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 20,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6zh7_ROJQ4c&t=1213s",
+        "youtube_id": "6zh7_ROJQ4c",
+        "start_sec": 1213
+      },
+      "keywords": [],
+      "license": "CC-BY-ND",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-07-25-congressthon-3",
+      "event_id": "2026-07-25-congressthon",
+      "order": 3,
+      "kind": "talk",
+      "title": "從設計議題架構到多 Agent 協作，讓 AI 做出你專屬的議題分類帽",
+      "description": null,
+      "speakers": [
+        {
+          "name": "報導者團隊",
+          "affiliation": null,
+          "url": null
+        },
+        {
+          "name": "簡毅慧",
+          "affiliation": "《報導者》數據記者、AI 專案經理",
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 20,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6zh7_ROJQ4c&t=2357s",
+        "youtube_id": "6zh7_ROJQ4c",
+        "start_sec": 2357
+      },
+      "keywords": [],
+      "license": "CC-BY-ND",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-07-25-congressthon-4",
+      "event_id": "2026-07-25-congressthon",
+      "order": 4,
+      "kind": "qa",
+      "title": "QA",
+      "description": null,
+      "speakers": [],
+      "open_slot": false,
+      "duration_min": 40,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=6zh7_ROJQ4c&t=3997s",
+        "youtube_id": "6zh7_ROJQ4c",
+        "start_sec": 3997
+      },
+      "keywords": [],
+      "license": "CC-BY-ND",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-08-08-coscup-1",
+      "event_id": "2026-08-08-coscup",
+      "order": 1,
+      "kind": "talk",
+      "title": "人工智慧與開源的對話：國際趨勢與政策發展",
+      "description": null,
+      "speakers": [
+        {
+          "name": "多位與談",
+          "affiliation": "Ministry of Digital Affairs (數位發展部)",
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": "pending"
+    },
+    {
+      "id": "2026-08-08-coscup-2",
+      "event_id": "2026-08-08-coscup",
+      "order": 2,
+      "kind": "talk",
+      "title": "開源人工智慧的定義、風險與治理",
+      "description": null,
+      "speakers": [
+        {
+          "name": "Cui Jia Wei (Peter)",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": "pending"
+    },
+    {
+      "id": "2026-08-08-coscup-3",
+      "event_id": "2026-08-08-coscup",
+      "order": 3,
+      "kind": "talk",
+      "title": "關於開放原始碼 x 人工智慧，聯合國怎麼說？",
+      "description": null,
+      "speakers": [
+        {
+          "name": "RR",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": "pending"
+    },
+    {
+      "id": "2026-08-08-coscup-4",
+      "event_id": "2026-08-08-coscup",
+      "order": 4,
+      "kind": "talk",
+      "title": "邁向可信任 AI：開發者必備的 Agents 偏見檢測與緩解框架",
+      "description": null,
+      "speakers": [
+        {
+          "name": "Jing-Tian Sung",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": "pending"
+    },
+    {
+      "id": "2026-08-08-coscup-5",
+      "event_id": "2026-08-08-coscup",
+      "order": 5,
+      "kind": "talk",
+      "title": "Open source, open voice: the power of FOSS in supporting citizen participation",
+      "description": null,
+      "speakers": [
+        {
+          "name": "Lucía Luzuriaga",
+          "affiliation": "CONSUL DEMOCRACY",
+          "url": "https://consuldemocracy.org/"
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 26,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=duRa2WkuYwM",
+        "youtube_id": "duRa2WkuYwM",
+        "start_sec": 0
+      },
+      "keywords": [],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-08-08-coscup-6",
+      "event_id": "2026-08-08-coscup",
+      "order": 6,
+      "kind": "talk",
+      "title": "Engineer Cafe’s OSS Reception System: A Reproducible Model for Local-Global Collaboration",
+      "description": null,
+      "speakers": [
+        {
+          "name": "Kosuke Terada",
+          "affiliation": "Engineer Cafe Community",
+          "url": "https://engineercafe.jp/"
+        },
+        {
+          "name": "Kosuke Shimada",
+          "affiliation": "Engineer Cafe Community",
+          "url": "https://engineercafe.jp/"
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 23,
+      "slides_url": "https://drive.google.com/drive/folders/1ZsFFwvI8625ll20RL2wMPWfSGvXaa5UF?usp=drive_link",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dJgWFUEZvtY",
+        "youtube_id": "dJgWFUEZvtY",
+        "start_sec": 0
+      },
+      "keywords": [],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-08-08-coscup-7",
+      "event_id": "2026-08-08-coscup",
+      "order": 7,
+      "kind": "talk",
+      "title": "AI Sovereignty in Practice: From Taiwan Benchmark to Production Payment Agents",
+      "description": null,
+      "speakers": [
+        {
+          "name": "蕭新晟",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 36,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=ilVc8obXoT4",
+        "youtube_id": "ilVc8obXoT4",
+        "start_sec": 0
+      },
+      "keywords": [
+        "主權評測"
+      ],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-08-08-coscup-8",
+      "event_id": "2026-08-08-coscup",
+      "order": 8,
+      "kind": "talk",
+      "title": "生成式 AI 時代的公民開發治理：從業務創新到企業納管",
+      "description": null,
+      "speakers": [
+        {
+          "name": "Teemo",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 33,
+      "slides_url": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=T4vVHIIwFvE",
+        "youtube_id": "T4vVHIIwFvE",
+        "start_sec": 0
+      },
+      "keywords": [
+        "醫院"
+      ],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-08-08-coscup-9",
+      "event_id": "2026-08-08-coscup",
+      "order": 9,
+      "kind": "talk",
+      "title": "讓人力回歸前線：智慧排程系統的 AI 輔助開發與開源公私協力實錄",
+      "description": null,
+      "speakers": [
+        {
+          "name": "Josh (杜佳憲)",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [
+        "消防局"
+      ],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2026-08-08-coscup-10",
+      "event_id": "2026-08-08-coscup",
+      "order": 10,
+      "kind": "talk",
+      "title": "打造開源勞動觀測站：用 n8n 與 LLM 解析 AI 時代的職能轉變與就業衝擊",
+      "description": null,
+      "speakers": [
+        {
+          "name": "林源隆 (Wilson)",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [
+        "職場任務 AI 暴露度"
+      ],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2026-09-07-ai-monday-1",
+      "event_id": "2026-09-07-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": "AI如何改變公共治理與行政服務",
+      "description": null,
+      "speakers": [
+        {
+          "name": "Ronny",
+          "affiliation": null,
+          "url": "https://ronny.tw/"
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 40,
+      "slides_url": "https://docs.google.com/presentation/d/114U8ybVX4vlLevn-XlJUrlvEhVuucR1MGgcf-n_LmBI/edit?slide=id.p#slide=id.p",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=VFxKGMDlxsU",
+        "youtube_id": "VFxKGMDlxsU",
+        "start_sec": 0
+      },
+      "keywords": [
+        "公務員"
+      ],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-09-07-ai-monday-2",
+      "event_id": "2026-09-07-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": "不要先做 App：公民科技資料提案的五項證據",
+      "description": "從資料取得、整合、應用利基，到一年後還能不能維運的提案健檢",
+      "speakers": [
+        {
+          "name": "蔡秀吉",
+          "affiliation": null,
+          "url": "https://github.com/thc1006"
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 25,
+      "slides_url": "https://docs.google.com/presentation/d/1o8OT06QW6LLLCAz8ATYJQDnQyFxcd6o0/edit",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=VFxKGMDlxsU&t=3371s",
+        "youtube_id": "VFxKGMDlxsU",
+        "start_sec": 3371
+      },
+      "keywords": [
+        "開源協作"
+      ],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-10-05-ai-monday-1",
+      "event_id": "2026-10-05-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": "在地端算力跑醫療 AI 的工程踩坑筆記：從 NVIDIA GB10 到災難醫療現場實戰",
+      "description": "簡述醫院落地式 AI 應用系統之建置歷程與導入規劃，並著重分享邊緣 AI 設備建置經驗，以 NVIDIA GB10 系列為例，探討軟硬體架構與醫療院所相關建置需求，AI模型應用方式、流程及所需資源。亦會介紹實作案例，應用於急診災害醫療救護隊現場環境部署。",
+      "speakers": [
+        {
+          "name": "Teemo",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 30,
+      "slides_url": null,
+      "video": null,
+      "keywords": [
+        "地端模型"
+      ],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2026-10-05-ai-monday-2",
+      "event_id": "2026-10-05-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": "2026 桌面級地端模型能做什麼",
+      "description": "著重 2026 下半年、總參數約 400B 以下的開權重地端模型，並對照現有桌邊與小型工作站硬體。重點是哪些工作流已能在資料不出門的前提下使用，以及如何避免為了頂層模型而投入不必要的硬體建置成本。",
+      "speakers": [
+        {
+          "name": "政揚",
+          "affiliation": null,
+          "url": null
+        }
+      ],
+      "open_slot": false,
+      "duration_min": 30,
+      "slides_url": null,
+      "video": null,
+      "keywords": [
+        "地端模型"
+      ],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2026-11-02-ai-monday-1",
+      "event_id": "2026-11-02-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [
+        {
+          "name": "Cofacts",
+          "affiliation": null,
+          "url": "https://cofacts.ai/"
+        }
+      ],
+      "open_slot": false,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": "pending"
+    },
+    {
+      "id": "2026-11-02-ai-monday-2",
+      "event_id": "2026-11-02-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [
+        {
+          "name": "藥品仿單白話文運動",
+          "affiliation": null,
+          "url": "https://hackmd.io/@sugarcane/rkm2oqySbg/"
+        }
+      ],
+      "open_slot": false,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [
+        "用藥資訊"
+      ],
+      "license": "CC-BY",
+      "license_status": "confirmed"
+    },
+    {
+      "id": "2026-11-02-ai-monday-3",
+      "event_id": "2026-11-02-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [
+        {
+          "name": "Claire",
+          "affiliation": null,
+          "url": "https://civictech-guide.claire-cheng.com/zh/start/"
+        }
+      ],
+      "open_slot": false,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": "pending"
+    },
+    {
+      "id": "2026-12-07-ai-monday-1",
+      "event_id": "2026-12-07-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2026-12-07-ai-monday-2",
+      "event_id": "2026-12-07-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2026-12-07-ai-monday-3",
+      "event_id": "2026-12-07-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-01-04-ai-monday-1",
+      "event_id": "2027-01-04-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-01-04-ai-monday-2",
+      "event_id": "2027-01-04-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-01-04-ai-monday-3",
+      "event_id": "2027-01-04-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-02-01-ai-monday-1",
+      "event_id": "2027-02-01-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-02-01-ai-monday-2",
+      "event_id": "2027-02-01-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-02-01-ai-monday-3",
+      "event_id": "2027-02-01-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-03-01-ai-monday-1",
+      "event_id": "2027-03-01-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-03-01-ai-monday-2",
+      "event_id": "2027-03-01-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-03-01-ai-monday-3",
+      "event_id": "2027-03-01-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-04-05-ai-monday-1",
+      "event_id": "2027-04-05-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-04-05-ai-monday-2",
+      "event_id": "2027-04-05-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-04-05-ai-monday-3",
+      "event_id": "2027-04-05-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-05-03-ai-monday-1",
+      "event_id": "2027-05-03-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-05-03-ai-monday-2",
+      "event_id": "2027-05-03-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-05-03-ai-monday-3",
+      "event_id": "2027-05-03-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-06-07-ai-monday-1",
+      "event_id": "2027-06-07-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-06-07-ai-monday-2",
+      "event_id": "2027-06-07-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-06-07-ai-monday-3",
+      "event_id": "2027-06-07-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-07-05-ai-monday-1",
+      "event_id": "2027-07-05-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-07-05-ai-monday-2",
+      "event_id": "2027-07-05-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-07-05-ai-monday-3",
+      "event_id": "2027-07-05-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-08-02-ai-monday-1",
+      "event_id": "2027-08-02-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-08-02-ai-monday-2",
+      "event_id": "2027-08-02-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-08-02-ai-monday-3",
+      "event_id": "2027-08-02-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-09-06-ai-monday-1",
+      "event_id": "2027-09-06-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-09-06-ai-monday-2",
+      "event_id": "2027-09-06-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-09-06-ai-monday-3",
+      "event_id": "2027-09-06-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-10-04-ai-monday-1",
+      "event_id": "2027-10-04-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-10-04-ai-monday-2",
+      "event_id": "2027-10-04-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-10-04-ai-monday-3",
+      "event_id": "2027-10-04-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-11-01-ai-monday-1",
+      "event_id": "2027-11-01-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-11-01-ai-monday-2",
+      "event_id": "2027-11-01-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-11-01-ai-monday-3",
+      "event_id": "2027-11-01-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-12-06-ai-monday-1",
+      "event_id": "2027-12-06-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-12-06-ai-monday-2",
+      "event_id": "2027-12-06-ai-monday",
+      "order": 2,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2027-12-06-ai-monday-3",
+      "event_id": "2027-12-06-ai-monday",
+      "order": 3,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2028-01-03-ai-monday-1",
+      "event_id": "2028-01-03-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2028-02-07-ai-monday-1",
+      "event_id": "2028-02-07-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2028-03-06-ai-monday-1",
+      "event_id": "2028-03-06-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2028-04-03-ai-monday-1",
+      "event_id": "2028-04-03-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2028-05-01-ai-monday-1",
+      "event_id": "2028-05-01-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    },
+    {
+      "id": "2028-06-05-ai-monday-1",
+      "event_id": "2028-06-05-ai-monday",
+      "order": 1,
+      "kind": "talk",
+      "title": null,
+      "description": null,
+      "speakers": [],
+      "open_slot": true,
+      "duration_min": null,
+      "slides_url": null,
+      "video": null,
+      "keywords": [],
+      "license": null,
+      "license_status": null
+    }
+  ]
+}

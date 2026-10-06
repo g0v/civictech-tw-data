@@ -1,0 +1,630 @@
+{
+  "version": "v0",
+  "dataset": {
+    "slug": "aimonday",
+    "name": "AI Monday 講題紀錄（Google Sheet）",
+    "label": "AI Monday 講題紀錄"
+  },
+  "table": {
+    "slug": "events",
+    "name": "場次",
+    "label": "場次"
+  },
+  "recordCount": 26,
+  "records": [
+    {
+      "id": "2026-02-08-congressthon",
+      "date": "2026-02-08",
+      "weekday": "日",
+      "series": "g0v 國會松",
+      "series_slug": "congressthon",
+      "theme": "第貳拾次國會松 - AI 也能監督政府？一起打造在地的議會觀測工具",
+      "status": "已完成",
+      "start_time": "20:00",
+      "format": "線上",
+      "venue": null,
+      "notes_url": "https://s.g0v.tw/congressthon",
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2026-02-08-congressthon-1",
+        "2026-02-08-congressthon-2",
+        "2026-02-08-congressthon-3"
+      ]
+    },
+    {
+      "id": "2026-06-22-congressthon",
+      "date": "2026-06-22",
+      "weekday": "一",
+      "series": "g0v 國會松",
+      "series_slug": "congressthon",
+      "theme": "第貳拾貳次國會松",
+      "status": "已完成",
+      "start_time": "20:00",
+      "format": "線上",
+      "venue": null,
+      "notes_url": "https://s.g0v.tw/congressthon",
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2026-06-22-congressthon-1",
+        "2026-06-22-congressthon-2",
+        "2026-06-22-congressthon-3"
+      ]
+    },
+    {
+      "id": "2026-07-25-congressthon",
+      "date": "2026-07-25",
+      "weekday": "六",
+      "series": "g0v 國會松",
+      "series_slug": "congressthon",
+      "theme": "第貳拾參次國會松 - 你家立委關心什麼？《報導者觀測站》設計幕後大公開！",
+      "status": "已完成",
+      "start_time": "20:00",
+      "format": "混合",
+      "venue": "臺北林森_屯屯書店（臺北市中山區長安東路一段 39 號）",
+      "notes_url": "https://s.g0v.tw/congressthon",
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2026-07-25-congressthon-1",
+        "2026-07-25-congressthon-2",
+        "2026-07-25-congressthon-3",
+        "2026-07-25-congressthon-4"
+      ]
+    },
+    {
+      "id": "2026-08-08-coscup",
+      "date": "2026-08-08",
+      "weekday": "六",
+      "series": "COSCUP",
+      "series_slug": "coscup",
+      "theme": "AI 開放治理 & Civic Tech 議程",
+      "status": "已完成",
+      "start_time": "09:30",
+      "format": "實體",
+      "venue": "臺灣科技大學 TR411 教室",
+      "notes_url": "https://g0v.hackmd.io/@jothon/ai/https%3A%2F%2Fg0v.hackmd.io%2FX-35BMf_QjW8NntAIGzuhQ%3Fview",
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2026-08-08-coscup-1",
+        "2026-08-08-coscup-2",
+        "2026-08-08-coscup-3",
+        "2026-08-08-coscup-4",
+        "2026-08-08-coscup-5",
+        "2026-08-08-coscup-6",
+        "2026-08-08-coscup-7",
+        "2026-08-08-coscup-8",
+        "2026-08-08-coscup-9",
+        "2026-08-08-coscup-10"
+      ]
+    },
+    {
+      "id": "2026-09-07-ai-monday",
+      "date": "2026-09-07",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "已完成",
+      "start_time": "20:00",
+      "format": "線上",
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [
+        {
+          "text": "8/8 AI x Civic Tech 議程影片已上架 YouTube\nhttps://www.youtube.com/playlist?list=PLFNxLTXClE24",
+          "urls": [
+            "https://www.youtube.com/playlist?list=PLFNxLTXClE24"
+          ]
+        },
+        {
+          "text": "也推薦 g0v 國會松與 AI 主題相關的影片",
+          "urls": []
+        },
+        {
+          "text": "9/21 AIA 舉辦 NGO AI 培訓活動 https://www.facebook.com/aiacademy.tw/posts/pfbid0J1EMH8Jm2BgCKLdbMyyBMSdMqDSxShZjAooFtZqmViPzrDM4w1Bv1GccGRsRkzMQl",
+          "urls": [
+            "https://www.facebook.com/aiacademy.tw/posts/pfbid0J1EMH8Jm2BgCKLdbMyyBMSdMqDSxShZjAooFtZqmViPzrDM4w1Bv1GccGRsRkzMQl"
+          ]
+        },
+        {
+          "text": "10/03 馬祖臺北社群小聚 https://forms.gle/gtV9aYyW2GH4mztk7",
+          "urls": [
+            "https://forms.gle/gtV9aYyW2GH4mztk7"
+          ]
+        },
+        {
+          "text": "10/07 週三晚上 臺中社群聚會活動，逢甲文創中心 https://forms.gle/gtV9aYyW2GH4mztk7",
+          "urls": [
+            "https://forms.gle/gtV9aYyW2GH4mztk7"
+          ]
+        }
+      ],
+      "talk_ids": [
+        "2026-09-07-ai-monday-1",
+        "2026-09-07-ai-monday-2"
+      ]
+    },
+    {
+      "id": "2026-10-05-ai-monday",
+      "date": "2026-10-05",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": "地端模型主題場",
+      "status": "已完成",
+      "start_time": "20:00",
+      "format": "線上",
+      "venue": null,
+      "notes_url": null,
+      "sponsor": "聯發科技開放資料社",
+      "promotions": [
+        {
+          "text": "10/07 週三晚上 臺中社群聚會活動，逢甲文創中心 https://forms.gle/gtV9aYyW2GH4mztk7",
+          "urls": [
+            "https://forms.gle/gtV9aYyW2GH4mztk7"
+          ]
+        },
+        {
+          "text": "10/24 週六上下午公民科技主題日，高雄左營 https://forms.gle/gtV9aYyW2GH4mztk7",
+          "urls": [
+            "https://forms.gle/gtV9aYyW2GH4mztk7"
+          ]
+        },
+        {
+          "text": "加入 g0v Slack #ai-learning https://g0v.hackmd.io/@jothon/joing0vslack",
+          "urls": [
+            "https://g0v.hackmd.io/@jothon/joing0vslack"
+          ]
+        },
+        {
+          "text": "訂閱揪松團電子報 https://g0v-jothon.oen.tw/",
+          "urls": [
+            "https://g0v-jothon.oen.tw/"
+          ]
+        },
+        {
+          "text": "💡感謝 聯發科技開放資料社 贊助本場次講師費",
+          "urls": []
+        }
+      ],
+      "talk_ids": [
+        "2026-10-05-ai-monday-1",
+        "2026-10-05-ai-monday-2"
+      ]
+    },
+    {
+      "id": "2026-11-02-ai-monday",
+      "date": "2026-11-02",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "已排定",
+      "start_time": null,
+      "format": "線上",
+      "venue": null,
+      "notes_url": null,
+      "sponsor": "聯發科技開放資料社",
+      "promotions": [
+        {
+          "text": "11/08 週日上下午 g0v 黑客松，台北市重慶南路三段2號2樓",
+          "urls": []
+        },
+        {
+          "text": "💡感謝 聯發科技開放資料社 贊助本場次講師費",
+          "urls": []
+        }
+      ],
+      "talk_ids": [
+        "2026-11-02-ai-monday-1",
+        "2026-11-02-ai-monday-2",
+        "2026-11-02-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2026-12-07-ai-monday",
+      "date": "2026-12-07",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2026-12-07-ai-monday-1",
+        "2026-12-07-ai-monday-2",
+        "2026-12-07-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-01-04-ai-monday",
+      "date": "2027-01-04",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [
+        {
+          "text": "01/09 週六下午 g0v 黑客松，暫定 Second Space RED，高雄市新興區七賢一路294號",
+          "urls": []
+        },
+        {
+          "text": "01/10 週日上下午 g0v 黑客松，屏東市讀者城市空間",
+          "urls": []
+        }
+      ],
+      "talk_ids": [
+        "2027-01-04-ai-monday-1",
+        "2027-01-04-ai-monday-2",
+        "2027-01-04-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-02-01-ai-monday",
+      "date": "2027-02-01",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2027-02-01-ai-monday-1",
+        "2027-02-01-ai-monday-2",
+        "2027-02-01-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-03-01-ai-monday",
+      "date": "2027-03-01",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [
+        {
+          "text": "03/06 週六上下午 g0v 黑客松，嘉義市謐巷空間，嘉義市西區民生北路215巷11號",
+          "urls": []
+        },
+        {
+          "text": "03/07 週日上下午 g0v 黑客松，台南好想工作室",
+          "urls": []
+        }
+      ],
+      "talk_ids": [
+        "2027-03-01-ai-monday-1",
+        "2027-03-01-ai-monday-2",
+        "2027-03-01-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-04-05-ai-monday",
+      "date": "2027-04-05",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2027-04-05-ai-monday-1",
+        "2027-04-05-ai-monday-2",
+        "2027-04-05-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-05-03-ai-monday",
+      "date": "2027-05-03",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [
+        {
+          "text": "05/23 週日上下午 g0v 黑客松，台北市重慶南路三段2號2樓",
+          "urls": []
+        }
+      ],
+      "talk_ids": [
+        "2027-05-03-ai-monday-1",
+        "2027-05-03-ai-monday-2",
+        "2027-05-03-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-06-07-ai-monday",
+      "date": "2027-06-07",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2027-06-07-ai-monday-1",
+        "2027-06-07-ai-monday-2",
+        "2027-06-07-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-07-05-ai-monday",
+      "date": "2027-07-05",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2027-07-05-ai-monday-1",
+        "2027-07-05-ai-monday-2",
+        "2027-07-05-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-08-02-ai-monday",
+      "date": "2027-08-02",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2027-08-02-ai-monday-1",
+        "2027-08-02-ai-monday-2",
+        "2027-08-02-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-09-06-ai-monday",
+      "date": "2027-09-06",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2027-09-06-ai-monday-1",
+        "2027-09-06-ai-monday-2",
+        "2027-09-06-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-10-04-ai-monday",
+      "date": "2027-10-04",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [
+        {
+          "text": "可搭配宣傳 10/30 週六 公民科技主題日",
+          "urls": []
+        }
+      ],
+      "talk_ids": [
+        "2027-10-04-ai-monday-1",
+        "2027-10-04-ai-monday-2",
+        "2027-10-04-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-11-01-ai-monday",
+      "date": "2027-11-01",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [
+        {
+          "text": "可搭配宣傳 11/21 週日 g0v 黑客松，台北",
+          "urls": []
+        }
+      ],
+      "talk_ids": [
+        "2027-11-01-ai-monday-1",
+        "2027-11-01-ai-monday-2",
+        "2027-11-01-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2027-12-06-ai-monday",
+      "date": "2027-12-06",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2027-12-06-ai-monday-1",
+        "2027-12-06-ai-monday-2",
+        "2027-12-06-ai-monday-3"
+      ]
+    },
+    {
+      "id": "2028-01-03-ai-monday",
+      "date": "2028-01-03",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2028-01-03-ai-monday-1"
+      ]
+    },
+    {
+      "id": "2028-02-07-ai-monday",
+      "date": "2028-02-07",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2028-02-07-ai-monday-1"
+      ]
+    },
+    {
+      "id": "2028-03-06-ai-monday",
+      "date": "2028-03-06",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2028-03-06-ai-monday-1"
+      ]
+    },
+    {
+      "id": "2028-04-03-ai-monday",
+      "date": "2028-04-03",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2028-04-03-ai-monday-1"
+      ]
+    },
+    {
+      "id": "2028-05-01-ai-monday",
+      "date": "2028-05-01",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2028-05-01-ai-monday-1"
+      ]
+    },
+    {
+      "id": "2028-06-05-ai-monday",
+      "date": "2028-06-05",
+      "weekday": "一",
+      "series": "AI Monday",
+      "series_slug": "ai-monday",
+      "theme": null,
+      "status": "邀約中",
+      "start_time": null,
+      "format": null,
+      "venue": null,
+      "notes_url": null,
+      "sponsor": null,
+      "promotions": [],
+      "talk_ids": [
+        "2028-06-05-ai-monday-1"
+      ]
+    }
+  ]
+}

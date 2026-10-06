@@ -43,6 +43,15 @@ https://data.civictech.tw/v0/{資料集}/{表}.json
 | [`/v0/science/methods.json`](https://data.civictech.tw/v0/science/methods.json) | 演算或分析方案 | 9 |
 | [`/v0/science/ccu-topics.json`](https://data.civictech.tw/v0/science/ccu-topics.json) | 中正社區大學學群主題 | 6 |
 
+### AI Monday 講題紀錄 `/v0/aimonday/`
+
+| 端點 | 內容 | 筆數 |
+|---|---|---|
+| [`/v0/aimonday/events.json`](https://data.civictech.tw/v0/aimonday/events.json) | 場次（AI Monday、g0v 國會松、COSCUP 的 AI 相關議程） | 26 |
+| [`/v0/aimonday/talks.json`](https://data.civictech.tw/v0/aimonday/talks.json) | 講題（含講者、影片、授權） | 72 |
+
+來源是揪松團維護的 Google Sheet，不是 Airtable，所以**格式和上面兩個資料集不同**：沒有 `fields` 包一層，欄位已經整理成固定的形狀（見下方「aimonday 的欄位」）。
+
 筆數以 [`index.json`](data/index.json) 為準，本表可能落後。
 
 ## 馬上試 Quick start
@@ -90,6 +99,42 @@ CORS 全開（`Access-Control-Allow-Origin: *`），瀏覽器可直接 fetch。
 - **欄位是稀疏的**：Airtable 空欄位不會出現在 `fields` 裡，讀取時一律當可能不存在。
 - **檔內不含匯出時間戳**（無變動時重跑不產生 diff）。**最後更新時間以 git commit 歷史為準。**
 
+### aimonday 的欄位
+
+```jsonc
+// events.json 的一筆
+{
+  "id": "2026-10-05-ai-monday",          // 日期＋系列，穩定
+  "date": "2026-10-05", "weekday": "一",
+  "series": "AI Monday", "series_slug": "ai-monday",
+  "theme": "地端模型主題場",
+  "status": "已完成",                     // 已完成／已排定／邀約中／停辦
+  "start_time": "20:00", "format": "線上", "venue": null,
+  "notes_url": null, "sponsor": "聯發科技開放資料社",
+  "promotions": [ { "text": "…", "urls": ["https://…"] } ],
+  "talk_ids": ["2026-10-05-ai-monday-1", "2026-10-05-ai-monday-2"]
+}
+
+// talks.json 的一筆
+{
+  "id": "2026-07-25-congressthon-3",     // 場次 id＋上台順序。⚠️ Sheet 裡調換順序，id 會跟著變
+  "event_id": "2026-07-25-congressthon", "order": 3,
+  "kind": "talk",                         // talk／qa
+  "title": "…", "description": null,
+  "speakers": [ { "name": "簡毅慧", "affiliation": "《報導者》數據記者、AI 專案經理", "url": null } ],
+  "open_slot": false,                     // true＝還在邀約的空位
+  "duration_min": 20, "slides_url": null,
+  "video": { "url": "https://www.youtube.com/watch?v=6zh7_ROJQ4c&t=2357s", "youtube_id": "6zh7_ROJQ4c", "start_sec": 2357 },
+  "keywords": [],
+  "license": "CC-BY-ND",                  // 影片授權
+  "license_status": "confirmed"           // confirmed／pending／unknown；沒有影片時為 null
+}
+```
+
+- 欄位**不是稀疏的**：沒有值就是 `null` 或 `[]`，不會省略。
+- Sheet 的「線上會議網址」「備註」兩欄不匯出。
+- Sheet 填寫格式不合規的地方會列在 `reports/aimonday.json`（不對外發布），給維護者修。
+
 ## 為什麼路徑長這樣
 
 | | |
@@ -110,7 +155,9 @@ CORS 全開（`Access-Control-Allow-Origin: *`），瀏覽器可直接 fetch。
 
 ## 更新方式 Update
 
-`scripts/sync.mjs` 每天執行一次（台灣時間 04:00）。
+`scripts/sync.mjs` 每天執行一次（台灣時間 04:00）。它結尾會接著跑 `scripts/sync-aimonday.mjs`（Google Sheet，免 token），最後用 `scripts/build-index.mjs` 依 `data/v0/` 實際有的檔案重建 `index.json`。
+
+各資料集**只清自己的目錄**。aimonday 同步失敗時，`/v0/aimonday/` 停在上一版，不影響 Airtable 那兩個資料集的更新；失敗原因寫在 `reports/aimonday.json`。
 
 > ⚠️ **目前這件事沒有自動化。** `.github/workflows/sync.yml` 還在，但它依賴的 GitHub 帳號已停權（2026-09-01），**排程不會觸發，而且不會有任何錯誤訊息**。改由何處執行尚未定案。
 
