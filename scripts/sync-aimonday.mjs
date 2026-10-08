@@ -23,7 +23,7 @@ const REPORT = path.join(ROOT, 'reports', 'aimonday.json');
 // 欄名 → 內部名稱。左邊必須和 Sheet 第一列一字不差；Sheet 多出的欄位不讀（例如「線上會議網址」「備註」）。
 const EVENT_COLS = {
   場次: 'key', 日期: 'date', 系列: 'series', 場次主題: 'theme', 狀態: 'status',
-  開始時間: 'start_time', 形式: 'format', 地點: 'venue', 共筆: 'notes_url',
+  開始時間: 'start_time', 結束時間: 'end_time', 形式: 'format', 地點: 'venue', 共筆: 'notes_url',
   宣傳: 'promotions', 贊助: 'sponsor',
 };
 const TALK_COLS = {
@@ -34,6 +34,8 @@ const TALK_COLS = {
 
 const SERIES_SLUG = { 'AI Monday': 'ai-monday', 'g0v 國會松': 'congressthon', COSCUP: 'coscup' };
 const EVENT_STATUS = ['已完成', '已排定', '邀約中', '停辦'];
+// 這兩種狀態代表時間已經談定：開始與結束時間必填，缺了就失敗（網站的日曆與 .ics 靠它）
+const TIME_REQUIRED = ['已完成', '已排定'];
 const FORMATS = ['線上', '實體', '混合'];
 const LICENSES = { 'CC-BY': 'CC-BY', 'CC-BY-ND': 'CC-BY-ND', 'CC-BY-SA': 'CC-BY-SA' };
 const LICENSE_PENDING = ['待詢問', '待確認'];
@@ -103,10 +105,10 @@ function parseDate(s, where) {
   return m[0];
 }
 
-function parseTime(s, where) {
+function parseTime(s, where, label) {
   if (!s) return null;
   const m = s.match(/^(\d{1,2}):(\d{2})/);
-  if (!m) { warn(where, `開始時間看不懂：「${s}」`); return null; }
+  if (!m || Number(m[1]) > 23 || Number(m[2]) > 59) { warn(where, `${label}看不懂：「${s}」`); return null; }
   return `${m[1].padStart(2, '0')}:${m[2]}`;
 }
 
@@ -199,12 +201,20 @@ for (const r of eventRows) {
   if (r.status && !EVENT_STATUS.includes(r.status)) warn(where, `狀態看不懂：「${r.status}」`);
   if (r.format && !FORMATS.includes(r.format)) warn(where, `形式看不懂：「${r.format}」`);
   if (r.notes_url && !isUrl(r.notes_url)) warn(where, `共筆不是網址：「${r.notes_url}」`);
+  const start = parseTime(r.start_time, where, '開始時間');
+  const end = parseTime(r.end_time, where, '結束時間');
+  if (TIME_REQUIRED.includes(r.status)) {
+    if (!start) fail(where, `狀態是「${r.status}」，開始時間必填`);
+    if (!end) fail(where, `狀態是「${r.status}」，結束時間必填`);
+  }
+  if (start && end && end <= start) fail(where, `結束時間（${end}）沒有晚於開始時間（${start}）`);
+  if (end && !start) warn(where, '有結束時間但沒有開始時間');
   const ev = {
     id, date,
     weekday: '日一二三四五六'[new Date(`${date}T00:00:00Z`).getUTCDay()],
     series: r.series, series_slug: slugify(r.series),
     theme: orNull(r.theme), status: orNull(r.status),
-    start_time: parseTime(r.start_time, where), format: orNull(r.format), venue: orNull(r.venue),
+    start_time: start, end_time: end, format: orNull(r.format), venue: orNull(r.venue),
     notes_url: orNull(r.notes_url), sponsor: orNull(r.sponsor),
     promotions: parsePromotions(r.promotions),
     talk_ids: [],

@@ -109,7 +109,8 @@ CORS 全開（`Access-Control-Allow-Origin: *`），瀏覽器可直接 fetch。
   "series": "AI Monday", "series_slug": "ai-monday",
   "theme": "地端模型主題場",
   "status": "已完成",                     // 已完成／已排定／邀約中／停辦
-  "start_time": "20:00", "format": "線上", "venue": null,
+  "start_time": "20:00", "end_time": "21:30", // 台灣時間；已完成／已排定一定有，其他狀態可能是 null
+  "format": "線上", "venue": null,
   "notes_url": null, "sponsor": "聯發科技開放資料社",
   "promotions": [ { "text": "…", "urls": ["https://…"] } ],
   "talk_ids": ["2026-10-05-ai-monday-1", "2026-10-05-ai-monday-2"]
