@@ -23,11 +23,13 @@
         {
           "name": "雨蒼",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         },
         {
           "name": "蘇淋齊",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -54,6 +56,7 @@
         {
           "name": "宋思彤",
           "affiliation": "口袋國會",
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -100,6 +103,7 @@
         {
           "name": "Ronny",
           "affiliation": "歐噴公司創辦人、國會松發起人",
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -126,6 +130,7 @@
         {
           "name": "Weichen",
           "affiliation": "資安院／人類學，關心數位議題與網路治理",
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -152,6 +157,7 @@
         {
           "name": "Claire",
           "affiliation": "自由工作者/公民科技專案 PM & 研究員、國會松工作小組",
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -178,6 +184,7 @@
         {
           "name": "Waiting",
           "affiliation": "《報導者》產品經理",
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -204,6 +211,7 @@
         {
           "name": "劉邦豐",
           "affiliation": "《報導者》產品設計師",
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -230,11 +238,13 @@
         {
           "name": "報導者團隊",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         },
         {
           "name": "簡毅慧",
           "affiliation": "《報導者》數據記者、AI 專案經理",
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -281,6 +291,7 @@
         {
           "name": "多位與談",
           "affiliation": "Ministry of Digital Affairs (數位發展部)",
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -303,6 +314,7 @@
         {
           "name": "Cui Jia Wei (Peter)",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -325,6 +337,7 @@
         {
           "name": "RR",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -347,6 +360,7 @@
         {
           "name": "Jing-Tian Sung",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -369,7 +383,8 @@
         {
           "name": "Lucía Luzuriaga",
           "affiliation": "CONSUL DEMOCRACY",
-          "url": "https://consuldemocracy.org/"
+          "affiliation_url": "https://consuldemocracy.org/",
+          "url": null
         }
       ],
       "open_slot": false,
@@ -395,12 +410,14 @@
         {
           "name": "Kosuke Terada",
           "affiliation": "Engineer Cafe Community",
-          "url": "https://engineercafe.jp/"
+          "affiliation_url": "https://engineercafe.jp/",
+          "url": null
         },
         {
           "name": "Kosuke Shimada",
           "affiliation": "Engineer Cafe Community",
-          "url": "https://engineercafe.jp/"
+          "affiliation_url": "https://engineercafe.jp/",
+          "url": null
         }
       ],
       "open_slot": false,
@@ -426,6 +443,7 @@
         {
           "name": "蕭新晟",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -454,6 +472,7 @@
         {
           "name": "Teemo",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -482,6 +501,7 @@
         {
           "name": "Josh (杜佳憲)",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -506,6 +526,7 @@
         {
           "name": "林源隆 (Wilson)",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -530,6 +551,7 @@
         {
           "name": "Ronny",
           "affiliation": null,
+          "affiliation_url": null,
           "url": "https://ronny.tw/"
         }
       ],
@@ -558,6 +580,7 @@
         {
           "name": "蔡秀吉",
           "affiliation": null,
+          "affiliation_url": null,
           "url": "https://github.com/thc1006"
         }
       ],
@@ -586,6 +609,7 @@
         {
           "name": "Teemo",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -610,6 +634,7 @@
         {
           "name": "政揚",
           "affiliation": null,
+          "affiliation_url": null,
           "url": null
         }
       ],
@@ -634,6 +659,7 @@
         {
           "name": "Cofacts",
           "affiliation": null,
+          "affiliation_url": null,
           "url": "https://cofacts.ai/"
         }
       ],
@@ -656,6 +682,7 @@
         {
           "name": "藥品仿單白話文運動",
           "affiliation": null,
+          "affiliation_url": null,
           "url": "https://hackmd.io/@sugarcane/rkm2oqySbg/"
         }
       ],
@@ -680,6 +707,7 @@
         {
           "name": "Claire",
           "affiliation": null,
+          "affiliation_url": null,
           "url": "https://civictech-guide.claire-cheng.com/zh/start/"
         }
       ],
