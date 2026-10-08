@@ -41,6 +41,9 @@ const TIME_REQUIRED = ['已完成', '已排定'];
 const FORMATS = ['線上', '實體', '混合'];
 const LICENSES = { 'CC-BY': 'CC-BY', 'CC-BY-ND': 'CC-BY-ND', 'CC-BY-SA': 'CC-BY-SA' };
 const LICENSE_PENDING = ['待詢問', '待確認'];
+// 揪松團「確定沒有錄影」的寫法。影片欄與授權欄都可能出現，等同留空，不警告
+const NO_VIDEO = ['X', '無', '無錄影', '無影片'];
+const isNoVideo = (s) => NO_VIDEO.includes(s.trim().toUpperCase());
 
 const errors = [];
 const warnings = [];
@@ -144,21 +147,21 @@ function parseSpeakers(r, where) {
   const affs = pick('affiliations', '講者單位');
   const urls = pick('speaker_urls', '講者網址');
   return names.map((name, i) => {
-    let affiliation = affs[i], url = urls[i];
+    let affiliation = affs[i], url = urls[i], affiliationUrl = null;
+    // 單位欄可以帶單位官網（「CONSUL DEMOCRACY https://…」）：拆成單位名稱與單位連結。
+    // 它是單位的網址，不是講者個人的，所以不併進講者網址
     if (affiliation && URL_IN_TEXT.test(affiliation)) {
-      warn(where, `講者單位裡夾著網址，請移到「講者網址」：「${affiliation}」`);
-      const found = affiliation.match(URL_IN_TEXT)[0];
-      url ??= found;
-      affiliation = orNull(affiliation.replace(found, '').trim());
+      affiliationUrl = affiliation.match(URL_IN_TEXT)[0];
+      affiliation = orNull(affiliation.replace(affiliationUrl, '').trim());
     }
     if (url && !isUrl(url)) { warn(where, `講者網址不是網址：「${url}」`); url = null; }
-    return { name, affiliation, url };
+    return { name, affiliation, affiliation_url: affiliationUrl, url };
   });
 }
 
 // YouTube：youtu.be/ID、youtube.com/watch?v=ID；t=1213 或 t=1h2m3s。追蹤參數 si 丟掉。
 function parseVideo(s, where) {
-  if (!s) return null;
+  if (!s || isNoVideo(s)) return null;
   let u;
   try { u = new URL(s); } catch { warn(where, `影片欄不是網址：「${s}」，視為沒有影片`); return null; }
   let id = null;
@@ -173,11 +176,10 @@ function parseVideo(s, where) {
 }
 
 function parseLicense(s, hasVideo, where) {
-  if (!s) return { license: null, license_status: hasVideo ? 'unknown' : null };
+  if (!s || isNoVideo(s)) return { license: null, license_status: hasVideo ? 'unknown' : null };
   const norm = s.toUpperCase().replace(/\s+/g, '');
   if (LICENSES[norm]) return { license: LICENSES[norm], license_status: 'confirmed' };
   if (LICENSE_PENDING.includes(s)) return { license: null, license_status: 'pending' };
-  if (s === '無影片') { warn(where, '授權寫「無影片」：沒有影片時授權欄請留空'); return { license: null, license_status: null }; }
   warn(where, `授權看不懂：「${s}」`);
   return { license: null, license_status: 'unknown' };
 }

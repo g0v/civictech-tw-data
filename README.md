@@ -122,7 +122,8 @@ CORS 全開（`Access-Control-Allow-Origin: *`），瀏覽器可直接 fetch。
   "event_id": "2026-07-25-congressthon", "order": 3,
   "kind": "talk",                         // talk／qa
   "title": "…", "description": null,
-  "speakers": [ { "name": "簡毅慧", "affiliation": "《報導者》數據記者、AI 專案經理", "url": null } ],
+  "speakers": [ { "name": "簡毅慧", "affiliation": "《報導者》數據記者、AI 專案經理", "affiliation_url": null, "url": null } ],
+                                          // affiliation_url：單位官網（Sheet 寫在單位欄裡的網址）；url：講者個人連結
   "open_slot": false,                     // true＝還在邀約的空位
   "duration_min": 20, "slides_url": null,
   "video": { "url": "https://www.youtube.com/watch?v=6zh7_ROJQ4c&t=2357s", "youtube_id": "6zh7_ROJQ4c", "start_sec": 2357 },
@@ -134,6 +135,7 @@ CORS 全開（`Access-Control-Allow-Origin: *`），瀏覽器可直接 fetch。
 
 - 欄位**不是稀疏的**：沒有值就是 `null` 或 `[]`，不會省略。
 - Sheet 的「線上會議網址」「備註」兩欄不匯出。
+- 影片欄或授權欄寫「X」「無」「無錄影」「無影片」，等同留空（沒有錄影）。
 - Sheet 填寫格式不合規的地方列在 [`/v0/aimonday/report.json`](https://data.civictech.tw/v0/aimonday/report.json)（疑似個資已遮蔽），[AI-Monday](https://github.com/g0v/AI-Monday) 的每日建置會讀它、開 issue 通知維護者。未遮蔽的完整版在 `reports/aimonday.json`（不對外發布）。
 
 ## 為什麼路徑長這樣
