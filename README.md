@@ -109,7 +109,7 @@ CORS 全開（`Access-Control-Allow-Origin: *`），瀏覽器可直接 fetch。
   "series": "AI Monday", "series_slug": "ai-monday",
   "theme": "地端模型主題場",
   "status": "已完成",                     // 已完成／已排定／邀約中／停辦
-  "start_time": "20:00", "end_time": "21:30", // 台灣時間；已完成／已排定一定有，其他狀態可能是 null
+  "start_time": "20:00", "end_time": "21:30", // 台灣時間；已完成／已排定應該要有（漏填會發警告），其他狀態可能是 null
   "format": "線上", "venue": null,
   "notes_url": null, "sponsor": "聯發科技開放資料社",
   "promotions": [ { "text": "…", "urls": ["https://…"] } ],
@@ -134,7 +134,7 @@ CORS 全開（`Access-Control-Allow-Origin: *`），瀏覽器可直接 fetch。
 
 - 欄位**不是稀疏的**：沒有值就是 `null` 或 `[]`，不會省略。
 - Sheet 的「線上會議網址」「備註」兩欄不匯出。
-- Sheet 填寫格式不合規的地方會列在 `reports/aimonday.json`（不對外發布），給維護者修。
+- Sheet 填寫格式不合規的地方列在 [`/v0/aimonday/report.json`](https://data.civictech.tw/v0/aimonday/report.json)（疑似個資已遮蔽），[AI-Monday](https://github.com/g0v/AI-Monday) 的每日建置會讀它、開 issue 通知維護者。未遮蔽的完整版在 `reports/aimonday.json`（不對外發布）。
 
 ## 為什麼路徑長這樣
 

@@ -34,7 +34,9 @@ const TALK_COLS = {
 
 const SERIES_SLUG = { 'AI Monday': 'ai-monday', 'g0v 國會松': 'congressthon', COSCUP: 'coscup' };
 const EVENT_STATUS = ['已完成', '已排定', '邀約中', '停辦'];
-// 這兩種狀態代表時間已經談定：開始與結束時間必填，缺了就失敗（網站的日曆與 .ics 靠它）
+// 這兩種狀態代表時間已經談定：開始與結束時間必填（網站的日曆與 .ics 靠它）。
+// 缺了只發警告、照樣輸出，不讓一格漏填擋住整份資料更新；網站會把這場排除在 .ics 外，
+// 並由 AI-Monday repo 的每日建置讀公開的 report.json、開 issue 通知維護者。
 const TIME_REQUIRED = ['已完成', '已排定'];
 const FORMATS = ['線上', '實體', '混合'];
 const LICENSES = { 'CC-BY': 'CC-BY', 'CC-BY-ND': 'CC-BY-ND', 'CC-BY-SA': 'CC-BY-SA' };
@@ -42,6 +44,8 @@ const LICENSE_PENDING = ['待詢問', '待確認'];
 
 const errors = [];
 const warnings = [];
+// notices：照慣例填的、不是錯，例如還沒邀到講者時講題欄寫「再請 X 提供」。只記錄，不通知
+const notices = [];
 const warn = (where, msg) => { if (!warnings.some((w) => w.where === where && w.msg === msg)) warnings.push({ where, msg }); };
 const fail = (where, msg) => errors.push({ where, msg });
 
@@ -204,17 +208,18 @@ for (const r of eventRows) {
   const start = parseTime(r.start_time, where, '開始時間');
   const end = parseTime(r.end_time, where, '結束時間');
   if (TIME_REQUIRED.includes(r.status)) {
-    if (!start) fail(where, `狀態是「${r.status}」，開始時間必填`);
-    if (!end) fail(where, `狀態是「${r.status}」，結束時間必填`);
+    if (!start) warn(where, `狀態是「${r.status}」，開始時間必填（這場先不放進訂閱日曆）`);
+    if (!end) warn(where, `狀態是「${r.status}」，結束時間必填（這場先不放進訂閱日曆）`);
   }
-  if (start && end && end <= start) fail(where, `結束時間（${end}）沒有晚於開始時間（${start}）`);
+  let endOk = end;
+  if (start && end && end <= start) { warn(where, `結束時間（${end}）沒有晚於開始時間（${start}），視為沒填`); endOk = null; }
   if (end && !start) warn(where, '有結束時間但沒有開始時間');
   const ev = {
     id, date,
     weekday: '日一二三四五六'[new Date(`${date}T00:00:00Z`).getUTCDay()],
     series: r.series, series_slug: slugify(r.series),
     theme: orNull(r.theme), status: orNull(r.status),
-    start_time: start, end_time: end, format: orNull(r.format), venue: orNull(r.venue),
+    start_time: start, end_time: endOk, format: orNull(r.format), venue: orNull(r.venue),
     notes_url: orNull(r.notes_url), sponsor: orNull(r.sponsor),
     promotions: parsePromotions(r.promotions),
     talk_ids: [],
@@ -234,7 +239,7 @@ for (const r of talkRows) {
   if (!ev) { fail(where, `場次「${r.event_key}」在「場次」表裡找不到`); continue; }
 
   let title = orNull(r.title);
-  if (title && /^再請/.test(title)) { warn(where, `講題欄放的是內部提示，不輸出：「${title}」`); title = null; }
+  if (title && /^再請/.test(title)) { notices.push({ where, msg: `講題欄放的是內部提示，不輸出：「${title}」` }); title = null; }
   const isQa = title?.toUpperCase() === 'QA';
 
   let slides = orNull(r.slides_url);
@@ -281,10 +286,22 @@ for (const obj of [...events, ...talks]) {
 
 const report = {
   counts: { events: events.length, talks: talks.length, warnings: warnings.length, errors: errors.length },
-  errors, warnings,
+  errors, warnings, notices,
 };
 
 await fs.writeFile(REPORT, `${JSON.stringify(report, null, 2)}\n`);
+
+// 公開版：data.civictech.tw/v0/aimonday/report.json，給 AI-Monday repo 的每日建置讀、開 issue 通知維護者。
+// 有 error 時資料不更新，但這份照寫——它就是用來說「為什麼沒更新」的。
+// 訊息會引用儲存格內容，所以先把疑似個資遮掉；build-index 看到沒有 dataset／table 就不會當成端點。
+const redact = (s) => PII.reduce((t, re) => t.replace(new RegExp(re.source, 'g'), '［已遮蔽］'), s);
+const pub = (list) => list.map(({ where, msg }) => ({ where, msg: redact(msg) }));
+await fs.mkdir(OUT_DIR, { recursive: true });
+await fs.writeFile(path.join(OUT_DIR, 'report.json'), `${JSON.stringify({
+  sheet: `https://docs.google.com/spreadsheets/d/${SHEET_ID}/`,
+  counts: { errors: errors.length, warnings: warnings.length },
+  errors: pub(errors), warnings: pub(warnings),
+}, null, 2)}\n`);
 for (const w of warnings) console.warn(`  ⚠ ${w.where}：${w.msg}`);
 
 if (errors.length) {
