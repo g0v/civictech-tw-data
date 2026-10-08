@@ -159,7 +159,9 @@ CORS 全開（`Access-Control-Allow-Origin: *`），瀏覽器可直接 fetch。
 
 各資料集**只清自己的目錄**。aimonday 同步失敗時，`/v0/aimonday/` 停在上一版，不影響 Airtable 那兩個資料集的更新；失敗原因寫在 `reports/aimonday.json`。
 
-> ⚠️ **目前這件事沒有自動化。** `.github/workflows/sync.yml` 還在，但它依賴的 GitHub 帳號已停權（2026-09-01），**排程不會觸發，而且不會有任何錯誤訊息**。改由何處執行尚未定案。
+目前由維護者的 VPS 以 cron 執行（`0 4 * * *`）：拉最新 `main` → 跑上述三支腳本 → 有變動才 commit 並推回 → 部署到 Cloudflare Pages（`data.civictech.tw`）→ 對帳（確認最新部署成功、正式站讀得到資料）。連續 48 小時沒有成功同步會發告警給維護者。每次執行的結果寫在 `data/status.html`。
+
+> ⚠️ `.github/workflows/sync.yml` 是舊的排程，**目前不會觸發**（原 GitHub 帳號 2026-09-01 停權）。請勿同時啟用兩邊，否則會互相覆蓋 commit。
 
 ## 本地開發 Local development
 
