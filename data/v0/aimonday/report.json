@@ -1,0 +1,34 @@
+{
+  "sheet": "https://docs.google.com/spreadsheets/d/1y9RLwi-O040_NhvmGpuEhXXPSvsbgbHWgiAmIioI6i0/",
+  "counts": {
+    "errors": 0,
+    "warnings": 6
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "where": "講題 第 16 列（260808 (六) ｜COSCUP）",
+      "msg": "講者單位裡夾著網址，請移到「講者網址」：「CONSUL DEMOCRACY https://consuldemocracy.org/」"
+    },
+    {
+      "where": "講題 第 17 列（260808 (六) ｜COSCUP）",
+      "msg": "講者單位裡夾著網址，請移到「講者網址」：「Engineer Cafe Community https://engineercafe.jp/」"
+    },
+    {
+      "where": "講題 第 20 列（260808 (六) ｜COSCUP）",
+      "msg": "影片欄不是網址：「X」，視為沒有影片"
+    },
+    {
+      "where": "講題 第 20 列（260808 (六) ｜COSCUP）",
+      "msg": "授權寫「無影片」：沒有影片時授權欄請留空"
+    },
+    {
+      "where": "講題 第 21 列（260808 (六) ｜COSCUP）",
+      "msg": "影片欄不是網址：「X」，視為沒有影片"
+    },
+    {
+      "where": "講題 第 21 列（260808 (六) ｜COSCUP）",
+      "msg": "授權寫「無影片」：沒有影片時授權欄請留空"
+    }
+  ]
+}

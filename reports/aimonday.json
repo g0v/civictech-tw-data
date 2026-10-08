@@ -2,7 +2,7 @@
   "counts": {
     "events": 26,
     "talks": 72,
-    "warnings": 9,
+    "warnings": 6,
     "errors": 0
   },
   "errors": [],
@@ -30,7 +30,9 @@
     {
       "where": "講題 第 21 列（260808 (六) ｜COSCUP）",
       "msg": "授權寫「無影片」：沒有影片時授權欄請留空"
-    },
+    }
+  ],
+  "notices": [
     {
       "where": "講題 第 26 列（261102 (一) ｜AI Monday）",
       "msg": "講題欄放的是內部提示，不輸出：「再請 Cofacts 提供，可直接編輯本欄位」"
