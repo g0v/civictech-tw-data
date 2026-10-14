@@ -529,7 +529,6 @@
         "Facebook Page Link": "https://www.facebook.com/twnationaltreasure",
         "document": "https://www.facebook.com/twnationaltreasure",
         "project name": "國家寶藏",
-        "github": "S",
         "標籤": [
           {
             "id": "recmNjusE9u9rOH6X",
@@ -1859,7 +1858,7 @@
         ],
         "Intro": "2014 年，在 24 小時內，完成七個專戶文字辨識，後續擬定 SOP 號召鄉民去監察院印資料。",
         "Facebook Page Link": "http://facebook.com/cy.sunshine/",
-        "document": "​​https://www.readr.tw/project/political-contribution/story6",
+        "document": "https://www.readr.tw/project/political-contribution/story6",
         "project name": "政治獻金數位化",
         "github": "https://github.com/ctiml/campaign-finance.g0v.ctiml.tw",
         "標籤": [
@@ -3352,7 +3351,7 @@
             "name": "3-SDGS-健全生活品質"
           }
         ],
-        "Intro": "藥品仿單白話文運動\n\n解構艱深藥品仿單，幫助患者理解，減少民眾、醫療人員負擔。\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CHQJHFXvpcw?si=QtPqBvZ_6MxUEWgX\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\n- 簡報：https://docs.google.com/presentation/d/1zVtEOZ9fHDqgpjTs8pPfOfxwIpFTlFm-EX3Ip3wFqJA/edit?usp=sharing\n- 網站：https://hackmd.io/@sugarcane/rkm2oqySbg\n- Prototype：https://lin.ee/ucbMS6N\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CPFSBdO0SPs?si=_4JDTvftI7L6Agio\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n\n- 介紹影片：https://youtu.be/CPFSBdO0SPs\n- 介紹簡報：https://www.canva.com/design/DAG1j0HkzAA/UY9A4kiWfqLKrKfMtasdoA/view\n- 技術架構說明影片：https://youtu.be/bYB8wKl11ho\n- 技術架構圖：https://drive.google.com/drive/folders/1q-RtLZNMcHSduox7JiUtUO38Lhjvdmyw?usp=sharing\n- g0v Slack #medicineeasy",
+        "Intro": "藥品仿單白話文運動\n\n解構艱深藥品仿單，幫助患者理解，減少民眾、醫療人員負擔。\n\nhttps://www.youtube.com/embed/CHQJHFXvpcw?si=QtPqBvZ_6MxUEWgX\n\n- 簡報：https://docs.google.com/presentation/d/1zVtEOZ9fHDqgpjTs8pPfOfxwIpFTlFm-EX3Ip3wFqJA/edit?usp=sharing\n- 網站：https://hackmd.io/@sugarcane/rkm2oqySbg\n- Prototype：https://lin.ee/ucbMS6N\n\nhttps://www.youtube.com/embed/CPFSBdO0SPs?si=_4JDTvftI7L6Agio\n\n- 介紹影片：https://youtu.be/CPFSBdO0SPs\n- 介紹簡報：https://www.canva.com/design/DAG1j0HkzAA/UY9A4kiWfqLKrKfMtasdoA/view\n- 技術架構說明影片：https://youtu.be/bYB8wKl11ho\n- 技術架構圖：https://drive.google.com/drive/folders/1q-RtLZNMcHSduox7JiUtUO38Lhjvdmyw?usp=sharing\n- g0v Slack #medicineeasy",
         "project name": "藥品仿單白話文運動",
         "標籤": [
           {
