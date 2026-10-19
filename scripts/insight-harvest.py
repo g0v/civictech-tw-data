@@ -195,12 +195,15 @@ def wayback(url, terms=None):
         raise RuntimeError(f"網際網路檔案館暫時連不上（{last}），沒查到有沒有快照")
     if len(rows) < 2:
         return None
+    failed = 0
     for ts, original in [(r[1], r[2]) for r in reversed(rows[1:])]:
         snap = f"https://web.archive.org/web/{ts}/{original}"
         # id_ 拿到的是原始 HTML；要跑 JS 時改開一般的快照頁，它的 JS 也是從檔案館載入
         try:
             text = page_text(f"https://web.archive.org/web/{ts}id_/{original}", rendered_url=snap)
         except Exception:
+            failed += 1  # 抓不下來的不能算成「不像」，最後要分開講
+            time.sleep(10)
             continue
         # 比對時去掉檔案館自己的工具列，它會印出原網址，什麼都對得上
         body = re.sub(r"The Wayback Machine - \S+", " ", text).lower()
@@ -208,7 +211,9 @@ def wayback(url, terms=None):
             continue
         return {"來源": snap, "快照日期": f"{ts[:4]}-{ts[4:6]}-{ts[6:8]}",
                 "正文前 3000 字": text[:3000], "全文長度": len(text)}
-    raise RuntimeError(f"網際網路檔案館最近 {len(rows) - 1} 個快照都不像這個專案（預設頁或內文沒提到專案名稱）")
+    seen = len(rows) - 1 - failed
+    raise RuntimeError(f"網際網路檔案館最近 {len(rows) - 1} 個快照：{seen} 個不像這個專案（預設頁或內文沒提到專案名稱）"
+                       + (f"，{failed} 個抓不下來，沒能確認" if failed else ""))
 
 
 ARCHIVE_INDEX = "https://raw.githubusercontent.com/g0v-data/g0v-hackmd-archive/main/posts.json"
