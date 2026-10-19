@@ -155,13 +155,29 @@ def harvest_hackfoldr(url):
 
 
 # 網站還回 200，但內容已經不是專案本身：伺服器預設頁、停放網域
-DEAD_PAGE = re.compile(r"Apache2 \w+ Default Page|Welcome to nginx|domain (is|may be) for sale|This domain has expired")
+DEAD_PAGE = re.compile(r"(?i)Apache2 \w+ Default Page|Welcome to nginx|^Laravel |domain (is|may be) for sale|This domain has expired|domain name has been registered")
 
 
-def wayback(url):
-    """網站失效時查網際網路檔案館最後一個正常的快照。
+# 拆專案名稱時太常見、證明不了任何事的詞
+GENERIC = {"台灣", "臺灣", "taiwan", "資料", "平台", "平臺", "專案", "系統", "計畫", "計劃", "網站", "工具", "政府", "中文", "the", "and"}
+
+
+def name_terms(name, name_en=""):
+    """專案名稱拆成可以拿來比對的詞：英文整詞，中文另切 2 字一組。"""
+    terms = {w for t in (name, name_en) for w in re.split(r"[\s／/｜|、,，_:：()（）-]+", (t or "").lower()) if len(w) >= 2}
+    low = (name or "").lower()
+    terms |= {low[i:i + 2] for i in range(len(low) - 1) if re.match(r"[一-鿿]{2}", low[i:i + 2])}
+    return terms - GENERIC
+
+
+def wayback(url, terms=None):
+    """網站失效時，到網際網路檔案館找最近一個「還是這個專案」的快照。
+
+    不能直接拿最後一個快照：網域過期後常被別人接手。2026-10 實測，
+    立委投票指南的網域變成博弈站、享食台灣的變成小說站，檔案館照樣收。
+    所以由新到舊往回找，跳過伺服器預設頁，並要求內文提到專案名稱裡的詞。
     快照日期一定要帶著走：它描述的是那一天的專案，不是現在的。"""
-    api = ("https://web.archive.org/cdx/search/cdx?output=json&limit=-1"
+    api = ("https://web.archive.org/cdx/search/cdx?output=json&limit=-10&collapse=digest"
            "&filter=statuscode:200&filter=mimetype:text/html&url=" + urllib.parse.quote(url, safe=""))
     for wait in (0, 30, 90):  # 檔案館很容易回 429 或拒絕連線，等一下通常就好
         time.sleep(wait)
@@ -179,12 +195,20 @@ def wayback(url):
         raise RuntimeError(f"網際網路檔案館暫時連不上（{last}），沒查到有沒有快照")
     if len(rows) < 2:
         return None
-    ts, original = rows[-1][1], rows[-1][2]
-    snap = f"https://web.archive.org/web/{ts}/{original}"
-    # id_ 拿到的是原始 HTML；要跑 JS 時改開一般的快照頁，它的 JS 也是從檔案館載入
-    text = page_text(f"https://web.archive.org/web/{ts}id_/{original}", rendered_url=snap)
-    return {"來源": snap, "快照日期": f"{ts[:4]}-{ts[4:6]}-{ts[6:8]}",
-            "正文前 3000 字": text[:3000], "全文長度": len(text)}
+    for ts, original in [(r[1], r[2]) for r in reversed(rows[1:])]:
+        snap = f"https://web.archive.org/web/{ts}/{original}"
+        # id_ 拿到的是原始 HTML；要跑 JS 時改開一般的快照頁，它的 JS 也是從檔案館載入
+        try:
+            text = page_text(f"https://web.archive.org/web/{ts}id_/{original}", rendered_url=snap)
+        except Exception:
+            continue
+        # 比對時去掉檔案館自己的工具列，它會印出原網址，什麼都對得上
+        body = re.sub(r"The Wayback Machine - \S+", " ", text).lower()
+        if DEAD_PAGE.search(body[:500]) or (terms and not any(t in body for t in terms)):
+            continue
+        return {"來源": snap, "快照日期": f"{ts[:4]}-{ts[4:6]}-{ts[6:8]}",
+                "正文前 3000 字": text[:3000], "全文長度": len(text)}
+    raise RuntimeError(f"網際網路檔案館最近 {len(rows) - 1} 個快照都不像這個專案（預設頁或內文沒提到專案名稱）")
 
 
 ARCHIVE_INDEX = "https://raw.githubusercontent.com/g0v-data/g0v-hackmd-archive/main/posts.json"
@@ -373,7 +397,7 @@ def harvest(project):
                     if not isinstance(dead, str):
                         dead = f"只剩「{dead.group(0)}」"
                     try:
-                        snap = wayback(url)
+                        snap = wayback(url, name_terms(name, f.get("project name EN", "")))
                     except Exception as e:
                         raise RuntimeError(f"{dead}；{e}") from e
                     if not snap:
