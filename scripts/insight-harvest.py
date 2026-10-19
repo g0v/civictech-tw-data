@@ -54,8 +54,20 @@ def get_page(url, timeout=20):
         raise
 
 
+EMAIL = re.compile(r"[\w.+-]+@[\w-]+(\.[\w-]+)+")
+
+
+def get_hackmd(url):
+    """HackMD 的頁面是 JS 編輯器，直接抓只拿到外殼；加 /download 才是原始 Markdown。
+    共筆裡常留聯絡 email，先遮掉，免得一路被抄進 insight。"""
+    base = re.sub(r"[?#].*$", "", url).rstrip("/")
+    return EMAIL.sub("[email]", get(base + "/download"))
+
+
 def classify(url):
     u = url.strip()
+    if re.match(r"https?://([\w-]+\.)?hackmd\.io/(?!\?)[^?#]+", u):
+        return "hackmd"
     if re.match(r"https?://(www\.)?github\.com/[^/]+/[^/]+", u):
         return "github_repo"
     if re.match(r"https?://(www\.)?github\.com/[^/]+/?$", u):
@@ -191,6 +203,9 @@ def harvest(project):
                 pack["素材"].update(harvest_github_repo(url))
             elif kind == "github_user":
                 pack["素材"].update(harvest_github_user(url))
+            elif kind == "hackmd":
+                text = get_hackmd(url)
+                pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
             elif kind == "web":
                 text = strip_html(get_page(url))
                 pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
