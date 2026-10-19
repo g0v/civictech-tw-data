@@ -78,7 +78,7 @@ def render(url):
         try:
             r = subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-first-run",
                                 f"--user-data-dir={profile}", "--virtual-time-budget=8000",
-                                "--dump-dom", url], capture_output=True, timeout=60)
+                                "--dump-dom", url], capture_output=True, timeout=90)
         except subprocess.TimeoutExpired:
             return ""
     return strip_html(r.stdout.decode("utf-8", "replace"))
@@ -88,6 +88,8 @@ def page_text(url, rendered_url=None):
     """一般網頁的正文。很多專案站是單頁應用，原始 HTML 只有「請啟用 JavaScript」或
     {{ 模板 }}；這種就交給 render() 再跑一次，取比較長的那份。"""
     text = strip_html(get_page(url))
+    if BOT_WALL.search(text[:500]):
+        return text  # 不交給瀏覽器去解驗證，由呼叫端記成「抓不到」
     if len(text) < 300 or NEEDS_JS.search(text[:500]):
         full = render(rendered_url or url)
         if len(full) > len(text):
@@ -122,10 +124,25 @@ def get_gdoc(url):
     return EMAIL.sub("[email]", get(f"https://docs.google.com/{kind}/d/{doc_id}/{export}", timeout=60))
 
 
+# 共筆裡的這些連結追下去也不會有專案說明
+NOT_FOLLOW = re.compile(r"facebook\.com|youtube\.com|youtu\.be|imgur|/uploads?/|\.(png|jpe?g|gif)$")
+
+
 def doc_text(url):
     kind = classify(url)
     if kind == "hackmd":
-        return get_hackmd(url)
+        text = get_hackmd(url)
+        # 只放了幾個連結的短共筆（2026-10 有好幾個專案是這樣），往下追一層，最多兩個
+        if len(text) < 500:
+            links = [u.rstrip(").,") for u in re.findall(r"https?://[^\s)\]>\"']+", text)]
+            links = [u for u in dict.fromkeys(links) if not NOT_FOLLOW.search(u) and "hackmd.io/_" not in u]
+            for u in links[:2]:
+                try:
+                    sub = get_hackmd(u) if classify(u) == "hackmd" else EMAIL.sub("[email]", page_text(u))
+                    text += f"\n\n共筆連到的 {u}：{sub[:1200]}"
+                except Exception as e:
+                    text += f"\n\n共筆連到的 {u} 抓不到（{type(e).__name__}）"
+        return text
     if kind == "gdoc":
         return get_gdoc(url)
     return EMAIL.sub("[email]", page_text(url))
@@ -160,6 +177,10 @@ def harvest_hackfoldr(url):
         except Exception as e:
             text += f"\n\n第一份共筆（{first}）抓不到：{type(e).__name__}"
     return {"來源": url, "清單來源": src, "正文前 3000 字": text[:3000], "全文長度": len(text)}
+
+
+# 網站明擺著不讓自動程式讀（Anubis 這類擋 AI 爬蟲的驗證頁）。這是站方的選擇，不去繞過它。
+BOT_WALL = re.compile(r"正在確認你是不是機器人|Making sure you're not a bot|Access Denied: error code")
 
 
 # 網站還回 200，但內容已經不是專案本身：伺服器預設頁、停放網域
@@ -276,6 +297,7 @@ def classify(url):
 
 
 def strip_html(html):
+    html = re.sub(r"<!--.*?-->", " ", html, flags=re.S)  # 註解：有些站在這裡寫了整段開發筆記
     html = re.sub(r"<(script|style|nav|footer|header)[^>]*>.*?</\1>", " ", html, flags=re.S | re.I)
     html = re.sub(r"<[^>]+>", " ", html)
     html = re.sub(r"&nbsp;?", " ", html).replace("&amp;", "&")
@@ -403,6 +425,9 @@ def harvest(project):
             elif kind == "web":
                 try:
                     text = page_text(url)
+                    if BOT_WALL.search(text[:500]):
+                        pack["抓不到"].append(f"{url}（{field} 欄位，站方用驗證頁擋自動程式，依其意願不繞過）")
+                        continue
                     dead = DEAD_PAGE.search(text[:500])
                 except Exception as e:
                     text, dead = "", f"{type(e).__name__}: {e}"
