@@ -16,7 +16,7 @@
   3. **抓到了不等於可信。** 見 relevance_guard()。這是整支腳本最重要的一段。
   4. 每段素材都要帶出處與取得日期，否則產出的 insight 無法被查證。
 """
-import json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request, urllib.error
+import csv, io, json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta
 
 TW = timezone(timedelta(hours=8))
@@ -90,7 +90,64 @@ def get_hackmd(url):
     """HackMD 的頁面是 JS 編輯器，直接抓只拿到外殼；加 /download 才是原始 Markdown。
     共筆裡常留聯絡 email，先遮掉，免得一路被抄進 insight。"""
     base = re.sub(r"[?#].*$", "", url).rstrip("/")
+    # 書本模式的子頁長這樣：/@user/book/%2F<note id>，或把整個網址編碼進路徑
+    inner = urllib.parse.unquote(base.split("/", 3)[3]) if base.count("/") >= 3 else ""
+    if "http" in inner:
+        base = re.sub(r"[?#].*$", "", inner[inner.index("http"):]).rstrip("/")
+    elif "//" in inner or re.search(r"/@[^/]+/[^/]+//?[\w-]{20,}$", "/" + inner):
+        base = base.split("/", 3)[0] + "//" + base.split("/")[2] + "/" + inner.rstrip("/").split("/")[-1]
     return EMAIL.sub("[email]", get(base + "/download"))
+
+
+GDOC = re.compile(r"https://docs\.google\.com/(document|presentation|spreadsheets)/d/([\w-]{20,})")
+
+
+def get_gdoc(url):
+    """Google 文件、簡報、試算表都有官方的純文字匯出，公開的不用登入就拿得到。"""
+    kind, doc_id = GDOC.match(url).groups()
+    export = {"document": "export?format=txt", "presentation": "export/txt",
+              "spreadsheets": "export?format=csv"}[kind]
+    return EMAIL.sub("[email]", get(f"https://docs.google.com/{kind}/d/{doc_id}/{export}", timeout=60))
+
+
+def doc_text(url):
+    kind = classify(url)
+    if kind == "hackmd":
+        return get_hackmd(url)
+    if kind == "gdoc":
+        return get_gdoc(url)
+    return EMAIL.sub("[email]", page_text(url))
+
+
+def harvest_hackfoldr(url):
+    """hackfoldr 是一份「連結＋標題」的清單，頁面本身由 JS 組出來。
+    清單存在 Google 試算表（長 ID）或 EtherCalc（短名稱），直接讀那份 CSV，
+    再順著抓第一份共筆——它通常就是專案的概念說明。"""
+    m = re.search(r"hackfoldr\.org/([^/?#)\s]+)", url)
+    if not m:
+        raise ValueError("網址裡沒有 hackfoldr 名稱")
+    fid = m.group(1)
+    src = (f"https://docs.google.com/spreadsheets/d/{fid}/export?format=csv" if len(fid) >= 40
+           else f"https://ethercalc.net/_/{fid}/csv")
+    raw = get(src, timeout=60)
+    # 早期的 EtherCalc 清單後來搬去 Google 試算表，原處只留一行「請改到…」
+    moved = re.search(r"\b(1[\w-]{39,})\b", raw)
+    if moved and "http" not in raw.split("此後台停止更新")[0]:
+        src = f"https://docs.google.com/spreadsheets/d/{moved.group(1)}/export?format=csv"
+        raw = get(src, timeout=60)
+    rows = [r for r in csv.reader(io.StringIO(raw))
+            if len(r) > 1 and r[1].strip() and not r[0].startswith("#")]
+    titles = [r[1].strip() for r in rows]
+    text = f"目錄：{'、'.join(titles[:30])}"
+    # 不往試算表追：災害類 hackfoldr 常掛著傷患、聯絡人名單
+    first = next((r[0].strip() for r in rows if classify(r[0].strip()) in ("hackmd", "gdoc")
+                  and "/spreadsheets/" not in r[0]), None)
+    if first:
+        try:
+            text += f"\n\n第一份共筆（{first}）：{doc_text(first)}"
+        except Exception as e:
+            text += f"\n\n第一份共筆（{first}）抓不到：{type(e).__name__}"
+    return {"來源": url, "清單來源": src, "正文前 3000 字": text[:3000], "全文長度": len(text)}
 
 
 # 網站還回 200，但內容已經不是專案本身：伺服器預設頁、停放網域
@@ -126,6 +183,8 @@ def classify(url):
     u = url.strip()
     if re.match(r"https?://([\w-]+\.)?hackmd\.io/(?!\?)[^?#]+", u):
         return "hackmd"
+    if GDOC.match(u):
+        return "gdoc"
     if re.match(r"https?://(www\.)?github\.com/[^/]+/[^/]+", u):
         return "github_repo"
     if re.match(r"https?://(www\.)?github\.com/[^/]+/?$", u):
@@ -261,8 +320,8 @@ def harvest(project):
                 pack["素材"].update(harvest_github_repo(url))
             elif kind == "github_user":
                 pack["素材"].update(harvest_github_user(url))
-            elif kind == "hackmd":
-                text = get_hackmd(url)
+            elif kind in ("hackmd", "gdoc"):
+                text = doc_text(url)
                 pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
             elif kind == "web":
                 try:
@@ -283,7 +342,7 @@ def harvest(project):
             elif kind == "facebook":
                 pack["抓不到"].append(f"{url}（Facebook 有登入牆，機器取不到）")
             elif kind == "hackfoldr":
-                pack["抓不到"].append(f"{url}（hackfoldr 內容由 JS 載入，抓到的是外殼）")
+                pack["素材"][f"網頁:{url}"] = harvest_hackfoldr(url)
         except Exception as e:
             pack["抓不到"].append(f"{url}（{field} 欄位，{type(e).__name__}: {e}）")
 
