@@ -16,7 +16,7 @@
   3. **抓到了不等於可信。** 見 relevance_guard()。這是整支腳本最重要的一段。
   4. 每段素材都要帶出處與取得日期，否則產出的 insight 無法被查證。
 """
-import json, os, re, sys, urllib.request, urllib.error
+import json, os, re, sys, time, urllib.parse, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta
 
 TW = timezone(timedelta(hours=8))
@@ -62,6 +62,34 @@ def get_hackmd(url):
     共筆裡常留聯絡 email，先遮掉，免得一路被抄進 insight。"""
     base = re.sub(r"[?#].*$", "", url).rstrip("/")
     return EMAIL.sub("[email]", get(base + "/download"))
+
+
+# 網站還回 200，但內容已經不是專案本身：伺服器預設頁、停放網域
+DEAD_PAGE = re.compile(r"Apache2 \w+ Default Page|Welcome to nginx|domain (is|may be) for sale|This domain has expired")
+
+
+def wayback(url):
+    """網站失效時查網際網路檔案館最後一個正常的快照。
+    快照日期一定要帶著走：它描述的是那一天的專案，不是現在的。"""
+    api = ("https://web.archive.org/cdx/search/cdx?output=json&limit=-1"
+           "&filter=statuscode:200&filter=mimetype:text/html&url=" + urllib.parse.quote(url, safe=""))
+    for wait in (0, 15, 45):  # 檔案館很容易回 429，等一下通常就好
+        time.sleep(wait)
+        try:
+            rows = json.loads(get(api, timeout=30) or "[]")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code != 429:
+                raise
+    else:
+        return None
+    if len(rows) < 2:
+        return None
+    ts, original = rows[-1][1], rows[-1][2]
+    snap = f"https://web.archive.org/web/{ts}/{original}"
+    text = strip_html(get(f"https://web.archive.org/web/{ts}id_/{original}", timeout=30))
+    return {"來源": snap, "快照日期": f"{ts[:4]}-{ts[4:6]}-{ts[6:8]}",
+            "正文前 3000 字": text[:3000], "全文長度": len(text)}
 
 
 def classify(url):
@@ -207,8 +235,21 @@ def harvest(project):
                 text = get_hackmd(url)
                 pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
             elif kind == "web":
-                text = strip_html(get_page(url))
-                pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
+                try:
+                    text = strip_html(get_page(url))
+                    dead = DEAD_PAGE.search(text[:500])
+                except Exception as e:
+                    text, dead = "", f"{type(e).__name__}: {e}"
+                if dead:
+                    if not isinstance(dead, str):
+                        dead = f"只剩「{dead.group(0)}」"
+                    snap = wayback(url)
+                    if not snap:
+                        raise RuntimeError(f"{dead}；網際網路檔案館也沒有快照")
+                    pack["抓不到"].append(f"{url}（{field} 欄位，{dead}；改用 {snap['快照日期']} 的快照）")
+                    pack["素材"][f"網頁:{snap['來源']}"] = snap
+                else:
+                    pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
             elif kind == "facebook":
                 pack["抓不到"].append(f"{url}（Facebook 有登入牆，機器取不到）")
             elif kind == "hackfoldr":
