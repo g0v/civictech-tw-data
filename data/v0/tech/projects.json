@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 228,
+  "recordCount": 229,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -828,6 +828,7 @@
             "name": "18-行政制度變革與民主治理"
           }
         ],
+        "document": "https://hackmd.io/aZwwBCtYQH-CkTiZ3iMHZw",
         "project name": "議見零時差"
       }
     },
@@ -4758,6 +4759,26 @@
           }
         ],
         "Website URL": "https://sites.google.com/view/traffic-accident-gisview/%E9%A6%96%E9%A0%81%E8%88%87%E8%AA%AA%E6%98%8E"
+      }
+    },
+    {
+      "id": "recTKyLptDlURfiHA",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recWJ1usIU4lvdOlk",
+            "name": "8-SDGS-良好就業和經濟成長"
+          }
+        ],
+        "project name": "青年創業，政府有哪些資源？",
+        "標籤": [
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "情境網頁遊戲框架"
+          }
+        ],
+        "Website URL": "https://sup-eric.com/work/youth-growth/#game"
       }
     },
     {
