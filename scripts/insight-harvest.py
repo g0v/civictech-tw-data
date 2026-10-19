@@ -277,6 +277,19 @@ def archive_notes(name, name_en=""):
     return sorted(hits, key=lambda h: h["最後修改"] or "", reverse=True)[:2]
 
 
+def get_facebook(url):
+    """公開的貼文與粉專，Facebook 會對沒登入的請求回一份分享預覽（og:title／og:description），
+    內文只有前三百字左右，但已經夠說出是誰、在哪個社團、做什麼。要登入的貼文就沒有這兩欄。"""
+    import html as _html
+    page = get(url)
+    meta = {k: _html.unescape(v) for k, v in
+            re.findall(r'<meta property="og:(title|description)" content="([^"]*)"', page)}
+    # 不公開或不存在的貼文，預覽會換成登入提示，不能當內容
+    if not meta.get("description") or re.search(r"登入或註冊|Log in or sign up|到 Facebook 上查看", meta.get("title", "") + meta["description"]):
+        raise RuntimeError("沒有公開預覽，大概要登入才看得到")
+    return f"{meta.get('title', '')}\n\n{meta['description']}"
+
+
 def classify(url):
     u = url.strip()
     if re.match(r"https?://([\w-]+\.)?hackmd\.io/(?!\?)[^?#]+", u):
@@ -390,6 +403,51 @@ def relevance_guard(pack):
     return pack
 
 
+def fetch_into(pack, url, field, name, f):
+    kind = classify(url)
+    try:
+        if kind == "github_repo":
+            pack["素材"].update(harvest_github_repo(url))
+        elif kind == "github_user":
+            pack["素材"].update(harvest_github_user(url))
+        elif kind in ("hackmd", "gdoc"):
+            text = doc_text(url)
+            pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
+        elif kind == "web":
+            try:
+                text = page_text(url)
+                if BOT_WALL.search(text[:500]):
+                    pack["抓不到"].append(f"{url}（{field} 欄位，站方用驗證頁擋自動程式，依其意願不繞過）")
+                    return
+                dead = DEAD_PAGE.search(text[:500])
+            except Exception as e:
+                text, dead = "", f"{type(e).__name__}: {e}"
+            if dead:
+                if not isinstance(dead, str):
+                    dead = f"只剩「{dead.group(0)}」"
+                try:
+                    snap = wayback(url, name_terms(name, f.get("project name EN", "")))
+                except Exception as e:
+                    raise RuntimeError(f"{dead}；{e}") from e
+                if not snap:
+                    raise RuntimeError(f"{dead}；網際網路檔案館也沒有快照")
+                pack["抓不到"].append(f"{url}（{field} 欄位，{dead}；改用 {snap['快照日期']} 的快照）")
+                pack["素材"][f"網頁:{snap['來源']}"] = snap
+            else:
+                pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
+        elif kind == "facebook":
+            text = get_facebook(url)
+            pack["素材"][f"網頁:{url}"] = {"來源": url, "取得方式": "Facebook 公開分享預覽（只有開頭）", "正文前 3000 字": text[:3000]}
+        elif kind == "hackfoldr":
+            pack["素材"][f"網頁:{url}"] = harvest_hackfoldr(url)
+    except Exception as e:
+        pack["抓不到"].append(f"{url}（{field} 欄位，{type(e).__name__}: {e}）")
+
+
+INTRO_URL = re.compile(r"https?://[^\s<>\"'）)\]]+")
+INTRO_SKIP = re.compile(r"youtube\.com|youtu\.be|figma\.com|bit\.ly|linktr\.ee|\.(png|jpe?g|gif)$")
+
+
 def harvest(project):
     f = project["fields"]
     name = (f.get("project name") or "").strip()
@@ -400,6 +458,15 @@ def harvest(project):
             pack["資料庫欄位"][k] = f[k].strip()
     pack["資料庫欄位"]["影響力類別"] = [c["name"] for c in f.get("影響力類別", [])]
     pack["資料庫欄位"]["標籤"] = [t["name"] for t in f.get("標籤", [])]
+
+    # 有些專案把網址寫在 Intro 而不是網址欄位（例如只貼一則 FB 社團貼文）。
+    # 欄位裡已有的就不重抓；影片、簡報、短網址跟著也讀不到正文，跳過。
+    seen = {(f.get(k) or "").strip().rstrip("/") for k in ("github", "Website URL", "document", "Facebook Page Link")}
+    intro_urls = []
+    for u in INTRO_URL.findall(f.get("Intro") or ""):
+        u = u.rstrip(".,，。")
+        if u.rstrip("/") not in seen and not INTRO_SKIP.search(u) and u not in intro_urls:
+            intro_urls.append(u)
 
     # 討論在哪裡：insight 的「討論在哪裡」那一行主要靠這兩欄（2026-10-19）。
     # 只帶欄位值，不去抓頻道內容——封存站「最後發言」多半是加入／離開訊息，不能當活動訊號。
@@ -413,46 +480,13 @@ def harvest(project):
         url = (f.get(field) or "").strip()
         if not url:
             continue
-        kind = classify(url)
-        try:
-            if kind == "github_repo":
-                pack["素材"].update(harvest_github_repo(url))
-            elif kind == "github_user":
-                pack["素材"].update(harvest_github_user(url))
-            elif kind in ("hackmd", "gdoc"):
-                text = doc_text(url)
-                pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
-            elif kind == "web":
-                try:
-                    text = page_text(url)
-                    if BOT_WALL.search(text[:500]):
-                        pack["抓不到"].append(f"{url}（{field} 欄位，站方用驗證頁擋自動程式，依其意願不繞過）")
-                        continue
-                    dead = DEAD_PAGE.search(text[:500])
-                except Exception as e:
-                    text, dead = "", f"{type(e).__name__}: {e}"
-                if dead:
-                    if not isinstance(dead, str):
-                        dead = f"只剩「{dead.group(0)}」"
-                    try:
-                        snap = wayback(url, name_terms(name, f.get("project name EN", "")))
-                    except Exception as e:
-                        raise RuntimeError(f"{dead}；{e}") from e
-                    if not snap:
-                        raise RuntimeError(f"{dead}；網際網路檔案館也沒有快照")
-                    pack["抓不到"].append(f"{url}（{field} 欄位，{dead}；改用 {snap['快照日期']} 的快照）")
-                    pack["素材"][f"網頁:{snap['來源']}"] = snap
-                else:
-                    pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
-            elif kind == "facebook":
-                pack["抓不到"].append(f"{url}（Facebook 有登入牆，機器取不到）")
-            elif kind == "hackfoldr":
-                pack["素材"][f"網頁:{url}"] = harvest_hackfoldr(url)
-        except Exception as e:
-            pack["抓不到"].append(f"{url}（{field} 欄位，{type(e).__name__}: {e}）")
+        fetch_into(pack, url, field, name, f)
+
+    for url in intro_urls[:3]:
+        fetch_into(pack, url, "Intro", name, f)
 
     # 一個網址都沒有的專案，退而求其次：用專案名稱去比對 g0v HackMD 封存的共筆標題。
-    if not any((f.get(k) or "").strip() for k in ("github", "Website URL", "document", "Facebook Page Link")):
+    if not intro_urls and not any((f.get(k) or "").strip() for k in ("github", "Website URL", "document", "Facebook Page Link")):
         for note in archive_notes(name, f.get("project name EN", "")):
             try:
                 text = get_hackmd(note["網址"])
