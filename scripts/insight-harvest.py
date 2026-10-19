@@ -35,6 +35,9 @@ def get(url, timeout=20, accept=None, browser=False):
     h = dict(BROWSER_UA if browser else UA)
     if accept:
         h["Accept"] = accept
+    # 匿名呼叫 GitHub API 每小時只有 60 次，一次跑完全部專案會撞上限；有 token 就帶上
+    if url.startswith("https://api.github.com/") and os.environ.get("GITHUB_TOKEN"):
+        h["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
     req = urllib.request.Request(url, headers=h)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
