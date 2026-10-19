@@ -16,7 +16,7 @@
   3. **抓到了不等於可信。** 見 relevance_guard()。這是整支腳本最重要的一段。
   4. 每段素材都要帶出處與取得日期，否則產出的 insight 無法被查證。
 """
-import csv, io, json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request, urllib.error
+import csv, gzip, io, json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta
 
 TW = timezone(timedelta(hours=8))
@@ -40,7 +40,11 @@ def get(url, timeout=20, accept=None, browser=False):
         h["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
     req = urllib.request.Request(url, headers=h)
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", "replace")
+        body = r.read()
+    # 檔案館的 id_ 快照照原樣回傳當年的壓縮內容，沒解壓就會是一堆亂碼
+    if body[:2] == b"\x1f\x8b":
+        body = gzip.decompress(body)
+    return body.decode("utf-8", "replace")
 
 
 def get_page(url, timeout=20):
