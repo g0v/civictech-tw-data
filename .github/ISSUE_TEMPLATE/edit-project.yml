@@ -1,0 +1,59 @@
+name: 修改專案資料
+description: 專案的名稱、簡介或連結有錯，或想幫它補上。建議從 civictech.tw 專案頁的「建議修改」進來，專案代號會先填好。
+title: "修改："
+labels: ["修改專案"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **只要填你要改的欄位**，沒有要改的留空。送出後會自動開一個 PR，管理員看過後合併，隔天就會出現在 civictech.tw。
+  - type: input
+    id: project_id
+    attributes:
+      label: 專案代號
+      description: rec 開頭的那串，從專案頁的「建議修改」進來會自動填好
+      placeholder: recXXXXXXXXXXXXXX
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: 專案名稱
+      description: 改名會連帶改到專案頁的網址
+  - type: input
+    id: name_en
+    attributes:
+      label: 英文名稱
+      description: 改名會連帶改到專案頁的網址
+  - type: textarea
+    id: intro
+    attributes:
+      label: 簡介
+      description: 這個專案在做什麼、解決誰的什麼問題。兩三句就好
+  - type: input
+    id: website
+    attributes:
+      label: 官方網站
+      placeholder: "https://…"
+  - type: input
+    id: github
+    attributes:
+      label: 原始碼
+      placeholder: "https://github.com/…"
+  - type: input
+    id: document
+    attributes:
+      label: 專案文件
+      placeholder: "共筆、簡報或說明文件的網址"
+  - type: input
+    id: facebook
+    attributes:
+      label: Facebook
+      placeholder: "https://www.facebook.com/…"
+  - type: textarea
+    id: reason
+    attributes:
+      label: 為什麼要改
+      description: 例如「官網搬家了」，附上來源連結更好
+    validations:
+      required: true
