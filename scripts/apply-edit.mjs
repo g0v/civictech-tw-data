@@ -92,16 +92,24 @@ async function main() {
     `${API}/${baseId}/${table.id}/${edit.record}?returnFieldsByFieldId=true`,
   );
 
-  const conflicts = changes.filter((c) => norm(current.fields[c.field.id]) !== c.from);
+  // 現值已經是 to 的欄位算已套用：同一份申請重跑（例如 Action 重試）不該被當成衝突
+  const nowOf = (c) => norm(current.fields[c.field.id]);
+  const done = changes.filter((c) => nowOf(c) === c.to);
+  const pending = changes.filter((c) => !done.includes(c));
+  const conflicts = pending.filter((c) => nowOf(c) !== c.from);
   for (const c of changes) {
-    const now = norm(current.fields[c.field.id]);
-    const mark = conflicts.includes(c) ? '✗ 衝突' : '✓';
+    const now = nowOf(c);
+    const mark = conflicts.includes(c) ? '✗ 衝突' : done.includes(c) ? '＝ 已套用' : '✓';
     console.log(`${mark} ${c.field.name}`);
     console.log(`    申請時：${JSON.stringify(c.from)}`);
     console.log(`    現在　：${JSON.stringify(now)}`);
     console.log(`    改成　：${JSON.stringify(c.to)}`);
   }
   if (conflicts.length) fail('\n有欄位在申請送出後被改過，整份不寫入。', 2);
+  if (pending.length === 0) {
+    console.log('\n全部欄位都已經是新值，不需要寫入。');
+    return;
+  }
 
   if (!apply) {
     console.log('\n比對通過。這是預演，加 --apply 才會寫入。');
@@ -110,17 +118,17 @@ async function main() {
 
   // typecast 關掉：值不合欄位型別時寧可失敗，也不要 Airtable 自作主張轉型
   const updated = await api('PATCH', `${API}/${baseId}/${table.id}/${edit.record}`, {
-    fields: Object.fromEntries(changes.map((c) => [c.field.id, c.to])),
+    fields: Object.fromEntries(pending.map((c) => [c.field.id, c.to])),
     returnFieldsByFieldId: true,
     typecast: false,
   });
 
   // 寫完讀回來核對，不拿「API 回 200」當成功
-  const mismatched = changes.filter((c) => norm(updated.fields[c.field.id]) !== c.to);
+  const mismatched = pending.filter((c) => norm(updated.fields[c.field.id]) !== c.to);
   if (mismatched.length) {
     fail(`寫入後讀回的值不一致：${mismatched.map((c) => c.field.name).join('、')}`);
   }
-  console.log(`\n已寫入 ${changes.length} 個欄位。`);
+  console.log(`\n已寫入 ${pending.length} 個欄位。`);
 }
 
 main().catch((err) => fail(err.message));
