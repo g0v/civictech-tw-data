@@ -163,7 +163,7 @@ def wayback(url):
     快照日期一定要帶著走：它描述的是那一天的專案，不是現在的。"""
     api = ("https://web.archive.org/cdx/search/cdx?output=json&limit=-1"
            "&filter=statuscode:200&filter=mimetype:text/html&url=" + urllib.parse.quote(url, safe=""))
-    for wait in (0, 15, 45):  # 檔案館很容易回 429，等一下通常就好
+    for wait in (0, 30, 90):  # 檔案館很容易回 429 或拒絕連線，等一下通常就好
         time.sleep(wait)
         try:
             rows = json.loads(get(api, timeout=30) or "[]")
@@ -171,8 +171,12 @@ def wayback(url):
         except urllib.error.HTTPError as e:
             if e.code != 429:
                 raise
+            last = e
+        except urllib.error.URLError as e:  # 連續查詢太多次時，檔案館會直接拒絕連線
+            last = e
     else:
-        return None
+        # 連不上不等於沒有快照，兩者要分開講，否則就是把「拿不到」寫成「不存在」
+        raise RuntimeError(f"網際網路檔案館暫時連不上（{last}），沒查到有沒有快照")
     if len(rows) < 2:
         return None
     ts, original = rows[-1][1], rows[-1][2]
@@ -368,7 +372,10 @@ def harvest(project):
                 if dead:
                     if not isinstance(dead, str):
                         dead = f"只剩「{dead.group(0)}」"
-                    snap = wayback(url)
+                    try:
+                        snap = wayback(url)
+                    except Exception as e:
+                        raise RuntimeError(f"{dead}；{e}") from e
                     if not snap:
                         raise RuntimeError(f"{dead}；網際網路檔案館也沒有快照")
                     pack["抓不到"].append(f"{url}（{field} 欄位，{dead}；改用 {snap['快照日期']} 的快照）")
