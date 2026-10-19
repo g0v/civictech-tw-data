@@ -16,7 +16,7 @@
   3. **抓到了不等於可信。** 見 relevance_guard()。這是整支腳本最重要的一段。
   4. 每段素材都要帶出處與取得日期，否則產出的 insight 無法被查證。
 """
-import json, os, re, sys, time, urllib.parse, urllib.request, urllib.error
+import json, os, re, subprocess, sys, tempfile, time, urllib.parse, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta
 
 TW = timezone(timedelta(hours=8))
@@ -54,6 +54,35 @@ def get_page(url, timeout=20):
         raise
 
 
+CHROME = os.environ.get("CHROME") or "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+NEEDS_JS = re.compile(r"enable JavaScript|JavaScript (must be|is required)|without JavaScript|啟用 JavaScript|\{\{")
+
+
+def render(url):
+    """用 headless Chrome 把頁面的 JS 跑完再取 DOM。沒有 Chrome 就回空字串，由呼叫端保留原本的結果。"""
+    if not os.path.exists(CHROME):
+        return ""
+    with tempfile.TemporaryDirectory() as profile:
+        try:
+            r = subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-first-run",
+                                f"--user-data-dir={profile}", "--virtual-time-budget=8000",
+                                "--dump-dom", url], capture_output=True, timeout=60)
+        except subprocess.TimeoutExpired:
+            return ""
+    return strip_html(r.stdout.decode("utf-8", "replace"))
+
+
+def page_text(url, rendered_url=None):
+    """一般網頁的正文。很多專案站是單頁應用，原始 HTML 只有「請啟用 JavaScript」或
+    {{ 模板 }}；這種就交給 render() 再跑一次，取比較長的那份。"""
+    text = strip_html(get_page(url))
+    if len(text) < 300 or NEEDS_JS.search(text[:500]):
+        full = render(rendered_url or url)
+        if len(full) > len(text):
+            text = full
+    return text
+
+
 EMAIL = re.compile(r"[\w.+-]+@[\w-]+(\.[\w-]+)+")
 
 
@@ -87,7 +116,8 @@ def wayback(url):
         return None
     ts, original = rows[-1][1], rows[-1][2]
     snap = f"https://web.archive.org/web/{ts}/{original}"
-    text = strip_html(get(f"https://web.archive.org/web/{ts}id_/{original}", timeout=30))
+    # id_ 拿到的是原始 HTML；要跑 JS 時改開一般的快照頁，它的 JS 也是從檔案館載入
+    text = page_text(f"https://web.archive.org/web/{ts}id_/{original}", rendered_url=snap)
     return {"來源": snap, "快照日期": f"{ts[:4]}-{ts[4:6]}-{ts[6:8]}",
             "正文前 3000 字": text[:3000], "全文長度": len(text)}
 
@@ -236,7 +266,7 @@ def harvest(project):
                 pack["素材"][f"網頁:{url}"] = {"來源": url, "正文前 3000 字": text[:3000], "全文長度": len(text)}
             elif kind == "web":
                 try:
-                    text = strip_html(get_page(url))
+                    text = page_text(url)
                     dead = DEAD_PAGE.search(text[:500])
                 except Exception as e:
                     text, dead = "", f"{type(e).__name__}: {e}"
