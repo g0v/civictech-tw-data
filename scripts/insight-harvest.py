@@ -179,6 +179,38 @@ def wayback(url):
             "正文前 3000 字": text[:3000], "全文長度": len(text)}
 
 
+ARCHIVE_INDEX = "https://raw.githubusercontent.com/g0v-data/g0v-hackmd-archive/main/posts.json"
+ARCHIVE_CACHE = os.path.expanduser("~/.cache/civictech-insight/hackmd-posts.json")
+_archive = None
+
+
+def norm_title(t):
+    return re.sub(r"[\s#＃「」『』\"'（）()]+", "", (t or "").lower())
+
+
+def archive_notes(name, name_en=""):
+    """在 g0v HackMD 封存的標題索引（約 5 萬篇，只有標題沒有內文）裡找這個專案的共筆。
+
+    比對刻意很嚴：標題整串等於專案名稱，或用 // ｜ | : 切開後有一段相等。
+    寬鬆比對試過，「公民記者證產生器」的英文名 reporter 會配到一封外國記者的來信。
+    索引 24MB，快取一週。"""
+    global _archive
+    if _archive is None:
+        fresh = os.path.exists(ARCHIVE_CACHE) and time.time() - os.path.getmtime(ARCHIVE_CACHE) < 7 * 86400
+        if not fresh:
+            os.makedirs(os.path.dirname(ARCHIVE_CACHE), exist_ok=True)
+            with open(ARCHIVE_CACHE, "w") as fh:
+                fh.write(get(ARCHIVE_INDEX, timeout=120))
+        _archive = list(json.load(open(ARCHIVE_CACHE)).values())
+    keys = {norm_title(k) for k in (name, name_en) if len(norm_title(k)) >= 3}
+    hits = []
+    for n in _archive:
+        parts = {norm_title(x) for x in re.split(r"//|｜|\||：|:", n.get("title") or "")} | {norm_title(n.get("title"))}
+        if keys & parts:
+            hits.append({"網址": f"https://g0v.hackmd.io/{n['id']}", "標題": n["title"], "最後修改": n.get("lastchangeAt")})
+    return sorted(hits, key=lambda h: h["最後修改"] or "", reverse=True)[:2]
+
+
 def classify(url):
     u = url.strip()
     if re.match(r"https?://([\w-]+\.)?hackmd\.io/(?!\?)[^?#]+", u):
@@ -345,6 +377,18 @@ def harvest(project):
                 pack["素材"][f"網頁:{url}"] = harvest_hackfoldr(url)
         except Exception as e:
             pack["抓不到"].append(f"{url}（{field} 欄位，{type(e).__name__}: {e}）")
+
+    # 一個網址都沒有的專案，退而求其次：用專案名稱去比對 g0v HackMD 封存的共筆標題。
+    if not any((f.get(k) or "").strip() for k in ("github", "Website URL", "document", "Facebook Page Link")):
+        for note in archive_notes(name, f.get("project name EN", "")):
+            try:
+                text = get_hackmd(note["網址"])
+            except Exception as e:
+                pack["抓不到"].append(f"{note['網址']}（封存比對到的共筆，{type(e).__name__}: {e}）")
+                continue
+            pack["素材"][f"網頁:{note['網址']}"] = {
+                "來源": note["網址"], "取得方式": f"專案沒有任何網址；以名稱比對 g0v HackMD 封存標題「{note['標題']}」",
+                "正文前 3000 字": text[:3000], "全文長度": len(text)}
 
     # 大松發表紀錄：專案的歷程（event+date）與人力需求（manpower）。
     # 只涵蓋得到三、四十個專案，但那是現成的、不需要抓網頁的。
