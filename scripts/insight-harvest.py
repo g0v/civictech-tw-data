@@ -41,10 +41,18 @@ def get(url, timeout=20, accept=None, browser=False):
     req = urllib.request.Request(url, headers=h)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         body = r.read()
+        charset = r.headers.get_content_charset()
     # 檔案館的 id_ 快照照原樣回傳當年的壓縮內容，沒解壓就會是一堆亂碼
     if body[:2] == b"\x1f\x8b":
         body = gzip.decompress(body)
-    return body.decode("utf-8", "replace")
+    # 早年的台灣網站常是 Big5，編碼寫在 header 或 <meta> 裡
+    if not charset:
+        m = re.search(rb"charset=[\"']?([\w-]+)", body[:4096], re.I)
+        charset = m.group(1).decode() if m else "utf-8"
+    try:
+        return body.decode(charset, "replace")
+    except LookupError:
+        return body.decode("utf-8", "replace")
 
 
 def get_page(url, timeout=20):
@@ -136,7 +144,7 @@ def harvest_hackfoldr(url):
     raw = get(src, timeout=60)
     # 早期的 EtherCalc 清單後來搬去 Google 試算表，原處只留一行「請改到…」
     moved = re.search(r"\b(1[\w-]{39,})\b", raw)
-    if moved and "http" not in raw.split("此後台停止更新")[0]:
+    if moved and re.search(r"此後台停止更新|has been moved to", raw):
         src = f"https://docs.google.com/spreadsheets/d/{moved.group(1)}/export?format=csv"
         raw = get(src, timeout=60)
     rows = [r for r in csv.reader(io.StringIO(raw))
