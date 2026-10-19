@@ -1,0 +1,71 @@
+name: 修改申請寫回 Airtable
+
+# 修改申請（edits/issue-*.json）合併進 main 之後，用 scripts/apply-edit.mjs 寫回 Airtable，
+# 結果留言在原本的 PR 上。Airtable 是正本；data/ 由每日同步帶回，這裡不動它。
+#
+# 寫回前會比對 Airtable 現值是否還是申請時的值，不是就整份不寫（exit 2）。
+# 同一份申請重跑是安全的：已經是新值的欄位會被認出來、跳過。
+# 失敗或衝突時，到 Actions 頁面手動重跑，或用 workflow_dispatch 指定檔案。
+on:
+  push:
+    branches: [main]
+    paths: ['edits/issue-*.json']
+  workflow_dispatch:
+    inputs:
+      file:
+        description: 要寫回的申請檔，例如 edits/issue-12.json
+        required: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+# 一次只寫一份，不要兩個 run 同時改同一筆
+concurrency:
+  group: apply-edits
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 寫回 Airtable
+        env:
+          AIRTABLE_WRITE_PAT: ${{ secrets.AIRTABLE_WRITE_PAT }}
+          # 測試用的 fork 在 repo variables 設沙盒 base；正式 repo 不設
+          BASE_OVERRIDE: ${{ vars.AIRTABLE_BASE_OVERRIDE }}
+          GH_TOKEN: ${{ github.token }}
+          INPUT_FILE: ${{ inputs.file }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ -n "$INPUT_FILE" ]; then
+            files="$INPUT_FILE"
+          else
+            files=$(git diff --name-only --diff-filter=AM "$BEFORE" "$GITHUB_SHA" -- 'edits/issue-*.json')
+          fi
+          pr=$(gh api "repos/$GITHUB_REPOSITORY/commits/$GITHUB_SHA/pulls" --jq '.[0].number // empty')
+          failed=0
+          for f in $files; do
+            set +e
+            node scripts/apply-edit.mjs "$f" --apply ${BASE_OVERRIDE:+--base "$BASE_OVERRIDE"} > out.txt 2>&1
+            code=$?
+            set -e
+            cat out.txt
+            case $code in
+              0) head="✅ \`$f\` 已寫回 Airtable，隔天同步後出現在 civictech.tw。" ;;
+              2) head="⚠️ \`$f\` 沒有寫入：申請送出後，Airtable 上的值被改過了。請到 Airtable 看過再決定。" ;;
+              *) head="❌ \`$f\` 寫回失敗，請看 Actions 的紀錄。" ;;
+            esac
+            [ $code -ne 0 ] && failed=1
+            if [ -n "$pr" ]; then
+              { echo "$head"; echo; echo '```'; cat out.txt; echo '```'; } > comment.md
+              gh pr comment "$pr" --body-file comment.md
+            fi
+          done
+          exit $failed
