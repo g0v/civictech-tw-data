@@ -170,6 +170,14 @@ def harvest(project):
     pack["資料庫欄位"]["影響力類別"] = [c["name"] for c in f.get("影響力類別", [])]
     pack["資料庫欄位"]["標籤"] = [t["name"] for t in f.get("標籤", [])]
 
+    # 討論在哪裡：insight 的「討論在哪裡」那一行主要靠這兩欄（2026-10-19）。
+    # 只帶欄位值，不去抓頻道內容——封存站「最後發言」多半是加入／離開訊息，不能當活動訊號。
+    slack = (f.get("slack channel") or "").strip().lstrip("#")
+    if slack:
+        pack["資料庫欄位"]["slack channel"] = f"#{slack}（g0v Slack）"
+    if f.get("non-slack"):
+        pack["資料庫欄位"]["non-slack"] = f["non-slack"]
+
     for field in ("github", "Website URL", "document", "Facebook Page Link"):
         url = (f.get(field) or "").strip()
         if not url:
