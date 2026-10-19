@@ -277,6 +277,52 @@ def archive_notes(name, name_en=""):
     return sorted(hits, key=lambda h: h["最後修改"] or "", reverse=True)[:2]
 
 
+SLACK_ARCHIVE = "https://g0v-slack-archive.g0v.ronny.tw"
+SLACK_CACHE = os.path.expanduser("~/.cache/civictech-insight/slack-channels.json")
+_channels = None
+
+
+def slack_channels():
+    """封存站首頁列出全部頻道，每個連結的 title 帶著頻道的 JSON（含 purpose、topic）。首頁 2MB，快取一週。"""
+    global _channels
+    if _channels is None:
+        fresh = os.path.exists(SLACK_CACHE) and time.time() - os.path.getmtime(SLACK_CACHE) < 7 * 86400
+        if not fresh:
+            import html as _html
+            page = get(SLACK_ARCHIVE + "/", timeout=60)
+            chans = {}
+            for cid, meta, name in re.findall(r'href="/index/channel/(\w+)" title="([^"]*)">#([^<]+)</a>', page):
+                m = json.loads(_html.unescape(meta))
+                chans[name.strip()] = {"id": cid, "purpose": m.get("purpose", {}).get("value", ""),
+                                       "topic": m.get("topic", {}).get("value", "")}
+            os.makedirs(os.path.dirname(SLACK_CACHE), exist_ok=True)
+            json.dump(chans, open(SLACK_CACHE, "w"), ensure_ascii=False)
+        _channels = json.load(open(SLACK_CACHE))
+    return _channels
+
+
+def slack_archive(channel):
+    """讀頻道最早兩個月的對話：專案剛開的時候，最常有人解釋「這是什麼、要做什麼」。
+    不拿來判斷死活（加入／離開訊息會偽裝成活動），只拿來描述專案。
+    略過加入訊息，email 一律遮掉。"""
+    import html as _html
+    ch = slack_channels().get(channel)
+    if not ch:
+        raise RuntimeError("封存站找不到這個頻道")
+    base = f"{SLACK_ARCHIVE}/index/channel/{ch['id']}"
+    months = sorted(set(re.findall(rf'href="/index/channel/{ch["id"]}/(\d{{4}}-\d\d)"', get(base))))
+    text = " ".join(x for x in (ch["purpose"], ch["topic"]) if x)
+    for m in months[:2]:
+        page = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", get(f"{base}/{m}"), flags=re.S)
+        lines = _html.unescape(re.sub(r"<[^>]+>", "\n", page)).split("\n")
+        body = [l.strip() for l in lines if l.strip() and "has joined the channel" not in l
+                and not re.fullmatch(r"[\d:\- ]+|@\S+|\S{1,20}", l.strip())]
+        body = [l for l in body if l not in ("Slack archive", "Source Code", "Login with Slack") and "| slack archive" not in l]
+        text += f"\n[{m}] " + " ".join(body)[:1800]
+    text = EMAIL.sub("[email]", text)
+    return {"來源": base, "取得方式": f"g0v Slack 封存，頻道最早的 {min(2, len(months))} 個月", "正文前 3000 字": text[:3000]}
+
+
 def get_facebook(url):
     """公開的貼文與粉專，Facebook 會對沒登入的請求回一份分享預覽（og:title／og:description），
     內文只有前三百字左右，但已經夠說出是誰、在哪個社團、做什麼。要登入的貼文就沒有這兩欄。"""
@@ -469,7 +515,7 @@ def harvest(project):
             intro_urls.append(u)
 
     # 討論在哪裡：insight 的「討論在哪裡」那一行主要靠這兩欄（2026-10-19）。
-    # 只帶欄位值，不去抓頻道內容——封存站「最後發言」多半是加入／離開訊息，不能當活動訊號。
+    # 頻道的「最後發言」不能當活動訊號（多半是加入／離開訊息）；頻道內容只在素材太少時才讀，見下方。
     slack = (f.get("slack channel") or "").strip().lstrip("#")
     if slack:
         pack["資料庫欄位"]["slack channel"] = f"#{slack}（g0v Slack）"
@@ -496,6 +542,13 @@ def harvest(project):
             pack["素材"][f"網頁:{note['網址']}"] = {
                 "來源": note["網址"], "取得方式": f"專案沒有任何網址；以名稱比對 g0v HackMD 封存標題「{note['標題']}」",
                 "正文前 3000 字": text[:3000], "全文長度": len(text)}
+
+    # 其他地方幾乎沒東西時，才去讀 Slack 封存（2026-10-20）：Holopolis 只有頻道，讀了就寫得出來。
+    if slack and sum(len(str(v)) for v in pack["素材"].values()) < 800:
+        try:
+            pack["素材"]["Slack 頻道"] = slack_archive(slack)
+        except Exception as e:
+            pack["抓不到"].append(f"#{slack} 的 Slack 封存（{type(e).__name__}: {e}）")
 
     # 大松發表紀錄：專案的歷程（event+date）與人力需求（manpower）。
     # 只涵蓋得到三、四十個專案，但那是現成的、不需要抓網頁的。
