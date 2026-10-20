@@ -12,7 +12,7 @@
           "slug": "projects",
           "name": "project list",
           "label": "公民科技專案",
-          "recordCount": 229,
+          "recordCount": 231,
           "path": "v0/tech/projects.json"
         },
         {
@@ -26,7 +26,7 @@
           "slug": "tags",
           "name": "標籤",
           "label": "標籤",
-          "recordCount": 63,
+          "recordCount": 64,
           "path": "v0/tech/tags.json"
         },
         {

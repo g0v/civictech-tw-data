@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 229,
+  "recordCount": 231,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -4020,6 +4020,10 @@
           {
             "id": "recJA9vIu3CYfNHWw",
             "name": "社會福利 / 社福"
+          },
+          {
+            "id": "recKhdDtxpN7LRpyY",
+            "name": "各項資訊彙整提供給使用者"
           }
         ],
         "Website URL": "https://afterthatday.blogspot.com/"
@@ -4443,6 +4447,10 @@
           {
             "id": "rec1WnkgnlgORJwfF",
             "name": "居住"
+          },
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
           }
         ],
         "Website URL": "https://great-moving-era.ddio.io/"
@@ -4519,6 +4527,30 @@
       }
     },
     {
+      "id": "recG07qsCVjEK8J6g",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          },
+          {
+            "id": "recTvLQZqQpWVYrsO",
+            "name": "17-SDGS-全球夥伴關係"
+          }
+        ],
+        "project name": "UniWay 能去哪些交換學校，一次看清楚。",
+        "標籤": [
+          {
+            "id": "recCIMFEvpkxSUc5K",
+            "name": "交換學校 / 留學 / 遊學 "
+          }
+        ],
+        "Website URL": "https://app.uniway-tw.com/#home"
+      }
+    },
+    {
       "id": "recH2oHGzmOKcK1da",
       "createdTime": "2026-05-02T21:00:05.000Z",
       "fields": {
@@ -4563,8 +4595,8 @@
             "name": "教育"
           },
           {
-            "id": "reclARdmWXFGkNszb",
-            "name": "議題體驗"
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "情境網頁遊戲框架"
           }
         ],
         "Website URL": "https://claude.ai/artifact/AWwoUVfR7KFTQd7ateyNfb"
@@ -4776,6 +4808,10 @@
           {
             "id": "rec0j8YA5iuE4rKh0",
             "name": "情境網頁遊戲框架"
+          },
+          {
+            "id": "recKhdDtxpN7LRpyY",
+            "name": "各項資訊彙整提供給使用者"
           }
         ],
         "Website URL": "https://sup-eric.com/work/youth-growth/#game"
@@ -4804,6 +4840,39 @@
           }
         ],
         "Website URL": "https://rep0rter.observe.tw/"
+      }
+    },
+    {
+      "id": "recw7LymhwvVXYDDz",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          },
+          {
+            "id": "recKYx9vjoJ6p0gyE",
+            "name": "1-SDGS-終結貧窮"
+          },
+          {
+            "id": "recKnrWiRUL8luYtx",
+            "name": "2-SDGS-終結飢餓"
+          }
+        ],
+        "Intro": "輸入你的狀況，30秒找出你現在能領的補助，全台300+項已整理。不用跑公所，我們幫你把申請書填到一半。\nhttps://www.threads.com/share/_6fDjj-3W/",
+        "project name": "台灣補助懶人包 0成本自動媒合",
+        "標籤": [
+          {
+            "id": "recKhdDtxpN7LRpyY",
+            "name": "各項資訊彙整提供給使用者"
+          },
+          {
+            "id": "recJA9vIu3CYfNHWw",
+            "name": "社會福利 / 社福"
+          }
+        ],
+        "Website URL": "https://silly-maamoul-6285fe.netlify.app/"
       }
     },
     {
