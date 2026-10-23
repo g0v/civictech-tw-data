@@ -461,7 +461,22 @@ def fetch_into(pack, url, field, name, f):
     kind = classify(url)
     try:
         if kind == "github_repo":
-            pack["素材"].update(harvest_github_repo(url))
+            got = harvest_github_repo(url)
+            pack["素材"].update(got)
+            # README 只有一句「詳見某某共筆」的（例如 g0v/cchelper），跟著連結讀一層，最多兩個。
+            # hackpad.com 已關站，g0v 的共筆在 g0v.hackpad.tw 有鏡像。
+            readme = (got.get("readme") or {}).get("內容", "")
+            if readme and len(readme) < 300:
+                links = [u.rstrip(").,") for u in re.findall(r"https?://[^\s)\]>\"']+", readme)]
+                links = [u.replace("g0v.hackpad.com", "g0v.hackpad.tw") for u in dict.fromkeys(links)
+                         if re.search(r"hackpad|hackmd\.io|docs\.google\.com", u)]
+                for u in links[:2]:
+                    try:
+                        text = doc_text(u)
+                        pack["素材"][f"網頁:{u}"] = {"來源": u, "取得方式": "README 很短，跟著它的連結讀",
+                                                  "正文前 3000 字": text[:3000], "全文長度": len(text)}
+                    except Exception as e:
+                        pack["抓不到"].append(f"{u}（README 連到的共筆，{type(e).__name__}: {e}）")
         elif kind == "github_user":
             pack["素材"].update(harvest_github_user(url))
         elif kind in ("hackmd", "gdoc"):
