@@ -1,0 +1,13 @@
+{
+  "dataset": "tech",
+  "table": "project list",
+  "record": "recDF1WJZ2qnwYpPw",
+  "issue": 1,
+  "changes": [
+    {
+      "field": "Intro",
+      "from": "HackStory 共筆時間軸",
+      "to": "HackStory 共筆時間軸（測試編輯）"
+    }
+  ]
+}
