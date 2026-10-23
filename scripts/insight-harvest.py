@@ -254,10 +254,14 @@ def norm_title(t):
     return re.sub(r"[\s#＃「」『』\"'（）()]+", "", (t or "").lower())
 
 
+def cjk_parts(t):
+    return {x for x in re.split(r"[\s_/｜|:：，,、（）()「」\-–—]+", t or "") if len(x) >= 4 and re.fullmatch(r"[\u4e00-\u9fff]+", x)}
+
+
 def archive_notes(name, name_en=""):
     """在 g0v HackMD 封存的標題索引（約 5 萬篇，只有標題沒有內文）裡找這個專案的共筆。
 
-    比對刻意很嚴：標題整串等於專案名稱，或用 // ｜ | : 切開後有一段相等。
+    比對刻意很嚴：標題整串等於專案名稱，或用 // ｜ | : 切開後有一段相等，或有一段四字以上的中文相等。
     寬鬆比對試過，「公民記者證產生器」的英文名 reporter 會配到一封外國記者的來信。
     索引 24MB，快取一週。"""
     global _archive
@@ -269,9 +273,13 @@ def archive_notes(name, name_en=""):
                 fh.write(get(ARCHIVE_INDEX, timeout=120))
         _archive = list(json.load(open(ARCHIVE_CACHE)).values())
     keys = {norm_title(k) for k in (name, name_en) if len(norm_title(k)) >= 3}
+    # 中文名常是「代號 + 中文名」（g0v-shadow 影子政府網站 ↔ g0v shadowcat 影子政府網站），
+    # 所以再用空白切出四字以上的純中文段落比對。只認中文：英文單字太常撞名。
+    keys |= {k for k in cjk_parts(name) if k not in GENERIC}
     hits = []
     for n in _archive:
-        parts = {norm_title(x) for x in re.split(r"//|｜|\||：|:", n.get("title") or "")} | {norm_title(n.get("title"))}
+        t = n.get("title") or ""
+        parts = {norm_title(x) for x in re.split(r"//|｜|\||：|:", t)} | {norm_title(t)} | cjk_parts(t)
         if keys & parts:
             hits.append({"網址": f"https://g0v.hackmd.io/{n['id']}", "標題": n["title"], "最後修改": n.get("lastchangeAt")})
     return sorted(hits, key=lambda h: h["最後修改"] or "", reverse=True)[:2]
@@ -531,8 +539,9 @@ def harvest(project):
     for url in intro_urls[:3]:
         fetch_into(pack, url, "Intro", name, f)
 
-    # 一個網址都沒有的專案，退而求其次：用專案名稱去比對 g0v HackMD 封存的共筆標題。
-    if not intro_urls and not any((f.get(k) or "").strip() for k in ("github", "Website URL", "document", "Facebook Page Link")):
+    # 素材太少的專案（沒網址，或網址只抓到一句話），退而求其次：用專案名稱去比對 g0v HackMD 封存的共筆標題。
+    # 2026-10-23 前只在完全沒網址時才找；g0v-shadow 的 repo README 只有一行，真正的說明在封存共筆裡。
+    if sum(len(str(v)) for v in pack["素材"].values()) < 800:
         for note in archive_notes(name, f.get("project name EN", "")):
             try:
                 text = get_hackmd(note["網址"])
