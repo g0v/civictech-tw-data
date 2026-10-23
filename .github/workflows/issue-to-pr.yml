@@ -1,0 +1,61 @@
+name: 修改專案的 issue 轉成 PR
+
+# civictech.tw 專案頁的「建議修改」會開一張帶表單的 issue（.github/ISSUE_TEMPLATE/edit-project.yml），
+# 這裡把它轉成一份修改申請 edits/issue-{編號}.json、開 PR，並在 issue 留言附上 PR。
+# 管理員合併 PR 後，apply-edits.yml 寫回 Airtable。issue 被修改時重跑一次，PR 跟著更新。
+#
+# 安全：issue 的內容是任何人都能寫的。它只會被 scripts/issue-to-edit.mjs 當資料讀（白名單欄位、驗證格式），
+# 不會被拼進任何 shell 指令；PR 的標題與內文都從檔案讀。這一步不碰 Airtable，也不需要 Airtable token。
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: issue-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  to-pr:
+    if: contains(github.event.issue.labels.*.name, '修改專案')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # PROJECTS_SOURCE：測試用的 fork 可以在 repo variables 指到別的資料；沒設就用正式鏡像
+      - run: node scripts/issue-to-edit.mjs "$GITHUB_EVENT_PATH"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROJECTS_SOURCE: ${{ vars.PROJECTS_SOURCE }}
+
+      - name: 開或更新 PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          if [ "$(jq -r .ok issue-result.json)" != "true" ]; then
+            jq -r '"這張 issue 還不能轉成 PR：\n\n" + (.errors | map("- " + .) | join("\n")) + "\n\n修改 issue 內容後會自動重試。"' issue-result.json > comment.md
+            gh issue comment "$NUMBER" --body-file comment.md
+            exit 0
+          fi
+          branch="issue-$NUMBER"
+          git checkout -B "$branch"
+          jq -r '.files[]' issue-result.json | xargs git add --
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m "$(jq -r .title issue-result.json)" -m "由 #$NUMBER 自動產生"
+          git push --force origin "$branch"
+          jq -r .body issue-result.json > body.md
+          existing=$(gh pr list --head "$branch" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh pr edit "$existing" --title "$(jq -r .title issue-result.json)" --body-file body.md
+            gh issue comment "$NUMBER" --body "內容有更新，PR #$existing 已跟著更新。"
+          else
+            url=$(gh pr create --head "$branch" --base main --title "$(jq -r .title issue-result.json)" --body-file body.md)
+            gh issue comment "$NUMBER" --body "已經開好 PR：$url 。管理員看過後合併，隔天就會出現在 civictech.tw。"
+          fi
