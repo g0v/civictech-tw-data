@@ -125,7 +125,7 @@ def get_gdoc(url):
 
 
 # 共筆裡的這些連結追下去也不會有專案說明
-NOT_FOLLOW = re.compile(r"facebook\.com|youtube\.com|youtu\.be|imgur|/uploads?/|\.(png|jpe?g|gif)$")
+NOT_FOLLOW = re.compile(r"youtube\.com|youtu\.be|imgur|/uploads?/|\.(png|jpe?g|gif)$")
 
 
 def doc_text(url):
@@ -138,7 +138,8 @@ def doc_text(url):
             links = [u for u in dict.fromkeys(links) if not NOT_FOLLOW.search(u) and "hackmd.io/_" not in u]
             for u in links[:2]:
                 try:
-                    sub = get_hackmd(u) if classify(u) == "hackmd" else EMAIL.sub("[email]", page_text(u))
+                    k = classify(u)
+                    sub = get_hackmd(u) if k == "hackmd" else get_facebook(u) if k == "facebook" else EMAIL.sub("[email]", page_text(u))
                     text += f"\n\n共筆連到的 {u}：{sub[:1200]}"
                 except Exception as e:
                     text += f"\n\n共筆連到的 {u} 抓不到（{type(e).__name__}）"
