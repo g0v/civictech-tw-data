@@ -66,6 +66,10 @@ const DATASETS = [
   {
     id: 'appAilQ8XpcZkvBko',
     slug: 'science',
+    // 每週一才抓。這個 base 所在的 workspace 是免費方案，每月只有 1,000 次 API 額度，
+    // 它的表多、空白列多（orgs 三千多列只有幾十列有內容），每天抓一次會在月中用完
+    // （2026-10-22 起連兩天整個同步失敗）。資料也很少變，一週一次就夠
+    weekly: true,
     name: '公民科學與群眾參與計畫清冊資料集',
     label: '公民科學與群眾參與計畫',
     tables: {
@@ -172,11 +176,20 @@ function isBlankRecord(rec, table) {
 
 const API = 'https://api.airtable.com/v0';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// 每個 base 用了幾次 API，印在 log 裡：額度是照 workspace 算的，用量要看得到才調得動
+const apiCalls = {};
 
 async function apiGet(url) {
+  const base = String(url).match(/app[A-Za-z0-9]{14}/)?.[0];
   for (let attempt = 1; attempt <= 5; attempt++) {
+    apiCalls[base] = (apiCalls[base] ?? 0) + 1;
     const res = await fetch(url, { headers: { Authorization: `Bearer ${PAT}` } });
     if (res.status === 429) {
+      // 月額度用完也是 429，但等再久都不會好，重試只是多耗幾次
+      const body = await res.text();
+      if (body.includes('PUBLIC_API_BILLING_LIMIT_EXCEEDED')) {
+        throw new Error('這個 workspace 本月的 API 額度用完了，要等下個月重置');
+      }
       console.warn(`  rate limited，第 ${attempt} 次，等待重試…`);
       await sleep(30_000);
       continue;
@@ -207,22 +220,52 @@ async function fetchAllRecords(baseId, tableId) {
   return records;
 }
 
+/** 台北時間的星期一，或手動帶 SYNC_ALL=1 */
+const weeklyDue = () =>
+  process.env.SYNC_ALL === '1' ||
+  new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Taipei', weekday: 'short' }).format() === 'Mon';
+
 async function main() {
   const piiFindings = [];
 
   for (const ds of DATASETS) {
-    // 只清自己負責的資料集。data/v0/ 底下還有別的來源（例如 aimonday），整個刪會把它們一起帶走
-    await rm(path.join(OUT_DIR, ds.slug), { recursive: true, force: true });
     console.log(`\n=== ${ds.label}（${ds.id}）→ /${VERSION}/${ds.slug}/ ===`);
-    const { tables } = await fetchSchema(ds.id);
-
-    // 先抓齊所有表，才能展開跨表關聯（含不匯出的表，關聯名稱可能指向它們）
-    const recordsByTable = {};
-    for (const table of tables) {
-      console.log(`抓取 ${table.name}…`);
-      recordsByTable[table.id] = await fetchAllRecords(ds.id, table.id);
-      console.log(`  ${recordsByTable[table.id].length} 筆`);
+    if (ds.weekly && !weeklyDue()) {
+      console.log('每週一才同步，今天跳過，維持上一版（SYNC_ALL=1 可強制）');
+      continue;
     }
+
+    // 先抓齊所有表，才能展開跨表關聯（含不匯出的表，關聯名稱可能指向它們）。
+    // 抓失敗（Airtable 掛了、額度用完）只讓這個資料集停在上一版，不擋其他資料集——
+    // 原本任何一個 base 失敗整份同步就停，額度用完的 science 連帶讓 tech 停了兩天。
+    // 表對照不一致、個資這兩道閘門不在此列，照樣讓整份失敗，那是要人看的。
+    let tables;
+    const recordsByTable = {};
+    try {
+      ({ tables } = await fetchSchema(ds.id));
+      // 排除的表只在被別的表連結時才抓（展開關聯名稱要用）。tech 的 [空白N]、修改建議
+      // 每次要多花 15 次 API，卻沒有一筆會被匯出
+      const linked = new Set(
+        tables
+          .filter((t) => !isExcludedTable(t.name))
+          .flatMap((t) => t.fields.filter((f) => f.type === 'multipleRecordLinks').map((f) => f.options.linkedTableId)),
+      );
+      for (const table of tables) {
+        if (isExcludedTable(table.name) && !linked.has(table.id)) {
+          console.log(`略過排除的表 ${table.name}（沒有被連結，不用抓）`);
+          recordsByTable[table.id] = [];
+          continue;
+        }
+        console.log(`抓取 ${table.name}…`);
+        recordsByTable[table.id] = await fetchAllRecords(ds.id, table.id);
+        console.log(`  ${recordsByTable[table.id].length} 筆`);
+      }
+    } catch (err) {
+      console.error(`\n⚠️ Airtable 資料集 ${ds.slug} 沒更新，/${VERSION}/${ds.slug}/ 維持上一版：${err.message}`);
+      continue;
+    }
+    // 抓齊了才清掉舊檔。只清自己負責的資料集：data/v0/ 底下還有別的來源（例如 aimonday），整個刪會把它們一起帶走
+    await rm(path.join(OUT_DIR, ds.slug), { recursive: true, force: true });
 
     const primaryValueById = {};
     for (const table of tables) {
@@ -235,6 +278,7 @@ async function main() {
     // 完全沒有內容的表（Airtable 預開的 [空白N] 之類）自動排除。
     // 依「有沒有內容」判斷而不是依名字，否則就是再造一個會腐爛的白名單。
     const emptyTables = tables
+      .filter((t) => !isExcludedTable(t.name))
       .filter((t) => recordsByTable[t.id].every((r) => Object.keys(r.fields).length === 0))
       .map((t) => t.name);
     for (const n of emptyTables) console.log(`略過全空的表 ${n}`);
@@ -338,7 +382,8 @@ async function main() {
   }
 
   await buildIndex();
-  console.log(`\n完成。索引 data/index.json，端點 /${VERSION}/{dataset}/{table}.json`);
+  console.log(`\nAirtable API 用量：${Object.entries(apiCalls).map(([b, n]) => `${b} ${n} 次`).join('、') || '0 次'}`);
+  console.log(`完成。索引 data/index.json，端點 /${VERSION}/{dataset}/{table}.json`);
 }
 
 /** 快取每張表的關聯欄位名 */
