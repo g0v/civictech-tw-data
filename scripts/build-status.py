@@ -173,7 +173,7 @@ body{{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-s
 .brand span{{color:var(--accent)}}
 .topbar nav{{display:flex;gap:1.1rem}}
 .topbar nav a{{color:var(--ink-2);text-decoration:none}}
-.topbar nav a:hover{{color:var(--accent)}}
+.topbar nav a:hover,.topbar nav a[aria-current]{{color:var(--accent)}}
 main{{max-width:900px;margin:0 auto;padding:40px 16px 80px}}
 h1,h2{{letter-spacing:-.02em;line-height:1.25;text-wrap:balance}}
 h1{{font-size:1.75rem;font-weight:650;margin:0 0 .4rem}}
@@ -218,7 +218,7 @@ svg text{{fill:var(--ink-muted);font-size:11px}}
   box-shadow:inset 0 0 0 1px var(--accent)}}
 </style></head><body>
 <header class="topbar"><div><a class="brand" href="https://civictech.tw">civictech<span>.tw</span></a>
-<nav><a href="https://civictech.tw">回主站</a><a href="/">資料 API</a></nav></div></header>
+<nav><a href="/">資料 API</a><a href="/status" aria-current="page">運作狀況</a><a href="https://civictech.tw">回主站</a></nav></div></header>
 <main>
 <h1>civictech.tw 運作狀況</h1>
 <p class="sub">每日 04:00 自動更新　·　產生於 {now:%Y-%m-%d %H:%M}（台灣時間）</p>
