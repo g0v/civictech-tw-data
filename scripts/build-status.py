@@ -14,7 +14,7 @@
   reports/traffic-*.json      最新一份流量快照
   reports/link-health-*.json  最新一份連結健檢（VPS 上另讀 ~/civictech-linkcheck/，取兩邊最新）
   data/index.json + data/v0/  資料庫本身
-  ~/civictech-sync-state.json 同步狀態（只有 VPS 上有）
+  ~/civictech-sync-state.json 同步狀態（只有 VPS 上有；可用 CIVICTECH_SYNC_STATE 指到別的檔）
 """
 import glob, json, os, sys
 from collections import Counter
@@ -43,7 +43,9 @@ links, links_file = newest("link-health-*.json", "reports", "~/civictech-linkche
 index = json.load(open(os.path.join(ROOT, "data", "index.json"), encoding="utf-8"))
 
 sync = None
-sp = os.path.expanduser("~/civictech-sync-state.json")
+# 同步腳本在部署前產這一頁，那時正式狀態檔還是上一次的結果；
+# 它會把「這一次」的暫存狀態寫到別處、用這個變數指過來，頁面才不會落後一天。
+sp = os.environ.get("CIVICTECH_SYNC_STATE") or os.path.expanduser("~/civictech-sync-state.json")
 if os.path.exists(sp):
     try: sync = json.load(open(sp, encoding="utf-8"))
     except Exception: pass
@@ -128,6 +130,20 @@ A(f"""<!doctype html>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>civictech.tw 運作狀況</title>
 <meta name="description" content="civictech.tw 的流量、資料完整度與連結健檢，每日自動更新。">
+<script>
+  // 跟 civictech.tw 同一套：選過的優先，沒選過跟系統；在畫面出來前決定，免得閃一下
+  (function () {{
+    var root = document.documentElement;
+    var mq = window.matchMedia("(prefers-color-scheme: dark)");
+    function stored() {{ try {{ return localStorage.getItem("theme"); }} catch (e) {{ return null; }} }}
+    function apply() {{
+      var s = stored();
+      root.dataset.theme = s === "light" || s === "dark" ? s : mq.matches ? "dark" : "light";
+    }}
+    apply();
+    mq.addEventListener("change", apply);
+  }})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&display=swap">
 <style>
@@ -169,9 +185,19 @@ body{{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-s
   justify-content:space-between;align-items:center;gap:1rem;font-size:.85rem}}
 .brand{{font-weight:600;letter-spacing:-.02em;color:var(--ink);text-decoration:none}}
 .brand span{{color:var(--accent)}}
-.topbar nav{{display:flex;gap:1.1rem}}
-.topbar nav a{{color:var(--ink-2);text-decoration:none}}
-.topbar nav a:hover{{color:var(--accent)}}
+.topbar nav{{display:flex;align-items:center;gap:1.1rem}}
+.topbar nav a{{color:var(--ink-2);text-decoration:none;white-space:nowrap}}
+.topbar nav a:hover,.topbar nav a[aria-current]{{color:var(--accent)}}
+.icon-btn{{display:inline-flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;
+  margin:-.4rem -.35rem;border:0;border-radius:6px;background:transparent;color:var(--ink-muted);cursor:pointer;
+  transition:color .2s ease,background-color .2s ease}}
+.topbar nav a.icon-btn{{color:var(--ink-muted)}}
+.icon-btn:hover,.topbar nav a.icon-btn:hover{{color:var(--ink);background:var(--surface-2)}}
+.icon-sun{{display:none}}
+html[data-theme="dark"] .icon-sun{{display:block}}
+html[data-theme="dark"] .icon-moon{{display:none}}
+html:not([data-theme]) .theme-toggle{{display:none}}
+@media (max-width:480px){{.topbar nav{{gap:.8rem}} .topbar nav .home{{display:none}}}}
 main{{max-width:900px;margin:0 auto;padding:40px 16px 80px}}
 h1,h2{{letter-spacing:-.02em;line-height:1.25;text-wrap:balance}}
 h1{{font-size:1.75rem;font-weight:650;margin:0 0 .4rem}}
@@ -215,8 +241,10 @@ svg text{{fill:var(--ink-muted);font-size:11px}}
 .dot-partial{{background:repeating-linear-gradient(135deg,var(--accent) 0 2px,transparent 2px 4px);
   box-shadow:inset 0 0 0 1px var(--accent)}}
 </style></head><body>
-<header class="topbar"><div><a class="brand" href="https://civictech.tw">civictech<span>.tw</span></a>
-<nav><a href="https://civictech.tw">回主站</a><a href="/">資料 API</a></nav></div></header>
+<header class="topbar"><div><a class="brand" href="/">data.civictech<span>.tw</span></a>
+<nav><a href="/">資料 API</a><a href="/status" aria-current="page">運作狀況</a><a class="home" href="https://civictech.tw">回主站</a>
+<a class="icon-btn" href="https://github.com/g0v/civictech-tw-data" aria-label="GitHub 原始碼" title="GitHub 原始碼"><svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>
+<button id="theme-toggle" class="icon-btn theme-toggle" type="button" aria-label="切換淺色／深色模式"><svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button></nav></div></header>
 <main>
 <h1>civictech.tw 運作狀況</h1>
 <p class="sub">每日 04:00 自動更新　·　產生於 {now:%Y-%m-%d %H:%M}（台灣時間）</p>
@@ -318,7 +346,22 @@ A(f"""<footer>
 資料來源：Cloudflare Web Analytics（流量）、<code>{esc(links_file or '—')}</code>（連結）、<code>{esc(os.path.basename('index.json'))}</code>（資料庫）。
 流量快照在 <a href="https://github.com/g0v/civictech-tw-data/tree/main/reports">repo 的 reports/</a>；每週連結健檢的報告只留在排程主機上。
 API 在 <a href="/">data.civictech.tw</a>　·　<a href="https://civictech.tw">civictech.tw</a>
-</footer></main></body></html>""")
+</footer></main>
+<script>
+  // 圖示顯示「按下去會變成什麼」：淺色時是月亮、深色時是太陽
+  (function () {{
+    var btn = document.getElementById("theme-toggle"), root = document.documentElement;
+    function label() {{ btn.setAttribute("aria-label", root.dataset.theme === "dark" ? "切換成淺色模式" : "切換成深色模式"); }}
+    label();
+    btn.addEventListener("click", function () {{
+      var next = root.dataset.theme === "dark" ? "light" : "dark";
+      try {{ localStorage.setItem("theme", next); }} catch (e) {{ /* 存不進去就只換這一頁 */ }}
+      root.dataset.theme = next;
+      label();
+    }});
+  }})();
+</script>
+</body></html>""")
 
 path = os.path.join(ROOT, "data", "status.html")
 with open(path, "w", encoding="utf-8") as f:
