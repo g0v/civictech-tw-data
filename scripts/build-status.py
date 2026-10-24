@@ -12,7 +12,7 @@
 
 資料來源（缺任何一項都只是少一塊，不會讓整頁掛掉）：
   reports/traffic-*.json      最新一份流量快照
-  reports/link-health-*.json  最新一份連結健檢
+  reports/link-health-*.json  最新一份連結健檢（VPS 上另讀 ~/civictech-linkcheck/，取兩邊最新）
   data/index.json + data/v0/  資料庫本身
   ~/civictech-sync-state.json 同步狀態（只有 VPS 上有）
 """
@@ -23,8 +23,11 @@ from datetime import datetime, timedelta, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TW = timezone(timedelta(hours=8))
 
-def newest(pattern):
-    fs = sorted(glob.glob(os.path.join(ROOT, pattern)))
+def newest(pattern, *dirs):
+    # 檔名帶日期，用 basename 排序才能跨資料夾比新舊。相對路徑以 repo 根目錄為準
+    dirs = [os.path.join(ROOT, os.path.expanduser(d)) for d in dirs or [""]]
+    fs = sorted((f for d in dirs for f in glob.glob(os.path.join(d, pattern))),
+                key=os.path.basename)
     if not fs: return None, None
     return json.load(open(fs[-1], encoding="utf-8")), os.path.basename(fs[-1])
 
@@ -34,7 +37,9 @@ def esc(s):
 
 # ── 收資料 ──
 traffic, traffic_file = newest("reports/traffic-*.json")
-links, links_file = newest("reports/link-health-*.json")
+# 每週健檢（~/bin/civictech-linkcheck.sh）刻意把報告寫在 repo 外面，只有 VPS 上有。
+# 只讀 reports/ 的話，這一頁會永遠停在 2026-09-19 那份手動報告。
+links, links_file = newest("link-health-*.json", "reports", "~/civictech-linkcheck")
 index = json.load(open(os.path.join(ROOT, "data", "index.json"), encoding="utf-8"))
 
 sync = None
