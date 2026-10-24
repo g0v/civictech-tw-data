@@ -111,7 +111,9 @@ const isExcludedTable = (name) =>
 
 /** 不匯出的欄位（個人聯絡資料），key 為表名 */
 const EXCLUDE_FIELDS = {
-  'project list': new Set(['name', 'slack id']),
+  // record_id／check record_id／match：維護者在 Airtable 核對 AI insight 貼上有沒有錯位用的（2026-10-24）。
+  // record_id 跟每筆資料的 id 重複，另外兩個對 API 使用者沒有意義。
+  'project list': new Set(['name', 'slack id', 'record_id', 'check record_id', 'match']),
   presentation: new Set(['owner name', 'facebook', 'slack id', 'email', 'telegram']),
 };
 
