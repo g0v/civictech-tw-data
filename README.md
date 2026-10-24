@@ -6,6 +6,9 @@ Open data export for the Taiwan Civic Tech Database ([civictech.tw](https://civi
 
 **授權 License**：資料 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hant)（姓名標示「g0v civictech.tw」）／程式碼 [MIT](LICENSE)
 
+**想修改資料、幫忙產生專案介紹，或想知道資料怎麼流到網站上**：見 [civictech.tw 的 CONTRIBUTING.md](https://github.com/cooldongdong/civictech.tw/blob/master/CONTRIBUTING.md)。
+To suggest edits, help write project summaries, or see how data flows to the website, read [CONTRIBUTING.md](https://github.com/cooldongdong/civictech.tw/blob/master/CONTRIBUTING.md) in the civictech.tw repo.
+
 ---
 
 ## 端點 Endpoints
@@ -185,4 +188,5 @@ export $(grep -v '^#' .env | xargs) && node scripts/sync.mjs
 ## 相關 Related
 
 - [civictech.tw](https://civictech.tw) — 前端網站 frontend
+- [CONTRIBUTING.md](https://github.com/cooldongdong/civictech.tw/blob/master/CONTRIBUTING.md) — 資料流、專案介紹的產生方式、怎麼貢獻 data flow, project summaries, how to contribute
 - 資料維護於 Airtable，由 [g0v jothon](https://jothon.g0v.tw) 主導。Data is maintained in Airtable, led by g0v jothon.
