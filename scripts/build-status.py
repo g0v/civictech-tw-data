@@ -14,7 +14,7 @@
   reports/traffic-*.json      最新一份流量快照
   reports/link-health-*.json  最新一份連結健檢（VPS 上另讀 ~/civictech-linkcheck/，取兩邊最新）
   data/index.json + data/v0/  資料庫本身
-  ~/civictech-sync-state.json 同步狀態（只有 VPS 上有）
+  ~/civictech-sync-state.json 同步狀態（只有 VPS 上有；可用 CIVICTECH_SYNC_STATE 指到別的檔）
 """
 import glob, json, os, sys
 from collections import Counter
@@ -43,7 +43,9 @@ links, links_file = newest("link-health-*.json", "reports", "~/civictech-linkche
 index = json.load(open(os.path.join(ROOT, "data", "index.json"), encoding="utf-8"))
 
 sync = None
-sp = os.path.expanduser("~/civictech-sync-state.json")
+# 同步腳本在部署前產這一頁，那時正式狀態檔還是上一次的結果；
+# 它會把「這一次」的暫存狀態寫到別處、用這個變數指過來，頁面才不會落後一天。
+sp = os.environ.get("CIVICTECH_SYNC_STATE") or os.path.expanduser("~/civictech-sync-state.json")
 if os.path.exists(sp):
     try: sync = json.load(open(sp, encoding="utf-8"))
     except Exception: pass
