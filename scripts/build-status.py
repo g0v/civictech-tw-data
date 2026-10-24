@@ -12,7 +12,7 @@
 
 資料來源（缺任何一項都只是少一塊，不會讓整頁掛掉）：
   reports/traffic-*.json      最新一份流量快照
-  reports/link-health-*.json  最新一份連結健檢
+  reports/link-health-*.json  最新一份連結健檢（VPS 上另讀 ~/civictech-linkcheck/，取兩邊最新）
   data/index.json + data/v0/  資料庫本身
   ~/civictech-sync-state.json 同步狀態（只有 VPS 上有）
 """
@@ -23,8 +23,11 @@ from datetime import datetime, timedelta, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TW = timezone(timedelta(hours=8))
 
-def newest(pattern):
-    fs = sorted(glob.glob(os.path.join(ROOT, pattern)))
+def newest(pattern, *dirs):
+    # 檔名帶日期，用 basename 排序才能跨資料夾比新舊。相對路徑以 repo 根目錄為準
+    dirs = [os.path.join(ROOT, os.path.expanduser(d)) for d in dirs or [""]]
+    fs = sorted((f for d in dirs for f in glob.glob(os.path.join(d, pattern))),
+                key=os.path.basename)
     if not fs: return None, None
     return json.load(open(fs[-1], encoding="utf-8")), os.path.basename(fs[-1])
 
@@ -34,7 +37,9 @@ def esc(s):
 
 # ── 收資料 ──
 traffic, traffic_file = newest("reports/traffic-*.json")
-links, links_file = newest("reports/link-health-*.json")
+# 每週健檢（~/bin/civictech-linkcheck.sh）刻意把報告寫在 repo 外面，只有 VPS 上有。
+# 只讀 reports/ 的話，這一頁會永遠停在 2026-09-19 那份手動報告。
+links, links_file = newest("link-health-*.json", "reports", "~/civictech-linkcheck")
 index = json.load(open(os.path.join(ROOT, "data", "index.json"), encoding="utf-8"))
 
 sync = None
@@ -90,8 +95,22 @@ def ago(iso_s):
     h = (datetime.now(timezone.utc) - t).total_seconds() / 3600
     return f"{h:.0f} 小時前" if h < 48 else f"{h/24:.0f} 天前"
 
+def days_old(date_s):
+    try: return (now.date() - datetime.fromisoformat(date_s[:10]).date()).days
+    except Exception: return None
+
+def as_of(date_s, max_days, what):
+    """每一區都標「資料截至哪天」；超過 max_days 就變黃——安靜過期的區塊比空白更會誤導。"""
+    d = days_old(date_s)
+    if d is not None and d > max_days:
+        return f'<span class="stale">⚠️ 資料截至 {esc(date_s[:10])}，已 {d} 天沒更新（{what}）</span>'
+    return f"資料截至 {esc(date_s[:10])}"
+
 # ── 圖表：每月瀏覽 ──
 months = list((traffic or {}).get("by_month", {}).items())
+# 快照當月還沒過完，數字只算到 latest_data，不能跟整月並排比
+latest = (traffic or {}).get("latest_data", "")
+partial_month = latest[:7] if latest and latest[8:10] < "28" else None
 mmax = max([v["count"] for _, v in months], default=1)
 
 # ── 圖表：來源 ──
@@ -109,55 +128,96 @@ A(f"""<!doctype html>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>civictech.tw 運作狀況</title>
 <meta name="description" content="civictech.tw 的流量、資料完整度與連結健檢，每日自動更新。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&display=swap">
 <style>
+/* 色票與字體照 civictech.tw 的 src/styles/global.css，讓兩站看起來是同一家。
+   主站的深色模式掛在 data-theme 上、靠 JS 決定；這頁是純靜態，所以跟系統設定走。
+   狀態色（好／注意／壞）主站沒有，飽和度壓到跟冷底同一個色溫。 */
 :root{{
-  --plane:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
-  --grid:#e1e0d9; --axis:#c3c2b7; --s1:#2a78d6;
-  --good:#0ca30c; --warn:#fab219; --serious:#ec835a; --crit:#d03b3b;
+  --paper:#f4f7f7; --surface:#ffffff; --surface-2:#e9eff0;
+  --ink:#0f1a1d; --ink-2:#33434a; --ink-muted:#56676e;
+  --line:#dde5e7; --line-strong:#c6d2d5;
+  --accent:#0d5f74; --accent-soft:#e0eef1;
+  --good:#2f7d55; --warn:#c58a1a; --crit:#b6453c;
+  --font-sans:'Geist','PingFang TC','Noto Sans TC','Microsoft JhengHei',system-ui,sans-serif;
+  --font-mono:'Geist Mono','SF Mono',ui-monospace,monospace;
+  color-scheme:light;
 }}
 @media (prefers-color-scheme:dark){{ :root:not([data-theme="light"]){{
-  --plane:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
-  --grid:#2c2c2a; --axis:#383835; --s1:#3987e5;
+  --paper:#0e1319; --surface:#161d26; --surface-2:#1d2631;
+  --ink:#e8eef5; --ink-2:#c3ccd8; --ink-muted:#93a0b2;
+  --line:#263140; --line-strong:#35424f;
+  --accent:#2e9cb8; --accent-soft:#0f3340;
+  --good:#5fbf8a; --warn:#f2b94b; --crit:#ec7b70;
+  color-scheme:dark;
 }} }}
 :root[data-theme="dark"]{{
-  --plane:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
-  --grid:#2c2c2a; --axis:#383835; --s1:#3987e5;
+  --paper:#0e1319; --surface:#161d26; --surface-2:#1d2631;
+  --ink:#e8eef5; --ink-2:#c3ccd8; --ink-muted:#93a0b2;
+  --line:#263140; --line-strong:#35424f;
+  --accent:#2e9cb8; --accent-soft:#0f3340;
+  --good:#5fbf8a; --warn:#f2b94b; --crit:#ec7b70;
+  color-scheme:dark;
 }}
 *{{box-sizing:border-box}}
-body{{margin:0;background:var(--plane);color:var(--ink);
-  font:15px/1.6 -apple-system,BlinkMacSystemFont,"Noto Sans TC","Helvetica Neue",sans-serif}}
-main{{max-width:900px;margin:0 auto;padding:44px 20px 80px}}
-h1{{font-size:1.5rem;margin:0 0 .25rem;letter-spacing:-.01em}}
-.sub{{color:var(--ink2);margin:0 0 2rem;font-size:.9rem}}
-h2{{font-size:1rem;margin:2.6rem 0 .3rem}}
-.note{{color:var(--muted);font-size:.8rem;margin:0 0 1rem}}
-.card{{background:var(--surface);border:1px solid var(--grid);border-radius:10px;padding:18px}}
+body{{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-sans);
+  font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}}
+::selection{{background:var(--accent-soft);color:var(--ink)}}
+.topbar{{border-bottom:1px solid var(--line);background:var(--surface)}}
+.topbar div{{max-width:900px;margin:0 auto;padding:.85rem 16px;display:flex;
+  justify-content:space-between;align-items:center;gap:1rem;font-size:.85rem}}
+.brand{{font-weight:600;letter-spacing:-.02em;color:var(--ink);text-decoration:none}}
+.brand span{{color:var(--accent)}}
+.topbar nav{{display:flex;gap:1.1rem}}
+.topbar nav a{{color:var(--ink-2);text-decoration:none}}
+.topbar nav a:hover{{color:var(--accent)}}
+main{{max-width:900px;margin:0 auto;padding:40px 16px 80px}}
+h1,h2{{letter-spacing:-.02em;line-height:1.25;text-wrap:balance}}
+h1{{font-size:1.75rem;font-weight:650;margin:0 0 .4rem}}
+.sub{{color:var(--ink-muted);margin:0 0 2rem;font-size:.85rem}}
+h2{{font-size:1.05rem;font-weight:600;margin:2.6rem 0 .3rem}}
+.note{{color:var(--ink-muted);font-size:.8rem;margin:0 0 1rem}}
+.card{{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px}}
 .tiles{{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}}
-.tile .k{{color:var(--ink2);font-size:.78rem;margin-bottom:.35rem}}
-.tile .v{{font-size:1.5rem;font-weight:700;line-height:1.15;font-variant-numeric:tabular-nums}}
-.tile .m{{color:var(--muted);font-size:.75rem;margin-top:.3rem}}
-.pill{{display:inline-flex;align-items:center;gap:.35em;font-size:.95rem;font-weight:700}}
+.tile .k{{color:var(--ink-2);font-size:.78rem;margin-bottom:.35rem}}
+.tile .v{{font-family:var(--font-mono);font-size:1.6rem;font-weight:500;line-height:1.15;
+  font-variant-numeric:tabular-nums;letter-spacing:-.03em}}
+.tile .m{{color:var(--ink-muted);font-size:.75rem;margin-top:.3rem}}
+.tile .v.pill{{font-family:var(--font-sans);display:inline-flex;align-items:center;gap:.4em;
+  font-size:1rem;font-weight:600;letter-spacing:0}}
+.tile .v.pill.n{{font-family:var(--font-mono);font-size:1.6rem;font-weight:500}}
 .dot{{width:.62em;height:.62em;border-radius:50%;flex:none}}
 table{{width:100%;border-collapse:collapse;font-size:.86rem}}
 td{{padding:.32rem .5rem .32rem 0;vertical-align:middle}}
-td.lbl{{color:var(--ink2);white-space:nowrap;width:1%}}
-td.num{{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink2);white-space:nowrap;width:1%}}
-.bar{{height:11px;border-radius:0 4px 4px 0;background:var(--s1);min-width:2px}}
-.track{{background:var(--grid);border-radius:0 4px 4px 0;height:11px}}
+td.lbl{{color:var(--ink-2);white-space:nowrap;width:1%}}
+td.num{{text-align:right;font-family:var(--font-mono);font-variant-numeric:tabular-nums;color:var(--ink-2);white-space:nowrap;width:1%}}
+.bar{{height:11px;border-radius:0 4px 4px 0;background:var(--accent);min-width:2px}}
+.track{{background:var(--surface-2);border-radius:0 4px 4px 0;height:11px}}
 .stack{{display:flex;height:22px;border-radius:5px;overflow:hidden;gap:2px;background:var(--surface)}}
 .stack i{{display:block}}
-.legend{{display:flex;flex-wrap:wrap;gap:.35rem 1.1rem;margin-top:.7rem;font-size:.82rem;color:var(--ink2)}}
+.legend{{display:flex;flex-wrap:wrap;gap:.35rem 1.1rem;margin-top:.7rem;font-size:.82rem;color:var(--ink-2)}}
 .legend span{{display:inline-flex;align-items:center;gap:.4em}}
 .cols{{display:grid;grid-template-columns:1fr;gap:12px}}
 @media(min-width:720px){{.cols{{grid-template-columns:1fr 1fr}}}}
 .chips{{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.6rem}}
-.chip{{font-size:.78rem;background:var(--plane);border:1px solid var(--grid);
-  border-radius:999px;padding:.15rem .6rem;color:var(--ink2)}}
-footer{{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--grid);
-  color:var(--muted);font-size:.8rem}}
-a{{color:var(--s1)}}
-svg text{{fill:var(--muted);font-size:11px}}
-</style></head><body><main>
+.chip{{font-size:.78rem;background:var(--surface-2);border:1px solid var(--line);
+  border-radius:999px;padding:.15rem .6rem;color:var(--ink-2)}}
+footer{{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+  color:var(--ink-muted);font-size:.8rem}}
+a{{color:var(--accent);text-underline-offset:3px}}
+code{{font-family:var(--font-mono);font-size:.9em}}
+svg text{{fill:var(--ink-muted);font-size:11px}}
+.stale{{color:var(--ink);background:color-mix(in srgb,var(--warn) 22%,transparent);
+  border-radius:4px;padding:.05rem .35rem}}
+.partial{{color:var(--ink-muted);font-size:.75rem}}
+.bar-partial{{background:repeating-linear-gradient(135deg,var(--accent) 0 4px,transparent 4px 7px)}}
+.dot-partial{{background:repeating-linear-gradient(135deg,var(--accent) 0 2px,transparent 2px 4px);
+  box-shadow:inset 0 0 0 1px var(--accent)}}
+</style></head><body>
+<header class="topbar"><div><a class="brand" href="https://civictech.tw">civictech<span>.tw</span></a>
+<nav><a href="https://civictech.tw">回主站</a><a href="/">資料 API</a></nav></div></header>
+<main>
 <h1>civictech.tw 運作狀況</h1>
 <p class="sub">每日 04:00 自動更新　·　產生於 {now:%Y-%m-%d %H:%M}（台灣時間）</p>
 """)
@@ -166,10 +226,17 @@ svg text{{fill:var(--muted);font-size:11px}}
 # 「不知道」不等於「壞掉」。狀態檔只有 VPS 上有，在別處產生這一頁時讀不到——
 # 那時畫成紅色是假警報，而假警報會訓練人忽略真警報。
 if sync is None:
-    sync_col, sync_txt, sync_sub = "var(--muted)", "未知", "此頁非由排程主機產生"
+    sync_col, sync_txt, sync_sub = "var(--ink-muted)", "未知", "此頁非由排程主機產生"
 elif sync.get("last_status") == "ok":
-    sync_col, sync_txt = "var(--good)", "正常"
-    sync_sub = f"最後成功 {ago(sync.get('last_success'))}"
+    # 同步成功但有步驟被跳過或失敗（例如沒有 analytics token），不能只亮綠燈：
+    # 2026-09 到 10 月流量快照每天都被跳過，狀態檔有寫，頁面卻一直顯示「正常」。
+    issues = [s for s in (sync.get("last_message") or "").split("；")
+              if "跳過" in s or "失敗" in s]
+    if issues:
+        sync_col, sync_txt, sync_sub = "var(--warn)", "部分異常", "；".join(issues)
+    else:
+        sync_col, sync_txt = "var(--good)", "正常"
+        sync_sub = f"最後成功 {ago(sync.get('last_success'))}"
 else:
     sync_col, sync_txt = "var(--crit)", "異常"
     sync_sub = sync.get("last_message") or f"最後成功 {ago(sync.get('last_success'))}"
@@ -186,20 +253,25 @@ if traffic:
 if links:
     col = "var(--crit)" if dead_n > 20 else "var(--warn)"
     A(f"""<div class="card tile"><div class="k">失效連結</div>
-    <div class="v pill"><span class="dot" style="background:{col}"></span>{dead_n}</div>
+    <div class="v pill n"><span class="dot" style="background:{col}"></span>{dead_n}</div>
     <div class="m">共檢查 {links['網址數']} 個網址</div></div>""")
 A("</div>")
 
 # ── 每月瀏覽 ──
 if months:
     A('<h2>每月瀏覽次數</h2>')
-    A(f'<p class="note">⚠️ Cloudflare Web Analytics 免費版為<strong>抽樣估計</strong>，數字一律是 10 的倍數——趨勢可信，精確度不可信。資料最早只到 {traffic["earliest_data"]}（更早的已過保留期）。</p>')
+    A(f'<p class="note">{as_of(latest, 7, "流量快照沒有在跑")}。Cloudflare Web Analytics 免費版為<strong>抽樣估計</strong>，數字一律是 10 的倍數——趨勢可信，精確度不可信。資料最早只到 {traffic["earliest_data"]}（更早的已過保留期）。</p>')
     A('<div class="card"><table>')
     for m, v in months:
         w = v["count"] / mmax * 100
-        A(f'<tr><td class="lbl">{m}</td><td><div class="track"><div class="bar" style="width:{w:.1f}%"></div></div></td>'
+        part = m == partial_month
+        lbl = f'{m}<span class="partial">（至 {latest[5:]}）</span>' if part else m
+        A(f'<tr><td class="lbl">{lbl}</td><td><div class="track"><div class="bar{" bar-partial" if part else ""}" style="width:{w:.1f}%"></div></div></td>'
           f'<td class="num">{v["count"]:,}</td></tr>')
-    A('</table><div class="legend"><span><span class="dot" style="background:var(--s1)"></span>瀏覽次數</span></div></div>')
+    A('</table><div class="legend"><span><span class="dot" style="background:var(--accent)"></span>瀏覽次數</span>')
+    if partial_month:
+        A('<span><span class="dot dot-partial"></span>當月未過完</span>')
+    A('</div></div>')
 
 # ── 來源 ──
 if top_refs:
@@ -216,7 +288,7 @@ if top_refs:
 A('<div class="cols">')
 if links:
     A('<div><h2>連結健檢</h2>')
-    A(f'<p class="note">{links["掃描日期"]}　純 HTTP 檢查，沒有用 AI。</p>')
+    A(f'<p class="note">{as_of(links["掃描日期"], 10, "每週健檢沒有讀到")}。每週一自動掃描，純 HTTP 檢查，沒有用 AI。</p>')
     A('<div class="card"><div class="stack">')
     tot_l = sum(link_counts.values()) or 1
     varmap = {"good":"var(--good)","warning":"var(--warn)","critical":"var(--crit)"}
@@ -244,7 +316,7 @@ A('</div>')
 
 A(f"""<footer>
 資料來源：Cloudflare Web Analytics（流量）、<code>{esc(links_file or '—')}</code>（連結）、<code>{esc(os.path.basename('index.json'))}</code>（資料庫）。
-原始快照在 <a href="https://gitlab.com/dsw4work/civictech-tw-data">repo 的 reports/</a>。
+流量快照在 <a href="https://github.com/g0v/civictech-tw-data/tree/main/reports">repo 的 reports/</a>；每週連結健檢的報告只留在排程主機上。
 API 在 <a href="/">data.civictech.tw</a>　·　<a href="https://civictech.tw">civictech.tw</a>
 </footer></main></body></html>""")
 
