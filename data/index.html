@@ -5,41 +5,102 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>civictech.tw 開放資料 API</title>
 <meta name="description" content="台灣公民科技資料庫的開放資料出口，靜態 JSON、免 token、免 rate limit。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&display=swap">
 <style>
-  :root{--bg:#fbfbfa;--fg:#1a1a1a;--dim:#6b6b6b;--line:#e4e4e1;--acc:#0b6b5f;--code:#f2f2ef}
-  @media (prefers-color-scheme:dark){
-    :root{--bg:#131314;--fg:#e8e8e6;--dim:#9a9a97;--line:#2c2c2e;--acc:#4dd0b8;--code:#1e1e20}
+  /* 色票與字體照 civictech.tw 的 src/styles/global.css，與 /status 同一套。
+     主站的深色模式靠 JS 掛 data-theme；這頁是純靜態，跟系統設定走。 */
+  :root{
+    --paper:#f4f7f7; --surface:#ffffff; --surface-2:#e9eff0;
+    --ink:#0f1a1d; --ink-2:#33434a; --ink-muted:#56676e;
+    --line:#dde5e7; --line-strong:#c6d2d5;
+    --accent:#0d5f74; --accent-soft:#e0eef1;
+    --font-sans:'Geist','PingFang TC','Noto Sans TC','Microsoft JhengHei',system-ui,sans-serif;
+    --font-mono:'Geist Mono','SF Mono',ui-monospace,monospace;
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --paper:#0e1319; --surface:#161d26; --surface-2:#1d2631;
+    --ink:#e8eef5; --ink-2:#c3ccd8; --ink-muted:#93a0b2;
+    --line:#263140; --line-strong:#35424f;
+    --accent:#2e9cb8; --accent-soft:#0f3340;
+    color-scheme:dark;
+  } }
+  :root[data-theme="dark"]{
+    --paper:#0e1319; --surface:#161d26; --surface-2:#1d2631;
+    --ink:#e8eef5; --ink-2:#c3ccd8; --ink-muted:#93a0b2;
+    --line:#263140; --line-strong:#35424f;
+    --accent:#2e9cb8; --accent-soft:#0f3340;
+    color-scheme:dark;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--fg);
-    font:15px/1.65 -apple-system,BlinkMacSystemFont,"Noto Sans TC","Helvetica Neue",sans-serif}
-  main{max-width:820px;margin:0 auto;padding:48px 20px 80px}
-  h1{font-size:1.6rem;margin:0 0 .3rem;letter-spacing:-.01em}
-  .lede{color:var(--dim);margin:0 0 2rem}
-  h2{font-size:.95rem;margin:2.4rem 0 .7rem;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
-     color:var(--acc);font-weight:600}
-  h2 .sub{color:var(--dim);font-family:inherit;font-weight:400;font-size:.85rem;margin-left:.4rem}
-  table{width:100%;border-collapse:collapse;font-size:.88rem}
-  td{padding:.5rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
-  td:first-child{width:52%}
-  .n{text-align:right;color:var(--dim);font-variant-numeric:tabular-nums;white-space:nowrap}
-  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em;
-       background:var(--code);padding:.12em .4em;border-radius:4px}
-  a{color:var(--acc);text-decoration:none}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-sans);
+    font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--accent-soft);color:var(--ink)}
+  .topbar{border-bottom:1px solid var(--line);background:var(--surface)}
+  .topbar div{max-width:900px;margin:0 auto;padding:.85rem 16px;display:flex;
+    justify-content:space-between;align-items:center;gap:1rem;font-size:.85rem}
+  .brand{font-weight:600;letter-spacing:-.02em;color:var(--ink);text-decoration:none}
+  .brand span{color:var(--accent)}
+  .topbar nav{display:flex;gap:1.1rem}
+  .topbar nav a{color:var(--ink-2);text-decoration:none}
+  .topbar nav a:hover,.topbar nav a[aria-current]{color:var(--accent)}
+  main{max-width:900px;margin:0 auto;padding:40px 16px 80px}
+  h1,h2{letter-spacing:-.02em;line-height:1.25;text-wrap:balance}
+  h1{font-size:1.75rem;font-weight:650;margin:0 0 .4rem}
+  .lede{color:var(--ink-2);margin:0 0 2rem;text-wrap:pretty}
+  .eyebrow{font-size:.78rem;color:var(--ink-muted);margin:0 0 .4rem}
+  /* 端點表的標題由 build-index.mjs 產生：路徑在前、中文名在 .sub。
+     中文名才是人在找的東西，用 order 把它排到前面、路徑退成副標 */
+  h2{display:flex;flex-wrap:wrap;align-items:baseline;gap:.2rem .6rem;
+    font-family:var(--font-mono);font-size:.8rem;font-weight:500;color:var(--ink-muted);
+    margin:2.6rem 0 .6rem}
+  h2 .sub{order:-1;font-family:var(--font-sans);font-size:1.05rem;font-weight:600;color:var(--ink)}
+  /* 每列的 td 順序是 build-index.mjs 給的（路徑、中文名、筆數）。
+     人是用中文名找表，所以用 grid 把中文名排到最前面，路徑退到第二欄 */
+  table{display:block;width:100%;font-size:.88rem;
+    background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  tbody{display:block}
+  tr{display:grid;grid-template-columns:minmax(9rem,1fr) minmax(0,1.5fr) 4.5rem;align-items:baseline;
+    border-bottom:1px solid var(--line)}
+  tr:last-child{border-bottom:0}
+  tr:hover{background:var(--surface-2)}
+  td{padding:.6rem .9rem;min-width:0}
+  td:nth-child(2){order:-1;color:var(--ink)}
+  td:first-child{font-size:.95em;overflow-wrap:anywhere}
+  .n{text-align:right;font-family:var(--font-mono);font-variant-numeric:tabular-nums;
+    letter-spacing:-.03em;color:var(--ink-2);white-space:nowrap}
+  code{font-family:var(--font-mono);font-size:.86em;background:var(--surface-2);
+    padding:.12em .4em;border-radius:4px}
+  td code{background:none;padding:0}
+  a{color:var(--accent);text-decoration:none;text-underline-offset:3px}
   a:hover{text-decoration:underline}
-  pre{background:var(--code);padding:.9rem 1rem;border-radius:8px;overflow-x:auto;
-      font-size:.82rem;line-height:1.5;border:1px solid var(--line)}
-  .note{border-left:3px solid var(--line);padding:.1rem 0 .1rem 1rem;color:var(--dim);
-        font-size:.87rem;margin:1.6rem 0}
+  pre{font-family:var(--font-mono);background:var(--surface);color:var(--ink);
+    padding:.9rem 1rem;border-radius:8px;overflow-x:auto;
+    font-size:.82rem;line-height:1.6;border:1px solid var(--line);margin:0}
+  .note{background:var(--accent-soft);border-radius:8px;padding:.8rem 1rem;color:var(--ink-2);
+    font-size:.87rem;margin:1.2rem 0 0}
+  .note code{background:var(--surface)}
   footer{margin-top:3.5rem;padding-top:1.2rem;border-top:1px solid var(--line);
-         color:var(--dim);font-size:.83rem}
+    color:var(--ink-muted);font-size:.83rem}
+  /* 手機上三欄擠不下：中文名和筆數一行，路徑獨占下一行 */
+  @media (max-width:560px){
+    tr{grid-template-columns:1fr auto}
+    td{padding:.15rem .9rem}
+    td:nth-child(2){padding-top:.6rem}
+    td.n{order:-1;padding-top:.6rem}
+    td:first-child{grid-column:1/-1;padding-bottom:.6rem}
+  }
 </style>
 </head>
 <body>
+  <header class="topbar"><div><a class="brand" href="https://civictech.tw">civictech<span>.tw</span></a>
+    <nav><a href="/" aria-current="page">資料 API</a><a href="/status">運作狀況</a><a href="https://civictech.tw">回主站</a></nav></div></header>
   <main>
     <h1>civictech.tw 開放資料</h1>
     <p class="lede">台灣公民科技資料庫的資料出口。靜態 JSON，免 token、免 rate limit、CORS 全開。</p>
 
+    <p class="eyebrow">試試看</p>
     <pre>curl -s https://data.civictech.tw/v0/tech/projects.json | jq '.records[].fields["project name"]'</pre>
 
     <div class="note">
