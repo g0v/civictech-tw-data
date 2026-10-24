@@ -95,8 +95,22 @@ def ago(iso_s):
     h = (datetime.now(timezone.utc) - t).total_seconds() / 3600
     return f"{h:.0f} 小時前" if h < 48 else f"{h/24:.0f} 天前"
 
+def days_old(date_s):
+    try: return (now.date() - datetime.fromisoformat(date_s[:10]).date()).days
+    except Exception: return None
+
+def as_of(date_s, max_days, what):
+    """每一區都標「資料截至哪天」；超過 max_days 就變黃——安靜過期的區塊比空白更會誤導。"""
+    d = days_old(date_s)
+    if d is not None and d > max_days:
+        return f'<span class="stale">⚠️ 資料截至 {esc(date_s[:10])}，已 {d} 天沒更新（{what}）</span>'
+    return f"資料截至 {esc(date_s[:10])}"
+
 # ── 圖表：每月瀏覽 ──
 months = list((traffic or {}).get("by_month", {}).items())
+# 快照當月還沒過完，數字只算到 latest_data，不能跟整月並排比
+latest = (traffic or {}).get("latest_data", "")
+partial_month = latest[:7] if latest and latest[8:10] < "28" else None
 mmax = max([v["count"] for _, v in months], default=1)
 
 # ── 圖表：來源 ──
@@ -162,6 +176,12 @@ footer{{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--grid);
   color:var(--muted);font-size:.8rem}}
 a{{color:var(--s1)}}
 svg text{{fill:var(--muted);font-size:11px}}
+.stale{{color:var(--ink);background:color-mix(in srgb,var(--warn) 22%,transparent);
+  border-radius:4px;padding:.05rem .35rem}}
+.partial{{color:var(--muted);font-size:.75rem}}
+.bar-partial{{background:repeating-linear-gradient(135deg,var(--s1) 0 4px,transparent 4px 7px)}}
+.dot-partial{{background:repeating-linear-gradient(135deg,var(--s1) 0 2px,transparent 2px 4px);
+  box-shadow:inset 0 0 0 1px var(--s1)}}
 </style></head><body><main>
 <h1>civictech.tw 運作狀況</h1>
 <p class="sub">每日 04:00 自動更新　·　產生於 {now:%Y-%m-%d %H:%M}（台灣時間）</p>
@@ -173,8 +193,15 @@ svg text{{fill:var(--muted);font-size:11px}}
 if sync is None:
     sync_col, sync_txt, sync_sub = "var(--muted)", "未知", "此頁非由排程主機產生"
 elif sync.get("last_status") == "ok":
-    sync_col, sync_txt = "var(--good)", "正常"
-    sync_sub = f"最後成功 {ago(sync.get('last_success'))}"
+    # 同步成功但有步驟被跳過或失敗（例如沒有 analytics token），不能只亮綠燈：
+    # 2026-09 到 10 月流量快照每天都被跳過，狀態檔有寫，頁面卻一直顯示「正常」。
+    issues = [s for s in (sync.get("last_message") or "").split("；")
+              if "跳過" in s or "失敗" in s]
+    if issues:
+        sync_col, sync_txt, sync_sub = "var(--warn)", "部分異常", "；".join(issues)
+    else:
+        sync_col, sync_txt = "var(--good)", "正常"
+        sync_sub = f"最後成功 {ago(sync.get('last_success'))}"
 else:
     sync_col, sync_txt = "var(--crit)", "異常"
     sync_sub = sync.get("last_message") or f"最後成功 {ago(sync.get('last_success'))}"
@@ -198,13 +225,18 @@ A("</div>")
 # ── 每月瀏覽 ──
 if months:
     A('<h2>每月瀏覽次數</h2>')
-    A(f'<p class="note">⚠️ Cloudflare Web Analytics 免費版為<strong>抽樣估計</strong>，數字一律是 10 的倍數——趨勢可信，精確度不可信。資料最早只到 {traffic["earliest_data"]}（更早的已過保留期）。</p>')
+    A(f'<p class="note">{as_of(latest, 7, "流量快照沒有在跑")}。Cloudflare Web Analytics 免費版為<strong>抽樣估計</strong>，數字一律是 10 的倍數——趨勢可信，精確度不可信。資料最早只到 {traffic["earliest_data"]}（更早的已過保留期）。</p>')
     A('<div class="card"><table>')
     for m, v in months:
         w = v["count"] / mmax * 100
-        A(f'<tr><td class="lbl">{m}</td><td><div class="track"><div class="bar" style="width:{w:.1f}%"></div></div></td>'
+        part = m == partial_month
+        lbl = f'{m}<span class="partial">（至 {latest[5:]}）</span>' if part else m
+        A(f'<tr><td class="lbl">{lbl}</td><td><div class="track"><div class="bar{" bar-partial" if part else ""}" style="width:{w:.1f}%"></div></div></td>'
           f'<td class="num">{v["count"]:,}</td></tr>')
-    A('</table><div class="legend"><span><span class="dot" style="background:var(--s1)"></span>瀏覽次數</span></div></div>')
+    A('</table><div class="legend"><span><span class="dot" style="background:var(--s1)"></span>瀏覽次數</span>')
+    if partial_month:
+        A('<span><span class="dot dot-partial"></span>當月未過完</span>')
+    A('</div></div>')
 
 # ── 來源 ──
 if top_refs:
@@ -221,7 +253,7 @@ if top_refs:
 A('<div class="cols">')
 if links:
     A('<div><h2>連結健檢</h2>')
-    A(f'<p class="note">{links["掃描日期"]}　純 HTTP 檢查，沒有用 AI。</p>')
+    A(f'<p class="note">{as_of(links["掃描日期"], 10, "每週健檢沒有讀到")}。每週一自動掃描，純 HTTP 檢查，沒有用 AI。</p>')
     A('<div class="card"><div class="stack">')
     tot_l = sum(link_counts.values()) or 1
     varmap = {"good":"var(--good)","warning":"var(--warn)","critical":"var(--crit)"}
