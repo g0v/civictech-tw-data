@@ -1,187 +1,86 @@
 {
-  "generated_at": "2026-10-24T20:00:32+00:00",
+  "generated_at": "2026-10-25T20:00:24+00:00",
   "host": "civictech.tw",
   "retention_note": "Cloudflare 免費版 RUM 資料約保留半年；本檔是為了讓資料過期後仍留得住。",
-  "oldest_queryable": "2026-04-27",
-  "earliest_data": "2026-06-09",
-  "latest_data": "2026-07-26",
-  "days_with_traffic": 32,
-  "total_pageviews": 840,
-  "total_visits": 840,
+  "oldest_queryable": "2026-04-28",
+  "earliest_data": "2026-06-10",
+  "latest_data": "2026-07-24",
+  "days_with_traffic": 8,
+  "total_pageviews": 900,
+  "total_visits": 900,
   "sites": {
     "b33b28572f6d4f899b766d715d41689e": {
-      "pageviews": 840,
-      "visits": 840,
-      "first_day": "2026-06-09",
-      "last_day": "2026-07-26",
-      "days_with_traffic": 32
+      "pageviews": 900,
+      "visits": 900,
+      "first_day": "2026-06-10",
+      "last_day": "2026-07-24",
+      "days_with_traffic": 8
     }
   },
   "by_month": {
     "2026-06": {
-      "count": 530,
-      "visits": 530,
-      "days": 17
+      "count": 600,
+      "visits": 600,
+      "days": 5
     },
     "2026-07": {
-      "count": 310,
-      "visits": 310,
-      "days": 15
+      "count": 300,
+      "visits": 300,
+      "days": 3
     }
   },
   "by_date": {
-    "2026-06-09": {
-      "count": 10,
-      "visits": 10
-    },
     "2026-06-10": {
-      "count": 20,
-      "visits": 20
-    },
-    "2026-06-11": {
-      "count": 10,
-      "visits": 10
-    },
-    "2026-06-13": {
-      "count": 20,
-      "visits": 20
-    },
-    "2026-06-14": {
-      "count": 20,
-      "visits": 20
+      "count": 100,
+      "visits": 100
     },
     "2026-06-15": {
-      "count": 40,
-      "visits": 40
-    },
-    "2026-06-16": {
-      "count": 20,
-      "visits": 20
-    },
-    "2026-06-17": {
-      "count": 60,
-      "visits": 60
-    },
-    "2026-06-18": {
-      "count": 60,
-      "visits": 60
-    },
-    "2026-06-22": {
-      "count": 30,
-      "visits": 30
-    },
-    "2026-06-23": {
-      "count": 10,
-      "visits": 10
-    },
-    "2026-06-24": {
-      "count": 30,
-      "visits": 30
+      "count": 100,
+      "visits": 100
     },
     "2026-06-25": {
-      "count": 60,
-      "visits": 60
+      "count": 200,
+      "visits": 200
     },
     "2026-06-26": {
-      "count": 10,
-      "visits": 10
-    },
-    "2026-06-27": {
-      "count": 10,
-      "visits": 10
-    },
-    "2026-06-28": {
-      "count": 30,
-      "visits": 30
+      "count": 100,
+      "visits": 100
     },
     "2026-06-29": {
-      "count": 90,
-      "visits": 90
+      "count": 100,
+      "visits": 100
     },
     "2026-07-02": {
-      "count": 30,
-      "visits": 30
-    },
-    "2026-07-03": {
-      "count": 30,
-      "visits": 30
-    },
-    "2026-07-04": {
-      "count": 40,
-      "visits": 40
+      "count": 100,
+      "visits": 100
     },
     "2026-07-08": {
-      "count": 20,
-      "visits": 20
-    },
-    "2026-07-12": {
-      "count": 10,
-      "visits": 10
-    },
-    "2026-07-13": {
-      "count": 10,
-      "visits": 10
-    },
-    "2026-07-14": {
-      "count": 10,
-      "visits": 10
-    },
-    "2026-07-15": {
-      "count": 10,
-      "visits": 10
-    },
-    "2026-07-18": {
-      "count": 20,
-      "visits": 20
-    },
-    "2026-07-21": {
-      "count": 30,
-      "visits": 30
-    },
-    "2026-07-22": {
-      "count": 10,
-      "visits": 10
-    },
-    "2026-07-23": {
-      "count": 20,
-      "visits": 20
+      "count": 100,
+      "visits": 100
     },
     "2026-07-24": {
-      "count": 30,
-      "visits": 30
-    },
-    "2026-07-25": {
-      "count": 20,
-      "visits": 20
-    },
-    "2026-07-26": {
-      "count": 20,
-      "visits": 20
+      "count": 100,
+      "visits": 100
     }
   },
   "dimensions_recent_180d": {
     "refererHost": {
-      "(無／直接進入)": 1420,
-      "civictech.tw": 430,
-      "www.google.com": 170,
-      "g0v.hackmd.io": 110,
-      "www.facebook.com": 80,
+      "(無／直接進入)": 1560,
+      "g0v.hackmd.io": 60,
+      "www.google.com": 50,
       "l.facebook.com": 50,
       "l.instagram.com": 30,
-      "g0v-jothon.kktix.cc": 20,
-      "m.facebook.com": 20,
-      "jothon.g0v.tw": 20,
       "gemini.google.com": 20,
       "facebook.com": 20,
       "lm.facebook.com": 20,
-      "chatgpt.com": 10,
-      "report.claire-cheng.com": 10,
-      "preview.aimonday.pages.dev": 10,
-      "www.google.com.tw": 10,
+      "g0v-jothon.kktix.cc": 10,
+      "www.facebook.com": 10,
+      "m.facebook.com": 10,
+      "jothon.g0v.tw": 10,
       "reurl.cc": 10
     },
     "countryName": {
-      "TW": 1990,
+      "TW": 2010,
       "US": 280,
       "CN": 40,
       "NO": 30,
@@ -196,13 +95,8 @@
       "SG": 10,
       "TH": 10
     },
-    "deviceType": {
-      "desktop": 1540,
-      "mobile": 480,
-      "tablet": 20
-    },
     "userAgentBrowser": {
-      "Chrome": 1430,
+      "Chrome": 1450,
       "ChromeMobile": 230,
       "MobileSafari": 170,
       "Unknown": 170,
@@ -215,7 +109,7 @@
       "Facebook": 10
     },
     "requestPath": {
-      "/": 2000,
+      "/": 2020,
       "/c/budget": 80,
       "/g": 40,
       "/p/cofacts": 30,
@@ -242,6 +136,11 @@
       "/p/twcompany": 10,
       "/c/law": 10,
       "/c/pollution": 10
+    },
+    "deviceType": {
+      "desktop": 560,
+      "mobile": 280,
+      "tablet": 20
     }
   }
 }
