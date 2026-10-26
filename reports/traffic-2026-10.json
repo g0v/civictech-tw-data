@@ -1,72 +1,173 @@
 {
-  "generated_at": "2026-10-25T20:00:24+00:00",
+  "generated_at": "2026-10-26T20:00:22+00:00",
   "host": "civictech.tw",
   "retention_note": "Cloudflare 免費版 RUM 資料約保留半年；本檔是為了讓資料過期後仍留得住。",
-  "oldest_queryable": "2026-04-28",
-  "earliest_data": "2026-06-10",
-  "latest_data": "2026-07-24",
-  "days_with_traffic": 8,
-  "total_pageviews": 900,
-  "total_visits": 900,
+  "oldest_queryable": "2026-04-29",
+  "earliest_data": "2026-06-09",
+  "latest_data": "2026-07-27",
+  "days_with_traffic": 33,
+  "total_pageviews": 860,
+  "total_visits": 860,
   "sites": {
     "b33b28572f6d4f899b766d715d41689e": {
-      "pageviews": 900,
-      "visits": 900,
-      "first_day": "2026-06-10",
-      "last_day": "2026-07-24",
-      "days_with_traffic": 8
+      "pageviews": 860,
+      "visits": 860,
+      "first_day": "2026-06-09",
+      "last_day": "2026-07-27",
+      "days_with_traffic": 33
     }
   },
   "by_month": {
     "2026-06": {
-      "count": 600,
-      "visits": 600,
-      "days": 5
+      "count": 530,
+      "visits": 530,
+      "days": 17
     },
     "2026-07": {
-      "count": 300,
-      "visits": 300,
-      "days": 3
+      "count": 330,
+      "visits": 330,
+      "days": 16
     }
   },
   "by_date": {
+    "2026-06-09": {
+      "count": 10,
+      "visits": 10
+    },
     "2026-06-10": {
-      "count": 100,
-      "visits": 100
+      "count": 20,
+      "visits": 20
+    },
+    "2026-06-11": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-06-13": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-06-14": {
+      "count": 20,
+      "visits": 20
     },
     "2026-06-15": {
-      "count": 100,
-      "visits": 100
+      "count": 40,
+      "visits": 40
+    },
+    "2026-06-16": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-06-17": {
+      "count": 60,
+      "visits": 60
+    },
+    "2026-06-18": {
+      "count": 60,
+      "visits": 60
+    },
+    "2026-06-22": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-06-23": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-06-24": {
+      "count": 30,
+      "visits": 30
     },
     "2026-06-25": {
-      "count": 200,
-      "visits": 200
+      "count": 60,
+      "visits": 60
     },
     "2026-06-26": {
-      "count": 100,
-      "visits": 100
+      "count": 10,
+      "visits": 10
+    },
+    "2026-06-27": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-06-28": {
+      "count": 30,
+      "visits": 30
     },
     "2026-06-29": {
-      "count": 100,
-      "visits": 100
+      "count": 90,
+      "visits": 90
     },
     "2026-07-02": {
-      "count": 100,
-      "visits": 100
+      "count": 30,
+      "visits": 30
+    },
+    "2026-07-03": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-07-04": {
+      "count": 40,
+      "visits": 40
     },
     "2026-07-08": {
-      "count": 100,
-      "visits": 100
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-12": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-13": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-14": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-15": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-18": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-21": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-07-22": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-07-23": {
+      "count": 20,
+      "visits": 20
     },
     "2026-07-24": {
-      "count": 100,
-      "visits": 100
+      "count": 30,
+      "visits": 30
+    },
+    "2026-07-25": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-26": {
+      "count": 20,
+      "visits": 20
+    },
+    "2026-07-27": {
+      "count": 20,
+      "visits": 20
     }
   },
   "dimensions_recent_180d": {
     "refererHost": {
-      "(無／直接進入)": 1560,
-      "g0v.hackmd.io": 60,
+      "(無／直接進入)": 1360,
+      "g0v.hackmd.io": 260,
+      "civictech.tw": 200,
       "www.google.com": 50,
       "l.facebook.com": 50,
       "l.instagram.com": 30,
@@ -79,53 +180,43 @@
       "jothon.g0v.tw": 10,
       "reurl.cc": 10
     },
-    "countryName": {
-      "TW": 2010,
-      "US": 280,
-      "CN": 40,
-      "NO": 30,
-      "BE": 20,
-      "KR": 20,
-      "IE": 10,
-      "MY": 10,
-      "ID": 10,
-      "DE": 10,
-      "EC": 10,
-      "SE": 10,
-      "SG": 10,
-      "TH": 10
+    "deviceType": {
+      "desktop": 1810,
+      "mobile": 650,
+      "tablet": 50
     },
     "userAgentBrowser": {
-      "Chrome": 1450,
-      "ChromeMobile": 230,
+      "Chrome": 1460,
+      "ChromeMobile": 240,
       "MobileSafari": 170,
       "Unknown": 170,
       "ChromeHeadless": 140,
       "ChromeMobileWebview": 110,
       "Firefox": 70,
-      "Safari": 60,
+      "Safari": 70,
       "Edge": 50,
       "ChromeDerivative": 20,
       "Facebook": 10
     },
     "requestPath": {
-      "/": 2020,
-      "/c/budget": 80,
+      "/": 2030,
+      "/c/budget": 90,
       "/g": 40,
       "/p/cofacts": 30,
-      "/c/ecology": 20,
+      "/p/%E5%85%A8%E7%90%83%E5%8B%95%E7%89%A9%E7%8F%BE%E5%A0%B4-animalia-live": 20,
       "/status": 20,
       "/p/%E8%BE%B2%E6%A5%AD%E7%81%BD%E6%90%8D%E5%B9%BE%E5%A4%9A%E9%8C%A2": 20,
       "/p/legislator-voting-guide": 20,
       "/c/local": 20,
       "/c/community": 20,
+      "/c/ecology": 20,
       "/p/twbudget": 20,
-      "/p/%E5%85%A8%E7%90%83%E5%8B%95%E7%89%A9%E7%8F%BE%E5%A0%B4-animalia-live": 20,
       "/g/regional-revitalization": 10,
       "/c/rights": 10,
-      "/p/talk-to-the-city-t3c": 10,
       "/g/ai-applications": 10,
+      "/p/talk-to-the-city-t3c": 10,
       "/p/%E8%A8%98%E8%80%85%E8%AD%89": 10,
+      "/p/taiwan-gods-hand-project": 10,
       "/p/%E9%A6%AC%E5%A4%AA%E9%9E%8D%E5%A0%B0%E5%A1%9E%E6%B9%96%E4%BA%8B%E4%BB%B6%E5%BE%8C%E7%9A%84%E5%B1%85%E4%BD%8F%E6%8A%89%E6%93%87": 10,
       "/c/health": 10,
       "/p/cofacts/edit": 10,
@@ -137,10 +228,12 @@
       "/c/law": 10,
       "/c/pollution": 10
     },
-    "deviceType": {
-      "desktop": 560,
-      "mobile": 280,
-      "tablet": 20
+    "countryName": {
+      "TW": 790,
+      "US": 30,
+      "CN": 20,
+      "SG": 10,
+      "TH": 10
     }
   }
 }
