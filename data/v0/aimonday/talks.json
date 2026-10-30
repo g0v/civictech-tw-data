@@ -616,12 +616,16 @@
       "open_slot": false,
       "duration_min": 30,
       "slides_url": null,
-      "video": null,
+      "video": {
+        "url": "https://www.youtube.com/watch?v=niQjKf35C8M",
+        "youtube_id": "niQjKf35C8M",
+        "start_sec": 0
+      },
       "keywords": [
         "地端模型"
       ],
-      "license": null,
-      "license_status": null
+      "license": "CC-BY",
+      "license_status": "confirmed"
     },
     {
       "id": "2026-10-05-ai-monday-2",
