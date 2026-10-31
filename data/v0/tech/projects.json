@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 230,
+  "recordCount": 233,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -3026,7 +3026,7 @@
         "標籤": [
           {
             "id": "rec1WnkgnlgORJwfF",
-            "name": "居住"
+            "name": "居住與租屋"
           }
         ]
       }
@@ -3170,7 +3170,7 @@
         "標籤": [
           {
             "id": "rec1WnkgnlgORJwfF",
-            "name": "居住"
+            "name": "居住與租屋"
           }
         ],
         "project name EN": "Rentea"
@@ -3852,7 +3852,7 @@
           }
         ],
         "AI insight": "做什麼：把艱深的藥品仿單轉成白話說明\n給誰、解決什麼：看不懂仿單的患者，以及要反覆解釋的醫療人員\n怎麼運作：透過 LINE 官方帳號原型查詢白話的仿單說明\n討論在哪裡：不明",
-        "Intro": "藥品仿單白話文運動\n\n解構艱深藥品仿單，幫助患者理解，減少民眾、醫療人員負擔。\n\nhttps://www.youtube.com/embed/CHQJHFXvpcw?si=QtPqBvZ_6MxUEWgX\n\n- 簡報：https://docs.google.com/presentation/d/1zVtEOZ9fHDqgpjTs8pPfOfxwIpFTlFm-EX3Ip3wFqJA/edit?usp=sharing\n- 網站：https://hackmd.io/@sugarcane/rkm2oqySbg\n- Prototype：https://lin.ee/ucbMS6N\n\nhttps://www.youtube.com/embed/CPFSBdO0SPs?si=_4JDTvftI7L6Agio\n\n- 介紹影片：https://youtu.be/CPFSBdO0SPs\n- 介紹簡報：https://www.canva.com/design/DAG1j0HkzAA/UY9A4kiWfqLKrKfMtasdoA/view\n- 技術架構說明影片：https://youtu.be/bYB8wKl11ho\n- 技術架構圖：https://drive.google.com/drive/folders/1q-RtLZNMcHSduox7JiUtUO38Lhjvdmyw?usp=sharing\n- g0v Slack #medicineeasy",
+        "Intro": "藥品仿單白話文運動\n\n解構艱深藥品仿單，幫助患者理解，減少民眾、醫療人員負擔。\n\nhttps://www.youtube.com/embed/CHQJHFXvpcw?si=QtPqBvZ_6MxUEWgX\n\n- 簡報：https://docs.google.com/presentation/d/1zVtEOZ9fHDqgpjTs8pPfOfxwIpFTlFm-EX3Ip3wFqJA/edit?usp=sharing\n- 網站：https://hackmd.io/@medplain/rkm2oqySbg/%2FPkLH0KGvToOP-2-YAYYQMA\n- Prototype：https://lin.ee/ucbMS6N\n\nhttps://www.youtube.com/embed/CPFSBdO0SPs?si=_4JDTvftI7L6Agio\n\n- 介紹影片：https://youtu.be/CPFSBdO0SPs\n- 介紹簡報：https://www.canva.com/design/DAG1j0HkzAA/UY9A4kiWfqLKrKfMtasdoA/view\n- 技術架構說明影片：https://youtu.be/bYB8wKl11ho\n- 技術架構圖：https://drive.google.com/drive/folders/1q-RtLZNMcHSduox7JiUtUO38Lhjvdmyw?usp=sharing\n- g0v Slack #medicineeasy",
         "AI insight generated": "2026-10-23",
         "project name": "藥品仿單白話文運動",
         "標籤": [
@@ -4315,7 +4315,7 @@
         "標籤": [
           {
             "id": "rec1WnkgnlgORJwfF",
-            "name": "居住"
+            "name": "居住與租屋"
           }
         ],
         "Website URL": "https://rentalhouse.g0v.ddio.io/"
@@ -5091,7 +5091,7 @@
           },
           {
             "id": "rec1WnkgnlgORJwfF",
-            "name": "居住"
+            "name": "居住與租屋"
           },
           {
             "id": "reccfTvsPvkXCFDpx",
@@ -5205,6 +5205,31 @@
           }
         ],
         "Website URL": "https://app.uniway-tw.com/#home"
+      }
+    },
+    {
+      "id": "recGu6sS4t2JYIWYt",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "Intro": "我們把每份台灣政府公開資料整理好、附上 AI 說明書，涵蓋政治、經濟到社會大小事——你不用讀（我們也知道沒人會讀）。你只要讓 Claude、Codex 或任何 AI Agent 認識歐噴資料庫，它就會變得更聰明、更好用。",
+        "project name": "歐噴資料庫— 讓AI 讀懂台灣",
+        "標籤": [
+          {
+            "id": "recE2TLn2FLLZONHR",
+            "name": "opendata"
+          },
+          {
+            "id": "recTbQPHaofbg5KxI",
+            "name": "AI"
+          }
+        ],
+        "Website URL": "https://data.openfun.tw/"
       }
     },
     {
@@ -5403,6 +5428,68 @@
       }
     },
     {
+      "id": "recQsV1Uri0LqmhZ9",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          },
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "如果你正一個人照顧孩子，遇到生活費、租屋、托育或扶養費的問題，有時第一個卡住的不是要不要申請，而是：「我該先問誰？」我整理了「有個方向｜單親家庭權益快速導覽」，把相關權益和官方窗口放在一起，想找資源時，可以先從眼前最需要處理的一件事開始。免費、不用登入，也不用輸入個人資料或上傳證件。選縣市可以略過；不確定也沒關係，先看看有哪些官方窗口，再向承辦單位確認。目前整理的是中央制度和部分新北窗口，不是全臺完整清單。這個工具只幫忙找方向，不代辦，也不能判定是否符合資格；實際條件仍由承辦單位依個案確認。若想先問福利資訊，也可以打 1957 福利諮詢專線（每日 08:00–22:00）。希望它能讓正在找資料的人少花一點力氣。\nhttps://www.threads.com/share/GcscuzWDo/",
+        "project name": "有個方向｜單親家庭權益快速導覽",
+        "標籤": [
+          {
+            "id": "recKhdDtxpN7LRpyY",
+            "name": "各項資訊彙整提供給使用者"
+          },
+          {
+            "id": "rec1WnkgnlgORJwfF",
+            "name": "居住與租屋"
+          },
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          },
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "小幫手"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recQvte3PddkyyOQ5",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "在 108 課綱的迷霧中，為你點亮一盞燈。我們知道你的迷惘與焦慮。這個網站，由一群走過這條路的學長姐打造，匯集了所有你需要的方法、資源與靈感，陪你走好高中這段探索之旅。",
+        "project name": "高中生 108 課綱教育資源整合平台",
+        "github": "https://github.com/thc1006/sch001-108platform",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          },
+          {
+            "id": "recKhdDtxpN7LRpyY",
+            "name": "各項資訊彙整提供給使用者"
+          }
+        ],
+        "Website URL": "https://thc1006.github.io/sch001-108platform/"
+      }
+    },
+    {
       "id": "recRfZfzF5pRiccvJ",
       "createdTime": "2026-05-02T21:00:05.000Z",
       "fields": {
@@ -5568,7 +5655,7 @@
             "name": "社會福利 / 社福"
           }
         ],
-        "Website URL": "https://silly-maamoul-6285fe.netlify.app/"
+        "Website URL": "https://buzhu-haozhao.pages.dev/"
       }
     },
     {
@@ -5586,6 +5673,7 @@
         "Intro": "https://www.facebook.com/share/19KXvUftfd/",
         "AI insight generated": "2026-10-19",
         "project name": "查無此人_幫照片人物加上動物頭像",
+        "github": "https://github.com/ddio/no-such-person",
         "標籤": [
           {
             "id": "recoq9E6bzdnOrPK9",

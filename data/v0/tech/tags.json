@@ -46,6 +46,10 @@
           {
             "id": "recuhv82aQaUq3O5m",
             "name": "Taiwan.md"
+          },
+          {
+            "id": "recGu6sS4t2JYIWYt",
+            "name": "歐噴資料庫— 讓AI 讀懂台灣"
           }
         ],
         "tag": "opendata",
@@ -700,6 +704,14 @@
           {
             "id": "recKFzMEpti6Rld1T",
             "name": "輔導室：今天也不能倒下"
+          },
+          {
+            "id": "recQsV1Uri0LqmhZ9",
+            "name": "有個方向｜單親家庭權益快速導覽"
+          },
+          {
+            "id": "recQvte3PddkyyOQ5",
+            "name": "高中生 108 課綱教育資源整合平台"
           }
         ],
         "tag": "教育"
@@ -866,9 +878,13 @@
           {
             "id": "receGir7uvqkGVgwb",
             "name": "我想搬出去！一頁寫清楚，搬家公司最想知道的全部"
+          },
+          {
+            "id": "recQsV1Uri0LqmhZ9",
+            "name": "有個方向｜單親家庭權益快速導覽"
           }
         ],
-        "tag": "居住"
+        "tag": "居住與租屋"
       }
     },
     {
@@ -936,6 +952,10 @@
           {
             "id": "receGir7uvqkGVgwb",
             "name": "我想搬出去！一頁寫清楚，搬家公司最想知道的全部"
+          },
+          {
+            "id": "recQsV1Uri0LqmhZ9",
+            "name": "有個方向｜單親家庭權益快速導覽"
           }
         ],
         "tag": "小幫手"
@@ -1235,6 +1255,14 @@
           {
             "id": "recTKyLptDlURfiHA",
             "name": "青年創業，政府有哪些資源？"
+          },
+          {
+            "id": "recQsV1Uri0LqmhZ9",
+            "name": "有個方向｜單親家庭權益快速導覽"
+          },
+          {
+            "id": "recQvte3PddkyyOQ5",
+            "name": "高中生 108 課綱教育資源整合平台"
           }
         ],
         "tag": "各項資訊彙整提供給使用者"
@@ -1392,6 +1420,10 @@
           {
             "id": "recwEGNZO8bmsejiQ",
             "name": "Kami：一個有界限、在地、私密的仁工智慧守護者"
+          },
+          {
+            "id": "recGu6sS4t2JYIWYt",
+            "name": "歐噴資料庫— 讓AI 讀懂台灣"
           }
         ],
         "tag": "AI"
