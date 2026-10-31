@@ -1,0 +1,21 @@
+# 許願池：提案通過、取消通過、關閉、改內文時，讓 civictech.tw 重新部署。
+#
+# civictech.tw 的 /w 與 /w/[編號] 是 build 時從這個 repo 的 issue 產生的，
+# 所以 wish-approved 這個標籤一有變動，網站就要重新 build 一次才會跟上。
+# CIVICTECH_DEPLOY_HOOK 是 Cloudflare Pages（civictech-tw 專案、master 分支）的 deploy hook 網址。
+name: wish-deploy
+
+on:
+  issues:
+    types: [labeled, unlabeled, edited, closed, reopened, deleted]
+
+jobs:
+  deploy:
+    # 貼上或拿掉的正是 wish-approved，或這張 issue 本來就帶著它（改內文、關閉、刪除）
+    if: github.event.label.name == 'wish-approved' || contains(github.event.issue.labels.*.name, 'wish-approved')
+    runs-on: ubuntu-latest
+    steps:
+      - name: 觸發 civictech.tw 重新部署
+        run: curl -fsS -X POST "$HOOK" > /dev/null
+        env:
+          HOOK: ${{ secrets.CIVICTECH_DEPLOY_HOOK }}
