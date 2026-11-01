@@ -13,7 +13,7 @@ civictech.tw 流量快照 —— 從 Cloudflare Web Analytics 抓下來，存成
      問出這個帳號底下有哪些站台在出資料。
   2. 同一個網域可能有**多個 siteTag 接力**（civictech.tw 就有兩個：
      b33b2857 收到 2026-08-27，ed3980ea 從 08-22 開始）。
-     重疊區間合併時會重複計算，所以本腳本以「日期+站台」為鍵去重後再加總。
+     兩個站台各自計數、不會重複，按「日期+站台」分開記再加總。
 
 API 限制：單次查詢跨度最多 93 天；更早的資料會回 "cannot request data older than"。
 所以往回一段一段走，撞到保留邊界就停。
@@ -21,7 +21,7 @@ API 限制：單次查詢跨度最多 93 天；更早的資料會回 "cannot req
 用法：
   CLOUDFLARE_ANALYTICS_TOKEN=... python3 scripts/traffic-report.py [--out-dir reports]
 """
-import argparse, json, os, sys, urllib.request
+import argparse, glob, json, os, sys, urllib.request
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
@@ -70,6 +70,7 @@ def main():
     dims = defaultdict(lambda: defaultdict(int))
     oldest_ok = None
     chunks = 0
+    windows = []          # 每一段實際查到的 (起, 迄) 日期，對帳用
 
     for i in range(MAX_CHUNKS):
         end = now - timedelta(days=CHUNK_DAYS * i)
@@ -84,13 +85,17 @@ def main():
         got = 0
         for r in rows:
             d = r["dimensions"]
-            if d.get("requestHost") and HOST not in d["requestHost"]:
+            # 完全相等才算：用「包含」會把 data.civictech.tw 的瀏覽也算進主站
+            if d.get("requestHost") and d["requestHost"] != HOST:
                 continue
             key = (d["date"], d["siteTag"])
-            if key not in daily:                     # 重疊區間去重
-                daily[key] = {"count": r["count"], "visits": r["sum"]["visits"]}
+            # 兩段在同一個時間點交接、不重疊，所以交界日是兩個半天，要相加
+            if key not in daily:
+                daily[key] = {"count": 0, "visits": 0}
                 got += 1
+            daily[key]["count"] += r["count"]; daily[key]["visits"] += r["sum"]["visits"]
         oldest_ok = start.date().isoformat()
+        windows.append((start.date().isoformat(), end.date().isoformat()))
         print(f"  {start.date()} ~ {end.date()}：{len(rows)} 列，新增 {got} 天", file=sys.stderr)
         # 維度統計只取最近兩段（更早的維度價值低、查詢也慢）
         if i < 2:
@@ -112,6 +117,33 @@ def main():
     for (date, tag), v in daily.items():
         by_date[date]["count"] += v["count"]; by_date[date]["visits"] += v["visits"]
         s = by_site[tag]; s["count"] += v["count"]; s["visits"] += v["visits"]; s["days"].append(date)
+
+    # ── 跟上一份快照對帳，再合併 ──
+    # 2026-10-25 起，凌晨的自動執行有時只拿回極少的列（一次只剩「10/23 一萬次」，
+    # 一次 8 月後全空），手動重跑卻是完整的。腳本照單全收、覆蓋掉好的那份，
+    # /status 就退回「資料截至 7/31」，而且沒有任何地方出聲。所以：
+    #   1. 這次拿到的天數，比上一份在同一段期間少一半以上 → 判定為殘缺，不寫檔、以失敗結束
+    #   2. 上一份有、這次沒有的日子（例如已過 Cloudflare 保留期）→ 沿用上一份
+    prev_path = max(glob.glob(os.path.join(args.out_dir, "traffic-*.json")), default=None)
+    prev = {}
+    if prev_path:
+        with open(prev_path, encoding="utf-8") as f:
+            prev = json.load(f).get("by_date", {})
+    # 一段一段比：殘缺通常只出在其中一段，整段平均會把它蓋過去
+    for ws, we in windows:
+        p_days = [d for d in prev if ws <= d < we]
+        n_days = [d for d in by_date if ws <= d < we]
+        if len(p_days) >= 10 and len(n_days) < len(p_days) / 2:
+            sys.exit(f"{ws} ~ {we} 這次只拿到 {len(n_days)} 天，上一份（{os.path.basename(prev_path)}）"
+                     f"同期間有 {len(p_days)} 天，判定為殘缺，不覆蓋")
+    kept = 0
+    for date, v in prev.items():
+        if date not in by_date:
+            by_date[date] = {"count": v["count"], "visits": v["visits"]}
+            kept += 1
+    if kept:
+        print(f"  沿用上一份快照的 {kept} 天", file=sys.stderr)
+
     by_month = defaultdict(lambda: {"count": 0, "visits": 0, "days": 0})
     for date, v in by_date.items():
         m = by_month[date[:7]]; m["count"] += v["count"]; m["visits"] += v["visits"]; m["days"] += 1
