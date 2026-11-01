@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T14:32:59+00:00",
+  "generated_at": "2026-11-01T20:02:18+00:00",
   "host": "civictech.tw",
   "retention_note": "Cloudflare 免費版 RUM 資料約保留半年；本檔是為了讓資料過期後仍留得住。",
   "oldest_queryable": "2026-05-05",
   "earliest_data": "2026-06-09",
   "latest_data": "2026-11-01",
   "days_with_traffic": 98,
-  "total_pageviews": 2660,
-  "total_visits": 2080,
+  "total_pageviews": 2670,
+  "total_visits": 2090,
   "sites": {
     "b33b28572f6d4f899b766d715d41689e": {
       "pageviews": 1150,
@@ -17,8 +17,8 @@
       "days_with_traffic": 55
     },
     "ed3980eafa224201807b702455184599": {
-      "pageviews": 1510,
-      "visits": 930,
+      "pageviews": 1520,
+      "visits": 940,
       "first_day": "2026-08-22",
       "last_day": "2026-11-01",
       "days_with_traffic": 44
@@ -51,8 +51,8 @@
       "days": 23
     },
     "2026-11": {
-      "count": 40,
-      "visits": 0,
+      "count": 50,
+      "visits": 10,
       "days": 1
     }
   },
@@ -446,13 +446,13 @@
       "visits": 20
     },
     "2026-11-01": {
-      "count": 40,
-      "visits": 0
+      "count": 50,
+      "visits": 10
     }
   },
   "dimensions_recent_180d": {
     "refererHost": {
-      "(無／直接進入)": 1490,
+      "(無／直接進入)": 1500,
       "civictech.tw": 580,
       "www.google.com": 200,
       "g0v.hackmd.io": 110,
@@ -473,7 +473,7 @@
       "reurl.cc": 10
     },
     "countryName": {
-      "TW": 2200,
+      "TW": 2210,
       "US": 320,
       "CN": 40,
       "NO": 30,
@@ -491,14 +491,14 @@
     },
     "deviceType": {
       "desktop": 1970,
-      "mobile": 700,
+      "mobile": 710,
       "tablet": 50
     },
     "userAgentBrowser": {
       "Chrome": 1550,
       "ChromeMobile": 270,
       "MobileSafari": 190,
-      "Unknown": 170,
+      "Unknown": 180,
       "ChromeHeadless": 140,
       "Safari": 130,
       "ChromeMobileWebview": 110,
@@ -508,7 +508,7 @@
       "Facebook": 10
     },
     "requestPath": {
-      "/": 2110,
+      "/": 2120,
       "/c/budget": 90,
       "/g": 50,
       "/p/cofacts": 30,
