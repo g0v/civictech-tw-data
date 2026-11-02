@@ -668,12 +668,12 @@
         }
       ],
       "open_slot": false,
-      "duration_min": null,
-      "slides_url": null,
+      "duration_min": 20,
+      "slides_url": "https://docs.google.com/presentation/d/1n0ZGY4gHX0SZAULvRM1lejSMntlokk7HVect6zWCksQ/edit?slide=id.g3790eff3c71_0_75#slide=id.g3790eff3c71_0_75",
       "video": null,
       "keywords": [],
-      "license": null,
-      "license_status": "pending"
+      "license": "CC-BY",
+      "license_status": "confirmed"
     },
     {
       "id": "2026-11-02-ai-monday-2",
