@@ -90,12 +90,14 @@ if unknown_status:
 
 now = datetime.now(TW)
 def ago(iso_s):
+    """回傳 HTML。這一頁是靜態的，「幾小時前」若在產生時算好寫死，
+    而頁面又總在同步成功後立刻產生，就永遠是「0 小時前」；同步停掉時舊頁照掛，
+    還是「0 小時前」。所以 HTML 只寫絕對時間，相對時間交給瀏覽器在打開時算。"""
     if not iso_s: return "—"
     try: t = datetime.fromisoformat(iso_s)
-    except Exception: return iso_s
+    except Exception: return esc(iso_s)
     if t.tzinfo is None: t = t.replace(tzinfo=timezone.utc)
-    h = (datetime.now(timezone.utc) - t).total_seconds() / 3600
-    return f"{h:.0f} 小時前" if h < 48 else f"{h/24:.0f} 天前"
+    return f'<time class="ago" datetime="{t.isoformat()}">{t.astimezone(TW):%m-%d %H:%M}</time>'
 
 def days_old(date_s):
     try: return (now.date() - datetime.fromisoformat(date_s[:10]).date()).days
@@ -247,32 +249,32 @@ svg text{{fill:var(--ink-muted);font-size:11px}}
 <button id="theme-toggle" class="icon-btn theme-toggle" type="button" aria-label="切換淺色／深色模式"><svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button></nav></div></header>
 <main>
 <h1>civictech.tw 運作狀況</h1>
-<p class="sub">每日 04:00 自動更新　·　產生於 {now:%Y-%m-%d %H:%M}（台灣時間）</p>
+<p class="sub">每日 04:00 自動更新　·　產生於 <time id="generated" datetime="{now.isoformat(timespec='seconds')}">{now:%Y-%m-%d %H:%M}</time>（台灣時間）</p>
 """)
 
 # ── 狀態磚 ──
 # 「不知道」不等於「壞掉」。狀態檔只有 VPS 上有，在別處產生這一頁時讀不到——
 # 那時畫成紅色是假警報，而假警報會訓練人忽略真警報。
 if sync is None:
-    sync_col, sync_txt, sync_sub = "var(--ink-muted)", "未知", "此頁非由排程主機產生"
+    sync_col, sync_txt, sync_sub = "var(--ink-muted)", "未知", esc("此頁非由排程主機產生")
 elif sync.get("last_status") == "ok":
     # 同步成功但有步驟被跳過或失敗（例如沒有 analytics token），不能只亮綠燈：
     # 2026-09 到 10 月流量快照每天都被跳過，狀態檔有寫，頁面卻一直顯示「正常」。
     issues = [s for s in (sync.get("last_message") or "").split("；")
               if "跳過" in s or "失敗" in s]
     if issues:
-        sync_col, sync_txt, sync_sub = "var(--warn)", "部分異常", "；".join(issues)
+        sync_col, sync_txt, sync_sub = "var(--warn)", "部分異常", esc("；".join(issues))
     else:
         sync_col, sync_txt = "var(--good)", "正常"
         sync_sub = f"最後成功 {ago(sync.get('last_success'))}"
 else:
     sync_col, sync_txt = "var(--crit)", "異常"
-    sync_sub = sync.get("last_message") or f"最後成功 {ago(sync.get('last_success'))}"
+    sync_sub = esc(sync.get("last_message")) if sync.get("last_message") else f"最後成功 {ago(sync.get('last_success'))}"
 dead_n = link_counts["死掉"] + link_counts["連不上"]
 A('<div class="tiles">')
 A(f"""<div class="card tile"><div class="k">每日同步</div>
 <div class="v pill"><span class="dot" style="background:{sync_col}"></span>{sync_txt}</div>
-<div class="m">{esc(sync_sub)}</div></div>""")
+<div class="m">{sync_sub}</div></div>""")
 A(f"""<div class="card tile"><div class="k">公民科技專案</div><div class="v">{total_proj}</div>
 <div class="m">另有公民科學計畫 {next((t['recordCount'] for d in index['datasets'] for t in d['tables'] if t['slug']=='programs'), '—')} 筆</div></div>""")
 if traffic:
@@ -288,7 +290,7 @@ A("</div>")
 # ── 每月瀏覽 ──
 if months:
     A('<h2>每月瀏覽次數</h2>')
-    A(f'<p class="note">{as_of(latest, 7, "流量快照沒有在跑")}。Cloudflare Web Analytics 免費版為<strong>抽樣估計</strong>，數字一律是 10 的倍數——趨勢可信，精確度不可信。資料最早只到 {traffic["earliest_data"]}（更早的已過保留期）。</p>')
+    A(f'<p class="note">{as_of(latest, 7, "流量快照沒有在跑")}。Cloudflare Web Analytics 免費版為<strong>抽樣估計</strong>，數字一律是 10 的倍數——趨勢可信，精確度不可信。日期是 Cloudflare 給的 UTC 日期，台灣時間早上 8 點才換日。資料最早只到 {traffic["earliest_data"]}（更早的已過保留期）。</p>')
     A('<div class="card"><table>')
     for m, v in months:
         w = v["count"] / mmax * 100
@@ -348,6 +350,25 @@ A(f"""<footer>
 API 在 <a href="/">data.civictech.tw</a>　·　<a href="https://civictech.tw">civictech.tw</a>
 </footer></main>
 <script>
+  // 相對時間在打開頁面時才算（理由見 build-status.py 的 ago()）
+  (function () {{
+    function rel(t) {{
+      var h = (Date.now() - Date.parse(t)) / 36e5;
+      if (isNaN(h)) return null;
+      return h < 1 ? "不到 1 小時前" : h < 48 ? Math.round(h) + " 小時前" : Math.round(h / 24) + " 天前";
+    }}
+    document.querySelectorAll("time.ago").forEach(function (el) {{
+      var r = rel(el.dateTime);
+      if (r) {{ el.title = el.textContent; el.textContent = r; }}
+    }});
+    // 這一頁本身超過 30 小時沒重產＝每日同步停了；頁面上其他數字都不能信
+    var g = document.getElementById("generated"), h = (Date.now() - Date.parse(g.dateTime)) / 36e5;
+    if (h > 30) {{
+      var p = document.createElement("p");
+      p.className = "note"; p.innerHTML = '<span class="stale">⚠️ 這一頁是 ' + rel(g.dateTime) + "產生的，每日同步可能停了，以下數字可能是舊的。</span>";
+      g.parentNode.insertAdjacentElement("afterend", p);
+    }}
+  }})();
   // 圖示顯示「按下去會變成什麼」：淺色時是月亮、深色時是太陽
   (function () {{
     var btn = document.getElementById("theme-toggle"), root = document.documentElement;
