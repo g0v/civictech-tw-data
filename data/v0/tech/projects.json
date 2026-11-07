@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 233,
+  "recordCount": 234,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -3122,6 +3122,12 @@
         "Intro": "大河小溪全民齊督工地圖平台，於 2019 年獲得 g0v 零時政府的公民科技創新獎助金，試圖透過公民科技降低公私部門之間的資訊落差，並將溪流整治工程相關部門的公開資訊視覺化。這個開源平台讓竹圍工作室長久以來對於環境的關注，有機會進一步對社會機制面造成影響，架構屬於台灣的河川情報系統，並拋出一個公民參與的另類想像。我們期望透過這個平台，建構以下可能：(1) 組織與社群的資訊網絡、(2) 河川系統與野溪情報網、(3) 公私部門資訊合作管道。",
         "AI insight generated": "2026-10-23",
         "project name": "大河小溪全民齊督工",
+        "標籤": [
+          {
+            "id": "recz3FjjI8Jgkk8c8",
+            "name": "溪流 / 河川 / 水環境"
+          }
+        ],
         "Website URL": "https://river-watcher.bambooculture.tw/"
       }
     },
@@ -5368,6 +5374,35 @@
           }
         ],
         "Website URL": "https://animalia-live.vercel.app"
+      }
+    },
+    {
+      "id": "recQ6KWDyUyKTc1xc",
+      "createdTime": "2026-05-02T21:00:05.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          },
+          {
+            "id": "recA06noUkZx5JfI9",
+            "name": "15-SDGS-陸域生態"
+          }
+        ],
+        "Intro": "利用內政部 20m DTM 數值高程模型，快速推估任意出水口的上游集水區面積，免去紙本數格子的不便。同時整合鄰近水位站、雨量站、流量站及地質敏感區資訊，是溪流戶外活動風險評估的利器。",
+        "project name": "集水區觀察員_地表逕流累積集水面積與水文風險評估工具",
+        "標籤": [
+          {
+            "id": "recuiTib4bRLqPcWH",
+            "name": "地圖 GIS"
+          },
+          {
+            "id": "recz3FjjI8Jgkk8c8",
+            "name": "溪流 / 河川 / 水環境"
+          }
+        ],
+        "Website URL": "https://twwlab.com/acctw/"
       }
     },
     {
