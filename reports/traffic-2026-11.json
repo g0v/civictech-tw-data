@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T20:02:18+00:00",
+  "generated_at": "2026-11-15T20:02:10+00:00",
   "host": "civictech.tw",
   "retention_note": "Cloudflare 免費版 RUM 資料約保留半年；本檔是為了讓資料過期後仍留得住。",
-  "oldest_queryable": "2026-05-05",
+  "oldest_queryable": "2026-05-19",
   "earliest_data": "2026-06-09",
-  "latest_data": "2026-11-01",
-  "days_with_traffic": 98,
-  "total_pageviews": 2670,
-  "total_visits": 2090,
+  "latest_data": "2026-11-15",
+  "days_with_traffic": 111,
+  "total_pageviews": 3170,
+  "total_visits": 2330,
   "sites": {
     "b33b28572f6d4f899b766d715d41689e": {
       "pageviews": 1150,
@@ -17,11 +17,11 @@
       "days_with_traffic": 55
     },
     "ed3980eafa224201807b702455184599": {
-      "pageviews": 1520,
-      "visits": 940,
+      "pageviews": 2020,
+      "visits": 1180,
       "first_day": "2026-08-22",
-      "last_day": "2026-11-01",
-      "days_with_traffic": 44
+      "last_day": "2026-11-15",
+      "days_with_traffic": 57
     }
   },
   "by_month": {
@@ -51,9 +51,9 @@
       "days": 23
     },
     "2026-11": {
-      "count": 50,
-      "visits": 10,
-      "days": 1
+      "count": 550,
+      "visits": 250,
+      "days": 14
     }
   },
   "by_date": {
@@ -448,18 +448,70 @@
     "2026-11-01": {
       "count": 50,
       "visits": 10
+    },
+    "2026-11-02": {
+      "count": 50,
+      "visits": 30
+    },
+    "2026-11-03": {
+      "count": 120,
+      "visits": 30
+    },
+    "2026-11-04": {
+      "count": 60,
+      "visits": 30
+    },
+    "2026-11-05": {
+      "count": 40,
+      "visits": 10
+    },
+    "2026-11-06": {
+      "count": 20,
+      "visits": 10
+    },
+    "2026-11-07": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-11-08": {
+      "count": 60,
+      "visits": 10
+    },
+    "2026-11-09": {
+      "count": 40,
+      "visits": 30
+    },
+    "2026-11-10": {
+      "count": 30,
+      "visits": 30
+    },
+    "2026-11-12": {
+      "count": 30,
+      "visits": 10
+    },
+    "2026-11-13": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-11-14": {
+      "count": 10,
+      "visits": 10
+    },
+    "2026-11-15": {
+      "count": 20,
+      "visits": 20
     }
   },
   "dimensions_recent_180d": {
     "refererHost": {
-      "(無／直接進入)": 1500,
-      "civictech.tw": 580,
-      "www.google.com": 200,
-      "g0v.hackmd.io": 110,
-      "www.facebook.com": 80,
-      "l.facebook.com": 50,
+      "(無／直接進入)": 1620,
+      "civictech.tw": 840,
+      "www.google.com": 300,
+      "g0v.hackmd.io": 120,
+      "www.facebook.com": 90,
+      "l.facebook.com": 60,
+      "g0v-jothon.kktix.cc": 30,
       "l.instagram.com": 30,
-      "g0v-jothon.kktix.cc": 20,
       "m.facebook.com": 20,
       "jothon.g0v.tw": 20,
       "gemini.google.com": 20,
@@ -467,84 +519,102 @@
       "lm.facebook.com": 20,
       "vocus.cc": 10,
       "chatgpt.com": 10,
+      "com.google.android.googlequicksearchbox": 10,
       "report.claire-cheng.com": 10,
       "preview.aimonday.pages.dev": 10,
+      "civictech-guide.claire-cheng.com": 10,
       "www.google.com.tw": 10,
       "reurl.cc": 10
     },
     "countryName": {
-      "TW": 2210,
-      "US": 320,
+      "TW": 2660,
+      "US": 390,
       "CN": 40,
       "NO": 30,
+      "KR": 30,
+      "DE": 20,
       "BE": 20,
-      "KR": 20,
       "IE": 10,
       "MY": 10,
       "ID": 10,
       "AU": 10,
-      "DE": 10,
       "EC": 10,
       "SE": 10,
       "SG": 10,
       "TH": 10
     },
     "deviceType": {
-      "desktop": 1970,
-      "mobile": 710,
-      "tablet": 50
+      "desktop": 2370,
+      "mobile": 830,
+      "tablet": 70
     },
     "userAgentBrowser": {
-      "Chrome": 1550,
-      "ChromeMobile": 270,
-      "MobileSafari": 190,
-      "Unknown": 180,
+      "Chrome": 1940,
+      "ChromeMobile": 350,
+      "MobileSafari": 210,
+      "Unknown": 200,
       "ChromeHeadless": 140,
-      "Safari": 130,
+      "Safari": 140,
       "ChromeMobileWebview": 110,
       "Firefox": 80,
-      "Edge": 50,
+      "Edge": 60,
       "ChromeDerivative": 20,
-      "Facebook": 10
+      "Facebook": 20
     },
     "requestPath": {
-      "/": 2120,
+      "/": 2310,
       "/c/budget": 90,
-      "/g": 50,
+      "/w": 80,
+      "/g": 60,
+      "/data": 40,
+      "/c/local": 30,
       "/p/cofacts": 30,
+      "/c/ecology": 30,
+      "/g/ai-applications": 30,
       "/c/community": 30,
-      "/p/twbudget": 20,
+      "/p/twbudget": 30,
+      "/p/tw-budget-platform": 20,
+      "/p/%E7%AB%8B%E6%B3%95%E9%99%A2%E5%9C%8B%E6%9C%83%E9%A0%BB%E9%81%93ai%E5%8D%B3%E6%99%82%E8%BD%89%E6%8F%9B%E9%80%90%E5%AD%97%E7%A8%BF-legislatureai": 20,
+      "/w/14": 20,
       "/status": 20,
       "/p/%E8%BE%B2%E6%A5%AD%E7%81%BD%E6%90%8D%E5%B9%BE%E5%A4%9A%E9%8C%A2": 20,
+      "/c/facts": 20,
+      "/p/sunnyjudge": 20,
       "/p/legislator-voting-guide": 20,
-      "/data": 20,
-      "/c/local": 20,
-      "/g/ai-applications": 20,
-      "/c/ecology": 20,
       "/p/%E5%85%A8%E7%90%83%E5%8B%95%E7%89%A9%E7%8F%BE%E5%A0%B4-animalia-live": 20,
+      "/p/%E7%97%85%E5%BE%8C%E4%BA%BA%E7%94%9F-%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8B%99%E7%B6%B2": 10,
+      "/w/10": 10,
       "/p/talk-to-the-city-t3c": 10,
-      "/p/%E5%85%AC%E5%8B%99%E4%BA%BA%E5%93%A1%E5%87%BA%E5%9C%8B%E8%80%83%E5%AF%9F%E7%B6%B2": 10,
+      "/c/housing": 10,
       "/c/rights": 10,
-      "/g/regional-revitalization": 10,
-      "/p/libot": 10,
-      "/p/%E8%A8%98%E8%80%85%E8%AD%89": 10,
-      "/p/taiwan-gods-hand-project": 10,
       "/p/%E9%A6%AC%E5%A4%AA%E9%9E%8D%E5%A0%B0%E5%A1%9E%E6%B9%96%E4%BA%8B%E4%BB%B6%E5%BE%8C%E7%9A%84%E5%B1%85%E4%BD%8F%E6%8A%89%E6%93%87": 10,
+      "/v0/aimonday/events.json": 10,
+      "/p/%E5%85%AC%E5%8B%99%E4%BA%BA%E5%93%A1%E5%87%BA%E5%9C%8B%E8%80%83%E5%AF%9F%E7%B6%B2": 10,
+      "/p/%E6%B3%95%E5%BE%8B%E5%81%B5%E6%8E%A2-%E5%85%8D%E8%B2%BB-ai-%E6%B3%95%E5%BE%8B%E8%AB%AE%E8%A9%A2": 10,
+      "/p/libot": 10,
+      "/p/goodjob": 10,
       "/p/lee-su-threads-automatically-displays-location-i": 10,
       "/p/tw-shift-schedule": 10,
-      "/c/health": 10,
+      "/p/pcc-g0v-ronny-tw": 10,
+      "/p/%E8%A8%98%E8%80%85%E8%AD%89": 10,
       "/p/cofacts/edit": 10,
       "/p/%E4%B8%AD%E5%A4%AE%E6%94%BF%E5%BA%9C%E7%B8%BD%E9%A0%90%E7%AE%97%E6%A1%88%E5%AF%A9%E6%9F%A5%E7%9B%A3%E7%9D%A3%E5%B9%B3%E5%8F%B0": 10,
+      "/w/12": 10,
+      "/w/new": 10,
       "/g/maps-and-gis": 10,
-      "/g/data-visualization": 10,
+      "/p/%E6%88%91%E5%80%91%E6%83%B3%E9%80%99%E6%A8%A3%E7%94%9F%E5%B0%8F%E5%AD%A9-%E9%99%AA%E4%BC%B4%E5%AD%95%E7%94%A2%E6%97%85%E7%A8%8B%E7%9A%84%E8%A1%8C%E5%8B%95%E6%89%8B%E5%86%8A": 10,
       "/g/legislation-tracking": 10,
-      "/v0/aimonday/events.json": 10,
+      "/g/data-visualization": 10,
+      "/p/taiwan-gods-hand-project": 10,
+      "/c/health": 10,
+      "/p/openbudget-%E6%94%BF%E5%BA%9C%E9%A0%90%E7%AE%97%E6%9F%A5%E8%A9%A2": 10,
       "/p/disinfo": 10,
+      "/p/taskyventure-%E5%85%92%E7%AB%A5%E4%BB%BB%E5%8B%99%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0": 10,
       "/p/twcompany": 10,
       "/g/prototype-to-policy": 10,
       "/c/law": 10,
       "/c/pollution": 10,
-      "/w": 10
+      "/g/regional-revitalization": 10
     }
   }
 }
