@@ -142,6 +142,11 @@ const PII_REVIEWED = new Set([
   'recd1WOZYOT7BuFHd|描述', // 合境平安：GeoNight@Taiwan 團隊公開信箱
   'recNiPhjN7ILySUa4|描述', // 蘭陽鰭跡：研海團隊公開信箱
   'rectJYAfvEfAiJH6D|描述', // 大翅鯨回報：生態主意有限公司洽詢電話
+  // 同樣這四個計畫 2026-11-16 複製進 tech base，id 與欄位名都換了，判斷照舊
+  'rec0RCTwnidvoE4If|Intro', // 米爾頓釉小蜂寄主植物調查
+  'recVMqY27CtL58hQB|Intro', // 合境平安--大家一起來
+  'rechi9zuhQ0RhYMcS|Intro', // 蘭陽鰭跡
+  'reciapshYStwpNNWb|Intro', // 大翅鯨回報
 ]);
 
 const EMAIL_RE = /[\w.+-]+@[\w-]+\.[\w.]{2,}/;
