@@ -47,7 +47,7 @@ python3 scripts/insight-harvest.py 一鍵開大松 > pack.json
 做什麼：（一句話，25 字以內）
 給誰、解決什麼：（誰遇到什麼困難，40 字以內）
 怎麼運作：（使用者實際怎麼用它，40 字以內）
-討論在哪裡：（Slack 頻道、社團、定期聚會等，40 字以內；素材包的 slack channel、non-slack 欄位與網頁內提到的都算）
+討論在哪裡：（Slack 頻道、社團、定期聚會等，40 字以內；素材包的 slack channel、non-slack、社團欄位與網頁內提到的都算）
 
 來源：
 （每行一個網址或資料檔名，只列你實際用到的）

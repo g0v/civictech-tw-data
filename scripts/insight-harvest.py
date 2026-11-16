@@ -518,6 +518,11 @@ INTRO_URL = re.compile(r"https?://[^\s<>\"'）)\]]+")
 INTRO_SKIP = re.compile(r"youtube\.com|youtu\.be|figma\.com|bit\.ly|linktr\.ee|\.(png|jpe?g|gif)$")
 
 
+SCIENCE_FIELDS = ("社團", "相關機構單位", "國際地區", "縣市", "鄉鎮市區", "時段時節時機",
+                  "資料彙整技術方案", "關鍵設備與物質", "製作過哪些禮品與回饋品", "禮品與回饋品_相關內容描述",
+                  "相關文獻與探討", "補充內容筆記區")
+
+
 def harvest(project):
     f = project["fields"]
     name = (f.get("project name") or "").strip()
@@ -528,6 +533,16 @@ def harvest(project):
             pack["資料庫欄位"][k] = f[k].strip()
     pack["資料庫欄位"]["影響力類別"] = [c["name"] for c in f.get("影響力類別", [])]
     pack["資料庫欄位"]["標籤"] = [t["name"] for t in f.get("標籤", [])]
+    # 公民科學計畫 2026-11-16 併進來時帶著的欄位。它們的官網多半是臉書社團，抓不到內容，
+    # 這些由維護者整理過的欄位常是唯一的素材：誰在做、怎麼回報、在哪裡、什麼季節
+    for k in SCIENCE_FIELDS:
+        v = f.get(k)
+        if isinstance(v, list):
+            v = [x["name"] if isinstance(x, dict) else x for x in v]
+        elif isinstance(v, str):
+            v = v.strip()[:1500]
+        if v:
+            pack["資料庫欄位"][k] = v
 
     # 有些專案把網址寫在 Intro 而不是網址欄位（例如只貼一則 FB 社團貼文）。
     # 欄位裡已有的就不重抓；影片、簡報、短網址跟著也讀不到正文，跳過。
