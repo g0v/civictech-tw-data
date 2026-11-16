@@ -548,7 +548,8 @@ def harvest(project):
     # 欄位裡已有的就不重抓；影片、簡報、短網址跟著也讀不到正文，跳過。
     seen = {(f.get(k) or "").strip().rstrip("/") for k in ("github", "Website URL", "document", "Facebook Page Link")}
     intro_urls = []
-    for u in INTRO_URL.findall(f.get("Intro") or ""):
+    # 補充內容筆記區常是維護者貼的報導或貼文連結（2026-11-16 公民科學計畫），跟 Intro 裡的網址一樣處理
+    for u in INTRO_URL.findall((f.get("Intro") or "") + "\n" + (f.get("補充內容筆記區") or "")):
         u = u.rstrip(".,，。")
         if u.rstrip("/") not in seen and not INTRO_SKIP.search(u) and u not in intro_urls:
             intro_urls.append(u)
