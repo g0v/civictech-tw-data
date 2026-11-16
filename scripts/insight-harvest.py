@@ -444,6 +444,15 @@ def relevance_guard(pack):
         if re.match(r"[一-鿿]{2}", low[i:i + 2]):
             terms.add(low[i:i + 2])
 
+    # 網址導到登入頁時，抓到的是表單欄位，不是專案（2026-11-16 潛海戰將回報 → 海保署後台登入頁）。
+    # 「密碼」跟「登入」或「帳號」同時出現在開頭幾百字，就當成登入頁
+    for key, m in pack["素材"].items():
+        if not key.startswith("網頁:") or not isinstance(m, dict):
+            continue
+        head = str(m.get("正文前 3000 字", ""))[:400].lower()
+        if ("密碼" in head and ("登入" in head or "帳號" in head)) or ("password" in head and ("log in" in head or "sign in" in head)):
+            m["可信度"] = "⚠️ 看起來是登入頁，不是專案內容，產生 insight 時不得引用"
+
     repo = pack["素材"].get("repo")
     if not repo or repo.get("可信度") != "待驗證":
         return pack
