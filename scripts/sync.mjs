@@ -62,6 +62,13 @@ const DATASETS = [
       標籤: { slug: 'tags', label: '標籤' },
       presentation: { slug: 'talks', label: '專案發表紀錄' },
     },
+    // 2026-11-16 公民科學計畫併進這個 base 時一起帶進來的支援表。要不要公開、用什麼 slug
+    // 還沒決定，先不匯出；被專案連結到的照樣會抓來展開名稱。Table 15–21 是還沒命名的整理中表格
+    exclude: [
+      '國際地區', '縣市', '鄉鎮市區', '資料彙整技術方案', '關鍵設備與物質', '時段時節時機',
+      '相關機構單位', '相關研究與探討', '研究與探討的類型',
+      'Table 15', 'Table 16', 'Table 18', 'Table 19', 'Table 20', 'Table 21',
+    ],
   },
   {
     id: 'appAilQ8XpcZkvBko',
@@ -106,8 +113,11 @@ const DATASETS = [
  */
 const EXCLUDE_TABLE_NAMES = new Set(['[工作文件]', '【工作區】', '修改建議']);
 const EXCLUDE_TABLE_PATTERNS = [/^\[空白\d*\]$/];
-const isExcludedTable = (name) =>
-  EXCLUDE_TABLE_NAMES.has(name) || EXCLUDE_TABLE_PATTERNS.some((re) => re.test(name));
+// ds.exclude 是單一資料集自己的排除清單：同名的表（例如「縣市」）在 science 是要匯出的
+const isExcludedTable = (name, ds) =>
+  EXCLUDE_TABLE_NAMES.has(name) ||
+  EXCLUDE_TABLE_PATTERNS.some((re) => re.test(name)) ||
+  (ds?.exclude ?? []).includes(name);
 
 /** 不匯出的欄位（個人聯絡資料），key 為表名 */
 const EXCLUDE_FIELDS = {
@@ -132,6 +142,11 @@ const PII_REVIEWED = new Set([
   'recd1WOZYOT7BuFHd|描述', // 合境平安：GeoNight@Taiwan 團隊公開信箱
   'recNiPhjN7ILySUa4|描述', // 蘭陽鰭跡：研海團隊公開信箱
   'rectJYAfvEfAiJH6D|描述', // 大翅鯨回報：生態主意有限公司洽詢電話
+  // 同樣這四個計畫 2026-11-16 複製進 tech base，id 與欄位名都換了，判斷照舊
+  'rec0RCTwnidvoE4If|Intro', // 米爾頓釉小蜂寄主植物調查
+  'recVMqY27CtL58hQB|Intro', // 合境平安--大家一起來
+  'rechi9zuhQ0RhYMcS|Intro', // 蘭陽鰭跡
+  'reciapshYStwpNNWb|Intro', // 大翅鯨回報
 ]);
 
 const EMAIL_RE = /[\w.+-]+@[\w-]+\.[\w.]{2,}/;
@@ -249,11 +264,11 @@ async function main() {
       // 每次要多花 15 次 API，卻沒有一筆會被匯出
       const linked = new Set(
         tables
-          .filter((t) => !isExcludedTable(t.name))
+          .filter((t) => !isExcludedTable(t.name, ds))
           .flatMap((t) => t.fields.filter((f) => f.type === 'multipleRecordLinks').map((f) => f.options.linkedTableId)),
       );
       for (const table of tables) {
-        if (isExcludedTable(table.name) && !linked.has(table.id)) {
+        if (isExcludedTable(table.name, ds) && !linked.has(table.id)) {
           console.log(`略過排除的表 ${table.name}（沒有被連結，不用抓）`);
           recordsByTable[table.id] = [];
           continue;
@@ -280,7 +295,7 @@ async function main() {
     // 完全沒有內容的表（Airtable 預開的 [空白N] 之類）自動排除。
     // 依「有沒有內容」判斷而不是依名字，否則就是再造一個會腐爛的白名單。
     const emptyTables = tables
-      .filter((t) => !isExcludedTable(t.name))
+      .filter((t) => !isExcludedTable(t.name, ds))
       .filter((t) => recordsByTable[t.id].every((r) => Object.keys(r.fields).length === 0))
       .map((t) => t.name);
     for (const n of emptyTables) console.log(`略過全空的表 ${n}`);
@@ -288,7 +303,7 @@ async function main() {
     // ── 白名單對帳：有內容卻沒對照 → 炸。不准安靜跳過 ──
     const live = tables
       .map((t) => t.name)
-      .filter((n) => !isExcludedTable(n) && !emptyTables.includes(n));
+      .filter((n) => !isExcludedTable(n, ds) && !emptyTables.includes(n));
     const mapped = Object.keys(ds.tables);
     const unmapped = live.filter((n) => !mapped.includes(n));
     const stale = mapped.filter((n) => !live.includes(n));
@@ -306,7 +321,7 @@ async function main() {
     await mkdir(dsDir, { recursive: true });
 
     for (const table of tables) {
-      if (isExcludedTable(table.name) || emptyTables.includes(table.name)) continue;
+      if (isExcludedTable(table.name, ds) || emptyTables.includes(table.name)) continue;
       const meta = ds.tables[table.name];
       const excludeFields = EXCLUDE_FIELDS[table.name] ?? new Set();
 
