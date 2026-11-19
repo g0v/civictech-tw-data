@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 594,
+  "recordCount": 618,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -272,6 +272,10 @@
           {
             "id": "recGTzFfPBeizF0dV",
             "name": "預算決算"
+          },
+          {
+            "id": "recBkGr3zHUE6mRrs",
+            "name": "對策_視覺化 / 易讀版 / 儀表板"
           }
         ],
         "Website URL": "http://budget.g0v.tw/"
@@ -418,7 +422,7 @@
         "標籤": [
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           }
         ],
         "Website URL": "https://dataopener.tw/",
@@ -575,7 +579,7 @@
         "標籤": [
           {
             "id": "recE2TLn2FLLZONHR",
-            "name": "opendata"
+            "name": "對策_開放資料 Open Data / API / Portal"
           }
         ],
         "Website URL": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
@@ -675,7 +679,7 @@
         "標籤": [
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           },
           {
             "id": "recgju1kjunx4E2Hv",
@@ -865,6 +869,16 @@
       "id": "recbgJNKburtfD3eE",
       "createdTime": "2021-06-17T21:12:22.000Z",
       "fields": {
+        "關鍵設備與物質": [
+          {
+            "id": "recXCRaZKa3tueBZ8",
+            "name": "感測器裝置硬體"
+          },
+          {
+            "id": "recmJ3EdD5xJBzt5t",
+            "name": "拍照上傳或打卡 (手機拍照/平板拍照/攝影設備)"
+          }
+        ],
         "AI insight sources": "https://www.flataiwan.com/\nhttps://data.civictech.tw/v0/tech/projects.json",
         "影響力類別": [
           {
@@ -873,10 +887,17 @@
           }
         ],
         "AI insight": "做什麼：偵測道路不平坦程度並分享給公路機關\n給誰、解決什麼：想讓修路預算花在該花地方的用路人與公路機關\n怎麼運作：用 WebApp 或樹莓派記錄車輛晃動，分析後在地圖上呈現\n討論在哪裡：不明",
+        "Intro": "本專案透過三軸感測器記錄用路人車輛的晃動程度為體感數據，並經由社群參與及統計分析，依此推估行駛道路的（不）平坦程度，以供政府單位作為參考，並期待道路改善提升用路人觀感。",
         "AI insight generated": "2026-10-23",
         "project name": "台灣路更平",
         "github": "https://github.com/twsr",
-        "Website URL": "https://www.flataiwan.com/"
+        "Website URL": "https://www.flataiwan.com/",
+        "資料彙整技術方案": [
+          {
+            "id": "recG17tPSaLoaGIDk",
+            "name": "自架資料庫系統-開源 open source"
+          }
+        ]
       }
     },
     {
@@ -1356,16 +1377,20 @@
         "github": "https://www.facebook.com/groups/573697330058183/permalink/742917706469477/",
         "標籤": [
           {
-            "id": "rectf9bXy32sS8gwb",
-            "name": "衛星圖資"
-          },
-          {
             "id": "recS1OL2xmnUgv7fW",
             "name": "開放空間"
           },
           {
             "id": "rec7VhWOCiYAMz11Y",
-            "name": "樹木 / 種樹 / 公園綠地"
+            "name": "樹木 / 種樹"
+          },
+          {
+            "id": "recf4kqb4zusa3Hj8",
+            "name": "環境-公園"
+          },
+          {
+            "id": "rec10GxZ4nDyeTG7K",
+            "name": "環境-衛星影像應用"
           }
         ],
         "Website URL": "https://sites.google.com/view/tree-taiwan/",
@@ -1438,7 +1463,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://g0v.github.io/color/#blood"
@@ -1464,11 +1489,11 @@
         "標籤": [
           {
             "id": "recwwFkh7cDpCXrxh",
-            "name": "通報舉報類功能"
+            "name": "對策_通報舉報類功能"
           },
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           }
         ],
         "project name EN": "Libot"
@@ -1600,15 +1625,11 @@
         "標籤": [
           {
             "id": "recwwFkh7cDpCXrxh",
-            "name": "通報舉報類功能"
+            "name": "對策_通報舉報類功能"
           },
           {
             "id": "recpHXquZSQ7HH1qj",
             "name": "與 NGO 合作"
-          },
-          {
-            "id": "rectf9bXy32sS8gwb",
-            "name": "衛星圖資"
           },
           {
             "id": "rec6kVHXsmkrxolgJ",
@@ -1617,6 +1638,14 @@
           {
             "id": "recX7mAmVCjVPI94L",
             "name": "環境-工廠"
+          },
+          {
+            "id": "recmNjusE9u9rOH6X",
+            "name": "對策_群眾外包 Crowdsourcing"
+          },
+          {
+            "id": "rec10GxZ4nDyeTG7K",
+            "name": "環境-衛星影像應用"
           }
         ],
         "Website URL": "https://disfactory.tw/",
@@ -1742,8 +1771,12 @@
         "project name": "農業災損幾多錢",
         "標籤": [
           {
-            "id": "recO5orMgf9jx4vwz",
-            "name": "農業"
+            "id": "rec75OhtHTTiqgZmq",
+            "name": "社會文化-產業-農業"
+          },
+          {
+            "id": "recZiuv7Cbwt0x2U9",
+            "name": "無人機"
           }
         ],
         "Website URL": "http://uav-fly.nchu.edu.tw/g0vAna/"
@@ -1918,7 +1951,7 @@
         "標籤": [
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           }
         ],
         "Website URL": "https://tw-shift-schedule.firebaseapp.com/"
@@ -2172,7 +2205,7 @@
         "標籤": [
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           }
         ],
         "Website URL": "https://jobhelper.g0v.ronny.tw/"
@@ -2234,7 +2267,7 @@
         "標籤": [
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           }
         ],
         "Website URL": "https://newshelper.g0v.tw/"
@@ -2326,7 +2359,7 @@
         "標籤": [
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           },
           {
             "id": "rec7mna2UngXlfjjK",
@@ -2437,8 +2470,12 @@
         "project name": "臺灣黑熊通報與資訊平台",
         "標籤": [
           {
-            "id": "recsY2z4EIqi7mjMS",
-            "name": "生物物種保育"
+            "id": "recSAJHmutvKH2Qrx",
+            "name": "生物-脊索動物門/哺乳類"
+          },
+          {
+            "id": "recmNjusE9u9rOH6X",
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ]
       }
@@ -2499,11 +2536,11 @@
         "標籤": [
           {
             "id": "rec0j8YA5iuE4rKh0",
-            "name": "情境網頁遊戲框架"
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
           },
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           }
         ],
         "project name EN": "cchelper"
@@ -2527,8 +2564,8 @@
         "project name": "智慧型植物辨識圖鑑 ",
         "標籤": [
           {
-            "id": "recsY2z4EIqi7mjMS",
-            "name": "生物物種保育"
+            "id": "recYKSFIiVkrfMFI0",
+            "name": "生物-植物"
           }
         ],
         "Website URL": "https://plant-tw.github.io"
@@ -2617,7 +2654,7 @@
           },
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           }
         ],
         "Website URL": "https://homeless-helper.doyouaflavor.tw/",
@@ -2709,7 +2746,7 @@
         "標籤": [
           {
             "id": "recZPAiEQdIo02zkC",
-            "name": "審議工具"
+            "name": "對策_數位審議討論工具 / 意見徵集與分群"
           }
         ],
         "project name EN": "Holopolis"
@@ -2946,8 +2983,8 @@
         "project name": "超農域",
         "標籤": [
           {
-            "id": "recO5orMgf9jx4vwz",
-            "name": "農業"
+            "id": "rec75OhtHTTiqgZmq",
+            "name": "社會文化-產業-農業"
           }
         ],
         "Website URL": "https://g0v.github.io/agriculture/"
@@ -3106,7 +3143,7 @@
         "標籤": [
           {
             "id": "recZPAiEQdIo02zkC",
-            "name": "審議工具"
+            "name": "對策_數位審議討論工具 / 意見徵集與分群"
           }
         ],
         "Website URL": "https://vtaiwan.tw/",
@@ -3261,6 +3298,10 @@
           {
             "id": "recAvkwSO7vSuVRwl",
             "name": "社會文化-媒體識讀 / 防詐"
+          },
+          {
+            "id": "recVcKmOC5ZfmGoZi",
+            "name": "對策_成就系統"
           }
         ],
         "Website URL": "https://cofacts.g0v.tw/",
@@ -3349,8 +3390,8 @@
         "project name": "大河小溪全民齊督工",
         "標籤": [
           {
-            "id": "recz3FjjI8Jgkk8c8",
-            "name": "溪流 / 河川 / 水環境"
+            "id": "recw8dlcxNtnpz7RK",
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           }
         ],
         "Website URL": "https://river-watcher.bambooculture.tw/"
@@ -3442,8 +3483,8 @@
         "project name": "救救食蛇龜",
         "標籤": [
           {
-            "id": "recsY2z4EIqi7mjMS",
-            "name": "生物物種保育"
+            "id": "recrycgSLAsIYUzEi",
+            "name": "生物-脊索動物門/爬行類/蛇類/龜類"
           }
         ],
         "Website URL": "https://g0v.github.io/cuora/"
@@ -3926,7 +3967,7 @@
         "標籤": [
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://commutag.agawork.tw/"
@@ -3982,12 +4023,12 @@
         "project name": "認識植物網站",
         "標籤": [
           {
-            "id": "recsY2z4EIqi7mjMS",
-            "name": "生物物種保育"
+            "id": "recdNeiBAdxy2ZpkE",
+            "name": "對策_續命 / 早年網站改版續航"
           },
           {
-            "id": "recdNeiBAdxy2ZpkE",
-            "name": "續命 / 早年網站改版續航"
+            "id": "recYKSFIiVkrfMFI0",
+            "name": "生物-植物"
           }
         ],
         "Website URL": "https://kplant.atfr.org.tw/"
@@ -4223,7 +4264,7 @@
         "標籤": [
           {
             "id": "recT5tqfug401TVRM",
-            "name": "UX / 使用者體驗"
+            "name": "對策_UX / 使用者體驗改善"
           }
         ]
       }
@@ -4500,6 +4541,12 @@
         "AI insight generated": "2026-10-23",
         "project name": "Talk to the City (T3C)",
         "github": "https://github.com/AIObjectives/tttc-light-js",
+        "標籤": [
+          {
+            "id": "recZPAiEQdIo02zkC",
+            "name": "對策_數位審議討論工具 / 意見徵集與分群"
+          }
+        ],
         "Website URL": "https://talktothe.city/"
       }
     },
@@ -4550,7 +4597,7 @@
           },
           {
             "id": "recE2TLn2FLLZONHR",
-            "name": "opendata"
+            "name": "對策_開放資料 Open Data / API / Portal"
           }
         ],
         "Website URL": "https://rentalhouse.g0v.ddio.io/"
@@ -4600,12 +4647,12 @@
         "project name": "沃土計畫堆肥箱實作推廣",
         "標籤": [
           {
-            "id": "recO5orMgf9jx4vwz",
-            "name": "農業"
-          },
-          {
             "id": "recHwo5FXzd5ZHRzA",
             "name": "食物 Food / 廚餘堆肥"
+          },
+          {
+            "id": "rec75OhtHTTiqgZmq",
+            "name": "社會文化-產業-農業"
           }
         ]
       }
@@ -4628,7 +4675,7 @@
         "標籤": [
           {
             "id": "recdNeiBAdxy2ZpkE",
-            "name": "續命 / 早年網站改版續航"
+            "name": "對策_續命 / 早年網站改版續航"
           }
         ],
         "Website URL": "https://g0v.github.io/swonline/"
@@ -4708,7 +4755,7 @@
         "標籤": [
           {
             "id": "recE2TLn2FLLZONHR",
-            "name": "opendata"
+            "name": "對策_開放資料 Open Data / API / Portal"
           }
         ],
         "Website URL": "https://hub.twinkleai.tw/"
@@ -4877,7 +4924,7 @@
           },
           {
             "id": "recKhdDtxpN7LRpyY",
-            "name": "各項資訊彙整提供給使用者"
+            "name": "對策_各項資訊彙整提供給使用者 / 懶人包 / 一站式"
           }
         ],
         "Website URL": "https://afterthatday.blogspot.com/"
@@ -4901,7 +4948,7 @@
         "標籤": [
           {
             "id": "rec0PSpxvzpG8GsFT",
-            "name": "通用"
+            "name": "通用 / 無障礙"
           }
         ],
         "Website URL": "https://a11yvillage.coseeing.org"
@@ -5034,6 +5081,10 @@
           {
             "id": "recnxP1VDIBJGeP9B",
             "name": "生育 / 孕產相關"
+          },
+          {
+            "id": "recyJqJBaxEjtNBX4",
+            "name": "對策_指引 / 手冊 / 指南"
           }
         ],
         "Website URL": "https://www.facebook.com/share/p/1EZYQNjdRU/",
@@ -5093,7 +5144,7 @@
         "標籤": [
           {
             "id": "recE2TLn2FLLZONHR",
-            "name": "opendata"
+            "name": "對策_開放資料 Open Data / API / Portal"
           }
         ],
         "Website URL": "https://taiwan.md/"
@@ -5171,7 +5222,7 @@
         "標籤": [
           {
             "id": "recE2TLn2FLLZONHR",
-            "name": "opendata"
+            "name": "對策_開放資料 Open Data / API / Portal"
           }
         ],
         "Website URL": "https://civictech.tw/",
@@ -5249,6 +5300,10 @@
           {
             "id": "rec4I9DjE2z35EqNu",
             "name": "急救 / 救護"
+          },
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
           }
         ],
         "Website URL": "https://rosc.tps-ems.com.tw/"
@@ -5271,16 +5326,20 @@
         "project name": "漁電共生鋪排工具",
         "標籤": [
           {
-            "id": "rectf9bXy32sS8gwb",
-            "name": "衛星圖資"
-          },
-          {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           },
           {
-            "id": "reclbKH6MJcUAoupF",
-            "name": "漁業"
+            "id": "rechVixOQBMde0hqm",
+            "name": "社會文化-產業-漁業"
+          },
+          {
+            "id": "recVkEyEwc5QiELI9",
+            "name": "能源 / 電力"
+          },
+          {
+            "id": "rec10GxZ4nDyeTG7K",
+            "name": "環境-衛星影像應用"
           }
         ],
         "Website URL": "https://a606030jaguar-solarapp.pages.dev/"
@@ -5343,7 +5402,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/taiwangut/",
@@ -5401,7 +5460,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://metasub.org/",
@@ -5439,7 +5498,7 @@
           },
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           }
         ],
         "Website URL": "https://great-moving-era.ddio.io/"
@@ -5519,6 +5578,10 @@
           {
             "id": "recuiTib4bRLqPcWH",
             "name": "地圖 GIS"
+          },
+          {
+            "id": "rec3reaBKniF5ebDo",
+            "name": "交通 / MRT"
           }
         ],
         "Website URL": "https://shengwenhou.github.io/Highway-EMS-reachability/"
@@ -5566,7 +5629,7 @@
         "標籤": [
           {
             "id": "recE2TLn2FLLZONHR",
-            "name": "opendata"
+            "name": "對策_開放資料 Open Data / API / Portal"
           },
           {
             "id": "recTbQPHaofbg5KxI",
@@ -5601,11 +5664,11 @@
           },
           {
             "id": "recWEsXvca6RGKgRD",
-            "name": "建築 / 工程 / 營造"
+            "name": "建築 / 工程 / 營造 / 職安衛"
           }
         ],
         "Website URL": "https://h30190.github.io/HJPLUS_Taiwan_Architect_KB/",
-        "補充內容筆記區": "把台灣 AEC 產業的知識系統性整理成一個結構化的開源知識庫。這不是隨便寫幾篇文章而已，而是真正按照「AI 能讀、人類也能讀」的雙層架構來設計的。\n\n這個知識庫涵蓋什麼？\n整個知識庫分為 9 大核心分類：\n\n建築設計與規劃 — 概念設計、空間規劃、建築類型學\n專業複委託 — 材料選材、結構系統、機電系統\n建築性能 — 光環境、音環境、永續建築、計算工具\n建築法規 — 消防安全、無障礙設計、容積率計算、施工文件\n專案管理 — 時程、預算、風險、品質、契約管理\n經營管理 — 酬金計算、事務所營運、證照進修\n建築施工與材料 — 施工方法、材料選擇、品質管制\n建築執照 — 建造執照、雜項執照、使用執照、拆除執號\n公共工程 — 公開招標、公開閱覽流程"
+        "補充內容筆記區": "把台灣 AEC 產業的知識系統性整理成一個結構化的開源知識庫。這不是隨便寫幾篇文章而已，而是真正按照「AI 能讀、人類也能讀」的雙層架構來設計的。\n\n這個知識庫涵蓋什麼？\n整個知識庫分為 9 大核心分類：\n\n建築設計與規劃 — 概念設計、空間規劃、建築類型學\n專業複委託 — 材料選材、結構系統、機電系統\n建築性能 — 光環境、音環境、永續建築、計算工具\n建築法規 — 消防安全、無障礙設計、容積率計算、施工文件\n專案管理 — 時程、預算、風險、品質、契約管理\n經營管理 — 酬金計算、事務所營運、證照進修\n建築施工與材料 — 施工方法、材料選擇、品質管制\n建築執照 — 建造執照、雜項執照、使用執照、拆除執號\n公共工程 — 公開招標、公開閱覽流程\n\n----\n其他\nhttps://www.hjplusdesign.com/hjplus_open_source_projects/\n"
       }
     },
     {
@@ -5629,7 +5692,7 @@
           },
           {
             "id": "rec0j8YA5iuE4rKh0",
-            "name": "情境網頁遊戲框架"
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
           }
         ],
         "Website URL": "https://claude.ai/artifact/AWwoUVfR7KFTQd7ateyNfb"
@@ -5681,7 +5744,7 @@
           },
           {
             "id": "recOBdKS6cY37PRr1",
-            "name": "復原重建"
+            "name": "災害災後復原重建"
           }
         ],
         "Website URL": "https://guangfu.tw/"
@@ -5709,7 +5772,7 @@
         "標籤": [
           {
             "id": "recsY2z4EIqi7mjMS",
-            "name": "生物物種保育"
+            "name": "生物_整題涵蓋不分類"
           }
         ],
         "Website URL": "https://animalia-live.vercel.app"
@@ -5737,8 +5800,8 @@
             "name": "地圖 GIS"
           },
           {
-            "id": "recz3FjjI8Jgkk8c8",
-            "name": "溪流 / 河川 / 水環境"
+            "id": "recw8dlcxNtnpz7RK",
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           }
         ],
         "Website URL": "https://twwlab.com/acctw/"
@@ -5800,7 +5863,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://fold.it/",
@@ -5830,12 +5893,16 @@
         "project name": "國土利用監測",
         "標籤": [
           {
-            "id": "rectf9bXy32sS8gwb",
-            "name": "衛星圖資"
+            "id": "recwwFkh7cDpCXrxh",
+            "name": "對策_通報舉報類功能"
           },
           {
-            "id": "recwwFkh7cDpCXrxh",
-            "name": "通報舉報類功能"
+            "id": "recmNjusE9u9rOH6X",
+            "name": "對策_群眾外包 Crowdsourcing"
+          },
+          {
+            "id": "rec10GxZ4nDyeTG7K",
+            "name": "環境-衛星影像應用"
           }
         ],
         "Website URL": "https://landchg.olc.tw/"
@@ -5860,7 +5927,7 @@
         "標籤": [
           {
             "id": "recKhdDtxpN7LRpyY",
-            "name": "各項資訊彙整提供給使用者"
+            "name": "對策_各項資訊彙整提供給使用者 / 懶人包 / 一站式"
           },
           {
             "id": "rec1WnkgnlgORJwfF",
@@ -5872,7 +5939,7 @@
           },
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           }
         ]
       }
@@ -5897,7 +5964,7 @@
           },
           {
             "id": "recKhdDtxpN7LRpyY",
-            "name": "各項資訊彙整提供給使用者"
+            "name": "對策_各項資訊彙整提供給使用者 / 懶人包 / 一站式"
           }
         ],
         "Website URL": "https://thc1006.github.io/sch001-108platform/"
@@ -5921,7 +5988,7 @@
         "標籤": [
           {
             "id": "recZPAiEQdIo02zkC",
-            "name": "審議工具"
+            "name": "對策_數位審議討論工具 / 意見徵集與分群"
           }
         ]
       }
@@ -5998,11 +6065,11 @@
         "標籤": [
           {
             "id": "rec0j8YA5iuE4rKh0",
-            "name": "情境網頁遊戲框架"
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
           },
           {
             "id": "recKhdDtxpN7LRpyY",
-            "name": "各項資訊彙整提供給使用者"
+            "name": "對策_各項資訊彙整提供給使用者 / 懶人包 / 一站式"
           }
         ],
         "Website URL": "https://sup-eric.com/work/youth-growth/#game"
@@ -6026,7 +6093,7 @@
         "標籤": [
           {
             "id": "reccfTvsPvkXCFDpx",
-            "name": "小幫手"
+            "name": "對策_小幫手 / 小工具"
           },
           {
             "id": "recWP7QajlDtcrze7",
@@ -6062,7 +6129,7 @@
         "標籤": [
           {
             "id": "recKhdDtxpN7LRpyY",
-            "name": "各項資訊彙整提供給使用者"
+            "name": "對策_各項資訊彙整提供給使用者 / 懶人包 / 一站式"
           },
           {
             "id": "recJA9vIu3CYfNHWw",
@@ -6094,7 +6161,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.facebook.com/groups/721650161518694/permalink/1081420122208361/",
@@ -6179,7 +6246,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/100000268955088/posts/4632995563386030/",
@@ -6220,7 +6287,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -6275,7 +6342,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://sites.google.com/site/infantcryinganalysiskidee/our-mission",
@@ -6348,7 +6415,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://roadkill.tw/",
@@ -6390,7 +6457,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/227700397330245",
@@ -6456,7 +6523,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://iocean.oca.gov.tw/OCA_OceanConservation/PUBLIC/Report_Fishing.aspx",
@@ -6516,7 +6583,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.toff.org.tw/page.php?menu_id=71",
@@ -6614,7 +6681,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://fangyeelin.wixsite.com/fishfish",
@@ -6655,7 +6722,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://participate.melbourne.vic.gov.au/citizenforester",
@@ -6689,7 +6756,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://e-info.org.tw/node/218475",
@@ -6723,7 +6790,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://eyesonplace.net/2022/05/18/20512/",
@@ -6790,7 +6857,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.inaturalist.org/",
@@ -6831,7 +6898,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/1821095334826412/posts/2153826231553319/",
@@ -6875,7 +6942,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://qs.sow.org.tw/",
@@ -6944,7 +7011,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/SHEIPA.NP/posts/pfbid024u4tYncHavsx75JXp7zmCVnCSshqWJLhapLskHbMP9GPhxaUhYgJp8io8ED6KXJVl",
@@ -6985,7 +7052,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/878536992275156",
@@ -7020,7 +7087,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/181920469185461",
@@ -7053,7 +7120,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.facebook.com/groups/roadkilled/posts/1749837581723713",
@@ -7111,7 +7178,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "http://e-info.org.tw/node/212025",
@@ -7183,7 +7250,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/112422655489343/posts/5172349752829916/",
@@ -7235,7 +7302,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/307904289925035/permalink/612109316171196",
@@ -7288,7 +7355,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/320352588169214/",
@@ -7374,7 +7441,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -7434,7 +7501,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/880031262168860/",
@@ -7491,7 +7558,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/145152259451474/",
@@ -7635,7 +7702,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://bluetrend.media/marine-citizen-science/",
@@ -7759,7 +7826,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://iocean.oca.gov.tw/OCA_OceanConservation/PUBLIC/Report_Sightings.aspx",
@@ -7825,7 +7892,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.congratulafins.org/report.html",
@@ -7893,7 +7960,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://photoidrissosdolphin.weebly.com/",
@@ -7951,7 +8018,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/tcstcswhale/photos/a.230594277037198.50172.104641789632448/1065532790210005/?type=3&theater",
@@ -7998,7 +8065,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/events/274221566752021/",
@@ -8033,7 +8100,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/445639272561545",
@@ -8085,7 +8152,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.taiwanbear.org.tw/questionnaire/",
@@ -8150,7 +8217,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.wbst.org.tw/news/conference-announcement/713-%E6%96%B0%E5%8C%97%E7%9F%B3%E9%96%80%E6%B2%B9%E6%B1%99%E9%B3%A5%E9%A1%9E%E5%9B%9E%E5%A0%B1%E5%B9%B3%E5%8F%B0.html#.VudYScIhI2g.facebook",
@@ -8189,7 +8256,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/bbstaiwan/posts/1919330481592106",
@@ -8228,7 +8295,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/162987350510496/posts/2447909298684945/",
@@ -8275,7 +8342,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1490158747925040/",
@@ -8328,7 +8395,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1618705091745894/",
@@ -8375,7 +8442,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://tucsonhatestrees.com/index.html",
@@ -8436,7 +8503,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/312003914382445/",
@@ -8483,7 +8550,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/427984074049846/",
@@ -8533,7 +8600,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/100000594134204/posts/2562255113804268/\nhttps://www.facebook.com/sacredibistw/posts/1423490981194603",
@@ -8645,7 +8712,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://iocean.oca.gov.tw/OCA_OceanConservation/PUBLIC/Report_Diving.aspx",
@@ -8727,7 +8794,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -8773,7 +8840,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/441589672560365/posts/2044630538922929/",
@@ -8890,7 +8957,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://iocean.oca.gov.tw/OCA_OceanConservation/PUBLIC/Marine_Litter.aspx",
@@ -9029,7 +9096,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://turtlespottw.org/",
@@ -9089,7 +9156,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -9135,7 +9202,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/364235537509174/permalink/378968046035923/",
@@ -9181,7 +9248,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/permalink.php?story_fbid=4817818954904522&id=100000293947161",
@@ -9236,7 +9303,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/TreeCareTaiwan/posts/192784092574703",
@@ -9299,7 +9366,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/seahorse.conservation.Taiwan",
@@ -9338,7 +9405,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.afcd.gov.hk/tc_chi/conservation/con_mar/con_mar_edu/seahorsenhorseshoecrab.html",
@@ -9379,7 +9446,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.no1tree.tw/home",
@@ -9419,7 +9486,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -9479,7 +9546,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://e-info.org.tw/node/216382",
@@ -9519,7 +9586,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://plant.tbn.org.tw/",
@@ -9566,7 +9633,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://sowhc.blogspot.com/2018/01/blog-post.html",
@@ -9622,7 +9689,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.facebook.com/370422357110288/posts/704945403657980/",
@@ -9669,7 +9736,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/551970322100576/",
@@ -9729,7 +9796,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/AIPKGAME",
@@ -9786,7 +9853,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://ushahidi.olc.tw/views/map",
@@ -9843,7 +9910,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/meilingchan318/posts/2482060228472200",
@@ -9887,7 +9954,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://dobug.nmns.edu.tw/",
@@ -9926,7 +9993,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://visdeurbel.nl/",
@@ -9981,7 +10048,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://coralwatch.org/",
@@ -10032,7 +10099,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://coralnet.ucsd.edu/",
@@ -10089,7 +10156,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://teia.tw/ocean_prjt/%E7%8F%8A%E7%91%9A%E7%A4%81%E9%AB%94%E6%AA%A2/",
@@ -10141,7 +10208,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/870591247024273",
@@ -10203,7 +10270,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/ReefCheckTW/permalink/3838874459472985/",
@@ -10254,7 +10321,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://gapfiller.tbn.org.tw/raptors",
@@ -10311,7 +10378,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.bird.org.tw/index.php/works/conservation/955-firstnightjarreport",
@@ -10357,7 +10424,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://e-info.org.tw/node/118081",
@@ -10411,7 +10478,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/GaomeiLandCrab",
@@ -10454,7 +10521,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.fws.gov/project/horseshoe-crab-cooperative-tagging-program?fbclid=IwAR05AY-2ADClfH7Uat9h1uPJeSJXtM8vBkmH6akYWWMxAPvzNj96v98Wg2A&mibextid=Zxz2cZ",
@@ -10514,7 +10581,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/VisionUnion/photos/a.2075253972704205.1073741913.1553006074929000/2078506835712252/?type=3&hc_ref=ARRkL3qPFdU68erWf0dy83rjkd21vzmCd-b3UfkHPxAyyvC5MUxoXkG-5BVmDrfYZ4c&fref=gs&dti=437659989769965&hc_location=group",
@@ -10554,7 +10621,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/346233062945392/posts/971214320447260/",
@@ -10606,7 +10673,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://e-info.org.tw//node/118360",
@@ -10653,7 +10720,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://reurl.cc/O1geLX",
@@ -10705,7 +10772,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/Gangdi885/",
@@ -10745,7 +10812,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://apps.apple.com/tw/app/surf-jelly/id1493888587",
@@ -10779,7 +10846,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://medium.com/wild-without-end/ibeaver-crowd-sourcing-data-on-north-americas-busy-beaver-725dfb281c6d",
@@ -10838,7 +10905,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://otter.tbn.org.tw/",
@@ -10969,7 +11036,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/377814729831110/",
@@ -11009,7 +11076,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://worms.educ.ualberta.ca/",
@@ -11055,7 +11122,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://lolo.tbn.org.tw/",
@@ -11101,7 +11168,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.inaturalist.org/projects/butterfly-blitz-882d0685-3c20-45ae-9e8e-f055d1ddb21b?fbclid=IwAR1FspPACXuZzLhLQeJCR3_hrvlRUl7KpzKQXbHN2clY_Lv1557CI71ZHn8",
@@ -11149,7 +11216,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/science.in.field/",
@@ -11190,7 +11257,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/283177105146997/",
@@ -11236,7 +11303,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1540565002704254/",
@@ -11276,7 +11343,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://reptile.tbn.org.tw/",
@@ -11323,7 +11390,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://erdb.epa.gov.tw/DataRepository/Environ/TESRI_BUTTERFLY.aspx?topic1=%E7%94%9F%E6%85%8B&topic2=%E7%92%B0%E5%A2%83%E5%8F%8A%E7%94%9F%E6%85%8B%E7%9B%A3%E6%B8%AC&subject=%E7%94%9F%E6%85%8B%E7%B3%BB%E7%B5%B1%E7%89%A9%E7%A8%AE",
@@ -11364,7 +11431,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1395328507208492/",
@@ -11413,7 +11480,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://farmlife.tbn.org.tw/",
@@ -11459,7 +11526,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://tad.froghome.org/",
@@ -11503,7 +11570,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/tbni35/posts/926998444060650",
@@ -11550,7 +11617,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/EnjoyMoths2/permalink/2644623705630358/",
@@ -11601,7 +11668,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://twmoth.tesri.gov.tw/peo/aboutme.aspx",
@@ -11641,7 +11708,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.facebook.com/groups/odtwn/permalink/1720528957961515/\n\nhttps://www.facebook.com/groups/667899516591545/permalink/855929297788565/\n\nhttps://parks.taipei/firefly/content/m_info.php",
@@ -11682,7 +11749,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/Odophile/about/",
@@ -11731,7 +11798,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1857928557576800/?ref=share",
@@ -11785,7 +11852,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.xeno-canto.org/",
@@ -11876,7 +11943,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/%E8%9B%99%E6%8A%B5%E5%AE%B6Identifrog-106158912190196/",
@@ -11917,7 +11984,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://spider.tbn.org.tw/",
@@ -11984,7 +12051,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://nybc.bird.org.tw/",
@@ -12017,7 +12084,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://beeinformed.org/citizen-science/",
@@ -12135,7 +12202,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/959038217460271/",
@@ -12181,7 +12248,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -12242,7 +12309,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/398182670532605/",
@@ -12299,7 +12366,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://sites.google.com/a/birds-tesri.twbbs.org/bbs-taiwan/",
@@ -12343,7 +12410,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://sites.google.com/a/birds-tesri.twbbs.org/maps-taiwan/",
@@ -12387,7 +12454,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1426365227395803/about/",
@@ -12436,7 +12503,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://resights.birdband.org/index.php",
@@ -12492,7 +12559,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.agriharvest.tw/theme_data.php?theme=article&sub_theme=article&id=2126",
@@ -12550,7 +12617,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/twsg.taiwan/",
@@ -12596,7 +12663,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -12644,7 +12711,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.birdband.org/banding.php",
@@ -12697,7 +12764,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.ff-eco.com/2023/02/2023trbc/?fbclid=IwAR2f6WOSyETvThb0U49NwcJvIMUb2jjiLQXIxILJMsHAb5O9uxLrfXK7vyM&mibextid=Zxz2cZ",
@@ -12743,7 +12810,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/lichubugs/posts/1308630982622698",
@@ -12783,7 +12850,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/pg/themosquitoman/photos/?tab=album&album_id=832613300222907",
@@ -12838,7 +12905,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://raptor.org.tw/taiwan-journal-of-raptor-research/black-kite/1127-kite-population-survey-2022.html",
@@ -12880,7 +12947,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/171220026615234/posts/862335327503697/",
@@ -12926,7 +12993,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/jinghong.lee.79/posts/10153959271384562",
@@ -12971,7 +13038,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.facebook.com/groups/RRGT.BlackEagle/permalink/3233670213350464/",
@@ -13014,7 +13081,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://bfsn.bfsa.org.tw/report.php#portfolio",
@@ -13065,7 +13132,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/148540095162339/posts/2372864169396576/",
@@ -13105,7 +13172,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://e-info.org.tw/node/229981",
@@ -13145,7 +13212,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://tw.news.yahoo.com/%E7%A9%B9%E9%A0%82%E4%B9%8B%E4%B8%8B-%E5%8F%B0%E7%81%A3%E8%88%87%E5%85%B1-%E5%85%A9%E5%B2%B8%E5%90%88%E4%BD%9C%E6%8A%97%E9%9C%A7%E9%9C%BE-%E4%BA%8C-022100638.html",
@@ -13187,7 +13254,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://swallowbreedingsurvey.org",
@@ -13240,7 +13307,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://newtalk.tw/news/view/2011-07-05/15728",
@@ -13285,7 +13352,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/science.in.field/posts/1339140802827222",
@@ -13326,7 +13393,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/russetsparrowresearch/",
@@ -13360,7 +13427,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://smellpgh.org/",
@@ -13413,7 +13480,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://sites.google.com/a/birds-tesri.twbbs.org/yunlinlapwingsurvey/peanutnews/nybctaiwantudouniaodajihe",
@@ -13464,7 +13531,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://beimencc.org/archives/3005",
@@ -13505,7 +13572,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://e-info.org.tw/node/201013",
@@ -13545,7 +13612,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/CitizenoftheEarth/photos/a.152858528108735.31770.148513668543221/1759555597439012/?type=3&theater",
@@ -13592,7 +13659,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/permalink.php?story_fbid=1682484138504155&id=161956500556934",
@@ -13626,7 +13693,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/trailwatch/posts/1376132082426369",
@@ -13688,7 +13755,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://m.ltn.com.tw/news/life/breakingnews/1531460",
@@ -13728,7 +13795,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.agriharvest.tw/theme_data.php?theme=article&sub_theme=article&id=277&hash=66676227863c82dd2e287d3537019300",
@@ -13774,7 +13841,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.grb.gov.tw/search/planDetail2?id=11886576",
@@ -13813,7 +13880,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://gapfiller.tbn.org.tw/mnh",
@@ -13859,7 +13926,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://pansci.asia/archives/98103",
@@ -13899,7 +13966,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/148540095162339/posts/5587839794565648/",
@@ -13948,7 +14015,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://facebook.com/events/s/%E9%AB%98%E5%B1%B1%E6%BF%AB%E5%A2%BE%E7%85%A7%E7%89%87%E8%88%87%E5%BD%B1%E7%89%87%E5%A4%A7%E8%B3%9E%E4%B8%8A%E5%82%B3%E6%82%A8%E6%8B%8D%E7%9A%84%E6%BF%AB%E5%A2%BE%E5%BD%B1%E7%89%87%E7%9C%8B%E8%A6%8B%E5%8F%B0%E7%81%A3%E7%9A%84%E7%9C%9F%E7%9B%B8/120198588697006/",
@@ -13992,7 +14059,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.penguinwatch.org/",
@@ -14048,7 +14115,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://sites.google.com/view/ecopark/%E8%A8%88%E7%95%AB%E7%B7%A3%E8%B5%B7",
@@ -14105,7 +14172,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://sway.com/pnEXDtfrumMf6nh4?ref=Link&loc=mysways",
@@ -14146,7 +14213,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://nerdsfornature.org/monitor-change/",
@@ -14201,7 +14268,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/644557612/posts/10158512169577613/",
@@ -14324,7 +14391,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://meil.biodiv.tw/people",
@@ -14379,7 +14446,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://as.geohealth.tw/soundmap/",
@@ -14429,7 +14496,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/wu.m.cheng.7/posts/1351528711528004",
@@ -14474,7 +14541,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/696308513899052/about/",
@@ -14536,7 +14603,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -14575,7 +14642,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.nasa.gov/solve/landslide_reporter/",
@@ -14616,7 +14683,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/huannjang.hwang/posts/1126939510698784",
@@ -14657,7 +14724,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.geo.gov.taipei/ct.asp?xItem=117634686&ctNode=28438&mp=105041",
@@ -14697,7 +14764,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://openlittermap.com/",
@@ -14744,7 +14811,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://campaign.tw-npo.org/sign.php?id=20130915101835",
@@ -14784,7 +14851,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/pg/GlobalAlertPlatform",
@@ -14825,7 +14892,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/207725329242652/",
@@ -14859,7 +14926,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "國際地區": [
@@ -14912,7 +14979,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/mos.pc/",
@@ -14953,7 +15020,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/260585260704204/",
@@ -15024,7 +15091,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1487802708014376/about/",
@@ -15142,7 +15209,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://sites.google.com/g-mail.nsysu.edu.tw/oceaniccarnival/%E8%AC%9B%E5%BA%A7%E4%BB%8B%E7%B4%B9",
@@ -15182,7 +15249,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://grants.g0v.tw/projects/587873a755fa75001ef55ed4",
@@ -15246,7 +15313,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1607718702812067/",
@@ -15379,7 +15446,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.indigowaters.org/academic-publication/academic-journals/%e6%b5%b7%e5%b2%b8%e5%9e%83%e5%9c%be%e7%9f%a5%e5%a4%9a%e5%b0%91%ef%bc%9f%e5%85%ac%e6%b0%91%e7%a7%91%e5%ad%b8%e7%9a%84%e6%b5%b7%e5%b2%b8%e5%bf%ab%e7%af%a9%ef%bc%8c%e7%ae%97%e5%87%ba%e5%9e%83%e5%9c%be/",
@@ -15423,7 +15490,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://smartcitizen.me/kits/",
@@ -15549,7 +15616,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/134944370541838",
@@ -15595,7 +15662,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.cet-taiwan.org/node/1459",
@@ -15636,7 +15703,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://civity.nl/en/products-solutions/sniffer-bike/",
@@ -15676,7 +15743,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://pnn.pts.org.tw/main/2012/02/07/%E3%80%90%E6%88%91%E5%80%91%E7%9A%84%E5%B3%B6%E3%80%91%E8%88%87%E5%B7%A5%E6%A5%AD%E5%8D%80%E5%81%9A%E9%84%B0%E5%B1%85/",
@@ -15789,7 +15856,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://ecolife2.epa.gov.tw/Coastal/",
@@ -15919,7 +15986,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://iocean.oca.gov.tw/OCA_OceanConservation/PUBLIC/Marine_Litter.aspx",
@@ -16046,7 +16113,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://iocean.oca.gov.tw/",
@@ -16116,7 +16183,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://cleanocean.sow.org.tw/",
@@ -16202,7 +16269,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/463471400454221/",
@@ -16253,7 +16320,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1382428951869364/",
@@ -16305,7 +16372,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://soundandthecity.wixsite.com/wutsancheng/taiwan-soundmap-project",
@@ -16350,7 +16417,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.soundscape.org.tw/taiwan-nature-soundmap/",
@@ -16396,7 +16463,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://shenangochannel.org/",
@@ -16442,7 +16509,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://smoke.createlab.org/",
@@ -16484,11 +16551,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://crowdwater.ch/en/welcome-to-crowdwater/",
@@ -16524,11 +16591,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.monitorwater.org/",
@@ -16564,11 +16631,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://news.pts.org.tw/article/318435",
@@ -16604,11 +16671,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://water.epa.gov.tw/Public/CHT/WaterEnv/Patrol.aspx",
@@ -16650,11 +16717,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/siokjin.deun/posts/1665444173767840",
@@ -16690,11 +16757,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.tydep.gov.tw/tydep/Message/Detail/272?AspxAutoDetectCookieSupport=1",
@@ -16730,11 +16797,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.hc.edu.tw/edub/detail_outstanding.aspx?fid=776",
@@ -16770,11 +16837,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/jinshuwu/posts/1111591415529617",
@@ -16813,11 +16880,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.facebook.com/groups/LASSnet/permalink/2643892429194684/",
@@ -16853,11 +16920,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://fairmedia.com.tw/%E8%A6%81%E8%81%9E/35645",
@@ -16886,11 +16953,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.locss.org/",
@@ -16931,12 +16998,12 @@
         "project name": "追蹤野溪水泥化協作",
         "標籤": [
           {
-            "id": "recSdo3bR0GQWjuAw",
-            "name": "環境-野溪工程探討"
+            "id": "recmNjusE9u9rOH6X",
+            "name": "對策_群眾外包 Crowdsourcing"
           },
           {
-            "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "id": "recw8dlcxNtnpz7RK",
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/urban.rivers.streams/permalink/1277849548971287/",
@@ -16978,15 +17045,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
-          },
-          {
-            "id": "recSdo3bR0GQWjuAw",
-            "name": "環境-野溪工程探討"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/Taiwan.River/posts/pfbid02GpSwVEd5bYnhV2GME2AjjDpcGUmfUgMuyEYX19Bc1Hn3DhV37JFozvTuNLUShS4Vl",
@@ -17031,12 +17094,12 @@
         "project name": "荒野台東分會野溪小組",
         "標籤": [
           {
-            "id": "recSdo3bR0GQWjuAw",
-            "name": "環境-野溪工程探討"
+            "id": "recmNjusE9u9rOH6X",
+            "name": "對策_群眾外包 Crowdsourcing"
           },
           {
-            "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "id": "recw8dlcxNtnpz7RK",
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1601854476608486/permalink/1640438906083376/",
@@ -17077,7 +17140,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.eventsinfocus.org/news/2335",
@@ -17116,7 +17179,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.facebook.com/1334202641/posts/10217484662531835/",
@@ -17170,7 +17233,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.facebook.com/taipei.community.garden.center/posts/pfbid0xVjbHdRwRGmo4Yb1bGrufRqEydA8RKvhY7aAmdSaxc9oM4u38D5ixkSeAkcu6ib9l",
@@ -17223,7 +17286,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/walkingearthgod/permalink/491821141888755/",
@@ -17273,7 +17336,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1077996995607474",
@@ -17324,7 +17387,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://fb.watch/bASEieYWJ5/",
@@ -17370,7 +17433,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://agoama.tw/"
@@ -17410,7 +17473,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.litterati.org/",
@@ -17451,7 +17514,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.bbc.com/news/uk-england-cambridgeshire-43837758",
@@ -17497,7 +17560,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://rockd.org/",
@@ -17511,50 +17574,6 @@
           {
             "id": "recSjXaJYz13fv1gO",
             "name": "全球 / 國際"
-          }
-        ]
-      }
-    },
-    {
-      "id": "rec9e5uiof2TQ1tUp",
-      "createdTime": "2026-05-02T21:00:35.000Z",
-      "fields": {
-        "關鍵設備與物質": [
-          {
-            "id": "recXCRaZKa3tueBZ8",
-            "name": "感測器裝置硬體"
-          },
-          {
-            "id": "recmJ3EdD5xJBzt5t",
-            "name": "拍照上傳或打卡 (手機拍照/平板拍照/攝影設備)"
-          }
-        ],
-        "AI insight sources": "https://www.flataiwan.com/\nhttps://data.civictech.tw/v0/tech/projects.json",
-        "影響力類別": [
-          {
-            "id": "recDx2rCzsNcaRbyQ",
-            "name": "9-SDGS-工業化、創新及基礎建設"
-          }
-        ],
-        "AI insight": "做什麼：用車輛晃動數據推估道路平坦度的專案\n給誰、解決什麼：修路預算與用路人感受有落差；提供政府修路參考\n怎麼運作：用網頁工具或自製樹莓派收集車輛晃動資料，成果以地圖公開\n討論在哪裡：g0v Slack 頻道 #twsr2018g0v、Facebook 社團",
-        "Intro": "本專案透過三軸感測器記錄用路人車輛的晃動程度為體感數據，並經由社群參與及統計分析，依此推估行駛道路的（不）平坦程度，以供政府單位作為參考，並期待道路改善提升用路人觀感。",
-        "AI insight generated": "2026-11-16",
-        "project name": "台灣路更平",
-        "標籤": [
-          {
-            "id": "recbGYUDQ6y46wJ6Q",
-            "name": "環境-道路"
-          },
-          {
-            "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
-          }
-        ],
-        "Website URL": "https://www.flataiwan.com/",
-        "資料彙整技術方案": [
-          {
-            "id": "recG17tPSaLoaGIDk",
-            "name": "自架資料庫系統-開源 open source"
           }
         ]
       }
@@ -17592,7 +17611,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://wikishootme.toolforge.org/",
@@ -17638,7 +17657,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "三島市\nhttps://www.facebook.com/groups/1034515427046437/permalink/1399270120570964/\n\n岡崎\nhttps://www.facebook.com/share/v/ML1wjCW6nHFNgw1A/\nhttps://www.facebook.com/groups/437659989769965/permalink/2231111900424756/",
@@ -17672,7 +17691,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1806727836019362/"
@@ -17712,7 +17731,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://lp.tekkon.com/",
@@ -17752,7 +17771,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/NWSNashville/photos/a.124504487625844/3720485228027734/",
@@ -17824,7 +17843,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://tasks.hotosm.org/explore",
@@ -17881,11 +17900,11 @@
         "標籤": [
           {
             "id": "recb1gVCJed3xQKIZ",
-            "name": "環境-光環境/暗空"
+            "name": "環境-光環境 / 暗空"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "面出 薰所推動的照明偵探團，簡稱「TNT」，帶著各國燈光設計師以偵探的角色，到各大城市偵查光害，並舉辦工作坊，透過當地市民和專業者的參與，喚起對光的重視，減少光的危害。\nhttps://ourisland.pts.org.tw/content/1375",
@@ -17938,7 +17957,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.openstreetmap.org/",
@@ -17978,7 +17997,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.usgs.gov/core-science-systems/ngp/tnm-corps",
@@ -18041,7 +18060,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://phonemica.net/",
@@ -18140,7 +18159,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://develop-shitmap.web.app/",
@@ -18202,7 +18221,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/CitizenoftheEarth/posts/5105551986172673",
@@ -18259,7 +18278,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/beardrawing/photos/gm.304693500190478/1086830498155226/",
@@ -18305,7 +18324,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/1449647551953510/posts/2091583064426619/",
@@ -18352,7 +18371,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://geothings.tw/2014/11/04/%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AE%B6%E5%9C%92%E8%87%AA%E5%B7%B1%E6%95%91-%E8%AB%87%E8%A1%9B%E6%98%9F%E7%A9%BA%E7%85%A7%E5%9C%96%E7%9A%84%E5%8F%A6%E4%B8%80%E5%80%8B%E6%87%89%E7%94%A8/",
@@ -18398,7 +18417,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/%E5%85%A8%E5%9C%8B%E6%96%87%E7%89%A9%E6%99%AE%E6%9F%A5-1014752451990579/",
@@ -18439,7 +18458,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/localzine.tw/photos/a.1101679166552019/1504380122948586",
@@ -18503,7 +18522,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.no1tree.tw/",
@@ -18545,7 +18564,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/176223359193164/",
@@ -18601,7 +18620,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://oldtree.life",
@@ -18644,7 +18663,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1755922238027972/",
@@ -18683,7 +18702,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/R.C.W.R.C.T/",
@@ -18717,7 +18736,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.brainbank.tw/",
@@ -18752,7 +18771,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://nbct.nhri.org.tw/index.aspx",
@@ -18793,7 +18812,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://sixstar.moc.gov.tw/blog/yimyamy/myBlogArticleAction.do?method=doListArticleByPk&articleId=76358",
@@ -18841,7 +18860,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://g0v.hackmd.io/8ehrtcCNRaW90-UvPDpMPg",
@@ -18876,7 +18895,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/100680376948050/",
@@ -18910,7 +18929,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.poweather.com/",
@@ -18948,7 +18967,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.twbiobank.org.tw/",
@@ -19008,7 +19027,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://commutag.agawork.tw/dataset?id=63528cc34f042e88cc951433",
@@ -19060,7 +19079,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://g0v.hackmd.io/@chewei/actor/",
@@ -19106,7 +19125,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://watermap.teia.tw",
@@ -19152,11 +19171,11 @@
           },
           {
             "id": "recWEsXvca6RGKgRD",
-            "name": "建築 / 工程 / 營造"
+            "name": "建築 / 工程 / 營造 / 職安衛"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.itpark.com.tw/artist/critical_data/32/1590/30",
@@ -19196,7 +19215,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "https://www.facebook.com/groups/573697330058183/permalink/723294261765155/",
@@ -19240,7 +19259,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/suntravel/posts/10154366412469754",
@@ -19283,7 +19302,7 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recMzQ0ITRuZRGymE",
@@ -19299,7 +19318,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://doriver.com.tw/"
@@ -19340,7 +19359,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/media/set/?set=oa.1187355074716776&type=3",
@@ -19401,7 +19420,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.cpami.gov.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E6%A5%AD%E5%8B%99%E6%96%B0%E8%A8%8A/17742-%E9%83%BD%E5%B8%82%E5%85%AC%E5%9C%92%E7%B6%A0%E5%9C%B0%E5%87%BA%E5%85%A5%E5%8F%A3%E8%B7%AF%E9%98%BB%E9%9A%9C%E7%A4%99%E9%80%9A%E5%A0%B1%E5%88%97%E7%AE%A1%E7%AA%97%E5%8F%A3.html",
@@ -19441,7 +19460,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://tpmi.ibms.sinica.edu.tw/",
@@ -19526,7 +19545,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://www.landchg.org.tw/Module/Volunteer/Web/Login.aspx",
@@ -19584,7 +19603,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/2695218770596909",
@@ -19639,7 +19658,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://parks.olc.tw/",
@@ -19726,7 +19745,7 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recnyNKd9I3VBhM2N",
@@ -19738,7 +19757,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://docs.google.com/forms/d/e/1FAIpQLSfqCXr-zsrFNbsgF9JbfaYAM7diHbGc1OitaE9N0FXr5RAkdA/viewform.com",
@@ -19799,7 +19818,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.inaturalist.org/projects/lanyang-fin-print?tab=about",
@@ -19837,10 +19856,6 @@
             "name": "防災-社區人員培訓"
           },
           {
-            "id": "rec1SDKibnKwMfZRk",
-            "name": "緊急應變-救護媒合"
-          },
-          {
             "id": "recAwHpd9xICHbWfA",
             "name": "環境-AED 裝置"
           },
@@ -19850,7 +19865,11 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
+          },
+          {
+            "id": "rec4I9DjE2z35EqNu",
+            "name": "急救 / 救護"
           }
         ],
         "Website URL": "https://www.hear-aed.com.tw/",
@@ -19904,7 +19923,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.gbif.org/dataset/70e66bc4-a791-44c5-9c9b-1aa32934a909",
@@ -19960,7 +19979,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -20006,7 +20025,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://nwbw.naer.edu.tw/",
@@ -20052,7 +20071,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.huf.org.tw/event/content/3680",
@@ -20110,7 +20129,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://docs.google.com/forms/d/e/1FAIpQLSevt4u85AbJaRCaq1ycAWKpXymab-T34XrvLvE2q_iYbqtvMw/viewform",
@@ -20224,7 +20243,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/profile.php?id=61579136877395",
@@ -20308,7 +20327,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.bemyeyes.com/",
@@ -20369,7 +20388,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/events/236232163992676/permalink/236232583992634/",
@@ -20450,7 +20469,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/519307989052302/",
@@ -20509,7 +20528,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://sites.google.com/a/sowland.org/sowspeaker2012/shi-jie-hai-yang-ri/ai-sha-ji-hua",
@@ -20537,7 +20556,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://hiking.biji.co/index.php?q=review",
@@ -20586,7 +20605,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://m.facebook.com/story.php?story_fbid=pfbid0qu3qVU1roZDqGL3aFyw2wHaHhZvCZw9i477KuN2w3kHxoY8sN7BbRbTYSqtaoU1sl&id=100064190973605",
@@ -20637,7 +20656,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://docs.google.com/forms/d/e/1FAIpQLSfFsoLcLvi0MNNBJoZXE3GBPSr9NK-tGT9lcEm36NQY-OhmEg/viewform",
@@ -20683,7 +20702,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/TIDF.info/posts/1122731567745045",
@@ -20713,6 +20732,10 @@
           {
             "id": "rec4i8fsRaSEKJcHu",
             "name": "選舉"
+          },
+          {
+            "id": "recBkGr3zHUE6mRrs",
+            "name": "對策_視覺化 / 易讀版 / 儀表板"
           }
         ],
         "Website URL": "https://www.taiwanvotes.tw/"
@@ -20735,7 +20758,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.archives.gov/citizen-archivist",
@@ -20782,7 +20805,7 @@
         "標籤": [
           {
             "id": "rec0j8YA5iuE4rKh0",
-            "name": "情境網頁遊戲框架"
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
           }
         ],
         "Website URL": "https://pse.is/9v654e",
@@ -20830,7 +20853,7 @@
         "標籤": [
           {
             "id": "recE2TLn2FLLZONHR",
-            "name": "opendata"
+            "name": "對策_開放資料 Open Data / API / Portal"
           },
           {
             "id": "recTbQPHaofbg5KxI",
@@ -20861,7 +20884,7 @@
           },
           {
             "id": "rec0j8YA5iuE4rKh0",
-            "name": "情境網頁遊戲框架"
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
           }
         ],
         "Website URL": "https://popi-you-on-internet.com/",
@@ -20925,7 +20948,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://cap.archives.gov.tw/Home",
@@ -20982,7 +21005,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -21029,7 +21052,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "補充內容筆記區": "國立臺灣歷史博物館 National Museum of Taiwan History 推動 COVID-19（武漢肺炎）物件蒐集計畫https://www.facebook.com/310255137064/posts/10158371337112065/\n\n-----------------\n開源呼吸器\nhttps://www.facebook.com/groups/1726164380994208/permalink/2924895411121093/\n\n小學生的防疫日記\nhttps://www.facebook.com/100004560648780/posts/1897035430458460/?d=n\n\n-----------------\n世界各地博物館正利用「快速回應收藏」來徵集新冠疫情期間的個人經歷和有關物品\nhttps://www.facebook.com/TheMuseumBarAndCultureBlah/posts/235749444471955\n",
@@ -21081,7 +21104,7 @@
         "標籤": [
           {
             "id": "recZPAiEQdIo02zkC",
-            "name": "審議工具"
+            "name": "對策_數位審議討論工具 / 意見徵集與分群"
           }
         ],
         "Website URL": "https://participedia.net/search?selectedCategory=all&query=CIDS"
@@ -21115,7 +21138,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.wowtchout.com/",
@@ -21160,7 +21183,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.nationaltreasure.tw/",
@@ -21214,7 +21237,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://memory.culture.tw/",
@@ -21260,7 +21283,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://gn.geog.ntu.edu.tw/GeoNames/VGI.html",
@@ -21356,7 +21379,7 @@
         "標籤": [
           {
             "id": "rec0PSpxvzpG8GsFT",
-            "name": "通用"
+            "name": "通用 / 無障礙"
           }
         ],
         "Website URL": "https://g0v.hackmd.io/BdqvsaUARmuw1qbc6kvjaA?view"
@@ -21398,7 +21421,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.zooniverse.org/projects/drewdeepsouth/southern-weather-discovery",
@@ -21408,6 +21431,61 @@
             "name": "美國"
           }
         ]
+      }
+    },
+    {
+      "id": "recnhM1FqYYHmOOHS",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "project name": "滅蚊達人_網頁遊戲",
+        "標籤": [
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
+          },
+          {
+            "id": "recEBblMiYgQYxw2u",
+            "name": "防疫"
+          },
+          {
+            "id": "recTzoTTDGTd4N7eC",
+            "name": "生物-節肢動物門/昆蟲/螃蟹/鱟/蚊/擬蠍"
+          }
+        ],
+        "Website URL": "https://dadadadadada0517-commits.github.io/mosquito-master/",
+        "補充內容筆記區": "https://www.facebook.com/reel/1161332012955921"
+      }
+    },
+    {
+      "id": "recnksCS4ewXIR8y7",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recDx2rCzsNcaRbyQ",
+            "name": "9-SDGS-工業化、創新及基礎建設"
+          }
+        ],
+        "縣市": [
+          {
+            "id": "recsAGR78qikxqyUU",
+            "name": "連江縣"
+          }
+        ],
+        "project name": "馬祖出行_去馬祖，先看交通",
+        "標籤": [
+          {
+            "id": "rec3reaBKniF5ebDo",
+            "name": "交通 / MRT"
+          }
+        ],
+        "Website URL": "https://explorematsu.netlify.app/"
       }
     },
     {
@@ -21431,7 +21509,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.zooniverse.org/projects/krwood/old-weather-ww2",
@@ -21478,7 +21556,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/chiachi.wang.54/posts/10154881466373010",
@@ -21489,6 +21567,26 @@
             "name": "臺灣"
           }
         ]
+      }
+    },
+    {
+      "id": "recnoyGWvwhxDCBwj",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "project name": "917厝邊 - 廁所地圖",
+        "標籤": [
+          {
+            "id": "recCZOK3hqUiCKNf3",
+            "name": "環境-廁所"
+          }
+        ],
+        "Website URL": "https://www.mabow.com.tw/product_goodhood.html"
       }
     },
     {
@@ -21513,7 +21611,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.oldweather.org/",
@@ -21574,7 +21672,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://share.guppycsr.com/form",
@@ -21627,7 +21725,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://pnts.nmth.gov.tw/create",
@@ -21668,7 +21766,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/icwos/",
@@ -21719,7 +21817,7 @@
           },
           {
             "id": "rec0j8YA5iuE4rKh0",
-            "name": "情境網頁遊戲框架"
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
           }
         ],
         "Website URL": "https://hackmd.io/@astrobackhacker/HJ1xEMrGW/https%3A%2F%2Fhackmd.io%2Fs%2FSkuGvfSMZ?type=book",
@@ -21759,7 +21857,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://hackmd.io/@astrobackhacker/rkZ4n-0MD#/",
@@ -21770,6 +21868,83 @@
             "name": "全球 / 國際"
           }
         ]
+      }
+    },
+    {
+      "id": "reco8z8kma3CiHLdk",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "讓好問題，帶動一整堂課。老師輕鬆出題，學生用手機就能加入。從課堂互動到課後複習，把準備好的教材變成一起思考的起點。老師免登入也能建題、開課與看報表，學生免註冊。免費登入可儲存個人課程，跨裝置管理。",
+        "project name": "ClassLido",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          },
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          }
+        ],
+        "Website URL": "https://classlido.sportsmedicine.tw/"
+      }
+    },
+    {
+      "id": "recoAAtC9UCND8vJX",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          },
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "project name": "NEXT GEN 生育門檻可視化",
+        "標籤": [
+          {
+            "id": "recnxP1VDIBJGeP9B",
+            "name": "生育 / 孕產相關"
+          },
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          },
+          {
+            "id": "recBkGr3zHUE6mRrs",
+            "name": "對策_視覺化 / 易讀版 / 儀表板"
+          }
+        ],
+        "Website URL": "https://popolab-tw.github.io/next-gen/map/",
+        "補充內容筆記區": "https://www.threads.com/share/BBNLsrP3wm"
+      }
+    },
+    {
+      "id": "recoFyb7G1RQcGBG7",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "佛號・咒語・經文 21 種佛號、咒語與經文，附完整經文與持誦說明，點選即可閱讀全文",
+        "project name": "完整經文庫_佛號・咒語・經文",
+        "標籤": [
+          {
+            "id": "recE2TLn2FLLZONHR",
+            "name": "對策_開放資料 Open Data / API / Portal"
+          },
+          {
+            "id": "rechHlbElLocZpo75",
+            "name": "宗教儀典儀式相關"
+          }
+        ],
+        "Website URL": "https://nianfo.app/sutras"
       }
     },
     {
@@ -21794,7 +21969,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://adoptadrain.sfwater.org/",
@@ -21804,6 +21979,44 @@
             "name": "美國"
           }
         ]
+      }
+    },
+    {
+      "id": "recohWej6xMDwDtxw",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "日常文件轉 Markdown —— 涵蓋 PDF、Office、Apple Keynote／Numbers、EPUB 電子書等 16 種格式。中文友好、表格保留、隱私優先、全程本地。",
+        "project name": "doc-cleaner",
+        "github": "https://github.com/notoriouslab/doc-cleaner",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          }
+        ],
+        "補充內容筆記區": "https://www.facebook.com/jacob.mei/posts/pfbid02ZpK6msMuwVtTYuAj8HzF4jjf6RWYuV4iFZ7o54LZsBRubFwhBMgMRrG83dBzK9Jal"
+      }
+    },
+    {
+      "id": "recoptoX3DWMdb2Z8",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "這個 repo 是一套「課程 + 工具 + 可部署範本」：前半段從一般教師使用 NotebookLM 與 Gemini 整理資料、產出教學與行政文件開始；後半段延伸到學校行政承辦情境，使用 Google Forms、Sheets、Drive、Docs、Calendar、Gmail 與 Apps Script 建立可追蹤的行政專案工作流。它可以作為研習講義、校內工作坊教材，也可以作為回校後建置第一版 Google Workspace 行政流程的實作基礎。",
+        "project name": "NotebookLM / Gemini 到 Google Workspace 行政專案工作流",
+        "github": "https://github.com/mihozip/google-workspace-admin-project-workflow",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          }
+        ],
+        "補充內容筆記區": "https://www.facebook.com/albert.peng.56/posts/pfbid025EPpRAjJMrAWNcwdEHY5CYh8K8sZnH7gxDT9MQqKtZ53yR7SPPKyz2BVjTxcLL33l"
       }
     },
     {
@@ -21822,7 +22035,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.camaliot.org/",
@@ -21833,6 +22046,183 @@
             "name": "[待標記]"
           }
         ]
+      }
+    },
+    {
+      "id": "recouMPjmiJZLGE4I",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recOjCFAJLMF0vXek",
+            "name": "3-SDGS-健全生活品質"
+          }
+        ],
+        "Intro": "退休要存多少，沒有單一答案——它取決於你怎麼看勞保、長照、生活品質這幾件事。下面選一選、調一調，看屬於你的數字。\n\n",
+        "project name": "我需要存多少退休金？",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          }
+        ],
+        "Website URL": "https://retire-lab.pages.dev/target/",
+        "補充內容筆記區": "https://www.facebook.com/share/p/19BV7jnUp5/"
+      }
+    },
+    {
+      "id": "recovGGCM1idUzpUe",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "為外國人設計的注音符號學習網頁",
+        "project name": "BopoBear _ 為外國人設計的注音符號學習網頁",
+        "標籤": [
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          },
+          {
+            "id": "reckSHnHZfmEmmDIm",
+            "name": "社會文化-文字 / 語言 / 發音"
+          }
+        ],
+        "Website URL": "zhuyin-learning.vercel.app",
+        "補充內容筆記區": "https://www.threads.com/@yui.uiuxrookie/post/DYo2x_zke1V"
+      }
+    },
+    {
+      "id": "recoVHjNd0FvALfeI",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "[蒐集] 模擬遊戲",
+        "標籤": [
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recoyVW9LC6P87M71",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "project name": "PISA 臺灣科學教育調查視覺化網頁",
+        "標籤": [
+          {
+            "id": "recBkGr3zHUE6mRrs",
+            "name": "對策_視覺化 / 易讀版 / 儀表板"
+          }
+        ],
+        "Website URL": "https://thyan-arch.github.io/guess-taiwan-pisa/"
+      }
+    },
+    {
+      "id": "recoZah72YdkFXchl",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "1-liner": "用於衛星 TLE 載入、軌道視覺化、地面站通聯範圍與 pass 預測展示。",
+        "Intro": "用於衛星 TLE 載入、軌道視覺化、地面站通聯範圍與 pass 預測展示。",
+        "project name": "Satellite Tracker / Ground Station Pass Visualization",
+        "Website URL": "https://sat.xionglala.space/",
+        "補充內容筆記區": "https://www.facebook.com/share/p/1GkdbyRMfg/"
+      }
+    },
+    {
+      "id": "recpbYloIWAzN1c6k",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "網站結合「熱像儀」與「街景環境組成分析（LaDeco 軟體）」收集的資料做成互動式地圖，以觀察社區公共空間的熱風險與降溫潛力。",
+        "project name": "微氣候與環境綠化互動地圖",
+        "標籤": [
+          {
+            "id": "recuiTib4bRLqPcWH",
+            "name": "地圖 GIS"
+          }
+        ],
+        "Website URL": "https://heatgreenmap.netlify.app/",
+        "補充內容筆記區": "https://xycc.tw/%E5%9C%B0%E7%90%86/%E5%BE%AE%E6%B0%A3%E5%80%99%E8%88%87%E7%92%B0%E5%A2%83%E7%B6%A0%E5%8C%96%E4%BA%92%E5%8B%95%E5%9C%B0%E5%9C%96.html"
+      }
+    },
+    {
+      "id": "recpCxDzwgAnWQwHC",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "不應該只有偷拍工具。這世界也應該有免費、可信任的公益反偷拍工具。住進旅館、走進公廁，或到診所接受治療時，我們本來只想好好休息、安心生活，卻還得擔心有沒有鏡頭藏在角落。台北醫美診所接連爆出偷拍案件，讓我們更想為這份不安做點事。揪鏡相信，保護自己不該是付費才能擁有的能力。我們打造永久免費、開源的公益反偷拍工具，透過同 Wi-Fi 服務探索、BLE 廣播掃描，以及相機放大與補光，陪使用者多看一眼、確認可疑線索。現階段資料留在手機，不上傳掃描結果或相機畫面；方法與限制公開，讓信任有據可循。",
+        "project name": "揪鏡 - 開源永久免費反偷拍工具",
+        "github": "https://github.com/JiuJingLab/ios",
+        "標籤": [
+          {
+            "id": "recdhIJ3VR7sWdVG0",
+            "name": "反偷拍"
+          }
+        ]
+      }
+    },
+    {
+      "id": "recpfERTzdMtEPK3Z",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "Intro": "用地圖走讀社區的歷史與環境，邀請居民一起觀察、標記與回饋。",
+        "project name": "社區文史與環境感知互動地圖",
+        "標籤": [
+          {
+            "id": "recuiTib4bRLqPcWH",
+            "name": "地圖 GIS"
+          }
+        ],
+        "Website URL": "https://xinyi-water-map-theta.vercel.app/"
+      }
+    },
+    {
+      "id": "recpJXHJo5ppIQGNw",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "不知道怎麼跟 AI 下指令嗎？我做了一個小遊戲，邊玩邊學怎麼跟 AI 對話。A browser game to learn prompt engineering by playing — explore a world and solve challenges by writing prompts. Techniques from OpenAI, Anthropic, Google & xAI, each cited.",
+        "project name": "Promptasy",
+        "github": "https://github.com/romanticamaj/promptasy",
+        "標籤": [
+          {
+            "id": "recTbQPHaofbg5KxI",
+            "name": "AI"
+          },
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
+          }
+        ],
+        "Website URL": "https://www.garyhsieh.com/promptasy",
+        "補充內容筆記區": "https://www.facebook.com/reel/1043309405336645"
       }
     },
     {
@@ -21869,7 +22259,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://commutag.agawork.tw/dataset?id=5f1f91818237617934d8d168",
@@ -21879,6 +22269,72 @@
             "name": "群眾標註 commutag"
           }
         ]
+      }
+    },
+    {
+      "id": "recpRhQioDIfvhJXE",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recDx2rCzsNcaRbyQ",
+            "name": "9-SDGS-工業化、創新及基礎建設"
+          }
+        ],
+        "project name": "OSH Knowledge Graph 職安衛知識圖譜",
+        "標籤": [
+          {
+            "id": "recWEsXvca6RGKgRD",
+            "name": "建築 / 工程 / 營造 / 職安衛"
+          }
+        ],
+        "Website URL": "https://osh-wiki-knowledge.alanleetw.chatgpt.site/",
+        "補充內容筆記區": "https://www.facebook.com/groups/753980442028763/?multi_permalinks=2263569381069854&hoisted_section_header_type=recently_seen"
+      }
+    },
+    {
+      "id": "recpRrOZZEsVXp1QF",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "讓你的分享，可以即時叩應。把觀眾從沉默的方格帶回現場。上傳 PDF 或貼上簡報網址，一分鐘得到講者畫面、觀眾 QR Code 與主持連結。不用學新的簡報軟體。Call-in 把簡報與理解難度、問題池和即時反應放進同一個講者畫面。",
+        "project name": "Call-in 簡單叩應",
+        "github": "https://github.com/mashbean/call-in",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          }
+        ],
+        "Website URL": "https://call-in.mashbean.net/",
+        "補充內容筆記區": "https://www.facebook.com/1814292344/posts/10226416513598532/?rdid=0EJvOgi3cZrhU2rL#"
+      }
+    },
+    {
+      "id": "recpTkQg9uZjBU4p4",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recWJ1usIU4lvdOlk",
+            "name": "8-SDGS-良好就業和經濟成長"
+          }
+        ],
+        "Intro": "一款專為自由工作者（Freelancers）、獨立顧問（Consultants）與外包接案者打造的本機優先（Local-First）工時記錄、客戶對帳請款與年度財務管理工具。",
+        "project name": "WorkTime Pro | 自由工作者與接案顧問的本地工時與營收追蹤系統",
+        "github": "https://github.com/Legendream/TimeTracker",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          }
+        ],
+        "補充內容筆記區": "https://www.facebook.com/tingyu.cheng.71/posts/pfbid0CDtiEtxeq3ZG3PgAtcBrioCu15JtnVVCiMLVPy7rAsA3x5TPNV8FRQk6iyAYWuJ2l"
       }
     },
     {
@@ -21915,7 +22371,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://appadvice.com/app/e5-b8-82-e6-b0-91-e6-8e-a2-e9-87-9d/1221244028",
@@ -21960,7 +22416,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://myshake.berkeley.edu/",
@@ -22028,7 +22484,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://photo.swcb.gov.tw/Repository/Database",
@@ -22079,7 +22535,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://246.swcb.gov.tw/debrisClassInfo/disastermission/disastermission1.aspx",
@@ -22137,7 +22593,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://en.wikipedia.org/wiki/Quake-Catcher_Network",
@@ -22184,7 +22640,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/395649920501387",
@@ -22224,7 +22680,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://play.google.com/store/apps/details?id=com.geoharvester.apk&hl=zh_TW",
@@ -22262,7 +22718,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://sirens.honolulu.gov/",
@@ -22272,6 +22728,48 @@
             "name": "美國"
           }
         ]
+      }
+    },
+    {
+      "id": "recr7RAYkd9Z8o8L5",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "從想做一件事，到真正把事情做好。地方實踐從來不只有理念。那些提案、經費、組織與行政上的難題，我們試著整理成你隨時都能使用的知識與方法。",
+        "project name": "地方實踐指南",
+        "標籤": [
+          {
+            "id": "recyJqJBaxEjtNBX4",
+            "name": "對策_指引 / 手冊 / 指南"
+          },
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          },
+          {
+            "id": "recKhdDtxpN7LRpyY",
+            "name": "對策_各項資訊彙整提供給使用者 / 懶人包 / 一站式"
+          },
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
+          }
+        ],
+        "Website URL": "https://guide.mountcounty.com/",
+        "補充內容筆記區": "https://www.facebook.com/share/p/1EzBCWvT4x/"
+      }
+    },
+    {
+      "id": "recr883gS1VHnq5Lg",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "[彙整] 心理測驗結合議題推廣：案例、數位工具",
+        "標籤": [
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
+          }
+        ],
+        "Website URL": "https://g0v.hackmd.io/@chewei/r1j3D_uev"
       }
     },
     {
@@ -22302,7 +22800,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://boinc.berkeley.edu/",
@@ -22344,7 +22842,7 @@
         "標籤": [
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://en.wikipedia.org/wiki/Google_Crowdsource",
@@ -22360,6 +22858,35 @@
             "name": "全球 / 國際"
           }
         ]
+      }
+    },
+    {
+      "id": "recrfLguqHh2Lyi7m",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "[彙整] 讓民意代表候選人承諾或連署的網頁",
+        "標籤": [
+          {
+            "id": "recL4Og5tc74MWxKf",
+            "name": "對策_讓民意代表候選人承諾或連署的網頁"
+          }
+        ],
+        "Website URL": "https://g0v.hackmd.io/mwWprFkwQ9uE10G4WN26RQ?view"
+      }
+    },
+    {
+      "id": "recrV2h6dTRvIwytc",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "機器人友善環境指引 Guidelines for Robot-Friendly Environments (RFE) in Mobile Robot Applications",
+        "標籤": [
+          {
+            "id": "recyJqJBaxEjtNBX4",
+            "name": "對策_指引 / 手冊 / 指南"
+          }
+        ],
+        "Website URL": "https://www.amr-alliance.org/amra-300/",
+        "補充內容筆記區": "https://www.facebook.com/share/v/1FTSzYGEZC/"
       }
     },
     {
@@ -22400,7 +22927,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "http://tesis.earth.sinica.edu.tw/DYFI/",
@@ -22452,7 +22979,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "資料彙整技術方案": [
@@ -22503,7 +23030,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.twbiobank.org.tw/",
@@ -22547,7 +23074,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://165.npa.gov.tw/#/report/fraudAd/04",
@@ -22557,6 +23084,26 @@
             "name": "自架資料庫系統-待確認是否開源 open source"
           }
         ]
+      }
+    },
+    {
+      "id": "recsy39nzo0KtZnof",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "g0v 成就系統",
+        "標籤": [
+          {
+            "id": "recVcKmOC5ZfmGoZi",
+            "name": "對策_成就系統"
+          }
+        ],
+        "Website URL": "https://badge.g0v.tw/"
       }
     },
     {
@@ -22619,7 +23166,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://docs.google.com/forms/d/e/1FAIpQLSecplhRK59P218nTgF6ktTYy7AIulpdODMDOTzAEXzbcnlkDw/viewform",
@@ -22693,7 +23240,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/3935828286540249/",
@@ -22759,7 +23306,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/1118888072823847/",
@@ -22867,7 +23414,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/tungliao.cheng/posts/pfbid02VKPNJ8pysim2t5wnLeEHDQj6NE66kPKXKu8LUnsjWZQM5yB1Vd3tTuJ1W28FVrZil"
@@ -22900,7 +23447,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/bundnaturschutz/posts/pfbid0f4DpCKaQzqYKCG7qQLxQKc2PJiAxQTfPvjKaFMbatmQeh3V7Y4sB1KFj2oa9X6Dxl",
@@ -22962,7 +23509,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/340716976672593/",
@@ -23000,7 +23547,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://docs.google.com/forms/d/e/1FAIpQLSfG7Bzy4cv7vqY4hCfuuS7c7bqWkctH6E66uvhhSbx4-Ani0w/viewform?pli=1",
@@ -23040,7 +23587,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "國際地區": [
@@ -23098,7 +23645,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/jacanabanding/",
@@ -23147,7 +23694,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://phis.baphiq.gov.tw/category-1-10",
@@ -23196,7 +23743,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://phis.baphiq.gov.tw/category-1-10",
@@ -23245,7 +23792,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://phis.baphiq.gov.tw/category-1-10",
@@ -23297,7 +23844,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://reurl.cc/WG3pXe",
@@ -23359,7 +23906,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://experiments.withgoogle.com/calling-in-our-corals",
@@ -23418,7 +23965,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://fireant.baphiq.gov.tw/RedFireant/Prevention",
@@ -23460,7 +24007,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.nhm.ac.uk/take-part/monitor-and-encourage-nature/nature-overheard.html",
@@ -23505,7 +24052,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/wrrc700/posts/pfbid02mhBnYjkuuVdyBvfaD8ZWJ8trvtJnwkMmYWTTeyBpZy2zDWLhCKxhKFbKhnfsZKbol"
@@ -23571,7 +24118,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/groups/fishinghackers/posts/773857140823039/",
@@ -23616,7 +24163,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/story.php?story_fbid=644766054355448&id=100064661770656&mibextid=qC1gEa"
@@ -23681,7 +24228,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.ysnp.gov.tw/BlackBearNotification/C004400",
@@ -23721,7 +24268,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://docs.google.com/forms/d/19BkD5so681-KHn0YAlCEFO7-gKwaiQvDNSnkvgDDTPA/viewform",
@@ -23793,7 +24340,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.facebook.com/sow.org.tw/posts/pfbid02iXPMHeYDTkPn8vgpYcEwozWHgnoZfCYqPA9FD1w3Qa5uJBXnEUeHoBYuwef4qGz7l"
@@ -23821,7 +24368,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.unsw.edu.au/research/wrl/our-research/coastsnap",
@@ -23873,7 +24420,7 @@
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://itrail.tw/",
@@ -23919,11 +24466,11 @@
         "標籤": [
           {
             "id": "recw8dlcxNtnpz7RK",
-            "name": "環境-水環境 / 水資源 / 水質採樣"
+            "name": "環境-水環境 / 水資源 / 水質採樣 / 溪流 / 河川 / 野溪"
           },
           {
             "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "name": "對策_群眾外包 Crowdsourcing"
           }
         ],
         "Website URL": "https://www.channelmm.ia.gov.tw/crportal/",
@@ -23958,12 +24505,12 @@
         "project name": "急救先鋒 APP",
         "標籤": [
           {
-            "id": "rec1SDKibnKwMfZRk",
-            "name": "緊急應變-救護媒合"
+            "id": "recmNjusE9u9rOH6X",
+            "name": "對策_群眾外包 Crowdsourcing"
           },
           {
-            "id": "recmNjusE9u9rOH6X",
-            "name": "群眾外包 Crowdsourcing"
+            "id": "rec4I9DjE2z35EqNu",
+            "name": "急救 / 救護"
           }
         ],
         "Website URL": "https://www.facebook.com/whathappenedtoanne/posts/pfbid0QMcpe6MuDTHhwJrp74ukhsN5WFTzqVsf1rPf6iRZvrS9TD2hLP2Xv6nJ7vkBLkkbl"
