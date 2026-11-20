@@ -11,7 +11,7 @@
     "label": "標籤",
     "id": "tbldJciCsar1CCjYx"
   },
-  "recordCount": 144,
+  "recordCount": 146,
   "fields": [
     {
       "id": "fldGLkzEjr1wVn5CX",
@@ -66,6 +66,10 @@
           {
             "id": "recoFyb7G1RQcGBG7",
             "name": "完整經文庫_佛號・咒語・經文"
+          },
+          {
+            "id": "rectrdjOyXzp8T11y",
+            "name": "釋字及憲法法庭資料庫"
           }
         ],
         "tag": "對策_開放資料 Open Data / API / Portal",
@@ -138,9 +142,25 @@
           {
             "id": "receslbyVKhQIEH44",
             "name": "法律偵探 - 免費 AI 法律諮詢 "
+          },
+          {
+            "id": "rectuBITQrsdwIrQh",
+            "name": "AI 量刑預測系統"
+          },
+          {
+            "id": "rectXZL8aTwLcYDKt",
+            "name": "裁判書實證研究平台"
+          },
+          {
+            "id": "recwPlLS1Gs5Op0UL",
+            "name": "法律書狀撰寫輔助工具"
+          },
+          {
+            "id": "recxAOkpBirrH9HGt",
+            "name": "專利法知識平台AI"
           }
         ],
-        "tag": "司法判決",
+        "tag": "司法判決 / 法律相關",
         "presentation name": [
           {
             "id": "reccyUgwfGSxd6mck",
@@ -241,6 +261,10 @@
           {
             "id": "recmNPzm6sXffet3V",
             "name": "g0v 數位韌性松"
+          },
+          {
+            "id": "recuto6IT6WqThe1o",
+            "name": "邊坡穩定風險模擬系統"
           }
         ],
         "tag": "防災",
@@ -340,6 +364,22 @@
           {
             "id": "recr883gS1VHnq5Lg",
             "name": "[彙整] 心理測驗結合議題推廣：案例、數位工具"
+          },
+          {
+            "id": "recsCya3zKCzK8KyJ",
+            "name": "Linux Odyssey"
+          },
+          {
+            "id": "recsMU9zBiX5pBD2A",
+            "name": "青春網戀模擬器"
+          },
+          {
+            "id": "rectBHEPnM9IfYbhX",
+            "name": "地瓜宮 _都市鳥類生存環境體驗網頁遊戲"
+          },
+          {
+            "id": "rectJsPMfwJ3IWAt5",
+            "name": "空間泡泡"
           }
         ],
         "tag": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構",
@@ -371,6 +411,10 @@
           {
             "id": "recFYv57mimFoRJr2",
             "name": "國道救護可及性地圖"
+          },
+          {
+            "id": "recwHZT8o0zVnLocv",
+            "name": "最佳路徑交通費計算工具"
           }
         ],
         "tag": "交通 / MRT",
@@ -776,6 +820,10 @@
           {
             "id": "reco8z8kma3CiHLdk",
             "name": "ClassLido"
+          },
+          {
+            "id": "recvND3M6MtYvrYIX",
+            "name": "班級排座位工具"
           }
         ],
         "tag": "教育"
@@ -2379,6 +2427,34 @@
           {
             "id": "recr7RAYkd9Z8o8L5",
             "name": "地方實踐指南"
+          },
+          {
+            "id": "rectwHEySc7E7fWiP",
+            "name": "申論題批改小幫手"
+          },
+          {
+            "id": "rectH3zdErwVMdksg",
+            "name": "AI 設計策略生成工具"
+          },
+          {
+            "id": "recuKmxyQCLK0hPWm",
+            "name": "數位登山"
+          },
+          {
+            "id": "recvND3M6MtYvrYIX",
+            "name": "班級排座位工具"
+          },
+          {
+            "id": "recwHZT8o0zVnLocv",
+            "name": "最佳路徑交通費計算工具"
+          },
+          {
+            "id": "recxJwIMYjYuE6VE2",
+            "name": "考上社工師"
+          },
+          {
+            "id": "recy2oNFD9FX5RlN6",
+            "name": "籽樂教育SEL服務"
           }
         ],
         "tag": "對策_小幫手 / 小工具"
@@ -2564,9 +2640,30 @@
           {
             "id": "recqd9WUAkrk1u3lm",
             "name": "憲法急診室"
+          },
+          {
+            "id": "rectrdjOyXzp8T11y",
+            "name": "釋字及憲法法庭資料庫"
           }
         ],
         "tag": "憲法"
+      }
+    },
+    {
+      "id": "recAaJZS6YNI0q4Q9",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recshk0XgKj500UDL",
+            "name": "CouponShare 優惠券分享平台"
+          },
+          {
+            "id": "recsi9EDe1JRSW2GK",
+            "name": "[彙整] 物資捐贈類管道與專案"
+          }
+        ],
+        "tag": "對策_供需媒合 / 分享"
       }
     },
     {
@@ -2589,6 +2686,10 @@
           {
             "id": "recyP4ob4gi3Opuln",
             "name": "查無此人_幫照片人物加上動物頭像"
+          },
+          {
+            "id": "recwHZT8o0zVnLocv",
+            "name": "最佳路徑交通費計算工具"
           }
         ],
         "tag": "NGO 會務"
@@ -2656,7 +2757,7 @@
           },
           {
             "id": "reczbsfxNG6XsGDet",
-            "name": "詐騙因應對策_情境經驗蒐集_專案"
+            "name": "[蒐集] 詐騙因應對策_情境經驗蒐集"
           },
           {
             "id": "recF6BAX3TYNNWHaO",
@@ -2687,6 +2788,10 @@
           {
             "id": "reckZCXnls1SMXT4p",
             "name": "《台灣維修社群-小家電維修報告》"
+          },
+          {
+            "id": "reczCKNCPqWft8fzU",
+            "name": "救護教具省錢術｜讓「斷腿」QCPR 安妮重生"
           }
         ],
         "tag": "維修 / 修理 / 修繕"
@@ -2706,7 +2811,7 @@
             "name": "swonline  2D 線上網頁"
           }
         ],
-        "tag": "對策_續命 / 早年網站改版續航"
+        "tag": "對策_專案續命 / 早年網站改版續航"
       }
     },
     {
@@ -2740,6 +2845,19 @@
           }
         ],
         "tag": "立法院"
+      }
+    },
+    {
+      "id": "rech4WrCCUHcw94jf",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "recy2oNFD9FX5RlN6",
+            "name": "籽樂教育SEL服務"
+          }
+        ],
+        "tag": "SEL / 情緒教育 "
       }
     },
     {
@@ -2787,6 +2905,23 @@
           }
         ],
         "tag": "社會福利 / 社福"
+      }
+    },
+    {
+      "id": "recjuCzBM57XYkcn5",
+      "createdTime": "2026-04-21T02:57:20.000Z",
+      "fields": {
+        "project list": [
+          {
+            "id": "reczDKMXXsKIwPCFd",
+            "name": "彩虹平權大平台"
+          },
+          {
+            "id": "recTWaGcwR0ZtXqPd",
+            "name": "Herstory"
+          }
+        ],
+        "tag": "性別平權"
       }
     },
     {
@@ -2864,6 +2999,10 @@
           {
             "id": "recrfLguqHh2Lyi7m",
             "name": "[彙整] 讓民意代表候選人承諾或連署的網頁"
+          },
+          {
+            "id": "reczDKMXXsKIwPCFd",
+            "name": "彩虹平權大平台"
           }
         ],
         "tag": "對策_讓民意代表候選人承諾或連署的網頁"
@@ -2927,7 +3066,7 @@
           },
           {
             "id": "reczbsfxNG6XsGDet",
-            "name": "詐騙因應對策_情境經驗蒐集_專案"
+            "name": "[蒐集] 詐騙因應對策_情境經驗蒐集"
           },
           {
             "id": "recW33DJSrK8nZh0i",
@@ -2973,6 +3112,10 @@
           {
             "id": "recFYv57mimFoRJr2",
             "name": "國道救護可及性地圖"
+          },
+          {
+            "id": "recwHZT8o0zVnLocv",
+            "name": "最佳路徑交通費計算工具"
           }
         ],
         "tag": "路徑分析"
@@ -3019,6 +3162,14 @@
           {
             "id": "recpJXHJo5ppIQGNw",
             "name": "Promptasy"
+          },
+          {
+            "id": "rectH3zdErwVMdksg",
+            "name": "AI 設計策略生成工具"
+          },
+          {
+            "id": "recxUfF1F3rwwAiUS",
+            "name": "建築人的 AI 提示詞社群"
           }
         ],
         "tag": "AI"
@@ -3044,6 +3195,14 @@
           {
             "id": "recpfERTzdMtEPK3Z",
             "name": "社區文史與環境感知互動地圖"
+          },
+          {
+            "id": "recv0n2WjdSRlw9P9",
+            "name": "巡山員地圖"
+          },
+          {
+            "id": "recwigJuoaWU1hth4",
+            "name": "地籍查詢 APP"
           }
         ],
         "tag": "地圖 GIS"
@@ -3061,9 +3220,13 @@
           {
             "id": "recsy39nzo0KtZnof",
             "name": "g0v 成就系統"
+          },
+          {
+            "id": "recv3mhbOOAiSn88U",
+            "name": "幸福存摺"
           }
         ],
-        "tag": "對策_成就系統"
+        "tag": "對策_建立參與者的成就系統 / 貢獻歷程"
       }
     },
     {
@@ -3112,6 +3275,18 @@
           {
             "id": "recpRhQioDIfvhJXE",
             "name": "OSH Knowledge Graph 職安衛知識圖譜"
+          },
+          {
+            "id": "rectoZTTWHitheez6",
+            "name": "基地先覺"
+          },
+          {
+            "id": "rectJsPMfwJ3IWAt5",
+            "name": "空間泡泡"
+          },
+          {
+            "id": "recxUfF1F3rwwAiUS",
+            "name": "建築人的 AI 提示詞社群"
           }
         ],
         "tag": "建築 / 工程 / 營造 / 職安衛"
@@ -3128,19 +3303,6 @@
           }
         ],
         "tag": "摘要整理"
-      }
-    },
-    {
-      "id": "recXuNfLyg4CDUGpL",
-      "createdTime": "2026-04-21T02:57:20.000Z",
-      "fields": {
-        "project list": [
-          {
-            "id": "reczbsfxNG6XsGDet",
-            "name": "詐騙因應對策_情境經驗蒐集_專案"
-          }
-        ],
-        "tag": "詐騙"
       }
     },
     {
@@ -3587,9 +3749,17 @@
           {
             "id": "recyvJ5fNtN9OR507",
             "name": "Cofacts 真的假的"
+          },
+          {
+            "id": "recsMU9zBiX5pBD2A",
+            "name": "青春網戀模擬器"
+          },
+          {
+            "id": "reczbsfxNG6XsGDet",
+            "name": "[蒐集] 詐騙因應對策_情境經驗蒐集"
           }
         ],
-        "tag": "社會文化-媒體識讀 / 防詐"
+        "tag": "社會文化-媒體識讀 / 防詐 / 反詐騙"
       }
     },
     {
@@ -3894,6 +4064,10 @@
           {
             "id": "receEtZGRmpPAheFr",
             "name": "重機車友 ❘ 各區路況天氣、資訊分享中心"
+          },
+          {
+            "id": "recvVkoflsbE7cIN6",
+            "name": "火燒雲預測網站"
           }
         ],
         "tag": "氣象-觀測"
@@ -4193,9 +4367,21 @@
           {
             "id": "recjrCU5hlZ09tFnt",
             "name": "健行筆記"
+          },
+          {
+            "id": "recuu7yFjxRiQDNvV",
+            "name": "山盒 PeaKit"
+          },
+          {
+            "id": "recuKmxyQCLK0hPWm",
+            "name": "數位登山"
+          },
+          {
+            "id": "recv0n2WjdSRlw9P9",
+            "name": "巡山員地圖"
           }
         ],
-        "tag": "環境-山徑議題通報 / 戶外路線"
+        "tag": "環境-步道山徑議題通報 / 戶外路線 / 登山 / 爬山"
       }
     },
     {
@@ -4575,6 +4761,10 @@
           {
             "id": "recjrHTMA8IBY3w4u",
             "name": "燕巢調查"
+          },
+          {
+            "id": "rectBHEPnM9IfYbhX",
+            "name": "地瓜宮 _都市鳥類生存環境體驗網頁遊戲"
           }
         ],
         "tag": "生物-脊索動物門/鳥類"

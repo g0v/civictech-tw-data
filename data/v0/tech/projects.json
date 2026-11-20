@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 618,
+  "recordCount": 645,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -1323,7 +1323,7 @@
         "標籤": [
           {
             "id": "recrYcUqpRnudRShb",
-            "name": "司法判決"
+            "name": "司法判決 / 法律相關"
           }
         ]
       }
@@ -2015,7 +2015,7 @@
         "標籤": [
           {
             "id": "recrYcUqpRnudRShb",
-            "name": "司法判決"
+            "name": "司法判決 / 法律相關"
           }
         ],
         "Website URL": "https://sunshine.jrf.org.tw/"
@@ -2377,6 +2377,7 @@
             "name": "自架資料庫系統-開源 open source"
           }
         ],
+        "補充內容筆記區": "10 年推動歷程回顧影片 https://www.youtube.com/watch?v=FWmS_4kxnZ8&t=2450s",
         "project name EN": "Campaign Finance Crowdsourcing"
       }
     },
@@ -2838,6 +2839,12 @@
         "Intro": "We want to show \"herstory\" in East Asia from local perspectives with a timeline and a map in our local languages, so that people from different regions of East Asia can learn more about the stories and rights women and LGBETQ+ have fought for. 東亞女性權力行動歷程書寫",
         "AI insight generated": "2026-10-19",
         "project name": "Herstory",
+        "標籤": [
+          {
+            "id": "recjuCzBM57XYkcn5",
+            "name": "性別平權"
+          }
+        ],
         "Website URL": "https://herstory-of-east-asia.netlify.app/",
         "project name EN": "Herstory"
       }
@@ -3011,6 +3018,10 @@
           {
             "id": "recgju1kjunx4E2Hv",
             "name": "教育"
+          },
+          {
+            "id": "recVcKmOC5ZfmGoZi",
+            "name": "對策_建立參與者的成就系統 / 貢獻歷程"
           }
         ],
         "Website URL": "https://www.happinessbankbook.org/",
@@ -3297,11 +3308,11 @@
         "標籤": [
           {
             "id": "recAvkwSO7vSuVRwl",
-            "name": "社會文化-媒體識讀 / 防詐"
+            "name": "社會文化-媒體識讀 / 防詐 / 反詐騙"
           },
           {
             "id": "recVcKmOC5ZfmGoZi",
-            "name": "對策_成就系統"
+            "name": "對策_建立參與者的成就系統 / 貢獻歷程"
           }
         ],
         "Website URL": "https://cofacts.g0v.tw/",
@@ -4024,7 +4035,7 @@
         "標籤": [
           {
             "id": "recdNeiBAdxy2ZpkE",
-            "name": "對策_續命 / 早年網站改版續航"
+            "name": "對策_專案續命 / 早年網站改版續航"
           },
           {
             "id": "recYKSFIiVkrfMFI0",
@@ -4520,7 +4531,7 @@
         "標籤": [
           {
             "id": "recrYcUqpRnudRShb",
-            "name": "司法判決"
+            "name": "司法判決 / 法律相關"
           }
         ]
       }
@@ -4675,7 +4686,7 @@
         "標籤": [
           {
             "id": "recdNeiBAdxy2ZpkE",
-            "name": "對策_續命 / 早年網站改版續航"
+            "name": "對策_專案續命 / 早年網站改版續航"
           }
         ],
         "Website URL": "https://g0v.github.io/swonline/"
@@ -4882,19 +4893,19 @@
         "AI insight": "做什麼：蒐集詐騙情境與因應經驗的專案\n給誰、解決什麼：不明\n怎麼運作：在共筆整理各種詐騙手法的實際經驗與因應方式\n討論在哪裡：不明",
         "document": "https://g0v.hackmd.io/T4Sq-imZTsSmzVqKI_Xnhg?view",
         "AI insight generated": "2026-10-23",
-        "project name": "詐騙因應對策_情境經驗蒐集_專案",
+        "project name": "[蒐集] 詐騙因應對策_情境經驗蒐集",
         "標籤": [
           {
             "id": "recd9ANO6c4U06Z38",
             "name": "網路治理"
           },
           {
-            "id": "recXuNfLyg4CDUGpL",
-            "name": "詐騙"
-          },
-          {
             "id": "recoq9E6bzdnOrPK9",
             "name": "資安 / 資訊安全"
+          },
+          {
+            "id": "recAvkwSO7vSuVRwl",
+            "name": "社會文化-媒體識讀 / 防詐 / 反詐騙"
           }
         ]
       }
@@ -5001,7 +5012,7 @@
         "標籤": [
           {
             "id": "recrYcUqpRnudRShb",
-            "name": "司法判決"
+            "name": "司法判決 / 法律相關"
           }
         ],
         "Website URL": "https://dr-lawbot.com/"
@@ -13689,7 +13700,7 @@
         "標籤": [
           {
             "id": "reckrImWqei6h5fK3",
-            "name": "環境-山徑議題通報 / 戶外路線"
+            "name": "環境-步道山徑議題通報 / 戶外路線 / 登山 / 爬山"
           },
           {
             "id": "recmNjusE9u9rOH6X",
@@ -20552,7 +20563,7 @@
         "標籤": [
           {
             "id": "reckrImWqei6h5fK3",
-            "name": "環境-山徑議題通報 / 戶外路線"
+            "name": "環境-步道山徑議題通報 / 戶外路線 / 登山 / 爬山"
           },
           {
             "id": "recmNjusE9u9rOH6X",
@@ -23043,6 +23054,57 @@
       }
     },
     {
+      "id": "recsCya3zKCzK8KyJ",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "Intro": "程式設計不僅僅是寫程式碼，還涉及到如何有效地與你的電腦互動。程式教育卻往往忽略背後「開發環境」的重要性，使得許多學生在過程中充滿挫折。「開發環境」是寫程式、執行程式過程所需要的一切工具。而這些工具需要在終端機輸入指令來使用。大部分的程式要用來運行的環境，並非 Windows 或 Mac OS，而是 Linux 作業系統。 Linux Odyssey 即是為此設計的線上 Linux 互動教學網站。",
+        "project name": "Linux Odyssey",
+        "標籤": [
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
+          }
+        ],
+        "Website URL": "https://linuxodyssey.xyz/"
+      }
+    },
+    {
+      "id": "recshk0XgKj500UDL",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "把用不到的優惠券，和需要的人分享。一張你還沒時間用的券，剛好是別人正需要的小確幸。把「我用不到」交給「我需要」，不花一毛錢，也能讓世界溫暖一點。",
+        "project name": "CouponShare 優惠券分享平台",
+        "標籤": [
+          {
+            "id": "recAaJZS6YNI0q4Q9",
+            "name": "對策_供需媒合 / 分享"
+          }
+        ],
+        "Website URL": "https://couponshare.lazybearlife.com/",
+        "補充內容筆記區": "https://www.threads.com/@lazybearlife_/post/DabyzL6CaCq"
+      }
+    },
+    {
+      "id": "recsi9EDe1JRSW2GK",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "[彙整] 物資捐贈類管道與專案",
+        "標籤": [
+          {
+            "id": "recAaJZS6YNI0q4Q9",
+            "name": "對策_供需媒合 / 分享"
+          }
+        ],
+        "Website URL": "https://g0v.hackmd.io/Ylob5q1rR361wt6RIzYBSA"
+      }
+    },
+    {
       "id": "recSjDeF1Iipl1kH8",
       "createdTime": "2026-05-02T21:00:35.000Z",
       "fields": {
@@ -23066,7 +23128,7 @@
         "標籤": [
           {
             "id": "recAvkwSO7vSuVRwl",
-            "name": "社會文化-媒體識讀 / 防詐"
+            "name": "社會文化-媒體識讀 / 防詐 / 反詐騙"
           },
           {
             "id": "recoq9E6bzdnOrPK9",
@@ -23087,6 +23149,24 @@
       }
     },
     {
+      "id": "recsMU9zBiX5pBD2A",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "青春網戀模擬器",
+        "標籤": [
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
+          },
+          {
+            "id": "recAvkwSO7vSuVRwl",
+            "name": "社會文化-媒體識讀 / 防詐 / 反詐騙"
+          }
+        ],
+        "Website URL": "https://youth-news.pts.org.tw/onlinedating/"
+      }
+    },
+    {
       "id": "recsy39nzo0KtZnof",
       "createdTime": "2026-05-02T21:00:35.000Z",
       "fields": {
@@ -23100,10 +23180,74 @@
         "標籤": [
           {
             "id": "recVcKmOC5ZfmGoZi",
-            "name": "對策_成就系統"
+            "name": "對策_建立參與者的成就系統 / 貢獻歷程"
           }
         ],
         "Website URL": "https://badge.g0v.tw/"
+      }
+    },
+    {
+      "id": "rectBHEPnM9IfYbhX",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "黑冠麻鷺會自己往前走。幫牠找蚯蚓、召集同伴，下課鐘響時裝成樹枝，走到操場盡頭的地瓜宮。",
+        "project name": "地瓜宮 _都市鳥類生存環境體驗網頁遊戲",
+        "標籤": [
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
+          },
+          {
+            "id": "recMzQ0ITRuZRGymE",
+            "name": "生物-脊索動物門/鳥類"
+          }
+        ],
+        "Website URL": "https://3d.brade-hu.workers.dev/game/",
+        "補充內容筆記區": "https://www.facebook.com/share/p/1BH48tDDSC/"
+      }
+    },
+    {
+      "id": "rectH3zdErwVMdksg",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recDx2rCzsNcaRbyQ",
+            "name": "9-SDGS-工業化、創新及基礎建設"
+          }
+        ],
+        "Intro": "使用AI為產品產生強大的分析模型，透過整合設計策略模板至四大研究模組，將繁雜的策略思考流程，轉化為一目了然的結構化分析報告，協助設計者效率提出產品前期設計策略。串聯市場與使用者研究四大模組：PESTEL 分析、競品對照、創新方案發想與人物誌旅程圖，讓策略產出流程更聚焦、有架構。",
+        "project name": "AI 設計策略生成工具",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          },
+          {
+            "id": "recTbQPHaofbg5KxI",
+            "name": "AI"
+          }
+        ],
+        "Website URL": "https://ai-design-strategy.rdlab.tw/"
+      }
+    },
+    {
+      "id": "rectJsPMfwJ3IWAt5",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "先畫空間，再看生活怎麼發生。從四份生活委託，開始你的泡泡規劃。",
+        "project name": "空間泡泡",
+        "標籤": [
+          {
+            "id": "rec0j8YA5iuE4rKh0",
+            "name": "對策_情境網頁遊戲框架 / 模擬遊戲 / 心理測驗架構"
+          },
+          {
+            "id": "recWEsXvca6RGKgRD",
+            "name": "建築 / 工程 / 營造 / 職安衛"
+          }
+        ],
+        "Website URL": "https://siteforesight.app/games/oops/"
       }
     },
     {
@@ -23185,6 +23329,21 @@
       }
     },
     {
+      "id": "rectoZTTWHitheez6",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "基地前期可行性，從一塊基地開始，先找到位置，再確認基地範圍，逐項核對道路、退縮與高度條件。從不同圖層，理解基地。先看基地與周邊的關係，再開始量體與配置的推敲。基地邊界一旦確認，後續所有數值與 2D／3D 幾何都沿同一條計算鏈更新。",
+        "project name": "基地先覺",
+        "標籤": [
+          {
+            "id": "recWEsXvca6RGKgRD",
+            "name": "建築 / 工程 / 營造 / 職安衛"
+          }
+        ],
+        "Website URL": "https://siteforesight.app/"
+      }
+    },
+    {
       "id": "recTPMeMJs3RmBeZM",
       "createdTime": "2026-05-02T21:00:35.000Z",
       "fields": {
@@ -23206,6 +23365,71 @@
           }
         ],
         "Website URL": "https://documentary.tnnua.edu.tw/p/406-1041-21243,r952.php"
+      }
+    },
+    {
+      "id": "rectrdjOyXzp8T11y",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "釋字及憲法法庭資料庫",
+        "標籤": [
+          {
+            "id": "rec9Sog0r7wK7ZIo6",
+            "name": "憲法"
+          },
+          {
+            "id": "recE2TLn2FLLZONHR",
+            "name": "對策_開放資料 Open Data / API / Portal"
+          }
+        ],
+        "Website URL": "https://hssai-concourt.phys.nthu.edu.tw/",
+        "補充內容筆記區": "https://www.facebook.com/share/p/1Fb7Kr6fnA/"
+      }
+    },
+    {
+      "id": "rectuBITQrsdwIrQh",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "\n",
+        "project name": "AI 量刑預測系統",
+        "標籤": [
+          {
+            "id": "recrYcUqpRnudRShb",
+            "name": "司法判決 / 法律相關"
+          }
+        ],
+        "Website URL": "https://hssai-sentencing.phys.nthu.edu.tw/",
+        "補充內容筆記區": "https://www.facebook.com/share/p/1Fb7Kr6fnA/"
+      }
+    },
+    {
+      "id": "rectwHEySc7E7fWiP",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "申論題批改小幫手",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          }
+        ],
+        "Website URL": "https://hssai-textgrading.phys.nthu.edu.tw/",
+        "補充內容筆記區": "https://www.facebook.com/share/p/1Fb7Kr6fnA/"
+      }
+    },
+    {
+      "id": "rectXZL8aTwLcYDKt",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "裁判書實證研究平台",
+        "標籤": [
+          {
+            "id": "recrYcUqpRnudRShb",
+            "name": "司法判決 / 法律相關"
+          }
+        ],
+        "Website URL": "https://hssai-verdictstudy.phys.nthu.edu.tw",
+        "補充內容筆記區": "https://www.facebook.com/share/p/1Fb7Kr6fnA/"
       }
     },
     {
@@ -23316,6 +23540,79 @@
             "name": "FB 社團 / 使用社群媒體-facebook 社團"
           }
         ]
+      }
+    },
+    {
+      "id": "recuKmxyQCLK0hPWm",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "數位登山",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          },
+          {
+            "id": "reckrImWqei6h5fK3",
+            "name": "環境-步道山徑議題通報 / 戶外路線 / 登山 / 爬山"
+          }
+        ],
+        "Website URL": "https://hiking.aimingdata.com/"
+      }
+    },
+    {
+      "id": "recuto6IT6WqThe1o",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recSzTednNMwt2hpM",
+            "name": "11-SDGS-永續城鄉"
+          }
+        ],
+        "project name": "邊坡穩定風險模擬系統",
+        "標籤": [
+          {
+            "id": "recz7luUrceNu2NAp",
+            "name": "防災"
+          }
+        ],
+        "Website URL": "http://211.22.241.17/dsmon/landslide.html",
+        "補充內容筆記區": "https://www.facebook.com/GeoHarvester/posts/pfbid02pD1Jz6SVJs1motxVgr89G5D4deLUL4rqLb5qEkmb8JQJx3aZfrwoXh5XnVDirNVvl"
+      }
+    },
+    {
+      "id": "recuu7yFjxRiQDNvV",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "山盒 PeaKit",
+        "標籤": [
+          {
+            "id": "reckrImWqei6h5fK3",
+            "name": "環境-步道山徑議題通報 / 戶外路線 / 登山 / 爬山"
+          }
+        ],
+        "Website URL": "https://peakit.tw/"
+      }
+    },
+    {
+      "id": "recv0n2WjdSRlw9P9",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "巡山員地圖的主要目的是希望地圖上的點位資料能夠變成動態更新，仰賴於每位山友在山上或下山後能在點位提供最新資訊。包含水源的水量、水質，路況是否有崩塌、公務封鎖、虎頭蜂出沒，營地狀況、通訊點等。不少山友下山後都會在不同社群、網站上分享這些資訊，但是對於資訊爆炸時代，這些訊息容易被淹沒且搜集不易。因此藉由巡山員地圖這個平台能夠集中山上的資訊並且將資訊價值最大化。進而幫助即將上山的山友能夠有更精準的準備。Web 主要用於行前準備、App 用於山上可離線操作與回報。",
+        "project name": "巡山員地圖",
+        "標籤": [
+          {
+            "id": "reckrImWqei6h5fK3",
+            "name": "環境-步道山徑議題通報 / 戶外路線 / 登山 / 爬山"
+          },
+          {
+            "id": "recuiTib4bRLqPcWH",
+            "name": "地圖 GIS"
+          }
+        ],
+        "Website URL": "https://ranger.suann.net/",
+        "補充內容筆記區": "https://www.facebook.com/groups/664516810370602/?multi_permalinks=3453723538116568&hoisted_section_header_type=recently_seen\n"
       }
     },
     {
@@ -23599,6 +23896,45 @@
       }
     },
     {
+      "id": "recvND3M6MtYvrYIX",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec2Tb3wIdxoRKePG",
+            "name": "4-SDGS-優質教育"
+          }
+        ],
+        "project name": "班級排座位工具",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          },
+          {
+            "id": "recgju1kjunx4E2Hv",
+            "name": "教育"
+          }
+        ],
+        "Website URL": "https://aweilab.com/teachers/seat-planner-sim",
+        "補充內容筆記區": "作者：https://www.facebook.com/share/v/1FAJJ3ZQ6p/\n教學連結：https://aweilab.com/teachers/seat-planner"
+      }
+    },
+    {
+      "id": "recvVkoflsbE7cIN6",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "火燒雲預測網站",
+        "標籤": [
+          {
+            "id": "recgwbN3Wn2ZEyw58",
+            "name": "氣象-觀測"
+          }
+        ],
+        "Website URL": "https://fc.nekolens.tw/"
+      }
+    },
+    {
       "id": "recVz5OC2Us4pyzx9",
       "createdTime": "2026-05-02T21:00:35.000Z",
       "fields": {
@@ -23707,6 +24043,49 @@
       }
     },
     {
+      "id": "recwHZT8o0zVnLocv",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "最佳路徑交通費計算工具，台鐵精準票價 × 捷運 × 公車　智慧路線規劃引擎。通勤成本，交給演算法算到最精準，整合 Google Maps 即時路網、台鐵／捷運／公車三大運具最新票價， 以通勤時間最短為核心指標，一鍵批次規劃數百筆地址的最佳通勤路徑與費用。",
+        "project name": "最佳路徑交通費計算工具",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          },
+          {
+            "id": "recPUmefcE15lQsyi",
+            "name": "路徑分析"
+          },
+          {
+            "id": "rec3reaBKniF5ebDo",
+            "name": "交通 / MRT"
+          },
+          {
+            "id": "recauMVte1aZzNAq7",
+            "name": "NGO 會務"
+          }
+        ],
+        "Website URL": "https://sweet-app-portal.lovable.app/",
+        "補充內容筆記區": "https://www.facebook.com/share/v/1Gocjn3oHe/"
+      }
+    },
+    {
+      "id": "recwigJuoaWU1hth4",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "整合地政查詢、圖資分析、專業繪製與專案管理功能，一套工具即可完成查詢、判讀、測量、繪圖與分享。",
+        "project name": "地籍查詢 APP",
+        "標籤": [
+          {
+            "id": "recuiTib4bRLqPcWH",
+            "name": "地圖 GIS"
+          }
+        ],
+        "Website URL": "https://share.utiltech.tw/cadastral_launch"
+      }
+    },
+    {
       "id": "recWMnylHfpsjKhFj",
       "createdTime": "2026-05-02T21:00:35.000Z",
       "fields": {
@@ -23753,6 +24132,22 @@
             "name": "自架資料庫系統-待確認是否開源 open source"
           }
         ]
+      }
+    },
+    {
+      "id": "recwPlLS1Gs5Op0UL",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "一站式 AI 法律助理：搜尋、分析到撰寫書狀，告別繁雜關鍵字，直接以自然語言提問，讓 AI 自動摘要、分析，草擬書狀，一次到位。",
+        "project name": "法律書狀撰寫輔助工具",
+        "標籤": [
+          {
+            "id": "recrYcUqpRnudRShb",
+            "name": "司法判決 / 法律相關"
+          }
+        ],
+        "Website URL": "https://lawbot.tw/",
+        "補充內容筆記區": "https://lawbot.tw/blog/OUHYNr8WnDzkXB03LERy"
       }
     },
     {
@@ -23875,6 +24270,21 @@
       }
     },
     {
+      "id": "recxAOkpBirrH9HGt",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "收錄專利法 168 條官方條文，並提供 DJS 文本整理、逐筆核實狀態與裁判家二代候選查找；各條的來源、修復與法律覆核範圍以條文頁標示為準。",
+        "project name": "專利法知識平台AI",
+        "標籤": [
+          {
+            "id": "recrYcUqpRnudRShb",
+            "name": "司法判決 / 法律相關"
+          }
+        ],
+        "Website URL": "https://patent9.manus.space/"
+      }
+    },
+    {
       "id": "recXbHsuvZnXeDOBC",
       "createdTime": "2026-05-02T21:00:35.000Z",
       "fields": {
@@ -23916,6 +24326,28 @@
             "name": "自架資料庫系統-待確認是否開源 open source"
           }
         ]
+      }
+    },
+    {
+      "id": "recxJwIMYjYuE6VE2",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recWJ1usIU4lvdOlk",
+            "name": "8-SDGS-良好就業和經濟成長"
+          }
+        ],
+        "Intro": "《考上社工師》目的是給正在準備社工師國考的人使用。這是一個網頁式 App，不用下載，用手機自己的瀏覽器打開後，可以加入主畫面，這部分在點進去網頁的下方有教學，我在本片文章留言處也有教學。之後就像 App 一樣每天練習。它可以做幾件事：✅ 快速練習 ✅ 歷屆題庫 ✅ 模擬考 ✅ 錯題與弱點整理。",
+        "project name": "考上社工師",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          }
+        ],
+        "Website URL": "https://paulchen01.github.io/goodasocialworker/",
+        "補充內容筆記區": "https://www.facebook.com/swbao/posts/pfbid031oQtuvLsHBBUdk9qtunad8qLWnABR4R6kymUB9qc5EaoVtGRxYiYieGjWqSRx7Lnl"
       }
     },
     {
@@ -23975,6 +24407,44 @@
             "name": "自架資料庫系統-待確認是否開源 open source"
           }
         ]
+      }
+    },
+    {
+      "id": "recxUfF1F3rwwAiUS",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "探索、複製、分享 —— 建築外觀・景觀設計・室內設計的文生圖與修圖提示詞。",
+        "project name": "建築人的 AI 提示詞社群",
+        "標籤": [
+          {
+            "id": "recWEsXvca6RGKgRD",
+            "name": "建築 / 工程 / 營造 / 職安衛"
+          },
+          {
+            "id": "recTbQPHaofbg5KxI",
+            "name": "AI"
+          }
+        ],
+        "Website URL": "https://archi-prompt.com/",
+        "補充內容筆記區": "https://www.facebook.com/share/1Bj3B5aRgR/"
+      }
+    },
+    {
+      "id": "recy2oNFD9FX5RlN6",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "project name": "籽樂教育SEL服務",
+        "標籤": [
+          {
+            "id": "reccfTvsPvkXCFDpx",
+            "name": "對策_小幫手 / 小工具"
+          },
+          {
+            "id": "rech4WrCCUHcw94jf",
+            "name": "SEL / 情緒教育 "
+          }
+        ],
+        "Website URL": "https://sel.keedle.org/"
       }
     },
     {
@@ -24381,6 +24851,46 @@
       }
     },
     {
+      "id": "reczCKNCPqWft8fzU",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "Intro": "全身式 QCPR 安妮一套超過 10 萬元，偏偏海綿下肢最容易老化爛掉，送修報價不菲；我們團隊研發出低成本永續修繕法，並刊登在《消防月刊》供大家免費參考：🔸 材料簡單：2 吋 PVC 管 ＋ 隔熱橡膠棉 ＋ 高強度束帶（總花費約 400～500 元）🔸 功能升級：結構耐操不易壞，還可以直接打止血帶做創傷訓練！",
+        "project name": "救護教具省錢術｜讓「斷腿」QCPR 安妮重生",
+        "標籤": [
+          {
+            "id": "recdmE9gwxguZTdgm",
+            "name": "維修 / 修理 / 修繕"
+          }
+        ],
+        "Website URL": "https://mag.nfa.gov.tw/article.php?id=4168",
+        "補充內容筆記區": "https://www.facebook.com/story.php?story_fbid=pfbid0RuQuhUs6Mz7RVN8UjKQjuw2kdLhYWyvRCTDn9t6oBfy7JYepXXBbZiyzn7yxa5Wql&id=100000026299571&post_id=100000026299571_pfbid0RuQuhUs6Mz7RVN8UjKQjuw2kdLhYWyvRCTDn9t6oBfy7JYepXXBbZiyzn7yxa5Wql&mibextid=NOb6eG"
+      }
+    },
+    {
+      "id": "reczDKMXXsKIwPCFd",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "rec6YJn6rQ3Ktk9as",
+            "name": "5-SDGS-性別平權"
+          }
+        ],
+        "project name": "彩虹平權大平台",
+        "標籤": [
+          {
+            "id": "recL4Og5tc74MWxKf",
+            "name": "對策_讓民意代表候選人承諾或連署的網頁"
+          },
+          {
+            "id": "recjuCzBM57XYkcn5",
+            "name": "性別平權"
+          }
+        ],
+        "Website URL": "https://equallove.tw/"
+      }
+    },
+    {
       "id": "recZkUakSHxBSa2Pg",
       "createdTime": "2026-05-02T21:00:35.000Z",
       "fields": {
@@ -24416,7 +24926,7 @@
         "標籤": [
           {
             "id": "reckrImWqei6h5fK3",
-            "name": "環境-山徑議題通報 / 戶外路線"
+            "name": "環境-步道山徑議題通報 / 戶外路線 / 登山 / 爬山"
           },
           {
             "id": "recmNjusE9u9rOH6X",
