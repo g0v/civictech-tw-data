@@ -11,7 +11,7 @@
     "label": "公民科技專案",
     "id": "tblDkM54gu9kbmAbW"
   },
-  "recordCount": 645,
+  "recordCount": 646,
   "fields": [
     {
       "id": "fldRxrQ1qAuQfqDOS",
@@ -24940,6 +24940,31 @@
             "name": "自架資料庫系統-待確認是否開源 open source"
           }
         ]
+      }
+    },
+    {
+      "id": "reczL786PCWHraYmE",
+      "createdTime": "2026-05-02T21:00:35.000Z",
+      "fields": {
+        "影響力類別": [
+          {
+            "id": "recly22S88GEA06AM",
+            "name": "18-行政制度變革與民主治理"
+          },
+          {
+            "id": "rec56rkC5crJWGGdh",
+            "name": "20-開放資料與開源社群基礎建設"
+          }
+        ],
+        "project name": "CCAPI 議會資訊平台",
+        "標籤": [
+          {
+            "id": "recE2TLn2FLLZONHR",
+            "name": "對策_開放資料 Open Data / API / Portal"
+          }
+        ],
+        "Website URL": "https://cc.govapi.tw/ ",
+        "補充內容筆記區": "專案介紹簡報\nhttps://docs.google.com/presentation/d/1P1MV1HlDQuN3bk3Yscc-5Oe4yOlFGfvd9G2F8x4gN44/edit?usp=sharing\n專案介紹影片 8 分鐘\nhttps://youtu.be/GcGvsLwl1Qk"
       }
     },
     {
