@@ -12,11 +12,12 @@
 
 資料來源（缺任何一項都只是少一塊，不會讓整頁掛掉）：
   reports/traffic-*.json      最新一份流量快照
+  reports/ask-usage-*.json    黑客松鼠（AI Search）的用量，ask-usage-report.py 產
   reports/link-health-*.json  最新一份連結健檢（VPS 上另讀 ~/civictech-linkcheck/，取兩邊最新）
   data/index.json + data/v0/  資料庫本身
   ~/civictech-sync-state.json 同步狀態（只有 VPS 上有；可用 CIVICTECH_SYNC_STATE 指到別的檔）
 """
-import glob, json, os, sys
+import calendar, glob, json, os, sys
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 
@@ -37,6 +38,7 @@ def esc(s):
 
 # ── 收資料 ──
 traffic, traffic_file = newest("reports/traffic-*.json")
+ask, ask_file = newest("reports/ask-usage-*.json")
 # 每週健檢（~/bin/civictech-linkcheck.sh）刻意把報告寫在 repo 外面，只有 VPS 上有。
 # 只讀 reports/ 的話，這一頁會永遠停在 2026-09-19 那份手動報告。
 links, links_file = newest("link-health-*.json", "reports", "~/civictech-linkcheck")
@@ -110,6 +112,15 @@ def as_of(date_s, max_days, what):
         return f'<span class="stale">⚠️ 資料截至 {esc(date_s[:10])}，已 {d} 天沒更新（{what}）</span>'
     return f"資料截至 {esc(date_s[:10])}"
 
+# ── 黑客松鼠用量 ──
+# 帳單照 UTC 月份算。最新一份檔若是上個月，代表這個月還沒人問過，本月就是 0——
+# 不能把上個月的數字當成本月顯示。
+ask_month = datetime.now(timezone.utc).strftime("%Y-%m")
+ask_cur = ask if ask and ask.get("month") == ask_month else None
+ask_used = (ask_cur or {}).get("semantic_total", 0)
+ask_incl = (ask or {}).get("included_semantic", 1000)
+ask_billed = (ask_cur or {}).get("semantic_billed", 0)
+
 # ── 圖表：每月瀏覽 ──
 months = list((traffic or {}).get("by_month", {}).items())
 # 快照當月還沒過完，數字只算到 latest_data，不能跟整月並排比
@@ -131,7 +142,7 @@ A(f"""<!doctype html>
 <html lang="zh-Hant-TW"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>civictech.tw 運作狀況</title>
-<meta name="description" content="civictech.tw 的流量、資料完整度與連結健檢，每日自動更新。">
+<meta name="description" content="civictech.tw 的流量、黑客松鼠用量、資料完整度與連結健檢，每日自動更新。">
 <script>
   // 跟 civictech.tw 同一套：選過的優先，沒選過跟系統；在畫面出來前決定，免得閃一下
   (function () {{
@@ -207,7 +218,7 @@ h1{{font-size:1.75rem;font-weight:650;margin:0 0 .4rem}}
 h2{{font-size:1.05rem;font-weight:600;margin:2.6rem 0 .3rem}}
 .note{{color:var(--ink-muted);font-size:.8rem;margin:0 0 1rem}}
 .card{{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px}}
-.tiles{{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}}
+.tiles{{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}}
 .tile .k{{color:var(--ink-2);font-size:.78rem;margin-bottom:.35rem}}
 .tile .v{{font-family:var(--font-mono);font-size:1.6rem;font-weight:500;line-height:1.15;
   font-variant-numeric:tabular-nums;letter-spacing:-.03em}}
@@ -222,6 +233,14 @@ td.lbl{{color:var(--ink-2);white-space:nowrap;width:1%}}
 td.num{{text-align:right;font-family:var(--font-mono);font-variant-numeric:tabular-nums;color:var(--ink-2);white-space:nowrap;width:1%}}
 .bar{{height:11px;border-radius:0 4px 4px 0;background:var(--accent);min-width:2px}}
 .track{{background:var(--surface-2);border-radius:0 4px 4px 0;height:11px}}
+.cols-chart{{display:flex;align-items:flex-end;gap:2px;height:120px;
+  border-bottom:1px solid var(--line-strong)}}
+.cols-chart .col{{flex:1;height:100%;display:flex;align-items:flex-end;cursor:default}}
+.cols-chart .col i{{display:block;width:100%;background:var(--accent);border-radius:4px 4px 0 0}}
+.cols-chart .col:hover i{{background:var(--ink-2)}}
+.cols-chart .col.future{{background:repeating-linear-gradient(135deg,var(--surface-2) 0 3px,transparent 3px 6px)}}
+.col-axis{{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:.72rem;
+  color:var(--ink-muted);margin-top:.3rem}}
 .stack{{display:flex;height:22px;border-radius:5px;overflow:hidden;gap:2px;background:var(--surface)}}
 .stack i{{display:block}}
 .legend{{display:flex;flex-wrap:wrap;gap:.35rem 1.1rem;margin-top:.7rem;font-size:.82rem;color:var(--ink-2)}}
@@ -280,6 +299,18 @@ A(f"""<div class="card tile"><div class="k">公民科技專案</div><div class="
 if traffic:
     A(f"""<div class="card tile"><div class="k">累計瀏覽</div><div class="v">{traffic['total_pageviews']:,}</div>
     <div class="m">{traffic['earliest_data']} 起，{traffic['days_with_traffic']} 天有流量</div></div>""")
+if ask:
+    # 超過額度不會被擋，是照量收錢；所以顏色要在「快用完」時就先變
+    if ask_billed or ask_used > ask_incl:
+        a_col = "var(--crit)"
+        over = max(ask_billed, ask_used - ask_incl)
+        a_sub = f"已超出免費額度 {over:,} 次，約 US${over / 1000 * 0.75:.2f}"
+    else:
+        a_col = "var(--warn)" if ask_used >= ask_incl * 0.8 else "var(--good)"
+        a_sub = f"免費額度 {ask_incl:,} 次，剩 {ask_incl - ask_used:,} 次"
+    A(f"""<div class="card tile"><div class="k">黑客松鼠本月提問</div>
+    <div class="v pill n"><span class="dot" style="background:{a_col}"></span>{ask_used:,}</div>
+    <div class="m">{a_sub}</div></div>""")
 if links:
     col = "var(--crit)" if dead_n > 20 else "var(--warn)"
     A(f"""<div class="card tile"><div class="k">失效連結</div>
@@ -314,6 +345,29 @@ if top_refs:
           f'<td class="num">{v/rtot*100:.1f}%</td></tr>')
     A('</table></div>')
 
+# ── 黑客松鼠每日提問 ──
+if ask:
+    y, mo = int(ask_month[:4]), int(ask_month[5:7])
+    ndays = calendar.monthrange(y, mo)[1]
+    today = datetime.now(timezone.utc).day
+    by = (ask_cur or {}).get("by_date", {})
+    vals = [by.get(f"{ask_month}-{d:02d}", {}).get("semantic", 0) for d in range(1, ndays + 1)]
+    vmax = max(vals + [1])
+    A('<h2>黑客松鼠每日提問</h2>')
+    A(f'<p class="note">{as_of(ask["generated_at"], 3, "用量快照沒有在跑")}。civictech.tw 右下角的問答機器人，'
+      f'一題算一次 AI Search 語意查詢（追問也是一次）。每月含 {ask_incl:,} 次，<strong>超過不會停，而是照量收費</strong>'
+      f'（每 1,000 次 US$0.75，2026-12-01 起）。數的是整個 Cloudflare 帳號，目前只有黑客松鼠在用。日期是 UTC。</p>')
+    A(f'<div class="card"><div class="cols-chart" role="img" aria-label="{ask_month} 每日提問次數，本月共 {ask_used} 次，單日最多 {max(vals)} 次">')
+    for d, v in enumerate(vals, 1):
+        future = d > today
+        h = v / vmax * 100
+        tip = f"{mo}/{d}：{'—' if future else f'{v} 次'}"
+        A(f'<div class="col{" future" if future else ""}" title="{tip}"><i style="height:{h:.1f}%"></i></div>')
+    A('</div>')
+    A(f'<div class="col-axis"><span>{mo}/1</span><span>{mo}/{ndays // 2 + 1}</span><span>{mo}/{ndays}</span></div>')
+    A(f'<div class="legend"><span>本月 {ask_used:,} 次</span><span>單日最多 {max(vals):,} 次</span><span>每日平均 {ask_used / today:.1f} 次</span></div>')
+    A('</div>')
+
 # ── 連結健檢 + 資料完整度 ──
 A('<div class="cols">')
 if links:
@@ -345,7 +399,7 @@ A('</table></div></div>')
 A('</div>')
 
 A(f"""<footer>
-資料來源：Cloudflare Web Analytics（流量）、<code>{esc(links_file or '—')}</code>（連結）、<code>{esc(os.path.basename('index.json'))}</code>（資料庫）。
+資料來源：Cloudflare Web Analytics（流量）、Cloudflare GraphQL Analytics（黑客松鼠用量）、<code>{esc(links_file or '—')}</code>（連結）、<code>{esc(os.path.basename('index.json'))}</code>（資料庫）。
 流量快照在 <a href="https://github.com/g0v/civictech-tw-data/tree/main/reports">repo 的 reports/</a>；每週連結健檢的報告只留在排程主機上。
 API 在 <a href="/">data.civictech.tw</a>　·　<a href="https://civictech.tw">civictech.tw</a>
 </footer></main>
