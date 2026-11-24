@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-11-24T20:17:40+00:00",
+  "month": "2026-11",
+  "scope": "整個 Cloudflare 帳號（目前只有黑客松鼠用 AI Search）",
+  "included_semantic": 1000,
+  "semantic_total": 71,
+  "fulltext_total": 0,
+  "semantic_billed": 0,
+  "estimated_cost_usd": 0.0,
+  "by_date": {
+    "2026-11-16": {
+      "semantic": 26,
+      "fulltext": 0,
+      "semantic_billed": 0
+    },
+    "2026-11-17": {
+      "semantic": 4,
+      "fulltext": 0,
+      "semantic_billed": 0
+    },
+    "2026-11-19": {
+      "semantic": 1,
+      "fulltext": 0,
+      "semantic_billed": 0
+    },
+    "2026-11-22": {
+      "semantic": 1,
+      "fulltext": 0,
+      "semantic_billed": 0
+    },
+    "2026-11-23": {
+      "semantic": 22,
+      "fulltext": 0,
+      "semantic_billed": 0
+    },
+    "2026-11-24": {
+      "semantic": 17,
+      "fulltext": 0,
+      "semantic_billed": 0
+    }
+  }
+}
