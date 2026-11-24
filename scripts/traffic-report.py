@@ -15,13 +15,18 @@ civictech.tw 流量快照 —— 從 Cloudflare Web Analytics 抓下來，存成
      b33b2857 收到 2026-08-27，ed3980ea 從 08-22 開始）。
      兩個站台各自計數、不會重複，按「日期+站台」分開記再加總。
 
+整點會拿到殘缺資料（2026-11-23 實測）：GraphQL 的 Adaptive 資料集會看負載調抽樣率，
+UTC 整點那幾秒 sampleInterval 從平常的 10～30 跳到 100,000，90 天只回 1 列，
+兩三分鐘後就恢復。每日同步原本排在 04:00（UTC 20:00）整點，所以每晚都撞上。
+排程已改到 04:17；這裡再加一層：判定殘缺就等幾分鐘重抓，不靠排程時間碰運氣。
+
 API 限制：單次查詢跨度最多 93 天；更早的資料會回 "cannot request data older than"。
 所以往回一段一段走，撞到保留邊界就停。
 
 用法：
   CLOUDFLARE_ANALYTICS_TOKEN=... python3 scripts/traffic-report.py [--out-dir reports]
 """
-import argparse, glob, json, os, sys, urllib.request
+import argparse, glob, json, os, sys, time, urllib.request
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
@@ -34,6 +39,7 @@ MAX_CHUNKS = 12            # 最多往回三年，撞到保留邊界會自己停
 def iso(d): return d.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 class Retention(Exception): pass
+class Partial(Exception): pass     # 這次拿到的資料殘缺；等一下重抓通常就好
 
 def gq(token, query, variables):
     req = urllib.request.Request(
@@ -60,10 +66,23 @@ def Q_DIM(field):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out-dir", default="reports")
+    ap.add_argument("--attempts", type=int, default=3)
+    ap.add_argument("--retry-wait", type=int, default=300, help="殘缺時等幾秒再重抓")
     args = ap.parse_args()
     token = os.environ.get("CLOUDFLARE_ANALYTICS_TOKEN")
     if not token:
         sys.exit("缺少 CLOUDFLARE_ANALYTICS_TOKEN（只需 Account Analytics: Read）")
+    for n in range(1, args.attempts + 1):
+        try:
+            return run_once(token, args)
+        except Partial as e:
+            print(f"  第 {n} 次殘缺：{e}", file=sys.stderr)
+            if n < args.attempts:
+                print(f"  等 {args.retry_wait} 秒再試", file=sys.stderr)
+                time.sleep(args.retry_wait)
+    sys.exit(f"重試 {args.attempts} 次都殘缺，不覆蓋上一份快照")
+
+def run_once(token, args):
 
     now = datetime.now(timezone.utc)
     daily = {}            # (date, siteTag) -> {count, visits}
@@ -109,7 +128,7 @@ def main():
                     dims[field][v] += r["count"]
 
     if not daily:
-        sys.exit("沒有抓到任何資料")
+        raise Partial("沒有抓到任何資料")
 
     # ── 彙總 ──
     by_date = defaultdict(lambda: {"count": 0, "visits": 0})
@@ -134,7 +153,7 @@ def main():
         p_days = [d for d in prev if ws <= d < we]
         n_days = [d for d in by_date if ws <= d < we]
         if len(p_days) >= 10 and len(n_days) < len(p_days) / 2:
-            sys.exit(f"{ws} ~ {we} 這次只拿到 {len(n_days)} 天，上一份（{os.path.basename(prev_path)}）"
+            raise Partial(f"{ws} ~ {we} 這次只拿到 {len(n_days)} 天，上一份（{os.path.basename(prev_path)}）"
                      f"同期間有 {len(p_days)} 天，判定為殘缺，不覆蓋")
     kept = 0
     for date, v in prev.items():
