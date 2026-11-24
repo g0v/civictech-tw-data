@@ -27,8 +27,10 @@ def check(text):
             errs.append(f"{label} 是空的（不知道要寫「不明」）")
         if len(body) > cap:
             errs.append(f"{label} {len(body)} 字，超過 {cap}")
-        if PRAISE.search(body):
-            errs.append(f"{label} 疑似評價性用語：{PRAISE.search(body).group()}")
+        # 「」裡是專有名詞（粉專、社團、計畫名），例如「湖西鄉成功好村鱟來居上」，不算評價
+        hit = PRAISE.search(re.sub(r"「[^」]*」", "", body))
+        if hit:
+            errs.append(f"{label} 疑似評價性用語：{hit.group()}")
     return errs
 
 

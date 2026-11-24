@@ -420,6 +420,10 @@ def harvest_github_user(url):
     return out
 
 
+# Google、Dropbox 的登入頁沒有「密碼」兩個字（要先輸入帳號才出現），用它們固定的字樣認（2026-11-16 第一輪漏了 7 則）
+LOGIN_WALL = re.compile(r"sign in to continue to google|google drive: sign-in|使用 ?google 帳戶登入|登入或免費註冊|log in or sign up to dropbox", re.I)
+
+
 def relevance_guard(pack):
     """標出「抓到了、但可能不是這個專案」的素材。
 
@@ -443,6 +447,21 @@ def relevance_guard(pack):
     for i in range(len(low) - 1):
         if re.match(r"[一-鿿]{2}", low[i:i + 2]):
             terms.add(low[i:i + 2])
+
+    # 網址導到登入頁時，抓到的是表單欄位，不是專案（2026-11-16 潛海戰將回報 → 海保署後台登入頁）。
+    # 「密碼」跟「登入」或「帳號」同時出現在開頭幾百字，就當成登入頁
+    for key, m in pack["素材"].items():
+        if not key.startswith("網頁:") or not isinstance(m, dict):
+            continue
+        head = str(m.get("正文前 3000 字", ""))[:400].lower()
+        if ("密碼" in head and ("登入" in head or "帳號" in head)) or ("password" in head and ("log in" in head or "sign in" in head)) \
+                or LOGIN_WALL.search(head):
+            m["可信度"] = "⚠️ 看起來是登入頁，不是專案內容，產生 insight 時不得引用"
+        # 正文裡連專案名稱的任何一個詞都沒有：可能抓到別的東西（鸚鵡領養文、Penguin Watch、網域易主後的貪食蛇頁），
+        # 也可能只是英文頁配中文名。2026-11-16 試掃 524 則網頁素材有 46 則命中，其中不少其實相關（SmellPGH、MyShake），
+        # 所以只標「待確認」讓寫的人看一眼，不像登入頁那樣直接禁用
+        elif "可信度" not in m and not any(t in str(m.get("正文前 3000 字", "")).lower() for t in terms):
+            m["可信度"] = "待確認：正文裡找不到專案名稱的任何字，引用前先確認講的是同一件事"
 
     repo = pack["素材"].get("repo")
     if not repo or repo.get("可信度") != "待驗證":
@@ -518,6 +537,11 @@ INTRO_URL = re.compile(r"https?://[^\s<>\"'）)\]]+")
 INTRO_SKIP = re.compile(r"youtube\.com|youtu\.be|figma\.com|bit\.ly|linktr\.ee|\.(png|jpe?g|gif)$")
 
 
+SCIENCE_FIELDS = ("社團", "相關機構單位", "國際地區", "縣市", "鄉鎮市區", "時段時節時機",
+                  "資料彙整技術方案", "關鍵設備與物質", "製作過哪些禮品與回饋品", "禮品與回饋品_相關內容描述",
+                  "相關文獻與探討", "補充內容筆記區")
+
+
 def harvest(project):
     f = project["fields"]
     name = (f.get("project name") or "").strip()
@@ -528,12 +552,23 @@ def harvest(project):
             pack["資料庫欄位"][k] = f[k].strip()
     pack["資料庫欄位"]["影響力類別"] = [c["name"] for c in f.get("影響力類別", [])]
     pack["資料庫欄位"]["標籤"] = [t["name"] for t in f.get("標籤", [])]
+    # 公民科學計畫 2026-11-16 併進來時帶著的欄位。它們的官網多半是臉書社團，抓不到內容，
+    # 這些由維護者整理過的欄位常是唯一的素材：誰在做、怎麼回報、在哪裡、什麼季節
+    for k in SCIENCE_FIELDS:
+        v = f.get(k)
+        if isinstance(v, list):
+            v = [x["name"] if isinstance(x, dict) else x for x in v]
+        elif isinstance(v, str):
+            v = v.strip()[:1500]
+        if v:
+            pack["資料庫欄位"][k] = v
 
     # 有些專案把網址寫在 Intro 而不是網址欄位（例如只貼一則 FB 社團貼文）。
     # 欄位裡已有的就不重抓；影片、簡報、短網址跟著也讀不到正文，跳過。
     seen = {(f.get(k) or "").strip().rstrip("/") for k in ("github", "Website URL", "document", "Facebook Page Link")}
     intro_urls = []
-    for u in INTRO_URL.findall(f.get("Intro") or ""):
+    # 補充內容筆記區常是維護者貼的報導或貼文連結（2026-11-16 公民科學計畫），跟 Intro 裡的網址一樣處理
+    for u in INTRO_URL.findall((f.get("Intro") or "") + "\n" + (f.get("補充內容筆記區") or "")):
         u = u.rstrip(".,，。")
         if u.rstrip("/") not in seen and not INTRO_SKIP.search(u) and u not in intro_urls:
             intro_urls.append(u)
