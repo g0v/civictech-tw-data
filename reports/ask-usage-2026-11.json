@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-25T20:22:52+00:00",
+  "generated_at": "2026-11-26T20:17:28+00:00",
   "month": "2026-11",
   "scope": "整個 Cloudflare 帳號（目前只有黑客松鼠用 AI Search）",
   "included_semantic": 1000,
-  "semantic_total": 72,
+  "semantic_total": 73,
   "fulltext_total": 0,
   "semantic_billed": 0,
   "estimated_cost_usd": 0.0,
@@ -39,6 +39,11 @@
       "semantic_billed": 0
     },
     "2026-11-25": {
+      "semantic": 1,
+      "fulltext": 0,
+      "semantic_billed": 0
+    },
+    "2026-11-26": {
       "semantic": 1,
       "fulltext": 0,
       "semantic_billed": 0
